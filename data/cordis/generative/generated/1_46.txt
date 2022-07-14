@@ -1,0 +1,16 @@
+SELECT erc_research_domains.description FROM erc_research_domains JOIN erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects ON project_erc_panels.project = projects.unics_id WHERE projects.start_date = '2013-06-01'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.description FROM erc_research_domains JOIN erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects ON project_erc_panels.project = projects.unics_id WHERE projects.start_date = '2013-06-01'
+GPT-3 choices:
+(0) Just the descriptions of the ERC research domain panels associated with projects that started in 2013-06-01
+(1) What are the research domains associated with the project starting in 2013-06-01?
+(2) Show all descriptions of research domains that have a panel in a project that started in 2013-06-01
+(3) Show me erc research domains that have panel that join projects that started in 2013-06-01
+(4) Retrieve description of erc research domains from erc panels having projects starting at 2013-06-01
+(5) Show me the different research domains associated with projects whose starting date is 2013-06-01
+(6) Show me the description of research domains in projects that started in 2013-06-01###
+(7) Show me the descriptions of research domains that belong to projects that started in 2013-06-01

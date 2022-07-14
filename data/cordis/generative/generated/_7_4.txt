@@ -1,0 +1,28 @@
+SELECT countries.country_name FROM countries WHERE countries.country_code = 'GW' or countries.country_code = 'LK'
+
+###
+
+
+Original Query:
+SELECT countries.country_name FROM countries WHERE countries.country_code2 = 'GW' or countries.country_code2 = 'LK'
+GPT-3 choices:
+(0) Show all country names of countries where country code is either 'GW' or 'LK'
+(1) Show me the countries with the codes GW or LK
+(2) Show country names of countries with either the code GW or LK
+(3) Show country names of countries having country code GW or LK
+(4) The countries with the country code GW or LK
+(5) Show country name from countries where country code is either GW or LK
+(6) Retrieve the country name of countries with a country code is GW or LK
+(7) The countries which are in either guadeloupe or laos.
+
+
+Re-ranked choices:
+6.066  Show country names of countries having country code GW or LK
+6.056  Show country names of countries with either the code GW or LK
+5.967  Show all country names of countries where country code is either 'GW' or 'LK'
+5.936  Show country name from countries where country code is either GW or LK
+5.781  Retrieve the country name of countries with a country code is GW or LK
+5.656  The countries with the country code GW or LK
+5.478  Show me the countries with the codes GW or LK
+3.598  The countries which are in either guadeloupe or laos.
+

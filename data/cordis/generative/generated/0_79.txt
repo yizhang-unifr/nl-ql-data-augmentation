@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'CZ042'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'CZ042'
+GPT-3 choices:
+(0) Show me the descriptions for EU territorial units in CZ042 region.
+(1) What is the description of territorial units in the region CZ042?
+(2) How are the territorial units of CZ042 described?
+(3) Show me territorial unit descriptions belonging to region CZ042.
+(4) Show me the descriptions of all territorial units, which are situated in CZ042.
+(5) What are the descriptions of eu territorial units that are in the region CZ042?
+(6) Show me descriptions of the territorial units which are the geocode region CZ042
+(7) What is the description of the European territorial unit?

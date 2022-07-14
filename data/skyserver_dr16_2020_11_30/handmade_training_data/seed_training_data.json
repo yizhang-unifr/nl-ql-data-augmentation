@@ -1,0 +1,502 @@
+[
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find all starburst galaxies",
+        "query": "select s.specobjid from specobj as s where s.subclass = 'STARBURST'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "what is starburst galaxy",
+        "query": "select s.specobjid from specobj as s where s.subclass = 'STARBURST'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find the object ids, spectroscopic classes and subclasses of spectroscopic Galaxy with AGN.",
+        "query": "select s.specobjid, s.class, s.subclass from specobj as s where s.subclass like '%AGN%' and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show me all spectroscopic Galaxy with AGN. Retrieve their object ids, spectroscopic classes and subclasses",
+        "query": "select s.specobjid, s.class, s.subclass from specobj as s where s.subclass like '%AGN%' and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find galaxy with Type I AGN BROADLINE.",
+        "query": "select s.specobjid from specobj as s where s.subclass = 'AGN BROADLINE' and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is galaxy with Type I AGN BROADLINE.",
+        "query": "select s.specobjid from specobj as s where s.subclass = 'AGN BROADLINE' and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find Quasi stellar object (QSO)'",
+        "query": "select s.specobjid from specobj as s where s.class = 'QSO'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show me the Quasi stellar object (QSO)'",
+        "query": "select s.specobjid from specobj as s where s.class = 'QSO'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find type OB star",
+        "query": "select s.specobjid from SpecObj as s where s.subclass = 'OB' and s.class = 'STAR'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "List all type OB star",
+        "query": "select s.specobjid from SpecObj as s where s.subclass = 'OB' and s.class = 'STAR'"
+    },
+    {
+        "question": "Find all spectroscopic objects whose subclass is 'Carbon' or 'Carbon_lines' and class is 'STAR'",
+        "query": "select s.specobjid from specobj as s where s.class = 'STAR' and s.subclass = 'Carbon' or s.subclass = 'Carbon_lines'",
+        "db_id": "skyserver_dr16_2020_11_30"
+    },
+    {
+        "question": "Show me the spectroscopically observed Star of which the subclass is 'Carbon' or 'Carbon_lines'",
+        "query": "select s.specobjid from specobj as s where s.class = 'STAR' and s.subclass = 'Carbon' or s.subclass = 'Carbon_lines'",
+        "db_id": "skyserver_dr16_2020_11_30"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show me spectroscopic object id, best photometric object id, spectroscopic subclass, programname and survey of white dwarf STAR ( WD )",
+        "query": "select s.specobjid, s.bestobjid, s.subclass, s.programname, s.survey from specobj as s where s.class = 'STAR' and s.subclass like '%WD%'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is white dwarf STAR ( WD )? Retieve the spectroscopic object id, best photometric object id, spectroscopic subclass, programname and survey of it.",
+        "query": "select s.specobjid, s.bestobjid, s.subclass, s.programname, s.survey from specobj as s where s.class = 'STAR' and s.subclass like '%WD%'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find star of spectral type 'O'",
+        "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like '%O%'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is spectroscopically observed star with spectral type 'O'",
+        "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like '%O%'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find star of spectral type 'B'",
+        "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like '%B%'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is spectroscopically observed star with spectral type 'B'",
+        "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like '%B%'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find star of spectral type 'A' and retrive spectroscopic object id and subclass. ",
+        "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like '%A%'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is spectroscopically observed star with spectral type 'A'. ",
+        "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like '%A%'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find star of spectral type 'F' and retrive spectroscopic object id and subclass. ",
+        "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like '%F%'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is spectroscopically observed star with spectral type 'F'? Return the spectroscopic object id and subclass of it. ",
+        "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like '%F%'"
+    },
+    {
+        "question": "Find all spectroscopic objects whose class is 'STAR'' and subclass begins with 'G'",
+        "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like '%G%'",
+        "db_id": "skyserver_dr16_2020_11_30"
+    },
+    {
+        "question": "What is spectroscopically observed star with spectral type 'G'? Fetch the spectroscopic object id and subclass of it.",
+        "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like '%G%'",
+        "db_id": "skyserver_dr16_2020_11_30"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find star of spectral type 'K'",
+        "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like '%K%'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is spectroscopically observed star with spectral type 'K'? Give me the spectroscopic object id and subclass of it.",
+        "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like '%K%'"
+    },
+    {
+        "question": "Find all spectroscopic objects whose class is 'STAR'' and subclass contains 'M'",
+        "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like '%M%'",
+        "db_id": "skyserver_dr16_2020_11_30"
+    },
+    {
+        "question": "What is spectroscopically observed star with spectral type 'M'? Give me the spectroscopic object id and subclass of it.",
+        "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like '%M%'",
+        "db_id": "skyserver_dr16_2020_11_30"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find star of spectral type 'L' or star of spectral type 'T'",
+        "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like '%L%' or s.subclass like '%T%'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is spectroscopically observed star with spectral type 'L' or 'T'? Show me the spectroscopic object id and subclass of it.",
+        "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like '%L%' or s.subclass like '%T%'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find highest-redshift quasars ( QSO ) with red shift greater than 4.5 and having clean spectrum with 0 warning. Retrive objecti id, right ascension, declination and redshift.",
+        "query": "select s.bestobjid, s.ra, s.dec, s.z from specobj as s where s.class = 'QSO' and s.z > 4.5 and s.zWarning = 0"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is the best object id, right ascension, declination and redshift of highest-redshift quasars ( QSO ), of which the red shift greater than 4.5 and the clean spectrum with 0 warning?",
+        "query": "select s.bestobjid, s.ra, s.dec, s.z from specobj as s where s.class = 'QSO' and s.z > 4.5 and s.zWarning = 0"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Retrieve the best object id, right ascension, declination and redshift from spectroscopic objects, whose class is galaxy and redshift in a range of 0.5 and 1",
+        "query": "select s.bestobjid, s.ra, s.dec, s.z from specobj as s where s.class = 'GALAXY' and s.z > 0.5 and s.z < 1"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is the best object id, right ascension, declination and redshift from spectroscopically observed objects with redshift greater than 0.5 but less than 1",
+        "query": "select s.bestobjid, s.ra, s.dec, s.z from specobj as s where s.class = 'GALAXY' and s.z > 0.5 and s.z < 1"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Retrieve the best object id, right ascension, declination and redshift from spectroscopic objects, which have class galaxy and redshift in a range of 0.5 and 1",
+        "query": "select s.bestobjid, s.ra, s.dec, s.z from specobj as s where s.class = 'GALAXY' and s.z between 0.5 and 1 "
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show me the best object id, right ascension, declination and redshift from spectroscopically observable Galaxy with redshift in an interval of 0.5 and 1",
+        "query": "select s.bestobjid, s.ra, s.dec, s.z from specobj as s where s.class = 'GALAXY' and s.z between 0.5 and 1 "
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find everything about nearest neighbors.",
+        "query": "select * from neighbors as n"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show me all of the nearest neighbors",
+        "query": "select * from neighbors as n"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find the spectroscopic classes and number of spectroscopic objects grouped by their classes.",
+        "query": "select s.class, count(*) from specobj as s group by s.class"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "How many spectroscopic objects for each spectroscopic class are there?",
+        "query": "select s.class, count(*) from specobj as s group by s.class"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find the number of spectroscopic objects whose survey is 'SEGUE2'.",
+        "query": "select count(*) from specobj as s where s.survey = 'SEGUE2'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "How many spectroscopic objects are in survey SEGUE2",
+        "query": "select count(*) from specobj as s where s.survey = 'SEGUE2'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find spectroscopic star having clean spectrum with 0 warning.",
+        "query": "select s.specobjid from specobj as s where s.class = 'STAR' and s.zwarning = 0"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is spectroscopic observed star that has clean spectrum, which means those with 0 redshift warning",
+        "query": "select s.specobjid from specobj as s where s.class = 'STAR' and s.zwarning = 0"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show the object id from spectroscopic objects with survey equal to eboss, program name of either 'ELG_NGC' or 'ELG_SGC'  and spectroscopic class 'GALAXY'",
+        "query": "select s.specobjid from specobj as s where s.survey = 'eboss' and s.class = 'GALAXY' and s.programname = 'ELG_NGC' or s.programname = 'ELG_SGC'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is the spectroscopically observed Galaxy with eboss survey and program name of either ELG_NGC or ELG_SGC",
+        "query": "select s.specobjid from specobj as s where s.survey = 'eboss' and s.class = 'GALAXY' and s.programname = 'ELG_NGC' or s.programname = 'ELG_SGC'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find all spectroscopic objects with SDSS special program targets equal to 1024",
+        "query": "select s.specobjid from specobj as s where s.special_target1 = 1024"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is the spectroscopic object with SDSS special program targets in a value of 1024",
+        "query": "select s.specobjid from specobj as s where s.special_target1 = 1024"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find all spectroscopic GALAXY with SDSS special program targets equal to 768 or 256",
+        "query": "select s.specobjid from specobj as s where s.special_target1 = 768 or s.special_target1 = 256 and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is a spectroscopic GALAXY with SDSS special program targets in a value either of 768 or of 256",
+        "query": "select s.specobjid from specobj as s where s.special_target1 = 768 or s.special_target1 = 256 and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find all spectroscopic STAR with SDSS special program targets equal to 16",
+        "query": "select s.specobjid from specobj as s where s.special_target1 = 16 and s.class = 'STAR'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is a spectroscopic Star with SDSS special program targets in a value either of 768 or of 256",
+        "query": "select s.specobjid from specobj as s where s.special_target1 = 16 and s.class = 'STAR'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find all spectroscopic GALAXY with SDSS special program targets equal to 536870912",
+        "query": "select specobjid from specobj as s where s.special_target1 = 536870912 and s.class = 'STAR'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is the spectroscopically observed Star with special program targets in a value of 536870912",
+        "query": "select specobjid from specobj as s where s.special_target1 = 536870912 and s.class = 'STAR'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find all spectroscopic GALAXY with BOSS ancillary program targets equal to 2048,  4096,  8192 or 16384",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = 2048 or s.ancillary_target1 = 4096 or s.ancillary_target1 = 8192 or s.ancillary_target1 = 16384 and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show me the spectroscopically observed GALAXY with BOSS ancillary program targets equal to anyone of the following values: 2048, 4096, 8192, or 16384",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = 2048 or s.ancillary_target1 = 4096 or s.ancillary_target1 = 8192 or s.ancillary_target1 = 16384 and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find all spectroscopic GALAXY with BOSS ancillary program targets equal to 2097152",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = 2097152 and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is the spectroscopically observed Galaxy with BOSS ancillary program targets in a value of 2097152",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = 2097152 and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find all spectroscopic STAR with BOSS ancillary program targets equal to 1",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = 1 and s.class = 'STAR'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show me the spectroscopically observed Star with BOSS ancillary program targets in value of 1",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = 1 and s.class = 'STAR'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find all spectroscopic STAR with BOSS ancillary program targets equal to 2 or 4",
+        "query": "select specobjid from specobj as s where s.class = 'STAR' and  s.ancillary_target1 = 2 or s.ancillary_target1 = 4"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is spectroscopically observed Star with BOSS ancillary program targets in a value of 2 or 4",
+        "query": "select specobjid from specobj as s where s.class = 'STAR' and  s.ancillary_target1 = 2 or s.ancillary_target1 = 4"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find spectroscopic STAR with BOSS ancillary program targets equal to 281474976710656",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = 281474976710656 and s.class = 'STAR'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show me the spectroscopically observable STAR with BOSS ancillary program targets in a value of 281474976710656",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = 281474976710656 and s.class = 'STAR'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find spectroscopic GALAXY with BOSS ancillary program targets equal to 72057594037927936",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = 72057594037927936 and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show me the spectroscopically observed Galaxy that has BOSS ancillary program targets in a value of 72057594037927936",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = 72057594037927936 and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find Quasi stellar object (QSO) with BOSS ancillary program targets equal to 1125899906842624",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = 1125899906842624 and s.class = 'QSO'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is Quasi stellar object (QSO) that has BOSS ancillary program targets in a value of 1125899906842624",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = 1125899906842624 and s.class = 'QSO'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find Quasi stellar object (QSO) with BOSS ancillary program targets equal to 18014398509481984",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = 18014398509481984 and s.class = 'QSO'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show me the Quasi stellar object (QSO) that has BOSS ancillary program targets in a value of 18014398509481984",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = 18014398509481984 and s.class = 'QSO'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find spectroscopic GALAXY with BOSS ancillary program targets equal to 144115188075855872",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = 144115188075855872 and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is spectroscopically observed Galaxy that has BOSS ancillary program targets in a value of 144115188075855872",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = 144115188075855872 and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show me all Quasi stellar object (QSO) with BOSS ancillary program targets equal to 536870912, 1073741824, or 2147483648",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = 536870912 or s.ancillary_target1 = 1073741824 or s.ancillary_target1 = 2147483648 and s.class = 'QSO'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find all Quasi stellar object (QSO) which has BOSS ancillary program targets in a value of 536870912, 1073741824, or 2147483648",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = 536870912 or s.ancillary_target1 = 1073741824 or s.ancillary_target1 = 2147483648 and s.class = 'QSO'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find all spectroscopic GALAXY with BOSS ancillary program targets equal to 1152921504606846976 or 16384",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = 1152921504606846976 or s.ancillary_target1 = 16384 and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is the spectroscopically observable Galaxy that has BOSS ancillary program targets in a value of 1152921504606846976 or 16384?",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = 1152921504606846976 or s.ancillary_target1 = 16384 and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find all spectroscopic GALAXY with BOSS ancillary program targets equal to 288230376151711744 or 2048",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = 288230376151711744 or s.ancillary_target1 = 2048 and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show me the spectroscopically observed Galaxy which has BOSS ancillary program targets in a value of 2882303761517 or 2048",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = 288230376151711744 or s.ancillary_target1 = 2048 and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find all spectroscopic GALAXY with BOSS ancillary program targets equal to 576460752303423488 or 4096",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = '576460752303423488' or s.ancillary_target1 = 4096 and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find the photometric objects with object ids, spectroscopic object id whose spectroscopic class is 'GALAXY', with the difference of magnitude u and magnitude r less trhan 2.22 and the difference of magnitude u and magnitude r greater than 1.",
+        "query": "select p.objid, s.specobjid from photoobj as p join specobj as s on s.bestobjid = p.objid where s.class = 'GALAXY' and p.u - p.r < 2.22 and p.u - p.r > 1"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is the photometric objct id and corresponding spectroscopic object id of the spectroscopically observable Galaxy with the constraints in color bands, where u - r < 2.22 and u - r > 1",
+        "query": "select p.objid, s.specobjid from photoobj as p join specobj as s on s.bestobjid = p.objid where s.class = 'GALAXY' and p.u - p.r < 2.22 and p.u - p.r > 1"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Fetch all spectroscopically observed Galaxy that has BOSS ancillary program targets in a value either of 576460752303423 or 4096",
+        "query": "select specobjid from specobj as s where s.ancillary_target1 = '576460752303423488' or s.ancillary_target1 = 4096 and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Count all Quasi stellar object (QSO)'",
+        "query": "select count(*) from specobj as s where s.class = 'QSO'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "How many Quasi stellar object (QSO) does exist?",
+        "query": "select count(*) from specobj as s where s.class = 'QSO'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What are the program names of Star with spectral type 'M'",
+        "query": "SELECT T1.programname FROM specobj AS T1 WHERE T1.class = 'STAR' and T1.subclass LIKE '%M%'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Fetch me the program name of spectroscopic Star with spectral type 'M'",
+        "query": "SELECT T1.programname FROM specobj AS T1 WHERE T1.class = 'STAR' and T1.subclass LIKE '%M%'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Retrive redshift of Starforming Galaxy",
+        "query": "SELECT T1.z FROM specobj AS T1 WHERE T1.subclass = 'STARFORMING'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show me the redshift of spectroscopic object with subclass of STARFORMING ",
+        "query": "SELECT T1.z FROM specobj AS T1 WHERE T1.subclass = 'STARFORMING'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find Starforming Galaxy",
+        "query": "SELECT T1.ra, T1.dec FROM specobj AS T1 WHERE T1.subclass = 'STARFORMING'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is STARFORMING galaxy? Retrieve the right ascension and declination of it",
+        "query": "SELECT T1.ra, T1.dec FROM specobj AS T1 WHERE T1.subclass = 'STARFORMING'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is the program name of spectroscopic Starforming galaxy?",
+        "query": "SELECT T1.programname FROM specobj AS T1 WHERE T1.subclass = 'STARFORMING'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show me the program name of spectroscopic objects with subclass of 'STARFORMING'",
+        "query": "SELECT T1.programname FROM specobj AS T1 WHERE T1.subclass = 'STARFORMING'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What are the maxium plate number of Quasi setllar object (QSO)",
+        "query": "SELECT MAX(T1.plate) FROM specobj AS T1 WHERE T1.class = 'QSO'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show me the maximal value of plate number across all Quasi setllar objects (QSO)",
+        "query": "SELECT MAX(T1.plate) FROM specobj AS T1 WHERE T1.class = 'QSO'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show the number of spectroscopic Galaxy with AGN.",
+        "query": "SELECT count(*) from specobj as s where s.subclass like '%AGN%' and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "How many spectroscopic Galaxy with AGN were discovered?",
+        "query": "SELECT count(*) from specobj as s where s.subclass like '%AGN%' and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Count all Galaxy with Type I AGN BROADLINE.",
+        "query": "select count(*) from specobj as s where s.subclass = 'AGN BROADLINE' and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "How many Galaxy with Type I AGN BROADLINE are there?",
+        "query": "select count(*) from specobj as s where s.subclass = 'AGN BROADLINE' and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show me all unique names in the survey of spectroscopic objects",
+        "query": "SELECT distinct(s.survey) from specobj as s"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find all names in the survey of spectroscopic objects without duplicates",
+        "query": "SELECT distinct(s.survey) from specobj as s"
+    }
+]

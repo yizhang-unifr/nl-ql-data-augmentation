@@ -1,0 +1,28 @@
+SELECT programmes.code FROM programmes WHERE programmes.rcn != '11644'
+
+###
+
+
+Original Query:
+SELECT programmes.code FROM programmes WHERE programmes.rcn != '11644'
+GPT-3 choices:
+(0) Show me all the programmes that are not 11644
+(1) Show me the code of the programmes that are not the one with the rcn number 11644.
+(2) Retrieve the code of programmes that have a different RCN than 11644
+(3) Retrieve all programmes, except the one having Rcn as 11644
+(4) What is the code of the programme with researchCouncilNumber = 11644?
+(5) Retrieve the programme codes from programmes where the registered country number is not 11644.
+(6) Show me the code of all programmes that are not 11544
+(7) Retrieve the programme code for programmes with a different research council number than 11644
+
+
+Re-ranked choices:
+4.875  Show me the code of the programmes that are not the one with the rcn number 11644.
+4.839  Retrieve the code of programmes that have a different RCN than 11644
+4.642  Show me the code of all programmes that are not 11544
+4.414  Retrieve the programme code for programmes with a different research council number than 11644
+4.345  Retrieve the programme codes from programmes where the registered country number is not 11644.
+4.322  Show me all the programmes that are not 11644
+4.282  Retrieve all programmes, except the one having Rcn as 11644
+3.657  What is the code of the programme with researchCouncilNumber = 11644?
+

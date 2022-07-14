@@ -1,0 +1,28 @@
+SELECT projects.ec_max_contribution FROM projects JOIN project_members ON projects.unics_id = project_members.project WHERE project_members.member_short_name != 'Offshore Monitoring'
+
+###
+
+
+Original Query:
+SELECT projects.ec_max_contribution FROM projects JOIN project_members ON projects.unics_id = project_members.project WHERE project_members.member_short_name != 'Offshore Monitoring'
+GPT-3 choices:
+(0) Show me the maximum euro contribution for projects in which I am not member.
+(1) Show the maximum EC contribution for projects that have a member with short name != 'Offshore Monitoring'
+(2) What is the maximum contribution with a project member whose short name is not Offshore Monitoring?
+(3) Show the EC maximum contribution for projects associated with a project member whose short name is not Offshore Monitoring
+(4) Retrieve the maximum contribution of all projects in which a member short name is not 'Offshore Monitoring'
+(5) Retrieve the max contribution of projects whose members are not called Offshore Monitoring
+(6) Show the ec max contribution for projects with a member whose short name is different from "Offshore Monitoring"
+(7) Show the maximum EC contribution of projects which have members whose short name is 'Offshore Monitoring'
+
+
+Re-ranked choices:
+5.946  Show the EC maximum contribution for projects associated with a project member whose short name is not Offshore Monitoring
+5.820  Show the maximum EC contribution for projects that have a member with short name != 'Offshore Monitoring'
+5.799  Show the maximum EC contribution of projects which have members whose short name is 'Offshore Monitoring'
+5.770  Show the ec max contribution for projects with a member whose short name is different from "Offshore Monitoring"
+5.663  Retrieve the maximum contribution of all projects in which a member short name is not 'Offshore Monitoring'
+5.408  What is the maximum contribution with a project member whose short name is not Offshore Monitoring?
+5.303  Retrieve the max contribution of projects whose members are not called Offshore Monitoring
+4.181  Show me the maximum euro contribution for projects in which I am not member.
+

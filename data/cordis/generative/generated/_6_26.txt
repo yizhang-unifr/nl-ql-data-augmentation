@@ -1,0 +1,28 @@
+SELECT institutions.geocode_regions_3 FROM institutions WHERE institutions.grid_id = 'grid.420953.9' and institutions.wikidata_url = 'http://www.wikidata.org/wiki/Q1526131'
+
+###
+
+
+Original Query:
+SELECT institutions.geocode_regions_3 FROM institutions WHERE institutions.grid_id = 'grid.420953.9' and institutions.wikidata_url = 'http://www.wikidata.org/wiki/Q1526131'
+GPT-3 choices:
+(0) Show all the geocode regions of the institution with the wikipedia url http://www.wikidata.org/wiki/Q1526131 and gridid 420953.9.
+(1) Retrieve all the regions associated to the institution with org id 420953 and the wikidata tab http://www.wikidata.org/wiki/Q1526131
+(2) Show all institutions that have a wikidata entry and their grid coordinates.
+(3) What are the geocode regions of the institution having the place called Rio Grande do Sul and with the Wikidata URL http://www.wikidata.org/wiki/Q1526131?
+(4) Show me the geo regions that includes an institution whose wikidata url is http://www.wikidata.org/wiki/Q1526131
+(5) What are the geocode regions 3 of the institution with grid id 420953.9 and wikidata URL http://www.wikidata.org/wiki/Q1526131?
+(6) Show the geocode region 3 of the wikipedia url "http://www.wikidata.org/wiki/Q1526131" of the institution with grid id "grid.420953.9"
+(7) Show me the region code of the institution whose wikidata url is http://www.wikidata.org/wiki/Q1526131 and whose grid id is grid.420953.9
+
+
+Re-ranked choices:
+5.553  Show all the geocode regions of the institution with the wikipedia url http://www.wikidata.org/wiki/Q1526131 and gridid 420953.9.
+5.432  Show me the region code of the institution whose wikidata url is http://www.wikidata.org/wiki/Q1526131 and whose grid id is grid.420953.9
+5.419  Show the geocode region 3 of the wikipedia url "http://www.wikidata.org/wiki/Q1526131" of the institution with grid id "grid.420953.9"
+5.312  What are the geocode regions 3 of the institution with grid id 420953.9 and wikidata URL http://www.wikidata.org/wiki/Q1526131?
+5.288  Show me the geo regions that includes an institution whose wikidata url is http://www.wikidata.org/wiki/Q1526131
+4.527  Retrieve all the regions associated to the institution with org id 420953 and the wikidata tab http://www.wikidata.org/wiki/Q1526131
+4.347  Show all institutions that have a wikidata entry and their grid coordinates.
+4.328  What are the geocode regions of the institution having the place called Rio Grande do Sul and with the Wikidata URL http://www.wikidata.org/wiki/Q1526131?
+

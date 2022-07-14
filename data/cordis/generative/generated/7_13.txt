@@ -1,0 +1,16 @@
+SELECT projects.ec_max_contribution FROM projects WHERE projects.end_year = 2019 or projects.end_year = 2016
+
+###
+
+
+Original Query:
+SELECT projects.ec_max_contribution FROM projects WHERE projects.end_year = 2019 or projects.end_year = 2016
+GPT-3 choices:
+(0) Display the maximum non-membership contribution for projects ending in 2019 or 2016.
+(1) Show me the maximum contribution of projects that end in 2019 or 2016
+(2) Show me the max contribution of a project having the end year 2019 or the end year 2016
+(3) Get the maximum funding for projects that ended in 2019 or 2016
+(4) Retrieve the sum of all project maximal contributions of 2019 or 2016
+(5) What is the maximum contribution for a project that ends in 2019 or 2016?
+(6) What is the maximum contribution of projects that ended in 2019 or 2016?
+(7) Show the ec-max contribution of projects with end year 2019 or 2016

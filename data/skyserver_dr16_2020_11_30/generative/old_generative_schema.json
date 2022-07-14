@@ -1,0 +1,996 @@
+[
+  {
+    "name": "nearest neighbors",
+    "original_name": "neighbors",
+    "logical_name": "neighbors",
+    "columns": [
+      {
+        "name": "center id",
+        "original_name": "objid",
+        "logical_name": "objid",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "neighbor id",
+        "original_name": "neighborobjid",
+        "logical_name": "neighborobjid",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "distance center-neighbor",
+        "original_name": "distance",
+        "logical_name": "distance",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "center type",
+        "original_name": "type",
+        "logical_name": "type",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "neighbor type",
+        "original_name": "neighbortype",
+        "logical_name": "neighbortype",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "center type",
+        "original_name": "mode",
+        "logical_name": "mode",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "neighbor mode",
+        "original_name": "neighbormode",
+        "logical_name": "neighbormode",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "photometric objects",
+    "original_name": "photoobj",
+    "logical_name": "photoobj",
+    "columns": [
+      {
+        "name": "object id",
+        "original_name": "objid",
+        "logical_name": "objid",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "run number",
+        "original_name": "run",
+        "logical_name": "run",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "rerun number",
+        "original_name": "rerun",
+        "logical_name": "rerun",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "camera column",
+        "original_name": "camcol",
+        "logical_name": "camcol",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "field number",
+        "original_name": "field",
+        "logical_name": "field",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "mode of photo observation",
+        "original_name": "mode",
+        "logical_name": "mode",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "object type classification",
+        "original_name": "type",
+        "logical_name": "type",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "clean photometry flag",
+        "original_name": "clean",
+        "logical_name": "clean",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "photo object attribute flags",
+        "original_name": "flags",
+        "logical_name": "flags",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "row center position",
+        "original_name": "rowc",
+        "logical_name": "rowc",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "column center position",
+        "original_name": "colc",
+        "logical_name": "colc",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "row velocity",
+        "original_name": "rowv",
+        "logical_name": "rowv",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "column velocity",
+        "original_name": "colv",
+        "logical_name": "colv",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "colc g",
+        "original_name": "colc_g",
+        "logical_name": "colc_g",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "colc r",
+        "original_name": "colc_r",
+        "logical_name": "colc_r",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "psfmag u",
+        "original_name": "psfmag_u",
+        "logical_name": "psfmag_u",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "psfmag g",
+        "original_name": "psfmag_g",
+        "logical_name": "psfmag_g",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "psfmag r",
+        "original_name": "psfmag_r",
+        "logical_name": "psfmag_r",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "psfmag i",
+        "original_name": "psfmag_i",
+        "logical_name": "psfmag_i",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "psfmag z",
+        "original_name": "psfmag_z",
+        "logical_name": "psfmag_z",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "psfmagnitude error u",
+        "original_name": "psfmagerr_u",
+        "logical_name": "psfmagerr_u",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "psfmagnitude error g",
+        "original_name": "psfmagerr_g",
+        "logical_name": "psfmagerr_g",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "psfmagnitude error r",
+        "original_name": "psfmagerr_r",
+        "logical_name": "psfmagerr_r",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "psfmagnitude error i",
+        "original_name": "psfmagerr_i",
+        "logical_name": "psfmagerr_i",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "psfmagnitude error z",
+        "original_name": "psfmagerr_z",
+        "logical_name": "psfmagerr_z",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "fibermag u",
+        "original_name": "fibermag_u",
+        "logical_name": "fibermag_u",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "fibermag g",
+        "original_name": "fibermag_g",
+        "logical_name": "fibermag_g",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "fibermag r",
+        "original_name": "fibermag_r",
+        "logical_name": "fibermag_r",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "fibermag i",
+        "original_name": "fibermag_i",
+        "logical_name": "fibermag_i",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "fibermag z",
+        "original_name": "fibermag_z",
+        "logical_name": "fibermag_z",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "petromag u",
+        "original_name": "petromag_u",
+        "logical_name": "petromag_u",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "petromag g",
+        "original_name": "petromag_g",
+        "logical_name": "petromag_g",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "petromag r",
+        "original_name": "petromag_r",
+        "logical_name": "petromag_r",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "petromag i",
+        "original_name": "petromag_i",
+        "logical_name": "petromag_i",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "petromag z",
+        "original_name": "petromag_z",
+        "logical_name": "petromag_z",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "petrocian radius u",
+        "original_name": "petrorad_u",
+        "logical_name": "petrorad_u",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "petrocian radius g",
+        "original_name": "petrorad_g",
+        "logical_name": "petrorad_g",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "petrocian radius r",
+        "original_name": "petrorad_r",
+        "logical_name": "petrorad_r",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "petrocian radius i",
+        "original_name": "petrorad_i",
+        "logical_name": "petrorad_i",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "petrocian radius z",
+        "original_name": "petrorad_z",
+        "logical_name": "petrorad_z",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "Petrosian radius containing 90% of flux",
+        "original_name": "petror90_r",
+        "logical_name": "petror90_r",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "devmag u",
+        "original_name": "devmag_u",
+        "logical_name": "devmag_u",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "devmag g",
+        "original_name": "devmag_g",
+        "logical_name": "devmag_g",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "devmag r",
+        "original_name": "devmag_r",
+        "logical_name": "devmag_r",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "devmag i",
+        "original_name": "devmag_i",
+        "logical_name": "devmag_i",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "devmag z",
+        "original_name": "devmag_z",
+        "logical_name": "devmag_z",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "expmag u",
+        "original_name": "expmag_u",
+        "logical_name": "expmag_u",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "expmag g",
+        "original_name": "expmag_g",
+        "logical_name": "expmag_g",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "expmag r",
+        "original_name": "expmag_r",
+        "logical_name": "expmag_r",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "expmag i",
+        "original_name": "expmag_i",
+        "logical_name": "expmag_i",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "expmag z",
+        "original_name": "expmag_z",
+        "logical_name": "expmag_z",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "expmagnitude error u",
+        "original_name": "expmagerr_u",
+        "logical_name": "expmagerr_u",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "expmagnitude error g",
+        "original_name": "expmagerr_g",
+        "logical_name": "expmagerr_g",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "expmagnitude error r",
+        "original_name": "expmagerr_r",
+        "logical_name": "expmagerr_r",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "expmagnitude error i",
+        "original_name": "expmagerr_i",
+        "logical_name": "expmagerr_i",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "expmagnitude error z",
+        "original_name": "expmagerr_z",
+        "logical_name": "expmagerr_z",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "modelmag u",
+        "original_name": "modelmag_u",
+        "logical_name": "modelmag_u",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "modelmag g",
+        "original_name": "modelmag_g",
+        "logical_name": "modelmag_g",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "modelmag r",
+        "original_name": "modelmag_r",
+        "logical_name": "modelmag_r",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "modelmag i",
+        "original_name": "modelmag_i",
+        "logical_name": "modelmag_i",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "modelmag z",
+        "original_name": "modelmag_z",
+        "logical_name": "modelmag_z",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "modelmagnitude error u",
+        "original_name": "modelmagerr_u",
+        "logical_name": "modelmagerr_u",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "modelmagnitude error g",
+        "original_name": "modelmagerr_g",
+        "logical_name": "modelmagerr_g",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "modelmagnitude error r",
+        "original_name": "modelmagerr_r",
+        "logical_name": "modelmagerr_r",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "modelmagnitude error i",
+        "original_name": "modelmagerr_i",
+        "logical_name": "modelmagerr_i",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "modelmagnitude error z",
+        "original_name": "modelmagerr_z",
+        "logical_name": "modelmagerr_z",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "composite modelmagnitude u",
+        "original_name": "cmodelmag_u",
+        "logical_name": "cmodelmag_u",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "composite modelmagnitude g",
+        "original_name": "cmodelmag_g",
+        "logical_name": "cmodelmag_g",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "composite modelmagnitude r",
+        "original_name": "cmodelmag_r",
+        "logical_name": "cmodelmag_r",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "composite modelmagnitude i",
+        "original_name": "cmodelmag_i",
+        "logical_name": "cmodelmag_i",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "composite modelmagnitude z",
+        "original_name": "cmodelmag_z",
+        "logical_name": "cmodelmag_z",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "composite modelmagnitude error u",
+        "original_name": "cmodelmagerr_u",
+        "logical_name": "cmodelmagerr_u",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "composite modelmagnitude error g",
+        "original_name": "cmodelmagerr_g",
+        "logical_name": "cmodelmagerr_g",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "composite modelmagnitude error r",
+        "original_name": "cmodelmagerr_r",
+        "logical_name": "cmodelmagerr_r",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "composite modelmagnitude error i",
+        "original_name": "cmodelmagerr_i",
+        "logical_name": "cmodelmagerr_i",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "composite modelmagnitude error z",
+        "original_name": "cmodelmagerr_z",
+        "logical_name": "cmodelmagerr_z",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "right ascension",
+        "original_name": "ra",
+        "logical_name": "ra",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "declination",
+        "original_name": "dec",
+        "logical_name": "dec",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "right ascension error",
+        "original_name": "raerr",
+        "logical_name": "raerr",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "galactic latitude",
+        "original_name": "b",
+        "logical_name": "b",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "galactic longitude",
+        "original_name": "l",
+        "logical_name": "l",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "extinction r",
+        "original_name": "extinction_r",
+        "logical_name": "extinction_r",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "extinction i",
+        "original_name": "extinction_i",
+        "logical_name": "extinction_i",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "modified julien date",
+        "original_name": "mjd",
+        "logical_name": "mjd",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "load version",
+        "original_name": "loadversion",
+        "logical_name": "loadversion",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "magnitude u",
+        "original_name": "u",
+        "logical_name": "u",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "magnitude g",
+        "original_name": "g",
+        "logical_name": "g",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "magnitude r",
+        "original_name": "r",
+        "logical_name": "r",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "magnitude i",
+        "original_name": "i",
+        "logical_name": "i",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "magnitude z",
+        "original_name": "z",
+        "logical_name": "z",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "modelmagnitude corrected for extinction u",
+        "original_name": "dered_u",
+        "logical_name": "dered_u",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "modelmagnitude corrected for extinction g",
+        "original_name": "dered_g",
+        "logical_name": "dered_g",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "modelmagnitude corrected for extinction r",
+        "original_name": "dered_r",
+        "logical_name": "dered_r",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "modelmagnitude corrected for extinction i",
+        "original_name": "dered_i",
+        "logical_name": "dered_i",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "modelmagnitude corrected for extinction z",
+        "original_name": "dered_z",
+        "logical_name": "dered_z",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "time of observation u",
+        "original_name": "tai_u",
+        "logical_name": "tai_u",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "time of observation g",
+        "original_name": "tai_g",
+        "logical_name": "tai_g",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "time of observation r",
+        "original_name": "tai_r",
+        "logical_name": "tai_r",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "time of observation i",
+        "original_name": "tai_i",
+        "logical_name": "tai_i",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "time of observation z",
+        "original_name": "tai_z",
+        "logical_name": "tai_z",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  },
+  {
+    "name": "emission line estimates",
+    "original_name": "galspecline",
+    "logical_name": "galspecline",
+    "columns": [
+      {
+        "name": "specobjid",
+        "original_name": "specobjid",
+        "logical_name": "specobjid",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "equivalent width estimates",
+    "original_name": "spplines",
+    "logical_name": "spplines",
+    "columns": [
+      {
+        "name": "specobjid",
+        "original_name": "specobjid",
+        "logical_name": "specobjid",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "spectroscopic objects",
+    "original_name": "specobj",
+    "logical_name": "specobj",
+    "columns": [
+      {
+        "name": "object id",
+        "original_name": "specobjid",
+        "logical_name": "specobjid",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "best object id",
+        "original_name": "bestobjid",
+        "logical_name": "bestobjid",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "plate id",
+        "original_name": "plateid",
+        "logical_name": "plateid",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "best spectrum",
+        "original_name": "scienceprimary",
+        "logical_name": "scienceprimary",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "segue2 object type",
+        "original_name": "segue2primary",
+        "logical_name": "segue2primary",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "survey",
+        "original_name": "survey",
+        "logical_name": "survey",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "programname",
+        "original_name": "programname",
+        "logical_name": "programname",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "modified julien date",
+        "original_name": "mjd",
+        "logical_name": "mjd",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "plate number",
+        "original_name": "plate",
+        "logical_name": "plate",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "fiber id",
+        "original_name": "fiberid",
+        "logical_name": "fiberid",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "SDSS special program targets",
+        "original_name": "special_target1",
+        "logical_name": "special_target1",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "segue2 primary objects",
+        "original_name": "segue2_target1",
+        "logical_name": "segue2_target1",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "segue2 secondary objects",
+        "original_name": "segue2_target2",
+        "logical_name": "segue2_target2",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "BOSS ancillary program targets",
+        "original_name": "ancillary_target1",
+        "logical_name": "ancillary_target1",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "right ascension",
+        "original_name": "ra",
+        "logical_name": "ra",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "declination",
+        "original_name": "dec",
+        "logical_name": "dec",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "redshift",
+        "original_name": "z",
+        "logical_name": "z",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "redshift error",
+        "original_name": "zerr",
+        "logical_name": "zerr",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "redshift warning",
+        "original_name": "zwarning",
+        "logical_name": "zwarning",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "class",
+        "original_name": "class",
+        "logical_name": "class",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "spectroscopic subclass",
+        "original_name": "subclass",
+        "logical_name": "subclass",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "velocity dispersion",
+        "original_name": "veldisp",
+        "logical_name": "veldisp",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "velocity dispersion error",
+        "original_name": "veldisperr",
+        "logical_name": "veldisperr",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "load version",
+        "original_name": "loadversion",
+        "logical_name": "loadversion",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "photometrically observed",
+    "original_name": "photo_type",
+    "logical_name": "photo_type",
+    "columns": [
+      {
+        "name": "value",
+        "original_name": "value",
+        "logical_name": "value",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "name",
+        "original_name": "name",
+        "logical_name": "name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "description",
+        "original_name": "description",
+        "logical_name": "description",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  }
+]

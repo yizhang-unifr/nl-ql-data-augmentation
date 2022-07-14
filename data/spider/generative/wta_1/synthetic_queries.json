@@ -1,0 +1,2753 @@
+[
+  {
+    "db_id": "wta_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.ranking FROM rankings AS T1 WHERE T1.ranking_points = 809",
+    "readable_query": "SELECT rankings.ranking FROM rankings AS rankings WHERE rankings.ranking_points = 809"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.last_name FROM players AS T1 WHERE T1.player_id = 200065",
+    "readable_query": "SELECT players.last_name FROM players AS players WHERE players.player_id = 200065"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.birth_date FROM players AS T1 WHERE T1.country_code = \"THA\"",
+    "readable_query": "SELECT players.birth_date FROM players AS players WHERE players.country_code = \"THA\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.ranking_points FROM rankings AS T1 WHERE T1.tours = 21",
+    "readable_query": "SELECT rankings.ranking_points FROM rankings AS rankings WHERE rankings.tours = 21"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.loser_id FROM matches AS T1 WHERE T1.tourney_date = \"20161024\"",
+    "readable_query": "SELECT matches.loser_id FROM matches AS matches WHERE matches.tourney_date = \"20161024\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.last_name FROM players AS T1 WHERE T1.player_id = 200661",
+    "readable_query": "SELECT players.last_name FROM players AS players WHERE players.player_id = 200661"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.ranking_date FROM rankings AS T1 WHERE T1.ranking = 634",
+    "readable_query": "SELECT rankings.ranking_date FROM rankings AS rankings WHERE rankings.ranking = 634"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.ranking_date FROM rankings AS T1 WHERE T1.player_id = 205439",
+    "readable_query": "SELECT rankings.ranking_date FROM rankings AS rankings WHERE rankings.player_id = 205439"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.loser_seed FROM matches AS T1 WHERE T1.minutes = 164",
+    "readable_query": "SELECT matches.loser_seed FROM matches AS matches WHERE matches.minutes = 164"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.player_id FROM rankings AS T1 WHERE T1.ranking_points = 410",
+    "readable_query": "SELECT rankings.player_id FROM rankings AS rankings WHERE rankings.ranking_points = 410"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.ranking FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id WHERE T2.first_name = \"Audra\"",
+    "readable_query": "SELECT rankings.ranking FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id WHERE players.first_name = \"Audra\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.best_of FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.hand = \"L\"",
+    "readable_query": "SELECT matches.best_of FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.hand = \"L\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.country_code FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id WHERE T2.round = \"SF\"",
+    "readable_query": "SELECT players.country_code FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id WHERE matches.round = \"SF\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.country_code FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id WHERE T2.winner_ioc = \"JPN\"",
+    "readable_query": "SELECT players.country_code FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id WHERE matches.winner_ioc = \"JPN\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.first_name FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id WHERE T2.ranking_date = \"20030929\"",
+    "readable_query": "SELECT players.first_name FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id WHERE rankings.ranking_date = \"20030929\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.winner_hand FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.birth_date = \"19470524\"",
+    "readable_query": "SELECT matches.winner_hand FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.birth_date = \"19470524\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.ranking_date FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id WHERE T2.country_code = \"ANT\"",
+    "readable_query": "SELECT rankings.ranking_date FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id WHERE players.country_code = \"ANT\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.ranking_points FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id WHERE T2.birth_date = \"19640628\"",
+    "readable_query": "SELECT rankings.ranking_points FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id WHERE players.birth_date = \"19640628\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.country_code FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id WHERE T2.loser_ht = 175",
+    "readable_query": "SELECT players.country_code FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id WHERE matches.loser_ht = 175"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.player_id FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id WHERE T2.tourney_id = \"2017-0804\"",
+    "readable_query": "SELECT players.player_id FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id WHERE matches.tourney_id = \"2017-0804\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.player_id, count(*) FROM players AS T1  GROUP BY T1.player_id",
+    "readable_query": "SELECT players.player_id, count(*) FROM players AS players  GROUP BY players.player_id"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.tourney_name, count(*) FROM matches AS T1  GROUP BY T1.tourney_name",
+    "readable_query": "SELECT matches.tourney_name, count(*) FROM matches AS matches  GROUP BY matches.tourney_name"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.loser_name, count(*) FROM matches AS T1  GROUP BY T1.loser_name",
+    "readable_query": "SELECT matches.loser_name, count(*) FROM matches AS matches  GROUP BY matches.loser_name"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.country_code, count(*) FROM players AS T1  GROUP BY T1.country_code",
+    "readable_query": "SELECT players.country_code, count(*) FROM players AS players  GROUP BY players.country_code"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.loser_hand, count(*) FROM matches AS T1  GROUP BY T1.loser_hand",
+    "readable_query": "SELECT matches.loser_hand, count(*) FROM matches AS matches  GROUP BY matches.loser_hand"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.last_name, count(*) FROM players AS T1  GROUP BY T1.last_name",
+    "readable_query": "SELECT players.last_name, count(*) FROM players AS players  GROUP BY players.last_name"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.ranking_date, count(*) FROM rankings AS T1  GROUP BY T1.ranking_date",
+    "readable_query": "SELECT rankings.ranking_date, count(*) FROM rankings AS rankings  GROUP BY rankings.ranking_date"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.winner_rank, count(*) FROM matches AS T1  GROUP BY T1.winner_rank",
+    "readable_query": "SELECT matches.winner_rank, count(*) FROM matches AS matches  GROUP BY matches.winner_rank"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.birth_date, count(*) FROM players AS T1  GROUP BY T1.birth_date",
+    "readable_query": "SELECT players.birth_date, count(*) FROM players AS players  GROUP BY players.birth_date"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.round, count(*) FROM matches AS T1  GROUP BY T1.round",
+    "readable_query": "SELECT matches.round, count(*) FROM matches AS matches  GROUP BY matches.round"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.best_of, count(*) FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id  GROUP BY T1.best_of",
+    "readable_query": "SELECT matches.best_of, count(*) FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id  GROUP BY matches.best_of"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.loser_id, count(*) FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id  GROUP BY T1.loser_id",
+    "readable_query": "SELECT matches.loser_id, count(*) FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id  GROUP BY matches.loser_id"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.hand, count(*) FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id  GROUP BY T1.hand",
+    "readable_query": "SELECT players.hand, count(*) FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id  GROUP BY players.hand"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.ranking, count(*) FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id  GROUP BY T1.ranking",
+    "readable_query": "SELECT rankings.ranking, count(*) FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id  GROUP BY rankings.ranking"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.tours, count(*) FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id  GROUP BY T1.tours",
+    "readable_query": "SELECT rankings.tours, count(*) FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id  GROUP BY rankings.tours"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.player_id, count(*) FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id  GROUP BY T1.player_id",
+    "readable_query": "SELECT players.player_id, count(*) FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id  GROUP BY players.player_id"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.ranking_date, count(*) FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id  GROUP BY T1.ranking_date",
+    "readable_query": "SELECT rankings.ranking_date, count(*) FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id  GROUP BY rankings.ranking_date"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.last_name, count(*) FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id  GROUP BY T1.last_name",
+    "readable_query": "SELECT players.last_name, count(*) FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id  GROUP BY players.last_name"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.ranking_points, count(*) FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id  GROUP BY T1.ranking_points",
+    "readable_query": "SELECT rankings.ranking_points, count(*) FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id  GROUP BY rankings.ranking_points"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.tourney_name, count(*) FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id  GROUP BY T1.tourney_name",
+    "readable_query": "SELECT matches.tourney_name, count(*) FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id  GROUP BY matches.tourney_name"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM matches AS T1",
+    "readable_query": "SELECT count(*) FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM rankings AS T1",
+    "readable_query": "SELECT count(*) FROM rankings AS rankings"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM players AS T1",
+    "readable_query": "SELECT count(*) FROM players AS players"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.country_code, T1.player_id FROM players AS T1",
+    "readable_query": "SELECT players.country_code, players.player_id FROM players AS players"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.hand, T1.last_name FROM players AS T1",
+    "readable_query": "SELECT players.hand, players.last_name FROM players AS players"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.loser_ht, T1.loser_rank FROM matches AS T1",
+    "readable_query": "SELECT matches.loser_ht, matches.loser_rank FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.last_name, T1.hand FROM players AS T1",
+    "readable_query": "SELECT players.last_name, players.hand FROM players AS players"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.birth_date, T1.first_name FROM players AS T1",
+    "readable_query": "SELECT players.birth_date, players.first_name FROM players AS players"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.tourney_date, T1.draw_size FROM matches AS T1",
+    "readable_query": "SELECT matches.tourney_date, matches.draw_size FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.player_id, T1.ranking_date FROM rankings AS T1",
+    "readable_query": "SELECT rankings.player_id, rankings.ranking_date FROM rankings AS rankings"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.country_code, T1.first_name FROM players AS T1",
+    "readable_query": "SELECT players.country_code, players.first_name FROM players AS players"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.ranking_date, T1.tours FROM rankings AS T1",
+    "readable_query": "SELECT rankings.ranking_date, rankings.tours FROM rankings AS rankings"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.loser_ht, T1.winner_seed FROM matches AS T1",
+    "readable_query": "SELECT matches.loser_ht, matches.winner_seed FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.ranking, T2.first_name FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id",
+    "readable_query": "SELECT rankings.ranking, players.first_name FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.loser_seed, T2.birth_date FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id",
+    "readable_query": "SELECT matches.loser_seed, players.birth_date FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.tours, T2.country_code FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id",
+    "readable_query": "SELECT rankings.tours, players.country_code FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.loser_name, T2.player_id FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id",
+    "readable_query": "SELECT matches.loser_name, players.player_id FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.last_name, T2.loser_entry FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id",
+    "readable_query": "SELECT players.last_name, matches.loser_entry FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.tours, T2.first_name FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id",
+    "readable_query": "SELECT rankings.tours, players.first_name FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.ranking, T2.player_id FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id",
+    "readable_query": "SELECT rankings.ranking, players.player_id FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.hand, T2.ranking FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id",
+    "readable_query": "SELECT players.hand, rankings.ranking FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.player_id, T2.first_name FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id",
+    "readable_query": "SELECT rankings.player_id, players.first_name FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.ranking, T2.hand FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id",
+    "readable_query": "SELECT rankings.ranking, players.hand FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.tourney_date, T1.winner_rank_points FROM matches AS T1 WHERE T1.loser_hand = \"L\"",
+    "readable_query": "SELECT matches.tourney_date, matches.winner_rank_points FROM matches AS matches WHERE matches.loser_hand = \"L\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.player_id, T1.country_code FROM players AS T1 WHERE T1.last_name = \"Brand\"",
+    "readable_query": "SELECT players.player_id, players.country_code FROM players AS players WHERE players.last_name = \"Brand\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.ranking, T1.ranking_points FROM rankings AS T1 WHERE T1.player_id = 206037",
+    "readable_query": "SELECT rankings.ranking, rankings.ranking_points FROM rankings AS rankings WHERE rankings.player_id = 206037"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.hand, T1.last_name FROM players AS T1 WHERE T1.birth_date = \"19600416\"",
+    "readable_query": "SELECT players.hand, players.last_name FROM players AS players WHERE players.birth_date = \"19600416\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.player_id, T1.first_name FROM players AS T1 WHERE T1.last_name = \"Seles\"",
+    "readable_query": "SELECT players.player_id, players.first_name FROM players AS players WHERE players.last_name = \"Seles\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.winner_rank, T1.winner_ioc FROM matches AS T1 WHERE T1.loser_hand = \"L\"",
+    "readable_query": "SELECT matches.winner_rank, matches.winner_ioc FROM matches AS matches WHERE matches.loser_hand = \"L\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.hand, T1.country_code FROM players AS T1 WHERE T1.birth_date = \"19560419\"",
+    "readable_query": "SELECT players.hand, players.country_code FROM players AS players WHERE players.birth_date = \"19560419\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.ranking_date, T1.ranking_points FROM rankings AS T1 WHERE T1.player_id = 201537",
+    "readable_query": "SELECT rankings.ranking_date, rankings.ranking_points FROM rankings AS rankings WHERE rankings.player_id = 201537"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.ranking, T1.tours FROM rankings AS T1 WHERE T1.ranking_date = \"20050509\"",
+    "readable_query": "SELECT rankings.ranking, rankings.tours FROM rankings AS rankings WHERE rankings.ranking_date = \"20050509\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.ranking_points, T1.player_id FROM rankings AS T1 WHERE T1.tours = 10",
+    "readable_query": "SELECT rankings.ranking_points, rankings.player_id FROM rankings AS rankings WHERE rankings.tours = 10"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.ranking_date FROM rankings AS T1  GROUP BY T1.ranking_date  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT rankings.ranking_date FROM rankings AS rankings  GROUP BY rankings.ranking_date  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.surface FROM matches AS T1  GROUP BY T1.surface  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT matches.surface FROM matches AS matches  GROUP BY matches.surface  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.winner_ht FROM matches AS T1  GROUP BY T1.winner_ht  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT matches.winner_ht FROM matches AS matches  GROUP BY matches.winner_ht  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.hand FROM players AS T1  GROUP BY T1.hand  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT players.hand FROM players AS players  GROUP BY players.hand  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.player_id FROM rankings AS T1  GROUP BY T1.player_id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT rankings.player_id FROM rankings AS rankings  GROUP BY rankings.player_id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.country_code FROM players AS T1  GROUP BY T1.country_code  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT players.country_code FROM players AS players  GROUP BY players.country_code  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.tourney_name FROM matches AS T1  GROUP BY T1.tourney_name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT matches.tourney_name FROM matches AS matches  GROUP BY matches.tourney_name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.winner_entry FROM matches AS T1  GROUP BY T1.winner_entry  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT matches.winner_entry FROM matches AS matches  GROUP BY matches.winner_entry  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.first_name FROM players AS T1  GROUP BY T1.first_name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT players.first_name FROM players AS players  GROUP BY players.first_name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.birth_date FROM players AS T1  GROUP BY T1.birth_date  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT players.birth_date FROM players AS players  GROUP BY players.birth_date  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM players AS T1 WHERE T1.birth_date = \"19770607\"",
+    "readable_query": "SELECT count(*) FROM players AS players WHERE players.birth_date = \"19770607\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM matches AS T1 WHERE T1.tourney_id = \"2017-M024\"",
+    "readable_query": "SELECT count(*) FROM matches AS matches WHERE matches.tourney_id = \"2017-M024\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM matches AS T1 WHERE T1.loser_name = \"Venus Williams\"",
+    "readable_query": "SELECT count(*) FROM matches AS matches WHERE matches.loser_name = \"Venus Williams\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM matches AS T1 WHERE T1.tourney_date = \"20170703\"",
+    "readable_query": "SELECT count(*) FROM matches AS matches WHERE matches.tourney_date = \"20170703\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM rankings AS T1 WHERE T1.player_id = 202495",
+    "readable_query": "SELECT count(*) FROM rankings AS rankings WHERE rankings.player_id = 202495"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM rankings AS T1 WHERE T1.ranking_points = 247",
+    "readable_query": "SELECT count(*) FROM rankings AS rankings WHERE rankings.ranking_points = 247"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM matches AS T1 WHERE T1.winner_name = \"Garbine Muguruza\"",
+    "readable_query": "SELECT count(*) FROM matches AS matches WHERE matches.winner_name = \"Garbine Muguruza\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM rankings AS T1 WHERE T1.ranking = 381",
+    "readable_query": "SELECT count(*) FROM rankings AS rankings WHERE rankings.ranking = 381"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM players AS T1 WHERE T1.country_code = \"HUN\"",
+    "readable_query": "SELECT count(*) FROM players AS players WHERE players.country_code = \"HUN\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM matches AS T1 WHERE T1.loser_ht = 169",
+    "readable_query": "SELECT count(*) FROM matches AS matches WHERE matches.loser_ht = 169"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.ranking_points FROM rankings AS T1    ORDER BY T1.ranking DESC LIMIT 1",
+    "readable_query": "SELECT rankings.ranking_points FROM rankings AS rankings    ORDER BY rankings.ranking DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.ranking FROM rankings AS T1    ORDER BY T1.ranking_date DESC LIMIT 1",
+    "readable_query": "SELECT rankings.ranking FROM rankings AS rankings    ORDER BY rankings.ranking_date DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.loser_rank_points FROM matches AS T1    ORDER BY T1.winner_rank DESC LIMIT 1",
+    "readable_query": "SELECT matches.loser_rank_points FROM matches AS matches    ORDER BY matches.winner_rank DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.ranking_points FROM rankings AS T1    ORDER BY T1.ranking_date DESC LIMIT 1",
+    "readable_query": "SELECT rankings.ranking_points FROM rankings AS rankings    ORDER BY rankings.ranking_date DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.round FROM matches AS T1    ORDER BY T1.loser_seed DESC LIMIT 1",
+    "readable_query": "SELECT matches.round FROM matches AS matches    ORDER BY matches.loser_seed DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.loser_age FROM matches AS T1    ORDER BY T1.match_num DESC LIMIT 1",
+    "readable_query": "SELECT matches.loser_age FROM matches AS matches    ORDER BY matches.match_num DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.tourney_date FROM matches AS T1    ORDER BY T1.winner_rank DESC LIMIT 1",
+    "readable_query": "SELECT matches.tourney_date FROM matches AS matches    ORDER BY matches.winner_rank DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.ranking FROM rankings AS T1    ORDER BY T1.player_id DESC LIMIT 1",
+    "readable_query": "SELECT rankings.ranking FROM rankings AS rankings    ORDER BY rankings.player_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.ranking FROM rankings AS T1    ORDER BY T1.ranking_points DESC LIMIT 1",
+    "readable_query": "SELECT rankings.ranking FROM rankings AS rankings    ORDER BY rankings.ranking_points DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.year FROM matches AS T1    ORDER BY T1.winner_id DESC LIMIT 1",
+    "readable_query": "SELECT matches.year FROM matches AS matches    ORDER BY matches.winner_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.loser_hand FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id    ORDER BY T2.birth_date DESC LIMIT 1",
+    "readable_query": "SELECT matches.loser_hand FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id    ORDER BY players.birth_date DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.first_name FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id    ORDER BY T2.ranking DESC LIMIT 1",
+    "readable_query": "SELECT players.first_name FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id    ORDER BY rankings.ranking DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ranking_date FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id    ORDER BY T2.birth_date DESC LIMIT 1",
+    "readable_query": "SELECT rankings.ranking_date FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id    ORDER BY players.birth_date DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.last_name FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id    ORDER BY T2.ranking_points DESC LIMIT 1",
+    "readable_query": "SELECT players.last_name FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id    ORDER BY rankings.ranking_points DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ranking_points FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id    ORDER BY T2.player_id DESC LIMIT 1",
+    "readable_query": "SELECT rankings.ranking_points FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id    ORDER BY players.player_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.player_id FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id    ORDER BY T2.winner_seed DESC LIMIT 1",
+    "readable_query": "SELECT players.player_id FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id    ORDER BY matches.winner_seed DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.winner_id FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id    ORDER BY T2.birth_date DESC LIMIT 1",
+    "readable_query": "SELECT matches.winner_id FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id    ORDER BY players.birth_date DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.last_name FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id    ORDER BY T2.tours DESC LIMIT 1",
+    "readable_query": "SELECT players.last_name FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id    ORDER BY rankings.tours DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ranking FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id    ORDER BY T2.birth_date DESC LIMIT 1",
+    "readable_query": "SELECT rankings.ranking FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id    ORDER BY players.birth_date DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.loser_name FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id    ORDER BY T2.birth_date DESC LIMIT 1",
+    "readable_query": "SELECT matches.loser_name FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id    ORDER BY players.birth_date DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.loser_ht FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id    ORDER BY T2.birth_date ASC LIMIT 1",
+    "readable_query": "SELECT matches.loser_ht FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id    ORDER BY players.birth_date ASC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.player_id FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id    ORDER BY T2.best_of ASC LIMIT 1",
+    "readable_query": "SELECT players.player_id FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id    ORDER BY matches.best_of ASC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ranking FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id    ORDER BY T2.birth_date ASC LIMIT 1",
+    "readable_query": "SELECT rankings.ranking FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id    ORDER BY players.birth_date ASC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.hand FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id    ORDER BY T2.minutes ASC LIMIT 1",
+    "readable_query": "SELECT players.hand FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id    ORDER BY matches.minutes ASC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.player_id FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id    ORDER BY T2.tours ASC LIMIT 1",
+    "readable_query": "SELECT players.player_id FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id    ORDER BY rankings.tours ASC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.player_id FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id    ORDER BY T2.birth_date ASC LIMIT 1",
+    "readable_query": "SELECT rankings.player_id FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id    ORDER BY players.birth_date ASC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.tourney_name FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id    ORDER BY T2.birth_date ASC LIMIT 1",
+    "readable_query": "SELECT matches.tourney_name FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id    ORDER BY players.birth_date ASC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.last_name FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id    ORDER BY T2.tours ASC LIMIT 1",
+    "readable_query": "SELECT players.last_name FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id    ORDER BY rankings.tours ASC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ranking_points FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id    ORDER BY T2.birth_date ASC LIMIT 1",
+    "readable_query": "SELECT rankings.ranking_points FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id    ORDER BY players.birth_date ASC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.round FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id    ORDER BY T2.birth_date ASC LIMIT 1",
+    "readable_query": "SELECT matches.round FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id    ORDER BY players.birth_date ASC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.country_code, T1.birth_date FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id    ORDER BY T2.draw_size DESC LIMIT 1",
+    "readable_query": "SELECT players.country_code, players.birth_date FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id    ORDER BY matches.draw_size DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.loser_rank, T1.loser_entry FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id    ORDER BY T2.birth_date DESC LIMIT 1",
+    "readable_query": "SELECT matches.loser_rank, matches.loser_entry FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id    ORDER BY players.birth_date DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.player_id, T1.ranking_points FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id    ORDER BY T2.birth_date DESC LIMIT 1",
+    "readable_query": "SELECT rankings.player_id, rankings.ranking_points FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id    ORDER BY players.birth_date DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.first_name, T1.birth_date FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id    ORDER BY T2.winner_age DESC LIMIT 1",
+    "readable_query": "SELECT players.first_name, players.birth_date FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id    ORDER BY matches.winner_age DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ranking_points, T1.tours FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id    ORDER BY T2.birth_date DESC LIMIT 1",
+    "readable_query": "SELECT rankings.ranking_points, rankings.tours FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id    ORDER BY players.birth_date DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.loser_entry, T1.tourney_level FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id    ORDER BY T2.player_id DESC LIMIT 1",
+    "readable_query": "SELECT matches.loser_entry, matches.tourney_level FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id    ORDER BY players.player_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.loser_id, T1.loser_entry FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id    ORDER BY T2.birth_date DESC LIMIT 1",
+    "readable_query": "SELECT matches.loser_id, matches.loser_entry FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id    ORDER BY players.birth_date DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.country_code, T1.last_name FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id    ORDER BY T2.ranking DESC LIMIT 1",
+    "readable_query": "SELECT players.country_code, players.last_name FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id    ORDER BY rankings.ranking DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.birth_date, T1.country_code FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id    ORDER BY T2.best_of DESC LIMIT 1",
+    "readable_query": "SELECT players.birth_date, players.country_code FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id    ORDER BY matches.best_of DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.loser_ioc, T1.match_num FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id    ORDER BY T2.player_id DESC LIMIT 1",
+    "readable_query": "SELECT matches.loser_ioc, matches.match_num FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id    ORDER BY players.player_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.ranking_points) FROM rankings AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  rankings.ranking_points) FROM rankings AS rankings"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.tours) FROM rankings AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  rankings.tours) FROM rankings AS rankings"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.winner_ht) FROM matches AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  matches.winner_ht) FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.winner_rank) FROM matches AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  matches.winner_rank) FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.ranking_date) FROM rankings AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  rankings.ranking_date) FROM rankings AS rankings"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.loser_age) FROM matches AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  matches.loser_age) FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.last_name) FROM players AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  players.last_name) FROM players AS players"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.loser_rank_points) FROM matches AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  matches.loser_rank_points) FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.loser_ht) FROM matches AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  matches.loser_ht) FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.player_id) FROM players AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  players.player_id) FROM players AS players"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.player_id) FROM players AS T1",
+    "readable_query": "SELECT avg( players.player_id) FROM players AS players"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.ranking) FROM rankings AS T1",
+    "readable_query": "SELECT avg( rankings.ranking) FROM rankings AS rankings"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.tours) FROM rankings AS T1",
+    "readable_query": "SELECT avg( rankings.tours) FROM rankings AS rankings"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.match_num) FROM matches AS T1",
+    "readable_query": "SELECT avg( matches.match_num) FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.loser_age) FROM matches AS T1",
+    "readable_query": "SELECT avg( matches.loser_age) FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.ranking_points) FROM rankings AS T1",
+    "readable_query": "SELECT avg( rankings.ranking_points) FROM rankings AS rankings"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.player_id) FROM rankings AS T1",
+    "readable_query": "SELECT avg( rankings.player_id) FROM rankings AS rankings"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.loser_rank) FROM matches AS T1",
+    "readable_query": "SELECT avg( matches.loser_rank) FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.winner_id) FROM matches AS T1",
+    "readable_query": "SELECT avg( matches.winner_id) FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.winner_ht) FROM matches AS T1",
+    "readable_query": "SELECT avg( matches.winner_ht) FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.player_id FROM rankings AS T1",
+    "readable_query": "SELECT rankings.player_id FROM rankings AS rankings"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.minutes FROM matches AS T1",
+    "readable_query": "SELECT matches.minutes FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.round FROM matches AS T1",
+    "readable_query": "SELECT matches.round FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.tours FROM rankings AS T1",
+    "readable_query": "SELECT rankings.tours FROM rankings AS rankings"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.winner_id FROM matches AS T1",
+    "readable_query": "SELECT matches.winner_id FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.draw_size FROM matches AS T1",
+    "readable_query": "SELECT matches.draw_size FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.winner_ioc FROM matches AS T1",
+    "readable_query": "SELECT matches.winner_ioc FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.loser_ht FROM matches AS T1",
+    "readable_query": "SELECT matches.loser_ht FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.player_id FROM players AS T1",
+    "readable_query": "SELECT players.player_id FROM players AS players"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.ranking_points FROM rankings AS T1",
+    "readable_query": "SELECT rankings.ranking_points FROM rankings AS rankings"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.player_id FROM rankings AS T1",
+    "readable_query": "SELECT DISTINCT rankings.player_id FROM rankings AS rankings"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.loser_id FROM matches AS T1",
+    "readable_query": "SELECT DISTINCT matches.loser_id FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.loser_seed FROM matches AS T1",
+    "readable_query": "SELECT DISTINCT matches.loser_seed FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.winner_age FROM matches AS T1",
+    "readable_query": "SELECT DISTINCT matches.winner_age FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.hand FROM players AS T1",
+    "readable_query": "SELECT DISTINCT players.hand FROM players AS players"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.best_of FROM matches AS T1",
+    "readable_query": "SELECT DISTINCT matches.best_of FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.loser_age FROM matches AS T1",
+    "readable_query": "SELECT DISTINCT matches.loser_age FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.ranking_date FROM rankings AS T1",
+    "readable_query": "SELECT DISTINCT rankings.ranking_date FROM rankings AS rankings"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.minutes FROM matches AS T1",
+    "readable_query": "SELECT DISTINCT matches.minutes FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.winner_name FROM matches AS T1",
+    "readable_query": "SELECT DISTINCT matches.winner_name FROM matches AS matches"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.ranking_date FROM rankings AS T1     ORDER BY T1.tours ASC",
+    "readable_query": "SELECT rankings.ranking_date FROM rankings AS rankings     ORDER BY rankings.tours ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.loser_hand FROM matches AS T1     ORDER BY T1.draw_size ASC",
+    "readable_query": "SELECT matches.loser_hand FROM matches AS matches     ORDER BY matches.draw_size ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.hand FROM players AS T1     ORDER BY T1.birth_date ASC",
+    "readable_query": "SELECT players.hand FROM players AS players     ORDER BY players.birth_date ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.player_id FROM players AS T1     ORDER BY T1.birth_date ASC",
+    "readable_query": "SELECT players.player_id FROM players AS players     ORDER BY players.birth_date ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.winner_ioc FROM matches AS T1     ORDER BY T1.winner_id ASC",
+    "readable_query": "SELECT matches.winner_ioc FROM matches AS matches     ORDER BY matches.winner_id ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.winner_hand FROM matches AS T1     ORDER BY T1.loser_id ASC",
+    "readable_query": "SELECT matches.winner_hand FROM matches AS matches     ORDER BY matches.loser_id ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.country_code FROM players AS T1     ORDER BY T1.birth_date ASC",
+    "readable_query": "SELECT players.country_code FROM players AS players     ORDER BY players.birth_date ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.winner_rank_points FROM matches AS T1     ORDER BY T1.loser_seed ASC",
+    "readable_query": "SELECT matches.winner_rank_points FROM matches AS matches     ORDER BY matches.loser_seed ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.ranking_points FROM rankings AS T1     ORDER BY T1.player_id ASC",
+    "readable_query": "SELECT rankings.ranking_points FROM rankings AS rankings     ORDER BY rankings.player_id ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.first_name FROM players AS T1     ORDER BY T1.birth_date ASC",
+    "readable_query": "SELECT players.first_name FROM players AS players     ORDER BY players.birth_date ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.hand FROM players AS T1     ORDER BY T1.player_id DESC",
+    "readable_query": "SELECT players.hand FROM players AS players     ORDER BY players.player_id DESC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.hand FROM players AS T1     ORDER BY T1.birth_date DESC",
+    "readable_query": "SELECT players.hand FROM players AS players     ORDER BY players.birth_date DESC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.ranking FROM rankings AS T1     ORDER BY T1.ranking_date DESC",
+    "readable_query": "SELECT rankings.ranking FROM rankings AS rankings     ORDER BY rankings.ranking_date DESC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.tourney_level FROM matches AS T1     ORDER BY T1.winner_ht DESC",
+    "readable_query": "SELECT matches.tourney_level FROM matches AS matches     ORDER BY matches.winner_ht DESC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.winner_rank_points FROM matches AS T1     ORDER BY T1.winner_age DESC",
+    "readable_query": "SELECT matches.winner_rank_points FROM matches AS matches     ORDER BY matches.winner_age DESC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.ranking_points FROM rankings AS T1     ORDER BY T1.ranking DESC",
+    "readable_query": "SELECT rankings.ranking_points FROM rankings AS rankings     ORDER BY rankings.ranking DESC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.ranking_date FROM rankings AS T1     ORDER BY T1.ranking_points DESC",
+    "readable_query": "SELECT rankings.ranking_date FROM rankings AS rankings     ORDER BY rankings.ranking_points DESC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.match_num FROM matches AS T1     ORDER BY T1.loser_seed DESC",
+    "readable_query": "SELECT matches.match_num FROM matches AS matches     ORDER BY matches.loser_seed DESC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.loser_name FROM matches AS T1     ORDER BY T1.loser_seed DESC",
+    "readable_query": "SELECT matches.loser_name FROM matches AS matches     ORDER BY matches.loser_seed DESC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.player_id FROM rankings AS T1     ORDER BY T1.tours DESC",
+    "readable_query": "SELECT rankings.player_id FROM rankings AS rankings     ORDER BY rankings.tours DESC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.loser_name, T1.winner_hand FROM matches AS T1     ORDER BY T1.winner_hand ASC",
+    "readable_query": "SELECT matches.loser_name, matches.winner_hand FROM matches AS matches     ORDER BY matches.winner_hand ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.player_id, T1.ranking_date FROM rankings AS T1     ORDER BY T1.ranking_date ASC",
+    "readable_query": "SELECT rankings.player_id, rankings.ranking_date FROM rankings AS rankings     ORDER BY rankings.ranking_date ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.ranking_points, T1.tours FROM rankings AS T1     ORDER BY T1.tours ASC",
+    "readable_query": "SELECT rankings.ranking_points, rankings.tours FROM rankings AS rankings     ORDER BY rankings.tours ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.country_code, T1.last_name FROM players AS T1     ORDER BY T1.last_name ASC",
+    "readable_query": "SELECT players.country_code, players.last_name FROM players AS players     ORDER BY players.last_name ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.country_code, T1.first_name FROM players AS T1     ORDER BY T1.first_name ASC",
+    "readable_query": "SELECT players.country_code, players.first_name FROM players AS players     ORDER BY players.first_name ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.ranking_date, T1.ranking_points FROM rankings AS T1     ORDER BY T1.ranking_points ASC",
+    "readable_query": "SELECT rankings.ranking_date, rankings.ranking_points FROM rankings AS rankings     ORDER BY rankings.ranking_points ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.loser_ioc, T1.loser_rank_points FROM matches AS T1     ORDER BY T1.loser_rank_points ASC",
+    "readable_query": "SELECT matches.loser_ioc, matches.loser_rank_points FROM matches AS matches     ORDER BY matches.loser_rank_points ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.ranking, T1.ranking_date FROM rankings AS T1     ORDER BY T1.ranking_date ASC",
+    "readable_query": "SELECT rankings.ranking, rankings.ranking_date FROM rankings AS rankings     ORDER BY rankings.ranking_date ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.round, T1.best_of FROM matches AS T1     ORDER BY T1.best_of ASC",
+    "readable_query": "SELECT matches.round, matches.best_of FROM matches AS matches     ORDER BY matches.best_of ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.ranking_points, T1.player_id FROM rankings AS T1     ORDER BY T1.player_id ASC",
+    "readable_query": "SELECT rankings.ranking_points, rankings.player_id FROM rankings AS rankings     ORDER BY rankings.player_id ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.player_id FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id JOIN rankings AS T3 ON T1.player_id = T3.player_id WHERE T2.loser_seed = 23 and T3.ranking = 621",
+    "readable_query": "SELECT players.player_id FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id JOIN rankings AS rankings ON players.player_id = rankings.player_id WHERE matches.loser_seed = 23 and rankings.ranking = 621"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.tourney_date FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id JOIN rankings AS T3 ON T2.player_id = T3.player_id WHERE T2.player_id = 200195 and T3.tours = 22",
+    "readable_query": "SELECT matches.tourney_date FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id JOIN rankings AS rankings ON players.player_id = rankings.player_id WHERE players.player_id = 200195 and rankings.tours = 22"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.birth_date FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id JOIN matches AS T3 ON T1.player_id = T3.winner_id WHERE T2.ranking_points = 1345 and T3.winner_name = \"Kristina Mladenovic\"",
+    "readable_query": "SELECT players.birth_date FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id JOIN matches AS matches ON players.player_id = matches.winner_id WHERE rankings.ranking_points = 1345 and matches.winner_name = \"Kristina Mladenovic\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.ranking_points FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id JOIN matches AS T3 ON T2.player_id = T3.winner_id WHERE T2.country_code = \"HAI\" and T3.loser_name = \"Ana Ivanovic\"",
+    "readable_query": "SELECT rankings.ranking_points FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id JOIN matches AS matches ON players.player_id = matches.winner_id WHERE players.country_code = \"HAI\" and matches.loser_name = \"Ana Ivanovic\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.tourney_level FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id JOIN rankings AS T3 ON T2.player_id = T3.player_id WHERE T2.hand = \"U\" and T3.ranking = 220",
+    "readable_query": "SELECT matches.tourney_level FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id JOIN rankings AS rankings ON players.player_id = rankings.player_id WHERE players.hand = \"U\" and rankings.ranking = 220"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.country_code FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id JOIN rankings AS T3 ON T1.player_id = T3.player_id WHERE T2.minutes = 48 and T3.player_id = 203453",
+    "readable_query": "SELECT players.country_code FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id JOIN rankings AS rankings ON players.player_id = rankings.player_id WHERE matches.minutes = 48 and rankings.player_id = 203453"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.loser_ioc FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id JOIN rankings AS T3 ON T2.player_id = T3.player_id WHERE T2.player_id = 200128 and T3.ranking = 165",
+    "readable_query": "SELECT matches.loser_ioc FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id JOIN rankings AS rankings ON players.player_id = rankings.player_id WHERE players.player_id = 200128 and rankings.ranking = 165"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.loser_ht FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id JOIN rankings AS T3 ON T2.player_id = T3.player_id WHERE T2.player_id = 200643 and T3.ranking_date = \"20080602\"",
+    "readable_query": "SELECT matches.loser_ht FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id JOIN rankings AS rankings ON players.player_id = rankings.player_id WHERE players.player_id = 200643 and rankings.ranking_date = \"20080602\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.match_num FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id JOIN rankings AS T3 ON T2.player_id = T3.player_id WHERE T2.birth_date = \"19670402\" and T3.tours = 33",
+    "readable_query": "SELECT matches.match_num FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id JOIN rankings AS rankings ON players.player_id = rankings.player_id WHERE players.birth_date = \"19670402\" and rankings.tours = 33"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.tourney_date FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id JOIN rankings AS T3 ON T2.player_id = T3.player_id WHERE T2.player_id = 200184 and T3.ranking = 69",
+    "readable_query": "SELECT matches.tourney_date FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id JOIN rankings AS rankings ON players.player_id = rankings.player_id WHERE players.player_id = 200184 and rankings.ranking = 69"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.tourney_name FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.country_code = \"SMR\" or T2.country_code = \"FRG\"",
+    "readable_query": "SELECT matches.tourney_name FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.country_code = \"SMR\" or players.country_code = \"FRG\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.loser_seed FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.birth_date = \"19461218\" or T2.birth_date = \"19570517\"",
+    "readable_query": "SELECT matches.loser_seed FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.birth_date = \"19461218\" or players.birth_date = \"19570517\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.ranking_points FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id WHERE T2.player_id = 200650 or T2.player_id = 200555",
+    "readable_query": "SELECT rankings.ranking_points FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id WHERE players.player_id = 200650 or players.player_id = 200555"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.ranking_date FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id WHERE T2.last_name = \"Birioukova\" or T2.last_name = \"Krantzcke\"",
+    "readable_query": "SELECT rankings.ranking_date FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id WHERE players.last_name = \"Birioukova\" or players.last_name = \"Krantzcke\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.hand FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id WHERE T2.tours = 23 or T2.tours = 19",
+    "readable_query": "SELECT players.hand FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id WHERE rankings.tours = 23 or rankings.tours = 19"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.player_id FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id WHERE T2.country_code = \"SMR\" or T2.country_code = \"TUR\"",
+    "readable_query": "SELECT rankings.player_id FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id WHERE players.country_code = \"SMR\" or players.country_code = \"TUR\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.round FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.hand = \"R\" or T2.hand = \"L\"",
+    "readable_query": "SELECT matches.round FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.hand = \"R\" or players.hand = \"L\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.winner_entry FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.birth_date = \"19760420\" or T2.birth_date = \"19750714\"",
+    "readable_query": "SELECT matches.winner_entry FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.birth_date = \"19760420\" or players.birth_date = \"19750714\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.winner_rank FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.birth_date = \"19680805\" or T2.birth_date = \"19760724\"",
+    "readable_query": "SELECT matches.winner_rank FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.birth_date = \"19680805\" or players.birth_date = \"19760724\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.player_id FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id WHERE T2.hand = \"U\" or T2.hand = \"U\"",
+    "readable_query": "SELECT rankings.player_id FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id WHERE players.hand = \"U\" or players.hand = \"U\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.tourney_name FROM matches AS T1 WHERE T1.loser_rank_points = 3061 and T1.loser_id = 200748",
+    "readable_query": "SELECT matches.tourney_name FROM matches AS matches WHERE matches.loser_rank_points = 3061 and matches.loser_id = 200748"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.tours FROM rankings AS T1 WHERE T1.ranking_date = \"20020513\" and T1.player_id = 201599",
+    "readable_query": "SELECT rankings.tours FROM rankings AS rankings WHERE rankings.ranking_date = \"20020513\" and rankings.player_id = 201599"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.tourney_level FROM matches AS T1 WHERE T1.year = 2016 and T1.winner_age = 26.340862423",
+    "readable_query": "SELECT matches.tourney_level FROM matches AS matches WHERE matches.year = 2016 and matches.winner_age = 26.340862423"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.ranking FROM rankings AS T1 WHERE T1.ranking_points = 987 and T1.ranking_date = \"20130909\"",
+    "readable_query": "SELECT rankings.ranking FROM rankings AS rankings WHERE rankings.ranking_points = 987 and rankings.ranking_date = \"20130909\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.birth_date FROM players AS T1 WHERE T1.first_name = \"Kristien\" and T1.country_code = \"BEN\"",
+    "readable_query": "SELECT players.birth_date FROM players AS players WHERE players.first_name = \"Kristien\" and players.country_code = \"BEN\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.loser_name FROM matches AS T1 WHERE T1.winner_hand = \"R\" and T1.winner_rank = 12",
+    "readable_query": "SELECT matches.loser_name FROM matches AS matches WHERE matches.winner_hand = \"R\" and matches.winner_rank = 12"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.best_of FROM matches AS T1 WHERE T1.year = 2013 and T1.surface = \"Clay\"",
+    "readable_query": "SELECT matches.best_of FROM matches AS matches WHERE matches.year = 2013 and matches.surface = \"Clay\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.tourney_date FROM matches AS T1 WHERE T1.year = 2013 and T1.tourney_id = \"2017-0804\"",
+    "readable_query": "SELECT matches.tourney_date FROM matches AS matches WHERE matches.year = 2013 and matches.tourney_id = \"2017-0804\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.tourney_date FROM matches AS T1 WHERE T1.best_of = 3 and T1.draw_size = 4",
+    "readable_query": "SELECT matches.tourney_date FROM matches AS matches WHERE matches.best_of = 3 and matches.draw_size = 4"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.loser_rank FROM matches AS T1 WHERE T1.score = \"7-5 4-6 6-3\" and T1.tourney_name = \"Istanbul\"",
+    "readable_query": "SELECT matches.loser_rank FROM matches AS matches WHERE matches.score = \"7-5 4-6 6-3\" and matches.tourney_name = \"Istanbul\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.ranking_points) FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id WHERE T1.tours = 15 and T2.last_name = \"Baudone Furlan\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  rankings.ranking_points) FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id WHERE rankings.tours = 15 and players.last_name = \"Baudone Furlan\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.winner_hand) FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T1.minutes = 93 and T2.last_name = \"Aubet\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  matches.winner_hand) FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE matches.minutes = 93 and players.last_name = \"Aubet\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.winner_rank) FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T1.tourney_id = \"2016-540\" and T2.hand = \"R\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  matches.winner_rank) FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE matches.tourney_id = \"2016-540\" and players.hand = \"R\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.last_name) FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id WHERE T1.first_name = \"Gabriela\" and T2.score = \"6-7(10) 7-5 6-4\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  players.last_name) FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id WHERE players.first_name = \"Gabriela\" and matches.score = \"6-7(10) 7-5 6-4\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.loser_rank_points) FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T1.loser_rank = 14 and T2.birth_date = \"19790413\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  matches.loser_rank_points) FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE matches.loser_rank = 14 and players.birth_date = \"19790413\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.country_code) FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id WHERE T1.first_name = \"Lotta\" and T2.ranking_points = 2518",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  players.country_code) FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id WHERE players.first_name = \"Lotta\" and rankings.ranking_points = 2518"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.player_id) FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id WHERE T1.tours = 27 and T2.birth_date = \"19470201\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  rankings.player_id) FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id WHERE rankings.tours = 27 and players.birth_date = \"19470201\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.player_id) FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id WHERE T1.last_name = \"Dent\" and T2.minutes = 118",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  players.player_id) FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id WHERE players.last_name = \"Dent\" and matches.minutes = 118"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.birth_date) FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id WHERE T1.first_name = \"Manuela\" and T2.loser_ioc = \"CZE\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  players.birth_date) FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id WHERE players.first_name = \"Manuela\" and matches.loser_ioc = \"CZE\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.tours) FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id WHERE T1.ranking = 1259 and T2.player_id = 200988",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  rankings.tours) FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id WHERE rankings.ranking = 1259 and players.player_id = 200988"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.birth_date FROM players AS T1 WHERE T1.country_code = \"SCG\" or T1.hand = \"L\"",
+    "readable_query": "SELECT players.birth_date FROM players AS players WHERE players.country_code = \"SCG\" or players.hand = \"L\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.best_of FROM matches AS T1 WHERE T1.tourney_name = \"Washington\" or T1.loser_ht = 157",
+    "readable_query": "SELECT matches.best_of FROM matches AS matches WHERE matches.tourney_name = \"Washington\" or matches.loser_ht = 157"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.tourney_id FROM matches AS T1 WHERE T1.winner_age = 32.0164271047 or T1.loser_age = 29.4565366188",
+    "readable_query": "SELECT matches.tourney_id FROM matches AS matches WHERE matches.winner_age = 32.0164271047 or matches.loser_age = 29.4565366188"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.country_code FROM players AS T1 WHERE T1.hand = \"R\" or T1.first_name = \"Anne Mette\"",
+    "readable_query": "SELECT players.country_code FROM players AS players WHERE players.hand = \"R\" or players.first_name = \"Anne Mette\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.loser_age FROM matches AS T1 WHERE T1.loser_ioc = \"ITA\" or T1.winner_id = 201320",
+    "readable_query": "SELECT matches.loser_age FROM matches AS matches WHERE matches.loser_ioc = \"ITA\" or matches.winner_id = 201320"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.surface FROM matches AS T1 WHERE T1.winner_ioc = \"UKR\" or T1.tourney_id = \"2017-0703\"",
+    "readable_query": "SELECT matches.surface FROM matches AS matches WHERE matches.winner_ioc = \"UKR\" or matches.tourney_id = \"2017-0703\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.player_id FROM rankings AS T1 WHERE T1.ranking = 298 or T1.ranking_points = 592",
+    "readable_query": "SELECT rankings.player_id FROM rankings AS rankings WHERE rankings.ranking = 298 or rankings.ranking_points = 592"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.ranking_points FROM rankings AS T1 WHERE T1.ranking_date = \"20150511\" or T1.player_id = 204413",
+    "readable_query": "SELECT rankings.ranking_points FROM rankings AS rankings WHERE rankings.ranking_date = \"20150511\" or rankings.player_id = 204413"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.best_of FROM matches AS T1 WHERE T1.loser_rank = 37 or T1.loser_age = 22.9869952088",
+    "readable_query": "SELECT matches.best_of FROM matches AS matches WHERE matches.loser_rank = 37 or matches.loser_age = 22.9869952088"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.round FROM matches AS T1 WHERE T1.tourney_name = \"Bucharest\" or T1.winner_rank = 30",
+    "readable_query": "SELECT matches.round FROM matches AS matches WHERE matches.tourney_name = \"Bucharest\" or matches.winner_rank = 30"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id WHERE T2.loser_rank_points = 4865 and T2.winner_seed = 8",
+    "readable_query": "SELECT count(*) FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id WHERE matches.loser_rank_points = 4865 and matches.winner_seed = 8"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.last_name = \"Park\" and T2.hand = \"R\"",
+    "readable_query": "SELECT count(*) FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.last_name = \"Park\" and players.hand = \"R\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.birth_date = \"19790608\" and T2.last_name = \"Birioukova\"",
+    "readable_query": "SELECT count(*) FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.birth_date = \"19790608\" and players.last_name = \"Birioukova\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id WHERE T2.ranking = 235 and T2.tours = 17",
+    "readable_query": "SELECT count(*) FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id WHERE rankings.ranking = 235 and rankings.tours = 17"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.birth_date = \"19610608\" and T2.hand = \"U\"",
+    "readable_query": "SELECT count(*) FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.birth_date = \"19610608\" and players.hand = \"U\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.last_name = \"Lauteslager\" and T2.player_id = 200317",
+    "readable_query": "SELECT count(*) FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.last_name = \"Lauteslager\" and players.player_id = 200317"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id WHERE T2.loser_seed = 16 and T2.winner_rank_points = 5535",
+    "readable_query": "SELECT count(*) FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id WHERE matches.loser_seed = 16 and matches.winner_rank_points = 5535"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.player_id = 200690 and T2.hand = \"R\"",
+    "readable_query": "SELECT count(*) FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.player_id = 200690 and players.hand = \"R\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id WHERE T2.hand = \"R\" and T2.player_id = 200910",
+    "readable_query": "SELECT count(*) FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id WHERE players.hand = \"R\" and players.player_id = 200910"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id WHERE T2.ranking_points = 1076 and T2.player_id = 202536",
+    "readable_query": "SELECT count(*) FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id WHERE rankings.ranking_points = 1076 and rankings.player_id = 202536"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.tours FROM rankings AS T1 WHERE T1.ranking != 732",
+    "readable_query": "SELECT rankings.tours FROM rankings AS rankings WHERE rankings.ranking != 732"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.ranking_points FROM rankings AS T1 WHERE T1.tours != 41",
+    "readable_query": "SELECT rankings.ranking_points FROM rankings AS rankings WHERE rankings.tours != 41"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.ranking_date FROM rankings AS T1 WHERE T1.ranking_points != 556",
+    "readable_query": "SELECT rankings.ranking_date FROM rankings AS rankings WHERE rankings.ranking_points != 556"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.loser_hand FROM matches AS T1 WHERE T1.loser_age != 30.2313483915",
+    "readable_query": "SELECT matches.loser_hand FROM matches AS matches WHERE matches.loser_age != 30.2313483915"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.birth_date FROM players AS T1 WHERE T1.first_name != \"Ginger\"",
+    "readable_query": "SELECT players.birth_date FROM players AS players WHERE players.first_name != \"Ginger\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.country_code FROM players AS T1 WHERE T1.first_name != \"Sheila\"",
+    "readable_query": "SELECT players.country_code FROM players AS players WHERE players.first_name != \"Sheila\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.country_code FROM players AS T1 WHERE T1.player_id != 200720",
+    "readable_query": "SELECT players.country_code FROM players AS players WHERE players.player_id != 200720"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.last_name FROM players AS T1 WHERE T1.player_id != 200294",
+    "readable_query": "SELECT players.last_name FROM players AS players WHERE players.player_id != 200294"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.hand FROM players AS T1 WHERE T1.player_id != 200532",
+    "readable_query": "SELECT players.hand FROM players AS players WHERE players.player_id != 200532"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.first_name FROM players AS T1 WHERE T1.country_code != \"AND\"",
+    "readable_query": "SELECT players.first_name FROM players AS players WHERE players.country_code != \"AND\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.player_id FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id WHERE T2.ranking != 239",
+    "readable_query": "SELECT players.player_id FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id WHERE rankings.ranking != 239"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.tours FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id WHERE T2.country_code != \"UZB\"",
+    "readable_query": "SELECT rankings.tours FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id WHERE players.country_code != \"UZB\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.winner_entry FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.country_code != \"SCG\"",
+    "readable_query": "SELECT matches.winner_entry FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.country_code != \"SCG\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.player_id FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id WHERE T2.birth_date != \"19650321\"",
+    "readable_query": "SELECT rankings.player_id FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id WHERE players.birth_date != \"19650321\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.first_name FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id WHERE T2.tourney_name != \"Cincinnati\"",
+    "readable_query": "SELECT players.first_name FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id WHERE matches.tourney_name != \"Cincinnati\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.player_id FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id WHERE T2.loser_ht != 183",
+    "readable_query": "SELECT players.player_id FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id WHERE matches.loser_ht != 183"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.player_id FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id WHERE T2.ranking_points != 807",
+    "readable_query": "SELECT players.player_id FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id WHERE rankings.ranking_points != 807"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.ranking_points FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id WHERE T2.birth_date != \"19560325\"",
+    "readable_query": "SELECT rankings.ranking_points FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id WHERE players.birth_date != \"19560325\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.country_code FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id WHERE T2.ranking_date != \"20050613\"",
+    "readable_query": "SELECT players.country_code FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id WHERE rankings.ranking_date != \"20050613\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.tourney_name FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.country_code != \"MRN\"",
+    "readable_query": "SELECT matches.tourney_name FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.country_code != \"MRN\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.ranking_date FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id WHERE T2.first_name = \"Alena\"",
+    "readable_query": "SELECT DISTINCT rankings.ranking_date FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id WHERE players.first_name = \"Alena\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.hand FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id WHERE T2.surface = \"Clay\"",
+    "readable_query": "SELECT DISTINCT players.hand FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id WHERE matches.surface = \"Clay\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.loser_name FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.first_name = \"Elna\"",
+    "readable_query": "SELECT DISTINCT matches.loser_name FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.first_name = \"Elna\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.winner_name FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.birth_date = \"19621009\"",
+    "readable_query": "SELECT DISTINCT matches.winner_name FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.birth_date = \"19621009\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.country_code FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id WHERE T2.winner_ht = 172",
+    "readable_query": "SELECT DISTINCT players.country_code FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id WHERE matches.winner_ht = 172"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.first_name FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id WHERE T2.ranking_date = \"20070924\"",
+    "readable_query": "SELECT DISTINCT players.first_name FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id WHERE rankings.ranking_date = \"20070924\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.winner_ht FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.hand = \"U\"",
+    "readable_query": "SELECT DISTINCT matches.winner_ht FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.hand = \"U\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.minutes FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.last_name = \"Weisenberger\"",
+    "readable_query": "SELECT DISTINCT matches.minutes FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.last_name = \"Weisenberger\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.player_id FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id WHERE T2.winner_rank = 56",
+    "readable_query": "SELECT DISTINCT players.player_id FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id WHERE matches.winner_rank = 56"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.first_name FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id WHERE T2.score = \"7-5 6-7(5) 6-2\"",
+    "readable_query": "SELECT DISTINCT players.first_name FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id WHERE matches.score = \"7-5 6-7(5) 6-2\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.player_id) FROM rankings AS T1 WHERE T1.tours = 14",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  rankings.player_id) FROM rankings AS rankings WHERE rankings.tours = 14"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.tours) FROM rankings AS T1 WHERE T1.ranking = 839",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  rankings.tours) FROM rankings AS rankings WHERE rankings.ranking = 839"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.tours) FROM rankings AS T1 WHERE T1.ranking_points = 974",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  rankings.tours) FROM rankings AS rankings WHERE rankings.ranking_points = 974"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.loser_ht) FROM matches AS T1 WHERE T1.tourney_name = \"Budapest\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  matches.loser_ht) FROM matches AS matches WHERE matches.tourney_name = \"Budapest\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.ranking_date) FROM rankings AS T1 WHERE T1.ranking = 770",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  rankings.ranking_date) FROM rankings AS rankings WHERE rankings.ranking = 770"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.best_of) FROM matches AS T1 WHERE T1.winner_hand = \"L\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  matches.best_of) FROM matches AS matches WHERE matches.winner_hand = \"L\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.match_num) FROM matches AS T1 WHERE T1.tourney_level = \"G\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  matches.match_num) FROM matches AS matches WHERE matches.tourney_level = \"G\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.ranking) FROM rankings AS T1 WHERE T1.player_id = 201592",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  rankings.ranking) FROM rankings AS rankings WHERE rankings.player_id = 201592"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.hand) FROM players AS T1 WHERE T1.country_code = \"PHI\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  players.hand) FROM players AS players WHERE players.country_code = \"PHI\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.ranking_date) FROM rankings AS T1 WHERE T1.player_id = 202685",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  rankings.ranking_date) FROM rankings AS rankings WHERE rankings.player_id = 202685"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.tourney_level FROM matches AS T1 WHERE T1.loser_ht > 170",
+    "readable_query": "SELECT matches.tourney_level FROM matches AS matches WHERE matches.loser_ht > 170"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.tours FROM rankings AS T1 WHERE T1.ranking_points > 306",
+    "readable_query": "SELECT rankings.tours FROM rankings AS rankings WHERE rankings.ranking_points > 306"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.ranking_date FROM rankings AS T1 WHERE T1.ranking > 932",
+    "readable_query": "SELECT rankings.ranking_date FROM rankings AS rankings WHERE rankings.ranking > 932"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.ranking_points FROM rankings AS T1 WHERE T1.player_id > 202389",
+    "readable_query": "SELECT rankings.ranking_points FROM rankings AS rankings WHERE rankings.player_id > 202389"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.loser_rank_points FROM matches AS T1 WHERE T1.winner_id > 202428",
+    "readable_query": "SELECT matches.loser_rank_points FROM matches AS matches WHERE matches.winner_id > 202428"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.player_id FROM players AS T1 WHERE T1.birth_date > \"19740912\"",
+    "readable_query": "SELECT players.player_id FROM players AS players WHERE players.birth_date > \"19740912\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.player_id FROM rankings AS T1 WHERE T1.ranking > 1016",
+    "readable_query": "SELECT rankings.player_id FROM rankings AS rankings WHERE rankings.ranking > 1016"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.ranking_points FROM rankings AS T1 WHERE T1.ranking_date > \"20060206\"",
+    "readable_query": "SELECT rankings.ranking_points FROM rankings AS rankings WHERE rankings.ranking_date > \"20060206\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.loser_seed FROM matches AS T1 WHERE T1.winner_ht > 173",
+    "readable_query": "SELECT matches.loser_seed FROM matches AS matches WHERE matches.winner_ht > 173"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.last_name FROM players AS T1 WHERE T1.birth_date > \"19461027\"",
+    "readable_query": "SELECT players.last_name FROM players AS players WHERE players.birth_date > \"19461027\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.winner_ioc, T2.last_name, T3.player_id FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id JOIN rankings AS T3 ON T2.player_id = T3.player_id",
+    "readable_query": "SELECT matches.winner_ioc, players.last_name, rankings.player_id FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id JOIN rankings AS rankings ON players.player_id = rankings.player_id"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.last_name, T2.player_id, T3.score FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id JOIN matches AS T3 ON T1.player_id = T3.winner_id",
+    "readable_query": "SELECT players.last_name, rankings.player_id, matches.score FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id JOIN matches AS matches ON players.player_id = matches.winner_id"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.winner_hand, T2.player_id, T3.ranking_points FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id JOIN rankings AS T3 ON T2.player_id = T3.player_id",
+    "readable_query": "SELECT matches.winner_hand, players.player_id, rankings.ranking_points FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id JOIN rankings AS rankings ON players.player_id = rankings.player_id"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.last_name, T2.ranking_date, T3.loser_age FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id JOIN matches AS T3 ON T1.player_id = T3.winner_id",
+    "readable_query": "SELECT players.last_name, rankings.ranking_date, matches.loser_age FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id JOIN matches AS matches ON players.player_id = matches.winner_id"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.country_code, T2.ranking_points, T3.loser_rank_points FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id JOIN matches AS T3 ON T1.player_id = T3.winner_id",
+    "readable_query": "SELECT players.country_code, rankings.ranking_points, matches.loser_rank_points FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id JOIN matches AS matches ON players.player_id = matches.winner_id"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.tourney_id, T2.country_code, T3.ranking FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id JOIN rankings AS T3 ON T2.player_id = T3.player_id",
+    "readable_query": "SELECT matches.tourney_id, players.country_code, rankings.ranking FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id JOIN rankings AS rankings ON players.player_id = rankings.player_id"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.country_code, T2.player_id, T3.year FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id JOIN matches AS T3 ON T1.player_id = T3.winner_id",
+    "readable_query": "SELECT players.country_code, rankings.player_id, matches.year FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id JOIN matches AS matches ON players.player_id = matches.winner_id"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.winner_ioc, T2.hand, T3.ranking FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id JOIN rankings AS T3 ON T2.player_id = T3.player_id",
+    "readable_query": "SELECT matches.winner_ioc, players.hand, rankings.ranking FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id JOIN rankings AS rankings ON players.player_id = rankings.player_id"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.country_code, T2.loser_id, T3.tours FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id JOIN rankings AS T3 ON T1.player_id = T3.player_id",
+    "readable_query": "SELECT players.country_code, matches.loser_id, rankings.tours FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id JOIN rankings AS rankings ON players.player_id = rankings.player_id"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.last_name, T2.winner_hand, T3.ranking FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id JOIN rankings AS T3 ON T1.player_id = T3.player_id",
+    "readable_query": "SELECT players.last_name, matches.winner_hand, rankings.ranking FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id JOIN rankings AS rankings ON players.player_id = rankings.player_id"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ranking_points FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id     ORDER BY T2.birth_date ASC",
+    "readable_query": "SELECT rankings.ranking_points FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id     ORDER BY players.birth_date ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.first_name FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id     ORDER BY T2.tourney_date ASC",
+    "readable_query": "SELECT players.first_name FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id     ORDER BY matches.tourney_date ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.tourney_id FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id     ORDER BY T2.player_id ASC",
+    "readable_query": "SELECT matches.tourney_id FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id     ORDER BY players.player_id ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.player_id FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id     ORDER BY T2.ranking_points ASC",
+    "readable_query": "SELECT players.player_id FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id     ORDER BY rankings.ranking_points ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.winner_age FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id     ORDER BY T2.player_id ASC",
+    "readable_query": "SELECT matches.winner_age FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id     ORDER BY players.player_id ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.player_id FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id     ORDER BY T2.minutes ASC",
+    "readable_query": "SELECT players.player_id FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id     ORDER BY matches.minutes ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.loser_ht FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id     ORDER BY T2.player_id ASC",
+    "readable_query": "SELECT matches.loser_ht FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id     ORDER BY players.player_id ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.tourney_name FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id     ORDER BY T2.player_id ASC",
+    "readable_query": "SELECT matches.tourney_name FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id     ORDER BY players.player_id ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ranking_date FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id     ORDER BY T2.birth_date ASC",
+    "readable_query": "SELECT rankings.ranking_date FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id     ORDER BY players.birth_date ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.birth_date FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id     ORDER BY T2.loser_age ASC",
+    "readable_query": "SELECT players.birth_date FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id     ORDER BY matches.loser_age ASC"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.birth_date FROM players AS T1 WHERE T1.country_code = \"MDA\"     INTERSECT SELECT T2.birth_date FROM players AS T2 WHERE T2.country_code = \"ISL\"",
+    "readable_query": "SELECT players.birth_date FROM players AS players WHERE players.country_code = \"MDA\"     INTERSECT SELECT players.birth_date FROM players AS players WHERE players.country_code = \"ISL\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.hand FROM players AS T1 WHERE T1.first_name = \"Tish\"     INTERSECT SELECT T2.hand FROM players AS T2 WHERE T2.first_name = \"Li Yao\"",
+    "readable_query": "SELECT players.hand FROM players AS players WHERE players.first_name = \"Tish\"     INTERSECT SELECT players.hand FROM players AS players WHERE players.first_name = \"Li Yao\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.winner_entry FROM matches AS T1 WHERE T1.loser_seed = 32     INTERSECT SELECT T2.winner_entry FROM matches AS T2 WHERE T2.loser_seed = 6",
+    "readable_query": "SELECT matches.winner_entry FROM matches AS matches WHERE matches.loser_seed = 32     INTERSECT SELECT matches.winner_entry FROM matches AS matches WHERE matches.loser_seed = 6"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.first_name FROM players AS T1 WHERE T1.player_id = 200506     INTERSECT SELECT T2.first_name FROM players AS T2 WHERE T2.player_id = 200420",
+    "readable_query": "SELECT players.first_name FROM players AS players WHERE players.player_id = 200506     INTERSECT SELECT players.first_name FROM players AS players WHERE players.player_id = 200420"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.tours FROM rankings AS T1 WHERE T1.player_id = 206147     INTERSECT SELECT T2.tours FROM rankings AS T2 WHERE T2.player_id = 202623",
+    "readable_query": "SELECT rankings.tours FROM rankings AS rankings WHERE rankings.player_id = 206147     INTERSECT SELECT rankings.tours FROM rankings AS rankings WHERE rankings.player_id = 202623"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.loser_rank_points FROM matches AS T1 WHERE T1.loser_hand = \"R\"     INTERSECT SELECT T2.loser_rank_points FROM matches AS T2 WHERE T2.loser_hand = \"R\"",
+    "readable_query": "SELECT matches.loser_rank_points FROM matches AS matches WHERE matches.loser_hand = \"R\"     INTERSECT SELECT matches.loser_rank_points FROM matches AS matches WHERE matches.loser_hand = \"R\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.player_id FROM players AS T1 WHERE T1.country_code = \"ZIM\"     INTERSECT SELECT T2.player_id FROM players AS T2 WHERE T2.country_code = \"ROU\"",
+    "readable_query": "SELECT players.player_id FROM players AS players WHERE players.country_code = \"ZIM\"     INTERSECT SELECT players.player_id FROM players AS players WHERE players.country_code = \"ROU\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.winner_ioc FROM matches AS T1 WHERE T1.loser_ioc = \"NED\"     INTERSECT SELECT T2.winner_ioc FROM matches AS T2 WHERE T2.loser_ioc = \"USA\"",
+    "readable_query": "SELECT matches.winner_ioc FROM matches AS matches WHERE matches.loser_ioc = \"NED\"     INTERSECT SELECT matches.winner_ioc FROM matches AS matches WHERE matches.loser_ioc = \"USA\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.hand FROM players AS T1 WHERE T1.country_code = \"THA\"     INTERSECT SELECT T2.hand FROM players AS T2 WHERE T2.country_code = \"HAI\"",
+    "readable_query": "SELECT players.hand FROM players AS players WHERE players.country_code = \"THA\"     INTERSECT SELECT players.hand FROM players AS players WHERE players.country_code = \"HAI\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.ranking FROM rankings AS T1 WHERE T1.ranking_date = \"19880523\"     INTERSECT SELECT T2.ranking FROM rankings AS T2 WHERE T2.ranking_date = \"20040705\"",
+    "readable_query": "SELECT rankings.ranking FROM rankings AS rankings WHERE rankings.ranking_date = \"19880523\"     INTERSECT SELECT rankings.ranking FROM rankings AS rankings WHERE rankings.ranking_date = \"20040705\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.loser_age) FROM matches AS T1 WHERE T1.loser_ht = 179",
+    "readable_query": "SELECT avg( matches.loser_age) FROM matches AS matches WHERE matches.loser_ht = 179"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.ranking_points) FROM rankings AS T1 WHERE T1.player_id = 202435",
+    "readable_query": "SELECT avg( rankings.ranking_points) FROM rankings AS rankings WHERE rankings.player_id = 202435"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.loser_id) FROM matches AS T1 WHERE T1.winner_name = \"Kiki Bertens\"",
+    "readable_query": "SELECT avg( matches.loser_id) FROM matches AS matches WHERE matches.winner_name = \"Kiki Bertens\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.player_id) FROM players AS T1 WHERE T1.first_name = \"Rachel Ann\"",
+    "readable_query": "SELECT avg( players.player_id) FROM players AS players WHERE players.first_name = \"Rachel Ann\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.ranking) FROM rankings AS T1 WHERE T1.ranking_date = \"20020923\"",
+    "readable_query": "SELECT avg( rankings.ranking) FROM rankings AS rankings WHERE rankings.ranking_date = \"20020923\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.winner_age) FROM matches AS T1 WHERE T1.winner_seed = 19",
+    "readable_query": "SELECT avg( matches.winner_age) FROM matches AS matches WHERE matches.winner_seed = 19"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.draw_size) FROM matches AS T1 WHERE T1.round = \"R16\"",
+    "readable_query": "SELECT avg( matches.draw_size) FROM matches AS matches WHERE matches.round = \"R16\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.loser_rank) FROM matches AS T1 WHERE T1.loser_id = 201366",
+    "readable_query": "SELECT avg( matches.loser_rank) FROM matches AS matches WHERE matches.loser_id = 201366"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.player_id) FROM players AS T1 WHERE T1.country_code = \"BRN\"",
+    "readable_query": "SELECT avg( players.player_id) FROM players AS players WHERE players.country_code = \"BRN\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.loser_id) FROM matches AS T1 WHERE T1.loser_seed = 26",
+    "readable_query": "SELECT avg( matches.loser_id) FROM matches AS matches WHERE matches.loser_seed = 26"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.hand FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id WHERE T2.tours = (SELECT max( T23.tours) FROM rankings AS T23)",
+    "readable_query": "SELECT players.hand FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id WHERE rankings.tours = (SELECT max( rankings.tours) FROM rankings AS rankings)"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.hand FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id WHERE T2.winner_seed = (SELECT max( T23.winner_seed) FROM matches AS T23)",
+    "readable_query": "SELECT players.hand FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id WHERE matches.winner_seed = (SELECT max( matches.winner_seed) FROM matches AS matches)"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.draw_size FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.birth_date = (SELECT max( T23.birth_date) FROM players AS T23)",
+    "readable_query": "SELECT matches.draw_size FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.birth_date = (SELECT max( players.birth_date) FROM players AS players)"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.score FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.player_id = (SELECT max( T23.player_id) FROM players AS T23)",
+    "readable_query": "SELECT matches.score FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.player_id = (SELECT max( players.player_id) FROM players AS players)"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.year FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.player_id = (SELECT max( T23.player_id) FROM players AS T23)",
+    "readable_query": "SELECT matches.year FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.player_id = (SELECT max( players.player_id) FROM players AS players)"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.hand FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id WHERE T2.loser_age = (SELECT max( T23.loser_age) FROM matches AS T23)",
+    "readable_query": "SELECT players.hand FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id WHERE matches.loser_age = (SELECT max( matches.loser_age) FROM matches AS matches)"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.tours FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id WHERE T2.player_id = (SELECT max( T23.player_id) FROM players AS T23)",
+    "readable_query": "SELECT rankings.tours FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id WHERE players.player_id = (SELECT max( players.player_id) FROM players AS players)"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.tourney_level FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.player_id = (SELECT max( T23.player_id) FROM players AS T23)",
+    "readable_query": "SELECT matches.tourney_level FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.player_id = (SELECT max( players.player_id) FROM players AS players)"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.round FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.player_id = (SELECT max( T23.player_id) FROM players AS T23)",
+    "readable_query": "SELECT matches.round FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.player_id = (SELECT max( players.player_id) FROM players AS players)"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.country_code FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id WHERE T2.ranking = (SELECT max( T23.ranking) FROM rankings AS T23)",
+    "readable_query": "SELECT players.country_code FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id WHERE rankings.ranking = (SELECT max( rankings.ranking) FROM rankings AS rankings)"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.birth_date, T2.round FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id JOIN rankings AS T3 ON T1.player_id = T3.player_id WHERE T3.ranking_date = \"20030120\" and T2.tourney_date = \"20170717\"",
+    "readable_query": "SELECT players.birth_date, matches.round FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id JOIN rankings AS rankings ON players.player_id = rankings.player_id WHERE rankings.ranking_date = \"20030120\" and matches.tourney_date = \"20170717\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.match_num, T2.birth_date FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id JOIN rankings AS T3 ON T2.player_id = T3.player_id WHERE T3.player_id = 206025 and T2.country_code = \"CHN\"",
+    "readable_query": "SELECT matches.match_num, players.birth_date FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id JOIN rankings AS rankings ON players.player_id = rankings.player_id WHERE rankings.player_id = 206025 and players.country_code = \"CHN\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.player_id, T2.country_code FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id JOIN matches AS T3 ON T2.player_id = T3.winner_id WHERE T3.winner_name = \"Julia Goerges\" and T2.birth_date = \"19530418\"",
+    "readable_query": "SELECT rankings.player_id, players.country_code FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id JOIN matches AS matches ON players.player_id = matches.winner_id WHERE matches.winner_name = \"Julia Goerges\" and players.birth_date = \"19530418\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.winner_id, T2.country_code FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id JOIN rankings AS T3 ON T2.player_id = T3.player_id WHERE T3.ranking = 422 and T2.first_name = \"Jan\"",
+    "readable_query": "SELECT matches.winner_id, players.country_code FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id JOIN rankings AS rankings ON players.player_id = rankings.player_id WHERE rankings.ranking = 422 and players.first_name = \"Jan\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.country_code, T2.loser_ht FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id JOIN rankings AS T3 ON T1.player_id = T3.player_id WHERE T3.ranking_points = 1505 and T2.winner_rank = 30",
+    "readable_query": "SELECT players.country_code, matches.loser_ht FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id JOIN rankings AS rankings ON players.player_id = rankings.player_id WHERE rankings.ranking_points = 1505 and matches.winner_rank = 30"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.ranking_points, T2.player_id FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id JOIN matches AS T3 ON T2.player_id = T3.winner_id WHERE T3.tourney_id = \"2017-M006\" and T2.birth_date = \"19680517\"",
+    "readable_query": "SELECT rankings.ranking_points, players.player_id FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id JOIN matches AS matches ON players.player_id = matches.winner_id WHERE matches.tourney_id = \"2017-M006\" and players.birth_date = \"19680517\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.ranking_date, T2.last_name FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id JOIN matches AS T3 ON T2.player_id = T3.winner_id WHERE T3.winner_hand = \"L\" and T2.country_code = \"NZL\"",
+    "readable_query": "SELECT rankings.ranking_date, players.last_name FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id JOIN matches AS matches ON players.player_id = matches.winner_id WHERE matches.winner_hand = \"L\" and players.country_code = \"NZL\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.player_id, T2.ranking_date FROM players AS T1 JOIN rankings AS T2 ON T1.player_id = T2.player_id JOIN matches AS T3 ON T1.player_id = T3.winner_id WHERE T3.tourney_name = \"Washington\" and T2.ranking = 276",
+    "readable_query": "SELECT players.player_id, rankings.ranking_date FROM players AS players JOIN rankings AS rankings ON players.player_id = rankings.player_id JOIN matches AS matches ON players.player_id = matches.winner_id WHERE matches.tourney_name = \"Washington\" and rankings.ranking = 276"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.ranking_date, T2.hand FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id JOIN matches AS T3 ON T2.player_id = T3.winner_id WHERE T3.winner_name = \"Petra Kvitova\" and T2.first_name = \"Miriam\"",
+    "readable_query": "SELECT rankings.ranking_date, players.hand FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id JOIN matches AS matches ON players.player_id = matches.winner_id WHERE matches.winner_name = \"Petra Kvitova\" and players.first_name = \"Miriam\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.ranking, T2.first_name FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id JOIN matches AS T3 ON T2.player_id = T3.winner_id WHERE T3.winner_ht = 174 and T2.player_id = 200534",
+    "readable_query": "SELECT rankings.ranking, players.first_name FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id JOIN matches AS matches ON players.player_id = matches.winner_id WHERE matches.winner_ht = 174 and players.player_id = 200534"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.loser_ioc FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.first_name = \"Xinyun\" GROUP BY T1.loser_ioc  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT matches.loser_ioc FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.first_name = \"Xinyun\" GROUP BY matches.loser_ioc  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.tours FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id WHERE T2.player_id = 200793 GROUP BY T1.tours  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT rankings.tours FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id WHERE players.player_id = 200793 GROUP BY rankings.tours  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.ranking_date FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id WHERE T2.hand = \"R\" GROUP BY T1.ranking_date  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT rankings.ranking_date FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id WHERE players.hand = \"R\" GROUP BY rankings.ranking_date  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.birth_date FROM players AS T1 JOIN matches AS T2 ON T1.player_id = T2.winner_id WHERE T2.loser_id = 201594 GROUP BY T1.birth_date  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT players.birth_date FROM players AS players JOIN matches AS matches ON players.player_id = matches.winner_id WHERE matches.loser_id = 201594 GROUP BY players.birth_date  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.winner_ht FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.last_name = \"Caceres\" GROUP BY T1.winner_ht  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT matches.winner_ht FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.last_name = \"Caceres\" GROUP BY matches.winner_ht  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.loser_seed FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.country_code = \"ARM\" GROUP BY T1.loser_seed  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT matches.loser_seed FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.country_code = \"ARM\" GROUP BY matches.loser_seed  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.ranking_points FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id WHERE T2.player_id = 200233 GROUP BY T1.ranking_points  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT rankings.ranking_points FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id WHERE players.player_id = 200233 GROUP BY rankings.ranking_points  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.tours FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id WHERE T2.player_id = 200012 GROUP BY T1.tours  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT rankings.tours FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id WHERE players.player_id = 200012 GROUP BY rankings.tours  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.ranking_points FROM rankings AS T1 JOIN players AS T2 ON T1.player_id = T2.player_id WHERE T2.player_id = 200509 GROUP BY T1.ranking_points  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT rankings.ranking_points FROM rankings AS rankings JOIN players AS players ON rankings.player_id = players.player_id WHERE players.player_id = 200509 GROUP BY rankings.ranking_points  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.loser_id FROM matches AS T1 JOIN players AS T2 ON T1.winner_id = T2.player_id WHERE T2.hand = \"R\" GROUP BY T1.loser_id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT matches.loser_id FROM matches AS matches JOIN players AS players ON matches.winner_id = players.player_id WHERE players.hand = \"R\" GROUP BY matches.loser_id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.ranking_date FROM rankings AS T1        EXCEPT SELECT T2.ranking_date FROM rankings AS T2 WHERE T2.player_id = 202435",
+    "readable_query": "SELECT rankings.ranking_date FROM rankings AS rankings        EXCEPT SELECT rankings.ranking_date FROM rankings AS rankings WHERE rankings.player_id = 202435"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.first_name FROM players AS T1        EXCEPT SELECT T2.first_name FROM players AS T2 WHERE T2.player_id = 200830",
+    "readable_query": "SELECT players.first_name FROM players AS players        EXCEPT SELECT players.first_name FROM players AS players WHERE players.player_id = 200830"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.ranking_date FROM rankings AS T1        EXCEPT SELECT T2.ranking_date FROM rankings AS T2 WHERE T2.ranking_points = 2762",
+    "readable_query": "SELECT rankings.ranking_date FROM rankings AS rankings        EXCEPT SELECT rankings.ranking_date FROM rankings AS rankings WHERE rankings.ranking_points = 2762"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.score FROM matches AS T1        EXCEPT SELECT T2.score FROM matches AS T2 WHERE T2.round = \"F\"",
+    "readable_query": "SELECT matches.score FROM matches AS matches        EXCEPT SELECT matches.score FROM matches AS matches WHERE matches.round = \"F\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.ranking_points FROM rankings AS T1        EXCEPT SELECT T2.ranking_points FROM rankings AS T2 WHERE T2.player_id = 203427",
+    "readable_query": "SELECT rankings.ranking_points FROM rankings AS rankings        EXCEPT SELECT rankings.ranking_points FROM rankings AS rankings WHERE rankings.player_id = 203427"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.tours FROM rankings AS T1        EXCEPT SELECT T2.tours FROM rankings AS T2 WHERE T2.ranking_points = 363",
+    "readable_query": "SELECT rankings.tours FROM rankings AS rankings        EXCEPT SELECT rankings.tours FROM rankings AS rankings WHERE rankings.ranking_points = 363"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.loser_name FROM matches AS T1        EXCEPT SELECT T2.loser_name FROM matches AS T2 WHERE T2.draw_size = 32",
+    "readable_query": "SELECT matches.loser_name FROM matches AS matches        EXCEPT SELECT matches.loser_name FROM matches AS matches WHERE matches.draw_size = 32"
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.winner_name FROM matches AS T1        EXCEPT SELECT T2.winner_name FROM matches AS T2 WHERE T2.loser_hand = \"L\"",
+    "readable_query": "SELECT matches.winner_name FROM matches AS matches        EXCEPT SELECT matches.winner_name FROM matches AS matches WHERE matches.loser_hand = \"L\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.first_name FROM players AS T1        EXCEPT SELECT T2.first_name FROM players AS T2 WHERE T2.hand = \"U\"",
+    "readable_query": "SELECT players.first_name FROM players AS players        EXCEPT SELECT players.first_name FROM players AS players WHERE players.hand = \"U\""
+  },
+  {
+    "db_id": "wta_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.player_id FROM players AS T1        EXCEPT SELECT T2.player_id FROM players AS T2 WHERE T2.last_name = \"Mauroy Toffier\"",
+    "readable_query": "SELECT players.player_id FROM players AS players        EXCEPT SELECT players.player_id FROM players AS players WHERE players.last_name = \"Mauroy Toffier\""
+  }
+]

@@ -1,0 +1,28 @@
+SELECT countries.country_name FROM countries JOIN institutions ON countries.unics_id = institutions.country_id WHERE institutions.unics_id != 283110
+
+###
+
+
+Original Query:
+SELECT countries.country_name FROM countries JOIN institutions ON countries.unics_id = institutions.country_id WHERE institutions.unics_id != 283110
+GPT-3 choices:
+(0) Show me the countries that are different from the institution with unics_id 283110 .
+(1) Show me all country names of institutions which are different than 283110
+(2) Show me countries institutions different from 283110
+(3) Show me the different country names associated with a different institution
+(4) What are the different country names?
+(5) Show all country names of institutions with a different UNICS code than 28310.
+(6) Which countries have institutions that are not located in 2620?
+(7) Show the country name of institutions different from 283110
+
+
+Re-ranked choices:
+5.283  Show me all country names of institutions which are different than 283110
+5.124  Show the country name of institutions different from 283110
+4.966  Show me countries institutions different from 283110
+4.894  Show all country names of institutions with a different UNICS code than 28310.
+4.772  Show me the countries that are different from the institution with unics_id 283110 .
+4.703  Show me the different country names associated with a different institution
+4.273  Which countries have institutions that are not located in 2620?
+3.541  What are the different country names?
+

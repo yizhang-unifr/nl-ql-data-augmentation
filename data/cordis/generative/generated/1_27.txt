@@ -1,0 +1,16 @@
+SELECT erc_research_domains.description FROM erc_research_domains JOIN erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects ON project_erc_panels.project = projects.unics_id WHERE projects.acronym = 'CLIC'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.description FROM erc_research_domains JOIN erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects ON project_erc_panels.project = projects.unics_id WHERE projects.acronym = 'CLIC'
+GPT-3 choices:
+(0) Display the different research domains associated with projects with acronym CLIC
+(1) Show me the research domains that belong to a project whose acronym is CLIC
+(2) Show me the different research domains involved in the project CLIC
+(3) What are the descriptions of ERC research domains that have a panel in project CLIC?
+(4) What are the research domains concerning the project with acronym CLIC?
+(5) Show me the research domains that belong to projects with acronym CLIC.
+(6) Show me the ERC research domains that have a panel in a project called CLIC
+(7) What are the research domains associated with projects with acronym CLIC?

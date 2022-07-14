@@ -1,0 +1,16 @@
+SELECT institutions.geocode_regions_3 FROM institutions WHERE institutions.short_name != 'Fundació Pau Costa'
+
+###
+
+
+Original Query:
+SELECT institutions.geocode_regions_3 FROM institutions WHERE institutions.short_name != 'Fundació Pau Costa'
+GPT-3 choices:
+(0) Retrieve all the geocoding regions associated with the institution short name != 'Fundació Pau Costa'
+(1) What are the geocode regions of institutions whose short name is not Fundació Pau Costa?
+(2) Show me all institutions from Generalitat de Catalunya or different than Fundació Pau Costa
+(3) Show me geocode regions 3 of institutions whose short name is not 'Fundació Pau Costa'
+(4) Show me all the institutional geocode regions of the institution with short name != Fundació Pau Costa
+(5) Display all geocode region 3 for institutions that are not called 'Fundació Pau Costa'
+(6) Show me all geocode regions of institutions whose short name is not "Fundació Pau Costa"
+(7) Show all the geocode regions for institutions, different from "Fundació Pau Costa"

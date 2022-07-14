@@ -1,0 +1,28 @@
+SELECT projects.framework_program FROM projects JOIN project_members ON projects.unics_id = project_members.project WHERE project_members.city != 'PETTEN'
+
+###
+
+
+Original Query:
+SELECT projects.framework_program FROM projects JOIN project_members ON projects.unics_id = project_members.project WHERE project_members.city != 'PETTEN'
+GPT-3 choices:
+(0) Show frameworks associated with projects that do not have a member in the city of PETTEN
+(1) Show projects that have members, where both are not from PETTEN.
+(2) Show me all the framework programs of projects that have a project member that is not in the city of PETTEN
+(3) Show all framework programs of projects that have at least one member whose city is not PETTEN.
+(4) Retrieve the framework programs of projects whose project members are all in the city of PETTEN.
+(5) Retrieve the name of the framework program associated with all project members who do not have city 'PETTEN'
+(6) Show me all the frameworks that different members have in a city other than PETTEN.
+(7) Show me all the different frameworks of projects whose project members are not from Petten.
+
+
+Re-ranked choices:
+5.897  Show me all the framework programs of projects that have a project member that is not in the city of PETTEN
+5.705  Show frameworks associated with projects that do not have a member in the city of PETTEN
+5.662  Show all framework programs of projects that have at least one member whose city is not PETTEN.
+5.397  Retrieve the framework programs of projects whose project members are all in the city of PETTEN.
+5.361  Show me all the different frameworks of projects whose project members are not from Petten.
+5.207  Retrieve the name of the framework program associated with all project members who do not have city 'PETTEN'
+5.004  Show me all the frameworks that different members have in a city other than PETTEN.
+4.869  Show projects that have members, where both are not from PETTEN.
+

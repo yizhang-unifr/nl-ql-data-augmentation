@@ -1,0 +1,16 @@
+SELECT programmes.short_name FROM programmes WHERE programmes.rcn != '18125'
+
+###
+
+
+Original Query:
+SELECT programmes.short_name FROM programmes WHERE programmes.rcn != '18125'
+GPT-3 choices:
+(0) Retrieve short names of programmes with an RCN other than 18125
+(1) Show me the short names of programmes that are not 18125
+(2) Retrieve short name of all the programmes that are not 18125
+(3) What are the short names of the programmes that are not about 18125?
+(4) Show me all programmes except the one with the code 18125
+(5) Show short name of programmes whose RCN is not 18125
+(6) Retrieve the short name of all programmes except 18125
+(7) Show me all short names of programmes, which are not about 18125

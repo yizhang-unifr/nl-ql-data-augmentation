@@ -1,0 +1,28 @@
+SELECT project_members.postal_code FROM project_members WHERE project_members.member_name = 'UNIVERSITA DI PISA' or project_members.member_name = 'ALENIA AERMACCHI SPA'
+
+###
+
+
+Original Query:
+SELECT project_members.postal_code FROM project_members WHERE project_members.member_name = 'UNIVERSITA DI PISA' or project_members.member_name = 'ALENIA AERMACCHI SPA'
+GPT-3 choices:
+(0) Show me the postal codes of project members with members names UNIVERSITA DI PISA and ALENIA AERMACCHI SPA
+(1) Show me the projects member from PISA and AERMACCHI together
+(2) Show project members with a postal code
+(3) Retrieve project members with universities in Pisa or Alenia Aermacchi
+(4) What is the postal code of project members who are named UNIVERSITA DI PISA or ALENIA AERMACCHI SPA?
+(5) Show all project members located in the area of Pisa or the area of Alenia Aermacchi?
+(6) Show me all project members having either company's name or person's name equal to “UNIVERSITA DI PISA” or “ALENIA AERMACCHI SPA”.
+(7) Show me the postal code of project members whose names are UNIVERSITA DI PISA or ALENIA AERMACCHI SPA.
+
+
+Re-ranked choices:
+5.515  Show me the postal code of project members whose names are UNIVERSITA DI PISA or ALENIA AERMACCHI SPA.
+5.438  Show me the postal codes of project members with members names UNIVERSITA DI PISA and ALENIA AERMACCHI SPA
+5.242  What is the postal code of project members who are named UNIVERSITA DI PISA or ALENIA AERMACCHI SPA?
+4.975  Show me all project members having either company's name or person's name equal to “UNIVERSITA DI PISA” or “ALENIA AERMACCHI SPA”.
+4.718  Retrieve project members with universities in Pisa or Alenia Aermacchi
+4.614  Show all project members located in the area of Pisa or the area of Alenia Aermacchi?
+4.511  Show me the projects member from PISA and AERMACCHI together
+3.703  Show project members with a postal code
+

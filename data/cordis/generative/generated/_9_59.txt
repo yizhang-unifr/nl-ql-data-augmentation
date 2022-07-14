@@ -1,0 +1,28 @@
+SELECT programmes.rcn FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.title != 'eWall for Active Long Living'
+
+###
+
+
+Original Query:
+SELECT programmes.rcn FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.title != 'eWall for Active Long Living'
+GPT-3 choices:
+(0) Show all the project programmes that are not eWall for Active Long Living projects
+(1) Change the project programme of projects in which the title is != 'eWall for Active Long Living' to eWall for Active Long Living
+(2) Show me the RCN of projects in projects, with the programme not eWall for Active Long Living.
+(3) Show all projects associated with a program that is not "eWall for Active Long Living"
+(4) Show the code of the programmes of projects that have a project programme with title different than "eWall for Active Long Living"
+(5) Show me the different funding programmes of projects different from "eWall for Active Long Living"
+(6) Show the city number of the projects that have a project programme different from "eWall for Active Long Living"
+(7) Show me the project programmes for projects that are not eWall for Active Long Living
+
+
+Re-ranked choices:
+5.723  Show me the project programmes for projects that are not eWall for Active Long Living
+5.635  Show all the project programmes that are not eWall for Active Long Living projects
+5.403  Show the code of the programmes of projects that have a project programme with title different than "eWall for Active Long Living"
+5.345  Show me the RCN of projects in projects, with the programme not eWall for Active Long Living.
+5.329  Show all projects associated with a program that is not "eWall for Active Long Living"
+5.326  Show the city number of the projects that have a project programme different from "eWall for Active Long Living"
+5.265  Show me the different funding programmes of projects different from "eWall for Active Long Living"
+4.975  Change the project programme of projects in which the title is != 'eWall for Active Long Living' to eWall for Active Long Living
+

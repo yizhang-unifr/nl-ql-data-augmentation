@@ -1,0 +1,28 @@
+SELECT topics.code FROM topics WHERE topics.title = 'Tools and technologies for advanced therapies'
+
+###
+
+
+Original Query:
+SELECT topics.code FROM topics WHERE topics.title = 'Tools and technologies for advanced therapies'
+GPT-3 choices:
+(0) Retrieve all the topics in which the title equals "Tools and technologies for advanced therapies"
+(1) Show me all topics about tool and technology for advanced therapies
+(2) Show me all topics related to "Tools and technologies for advanced therapies"
+(3) List of topics where the title is Tools and technologies for advanced therapies
+(4) Show all topics in the field of advanced therapies that are named Tools and technologies.
+(5) Show me all the topics of the conference “Tools and technologies for advanced therapies”.
+(6) Show me all the topics related to the conference title "Tools and technologies for advanced therapies"
+(7) Show me all topics about “Tools and technologies for advanced therapies”
+
+
+Re-ranked choices:
+6.297  Show me all topics related to "Tools and technologies for advanced therapies"
+6.285  Show me all topics about “Tools and technologies for advanced therapies”
+6.119  Show me all topics about tool and technology for advanced therapies
+6.105  Show me all the topics related to the conference title "Tools and technologies for advanced therapies"
+6.099  List of topics where the title is Tools and technologies for advanced therapies
+5.945  Show all topics in the field of advanced therapies that are named Tools and technologies.
+5.916  Show me all the topics of the conference “Tools and technologies for advanced therapies”.
+5.022  Retrieve all the topics in which the title equals "Tools and technologies for advanced therapies"
+

@@ -1,0 +1,16 @@
+SELECT institutions.institutions_name FROM institutions WHERE institutions.geocode_regions_3 = 'FR716' or institutions.geocode_regions_3 = 'HR041'
+
+###
+
+
+Original Query:
+SELECT institutions.institutions_name FROM institutions WHERE institutions.geocode_regions_3 = 'FR716' or institutions.geocode_regions_3 = 'HR041'
+GPT-3 choices:
+(0) Show all institution names that have geo region 3 with values FR716 or HR041
+(1) What are the names of institutions located in the geocode regions FR716 or HR041?
+(2) Show me the names of all institutions with geocode region 3 as FR716 or HR041
+(3) Show me all the names of institutions that have a geocode region of either FR716 or HR041
+(4) Show me all the institutions having at least one geocode region equal to 'FR716' or 'HR041'
+(5) Show me all institutions which have region code 716 or code 441.
+(6) Show me all the institutions located in the regions FR716 or HR041
+(7) Show the names of institutions located in the region FR716 or HR041

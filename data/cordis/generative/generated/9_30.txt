@@ -1,0 +1,16 @@
+SELECT subject_areas.title FROM subject_areas JOIN project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects ON project_subject_areas.project = projects.unics_id WHERE projects.acronym != 'GANDALF'
+
+###
+
+
+Original Query:
+SELECT subject_areas.title FROM subject_areas JOIN project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects ON project_subject_areas.project = projects.unics_id WHERE projects.acronym != 'GANDALF'
+GPT-3 choices:
+(0) Retrieve subject areas of projects not having an acronym Gandalf.
+(1) Show all subject areas of projects with acronym different than GANDALF.
+(2) Display all subject areas of projects except "GANDALF"
+(3) Show me the title of the subject areas with projects that do not have the acronym GANDALF
+(4) Retrieve all subject areas of projects except "GANDALF"
+(5) What are the subject areas of the projects whose acronym is not 'GANDALF'?
+(6) Retrieve the title of subject areas associated with projects whose acronym is not GANDALF
+(7) Retrieve subject areas where the project acronym is not "GANDALF"

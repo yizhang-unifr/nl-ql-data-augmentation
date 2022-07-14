@@ -1,0 +1,16 @@
+SELECT countries.country_code FROM countries WHERE countries.country_name = 'Antigua and Barbuda'
+
+###
+
+
+Original Query:
+SELECT countries.country_code2 FROM countries WHERE countries.country_name = 'Antigua and Barbuda'
+GPT-3 choices:
+(0) Show all country code for country Antigua and Barbuda
+(1) Show the country code of all countries whose country name is Antigua and Barbuda.
+(2) What are the country codes of countries whose name is Antigua and Barbuda
+(3) What are countries with country name Antigua and Barbuda ?
+(4) Show the country code for all countries called Antigua and Barbuda
+(5) Show all countries with country_name = ‘Antigua and Barbuda’
+(6) What are the country codes of all countries whose name is “Antigua and Barbuda”?
+(7) Show all countries of which the country name is Antigua and Barbuda

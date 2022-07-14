@@ -1,0 +1,16 @@
+SELECT programmes.short_name FROM programmes WHERE programmes.title = 'Semiconductor process and integration' and programmes.code = 'ICT-2011.9.6'
+
+###
+
+
+Original Query:
+SELECT programmes.short_name FROM programmes WHERE programmes.title = 'Semiconductor process and integration' and programmes.code = 'ICT-2011.9.6'
+GPT-3 choices:
+(0) Show me all the short names for the project titled “Semiconductor process and integration” with code ICT-2011.9.6
+(1) Show me the short name of the programme from the list titled "Semiconductor process and integration" with code "ICT-2011.9.6".
+(2) What are the short names of the programmes with title Semiconductor process and integration and code ICT-2011.9.6?
+(3) Display the short name of programmes whose title is Semiconductor process and integration and whose code is ICT-2011.9.6
+(4) Retrieve all programme’s short names that match “Semiconductor process and integration” and the programme code “ICT-2011.9.6”.
+(5) What are the short names of the programmes with title Semiconductor process and integration and code ICT-2011.9.6
+(6) Show me all the short names of the programmes with title Semiconductor process and integration and code ICT-2011.9.6
+(7) What are the short names of the programmes with title Semiconductor process and integration and code ICT-2011.9.6?

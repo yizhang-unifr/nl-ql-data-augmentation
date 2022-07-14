@@ -1,0 +1,2718 @@
+[
+  {
+    "db_id": "tvshow",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.id FROM TV_Channel AS T1 WHERE T1.Language = \"Italian\"",
+    "readable_query": "SELECT tv_channel.id FROM TV_Channel AS tv_channel WHERE tv_channel.Language = \"Italian\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.18_49_Rating_Share FROM TV_series AS T1 WHERE T1.id = 10.0",
+    "readable_query": "SELECT tv_series.18_49_Rating_Share FROM TV_series AS tv_series WHERE tv_series.id = 10.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Hight_definition_TV FROM TV_Channel AS T1 WHERE T1.id = \"719\"",
+    "readable_query": "SELECT tv_channel.Hight_definition_TV FROM TV_Channel AS tv_channel WHERE tv_channel.id = \"719\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Viewers_m FROM TV_series AS T1 WHERE T1.Episode = \"The Year of the Rabbit\"",
+    "readable_query": "SELECT tv_series.Viewers_m FROM TV_series AS tv_series WHERE tv_series.Episode = \"The Year of the Rabbit\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.id FROM Cartoon AS T1 WHERE T1.Channel = \"706\"",
+    "readable_query": "SELECT cartoon.id FROM Cartoon AS cartoon WHERE cartoon.Channel = \"706\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Title FROM Cartoon AS T1 WHERE T1.Production_code = 105.0",
+    "readable_query": "SELECT cartoon.Title FROM Cartoon AS cartoon WHERE cartoon.Production_code = 105.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Content FROM TV_Channel AS T1 WHERE T1.series_name = \"Rock TV\"",
+    "readable_query": "SELECT tv_channel.Content FROM TV_Channel AS tv_channel WHERE tv_channel.series_name = \"Rock TV\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Viewers_m FROM TV_series AS T1 WHERE T1.Channel = \"713\"",
+    "readable_query": "SELECT tv_series.Viewers_m FROM TV_series AS tv_series WHERE tv_series.Channel = \"713\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Rating FROM TV_series AS T1 WHERE T1.Share = 5.0",
+    "readable_query": "SELECT tv_series.Rating FROM TV_series AS tv_series WHERE tv_series.Share = 5.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.id FROM TV_series AS T1 WHERE T1.Viewers_m = \"6.09\"",
+    "readable_query": "SELECT tv_series.id FROM TV_series AS tv_series WHERE tv_series.Viewers_m = \"6.09\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.series_name FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel WHERE T2.Original_air_date = \"February6,2009\"",
+    "readable_query": "SELECT tv_channel.series_name FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE cartoon.Original_air_date = \"February6,2009\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Production_code FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Pay_per_view_PPV = \"no\"",
+    "readable_query": "SELECT cartoon.Production_code FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.Pay_per_view_PPV = \"no\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Channel FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Pixel_aspect_ratio_PAR = \"16:9\"",
+    "readable_query": "SELECT cartoon.Channel FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.Pixel_aspect_ratio_PAR = \"16:9\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Channel FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Pixel_aspect_ratio_PAR = \"4:3\"",
+    "readable_query": "SELECT tv_series.Channel FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_channel.Pixel_aspect_ratio_PAR = \"4:3\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.18_49_Rating_Share FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Country = \"United Kingdom\"",
+    "readable_query": "SELECT tv_series.18_49_Rating_Share FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_channel.Country = \"United Kingdom\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Channel FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Content = \"music\"",
+    "readable_query": "SELECT cartoon.Channel FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.Content = \"music\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Channel FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Language = \"Italian\"",
+    "readable_query": "SELECT tv_series.Channel FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_channel.Language = \"Italian\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Episode FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Country = \"United Kingdom\"",
+    "readable_query": "SELECT tv_series.Episode FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_channel.Country = \"United Kingdom\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.id FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Hight_definition_TV = \"no\"",
+    "readable_query": "SELECT cartoon.id FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.Hight_definition_TV = \"no\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.id FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Country = \"United Kingdom\"",
+    "readable_query": "SELECT cartoon.id FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.Country = \"United Kingdom\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Country, count(*) FROM TV_Channel AS T1  GROUP BY T1.Country",
+    "readable_query": "SELECT tv_channel.Country, count(*) FROM TV_Channel AS tv_channel  GROUP BY tv_channel.Country"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Channel, count(*) FROM TV_series AS T1  GROUP BY T1.Channel",
+    "readable_query": "SELECT tv_series.Channel, count(*) FROM TV_series AS tv_series  GROUP BY tv_series.Channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Content, count(*) FROM TV_Channel AS T1  GROUP BY T1.Content",
+    "readable_query": "SELECT tv_channel.Content, count(*) FROM TV_Channel AS tv_channel  GROUP BY tv_channel.Content"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Package_Option, count(*) FROM TV_Channel AS T1  GROUP BY T1.Package_Option",
+    "readable_query": "SELECT tv_channel.Package_Option, count(*) FROM TV_Channel AS tv_channel  GROUP BY tv_channel.Package_Option"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Share, count(*) FROM TV_series AS T1  GROUP BY T1.Share",
+    "readable_query": "SELECT tv_series.Share, count(*) FROM TV_series AS tv_series  GROUP BY tv_series.Share"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Hight_definition_TV, count(*) FROM TV_Channel AS T1  GROUP BY T1.Hight_definition_TV",
+    "readable_query": "SELECT tv_channel.Hight_definition_TV, count(*) FROM TV_Channel AS tv_channel  GROUP BY tv_channel.Hight_definition_TV"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Production_code, count(*) FROM Cartoon AS T1  GROUP BY T1.Production_code",
+    "readable_query": "SELECT cartoon.Production_code, count(*) FROM Cartoon AS cartoon  GROUP BY cartoon.Production_code"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.18_49_Rating_Share, count(*) FROM TV_series AS T1  GROUP BY T1.18_49_Rating_Share",
+    "readable_query": "SELECT tv_series.18_49_Rating_Share, count(*) FROM TV_series AS tv_series  GROUP BY tv_series.18_49_Rating_Share"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Rating, count(*) FROM TV_series AS T1  GROUP BY T1.Rating",
+    "readable_query": "SELECT tv_series.Rating, count(*) FROM TV_series AS tv_series  GROUP BY tv_series.Rating"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.id, count(*) FROM Cartoon AS T1  GROUP BY T1.id",
+    "readable_query": "SELECT cartoon.id, count(*) FROM Cartoon AS cartoon  GROUP BY cartoon.id"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Channel, count(*) FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id  GROUP BY T1.Channel",
+    "readable_query": "SELECT cartoon.Channel, count(*) FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id  GROUP BY cartoon.Channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Written_by, count(*) FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id  GROUP BY T1.Written_by",
+    "readable_query": "SELECT cartoon.Written_by, count(*) FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id  GROUP BY cartoon.Written_by"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Directed_by, count(*) FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id  GROUP BY T1.Directed_by",
+    "readable_query": "SELECT cartoon.Directed_by, count(*) FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id  GROUP BY cartoon.Directed_by"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Package_Option, count(*) FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel  GROUP BY T1.Package_Option",
+    "readable_query": "SELECT tv_channel.Package_Option, count(*) FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel  GROUP BY tv_channel.Package_Option"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Content, count(*) FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel  GROUP BY T1.Content",
+    "readable_query": "SELECT tv_channel.Content, count(*) FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel  GROUP BY tv_channel.Content"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Pay_per_view_PPV, count(*) FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel  GROUP BY T1.Pay_per_view_PPV",
+    "readable_query": "SELECT tv_channel.Pay_per_view_PPV, count(*) FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel  GROUP BY tv_channel.Pay_per_view_PPV"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Pixel_aspect_ratio_PAR, count(*) FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel  GROUP BY T1.Pixel_aspect_ratio_PAR",
+    "readable_query": "SELECT tv_channel.Pixel_aspect_ratio_PAR, count(*) FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel  GROUP BY tv_channel.Pixel_aspect_ratio_PAR"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Viewers_m, count(*) FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id  GROUP BY T1.Viewers_m",
+    "readable_query": "SELECT tv_series.Viewers_m, count(*) FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id  GROUP BY tv_series.Viewers_m"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Weekly_Rank, count(*) FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id  GROUP BY T1.Weekly_Rank",
+    "readable_query": "SELECT tv_series.Weekly_Rank, count(*) FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id  GROUP BY tv_series.Weekly_Rank"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Original_air_date, count(*) FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id  GROUP BY T1.Original_air_date",
+    "readable_query": "SELECT cartoon.Original_air_date, count(*) FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id  GROUP BY cartoon.Original_air_date"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM Cartoon AS T1",
+    "readable_query": "SELECT count(*) FROM Cartoon AS cartoon"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM TV_Channel AS T1",
+    "readable_query": "SELECT count(*) FROM TV_Channel AS tv_channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM TV_series AS T1",
+    "readable_query": "SELECT count(*) FROM TV_series AS tv_series"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Title, T1.Directed_by FROM Cartoon AS T1",
+    "readable_query": "SELECT cartoon.Title, cartoon.Directed_by FROM Cartoon AS cartoon"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Viewers_m, T1.Share FROM TV_series AS T1",
+    "readable_query": "SELECT tv_series.Viewers_m, tv_series.Share FROM TV_series AS tv_series"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.id, T1.Share FROM TV_series AS T1",
+    "readable_query": "SELECT tv_series.id, tv_series.Share FROM TV_series AS tv_series"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Language, T1.id FROM TV_Channel AS T1",
+    "readable_query": "SELECT tv_channel.Language, tv_channel.id FROM TV_Channel AS tv_channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Hight_definition_TV, T1.Country FROM TV_Channel AS T1",
+    "readable_query": "SELECT tv_channel.Hight_definition_TV, tv_channel.Country FROM TV_Channel AS tv_channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Rating, T1.id FROM TV_series AS T1",
+    "readable_query": "SELECT tv_series.Rating, tv_series.id FROM TV_series AS tv_series"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Pay_per_view_PPV, T1.Package_Option FROM TV_Channel AS T1",
+    "readable_query": "SELECT tv_channel.Pay_per_view_PPV, tv_channel.Package_Option FROM TV_Channel AS tv_channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.series_name, T1.Hight_definition_TV FROM TV_Channel AS T1",
+    "readable_query": "SELECT tv_channel.series_name, tv_channel.Hight_definition_TV FROM TV_Channel AS tv_channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Pixel_aspect_ratio_PAR, T1.Language FROM TV_Channel AS T1",
+    "readable_query": "SELECT tv_channel.Pixel_aspect_ratio_PAR, tv_channel.Language FROM TV_Channel AS tv_channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.18_49_Rating_Share, T1.Weekly_Rank FROM TV_series AS T1",
+    "readable_query": "SELECT tv_series.18_49_Rating_Share, tv_series.Weekly_Rank FROM TV_series AS tv_series"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Air_Date, T2.Country FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id",
+    "readable_query": "SELECT tv_series.Air_Date, tv_channel.Country FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.18_49_Rating_Share, T2.Language FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id",
+    "readable_query": "SELECT tv_series.18_49_Rating_Share, tv_channel.Language FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Rating, T2.id FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id",
+    "readable_query": "SELECT tv_series.Rating, tv_channel.id FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Package_Option, T2.Weekly_Rank FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel",
+    "readable_query": "SELECT tv_channel.Package_Option, tv_series.Weekly_Rank FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Share, T2.Pay_per_view_PPV FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id",
+    "readable_query": "SELECT tv_series.Share, tv_channel.Pay_per_view_PPV FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.id, T2.Country FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id",
+    "readable_query": "SELECT cartoon.id, tv_channel.Country FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Production_code, T2.Hight_definition_TV FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id",
+    "readable_query": "SELECT cartoon.Production_code, tv_channel.Hight_definition_TV FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Language, T2.id FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel",
+    "readable_query": "SELECT tv_channel.Language, cartoon.id FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.18_49_Rating_Share, T2.Pixel_aspect_ratio_PAR FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id",
+    "readable_query": "SELECT tv_series.18_49_Rating_Share, tv_channel.Pixel_aspect_ratio_PAR FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Channel, T2.Hight_definition_TV FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id",
+    "readable_query": "SELECT cartoon.Channel, tv_channel.Hight_definition_TV FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Share, T1.Weekly_Rank FROM TV_series AS T1 WHERE T1.id = 10.0",
+    "readable_query": "SELECT tv_series.Share, tv_series.Weekly_Rank FROM TV_series AS tv_series WHERE tv_series.id = 10.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Share, T1.Rating FROM TV_series AS T1 WHERE T1.id = 4.0",
+    "readable_query": "SELECT tv_series.Share, tv_series.Rating FROM TV_series AS tv_series WHERE tv_series.id = 4.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Title, T1.Channel FROM Cartoon AS T1 WHERE T1.Original_air_date = \"January2,2009\"",
+    "readable_query": "SELECT cartoon.Title, cartoon.Channel FROM Cartoon AS cartoon WHERE cartoon.Original_air_date = \"January2,2009\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.18_49_Rating_Share, T1.id FROM TV_series AS T1 WHERE T1.Episode = \"Double Down\"",
+    "readable_query": "SELECT tv_series.18_49_Rating_Share, tv_series.id FROM TV_series AS tv_series WHERE tv_series.Episode = \"Double Down\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.id, T1.Production_code FROM Cartoon AS T1 WHERE T1.Directed_by = \"Ben Jones\"",
+    "readable_query": "SELECT cartoon.id, cartoon.Production_code FROM Cartoon AS cartoon WHERE cartoon.Directed_by = \"Ben Jones\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Title, T1.Directed_by FROM Cartoon AS T1 WHERE T1.id = 9.0",
+    "readable_query": "SELECT cartoon.Title, cartoon.Directed_by FROM Cartoon AS cartoon WHERE cartoon.id = 9.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Production_code, T1.Directed_by FROM Cartoon AS T1 WHERE T1.Written_by = \"J. M. DeMatteis\"",
+    "readable_query": "SELECT cartoon.Production_code, cartoon.Directed_by FROM Cartoon AS cartoon WHERE cartoon.Written_by = \"J. M. DeMatteis\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Channel, T1.Original_air_date FROM Cartoon AS T1 WHERE T1.id = 4.0",
+    "readable_query": "SELECT cartoon.Channel, cartoon.Original_air_date FROM Cartoon AS cartoon WHERE cartoon.id = 4.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Share, T1.Episode FROM TV_series AS T1 WHERE T1.Air_Date = \"December 17, 2007\"",
+    "readable_query": "SELECT tv_series.Share, tv_series.Episode FROM TV_series AS tv_series WHERE tv_series.Air_Date = \"December 17, 2007\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.id, T1.Package_Option FROM TV_Channel AS T1 WHERE T1.Content = \"music\"",
+    "readable_query": "SELECT tv_channel.id, tv_channel.Package_Option FROM TV_Channel AS tv_channel WHERE tv_channel.Content = \"music\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Directed_by FROM Cartoon AS T1  GROUP BY T1.Directed_by  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT cartoon.Directed_by FROM Cartoon AS cartoon  GROUP BY cartoon.Directed_by  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Package_Option FROM TV_Channel AS T1  GROUP BY T1.Package_Option  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Package_Option FROM TV_Channel AS tv_channel  GROUP BY tv_channel.Package_Option  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Pixel_aspect_ratio_PAR FROM TV_Channel AS T1  GROUP BY T1.Pixel_aspect_ratio_PAR  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Pixel_aspect_ratio_PAR FROM TV_Channel AS tv_channel  GROUP BY tv_channel.Pixel_aspect_ratio_PAR  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Pay_per_view_PPV FROM TV_Channel AS T1  GROUP BY T1.Pay_per_view_PPV  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Pay_per_view_PPV FROM TV_Channel AS tv_channel  GROUP BY tv_channel.Pay_per_view_PPV  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Rating FROM TV_series AS T1  GROUP BY T1.Rating  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT tv_series.Rating FROM TV_series AS tv_series  GROUP BY tv_series.Rating  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Channel FROM Cartoon AS T1  GROUP BY T1.Channel  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT cartoon.Channel FROM Cartoon AS cartoon  GROUP BY cartoon.Channel  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Channel FROM TV_series AS T1  GROUP BY T1.Channel  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT tv_series.Channel FROM TV_series AS tv_series  GROUP BY tv_series.Channel  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Production_code FROM Cartoon AS T1  GROUP BY T1.Production_code  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT cartoon.Production_code FROM Cartoon AS cartoon  GROUP BY cartoon.Production_code  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Hight_definition_TV FROM TV_Channel AS T1  GROUP BY T1.Hight_definition_TV  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Hight_definition_TV FROM TV_Channel AS tv_channel  GROUP BY tv_channel.Hight_definition_TV  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Viewers_m FROM TV_series AS T1  GROUP BY T1.Viewers_m  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT tv_series.Viewers_m FROM TV_series AS tv_series  GROUP BY tv_series.Viewers_m  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM TV_Channel AS T1 WHERE T1.Pixel_aspect_ratio_PAR = \"4:3 / 16:9\"",
+    "readable_query": "SELECT count(*) FROM TV_Channel AS tv_channel WHERE tv_channel.Pixel_aspect_ratio_PAR = \"4:3 / 16:9\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Cartoon AS T1 WHERE T1.id = 8.0",
+    "readable_query": "SELECT count(*) FROM Cartoon AS cartoon WHERE cartoon.id = 8.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM TV_series AS T1 WHERE T1.Share = 6.0",
+    "readable_query": "SELECT count(*) FROM TV_series AS tv_series WHERE tv_series.Share = 6.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Cartoon AS T1 WHERE T1.Original_air_date = \"December12,2008\"",
+    "readable_query": "SELECT count(*) FROM Cartoon AS cartoon WHERE cartoon.Original_air_date = \"December12,2008\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM TV_series AS T1 WHERE T1.Channel = \"708\"",
+    "readable_query": "SELECT count(*) FROM TV_series AS tv_series WHERE tv_series.Channel = \"708\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Cartoon AS T1 WHERE T1.Original_air_date = \"January16,2009\"",
+    "readable_query": "SELECT count(*) FROM Cartoon AS cartoon WHERE cartoon.Original_air_date = \"January16,2009\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM TV_Channel AS T1 WHERE T1.Content = \"music\"",
+    "readable_query": "SELECT count(*) FROM TV_Channel AS tv_channel WHERE tv_channel.Content = \"music\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Cartoon AS T1 WHERE T1.id = 5.0",
+    "readable_query": "SELECT count(*) FROM Cartoon AS cartoon WHERE cartoon.id = 5.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Cartoon AS T1 WHERE T1.Title = \"Enter the Outsiders!\"",
+    "readable_query": "SELECT count(*) FROM Cartoon AS cartoon WHERE cartoon.Title = \"Enter the Outsiders!\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Cartoon AS T1 WHERE T1.Directed_by = \"Ben Jones\"",
+    "readable_query": "SELECT count(*) FROM Cartoon AS cartoon WHERE cartoon.Directed_by = \"Ben Jones\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.id FROM Cartoon AS T1    ORDER BY T1.Production_code DESC LIMIT 1",
+    "readable_query": "SELECT cartoon.id FROM Cartoon AS cartoon    ORDER BY cartoon.Production_code DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Channel FROM TV_series AS T1    ORDER BY T1.Share DESC LIMIT 1",
+    "readable_query": "SELECT tv_series.Channel FROM TV_series AS tv_series    ORDER BY tv_series.Share DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Weekly_Rank FROM TV_series AS T1    ORDER BY T1.id DESC LIMIT 1",
+    "readable_query": "SELECT tv_series.Weekly_Rank FROM TV_series AS tv_series    ORDER BY tv_series.id DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.18_49_Rating_Share FROM TV_series AS T1    ORDER BY T1.Share DESC LIMIT 1",
+    "readable_query": "SELECT tv_series.18_49_Rating_Share FROM TV_series AS tv_series    ORDER BY tv_series.Share DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Rating FROM TV_series AS T1    ORDER BY T1.Share DESC LIMIT 1",
+    "readable_query": "SELECT tv_series.Rating FROM TV_series AS tv_series    ORDER BY tv_series.Share DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Episode FROM TV_series AS T1    ORDER BY T1.Weekly_Rank DESC LIMIT 1",
+    "readable_query": "SELECT tv_series.Episode FROM TV_series AS tv_series    ORDER BY tv_series.Weekly_Rank DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Original_air_date FROM Cartoon AS T1    ORDER BY T1.id DESC LIMIT 1",
+    "readable_query": "SELECT cartoon.Original_air_date FROM Cartoon AS cartoon    ORDER BY cartoon.id DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Channel FROM Cartoon AS T1    ORDER BY T1.Production_code DESC LIMIT 1",
+    "readable_query": "SELECT cartoon.Channel FROM Cartoon AS cartoon    ORDER BY cartoon.Production_code DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Weekly_Rank FROM TV_series AS T1    ORDER BY T1.Share DESC LIMIT 1",
+    "readable_query": "SELECT tv_series.Weekly_Rank FROM TV_series AS tv_series    ORDER BY tv_series.Share DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Written_by FROM Cartoon AS T1    ORDER BY T1.Production_code DESC LIMIT 1",
+    "readable_query": "SELECT cartoon.Written_by FROM Cartoon AS cartoon    ORDER BY cartoon.Production_code DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Package_Option FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel    ORDER BY T2.Share DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Package_Option FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel    ORDER BY tv_series.Share DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Pixel_aspect_ratio_PAR FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel    ORDER BY T2.Weekly_Rank DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Pixel_aspect_ratio_PAR FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel    ORDER BY tv_series.Weekly_Rank DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.series_name FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel    ORDER BY T2.Production_code DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.series_name FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel    ORDER BY cartoon.Production_code DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Country FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel    ORDER BY T2.id DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Country FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel    ORDER BY cartoon.id DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Country FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel    ORDER BY T2.Share DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Country FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel    ORDER BY tv_series.Share DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Hight_definition_TV FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel    ORDER BY T2.id DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Hight_definition_TV FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel    ORDER BY cartoon.id DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Content FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel    ORDER BY T2.Production_code DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Content FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel    ORDER BY cartoon.Production_code DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Pay_per_view_PPV FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel    ORDER BY T2.Production_code DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Pay_per_view_PPV FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel    ORDER BY cartoon.Production_code DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.series_name FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel    ORDER BY T2.Share DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.series_name FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel    ORDER BY tv_series.Share DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Package_Option FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel    ORDER BY T2.Production_code DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Package_Option FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel    ORDER BY cartoon.Production_code DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Hight_definition_TV FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel    ORDER BY T2.Share ASC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Hight_definition_TV FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel    ORDER BY tv_series.Share ASC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Content FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel    ORDER BY T2.Share ASC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Content FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel    ORDER BY tv_series.Share ASC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Pixel_aspect_ratio_PAR FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel    ORDER BY T2.id ASC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Pixel_aspect_ratio_PAR FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel    ORDER BY cartoon.id ASC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Country FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel    ORDER BY T2.Production_code ASC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Country FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel    ORDER BY cartoon.Production_code ASC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Pixel_aspect_ratio_PAR FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel    ORDER BY T2.Weekly_Rank ASC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Pixel_aspect_ratio_PAR FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel    ORDER BY tv_series.Weekly_Rank ASC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Country FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel    ORDER BY T2.id ASC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Country FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel    ORDER BY cartoon.id ASC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Package_Option FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel    ORDER BY T2.Share ASC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Package_Option FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel    ORDER BY tv_series.Share ASC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Content FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel    ORDER BY T2.id ASC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Content FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel    ORDER BY cartoon.id ASC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Country FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel    ORDER BY T2.id ASC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Country FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel    ORDER BY tv_series.id ASC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.series_name FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel    ORDER BY T2.Production_code ASC LIMIT 1",
+    "readable_query": "SELECT tv_channel.series_name FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel    ORDER BY cartoon.Production_code ASC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.series_name, T1.Hight_definition_TV FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel    ORDER BY T2.Weekly_Rank DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.series_name, tv_channel.Hight_definition_TV FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel    ORDER BY tv_series.Weekly_Rank DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Hight_definition_TV, T1.Pay_per_view_PPV FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel    ORDER BY T2.Weekly_Rank DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Hight_definition_TV, tv_channel.Pay_per_view_PPV FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel    ORDER BY tv_series.Weekly_Rank DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Package_Option, T1.Country FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel    ORDER BY T2.Share DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Package_Option, tv_channel.Country FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel    ORDER BY tv_series.Share DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.series_name, T1.id FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel    ORDER BY T2.Share DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.series_name, tv_channel.id FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel    ORDER BY tv_series.Share DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Pixel_aspect_ratio_PAR, T1.id FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel    ORDER BY T2.Share DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Pixel_aspect_ratio_PAR, tv_channel.id FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel    ORDER BY tv_series.Share DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Hight_definition_TV, T1.id FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel    ORDER BY T2.Weekly_Rank DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Hight_definition_TV, tv_channel.id FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel    ORDER BY tv_series.Weekly_Rank DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Content, T1.id FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel    ORDER BY T2.Share DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Content, tv_channel.id FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel    ORDER BY tv_series.Share DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Content, T1.id FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel    ORDER BY T2.Production_code DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Content, tv_channel.id FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel    ORDER BY cartoon.Production_code DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Pixel_aspect_ratio_PAR, T1.Language FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel    ORDER BY T2.Weekly_Rank DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Pixel_aspect_ratio_PAR, tv_channel.Language FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel    ORDER BY tv_series.Weekly_Rank DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.series_name, T1.Pixel_aspect_ratio_PAR FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel    ORDER BY T2.Weekly_Rank DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.series_name, tv_channel.Pixel_aspect_ratio_PAR FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel    ORDER BY tv_series.Weekly_Rank DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Pay_per_view_PPV) FROM TV_Channel AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  tv_channel.Pay_per_view_PPV) FROM TV_Channel AS tv_channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Original_air_date) FROM Cartoon AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  cartoon.Original_air_date) FROM Cartoon AS cartoon"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.series_name) FROM TV_Channel AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  tv_channel.series_name) FROM TV_Channel AS tv_channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Written_by) FROM Cartoon AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  cartoon.Written_by) FROM Cartoon AS cartoon"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Country) FROM TV_Channel AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  tv_channel.Country) FROM TV_Channel AS tv_channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Title) FROM Cartoon AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  cartoon.Title) FROM Cartoon AS cartoon"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Directed_by) FROM Cartoon AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  cartoon.Directed_by) FROM Cartoon AS cartoon"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.id) FROM TV_Channel AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  tv_channel.id) FROM TV_Channel AS tv_channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Episode) FROM TV_series AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  tv_series.Episode) FROM TV_series AS tv_series"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Content) FROM TV_Channel AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  tv_channel.Content) FROM TV_Channel AS tv_channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Share) FROM TV_series AS T1",
+    "readable_query": "SELECT avg( tv_series.Share) FROM TV_series AS tv_series"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Production_code) FROM Cartoon AS T1",
+    "readable_query": "SELECT avg( cartoon.Production_code) FROM Cartoon AS cartoon"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.id) FROM TV_series AS T1",
+    "readable_query": "SELECT avg( tv_series.id) FROM TV_series AS tv_series"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.id) FROM Cartoon AS T1",
+    "readable_query": "SELECT avg( cartoon.id) FROM Cartoon AS cartoon"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Weekly_Rank) FROM TV_series AS T1",
+    "readable_query": "SELECT avg( tv_series.Weekly_Rank) FROM TV_series AS tv_series"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Content FROM TV_Channel AS T1",
+    "readable_query": "SELECT tv_channel.Content FROM TV_Channel AS tv_channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Pixel_aspect_ratio_PAR FROM TV_Channel AS T1",
+    "readable_query": "SELECT tv_channel.Pixel_aspect_ratio_PAR FROM TV_Channel AS tv_channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Original_air_date FROM Cartoon AS T1",
+    "readable_query": "SELECT cartoon.Original_air_date FROM Cartoon AS cartoon"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.id FROM Cartoon AS T1",
+    "readable_query": "SELECT cartoon.id FROM Cartoon AS cartoon"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Production_code FROM Cartoon AS T1",
+    "readable_query": "SELECT cartoon.Production_code FROM Cartoon AS cartoon"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Channel FROM Cartoon AS T1",
+    "readable_query": "SELECT cartoon.Channel FROM Cartoon AS cartoon"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Written_by FROM Cartoon AS T1",
+    "readable_query": "SELECT cartoon.Written_by FROM Cartoon AS cartoon"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Title FROM Cartoon AS T1",
+    "readable_query": "SELECT cartoon.Title FROM Cartoon AS cartoon"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Hight_definition_TV FROM TV_Channel AS T1",
+    "readable_query": "SELECT tv_channel.Hight_definition_TV FROM TV_Channel AS tv_channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Share FROM TV_series AS T1",
+    "readable_query": "SELECT tv_series.Share FROM TV_series AS tv_series"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.series_name FROM TV_Channel AS T1",
+    "readable_query": "SELECT DISTINCT tv_channel.series_name FROM TV_Channel AS tv_channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Written_by FROM Cartoon AS T1",
+    "readable_query": "SELECT DISTINCT cartoon.Written_by FROM Cartoon AS cartoon"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Channel FROM TV_series AS T1",
+    "readable_query": "SELECT DISTINCT tv_series.Channel FROM TV_series AS tv_series"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Episode FROM TV_series AS T1",
+    "readable_query": "SELECT DISTINCT tv_series.Episode FROM TV_series AS tv_series"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.id FROM TV_series AS T1",
+    "readable_query": "SELECT DISTINCT tv_series.id FROM TV_series AS tv_series"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Channel FROM Cartoon AS T1",
+    "readable_query": "SELECT DISTINCT cartoon.Channel FROM Cartoon AS cartoon"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Share FROM TV_series AS T1",
+    "readable_query": "SELECT DISTINCT tv_series.Share FROM TV_series AS tv_series"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.18_49_Rating_Share FROM TV_series AS T1",
+    "readable_query": "SELECT DISTINCT tv_series.18_49_Rating_Share FROM TV_series AS tv_series"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Pay_per_view_PPV FROM TV_Channel AS T1",
+    "readable_query": "SELECT DISTINCT tv_channel.Pay_per_view_PPV FROM TV_Channel AS tv_channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Package_Option FROM TV_Channel AS T1",
+    "readable_query": "SELECT DISTINCT tv_channel.Package_Option FROM TV_Channel AS tv_channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Directed_by FROM Cartoon AS T1     ORDER BY T1.id ASC",
+    "readable_query": "SELECT cartoon.Directed_by FROM Cartoon AS cartoon     ORDER BY cartoon.id ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Weekly_Rank FROM TV_series AS T1     ORDER BY T1.Share ASC",
+    "readable_query": "SELECT tv_series.Weekly_Rank FROM TV_series AS tv_series     ORDER BY tv_series.Share ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Channel FROM Cartoon AS T1     ORDER BY T1.id ASC",
+    "readable_query": "SELECT cartoon.Channel FROM Cartoon AS cartoon     ORDER BY cartoon.id ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Written_by FROM Cartoon AS T1     ORDER BY T1.Production_code ASC",
+    "readable_query": "SELECT cartoon.Written_by FROM Cartoon AS cartoon     ORDER BY cartoon.Production_code ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Production_code FROM Cartoon AS T1     ORDER BY T1.id ASC",
+    "readable_query": "SELECT cartoon.Production_code FROM Cartoon AS cartoon     ORDER BY cartoon.id ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Air_Date FROM TV_series AS T1     ORDER BY T1.Share ASC",
+    "readable_query": "SELECT tv_series.Air_Date FROM TV_series AS tv_series     ORDER BY tv_series.Share ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Share FROM TV_series AS T1     ORDER BY T1.Weekly_Rank ASC",
+    "readable_query": "SELECT tv_series.Share FROM TV_series AS tv_series     ORDER BY tv_series.Weekly_Rank ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.id FROM TV_series AS T1     ORDER BY T1.Share ASC",
+    "readable_query": "SELECT tv_series.id FROM TV_series AS tv_series     ORDER BY tv_series.Share ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.id FROM Cartoon AS T1     ORDER BY T1.Production_code ASC",
+    "readable_query": "SELECT cartoon.id FROM Cartoon AS cartoon     ORDER BY cartoon.Production_code ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Episode FROM TV_series AS T1     ORDER BY T1.Weekly_Rank ASC",
+    "readable_query": "SELECT tv_series.Episode FROM TV_series AS tv_series     ORDER BY tv_series.Weekly_Rank ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Air_Date FROM TV_series AS T1     ORDER BY T1.id DESC",
+    "readable_query": "SELECT tv_series.Air_Date FROM TV_series AS tv_series     ORDER BY tv_series.id DESC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Rating FROM TV_series AS T1     ORDER BY T1.id DESC",
+    "readable_query": "SELECT tv_series.Rating FROM TV_series AS tv_series     ORDER BY tv_series.id DESC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Channel FROM Cartoon AS T1     ORDER BY T1.id DESC",
+    "readable_query": "SELECT cartoon.Channel FROM Cartoon AS cartoon     ORDER BY cartoon.id DESC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Share FROM TV_series AS T1     ORDER BY T1.Weekly_Rank DESC",
+    "readable_query": "SELECT tv_series.Share FROM TV_series AS tv_series     ORDER BY tv_series.Weekly_Rank DESC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Channel FROM TV_series AS T1     ORDER BY T1.Share DESC",
+    "readable_query": "SELECT tv_series.Channel FROM TV_series AS tv_series     ORDER BY tv_series.Share DESC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Original_air_date FROM Cartoon AS T1     ORDER BY T1.Production_code DESC",
+    "readable_query": "SELECT cartoon.Original_air_date FROM Cartoon AS cartoon     ORDER BY cartoon.Production_code DESC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Title FROM Cartoon AS T1     ORDER BY T1.id DESC",
+    "readable_query": "SELECT cartoon.Title FROM Cartoon AS cartoon     ORDER BY cartoon.id DESC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.id FROM TV_series AS T1     ORDER BY T1.Weekly_Rank DESC",
+    "readable_query": "SELECT tv_series.id FROM TV_series AS tv_series     ORDER BY tv_series.Weekly_Rank DESC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Title FROM Cartoon AS T1     ORDER BY T1.Production_code DESC",
+    "readable_query": "SELECT cartoon.Title FROM Cartoon AS cartoon     ORDER BY cartoon.Production_code DESC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.18_49_Rating_Share FROM TV_series AS T1     ORDER BY T1.id DESC",
+    "readable_query": "SELECT tv_series.18_49_Rating_Share FROM TV_series AS tv_series     ORDER BY tv_series.id DESC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Original_air_date, T1.Written_by FROM Cartoon AS T1     ORDER BY T1.Written_by ASC",
+    "readable_query": "SELECT cartoon.Original_air_date, cartoon.Written_by FROM Cartoon AS cartoon     ORDER BY cartoon.Written_by ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Channel, T1.Episode FROM TV_series AS T1     ORDER BY T1.Episode ASC",
+    "readable_query": "SELECT tv_series.Channel, tv_series.Episode FROM TV_series AS tv_series     ORDER BY tv_series.Episode ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Production_code, T1.Title FROM Cartoon AS T1     ORDER BY T1.Title ASC",
+    "readable_query": "SELECT cartoon.Production_code, cartoon.Title FROM Cartoon AS cartoon     ORDER BY cartoon.Title ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Hight_definition_TV, T1.Content FROM TV_Channel AS T1     ORDER BY T1.Content ASC",
+    "readable_query": "SELECT tv_channel.Hight_definition_TV, tv_channel.Content FROM TV_Channel AS tv_channel     ORDER BY tv_channel.Content ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Title, T1.Production_code FROM Cartoon AS T1     ORDER BY T1.Production_code ASC",
+    "readable_query": "SELECT cartoon.Title, cartoon.Production_code FROM Cartoon AS cartoon     ORDER BY cartoon.Production_code ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Package_Option, T1.series_name FROM TV_Channel AS T1     ORDER BY T1.series_name ASC",
+    "readable_query": "SELECT tv_channel.Package_Option, tv_channel.series_name FROM TV_Channel AS tv_channel     ORDER BY tv_channel.series_name ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Title, T1.Directed_by FROM Cartoon AS T1     ORDER BY T1.Directed_by ASC",
+    "readable_query": "SELECT cartoon.Title, cartoon.Directed_by FROM Cartoon AS cartoon     ORDER BY cartoon.Directed_by ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Share, T1.Viewers_m FROM TV_series AS T1     ORDER BY T1.Viewers_m ASC",
+    "readable_query": "SELECT tv_series.Share, tv_series.Viewers_m FROM TV_series AS tv_series     ORDER BY tv_series.Viewers_m ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Episode, T1.Share FROM TV_series AS T1     ORDER BY T1.Share ASC",
+    "readable_query": "SELECT tv_series.Episode, tv_series.Share FROM TV_series AS tv_series     ORDER BY tv_series.Share ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.id, T1.Channel FROM Cartoon AS T1     ORDER BY T1.Channel ASC",
+    "readable_query": "SELECT cartoon.id, cartoon.Channel FROM Cartoon AS cartoon     ORDER BY cartoon.Channel ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Title FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id JOIN TV_series AS T3 ON T2.id = T3.Channel WHERE T2.Pixel_aspect_ratio_PAR = \"4:3\" and T3.Viewers_m = \"8.23\"",
+    "readable_query": "SELECT cartoon.Title FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_channel.Pixel_aspect_ratio_PAR = \"4:3\" and tv_series.Viewers_m = \"8.23\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Directed_by FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id JOIN TV_series AS T3 ON T2.id = T3.Channel WHERE T2.Hight_definition_TV = \"yes\" and T3.Rating = \"4.0\"",
+    "readable_query": "SELECT cartoon.Directed_by FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_channel.Hight_definition_TV = \"yes\" and tv_series.Rating = \"4.0\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Air_Date FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id JOIN Cartoon AS T3 ON T2.id = T3.Channel WHERE T2.Country = \"United Kingdom\" and T3.Channel = \"728\"",
+    "readable_query": "SELECT tv_series.Air_Date FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE tv_channel.Country = \"United Kingdom\" and cartoon.Channel = \"728\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Channel FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id JOIN TV_series AS T3 ON T2.id = T3.Channel WHERE T2.Content = \"music\" and T3.id = 3.0",
+    "readable_query": "SELECT cartoon.Channel FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_channel.Content = \"music\" and tv_series.id = 3.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Written_by FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id JOIN TV_series AS T3 ON T2.id = T3.Channel WHERE T2.Package_Option = \"Sky Famiglia + Sky HD\" and T3.Episode = \"Winterland\"",
+    "readable_query": "SELECT cartoon.Written_by FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_channel.Package_Option = \"Sky Famiglia + Sky HD\" and tv_series.Episode = \"Winterland\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Language FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel JOIN Cartoon AS T3 ON T1.id = T3.Channel WHERE T2.Channel = \"708\" and T3.Production_code = 110.0",
+    "readable_query": "SELECT tv_channel.Language FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE tv_series.Channel = \"708\" and cartoon.Production_code = 110.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.id FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id JOIN TV_series AS T3 ON T2.id = T3.Channel WHERE T2.Pixel_aspect_ratio_PAR = \"16:9\" and T3.Viewers_m = \"6.06\"",
+    "readable_query": "SELECT cartoon.id FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_channel.Pixel_aspect_ratio_PAR = \"16:9\" and tv_series.Viewers_m = \"6.06\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.series_name FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel JOIN Cartoon AS T3 ON T1.id = T3.Channel WHERE T2.Viewers_m = \"4.24\" and T3.Original_air_date = \"December12,2008\"",
+    "readable_query": "SELECT tv_channel.series_name FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE tv_series.Viewers_m = \"4.24\" and cartoon.Original_air_date = \"December12,2008\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.18_49_Rating_Share FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id JOIN Cartoon AS T3 ON T2.id = T3.Channel WHERE T2.Pay_per_view_PPV = \"no\" and T3.Production_code = 111.0",
+    "readable_query": "SELECT tv_series.18_49_Rating_Share FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE tv_channel.Pay_per_view_PPV = \"no\" and cartoon.Production_code = 111.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Pixel_aspect_ratio_PAR FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel JOIN Cartoon AS T3 ON T1.id = T3.Channel WHERE T2.Viewers_m = \"5.75\" and T3.Written_by = \"Adam Beechen\"",
+    "readable_query": "SELECT tv_channel.Pixel_aspect_ratio_PAR FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE tv_series.Viewers_m = \"5.75\" and cartoon.Written_by = \"Adam Beechen\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Episode FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Package_Option = \"Option\" or T2.Package_Option = \"Sky Famiglia + Sky HD\"",
+    "readable_query": "SELECT tv_series.Episode FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_channel.Package_Option = \"Option\" or tv_channel.Package_Option = \"Sky Famiglia + Sky HD\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Title FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Pay_per_view_PPV = \"no\" or T2.Pay_per_view_PPV = \"no\"",
+    "readable_query": "SELECT cartoon.Title FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.Pay_per_view_PPV = \"no\" or tv_channel.Pay_per_view_PPV = \"no\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Package_Option FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel WHERE T2.Air_Date = \"October 1, 2007\" or T2.Air_Date = \"December 10, 2007\"",
+    "readable_query": "SELECT tv_channel.Package_Option FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_series.Air_Date = \"October 1, 2007\" or tv_series.Air_Date = \"December 10, 2007\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Pay_per_view_PPV FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel WHERE T2.Title = \"Deep Cover for Batman!\" or T2.Title = \"Evil Under the Sea!\"",
+    "readable_query": "SELECT tv_channel.Pay_per_view_PPV FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE cartoon.Title = \"Deep Cover for Batman!\" or cartoon.Title = \"Evil Under the Sea!\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Channel FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.series_name = \"Sky Radio\" or T2.series_name = \"MTV Classic\"",
+    "readable_query": "SELECT cartoon.Channel FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.series_name = \"Sky Radio\" or tv_channel.series_name = \"MTV Classic\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Production_code FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Package_Option = \"Option\" or T2.Package_Option = \"Sky Famiglia\"",
+    "readable_query": "SELECT cartoon.Production_code FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.Package_Option = \"Option\" or tv_channel.Package_Option = \"Sky Famiglia\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Channel FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Package_Option = \"Option\" or T2.Package_Option = \"Sky Famiglia\"",
+    "readable_query": "SELECT cartoon.Channel FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.Package_Option = \"Option\" or tv_channel.Package_Option = \"Sky Famiglia\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Pay_per_view_PPV FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel WHERE T2.Written_by = \"Matt Wayne\" or T2.Written_by = \"Steven Melching\"",
+    "readable_query": "SELECT tv_channel.Pay_per_view_PPV FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE cartoon.Written_by = \"Matt Wayne\" or cartoon.Written_by = \"Steven Melching\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Hight_definition_TV FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel WHERE T2.Weekly_Rank = 80.0 or T2.Weekly_Rank = 71.0",
+    "readable_query": "SELECT tv_channel.Hight_definition_TV FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_series.Weekly_Rank = 80.0 or tv_series.Weekly_Rank = 71.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Production_code FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Hight_definition_TV = \"yes\" or T2.Hight_definition_TV = \"yes\"",
+    "readable_query": "SELECT cartoon.Production_code FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.Hight_definition_TV = \"yes\" or tv_channel.Hight_definition_TV = \"yes\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Share FROM TV_series AS T1 WHERE T1.Viewers_m = \"4.24\" and T1.Episode = \"Blowback\"",
+    "readable_query": "SELECT tv_series.Share FROM TV_series AS tv_series WHERE tv_series.Viewers_m = \"4.24\" and tv_series.Episode = \"Blowback\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Share FROM TV_series AS T1 WHERE T1.Rating = \"3.4\" and T1.Channel = \"713\"",
+    "readable_query": "SELECT tv_series.Share FROM TV_series AS tv_series WHERE tv_series.Rating = \"3.4\" and tv_series.Channel = \"713\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Weekly_Rank FROM TV_series AS T1 WHERE T1.Channel = \"714\" and T1.Episode = \"The Hanged Man\"",
+    "readable_query": "SELECT tv_series.Weekly_Rank FROM TV_series AS tv_series WHERE tv_series.Channel = \"714\" and tv_series.Episode = \"The Hanged Man\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Package_Option FROM TV_Channel AS T1 WHERE T1.Content = \"music\" and T1.Language = \"English\"",
+    "readable_query": "SELECT tv_channel.Package_Option FROM TV_Channel AS tv_channel WHERE tv_channel.Content = \"music\" and tv_channel.Language = \"English\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Original_air_date FROM Cartoon AS T1 WHERE T1.Production_code = 111.0 and T1.id = 12.0",
+    "readable_query": "SELECT cartoon.Original_air_date FROM Cartoon AS cartoon WHERE cartoon.Production_code = 111.0 and cartoon.id = 12.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.id FROM TV_Channel AS T1 WHERE T1.Package_Option = \"Sky Famiglia\" and T1.Content = \"music\"",
+    "readable_query": "SELECT tv_channel.id FROM TV_Channel AS tv_channel WHERE tv_channel.Package_Option = \"Sky Famiglia\" and tv_channel.Content = \"music\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Weekly_Rank FROM TV_series AS T1 WHERE T1.Rating = \"3.8\" and T1.id = 11.0",
+    "readable_query": "SELECT tv_series.Weekly_Rank FROM TV_series AS tv_series WHERE tv_series.Rating = \"3.8\" and tv_series.id = 11.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Air_Date FROM TV_series AS T1 WHERE T1.Episode = \"Double Down\" and T1.id = 2.0",
+    "readable_query": "SELECT tv_series.Air_Date FROM TV_series AS tv_series WHERE tv_series.Episode = \"Double Down\" and tv_series.id = 2.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Directed_by FROM Cartoon AS T1 WHERE T1.id = 8.0 and T1.Title = \"Invasion of the Secret Santas!\"",
+    "readable_query": "SELECT cartoon.Directed_by FROM Cartoon AS cartoon WHERE cartoon.id = 8.0 and cartoon.Title = \"Invasion of the Secret Santas!\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Episode FROM TV_series AS T1 WHERE T1.Share = 9.0 and T1.Air_Date = \"December 10, 2007\"",
+    "readable_query": "SELECT tv_series.Episode FROM TV_series AS tv_series WHERE tv_series.Share = 9.0 and tv_series.Air_Date = \"December 10, 2007\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Share) FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T1.Channel = \"719\" and T2.Content = \"music\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  tv_series.Share) FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_series.Channel = \"719\" and tv_channel.Content = \"music\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.id) FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T1.Air_Date = \"November 5, 2007\" and T2.Package_Option = \"no ( FTV )\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  tv_series.id) FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_series.Air_Date = \"November 5, 2007\" and tv_channel.Package_Option = \"no ( FTV )\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.18_49_Rating_Share) FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T1.Episode = \"Friendly Skies\" and T2.Pixel_aspect_ratio_PAR = \"4:3\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  tv_series.18_49_Rating_Share) FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_series.Episode = \"Friendly Skies\" and tv_channel.Pixel_aspect_ratio_PAR = \"4:3\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Viewers_m) FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T1.Air_Date = \"October 8, 2007\" and T2.Package_Option = \"Sky Famiglia\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  tv_series.Viewers_m) FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_series.Air_Date = \"October 8, 2007\" and tv_channel.Package_Option = \"Sky Famiglia\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Rating) FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T1.Share = 6.0 and T2.Hight_definition_TV = \"yes\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  tv_series.Rating) FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_series.Share = 6.0 and tv_channel.Hight_definition_TV = \"yes\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Episode) FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T1.Viewers_m = \"6.94\" and T2.Package_Option = \"no ( FTV )\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  tv_series.Episode) FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_series.Viewers_m = \"6.94\" and tv_channel.Package_Option = \"no ( FTV )\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Title) FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T1.Original_air_date = \"January16,2009\" and T2.Pixel_aspect_ratio_PAR = \"4:3\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  cartoon.Title) FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE cartoon.Original_air_date = \"January16,2009\" and tv_channel.Pixel_aspect_ratio_PAR = \"4:3\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Channel) FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T1.Viewers_m = \"6.05\" and T2.Pay_per_view_PPV = \"no\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  tv_series.Channel) FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_series.Viewers_m = \"6.05\" and tv_channel.Pay_per_view_PPV = \"no\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Channel) FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T1.Share = 5.0 and T2.Pay_per_view_PPV = \"no\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  tv_series.Channel) FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_series.Share = 5.0 and tv_channel.Pay_per_view_PPV = \"no\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Pay_per_view_PPV) FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel WHERE T1.id = \"728\" and T2.Production_code = 112.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  tv_channel.Pay_per_view_PPV) FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE tv_channel.id = \"728\" and cartoon.Production_code = 112.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Production_code FROM Cartoon AS T1 WHERE T1.id = 10.0 or T1.Original_air_date = \"November21,2008\"",
+    "readable_query": "SELECT cartoon.Production_code FROM Cartoon AS cartoon WHERE cartoon.id = 10.0 or cartoon.Original_air_date = \"November21,2008\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Channel FROM TV_series AS T1 WHERE T1.Episode = \"The Hanged Man\" or T1.Viewers_m = \"5.13\"",
+    "readable_query": "SELECT tv_series.Channel FROM TV_series AS tv_series WHERE tv_series.Episode = \"The Hanged Man\" or tv_series.Viewers_m = \"5.13\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Pay_per_view_PPV FROM TV_Channel AS T1 WHERE T1.id = \"713\" or T1.Content = \"music\"",
+    "readable_query": "SELECT tv_channel.Pay_per_view_PPV FROM TV_Channel AS tv_channel WHERE tv_channel.id = \"713\" or tv_channel.Content = \"music\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.id FROM TV_series AS T1 WHERE T1.Share = 9.0 or T1.Air_Date = \"December 17, 2007\"",
+    "readable_query": "SELECT tv_series.id FROM TV_series AS tv_series WHERE tv_series.Share = 9.0 or tv_series.Air_Date = \"December 17, 2007\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Pixel_aspect_ratio_PAR FROM TV_Channel AS T1 WHERE T1.series_name = \"MTV Music\" or T1.Language = \"English\"",
+    "readable_query": "SELECT tv_channel.Pixel_aspect_ratio_PAR FROM TV_Channel AS tv_channel WHERE tv_channel.series_name = \"MTV Music\" or tv_channel.Language = \"English\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Viewers_m FROM TV_series AS T1 WHERE T1.Weekly_Rank = 72.0 or T1.id = 6.0",
+    "readable_query": "SELECT tv_series.Viewers_m FROM TV_series AS tv_series WHERE tv_series.Weekly_Rank = 72.0 or tv_series.id = 6.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Channel FROM Cartoon AS T1 WHERE T1.Original_air_date = \"February27,2009\" or T1.Title = \"The Rise of the Blue Beetle!\"",
+    "readable_query": "SELECT cartoon.Channel FROM Cartoon AS cartoon WHERE cartoon.Original_air_date = \"February27,2009\" or cartoon.Title = \"The Rise of the Blue Beetle!\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Original_air_date FROM Cartoon AS T1 WHERE T1.Directed_by = \"Brandon Vietti\" or T1.Title = \"Enter the Outsiders!\"",
+    "readable_query": "SELECT cartoon.Original_air_date FROM Cartoon AS cartoon WHERE cartoon.Directed_by = \"Brandon Vietti\" or cartoon.Title = \"Enter the Outsiders!\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Pixel_aspect_ratio_PAR FROM TV_Channel AS T1 WHERE T1.id = \"705\" or T1.Language = \"Italian\"",
+    "readable_query": "SELECT tv_channel.Pixel_aspect_ratio_PAR FROM TV_Channel AS tv_channel WHERE tv_channel.id = \"705\" or tv_channel.Language = \"Italian\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Content FROM TV_Channel AS T1 WHERE T1.series_name = \"myDeejay\" or T1.Package_Option = \"Option\"",
+    "readable_query": "SELECT tv_channel.Content FROM TV_Channel AS tv_channel WHERE tv_channel.series_name = \"myDeejay\" or tv_channel.Package_Option = \"Option\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Pay_per_view_PPV = \"no\" and T2.Pixel_aspect_ratio_PAR = \"4:3 / 16:9\"",
+    "readable_query": "SELECT count(*) FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.Pay_per_view_PPV = \"no\" and tv_channel.Pixel_aspect_ratio_PAR = \"4:3 / 16:9\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Pixel_aspect_ratio_PAR = \"4:3 / 16:9\" and T2.Hight_definition_TV = \"no\"",
+    "readable_query": "SELECT count(*) FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_channel.Pixel_aspect_ratio_PAR = \"4:3 / 16:9\" and tv_channel.Hight_definition_TV = \"no\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Pixel_aspect_ratio_PAR = \"4:3\" and T2.Content = \"music\"",
+    "readable_query": "SELECT count(*) FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_channel.Pixel_aspect_ratio_PAR = \"4:3\" and tv_channel.Content = \"music\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel WHERE T2.Title = \"Terror on Dinosaur Island!\" and T2.Production_code = 102.0",
+    "readable_query": "SELECT count(*) FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE cartoon.Title = \"Terror on Dinosaur Island!\" and cartoon.Production_code = 102.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.series_name = \"MTV Music\" and T2.Package_Option = \"Sky Famiglia\"",
+    "readable_query": "SELECT count(*) FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.series_name = \"MTV Music\" and tv_channel.Package_Option = \"Sky Famiglia\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Hight_definition_TV = \"yes\" and T2.Pay_per_view_PPV = \"no\"",
+    "readable_query": "SELECT count(*) FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_channel.Hight_definition_TV = \"yes\" and tv_channel.Pay_per_view_PPV = \"no\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel WHERE T2.Production_code = 110.0 and T2.id = 12.0",
+    "readable_query": "SELECT count(*) FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE cartoon.Production_code = 110.0 and cartoon.id = 12.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Package_Option = \"no ( FTV )\" and T2.Content = \"music\"",
+    "readable_query": "SELECT count(*) FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.Package_Option = \"no ( FTV )\" and tv_channel.Content = \"music\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Language = \"English\" and T2.Content = \"music\"",
+    "readable_query": "SELECT count(*) FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_channel.Language = \"English\" and tv_channel.Content = \"music\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel WHERE T2.Written_by = \"Michael Jelenic\" and T2.Title = \"Deep Cover for Batman!\"",
+    "readable_query": "SELECT count(*) FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE cartoon.Written_by = \"Michael Jelenic\" and cartoon.Title = \"Deep Cover for Batman!\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Channel FROM TV_series AS T1 WHERE T1.Rating != \"5.3\"",
+    "readable_query": "SELECT tv_series.Channel FROM TV_series AS tv_series WHERE tv_series.Rating != \"5.3\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Written_by FROM Cartoon AS T1 WHERE T1.Production_code != 107.0",
+    "readable_query": "SELECT cartoon.Written_by FROM Cartoon AS cartoon WHERE cartoon.Production_code != 107.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.id FROM Cartoon AS T1 WHERE T1.Title != \"Day of the Dark Knight!\"",
+    "readable_query": "SELECT cartoon.id FROM Cartoon AS cartoon WHERE cartoon.Title != \"Day of the Dark Knight!\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Episode FROM TV_series AS T1 WHERE T1.id != 1.0",
+    "readable_query": "SELECT tv_series.Episode FROM TV_series AS tv_series WHERE tv_series.id != 1.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Hight_definition_TV FROM TV_Channel AS T1 WHERE T1.Country != \"United Kingdom\"",
+    "readable_query": "SELECT tv_channel.Hight_definition_TV FROM TV_Channel AS tv_channel WHERE tv_channel.Country != \"United Kingdom\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Production_code FROM Cartoon AS T1 WHERE T1.id != 6.0",
+    "readable_query": "SELECT cartoon.Production_code FROM Cartoon AS cartoon WHERE cartoon.id != 6.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Air_Date FROM TV_series AS T1 WHERE T1.Channel != \"713\"",
+    "readable_query": "SELECT tv_series.Air_Date FROM TV_series AS tv_series WHERE tv_series.Channel != \"713\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Language FROM TV_Channel AS T1 WHERE T1.Package_Option != \"Option\"",
+    "readable_query": "SELECT tv_channel.Language FROM TV_Channel AS tv_channel WHERE tv_channel.Package_Option != \"Option\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Original_air_date FROM Cartoon AS T1 WHERE T1.Written_by != \"James Krieg\"",
+    "readable_query": "SELECT cartoon.Original_air_date FROM Cartoon AS cartoon WHERE cartoon.Written_by != \"James Krieg\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Share FROM TV_series AS T1 WHERE T1.Air_Date != \"October 22, 2007\"",
+    "readable_query": "SELECT tv_series.Share FROM TV_series AS tv_series WHERE tv_series.Air_Date != \"October 22, 2007\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.18_49_Rating_Share FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Pixel_aspect_ratio_PAR != \"16:9\"",
+    "readable_query": "SELECT tv_series.18_49_Rating_Share FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_channel.Pixel_aspect_ratio_PAR != \"16:9\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Viewers_m FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Language != \"English\"",
+    "readable_query": "SELECT tv_series.Viewers_m FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_channel.Language != \"English\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Channel FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Language != \"English\"",
+    "readable_query": "SELECT cartoon.Channel FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.Language != \"English\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Content FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel WHERE T2.Weekly_Rank != 61.0",
+    "readable_query": "SELECT tv_channel.Content FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_series.Weekly_Rank != 61.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Content FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel WHERE T2.Air_Date != \"September 24, 2007\"",
+    "readable_query": "SELECT tv_channel.Content FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_series.Air_Date != \"September 24, 2007\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Share FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Pixel_aspect_ratio_PAR != \"4:3\"",
+    "readable_query": "SELECT tv_series.Share FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_channel.Pixel_aspect_ratio_PAR != \"4:3\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Hight_definition_TV FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel WHERE T2.Rating != \"4.3\"",
+    "readable_query": "SELECT tv_channel.Hight_definition_TV FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_series.Rating != \"4.3\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Original_air_date FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.series_name != \"Music Box Italia\"",
+    "readable_query": "SELECT cartoon.Original_air_date FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.series_name != \"Music Box Italia\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Episode FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Country != \"Italy\"",
+    "readable_query": "SELECT tv_series.Episode FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_channel.Country != \"Italy\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Language FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel WHERE T2.Viewers_m != \"9.16\"",
+    "readable_query": "SELECT tv_channel.Language FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_series.Viewers_m != \"9.16\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.id FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Package_Option = \"Sky Famiglia + Sky HD\"",
+    "readable_query": "SELECT DISTINCT cartoon.id FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.Package_Option = \"Sky Famiglia + Sky HD\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Share FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Hight_definition_TV = \"yes\"",
+    "readable_query": "SELECT DISTINCT tv_series.Share FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_channel.Hight_definition_TV = \"yes\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Air_Date FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Hight_definition_TV = \"yes\"",
+    "readable_query": "SELECT DISTINCT tv_series.Air_Date FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_channel.Hight_definition_TV = \"yes\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Hight_definition_TV FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel WHERE T2.Air_Date = \"November 26, 2007\"",
+    "readable_query": "SELECT DISTINCT tv_channel.Hight_definition_TV FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_series.Air_Date = \"November 26, 2007\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Country FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel WHERE T2.Original_air_date = \"February20,2009\"",
+    "readable_query": "SELECT DISTINCT tv_channel.Country FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE cartoon.Original_air_date = \"February20,2009\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.id FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Country = \"United Kingdom\"",
+    "readable_query": "SELECT DISTINCT cartoon.id FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.Country = \"United Kingdom\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Original_air_date FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Hight_definition_TV = \"no\"",
+    "readable_query": "SELECT DISTINCT cartoon.Original_air_date FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.Hight_definition_TV = \"no\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Package_Option FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel WHERE T2.Title = \"Terror on Dinosaur Island!\"",
+    "readable_query": "SELECT DISTINCT tv_channel.Package_Option FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE cartoon.Title = \"Terror on Dinosaur Island!\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Air_Date FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Pixel_aspect_ratio_PAR = \"4:3\"",
+    "readable_query": "SELECT DISTINCT tv_series.Air_Date FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id WHERE tv_channel.Pixel_aspect_ratio_PAR = \"4:3\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Production_code FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Language = \"English\"",
+    "readable_query": "SELECT DISTINCT cartoon.Production_code FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.Language = \"English\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Pixel_aspect_ratio_PAR) FROM TV_Channel AS T1 WHERE T1.Content = \"music\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  tv_channel.Pixel_aspect_ratio_PAR) FROM TV_Channel AS tv_channel WHERE tv_channel.Content = \"music\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Title) FROM Cartoon AS T1 WHERE T1.id = 7.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  cartoon.Title) FROM Cartoon AS cartoon WHERE cartoon.id = 7.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Title) FROM Cartoon AS T1 WHERE T1.Written_by = \"Adam Beechen\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  cartoon.Title) FROM Cartoon AS cartoon WHERE cartoon.Written_by = \"Adam Beechen\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Hight_definition_TV) FROM TV_Channel AS T1 WHERE T1.id = \"709\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  tv_channel.Hight_definition_TV) FROM TV_Channel AS tv_channel WHERE tv_channel.id = \"709\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Production_code) FROM Cartoon AS T1 WHERE T1.id = 1.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  cartoon.Production_code) FROM Cartoon AS cartoon WHERE cartoon.id = 1.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Pay_per_view_PPV) FROM TV_Channel AS T1 WHERE T1.series_name = \"Hip Hop TV\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  tv_channel.Pay_per_view_PPV) FROM TV_Channel AS tv_channel WHERE tv_channel.series_name = \"Hip Hop TV\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.id) FROM TV_series AS T1 WHERE T1.Share = 5.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  tv_series.id) FROM TV_series AS tv_series WHERE tv_series.Share = 5.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Channel) FROM Cartoon AS T1 WHERE T1.id = 5.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  cartoon.Channel) FROM Cartoon AS cartoon WHERE cartoon.id = 5.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.id) FROM Cartoon AS T1 WHERE T1.Production_code = 103.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  cartoon.id) FROM Cartoon AS cartoon WHERE cartoon.Production_code = 103.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Original_air_date) FROM Cartoon AS T1 WHERE T1.Directed_by = \"Brandon Vietti\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  cartoon.Original_air_date) FROM Cartoon AS cartoon WHERE cartoon.Directed_by = \"Brandon Vietti\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.id FROM TV_series AS T1 WHERE T1.Weekly_Rank > 65.0",
+    "readable_query": "SELECT tv_series.id FROM TV_series AS tv_series WHERE tv_series.Weekly_Rank > 65.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Title FROM Cartoon AS T1 WHERE T1.id > 10.0",
+    "readable_query": "SELECT cartoon.Title FROM Cartoon AS cartoon WHERE cartoon.id > 10.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Air_Date FROM TV_series AS T1 WHERE T1.Share > 7.0",
+    "readable_query": "SELECT tv_series.Air_Date FROM TV_series AS tv_series WHERE tv_series.Share > 7.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Viewers_m FROM TV_series AS T1 WHERE T1.Share > 6.0",
+    "readable_query": "SELECT tv_series.Viewers_m FROM TV_series AS tv_series WHERE tv_series.Share > 6.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Written_by FROM Cartoon AS T1 WHERE T1.id > 12.0",
+    "readable_query": "SELECT cartoon.Written_by FROM Cartoon AS cartoon WHERE cartoon.id > 12.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Air_Date FROM TV_series AS T1 WHERE T1.Share > 6.0",
+    "readable_query": "SELECT tv_series.Air_Date FROM TV_series AS tv_series WHERE tv_series.Share > 6.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Weekly_Rank FROM TV_series AS T1 WHERE T1.id > 9.0",
+    "readable_query": "SELECT tv_series.Weekly_Rank FROM TV_series AS tv_series WHERE tv_series.id > 9.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.id FROM TV_series AS T1 WHERE T1.Weekly_Rank > 62.0",
+    "readable_query": "SELECT tv_series.id FROM TV_series AS tv_series WHERE tv_series.Weekly_Rank > 62.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Episode FROM TV_series AS T1 WHERE T1.id > 7.0",
+    "readable_query": "SELECT tv_series.Episode FROM TV_series AS tv_series WHERE tv_series.id > 7.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Weekly_Rank FROM TV_series AS T1 WHERE T1.id > 8.0",
+    "readable_query": "SELECT tv_series.Weekly_Rank FROM TV_series AS tv_series WHERE tv_series.id > 8.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Weekly_Rank, T2.Pixel_aspect_ratio_PAR, T3.Directed_by FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id JOIN Cartoon AS T3 ON T2.id = T3.Channel",
+    "readable_query": "SELECT tv_series.Weekly_Rank, tv_channel.Pixel_aspect_ratio_PAR, cartoon.Directed_by FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Channel, T2.Package_Option, T3.Directed_by FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id JOIN Cartoon AS T3 ON T2.id = T3.Channel",
+    "readable_query": "SELECT tv_series.Channel, tv_channel.Package_Option, cartoon.Directed_by FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Title, T2.id, T3.18_49_Rating_Share FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id JOIN TV_series AS T3 ON T2.id = T3.Channel",
+    "readable_query": "SELECT cartoon.Title, tv_channel.id, tv_series.18_49_Rating_Share FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Share, T2.Country, T3.Directed_by FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id JOIN Cartoon AS T3 ON T2.id = T3.Channel",
+    "readable_query": "SELECT tv_series.Share, tv_channel.Country, cartoon.Directed_by FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Channel, T2.Country, T3.Title FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id JOIN Cartoon AS T3 ON T2.id = T3.Channel",
+    "readable_query": "SELECT tv_series.Channel, tv_channel.Country, cartoon.Title FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Channel, T2.Country, T3.Production_code FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id JOIN Cartoon AS T3 ON T2.id = T3.Channel",
+    "readable_query": "SELECT tv_series.Channel, tv_channel.Country, cartoon.Production_code FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Pixel_aspect_ratio_PAR, T2.Title, T3.id FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel JOIN TV_series AS T3 ON T1.id = T3.Channel",
+    "readable_query": "SELECT tv_channel.Pixel_aspect_ratio_PAR, cartoon.Title, tv_series.id FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Share, T2.Pay_per_view_PPV, T3.id FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id JOIN Cartoon AS T3 ON T2.id = T3.Channel",
+    "readable_query": "SELECT tv_series.Share, tv_channel.Pay_per_view_PPV, cartoon.id FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Country, T2.Share, T3.Directed_by FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel JOIN Cartoon AS T3 ON T1.id = T3.Channel",
+    "readable_query": "SELECT tv_channel.Country, tv_series.Share, cartoon.Directed_by FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Package_Option, T2.Channel, T3.Title FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel JOIN Cartoon AS T3 ON T1.id = T3.Channel",
+    "readable_query": "SELECT tv_channel.Package_Option, tv_series.Channel, cartoon.Title FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Pixel_aspect_ratio_PAR FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel     ORDER BY T2.id ASC",
+    "readable_query": "SELECT tv_channel.Pixel_aspect_ratio_PAR FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel     ORDER BY cartoon.id ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.series_name FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel     ORDER BY T2.Production_code ASC",
+    "readable_query": "SELECT tv_channel.series_name FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel     ORDER BY cartoon.Production_code ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.series_name FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel     ORDER BY T2.Share ASC",
+    "readable_query": "SELECT tv_channel.series_name FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel     ORDER BY tv_series.Share ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Pay_per_view_PPV FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel     ORDER BY T2.id ASC",
+    "readable_query": "SELECT tv_channel.Pay_per_view_PPV FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel     ORDER BY tv_series.id ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Content FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel     ORDER BY T2.Production_code ASC",
+    "readable_query": "SELECT tv_channel.Content FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel     ORDER BY cartoon.Production_code ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Country FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel     ORDER BY T2.id ASC",
+    "readable_query": "SELECT tv_channel.Country FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel     ORDER BY tv_series.id ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Package_Option FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel     ORDER BY T2.Production_code ASC",
+    "readable_query": "SELECT tv_channel.Package_Option FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel     ORDER BY cartoon.Production_code ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.series_name FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel     ORDER BY T2.id ASC",
+    "readable_query": "SELECT tv_channel.series_name FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel     ORDER BY cartoon.id ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Package_Option FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel     ORDER BY T2.id ASC",
+    "readable_query": "SELECT tv_channel.Package_Option FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel     ORDER BY cartoon.id ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Content FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel     ORDER BY T2.id ASC",
+    "readable_query": "SELECT tv_channel.Content FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel     ORDER BY cartoon.id ASC"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Production_code FROM Cartoon AS T1 WHERE T1.Channel = \"701\"     INTERSECT SELECT T2.Production_code FROM Cartoon AS T2 WHERE T2.Channel = \"705\"",
+    "readable_query": "SELECT cartoon.Production_code FROM Cartoon AS cartoon WHERE cartoon.Channel = \"701\"     INTERSECT SELECT cartoon.Production_code FROM Cartoon AS cartoon WHERE cartoon.Channel = \"705\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Air_Date FROM TV_series AS T1 WHERE T1.id = 11.0     INTERSECT SELECT T2.Air_Date FROM TV_series AS T2 WHERE T2.id = 7.0",
+    "readable_query": "SELECT tv_series.Air_Date FROM TV_series AS tv_series WHERE tv_series.id = 11.0     INTERSECT SELECT tv_series.Air_Date FROM TV_series AS tv_series WHERE tv_series.id = 7.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Country FROM TV_Channel AS T1 WHERE T1.id = \"705\"     INTERSECT SELECT T2.Country FROM TV_Channel AS T2 WHERE T2.id = \"708\"",
+    "readable_query": "SELECT tv_channel.Country FROM TV_Channel AS tv_channel WHERE tv_channel.id = \"705\"     INTERSECT SELECT tv_channel.Country FROM TV_Channel AS tv_channel WHERE tv_channel.id = \"708\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Content FROM TV_Channel AS T1 WHERE T1.Language = \"Italian\"     INTERSECT SELECT T2.Content FROM TV_Channel AS T2 WHERE T2.Language = \"Italian\"",
+    "readable_query": "SELECT tv_channel.Content FROM TV_Channel AS tv_channel WHERE tv_channel.Language = \"Italian\"     INTERSECT SELECT tv_channel.Content FROM TV_Channel AS tv_channel WHERE tv_channel.Language = \"Italian\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.id FROM Cartoon AS T1 WHERE T1.Original_air_date = \"December5,2008\"     INTERSECT SELECT T2.id FROM Cartoon AS T2 WHERE T2.Original_air_date = \"January9,2009\"",
+    "readable_query": "SELECT cartoon.id FROM Cartoon AS cartoon WHERE cartoon.Original_air_date = \"December5,2008\"     INTERSECT SELECT cartoon.id FROM Cartoon AS cartoon WHERE cartoon.Original_air_date = \"January9,2009\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.id FROM TV_Channel AS T1 WHERE T1.Country = \"United Kingdom\"     INTERSECT SELECT T2.id FROM TV_Channel AS T2 WHERE T2.Country = \"Italy\"",
+    "readable_query": "SELECT tv_channel.id FROM TV_Channel AS tv_channel WHERE tv_channel.Country = \"United Kingdom\"     INTERSECT SELECT tv_channel.id FROM TV_Channel AS tv_channel WHERE tv_channel.Country = \"Italy\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Written_by FROM Cartoon AS T1 WHERE T1.Directed_by = \"Ben Jones\"     INTERSECT SELECT T2.Written_by FROM Cartoon AS T2 WHERE T2.Directed_by = \"Brandon Vietti\"",
+    "readable_query": "SELECT cartoon.Written_by FROM Cartoon AS cartoon WHERE cartoon.Directed_by = \"Ben Jones\"     INTERSECT SELECT cartoon.Written_by FROM Cartoon AS cartoon WHERE cartoon.Directed_by = \"Brandon Vietti\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Weekly_Rank FROM TV_series AS T1 WHERE T1.Channel = \"719\"     INTERSECT SELECT T2.Weekly_Rank FROM TV_series AS T2 WHERE T2.Channel = \"707\"",
+    "readable_query": "SELECT tv_series.Weekly_Rank FROM TV_series AS tv_series WHERE tv_series.Channel = \"719\"     INTERSECT SELECT tv_series.Weekly_Rank FROM TV_series AS tv_series WHERE tv_series.Channel = \"707\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Directed_by FROM Cartoon AS T1 WHERE T1.Written_by = \"Todd Casey\"     INTERSECT SELECT T2.Directed_by FROM Cartoon AS T2 WHERE T2.Written_by = \"Adam Beechen\"",
+    "readable_query": "SELECT cartoon.Directed_by FROM Cartoon AS cartoon WHERE cartoon.Written_by = \"Todd Casey\"     INTERSECT SELECT cartoon.Directed_by FROM Cartoon AS cartoon WHERE cartoon.Written_by = \"Adam Beechen\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Pixel_aspect_ratio_PAR FROM TV_Channel AS T1 WHERE T1.id = \"708\"     INTERSECT SELECT T2.Pixel_aspect_ratio_PAR FROM TV_Channel AS T2 WHERE T2.id = \"706\"",
+    "readable_query": "SELECT tv_channel.Pixel_aspect_ratio_PAR FROM TV_Channel AS tv_channel WHERE tv_channel.id = \"708\"     INTERSECT SELECT tv_channel.Pixel_aspect_ratio_PAR FROM TV_Channel AS tv_channel WHERE tv_channel.id = \"706\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.id) FROM Cartoon AS T1 WHERE T1.Written_by = \"J. M. DeMatteis\"",
+    "readable_query": "SELECT avg( cartoon.id) FROM Cartoon AS cartoon WHERE cartoon.Written_by = \"J. M. DeMatteis\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Production_code) FROM Cartoon AS T1 WHERE T1.Title = \"Day of the Dark Knight!\"",
+    "readable_query": "SELECT avg( cartoon.Production_code) FROM Cartoon AS cartoon WHERE cartoon.Title = \"Day of the Dark Knight!\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.id) FROM TV_series AS T1 WHERE T1.Share = 6.0",
+    "readable_query": "SELECT avg( tv_series.id) FROM TV_series AS tv_series WHERE tv_series.Share = 6.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.id) FROM Cartoon AS T1 WHERE T1.Production_code = 101.0",
+    "readable_query": "SELECT avg( cartoon.id) FROM Cartoon AS cartoon WHERE cartoon.Production_code = 101.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.id) FROM Cartoon AS T1 WHERE T1.Written_by = \"Matt Wayne\"",
+    "readable_query": "SELECT avg( cartoon.id) FROM Cartoon AS cartoon WHERE cartoon.Written_by = \"Matt Wayne\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Weekly_Rank) FROM TV_series AS T1 WHERE T1.Air_Date = \"October 29, 2007\"",
+    "readable_query": "SELECT avg( tv_series.Weekly_Rank) FROM TV_series AS tv_series WHERE tv_series.Air_Date = \"October 29, 2007\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Share) FROM TV_series AS T1 WHERE T1.id = 4.0",
+    "readable_query": "SELECT avg( tv_series.Share) FROM TV_series AS tv_series WHERE tv_series.id = 4.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Weekly_Rank) FROM TV_series AS T1 WHERE T1.Air_Date = \"October 1, 2007\"",
+    "readable_query": "SELECT avg( tv_series.Weekly_Rank) FROM TV_series AS tv_series WHERE tv_series.Air_Date = \"October 1, 2007\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Production_code) FROM Cartoon AS T1 WHERE T1.Original_air_date = \"February20,2009\"",
+    "readable_query": "SELECT avg( cartoon.Production_code) FROM Cartoon AS cartoon WHERE cartoon.Original_air_date = \"February20,2009\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Production_code) FROM Cartoon AS T1 WHERE T1.Channel = \"704\"",
+    "readable_query": "SELECT avg( cartoon.Production_code) FROM Cartoon AS cartoon WHERE cartoon.Channel = \"704\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Content FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel WHERE T2.id = (SELECT max( T23.id) FROM Cartoon AS T23)",
+    "readable_query": "SELECT tv_channel.Content FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE cartoon.id = (SELECT max( cartoon.id) FROM Cartoon AS cartoon)"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Package_Option FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel WHERE T2.Weekly_Rank = (SELECT max( T23.Weekly_Rank) FROM TV_series AS T23)",
+    "readable_query": "SELECT tv_channel.Package_Option FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_series.Weekly_Rank = (SELECT max( tv_series.Weekly_Rank) FROM TV_series AS tv_series)"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Pixel_aspect_ratio_PAR FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel WHERE T2.id = (SELECT max( T23.id) FROM Cartoon AS T23)",
+    "readable_query": "SELECT tv_channel.Pixel_aspect_ratio_PAR FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE cartoon.id = (SELECT max( cartoon.id) FROM Cartoon AS cartoon)"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Package_Option FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel WHERE T2.id = (SELECT max( T23.id) FROM TV_series AS T23)",
+    "readable_query": "SELECT tv_channel.Package_Option FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_series.id = (SELECT max( tv_series.id) FROM TV_series AS tv_series)"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.id FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel WHERE T2.Production_code = (SELECT max( T23.Production_code) FROM Cartoon AS T23)",
+    "readable_query": "SELECT tv_channel.id FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE cartoon.Production_code = (SELECT max( cartoon.Production_code) FROM Cartoon AS cartoon)"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Language FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel WHERE T2.id = (SELECT max( T23.id) FROM Cartoon AS T23)",
+    "readable_query": "SELECT tv_channel.Language FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE cartoon.id = (SELECT max( cartoon.id) FROM Cartoon AS cartoon)"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Language FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel WHERE T2.Production_code = (SELECT max( T23.Production_code) FROM Cartoon AS T23)",
+    "readable_query": "SELECT tv_channel.Language FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE cartoon.Production_code = (SELECT max( cartoon.Production_code) FROM Cartoon AS cartoon)"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.series_name FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel WHERE T2.id = (SELECT max( T23.id) FROM TV_series AS T23)",
+    "readable_query": "SELECT tv_channel.series_name FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_series.id = (SELECT max( tv_series.id) FROM TV_series AS tv_series)"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Pay_per_view_PPV FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel WHERE T2.id = (SELECT max( T23.id) FROM Cartoon AS T23)",
+    "readable_query": "SELECT tv_channel.Pay_per_view_PPV FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE cartoon.id = (SELECT max( cartoon.id) FROM Cartoon AS cartoon)"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Pay_per_view_PPV FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel WHERE T2.id = (SELECT max( T23.id) FROM TV_series AS T23)",
+    "readable_query": "SELECT tv_channel.Pay_per_view_PPV FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_series.id = (SELECT max( tv_series.id) FROM TV_series AS tv_series)"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Share, T2.Language FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id JOIN Cartoon AS T3 ON T2.id = T3.Channel WHERE T3.Original_air_date = \"December5,2008\" and T2.Pixel_aspect_ratio_PAR = \"16:9\"",
+    "readable_query": "SELECT tv_series.Share, tv_channel.Language FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE cartoon.Original_air_date = \"December5,2008\" and tv_channel.Pixel_aspect_ratio_PAR = \"16:9\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Country, T2.Weekly_Rank FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel JOIN Cartoon AS T3 ON T1.id = T3.Channel WHERE T3.Original_air_date = \"January16,2009\" and T2.Air_Date = \"December 17, 2007\"",
+    "readable_query": "SELECT tv_channel.Country, tv_series.Weekly_Rank FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE cartoon.Original_air_date = \"January16,2009\" and tv_series.Air_Date = \"December 17, 2007\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Channel, T2.Pixel_aspect_ratio_PAR FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id JOIN TV_series AS T3 ON T2.id = T3.Channel WHERE T3.id = 10.0 and T2.Pay_per_view_PPV = \"no\"",
+    "readable_query": "SELECT cartoon.Channel, tv_channel.Pixel_aspect_ratio_PAR FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_series.id = 10.0 and tv_channel.Pay_per_view_PPV = \"no\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Original_air_date, T2.series_name FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id JOIN TV_series AS T3 ON T2.id = T3.Channel WHERE T3.Channel = \"708\" and T2.Hight_definition_TV = \"yes\"",
+    "readable_query": "SELECT cartoon.Original_air_date, tv_channel.series_name FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_series.Channel = \"708\" and tv_channel.Hight_definition_TV = \"yes\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.series_name, T2.Production_code FROM TV_Channel AS T1 JOIN Cartoon AS T2 ON T1.id = T2.Channel JOIN TV_series AS T3 ON T1.id = T3.Channel WHERE T3.Share = 6.0 and T2.Title = \"Enter the Outsiders!\"",
+    "readable_query": "SELECT tv_channel.series_name, cartoon.Production_code FROM TV_Channel AS tv_channel JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_series.Share = 6.0 and cartoon.Title = \"Enter the Outsiders!\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Directed_by, T2.Package_Option FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id JOIN TV_series AS T3 ON T2.id = T3.Channel WHERE T3.Air_Date = \"October 8, 2007\" and T2.id = \"719\"",
+    "readable_query": "SELECT cartoon.Directed_by, tv_channel.Package_Option FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_series.Air_Date = \"October 8, 2007\" and tv_channel.id = \"719\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Air_Date, T2.Package_Option FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id JOIN Cartoon AS T3 ON T2.id = T3.Channel WHERE T3.id = 1.0 and T2.Pay_per_view_PPV = \"no\"",
+    "readable_query": "SELECT tv_series.Air_Date, tv_channel.Package_Option FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE cartoon.id = 1.0 and tv_channel.Pay_per_view_PPV = \"no\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Channel, T2.Hight_definition_TV FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id JOIN TV_series AS T3 ON T2.id = T3.Channel WHERE T3.Weekly_Rank = 68.0 and T2.Language = \"English\"",
+    "readable_query": "SELECT cartoon.Channel, tv_channel.Hight_definition_TV FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_series.Weekly_Rank = 68.0 and tv_channel.Language = \"English\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Air_Date, T2.series_name FROM TV_series AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id JOIN Cartoon AS T3 ON T2.id = T3.Channel WHERE T3.id = 5.0 and T2.Language = \"English\"",
+    "readable_query": "SELECT tv_series.Air_Date, tv_channel.series_name FROM TV_series AS tv_series JOIN TV_Channel AS tv_channel ON tv_series.Channel = tv_channel.id JOIN Cartoon AS cartoon ON tv_channel.id = cartoon.Channel WHERE cartoon.id = 5.0 and tv_channel.Language = \"English\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Directed_by, T2.series_name FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id JOIN TV_series AS T3 ON T2.id = T3.Channel WHERE T3.Viewers_m = \"5.13\" and T2.Hight_definition_TV = \"yes\"",
+    "readable_query": "SELECT cartoon.Directed_by, tv_channel.series_name FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_series.Viewers_m = \"5.13\" and tv_channel.Hight_definition_TV = \"yes\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Original_air_date FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Hight_definition_TV = \"no\" GROUP BY T1.Original_air_date  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT cartoon.Original_air_date FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.Hight_definition_TV = \"no\" GROUP BY cartoon.Original_air_date  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.id FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Country = \"United Kingdom\" GROUP BY T1.id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT cartoon.id FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.Country = \"United Kingdom\" GROUP BY cartoon.id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Title FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Language = \"Italian\" GROUP BY T1.Title  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT cartoon.Title FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.Language = \"Italian\" GROUP BY cartoon.Title  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.id FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Language = \"Italian\" GROUP BY T1.id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT cartoon.id FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.Language = \"Italian\" GROUP BY cartoon.id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.id FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel WHERE T2.Rating = \"3.7\" GROUP BY T1.id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.id FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_series.Rating = \"3.7\" GROUP BY tv_channel.id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Country FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel WHERE T2.id = 8.0 GROUP BY T1.Country  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Country FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_series.id = 8.0 GROUP BY tv_channel.Country  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.id FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Pixel_aspect_ratio_PAR = \"4:3\" GROUP BY T1.id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT cartoon.id FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.Pixel_aspect_ratio_PAR = \"4:3\" GROUP BY cartoon.id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Pixel_aspect_ratio_PAR FROM TV_Channel AS T1 JOIN TV_series AS T2 ON T1.id = T2.Channel WHERE T2.Viewers_m = \"5.13\" GROUP BY T1.Pixel_aspect_ratio_PAR  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT tv_channel.Pixel_aspect_ratio_PAR FROM TV_Channel AS tv_channel JOIN TV_series AS tv_series ON tv_channel.id = tv_series.Channel WHERE tv_series.Viewers_m = \"5.13\" GROUP BY tv_channel.Pixel_aspect_ratio_PAR  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Original_air_date FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.id = \"717\" GROUP BY T1.Original_air_date  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT cartoon.Original_air_date FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.id = \"717\" GROUP BY cartoon.Original_air_date  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.id FROM Cartoon AS T1 JOIN TV_Channel AS T2 ON T1.Channel = T2.id WHERE T2.Hight_definition_TV = \"no\" GROUP BY T1.id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT cartoon.id FROM Cartoon AS cartoon JOIN TV_Channel AS tv_channel ON cartoon.Channel = tv_channel.id WHERE tv_channel.Hight_definition_TV = \"no\" GROUP BY cartoon.id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Share FROM TV_series AS T1        EXCEPT SELECT T2.Share FROM TV_series AS T2 WHERE T2.id = 5.0",
+    "readable_query": "SELECT tv_series.Share FROM TV_series AS tv_series        EXCEPT SELECT tv_series.Share FROM TV_series AS tv_series WHERE tv_series.id = 5.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Channel FROM TV_series AS T1        EXCEPT SELECT T2.Channel FROM TV_series AS T2 WHERE T2.Episode = \"The Legend of Dylan McCleen\"",
+    "readable_query": "SELECT tv_series.Channel FROM TV_series AS tv_series        EXCEPT SELECT tv_series.Channel FROM TV_series AS tv_series WHERE tv_series.Episode = \"The Legend of Dylan McCleen\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Original_air_date FROM Cartoon AS T1        EXCEPT SELECT T2.Original_air_date FROM Cartoon AS T2 WHERE T2.Directed_by = \"Ben Jones\"",
+    "readable_query": "SELECT cartoon.Original_air_date FROM Cartoon AS cartoon        EXCEPT SELECT cartoon.Original_air_date FROM Cartoon AS cartoon WHERE cartoon.Directed_by = \"Ben Jones\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Channel FROM Cartoon AS T1        EXCEPT SELECT T2.Channel FROM Cartoon AS T2 WHERE T2.Production_code = 112.0",
+    "readable_query": "SELECT cartoon.Channel FROM Cartoon AS cartoon        EXCEPT SELECT cartoon.Channel FROM Cartoon AS cartoon WHERE cartoon.Production_code = 112.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Production_code FROM Cartoon AS T1        EXCEPT SELECT T2.Production_code FROM Cartoon AS T2 WHERE T2.Directed_by = \"Michael Chang\"",
+    "readable_query": "SELECT cartoon.Production_code FROM Cartoon AS cartoon        EXCEPT SELECT cartoon.Production_code FROM Cartoon AS cartoon WHERE cartoon.Directed_by = \"Michael Chang\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Viewers_m FROM TV_series AS T1        EXCEPT SELECT T2.Viewers_m FROM TV_series AS T2 WHERE T2.id = 11.0",
+    "readable_query": "SELECT tv_series.Viewers_m FROM TV_series AS tv_series        EXCEPT SELECT tv_series.Viewers_m FROM TV_series AS tv_series WHERE tv_series.id = 11.0"
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Production_code FROM Cartoon AS T1        EXCEPT SELECT T2.Production_code FROM Cartoon AS T2 WHERE T2.Written_by = \"Todd Casey\"",
+    "readable_query": "SELECT cartoon.Production_code FROM Cartoon AS cartoon        EXCEPT SELECT cartoon.Production_code FROM Cartoon AS cartoon WHERE cartoon.Written_by = \"Todd Casey\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Language FROM TV_Channel AS T1        EXCEPT SELECT T2.Language FROM TV_Channel AS T2 WHERE T2.Package_Option = \"Sky Famiglia + Sky HD\"",
+    "readable_query": "SELECT tv_channel.Language FROM TV_Channel AS tv_channel        EXCEPT SELECT tv_channel.Language FROM TV_Channel AS tv_channel WHERE tv_channel.Package_Option = \"Sky Famiglia + Sky HD\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Pixel_aspect_ratio_PAR FROM TV_Channel AS T1        EXCEPT SELECT T2.Pixel_aspect_ratio_PAR FROM TV_Channel AS T2 WHERE T2.Hight_definition_TV = \"yes\"",
+    "readable_query": "SELECT tv_channel.Pixel_aspect_ratio_PAR FROM TV_Channel AS tv_channel        EXCEPT SELECT tv_channel.Pixel_aspect_ratio_PAR FROM TV_Channel AS tv_channel WHERE tv_channel.Hight_definition_TV = \"yes\""
+  },
+  {
+    "db_id": "tvshow",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.id FROM Cartoon AS T1        EXCEPT SELECT T2.id FROM Cartoon AS T2 WHERE T2.Written_by = \"Todd Casey\"",
+    "readable_query": "SELECT cartoon.id FROM Cartoon AS cartoon        EXCEPT SELECT cartoon.id FROM Cartoon AS cartoon WHERE cartoon.Written_by = \"Todd Casey\""
+  }
+]

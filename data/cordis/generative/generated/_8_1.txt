@@ -1,0 +1,28 @@
+SELECT topics.code FROM topics WHERE topics.rcn != '664680'
+
+###
+
+
+Original Query:
+SELECT topics.code FROM topics WHERE topics.rcn != '664680'
+GPT-3 choices:
+(0) Show all topics with a code different than 664680
+(1) Show me all the topics that are not 664680.
+(2) Show me topics that have a code different from 664680
+(3) Multics Retrieval Service
+(4) What are the topics with the code that is not 664680?
+(5) Show me all topics, except 664680.
+(6) What are the different topics which don't have the code 664680?
+(7) Retrieve all topics having a different regional code than 664680
+
+
+Re-ranked choices:
+4.640  Show me topics that have a code different from 664680
+4.557  What are the topics with the code that is not 664680?
+4.488  What are the different topics which don't have the code 664680?
+4.458  Show me all the topics that are not 664680.
+4.421  Show me all topics, except 664680.
+4.392  Show all topics with a code different than 664680
+3.542  Retrieve all topics having a different regional code than 664680
+1.069  Multics Retrieval Service
+

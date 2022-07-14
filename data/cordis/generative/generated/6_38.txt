@@ -1,0 +1,16 @@
+SELECT institutions.grid_id FROM institutions WHERE institutions.geocode_regions_3 = 'DE263' and institutions.short_name = 'Institut Guttmann'
+
+###
+
+
+Original Query:
+SELECT institutions.grid_id FROM institutions WHERE institutions.geocode_regions_3 = 'DE263' and institutions.short_name = 'Institut Guttmann'
+GPT-3 choices:
+(0) Show me institutions whose region is DE263 and have the short name ‘Institut Guttmann’.
+(1) Retrieve grid ids for institutions with geocode region DE263 and short name Institut Guttman
+(2) Are there institutions whose geocode regions are EQUAL to DE263, whose short name is INSTITUT GUTTMANN, and their institutions are in building number 13?
+(3) #######
+(4) Show me the grid of institutions having geocode region DE263 and the short name Institut Guttmann
+(5) Show me all institutions in the region DE263 that have the name Institut Guttmann
+(6) Retrieve the grid id of the institution with short name Institut Guttmann and geocode region DE263
+(7) Display the grid id of the institution 'Institut Guttmann', which is in the region DE263.

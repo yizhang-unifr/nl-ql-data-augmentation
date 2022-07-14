@@ -1,0 +1,16 @@
+SELECT projects.ec_call FROM projects WHERE projects.start_date = '2015-06-01'
+
+###
+
+
+Original Query:
+SELECT projects.ec_call FROM projects WHERE projects.start_date = '2015-06-01'
+GPT-3 choices:
+(0) Show me all EC calls that started on June 1st, 2015
+(1) Return projects' european common schedule impacts, that started in 2015-06-01.
+(2) What are the external calls of projects that started in 2015-06-01?
+(3) Show me all the calls made by project that started in 2015-06-01
+(4) Show me all entity calls with the project start date 2015-06-01
+(5) Show the european call number of projects that started on "2015-06-01"
+(6) Retrieve all projects whose starting date is '2015-06-01'
+(7) Show eu_lands with a project starting in 2015-06-01

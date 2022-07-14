@@ -1,0 +1,16 @@
+SELECT erc_research_domains.description FROM erc_research_domains WHERE erc_research_domains.code != 'PE'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.description FROM erc_research_domains WHERE erc_research_domains.code != 'PE'
+GPT-3 choices:
+(0) Show me erc research domains with a code different than PE
+(1) Retrieve the descriptions of research domains which are not PE.
+(2) Show me all research domains except for Physical Engineering
+(3) Show me research domains with code different than PE
+(4) Which research domains are not about Particle and Electro-Weak Epistemology?
+(5) Show me descriptions of research domains that are different than PE
+(6) Show me the research domains with erc code except for PE
+(7) Show me all descriptions of research domains that are different than PE

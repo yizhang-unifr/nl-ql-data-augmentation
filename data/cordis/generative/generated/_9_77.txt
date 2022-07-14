@@ -1,0 +1,28 @@
+SELECT project_member_roles.code FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.longitude != 18.1718482
+
+###
+
+
+Original Query:
+SELECT project_member_roles.code FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.longitude != 18.1718482
+GPT-3 choices:
+(0) Retrieve all project roles associated with project members, where the members have a different longitude than 18.1718482
+(1) Show the different project member roles for project members with a different longitude than 18.1718482
+(2) Show all project member's roles except the one having a different longitude than "18.1718482"
+(3) Show all roles assigned to project members that do not have the coordinate 18.1718482.
+(4) Retrieve the code of project member roles from projects whose members have a different longitude than 18.1718482.
+(5) What are the project member roles?
+(6) Show me project member roles assigned to project members with a different longitude than 18.1718482
+(7) Show all project member role's code of project members whose longitude is not 18.1718482
+
+
+Re-ranked choices:
+5.865  Show the different project member roles for project members with a different longitude than 18.1718482
+5.819  Show all project member's roles except the one having a different longitude than "18.1718482"
+5.812  Show me project member roles assigned to project members with a different longitude than 18.1718482
+5.707  Retrieve all project roles associated with project members, where the members have a different longitude than 18.1718482
+5.684  Show all project member role's code of project members whose longitude is not 18.1718482
+5.556  Retrieve the code of project member roles from projects whose members have a different longitude than 18.1718482.
+5.325  Show all roles assigned to project members that do not have the coordinate 18.1718482.
+4.002  What are the project member roles?
+

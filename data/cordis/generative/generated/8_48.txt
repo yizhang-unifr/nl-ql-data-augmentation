@@ -1,0 +1,16 @@
+SELECT projects.total_cost FROM projects WHERE projects.title != 'A Compact Dynamic Positioning System of General Purpose for Marine Units, Crafts and Ships'
+
+###
+
+
+Original Query:
+SELECT projects.total_cost FROM projects WHERE projects.title != 'A Compact Dynamic Positioning System of General Purpose for Marine Units, Crafts and Ships'
+GPT-3 choices:
+(0) What is the minimum total cost of the projects not having the title 'A Compact Dynamic Positioning System of General Purpose for Marine Units, Crafts and Ships'?
+(1) Show the total cost of projects which title is not A Compact Dynamic Positioning System of General Purpose for Marine Units, Crafts and Ships
+(2) Show me the total cost of projects with a title different than 'A Compact Dynamic Positioning System of General Purpose for Marine Units, Crafts and Ships'
+(3) Total cost of projects that don't have the title 'A Compact Dynamic Positioning System of General Purpose for Marine Units, Crafts and Ships'
+(4) Show me the total cost of projects that don't have "A Compact Dynamic Positioning System of General Purpose for Marine Units, Crafts and Ships" as title
+(5) Show the total costs of projects that are not titled A Compact Dynamic Positioning System of General Purpose for Marine Units, Crafts and Ships
+(6) Show me the total cost of all projects, that are not named A Compact Dynamic Positioning System of General Purpose for Marine Units, Crafts and Ships
+(7) Total cost of projects that are different than "A Compact Dynamic Positioning System of General Purpose for Marine Units, Crafts and Ships".

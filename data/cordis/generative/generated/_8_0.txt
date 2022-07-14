@@ -1,0 +1,28 @@
+SELECT topics.rcn FROM topics WHERE topics.title != 'Process optimisation of manufacturing assets'
+
+###
+
+
+Original Query:
+SELECT topics.rcn FROM topics WHERE topics.title != 'Process optimisation of manufacturing assets'
+GPT-3 choices:
+(0) Show all topics different from Process optimisation of manufacturing assets
+(1) Retrieve all topics except 'Process optimisation of manufacturing assets'
+(2) Show me everything from topic 1 that has a different title than "Process optimisation of manufacturing assets"
+(3) What are the possible research themes out of topics that don't have the title "Process optimisation of manufacturing assets"?
+(4) Show all topics that are not about process optimisation of manufacturing assets
+(5) Retrieve all topics except the one called "Process optimisation of manufacturing assets"
+(6) What are the research topics having the title 'Process optimisation of manufacturing assets'?
+(7) What projects have the title of "Process optimisation of manufacturing assets"
+
+
+Re-ranked choices:
+5.854  Show all topics different from Process optimisation of manufacturing assets
+5.800  Show all topics that are not about process optimisation of manufacturing assets
+5.720  What are the research topics having the title 'Process optimisation of manufacturing assets'?
+5.698  Show me everything from topic 1 that has a different title than "Process optimisation of manufacturing assets"
+5.438  What are the possible research themes out of topics that don't have the title "Process optimisation of manufacturing assets"?
+5.401  What projects have the title of "Process optimisation of manufacturing assets"
+5.399  Retrieve all topics except 'Process optimisation of manufacturing assets'
+5.285  Retrieve all topics except the one called "Process optimisation of manufacturing assets"
+

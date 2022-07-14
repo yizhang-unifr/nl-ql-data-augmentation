@@ -1,0 +1,16 @@
+SELECT project_member_roles.description FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.street != 'PRUMYSLOVA 451'
+
+###
+
+
+Original Query:
+SELECT project_member_roles.description FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.street != 'PRUMYSLOVA 451'
+GPT-3 choices:
+(0) What are the project member roles descriptions of project members that do not have the street PRUMYSLOVA 451?
+(1) Retrieve project member roles associated with project members who do not have the street PRUMYSLOVA 451
+(2) Show me project member roles that have a different description than the one of project members with the street PRUMYSLOVA 451
+(3) Show me project member roles of project members that are not from Prumyslova 451 street.
+(4) What are the project members' roles?
+(5) Show the description of project member roles of all project members who do not have the address 'PRUMYSLOVA 451'
+(6) Return project member roles for project members with street != 'PRUMYSLOVA 451'
+(7) What are the project member role descriptions of project members who do not have the address PRUMYSLOVA 451?

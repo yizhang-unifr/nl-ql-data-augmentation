@@ -1,0 +1,16 @@
+SELECT erc_research_domains.description FROM erc_research_domains WHERE erc_research_domains.code = 'LS' or erc_research_domains.code = 'SH'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.description FROM erc_research_domains WHERE erc_research_domains.code = 'LS' or erc_research_domains.code = 'SH'
+GPT-3 choices:
+(0) Retrieve all description of ERC research domains with code LS or SH
+(1) Please give me all research domains that start with LS or SH
+(2) Show me the research domains that have code LS or SH
+(3) What are the descriptions of research domains with code LS or SH?
+(4) Show me the research agendas in the domains of engineering or social sciences
+(5) Which are the research domains about Solid State and Life Sciences?
+(6) Show me all research domains associated with the code LS or SH
+(7) Show me all research domains that end with LS or SH

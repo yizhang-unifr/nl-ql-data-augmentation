@@ -1,0 +1,27 @@
+SELECT count(*) FROM countries WHERE countries.country_code = 'GQ'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM countries WHERE countries.country_code2 = 'GQ'
+GPT-3 choices:
+(0) Show the total number of countries with country code GQ
+(1) Total number of countries where the country code is GQ?
+(2) How many countries are there with country code GQ?
+(3) How many countries are there with country code GQ?
+(4) Total number of countries with country code GQ
+(5) Select the number of countries whose country code is GQ
+(6) Show the total number of countries having a country code GQ
+(7) How many countries are there in GCC?
+
+
+Re-ranked choices:
+5.360  Total number of countries with country code GQ
+5.349  Total number of countries where the country code is GQ?
+5.296  Show the total number of countries having a country code GQ
+5.245  Show the total number of countries with country code GQ
+5.212  How many countries are there with country code GQ?
+5.094  Select the number of countries whose country code is GQ
+3.720  How many countries are there in GCC?
+

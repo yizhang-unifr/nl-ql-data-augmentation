@@ -1,0 +1,16 @@
+SELECT institutions.website, count(*) FROM institutions  GROUP BY institutions.website
+
+###
+
+
+Original Query:
+SELECT institutions.website, count(*) FROM institutions  GROUP BY institutions.website
+GPT-3 choices:
+(0) Count the number of institutions having at least one website
+(1) How many institutions have a website?
+(2) What is the number of institutions with a website ?
+(3) What is the number of institutions that have a website?
+(4) How many institutions have a website?
+(5) How many institutions have a website?
+(6) How many different institutions have a website?
+(7) How many institutions are there with a website?

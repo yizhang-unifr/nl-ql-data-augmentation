@@ -1,0 +1,16 @@
+SELECT subject_areas.code FROM subject_areas WHERE subject_areas.title = 'Physical sciences and engineering'
+
+###
+
+
+Original Query:
+SELECT subject_areas.code FROM subject_areas WHERE subject_areas.title = 'Physical sciences and engineering'
+GPT-3 choices:
+(0) Show me whatever subject areas are called "Physical sciences and engineering"
+(1) What are the subject areas involved in the project titled "Physical sciences and engineering"?
+(2) Show me the subject areas with a title equals to Physical sciences and engineering.
+(3) Show the subject areas with title Physical sciences and engineering
+(4) Show me the subject areas with titles that are equal to 'Physical sciences and engineering'
+(5) What are the subject areas within the department of physical sciences and engineering?
+(6) Show me the subject areas named Physical sciences and engineering.
+(7) Show me the different subject areas associated with the title Physical sciences and engineering.

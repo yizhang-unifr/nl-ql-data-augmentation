@@ -1,0 +1,28 @@
+SELECT erc_research_domains.description FROM erc_research_domains WHERE erc_research_domains.code = 'ID'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.description FROM erc_research_domains WHERE erc_research_domains.code = 'ID'
+GPT-3 choices:
+(0) Show me all research domains with the code ID.
+(1) Number of results: 1
+(2) Display the description of the research domains whose code is ID
+(3) Show the description of research domains with code ID
+(4) Retrieve research domain descriptions having code ID
+(5) What are the research domains?
+(6) How many research domains are there in Europe?
+(7) How many erc research domains are there in Italy?
+
+
+Re-ranked choices:
+4.205  Show me all research domains with the code ID.
+4.203  Show the description of research domains with code ID
+4.125  Display the description of the research domains whose code is ID
+3.837  Retrieve research domain descriptions having code ID
+3.632  What are the research domains?
+3.518  How many research domains are there in Europe?
+2.818  How many erc research domains are there in Italy?
+1.260  Number of results: 1
+

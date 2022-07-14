@@ -1,0 +1,16 @@
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.ec_call = 'H2020-MSCA-ITN-2015'
+
+###
+
+
+Original Query:
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.ec_call = 'H2020-MSCA-ITN-2015'
+GPT-3 choices:
+(0) Retrieve all principal investigators associated with the project H2020-MSCA-ITN-2015
+(1) Retrieve the full names of principal investigators of H2020 MSCA ITN projects.
+(2) Show the full name of all principal investigators with a project inside the European Commission funding call "H2020-MSCA-ITN-2015"
+(3) Get the name of person of projects with the EC call H2020-MSCA-ITN-2015
+(4) What is the full name of principal investigators in projects that have the European call H2020-MSCA-ITN-2015?
+(5) Show me the full name of those who participated as principal investigators on projects whose EC call is H2020-MSCA-ITN-2015.
+(6) Display the full names of principal investigators of projects with the ec call H2020-MSCA-ITN-2015
+(7) Show the name of people who participate, as principal investigator, of projects financed by H2020-MSCA-ITN-2015 call

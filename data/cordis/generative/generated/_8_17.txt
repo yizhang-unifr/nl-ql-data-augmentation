@@ -1,0 +1,28 @@
+SELECT institutions.website FROM institutions WHERE institutions.wikidata_url != 'http://www.wikidata.org/wiki/Q972'
+
+###
+
+
+Original Query:
+SELECT institutions.website FROM institutions WHERE institutions.wikidata_url != 'http://www.wikidata.org/wiki/Q972'
+GPT-3 choices:
+(0) Show all the institutions which don't have a wikidata entry at all.
+(1) Will return institutions with a different wikidata URL than Q972
+(2) What are the institutions default website? And what are their wikidata link?
+(3) Show me institutions which have a different wikidata URL than Q972
+(4) Show me institutions that do not have a wikidata entry
+(5) Show me the institutions which don't have the Wikidata URL Q972
+(6) What is the website of institutions that don't have a wikidata entry?
+(7) Show all the institutions that don't have a wikidata property
+
+
+Re-ranked choices:
+5.617  Show me the institutions which don't have the Wikidata URL Q972
+5.485  Show me institutions that do not have a wikidata entry
+5.455  Show all the institutions which don't have a wikidata entry at all.
+5.356  What is the website of institutions that don't have a wikidata entry?
+5.112  Show all the institutions that don't have a wikidata property
+5.010  Show me institutions which have a different wikidata URL than Q972
+4.669  Will return institutions with a different wikidata URL than Q972
+4.512  What are the institutions default website? And what are their wikidata link?
+

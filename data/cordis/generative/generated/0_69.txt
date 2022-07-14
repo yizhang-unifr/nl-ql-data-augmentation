@@ -1,0 +1,16 @@
+SELECT countries.country_code FROM countries WHERE countries.country_name = 'Philippines'
+
+###
+
+
+Original Query:
+SELECT countries.country_code2 FROM countries WHERE countries.country_name = 'Philippines'
+GPT-3 choices:
+(0) Show all countries from the country Philippines
+(1) What's the country code of the country "Philippines"?
+(2) Show me all countries with country code “PH”
+(3) What are the country codes of countries whose name is Philippines?
+(4) Show the country code for countries with name Philippines
+(5) Show me the country code for a country with the name Philippines
+(6) What is the country code of the country Philippines?
+(7) What are the country codes of countries with country name Philippines?

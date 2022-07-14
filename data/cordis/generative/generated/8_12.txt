@@ -1,0 +1,16 @@
+SELECT project_members.institution_id FROM project_members WHERE project_members.vat_number != 'DE115235681'
+
+###
+
+
+Original Query:
+SELECT project_members.institution_id FROM project_members WHERE project_members.vat_number != 'DE115235681'
+GPT-3 choices:
+(0) Show me the institution id of project members that do not have the vat number DE115235681
+(1) Retrieve institution id of project members that have a vat number except DE115235681
+(2) What are the institution ids of project members with different vat number?
+(3) Select project members that have a different vat number than DE115235681.
+(4) Show me institution ids of people registered in projects that are not from Germany?
+(5) Show the institution ids of project members from which there is no institution with vat number DE115235681
+(6) Display all project members who don't have a vat number DE115235681
+(7) Show the institution ID of all project members whose vat number is not DE115235681

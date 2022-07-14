@@ -1,0 +1,28 @@
+SELECT count(*) FROM people WHERE people.full_name = 'Aldo Pratelli'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM people WHERE people.full_name = 'Aldo Pratelli'
+GPT-3 choices:
+(0) How many people have the full name of 'Aldo Pratelli'?
+(1) How many people named Aldo Pratelli are there?
+(2) Show the number of people in the database whose full name is "Aldo Pratelli"
+(3) How many people are there that have the full name of Aldo Pratelli?
+(4) Count the number of people with the full name Aldo Pratelli
+(5) How many people are there with name Aldo Pratelli?
+(6) How many people are there, having the full name Aldo Pratelli?
+(7) How many people have the full name Aldo Pratelli ?
+
+
+Re-ranked choices:
+6.436  How many people are there that have the full name of Aldo Pratelli?
+6.434  How many people have the full name Aldo Pratelli ?
+6.417  How many people are there, having the full name Aldo Pratelli?
+6.416  How many people are there with name Aldo Pratelli?
+6.379  How many people have the full name of 'Aldo Pratelli'?
+6.354  How many people named Aldo Pratelli are there?
+5.918  Count the number of people with the full name Aldo Pratelli
+5.040  Show the number of people in the database whose full name is "Aldo Pratelli"
+

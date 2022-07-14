@@ -1,0 +1,28 @@
+SELECT countries.country_code FROM countries WHERE countries.country_name = 'Micronesia'
+
+###
+
+
+Original Query:
+SELECT countries.country_code2 FROM countries WHERE countries.country_name = 'Micronesia'
+GPT-3 choices:
+(0) What are the country codes of countries named Micronesia
+(1) Show me all of the country codes of countries with name Micronesia
+(2) Which country has the country code of Micronesia?
+(3) Show the countries associated with a country named Micronesia
+(4) What are the country codes of countries whose country name is Micronesia?
+(5) Which are the country codes of the countries with country name Micronesia?
+(6) What are the country codes of countries with country name Micronesia?
+(7) What are the country codes of countries called Micronesia?
+
+
+Re-ranked choices:
+6.543  Which are the country codes of the countries with country name Micronesia?
+6.542  What are the country codes of countries whose country name is Micronesia?
+6.533  What are the country codes of countries with country name Micronesia?
+6.439  What are the country codes of countries called Micronesia?
+6.256  Show me all of the country codes of countries with name Micronesia
+6.223  Which country has the country code of Micronesia?
+6.182  What are the country codes of countries named Micronesia
+5.616  Show the countries associated with a country named Micronesia
+

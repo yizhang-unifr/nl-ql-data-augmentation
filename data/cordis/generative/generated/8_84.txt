@@ -1,0 +1,16 @@
+SELECT subject_areas.code FROM subject_areas WHERE subject_areas.description != 'Social sciences; use of human resources; ergonomics; social implications of new technology; social effects of technology.'
+
+###
+
+
+Original Query:
+SELECT subject_areas.code FROM subject_areas WHERE subject_areas.description != 'Social sciences; use of human resources; ergonomics; social implications of new technology; social effects of technology.'
+GPT-3 choices:
+(0) What are the codes of subject areas that don't have the description Social sciences; use of human resources; ergonomics; social implications of new technology; social effects of technology?
+(1) Retrieve all subject areas except Social sciences; use of human resources; ergonomics; social implications of new technology; social effects of technology.
+(2) What are the subject areas descriptions that are NOT Social sciences; use of human resources; ergonomics; social implications of new technology; social effects of technology?
+(3) Display all subjects areas that do not have a description that ends with Social sciences; use of human resources; ergonomics; social implications of new technology; social effects of technology.
+(4) Show all the subject areas that have a description different than Social sciences; use of human resources; ergonomics; social implications of new technology; social effects of technology.
+(5) Show me all subject areas that have a different description from "Social sciences; use of human resources; ergonomics; social implications of new technology; social effects of technology."
+(6) What are the subject areas that don't have the description Social sciences; use of human resources; ergonomics; social implications of new technology; social effects of technology?
+(7) Show me subject areas having a description different than "Social sciences; use of human resources; ergonomics; social implications of new technology; social effects of technology."

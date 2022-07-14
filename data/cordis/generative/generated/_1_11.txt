@@ -1,0 +1,28 @@
+SELECT subject_areas.description FROM subject_areas JOIN project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects ON project_subject_areas.project = projects.unics_id WHERE projects.acronym = 'PharmaCrystEng'
+
+###
+
+
+Original Query:
+SELECT subject_areas.description FROM subject_areas JOIN project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects ON project_subject_areas.project = projects.unics_id WHERE projects.acronym = 'PharmaCrystEng'
+GPT-3 choices:
+(0) Retrieve subject areas that have a project with the acronym PharmaCrystEng.
+(1) Retrieve the description of the subject areas of projects whose acronym is PharmaCrystEng
+(2) Which are the subject areas of projects with acronym PharmaCrystEng?
+(3) Return all descriptions of the subject areas of projects with acronym PharmaCrystEng
+(4) Show me the subject areas of projects whose acronym is PharmaCrystEng
+(5) Show me all subject areas associated with the project PharmaCrystEng?
+(6) Show all different descriptions of subject areas assigned to projects with acronym PharmaCrystEng
+(7) Show me all subject areas of projects with acronym PharmaCrystEng
+
+
+Re-ranked choices:
+6.390  Show me all subject areas of projects with acronym PharmaCrystEng
+6.263  Retrieve the description of the subject areas of projects whose acronym is PharmaCrystEng
+6.239  Show me the subject areas of projects whose acronym is PharmaCrystEng
+6.189  Return all descriptions of the subject areas of projects with acronym PharmaCrystEng
+6.140  Which are the subject areas of projects with acronym PharmaCrystEng?
+6.062  Retrieve subject areas that have a project with the acronym PharmaCrystEng.
+6.044  Show all different descriptions of subject areas assigned to projects with acronym PharmaCrystEng
+5.953  Show me all subject areas associated with the project PharmaCrystEng?
+

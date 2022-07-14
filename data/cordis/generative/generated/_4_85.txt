@@ -1,0 +1,28 @@
+SELECT count(*) FROM institutions WHERE institutions.grid_id = 'grid.428068.0'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM institutions WHERE institutions.grid_id = 'grid.428068.0'
+GPT-3 choices:
+(0) Count the number of institutions with grid_id = 'grid.428068.0'
+(1) Using the following condition
+(2) Count the number of institutions where grid_id is “grid.428068.0”
+(3) Count all institutions located in grid 428068
+(4) How many institutions exist that have a grid id of grid.428068.0?
+(5) What is the total number of institutions?
+(6) What is the total number of institutions that are in the grid 428068.0?
+(7) How many institutions are in the grid 428068?
+
+
+Re-ranked choices:
+4.874  What is the total number of institutions that are in the grid 428068.0?
+4.782  Count all institutions located in grid 428068
+4.716  Count the number of institutions where grid_id is “grid.428068.0”
+4.651  How many institutions exist that have a grid id of grid.428068.0?
+4.642  How many institutions are in the grid 428068?
+4.501  Count the number of institutions with grid_id = 'grid.428068.0'
+3.834  What is the total number of institutions?
+0.528  Using the following condition
+

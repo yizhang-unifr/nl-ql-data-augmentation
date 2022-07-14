@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description != 'Schleswig-Flensburg'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description != 'Schleswig-Flensburg'
+GPT-3 choices:
+(0) What are the geocode regions for units that are not in Schleswig-Flensburg?
+(1) The unique territorial unit description not equal to Schleswig-Flensburg
+(2) Show all geocoding regions of entities whose description is not Schleswig-Flensburg
+(3) Show me the top 5 geocode regions of all eu territorial units which are not located in Schleswig-Flensburg.
+(4) Show me only the region codes of the eu territorial units different from Schleswig-Flensburg
+(5) All geocode region descriptions of territorial units located in Schleswig-Flensburg
+(6) Show me the geocode regions for the territorial unit "Schleswig-Flensburg"
+(7) Retrieve all territorial unit geocode region descriptions that are not Schleswig-Flensburg
+
+
+Re-ranked choices:
+6.097  All geocode region descriptions of territorial units located in Schleswig-Flensburg
+6.007  Show me the geocode regions for the territorial unit "Schleswig-Flensburg"
+5.944  What are the geocode regions for units that are not in Schleswig-Flensburg?
+5.785  Show me only the region codes of the eu territorial units different from Schleswig-Flensburg
+5.759  Retrieve all territorial unit geocode region descriptions that are not Schleswig-Flensburg
+5.700  Show me the top 5 geocode regions of all eu territorial units which are not located in Schleswig-Flensburg.
+5.269  Show all geocoding regions of entities whose description is not Schleswig-Flensburg
+5.192  The unique territorial unit description not equal to Schleswig-Flensburg
+

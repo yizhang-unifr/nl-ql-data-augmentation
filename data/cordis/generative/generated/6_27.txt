@@ -1,0 +1,16 @@
+SELECT project_members.member_role FROM project_members WHERE project_members.department_name = 'Department of Computer Science' and project_members.city = 'PARIS'
+
+###
+
+
+Original Query:
+SELECT project_members.member_role FROM project_members WHERE project_members.department_name = 'Department of Computer Science' and project_members.city = 'PARIS'
+GPT-3 choices:
+(0) Show all of the project members with a role that is part of the Department of Computer Science in Paris
+(1) What is the name of the project member participating in the project of Department of Computer Science in Paris?
+(2) What is the member role of project members in the department of Computer Science in PARIS
+(3) Retrieve all members in the Department of Computer Science of Paris.
+(4) Retrieve project participants that are members of the department of Computer Science and are in PARIS.
+(5) Retrieve the project members of the department of Computer Science in Paris
+(6) Retrieve project member roles of the department of Computer Science from Paris.
+(7) Return the project members of the department of Computer Science in Paris

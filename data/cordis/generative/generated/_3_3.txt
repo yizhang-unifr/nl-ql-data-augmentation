@@ -1,0 +1,26 @@
+SELECT count(*) FROM programmes
+
+###
+
+
+Original Query:
+SELECT count(*) FROM programmes
+GPT-3 choices:
+(0) Show how many programmes there are?
+(1) Show the total number of programmes
+(2) How many programmes are there?
+(3) How many programmes are there?
+(4) Show me the number of programmes
+(5) How many programmes are there?
+(6) Show me how many programmes there are
+(7) Count the number of programminge shown in the different Switzerland.
+
+
+Re-ranked choices:
+4.138  Show me the number of programmes
+4.045  Show how many programmes there are?
+4.015  Show me how many programmes there are
+3.821  Show the total number of programmes
+3.710  How many programmes are there?
+2.277  Count the number of programminge shown in the different Switzerland.
+

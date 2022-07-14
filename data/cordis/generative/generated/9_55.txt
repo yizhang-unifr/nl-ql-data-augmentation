@@ -1,0 +1,16 @@
+SELECT projects.ec_max_contribution FROM projects JOIN funding_schemes ON projects.ec_fund_scheme = funding_schemes.code WHERE funding_schemes.code != 'SER'
+
+###
+
+
+Original Query:
+SELECT projects.ec_max_contribution FROM projects JOIN funding_schemes ON projects.ec_fund_scheme = funding_schemes.code WHERE funding_schemes.code != 'SER'
+GPT-3 choices:
+(0) What is the maximum contribution of funding scheme SER?
+(1) Show the maximum funding contribution for all projects that do not have a funding scheme SER.
+(2) Show the projects' ec max contribution from funding schemes with code different from "SER"
+(3) What is the maximum financial contribution from all project funding schemes except SER scheme?
+(4) Show the max funding contribution of projects not assigned to the funding scheme SER.
+(5) Show project with the highest funding scheme contribution that is not SER
+(6) Show the maximum funding contribution of projects that don't have the funding scheme SER
+(7) Retrieve the maximum funding that european research council projects have within their funding scheme.

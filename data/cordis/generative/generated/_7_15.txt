@@ -1,0 +1,27 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description = 'Somogy' or eu_territorial_units.description = 'Dalarnas län'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description = 'Somogy' or eu_territorial_units.description = 'Dalarnas län'
+GPT-3 choices:
+(0) Show me the geocode region of the territorial units called Somogy and Dalarnas län
+(1) 
+(2) List all the regions corresponding to the territorial unit descriptions Somogy or Dalarnas län
+(3) Retrieve the geocode region for the territorial unit descriptions Somogy or Dalarnas län
+(4) Retrieve the territorial unit geocode region descriptions.
+(5) Show me all the eu_territorial_unit descriptions Somogy and Dalarnas län
+(6) Show me all geocode regions in somogy or dalarnas
+(7) Show the geocode region of the territorial unit description "Somogy" or "Dalarnas län"
+
+
+Re-ranked choices:
+5.076  Show the geocode region of the territorial unit description "Somogy" or "Dalarnas län"
+5.041  Retrieve the geocode region for the territorial unit descriptions Somogy or Dalarnas län
+5.035  Show me the geocode region of the territorial units called Somogy and Dalarnas län
+4.678  List all the regions corresponding to the territorial unit descriptions Somogy or Dalarnas län
+4.407  Show me all geocode regions in somogy or dalarnas
+4.227  Show me all the eu_territorial_unit descriptions Somogy and Dalarnas län
+4.141  Retrieve the territorial unit geocode region descriptions.
+

@@ -1,0 +1,28 @@
+SELECT project_member_roles.code FROM project_member_roles WHERE project_member_roles.description = 'Host institution' or project_member_roles.description = 'Coordinator'
+
+###
+
+
+Original Query:
+SELECT project_member_roles.code FROM project_member_roles WHERE project_member_roles.description = 'Host institution' or project_member_roles.description = 'Coordinator'
+GPT-3 choices:
+(0) Retrieve the code of project member roles descriptions "Host institution" or "Coordinator"
+(1) Show all project member roles with description Host institution or Coordinator
+(2) Show project member roles description Host institution or Coordinators
+(3) Retrieve project member roles from a project where the description is Host institution or Coordinator?
+(4) Show all project member role descriptions starting with Host institution or Coordinator
+(5) Retrieve project member roles descriptions for projects where the institution participating is host or coordinator
+(6) Show me project member roles where project member roles description is host institution or coordinator
+(7) Retrieve project member roles for which the description is either host institution or coordinator
+
+
+Re-ranked choices:
+6.404  Retrieve project member roles for which the description is either host institution or coordinator
+6.344  Retrieve project member roles descriptions for projects where the institution participating is host or coordinator
+6.336  Retrieve project member roles from a project where the description is Host institution or Coordinator?
+6.323  Show project member roles description Host institution or Coordinators
+6.270  Show all project member roles with description Host institution or Coordinator
+6.239  Show me project member roles where project member roles description is host institution or coordinator
+6.135  Show all project member role descriptions starting with Host institution or Coordinator
+5.965  Retrieve the code of project member roles descriptions "Host institution" or "Coordinator"
+

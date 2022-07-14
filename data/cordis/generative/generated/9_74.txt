@@ -1,0 +1,16 @@
+SELECT countries.country_name FROM countries JOIN institutions ON countries.unics_id = institutions.country_id WHERE institutions.unics_id != 283354
+
+###
+
+
+Original Query:
+SELECT countries.country_name FROM countries JOIN institutions ON countries.unics_id = institutions.country_id WHERE institutions.unics_id != 283354
+GPT-3 choices:
+(0) Show me the country name of the institution whose unics id is not 283354.
+(1) Show me country names of all institutions except for 283354.
+(2) Retrieve all countries names of institutions different from 283354
+(3) What countries have institutions with a different unics id than 283354 ?
+(4) Show the country name of institutions whose UNICS ID is not 283354.
+(5) How many countries are associated with institutions that aren't part of the institute with unics code 283354?
+(6) Show me all countries which have an institution with unics_id != 283354
+(7) Show all country names of institutions that don't have the unics code 283354

@@ -1,0 +1,16 @@
+SELECT project_member_roles.code FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.postal_code != '1000 029'
+
+###
+
+
+Original Query:
+SELECT project_member_roles.code FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.postal_code != '1000 029'
+GPT-3 choices:
+(0) Show me the code of project member roles of project members who are not in Grands-Echelles
+(1) Show project member roles assigned to members whose post code is not < 1000 029.
+(2) What are the project member roles?
+(3) Show project members' roles assigned by countries having at least one capital different from 1000 029?
+(4) What are the project member roles of project members who don't have the postal code 1000 029?
+(5) What are the project member roles of project members whose postal code is not 1000 029?
+(6) What are the project member roles of the project members whose postal code is not 1000 029?
+(7) Retrieve the project member roles associated with project members, excluding members in the### city of 1000 029

@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description = 'Stuttgart, Stadtkreis'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description = 'Stuttgart, Stadtkreis'
+GPT-3 choices:
+(0) What are the geocode region of the territorial unit with description Stuttgart, Stadtkreis?
+(1) Show me the geocode regions of territorial units which have “Stuttgart, Stadtkreis” as description.
+(2) What are the eu territorial unit's geocode region?
+(3) Show me the European territorial units with description Stuttgart, Stadtkreis
+(4) Show the geocode region for territorial unit description “Stuttgart, Stadtkreis”
+(5) Retrieve the geocode regions of territorial units with description Stuttgart, Stadtkreis
+(6) Retrieve all geocodes for the territorial unit "Stuttgart, Stadtkreis"
+(7) What are the geocode regions of territorial units having description Stuttgart, Stadtkreis?
+
+
+Re-ranked choices:
+6.182  What are the geocode regions of territorial units having description Stuttgart, Stadtkreis?
+6.172  What are the geocode region of the territorial unit with description Stuttgart, Stadtkreis?
+6.132  Show me the geocode regions of territorial units which have “Stuttgart, Stadtkreis” as description.
+6.083  Show the geocode region for territorial unit description “Stuttgart, Stadtkreis”
+6.075  Retrieve the geocode regions of territorial units with description Stuttgart, Stadtkreis
+5.639  Retrieve all geocodes for the territorial unit "Stuttgart, Stadtkreis"
+5.250  Show me the European territorial units with description Stuttgart, Stadtkreis
+4.771  What are the eu territorial unit's geocode region?
+

@@ -1,0 +1,16 @@
+SELECT projects.start_date FROM projects JOIN funding_schemes ON projects.ec_fund_scheme = funding_schemes.code WHERE funding_schemes.code = 'CP-FP-INFSO-FET'
+
+###
+
+
+Original Query:
+SELECT projects.start_date FROM projects JOIN funding_schemes ON projects.ec_fund_scheme = funding_schemes.code WHERE funding_schemes.code = 'CP-FP-INFSO-FET'
+GPT-3 choices:
+(0) Show me all projects in the funding scheme 'CP-FP-INFSO-FET' started after 2008
+(1) Show me all the project start dates with funding scheme code CP-FP-INFSO-FET
+(2) Show me the funding schemes of projects that start with CP-FP-INFSO-FET
+(3) Show me all project start dates for the funding scheme CP-FP-INFSO-FET
+(4) Show me the starting dates of projects funded by the European Community Research and Development Fund
+(5) What is the end date of projects that received funding through the funding scheme CP-FP-INFSO-FET?
+(6) Retrieve the start dates of projects that have a funding scheme with code CP-FP-INFSO-FET
+(7) Retrieve the start date of projects that have funding scheme with code 'CP-FP-INFSO-FET'

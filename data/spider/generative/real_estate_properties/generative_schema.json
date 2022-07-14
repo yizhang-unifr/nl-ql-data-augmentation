@@ -1,0 +1,296 @@
+[
+  {
+    "name": "reference feature types",
+    "original_name": "Ref_Feature_Types",
+    "logical_name": "Ref_Feature_Types",
+    "columns": [
+      {
+        "name": "feature type code",
+        "original_name": "feature_type_code",
+        "logical_name": "feature_type_code",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "feature type name",
+        "original_name": "feature_type_name",
+        "logical_name": "feature_type_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "reference property types",
+    "original_name": "Ref_Property_Types",
+    "logical_name": "Ref_Property_Types",
+    "columns": [
+      {
+        "name": "property type code",
+        "original_name": "property_type_code",
+        "logical_name": "property_type_code",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "property type description",
+        "original_name": "property_type_description",
+        "logical_name": "property_type_description",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "other available features",
+    "original_name": "Other_Available_Features",
+    "logical_name": "Other_Available_Features",
+    "columns": [
+      {
+        "name": "feature id",
+        "original_name": "feature_id",
+        "logical_name": "feature_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "feature type code",
+        "original_name": "feature_type_code",
+        "logical_name": "feature_type_code",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "feature name",
+        "original_name": "feature_name",
+        "logical_name": "feature_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "feature description",
+        "original_name": "feature_description",
+        "logical_name": "feature_description",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "properties",
+    "original_name": "Properties",
+    "logical_name": "Properties",
+    "columns": [
+      {
+        "name": "property id",
+        "original_name": "property_id",
+        "logical_name": "property_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "property type code",
+        "original_name": "property_type_code",
+        "logical_name": "property_type_code",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "date on market",
+        "original_name": "date_on_market",
+        "logical_name": "date_on_market",
+        "original_datatype": "time",
+        "logical_datatype": "time"
+      },
+      {
+        "name": "date sold",
+        "original_name": "date_sold",
+        "logical_name": "date_sold",
+        "original_datatype": "time",
+        "logical_datatype": "time"
+      },
+      {
+        "name": "property name",
+        "original_name": "property_name",
+        "logical_name": "property_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "property address",
+        "original_name": "property_address",
+        "logical_name": "property_address",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "room count",
+        "original_name": "room_count",
+        "logical_name": "room_count",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "vendor requested price",
+        "original_name": "vendor_requested_price",
+        "logical_name": "vendor_requested_price",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "buyer offered price",
+        "original_name": "buyer_offered_price",
+        "logical_name": "buyer_offered_price",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "agreed selling price",
+        "original_name": "agreed_selling_price",
+        "logical_name": "agreed_selling_price",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "apt feature 1",
+        "original_name": "apt_feature_1",
+        "logical_name": "apt_feature_1",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "apt feature 2",
+        "original_name": "apt_feature_2",
+        "logical_name": "apt_feature_2",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "apt feature 3",
+        "original_name": "apt_feature_3",
+        "logical_name": "apt_feature_3",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "fld feature 1",
+        "original_name": "fld_feature_1",
+        "logical_name": "fld_feature_1",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "fld feature 2",
+        "original_name": "fld_feature_2",
+        "logical_name": "fld_feature_2",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "fld feature 3",
+        "original_name": "fld_feature_3",
+        "logical_name": "fld_feature_3",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "hse feature 1",
+        "original_name": "hse_feature_1",
+        "logical_name": "hse_feature_1",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "hse feature 2",
+        "original_name": "hse_feature_2",
+        "logical_name": "hse_feature_2",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "hse feature 3",
+        "original_name": "hse_feature_3",
+        "logical_name": "hse_feature_3",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "oth feature 1",
+        "original_name": "oth_feature_1",
+        "logical_name": "oth_feature_1",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "oth feature 2",
+        "original_name": "oth_feature_2",
+        "logical_name": "oth_feature_2",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "oth feature 3",
+        "original_name": "oth_feature_3",
+        "logical_name": "oth_feature_3",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "shp feature 1",
+        "original_name": "shp_feature_1",
+        "logical_name": "shp_feature_1",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "shp feature 2",
+        "original_name": "shp_feature_2",
+        "logical_name": "shp_feature_2",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "shp feature 3",
+        "original_name": "shp_feature_3",
+        "logical_name": "shp_feature_3",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "other property details",
+        "original_name": "other_property_details",
+        "logical_name": "other_property_details",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "other property features",
+    "original_name": "Other_Property_Features",
+    "logical_name": "Other_Property_Features",
+    "columns": [
+      {
+        "name": "property id",
+        "original_name": "property_id",
+        "logical_name": "property_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "feature id",
+        "original_name": "feature_id",
+        "logical_name": "feature_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "property feature description",
+        "original_name": "property_feature_description",
+        "logical_name": "property_feature_description",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  }
+]

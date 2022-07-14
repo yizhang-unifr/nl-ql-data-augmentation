@@ -1,0 +1,28 @@
+SELECT countries.country_code FROM countries WHERE countries.country_name = 'Oman'
+
+###
+
+
+Original Query:
+SELECT countries.country_code2 FROM countries WHERE countries.country_name = 'Oman'
+GPT-3 choices:
+(0) Show the country code of all countries named Oman
+(1) Retrieve all country codes of countries with country name Oman
+(2) Show all country codes of countries with the country name Oman.
+(3) Show all country codes of countries whose name is Oman.
+(4) Show all countries with code Oman
+(5) Which countries have the country name Oman?
+(6) Show country code of all countries whose country name is Oman
+(7) Which are the countries that have the country name Oman?
+
+
+Re-ranked choices:
+6.308  Show country code of all countries whose country name is Oman
+6.303  Show the country code of all countries named Oman
+6.274  Show all country codes of countries with the country name Oman.
+6.264  Show all country codes of countries whose name is Oman.
+6.092  Show all countries with code Oman
+6.026  Retrieve all country codes of countries with country name Oman
+5.524  Which are the countries that have the country name Oman?
+5.496  Which countries have the country name Oman?
+

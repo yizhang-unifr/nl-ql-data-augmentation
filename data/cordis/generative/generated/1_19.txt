@@ -1,0 +1,16 @@
+SELECT activity_types.code FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.id = 482138
+
+###
+
+
+Original Query:
+SELECT activity_types.code FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.unics_id = 482138
+GPT-3 choices:
+(0) What are the activity types of the member with project number 482138?
+(1) What are the activity types of members with the project number 482138?
+(2) Show the activity types associated with the project member with id = 482138
+(3) Retrieve activity types of project members with id = 482138
+(4) Retrieve activity types used in projects with member 482138
+(5) Retrieve all activity types associated with project member with id = 482138
+(6) Retrieve activity types of the project member with id equals 482138
+(7) What are the activity type of the project member with id 482138

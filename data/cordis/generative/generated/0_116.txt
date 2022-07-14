@@ -1,0 +1,16 @@
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title = 'ERA-NET Cofund'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title = 'ERA-NET Cofund'
+GPT-3 choices:
+(0) Retrieve the code of funding schemes named ERA-NET Cofund
+(1) Show me all the funding schemes corresponding to the title "ERA-NET Cofund"
+(2) What are the different funding schemes with the title ERA-NET Cofund?
+(3) Show funding scheme codes of the project called ERA-NET COFUND
+(4) Retrieve the funding scheme code of ERA-NET Cofund funding scheme
+(5) Show me all funding schemes with title ERA-NET Cofund
+(6) Show me the funding schemes that match the title “ERA-NET Cofund”.
+(7) Show me all funding schemes with title "ERA-NET Cofund".

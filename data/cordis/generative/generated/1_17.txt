@@ -1,0 +1,16 @@
+SELECT programmes.title FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.start_year = 2020
+
+###
+
+
+Original Query:
+SELECT programmes.title FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.start_year = 2020
+GPT-3 choices:
+(0) Retrieve programmes titles of all projects undergoing in 2020
+(1) Show the programm title of projects whose start year is 2020
+(2) Columns defined by member expressions are not returned even if they are requested.
+(3) Retrieve the title of projects that start in 2020.
+(4) Show the title of programmes for projects starting in 2020
+(5) Get all project programmes for projects whose start year is 2020
+(6) Retrieve titles of projects that started in 2020
+(7) Show me the title of programmes assigned to projects that start in 2020

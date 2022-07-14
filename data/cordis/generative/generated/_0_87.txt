@@ -1,0 +1,28 @@
+SELECT projects.title FROM projects WHERE projects.ec_call = 'ERC-2016-PoC'
+
+###
+
+
+Original Query:
+SELECT projects.title FROM projects WHERE projects.ec_call = 'ERC-2016-PoC'
+GPT-3 choices:
+(0) Which project titles are associated with the European Research Council 2016 PoC funding call?
+(1) Show all projects having an ERC 2016 PoC call
+(2) Retrieve all titles of projects that have an ec_call of ERC-2016-PoC
+(3) Which are the projects with the ERC-2016-PoC call?
+(4) Show me all project titles which have the eu funding call ERC-2016-PoC
+(5) Show me all the project titles from projects which are part of the ERC-2016-PoC call
+(6) Restrict the output to project titles where the EC call is "ERC-2016-PoC"
+(7) What are the titles of projects with an EC call?
+
+
+Re-ranked choices:
+5.176  Show me all the project titles from projects which are part of the ERC-2016-PoC call
+4.957  Show me all project titles which have the eu funding call ERC-2016-PoC
+4.798  Retrieve all titles of projects that have an ec_call of ERC-2016-PoC
+4.614  Show all projects having an ERC 2016 PoC call
+4.593  Which are the projects with the ERC-2016-PoC call?
+4.370  Restrict the output to project titles where the EC call is "ERC-2016-PoC"
+4.283  Which project titles are associated with the European Research Council 2016 PoC funding call?
+4.010  What are the titles of projects with an EC call?
+

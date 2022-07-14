@@ -1,0 +1,16 @@
+SELECT subject_areas.title FROM subject_areas WHERE subject_areas.description = 'Promotion of joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises.'
+
+###
+
+
+Original Query:
+SELECT subject_areas.title FROM subject_areas WHERE subject_areas.description = 'Promotion of joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises.'
+GPT-3 choices:
+(0) Show all subject areas of Promotional joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises
+(1) SELECT subject_areas.title FROM subject_areas WHERE subject_areas.description = 'Promotion of joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises.'
+(2) Retrieve all subject area titles containing the description Promotion of joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises.
+(3) Retrieve subject areas with title "Promotion of joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises."
+(4) Show me the subject areas with the description "Promotion of joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises."
+(5) 
+(6) Show all subject areas with description Promotion of joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises.
+(7) Show me the title of subject areas dealing with the promotion of joint actions, the exchange of information, mobility, sharing of research resources, comparison exercises.

@@ -1,0 +1,28 @@
+SELECT subject_areas.description FROM subject_areas WHERE subject_areas.title = 'Innovation and Technology Transfer'
+
+###
+
+
+Original Query:
+SELECT subject_areas.description FROM subject_areas WHERE subject_areas.title = 'Innovation and Technology Transfer'
+GPT-3 choices:
+(0) Show all subject areas with title "Innovation and Technology Transfer"
+(1) Show me the subject areas whose title is "Innovation and Technology Transfer"
+(2) Show me the subject area descriptions for the subject area titled “Innovation and Technology Transfer”
+(3) What are the subject areas with the title "Innovation and Technology Transfer"?
+(4) Retrieve all descriptions of subject areas with title "Innovation and Technology Transfer".
+(5) Show me the description of subject areas having title "Innovation and Technology Transfer"
+(6) What are the subject areas of the institutions which have the title 'Innovation and Technology Transfer'?
+(7) Filter for subject areas containing the words 'Innovation and Technology Transfer'
+
+
+Re-ranked choices:
+6.377  Show me the description of subject areas having title "Innovation and Technology Transfer"
+6.362  Show me the subject areas whose title is "Innovation and Technology Transfer"
+6.192  What are the subject areas with the title "Innovation and Technology Transfer"?
+6.172  Show all subject areas with title "Innovation and Technology Transfer"
+6.098  Show me the subject area descriptions for the subject area titled “Innovation and Technology Transfer”
+5.858  What are the subject areas of the institutions which have the title 'Innovation and Technology Transfer'?
+5.811  Retrieve all descriptions of subject areas with title "Innovation and Technology Transfer".
+5.686  Filter for subject areas containing the words 'Innovation and Technology Transfer'
+

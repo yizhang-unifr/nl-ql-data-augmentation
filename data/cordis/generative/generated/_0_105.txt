@@ -1,0 +1,28 @@
+SELECT topics.code FROM topics WHERE topics.rcn = '665058'
+
+###
+
+
+Original Query:
+SELECT topics.code FROM topics WHERE topics.rcn = '665058'
+GPT-3 choices:
+(0) Retrieve the selected topics.
+(1) Retrieve all topics whose acronym is 665058
+(2) What are the topic codes of the topics having the RGCN 665058?
+(3) Retrieve all topics that have the rcn 665058
+(4) Retrieve all topics that have a reference count equal to 665058.
+(5) What are the topics associated with the research centre with code 665058?
+(6) Show me words about The Era of Elizabeth I
+(7) Show me all topics whose Rcn value is 665058
+
+
+Re-ranked choices:
+3.887  Retrieve all topics that have the rcn 665058
+3.622  Show me all topics whose Rcn value is 665058
+3.574  Retrieve all topics that have a reference count equal to 665058.
+3.539  Retrieve all topics whose acronym is 665058
+3.281  What are the topic codes of the topics having the RGCN 665058?
+2.935  Retrieve the selected topics.
+2.600  What are the topics associated with the research centre with code 665058?
+0.753  Show me words about The Era of Elizabeth I
+

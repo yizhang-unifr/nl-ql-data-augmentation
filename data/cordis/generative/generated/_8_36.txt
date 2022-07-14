@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions != 'ITC4B'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions != 'ITC4B'
+GPT-3 choices:
+(0) Show me the description of territorial units within IT_C4B
+(1) Show me territorial unit descriptions except ITC4B
+(2) Show me the names of all territorial units except for the region ITC4B.
+(3) Show the description of territorial units that don't match the region ITC4B
+(4) What are the descriptions of eu territorial unit regions that don't have the geocode region ITC4B ?
+(5) Display all territorial unit descriptions that are not ITC4B
+(6) Show me EU terriorial units descriptions, in which the geocode region is not ITC4B
+(7) What are the descriptions of eu territorial units that have a different geocode region than ITC4B?
+
+
+Re-ranked choices:
+5.638  Show the description of territorial units that don't match the region ITC4B
+5.576  Show me territorial unit descriptions except ITC4B
+5.467  Show me the names of all territorial units except for the region ITC4B.
+5.346  Show me EU terriorial units descriptions, in which the geocode region is not ITC4B
+5.306  Show me the description of territorial units within IT_C4B
+5.281  What are the descriptions of eu territorial units that have a different geocode region than ITC4B?
+5.247  What are the descriptions of eu territorial unit regions that don't have the geocode region ITC4B ?
+5.047  Display all territorial unit descriptions that are not ITC4B
+

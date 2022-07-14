@@ -1,0 +1,16 @@
+SELECT projects.total_cost FROM projects    ORDER BY projects.start_date DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT projects.total_cost FROM projects    ORDER BY projects.start_date DESC LIMIT 1
+GPT-3 choices:
+(0) Show me the total cost of projects started after April 1st.
+(1) Show the total cost of projects starting after 2013-10-17.
+(2) What is the total cost of the projects that started after 2012-03-01?
+(3) What is the total cost of projects starting after 2007-09-15
+(4) What is the total cost of projects started after 2010?
+(5) What is the total cost of projects started since 2008 end?
+(6) What is the total cost of projects started after January 1, 2009?
+(7) Show me the total cost of projects started after a certain date.

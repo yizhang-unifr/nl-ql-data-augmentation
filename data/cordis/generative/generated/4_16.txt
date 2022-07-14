@@ -1,0 +1,16 @@
+SELECT count(*) FROM countries WHERE countries.country_name = 'Netherlands Antilles'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM countries WHERE countries.country_name = 'Netherlands Antilles'
+GPT-3 choices:
+(0) Count all countries that have the name Netherlands Antilles.
+(1) How many country names are there containing Netherlands Antilles?
+(2) How many countries are there which are named Netherlands Antilles?
+(3) How many countries are there with country name Netherlands Antilles?
+(4) Total number of countries with country_name = "Netherlands Antilles"
+(5) How many countries have a country name equal to Netherlands Antilles?
+(6) The number of countries whose name is Netherlands Antilles
+(7) How many country names are there for the country “Netherlands Antilles”?

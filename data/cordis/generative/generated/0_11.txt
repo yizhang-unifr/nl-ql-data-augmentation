@@ -1,0 +1,16 @@
+SELECT programmes.short_name FROM programmes WHERE programmes.title = 'Enhancing strategic international co-operation with China in the field of flow control for drag reduction and wing aeroelastic optimisation'
+
+###
+
+
+Original Query:
+SELECT programmes.short_name FROM programmes WHERE programmes.title = 'Enhancing strategic international co-operation with China in the field of flow control for drag reduction and wing aeroelastic optimisation'
+GPT-3 choices:
+(0) Show me the short name for all the programmes with title "Enhancing strategic international co-operation with China in the field of flow control for drag reduction and wing aeroelastic optimisation"
+(1) Show me all programmes having "Enhancing strategic international co-operation with China in the field of flow control for drag reduction and wing aeroelastic optimisation" as title.
+(2) Show me programme called 'Enhancing strategic international co-operation with China in the field of flow control for drag reduction and wing aeroelastic optimisation'.
+(3) Show all the programmes with title “Enhancing strategic international co-operation with China in the field of flow control for drag reduction and wing aeroelastic optimisation”
+(4) Show all the programmes within which the title field is "Enhancing strategic international co-operation with China in the field of flow control for drag reduction and wing aeroelastic optimisation".
+(5) Show me programmes with title "Enhancing strategic international co-operation with China in the field of flow control for drag reduction and wing aeroelastic optimisation"
+(6) Show me all the short names for programmes with title "Enhancing strategic international co-operation with China in the field of flow control for drag reduction and wing aeroelastic optimisation".
+(7) Show me all the programme names that are about "Enhancing strategic international co-operation with China in the field of flow control for drag reduction and wing aeroelastic optimisation"

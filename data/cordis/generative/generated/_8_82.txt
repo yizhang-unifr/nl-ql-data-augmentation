@@ -1,0 +1,28 @@
+SELECT institutions.geocode_regions_3 FROM institutions WHERE institutions.grid_id != 'grid.436239.9'
+
+###
+
+
+Original Query:
+SELECT institutions.geocode_regions_3 FROM institutions WHERE institutions.grid_id != 'grid.436239.9'
+GPT-3 choices:
+(0) Show me institutions that are not located in the grid 436239
+(1) All institutions, except euhab_institutions, which are at the grid 436239.9
+(2) Show me all institution geocodes whose grid id is not 436239.9
+(3) Show the geocoding region for a given institution, if different from "grid.436239.9".
+(4) Show me the geocode regions of the institutions that don't match grid.436239.9
+(5) Show me all the regional 3 institutions that don't have the grid 4632289 as their grid.
+(6) Retrieve the region of institutions that have a different grid id than 'grid.436239.9'
+(7) Show me institutions that don't have grid 436239.9
+
+
+Re-ranked choices:
+5.225  Show me institutions that are not located in the grid 436239
+5.206  Show me institutions that don't have grid 436239.9
+5.075  Show me the geocode regions of the institutions that don't match grid.436239.9
+4.902  Show me all institution geocodes whose grid id is not 436239.9
+4.897  Show me all the regional 3 institutions that don't have the grid 4632289 as their grid.
+4.680  Retrieve the region of institutions that have a different grid id than 'grid.436239.9'
+4.511  Show the geocoding region for a given institution, if different from "grid.436239.9".
+4.468  All institutions, except euhab_institutions, which are at the grid 436239.9
+

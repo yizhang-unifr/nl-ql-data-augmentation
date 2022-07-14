@@ -1,0 +1,28 @@
+SELECT institutions.unics_id FROM institutions WHERE institutions.short_name != 'UBS'
+
+###
+
+
+Original Query:
+SELECT institutions.unics_id FROM institutions WHERE institutions.short_name != 'UBS'
+GPT-3 choices:
+(0) Retrieve all the different institutions not named UBS.
+(1) Retrieve all institutions other than UBS
+(2) What are the ID of different institutions with a short name that is not UBS?
+(3) Retrieve all institutions except the one having short name UBS
+(4) What universities have a short name not equal to UBS?
+(5) Show me institutions which do not have the short name UBS
+(6) Retrieve the id of all institutions having a short name different from UBS.
+(7) Show me all institutions with a different name than "UBS"
+
+
+Re-ranked choices:
+5.635  Retrieve all institutions except the one having short name UBS
+5.632  Show me institutions which do not have the short name UBS
+5.613  Show me all institutions with a different name than "UBS"
+5.578  Retrieve all the different institutions not named UBS.
+5.477  Retrieve the id of all institutions having a short name different from UBS.
+5.397  What are the ID of different institutions with a short name that is not UBS?
+4.995  Retrieve all institutions other than UBS
+4.797  What universities have a short name not equal to UBS?
+

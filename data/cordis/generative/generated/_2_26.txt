@@ -1,0 +1,27 @@
+SELECT project_members.activity_type, count(*) FROM project_members  GROUP BY project_members.activity_type
+
+###
+
+
+Original Query:
+SELECT project_members.activity_type, count(*) FROM project_members  GROUP BY project_members.activity_type
+GPT-3 choices:
+(0) What are the different activity types of project members?
+(1) How many project members are there according to their activity type?
+(2) What is the number of project members activity types?
+(3) Count the different activity types of project members
+(4) How many project members have a different activity type than their project?
+(5) Using count() and a join over projects, get the number of project members activities.
+(6) What are the activity type of project members?
+(7) What are the different activity types of project members?
+
+
+Re-ranked choices:
+5.215  How many project members are there according to their activity type?
+5.185  What is the number of project members activity types?
+5.110  How many project members have a different activity type than their project?
+5.001  What are the activity type of project members?
+4.901  What are the different activity types of project members?
+4.884  Count the different activity types of project members
+4.046  Using count() and a join over projects, get the number of project members activities.
+

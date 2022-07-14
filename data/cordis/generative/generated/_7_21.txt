@@ -1,0 +1,28 @@
+SELECT institutions.geocode_regions_3 FROM institutions WHERE institutions.unics_id = 283755 or institutions.unics_id = 283079
+
+###
+
+
+Original Query:
+SELECT institutions.geocode_regions_3 FROM institutions WHERE institutions.unics_id = 283755 or institutions.unics_id = 283079
+GPT-3 choices:
+(0) Show me the regions of institutions having the unics code 283755 or 283079
+(1) Show me the populated area 3 code for the institutions with ids 283755 and 283079
+(2) Show me all institutions in Belgium or Luxembourg with a UNIC project number
+(3) What are the geocode regions of the institution with unicode id 283755 or 283079?
+(4) What are the geocode_regions_3 of the institutions with ids 283755 and 283079?
+(5) Show me institutions with either 283755 or 283079 as unics code
+(6) What are the geocode regions corresponding to both the institution with unics_id 283755 and the institution with unics_id 283079?
+(7) Show me the geocode regions 3 of institutions having either iban number 283755 or iban number 283079
+
+
+Re-ranked choices:
+5.279  Show me the regions of institutions having the unics code 283755 or 283079
+5.260  What are the geocode_regions_3 of the institutions with ids 283755 and 283079?
+5.166  What are the geocode regions corresponding to both the institution with unics_id 283755 and the institution with unics_id 283079?
+4.999  What are the geocode regions of the institution with unicode id 283755 or 283079?
+4.886  Show me the geocode regions 3 of institutions having either iban number 283755 or iban number 283079
+4.703  Show me the populated area 3 code for the institutions with ids 283755 and 283079
+4.668  Show me institutions with either 283755 or 283079 as unics code
+3.024  Show me all institutions in Belgium or Luxembourg with a UNIC project number
+

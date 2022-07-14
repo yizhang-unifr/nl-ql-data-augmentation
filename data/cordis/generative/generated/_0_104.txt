@@ -1,0 +1,27 @@
+SELECT countries.country_name FROM countries WHERE countries.country_code = 'SJ'
+
+###
+
+
+Original Query:
+SELECT countries.country_name FROM countries WHERE countries.country_code2 = 'SJ'
+GPT-3 choices:
+(0) What is the country name of country code SJ ?
+(1) Retrieve the country name of countries having country code SJ.
+(2) What are the country names of countries with country code SJ?
+(3) Show me all countries with a country code of SJ
+(4) What are the country names of countries with country code SJ?
+(5) Show all country names of countries with country code SJ
+(6) What are the countries whose codes are SJ?
+(7) Show all country names from countries where the country code is SJ
+
+
+Re-ranked choices:
+5.380  Show me all countries with a country code of SJ
+5.370  What are the country names of countries with country code SJ?
+5.303  Show all country names from countries where the country code is SJ
+5.293  Show all country names of countries with country code SJ
+5.211  Retrieve the country name of countries having country code SJ.
+5.131  What is the country name of country code SJ ?
+5.057  What are the countries whose codes are SJ?
+

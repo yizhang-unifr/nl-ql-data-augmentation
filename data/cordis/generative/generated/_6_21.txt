@@ -1,0 +1,28 @@
+SELECT project_members.institution_id FROM project_members WHERE project_members.id = 503324 and project_members.rcn = '1907244'
+
+###
+
+
+Original Query:
+SELECT project_members.institution_id FROM project_members WHERE project_members.unics_id = 503324 and project_members.rcn = '1907244'
+GPT-3 choices:
+(0) What is the institution id of project members with rcn 1907244?
+(1) Show me all institutions which have a project member with ics code 1907244
+(2) Show project members of project 503324 with rcn 1907244
+(3) Display all institutions participating in project 503324
+(4) What is the institution ID of project members with research component code 1907244?
+(5) What are the institutions of the project member with RCN 1907244?
+(6) Retrieve the institution id of project members having the rcn 1907244
+(7) Show me all the institutions that have a project member with a rcn of 1907244
+
+
+Re-ranked choices:
+5.577  What is the institution id of project members with rcn 1907244?
+5.409  What are the institutions of the project member with RCN 1907244?
+5.363  Show me all the institutions that have a project member with a rcn of 1907244
+5.148  Retrieve the institution id of project members having the rcn 1907244
+5.054  What is the institution ID of project members with research component code 1907244?
+4.954  Show me all institutions which have a project member with ics code 1907244
+4.843  Show project members of project 503324 with rcn 1907244
+3.954  Display all institutions participating in project 503324
+

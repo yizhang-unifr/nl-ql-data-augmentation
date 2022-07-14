@@ -1,0 +1,16 @@
+SELECT project_members.activity_type FROM project_members WHERE project_members.member_role = 'participant'
+
+###
+
+
+Original Query:
+SELECT project_members.activity_type FROM project_members WHERE project_members.member_role = 'participant'
+GPT-3 choices:
+(0) Show all project members whose principal activity is a participant
+(1) What are the activity types of project members?
+(2) What is the activity type of all project members?
+(3) Show activity types of project members
+(4) Select activity type of project members
+(5) Display activity type of members
+(6) Array
+(7) Missing Activity Type

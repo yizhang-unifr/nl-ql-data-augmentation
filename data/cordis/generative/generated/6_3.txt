@@ -1,0 +1,16 @@
+SELECT programmes.code FROM programmes WHERE programmes.short_name = 'Food, agriculture, forestry, marine research and bioeconomy' and programmes.title = 'Closing gaps of knowledge and reducing exposure to electromagnetic fields (EMF)'
+
+###
+
+
+Original Query:
+SELECT programmes.code FROM programmes WHERE programmes.short_name = 'Food, agriculture, forestry, marine research and bioeconomy' and programmes.title = 'Closing gaps of knowledge and reducing exposure to electromagnetic fields (EMF)'
+GPT-3 choices:
+(0) Show me the programme code of the project Closing gaps of knowledge and reducing exposure to electromagnetic fields (EMF) in the area of Food, agriculture, forestry, marine research and bioeconomy.
+(1) Show me the code of the program called "Food, agriculture, forestry, marine research and bioeconomy" that has "Closing gaps of knowledge and reducing exposure to electromagnetic fields (EMF)" as its title
+(2) Show me all programmes with short name 'Food, agriculture, forestry, marine research and bioeconomy' and a title 'Closing gaps of knowledge and reducing exposure to electromagnetic fields (EMF)'
+(3) What is the code of the programme `Food, agriculture, forestry, marine research and bioeconomy` with the title `Closing gaps of knowledge and reducing exposure to electromagnetic fields (EMF)`?
+(4) Show me the code for the programme “Closing gaps of knowledge and reducing exposure to electromagnetic fields (EMF)” in the topic “Food, agriculture, forestry, marine research and bioeconomy”.
+(5) Show me the programms having short name Food, agriculture, forestry, marine research and bioeconomy that have the title Closing gaps of knowledge and reducing exposure to electromagnetic fields (EMF).
+(6) Which programmes have the title "Closing gaps of knowledge and reducing exposure to electromagnetic fields (EMF)"?
+(7) Retrieve programmes that have the short name Food, agriculture, forestry, marine research and bioeconomy and the title Closing gaps of knowledge and reducing exposure to electromagnetic fields (EMF).

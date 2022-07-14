@@ -1,0 +1,28 @@
+SELECT projects.total_cost FROM projects JOIN ec_framework_programs ON projects.framework_program = ec_framework_programs.program_name WHERE ec_framework_programs.program_name != 'FP5'
+
+###
+
+
+Original Query:
+SELECT projects.total_cost FROM projects JOIN ec_framework_programs ON projects.framework_program = ec_framework_programs.ec_framework_program_name WHERE ec_framework_programs.ec_framework_program_name != 'FP5'
+GPT-3 choices:
+(0) What is the total cost of the projects that are not in the european framework program 5?
+(1) What is the total cost of all projects in the program FP5?
+(2) Show the total cost of all projects which don't fall under the Ec framework program FP5 calculations?
+(3) Show me the total cost of projects that fall under a program that is not FP5?
+(4) Show the total cost of all the projects with a framework program named something other than FP5
+(5) Show the total cost of projects from the European Commission Framework Programme that does not have the program name “FP5”.
+(6) What is the total cost of all projects with a non FP5 framework program?
+(7) What is the total cost of all projects that do not fall in the FP5 program?
+
+
+Re-ranked choices:
+5.888  What is the total cost of all projects in the program FP5?
+5.883  Show me the total cost of projects that fall under a program that is not FP5?
+5.866  What is the total cost of all projects that do not fall in the FP5 program?
+5.842  What is the total cost of all projects with a non FP5 framework program?
+5.639  Show the total cost of all the projects with a framework program named something other than FP5
+5.511  Show the total cost of all projects which don't fall under the Ec framework program FP5 calculations?
+5.461  Show the total cost of projects from the European Commission Framework Programme that does not have the program name “FP5”.
+5.449  What is the total cost of the projects that are not in the european framework program 5?
+

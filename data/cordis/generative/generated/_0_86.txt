@@ -1,0 +1,28 @@
+SELECT projects.unics_id FROM projects WHERE projects.end_year = 2013
+
+###
+
+
+Original Query:
+SELECT projects.unics_id FROM projects WHERE projects.end_year = 2013
+GPT-3 choices:
+(0) SELECT projects.unics_id FROM projects WHERE projects.end_year = 2013
+(1) Show me the universities which agree to take part in projects with end year 2013
+(2) Which are the unics of projects that end in 2013?
+(3) Show projects whose end year is 2013
+(4) Show me all projects with an end year of 2013
+(5) Show me all the UNICS projects that ended in 2013
+(6) Select the unics id of projects that ended in 2013
+(7) What are the unics of projects that ended in 2013?
+
+
+Re-ranked choices:
+5.299  Which are the unics of projects that end in 2013?
+5.257  What are the unics of projects that ended in 2013?
+5.021  Show me all projects with an end year of 2013
+4.971  Show me all the UNICS projects that ended in 2013
+4.884  Select the unics id of projects that ended in 2013
+4.832  Show projects whose end year is 2013
+4.629  SELECT projects.unics_id FROM projects WHERE projects.end_year = 2013
+4.421  Show me the universities which agree to take part in projects with end year 2013
+

@@ -1,0 +1,16 @@
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title = 'Consolidator Grant'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title = 'Consolidator Grant'
+GPT-3 choices:
+(0) What are the funding schemes of the Consolidator Grant?
+(1) Show me all the funding schemes with title 'Consolidator Grant'
+(2) Show me all the funding schemas owned by "Consolidator Grant"
+(3) Show me all funding schemes with title 'Consolidator Grant'
+(4) Retrieve the code of the funding scheme with title “Consolidator Grant”.
+(5) If the title is "Consolidator Grant"
+(6) Get the code of the funding scheme named Consolidator Grant
+(7) Show me all the funding scheme titles

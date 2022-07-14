@@ -1,0 +1,27 @@
+SELECT activity_types.description FROM activity_types WHERE activity_types.code = 'OTH' or activity_types.code = 'REC'
+
+###
+
+
+Original Query:
+SELECT activity_types.description FROM activity_types WHERE activity_types.code = 'OTH' or activity_types.code = 'REC'
+GPT-3 choices:
+(0) Show me all the activity types descriptions.
+(1) What are the descriptions of activity types?
+(2) Retrieve activity types descriptions.
+(3) What are the description of activity types that either have the code OTH or REC?
+(4) Display all description from activity types with code OTH or REC.
+(5) What are the descriptions of activity types?
+(6) List activity types description having as code either OTH or REC
+(7) Show me all activity type descriptions where the activity type code is OTH or REC
+
+
+Re-ranked choices:
+5.016  Show me all activity type descriptions where the activity type code is OTH or REC
+4.786  List activity types description having as code either OTH or REC
+4.702  Show me all the activity types descriptions.
+4.645  Retrieve activity types descriptions.
+4.536  What are the description of activity types that either have the code OTH or REC?
+4.525  Display all description from activity types with code OTH or REC.
+4.488  What are the descriptions of activity types?
+

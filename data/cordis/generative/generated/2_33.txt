@@ -1,0 +1,16 @@
+SELECT institutions.short_name, count(*) FROM institutions  GROUP BY institutions.short_name
+
+###
+
+
+Original Query:
+SELECT institutions.short_name, count(*) FROM institutions  GROUP BY institutions.short_name
+GPT-3 choices:
+(0) Count all institutions with different short names.
+(1) Divide the number of countries by the number of institutions, what's the average short name?
+(2) What is the number of institutions with a short name?
+(3) How many institutions are there?
+(4) How many institutions are there in total?
+(5) What are the most popular short names of institutions?
+(6) Count all institutions in the countries where I have a funding.
+(7) What are the short names of all institutions?

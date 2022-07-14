@@ -1,0 +1,16 @@
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title != 'Large-scale integrating project'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title != 'Large-scale integrating project'
+GPT-3 choices:
+(0) Insert the code of funding schemes that have a different title than Large-scale integrating project.
+(1) Retrieve all funding scheme abbreviation.
+(2) What are the funding scheme codes of projects that are not large scale integrating projects?
+(3) Show me the code of funding schemes which are not large-scale integrating project
+(4) Show me the funding scheme codes of projects whithout title Large-scale integrating project
+(5) Show the code of funding schemes with title != 'Large-scale integrating project'
+(6) Retrieve the list of funding scheme codes
+(7) Show me all funding scheme titles different than 'Large-scale integrating project'

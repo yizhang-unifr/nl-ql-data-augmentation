@@ -1,0 +1,107 @@
+[
+  {
+    "name": "museum",
+    "original_name": "museum",
+    "logical_name": "museum",
+    "columns": [
+      {
+        "name": "museum id",
+        "original_name": "Museum_ID",
+        "logical_name": "Museum_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "name",
+        "original_name": "Name",
+        "logical_name": "Name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "num of staff",
+        "original_name": "Num_of_Staff",
+        "logical_name": "Num_of_Staff",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "open year",
+        "original_name": "Open_Year",
+        "logical_name": "Open_Year",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "customer",
+    "original_name": "visitor",
+    "logical_name": "visitor",
+    "columns": [
+      {
+        "name": "customer id",
+        "original_name": "ID",
+        "logical_name": "ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "name",
+        "original_name": "Name",
+        "logical_name": "Name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "level of membership",
+        "original_name": "Level_of_membership",
+        "logical_name": "Level_of_membership",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "age",
+        "original_name": "Age",
+        "logical_name": "Age",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  },
+  {
+    "name": "visit",
+    "original_name": "visit",
+    "logical_name": "visit",
+    "columns": [
+      {
+        "name": "museum id",
+        "original_name": "Museum_ID",
+        "logical_name": "Museum_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "customer id",
+        "original_name": "visitor_ID",
+        "logical_name": "visitor_ID",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "num of ticket",
+        "original_name": "Num_of_Ticket",
+        "logical_name": "Num_of_Ticket",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "total spent",
+        "original_name": "Total_spent",
+        "logical_name": "Total_spent",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  }
+]

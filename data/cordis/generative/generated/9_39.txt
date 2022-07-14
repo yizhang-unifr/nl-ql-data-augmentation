@@ -1,0 +1,16 @@
+SELECT activity_types.description FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.city != 'ATHINA'
+
+###
+
+
+Original Query:
+SELECT activity_types.description FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.city != 'ATHINA'
+GPT-3 choices:
+(0) What are the activity types of project members whose city is not ATHINA?
+(1) Retrieve activity types with project members in a city different than 'ATHINA'
+(2) What are the activity types of people whose city is not ATHINA?
+(3) Show activity types of project members with a different city than "ATHINA"
+(4) Retrieve all descriptions of activity types of project members that are not in the city of ATHINA
+(5) What are the activity types of project members who are not from Athens?
+(6) Which description of activity types are associated with members from a city other than ATHINA?
+(7) Display activity type descriptions from project members with a city different from "ATHINA"

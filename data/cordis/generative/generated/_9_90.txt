@@ -1,0 +1,28 @@
+SELECT project_members.longitude FROM project_members JOIN activity_types ON project_members.activity_type = activity_types.code WHERE activity_types.description != 'Other'
+
+###
+
+
+Original Query:
+SELECT project_members.longitude FROM project_members JOIN activity_types ON project_members.activity_type = activity_types.code WHERE activity_types.description != 'Other'
+GPT-3 choices:
+(0) Show me project members longitude for activity types != 'Other'
+(1) Show all the project members' longitude who are not associated with an activity type having the description "Other"
+(2) Show projects members longitude who have an activity type different from 'Other'
+(3) Show me all project members with activity types that are not 'Other'
+(4) Show me all project members from activities which are not from the description 'Other'
+(5) Show me all project members who participate in an activity type that is not "Other"?
+(6) Show me the longitude of project members with activity type that is not 'Other'
+(7) Show all members of project whose activity type is different than "Other"
+
+
+Re-ranked choices:
+5.852  Show all the project members' longitude who are not associated with an activity type having the description "Other"
+5.852  Show me all project members with activity types that are not 'Other'
+5.804  Show projects members longitude who have an activity type different from 'Other'
+5.768  Show me the longitude of project members with activity type that is not 'Other'
+5.712  Show all members of project whose activity type is different than "Other"
+5.647  Show me all project members who participate in an activity type that is not "Other"?
+5.601  Show me project members longitude for activity types != 'Other'
+5.501  Show me all project members from activities which are not from the description 'Other'
+

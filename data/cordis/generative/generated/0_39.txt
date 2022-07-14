@@ -1,0 +1,16 @@
+SELECT topics.title FROM topics WHERE topics.code = 'WIDESPREAD-1-2014'
+
+###
+
+
+Original Query:
+SELECT topics.title FROM topics WHERE topics.code = 'WIDESPREAD-1-2014'
+GPT-3 choices:
+(0) Show me all trade topics with title WIDESPREAD-1-2014
+(1) Show me the topics of the wide spread 1-2014.
+(2) What are the topics with title WIDESPREAD-1-2014?
+(3) Show me all the titles of the topics with code WIDESPREAD-1-2014
+(4) Which topics are in the WIDESPREAD-1-2014 program?
+(5) Retrieve all topics having the code WIDESPREAD-1-2014.
+(6) Show me all topics with the code WIDESPREAD-1-2014
+(7) Show me topics that have the code WIDESPREAD-1-2014

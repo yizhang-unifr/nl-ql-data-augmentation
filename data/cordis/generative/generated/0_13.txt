@@ -1,0 +1,16 @@
+SELECT subject_areas.title FROM subject_areas WHERE subject_areas.code = 'AER'
+
+###
+
+
+Original Query:
+SELECT subject_areas.title FROM subject_areas WHERE subject_areas.code = 'AER'
+GPT-3 choices:
+(0) Show all subject area titles that have the code AER
+(1) Retrieve the title of subject areas with code = 'AER'
+(2) Show me subject areas with the code AER
+(3) Show all subject areas with title "AER"
+(4) Display subject areas with the code 'AER'.
+(5) Show me all subject areas with a code of AER
+(6) Retrieve all subject areas with code AER.
+(7) Retrieve all subject areas with the code AER.

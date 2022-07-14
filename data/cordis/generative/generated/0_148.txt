@@ -1,0 +1,16 @@
+SELECT institutions.acronym FROM institutions WHERE institutions.geocode_regions_3 = 'FR612'
+
+###
+
+
+Original Query:
+SELECT institutions.acronym FROM institutions WHERE institutions.geocode_regions_3 = 'FR612'
+GPT-3 choices:
+(0) Show me the acronyms of institutions in the region FR612
+(1) What are the acronyms of institutions located in FR612?
+(2) Show me all the acronyms of institutions present in the region FR612
+(3) Retrieve acronyms of institutions located in FR612
+(4) Retrieve all acronyms of institutions located in the geocode region of FR612.
+(5) Show me the acronyms of institutions that are located in the region FR612.
+(6) Retrieve the acronyms of institutions located in the region 612
+(7) Show me all institutions having a geocode region of FR612

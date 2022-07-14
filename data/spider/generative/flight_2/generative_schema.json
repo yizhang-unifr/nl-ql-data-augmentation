@@ -1,0 +1,114 @@
+[
+  {
+    "name": "airlines",
+    "original_name": "airlines",
+    "logical_name": "airlines",
+    "columns": [
+      {
+        "name": "airline id",
+        "original_name": "uid",
+        "logical_name": "uid",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "airline name",
+        "original_name": "Airline",
+        "logical_name": "Airline",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "abbreviation",
+        "original_name": "Abbreviation",
+        "logical_name": "Abbreviation",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "country",
+        "original_name": "Country",
+        "logical_name": "Country",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "airports",
+    "original_name": "airports",
+    "logical_name": "airports",
+    "columns": [
+      {
+        "name": "city",
+        "original_name": "City",
+        "logical_name": "City",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "airport code",
+        "original_name": "AirportCode",
+        "logical_name": "AirportCode",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "airport name",
+        "original_name": "AirportName",
+        "logical_name": "AirportName",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "country",
+        "original_name": "Country",
+        "logical_name": "Country",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "country abbrev",
+        "original_name": "CountryAbbrev",
+        "logical_name": "CountryAbbrev",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "flights",
+    "original_name": "flights",
+    "logical_name": "flights",
+    "columns": [
+      {
+        "name": "airline",
+        "original_name": "Airline",
+        "logical_name": "Airline",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "flight number",
+        "original_name": "FlightNo",
+        "logical_name": "FlightNo",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "source airport",
+        "original_name": "SourceAirport",
+        "logical_name": "SourceAirport",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "destination airport",
+        "original_name": "DestAirport",
+        "logical_name": "DestAirport",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  }
+]

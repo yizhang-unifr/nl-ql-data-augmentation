@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description != 'Blackburn with Darwen'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description != 'Blackburn with Darwen'
+GPT-3 choices:
+(0) What are the geocode regions of territorial units that are not in Blackburn with Darwen?
+(1) List all the European terrotorial units that do not belong to Blackburn with Darwen
+(2) Show all the areas not having Blackburn with Darwen in their description
+(3) Show me the geocode region for the territorial unit that does not have the description "Blackburn with Darwen"
+(4) Show the geocode regions of the eu territorial units that do not have the description 'Blackburn with Darwen'
+(5) Show the geocode regions of territorial units that are not Blackburn with Darwen
+(6) Show all the European territorial units, except the one with element description "Blackburn with Darwen"
+(7) Retrieve the geocode regions of the subunits different from Blackburn with Darwen
+
+
+Re-ranked choices:
+5.670  Show the geocode regions of territorial units that are not Blackburn with Darwen
+5.640  Show the geocode regions of the eu territorial units that do not have the description 'Blackburn with Darwen'
+5.546  Show me the geocode region for the territorial unit that does not have the description "Blackburn with Darwen"
+5.467  What are the geocode regions of territorial units that are not in Blackburn with Darwen?
+4.876  Show all the European territorial units, except the one with element description "Blackburn with Darwen"
+4.630  List all the European terrotorial units that do not belong to Blackburn with Darwen
+4.579  Show all the areas not having Blackburn with Darwen in their description
+4.388  Retrieve the geocode regions of the subunits different from Blackburn with Darwen
+

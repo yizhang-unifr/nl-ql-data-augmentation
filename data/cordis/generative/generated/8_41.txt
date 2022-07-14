@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions != 'UKM93'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions != 'UKM93'
+GPT-3 choices:
+(0) Show which regions have territorial units
+(1) Show me eu territorial units outside the UKM93 region.
+(2) Show all EU territorial unit descriptions with a geocode other than UKM93
+(3) Show me the descriptions of the European Union territorial units in a region different than UKM93.
+(4) Show me the descriptions of the EU territorial units that are not part of the geocode region UKM93.
+(5) Show the descriptions of European territorial units that don't correspond to UKM93.
+(6) Show me the descriptions of eu territorial units where geocode region is not UKM93.
+(7) Show me the description part of the European territorial unit with geocode region != USM93

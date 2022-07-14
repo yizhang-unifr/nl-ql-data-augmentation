@@ -1,0 +1,28 @@
+SELECT institutions.institutions_name FROM institutions JOIN countries ON institutions.country_id = countries.unics_id WHERE countries.country_code != 'IQ'
+
+###
+
+
+Original Query:
+SELECT institutions.institutions_name FROM institutions JOIN countries ON institutions.country_id = countries.unics_id WHERE countries.country_code2 != 'IQ'
+GPT-3 choices:
+(0) Show the name of institutions in countries except for Iraq.
+(1) Retrieve the name of all institutions located in countries different from Iraq
+(2) What are the names of the institutions having country code other than IQ?
+(3) Show all institutions with a country different from 'IQ'
+(4) Show all institutions name in countries having a country code different from "IQ"
+(5) Show all institutions with a country code different than "IQ"
+(6) Show the institutions names from the countries except the country code IQ
+(7) Retrieve the names of the institutions having a country different than IQ
+
+
+Re-ranked choices:
+5.711  Show the institutions names from the countries except the country code IQ
+5.694  Show all institutions name in countries having a country code different from "IQ"
+5.498  Show all institutions with a country code different than "IQ"
+5.498  Retrieve the names of the institutions having a country different than IQ
+5.411  Show all institutions with a country different from 'IQ'
+5.015  What are the names of the institutions having country code other than IQ?
+4.161  Show the name of institutions in countries except for Iraq.
+3.932  Retrieve the name of all institutions located in countries different from Iraq
+

@@ -1,0 +1,16 @@
+SELECT countries.country_code FROM countries WHERE countries.country_name = 'South Africa'
+
+###
+
+
+Original Query:
+SELECT countries.country_code2 FROM countries WHERE countries.country_name = 'South Africa'
+GPT-3 choices:
+(0) Show the country code of South Africa.
+(1) Show all country codes of countries whose name is South Africa
+(2) Show the country code of all countries with the country name South Africa
+(3) Show me all countries that are called South Africa
+(4) Show all country codes of countries with country_name = South Africa
+(5) Show the countries that have country code “South Africa”
+(6) Show country codes of all countries with country name South Africa
+(7) What is the country code of South Africa?

@@ -1,0 +1,16 @@
+SELECT topics.rcn FROM topics JOIN project_topics ON topics.code = project_topics.topic JOIN projects ON project_topics.project = projects.unics_id WHERE projects.unics_id != 156740
+
+###
+
+
+Original Query:
+SELECT topics.rcn FROM topics JOIN project_topics ON topics.code = project_topics.topic JOIN projects ON project_topics.project = projects.unics_id WHERE projects.unics_id != 156740
+GPT-3 choices:
+(0) Show all topics from projects different from 156740
+(1) Retrieve all topics of projects except 156740
+(2) Show me the topics that have a project and do not have the project 156740
+(3) Retrieve topics related to the project 156740
+(4) Show me the research areas for project 156740.
+(5) Show all research topics from project 156740.
+(6) Show me topics of all projects except 156740
+(7) Show me the topics of projects different from 156740?

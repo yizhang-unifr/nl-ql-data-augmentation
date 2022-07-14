@@ -1,0 +1,16 @@
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.total_cost != 100000.0
+
+###
+
+
+Original Query:
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.total_cost != 100000.0
+GPT-3 choices:
+(0) Show full names of all person from projects that have a total cost different than 100000.0
+(1) Retrieve the full name of all people associated with a project that has a total cost != 100000.0
+(2) Show me the names of project's principal investigators whose project's total cost is not 100000.0
+(3) Retrieve the full name of all participants where the project's total cost is not 100000.0
+(4) What is the full name of principal investigators of projects with a total cost different from 100000.0?
+(5) What are the full names of people that are principals of projects that are not over 100.0 ?
+(6) Retrieve the full name from all people who are principal investigators in a project and the total cost of which is != 100000.0.
+(7) Show the full name of people that are not principal investigators of projects that total cost is not 100000.0

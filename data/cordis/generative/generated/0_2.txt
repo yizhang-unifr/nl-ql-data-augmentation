@@ -1,0 +1,16 @@
+SELECT institutions.geocode_regions_3 FROM institutions WHERE institutions.wikidata_url = 'http://www.wikidata.org/wiki/Q461210'
+
+###
+
+
+Original Query:
+SELECT institutions.geocode_regions_3 FROM institutions WHERE institutions.wikidata_url = 'http://www.wikidata.org/wiki/Q461210'
+GPT-3 choices:
+(0) Show me the regions of the institution with the wikidata url http://www.wikidata.org/wiki/Q461210
+(1) Retrieve all regions associated with the wikidata project Q461210
+(2) Show me all the different regions of the institution with wikidata url Q461210.
+(3) Show all geocode regions of the institution with a wikidata url equal to http://www.wikidata.org/wiki/Q461210
+(4) What are the geocode regions 3 of the institution with url http://www.wikidata.org/wiki/Q461210?
+(5) Show the geocode regions of the institution with the wikidata url http://www.wikidata.org/wiki/Q461210.
+(6) SHOW THE GEOGRAPHICAL REGIONS OF THE INSTITUTION WITH WIKIDATA URL Q461210
+(7) Show me the countries with an id different from 461210 from which there is an institution.

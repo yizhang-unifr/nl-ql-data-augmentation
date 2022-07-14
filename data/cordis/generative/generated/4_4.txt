@@ -1,0 +1,16 @@
+SELECT count(*) FROM ec_framework_programs WHERE ec_framework_programs.program_name = 'CIP'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM ec_framework_programs WHERE ec_framework_programs.ec_framework_program_name = 'CIP'
+GPT-3 choices:
+(0) Show the number of programs that have the framework program CIP.
+(1) Show all the program names in the program framework CIP
+(2) How many EC funded programmes are there?
+(3) How many projects are there with a framework program named CIP?
+(4) How many EC framework programs are there?
+(5) How many are there program named CIP?
+(6) How many different programmes are there?
+(7) How many different programs are there whose name is CIP?

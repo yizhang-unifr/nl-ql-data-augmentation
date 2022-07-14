@@ -1,0 +1,584 @@
+[
+  {
+    "name": "Nearest neighbour objects",
+    "original_name": "neighbors",
+    "logical_name": "nearest_neighbors",
+    "columns": [
+      {
+        "name": "Object id",
+        "original_name": "objid",
+        "logical_name": "center_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "neighbor object id",
+        "original_name": "neighborobjid",
+        "logical_name": "neighbor_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "distance between the object and its neighbor",
+        "original_name": "distance",
+        "logical_name": "distance_center-neighbor",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "object type",
+        "original_name": "type",
+        "logical_name": "center_type",
+        "original_datatype": "number",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "neighbor type",
+        "original_name": "neighbortype",
+        "logical_name": "neighbor_type",
+        "original_datatype": "number",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "mode of photometric observation",
+        "original_name": "mode",
+        "logical_name": "center_type",
+        "original_datatype": "number",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "neighbor mode of photometric observation",
+        "original_name": "neighbormode",
+        "logical_name": "neighbor_mode",
+        "original_datatype": "number",
+        "logical_datatype": "categorical"
+      }
+    ]
+  },
+  {
+    "name": "Photometric objects",
+    "original_name": "photoobj",
+    "logical_name": "photometric_objects",
+    "columns": [
+      {
+        "name": "object id",
+        "original_name": "objid",
+        "logical_name": "object_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "run number",
+        "original_name": "run",
+        "logical_name": "run_number",
+        "original_datatype": "number",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "rerun number",
+        "original_name": "rerun",
+        "logical_name": "rerun_number",
+        "original_datatype": "number",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "field number",
+        "original_name": "field",
+        "logical_name": "field_number",
+        "original_datatype": "number",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "mode of photometric observation",
+        "original_name": "mode",
+        "logical_name": "mode_of_photo_observation",
+        "original_datatype": "number",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "object type classification",
+        "original_name": "type",
+        "logical_name": "object_type_classification",
+        "original_datatype": "number",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "clean photometry flag",
+        "original_name": "clean",
+        "logical_name": "clean_photometry_flag",
+        "original_datatype": "number",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "photo object attribute flags",
+        "original_name": "flags",
+        "logical_name": "photo_object_attribute_flags",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "row center position",
+        "original_name": "rowc",
+        "logical_name": "row_center_position",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "column center position",
+        "original_name": "colc",
+        "logical_name": "column_center_position",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "composite model magnitude u",
+        "original_name": "cmodelmag_u",
+        "logical_name": "composite_modelmagnitude_u",
+        "original_datatype": "number",
+        "logical_datatype": "number",
+        "math_operands": {
+          "-": {
+            "Photometric objects": [
+              "composite model magnitude g",
+              "composite model magnitude r"
+            ]
+          },
+          "+": {},
+          "*": {},
+          "/": {}
+        }
+      },
+      {
+        "name": "composite model magnitude g",
+        "original_name": "cmodelmag_g",
+        "logical_name": "composite_modelmagnitude_g",
+        "original_datatype": "number",
+        "logical_datatype": "number",
+        "math_operands": {
+          "-": {
+            "Photometric objects": [
+              "composite model magnitude u",
+              "composite model magnitude r"
+            ]
+          },
+          "+": {},
+          "*": {},
+          "/": {}
+        }
+      },
+      {
+        "name": "composite model magnitude r",
+        "original_name": "cmodelmag_r",
+        "logical_name": "composite_modelmagnitude_r",
+        "original_datatype": "number",
+        "logical_datatype": "number",
+        "math_operands": {
+          "-": {
+            "Photometric objects": [
+              "composite model magnitude u",
+              "composite model magnitude g"
+            ]
+          },
+          "+": {},
+          "*": {},
+          "/": {}
+        }
+      },
+      {
+        "name": "right ascension",
+        "original_name": "ra",
+        "logical_name": "right_ascension",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "declination",
+        "original_name": "dec",
+        "logical_name": "declination",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "galactic latitude",
+        "original_name": "b",
+        "logical_name": "galactic_latitude",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "galactic longitude",
+        "original_name": "l",
+        "logical_name": "galactic_longitude",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "extinction r",
+        "original_name": "extinction_r",
+        "logical_name": "extinction_r",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "modified julien date",
+        "original_name": "mjd",
+        "logical_name": "modified_julien_date",
+        "original_datatype": "number",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "load version",
+        "original_name": "loadversion",
+        "logical_name": "load_version",
+        "original_datatype": "number",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "magnitude u",
+        "original_name": "u",
+        "logical_name": "magnitude_u",
+        "original_datatype": "number",
+        "logical_datatype": "number",
+        "math_operands": {
+          "-": {
+            "Photometric objects": [
+              "magnitude g",
+              "magnitude r",
+              "magnitude i",
+              "magnitude z"
+            ]
+          },
+          "+": {},
+          "*": {},
+          "/": {}
+        }
+      },
+      {
+        "name": "magnitude g",
+        "original_name": "g",
+        "logical_name": "magnitude_g",
+        "original_datatype": "number",
+        "logical_datatype": "number",
+        "math_operands": {
+          "-": {
+            "Photometric objects": [
+              "magnitude u",
+              "magnitude r",
+              "magnitude i",
+              "magnitude z"
+            ]
+          },
+          "+": {},
+          "*": {},
+          "/": {}
+        }
+      },
+      {
+        "name": "magnitude r",
+        "original_name": "r",
+        "logical_name": "magnitude_r",
+        "original_datatype": "number",
+        "logical_datatype": "number",
+        "math_operands": {
+          "-": {
+            "Photometric objects": [
+              "magnitude u",
+              "magnitude g",
+              "magnitude i",
+              "magnitude z"
+            ]
+          },
+          "+": {},
+          "*": {},
+          "/": {}
+        }
+      },
+      {
+        "name": "magnitude i",
+        "original_name": "i",
+        "logical_name": "magnitude_i",
+        "original_datatype": "number",
+        "logical_datatype": "number",
+        "math_operands": {
+          "-": {
+            "Photometric objects": [
+              "magnitude u",
+              "magnitude g",
+              "magnitude r",
+              "magnitude z"
+            ]
+          },
+          "+": {},
+          "*": {},
+          "/": {}
+        }
+      },
+      {
+        "name": "magnitude z",
+        "original_name": "z",
+        "logical_name": "magnitude_z",
+        "original_datatype": "number",
+        "logical_datatype": "number",
+        "math_operands": {
+          "-": {
+            "Photometric objects": [
+              "magnitude u",
+              "magnitude g",
+              "magnitude r",
+              "magnitude i"
+            ]
+          },
+          "+": {},
+          "*": {},
+          "/": {}
+        }
+      }
+    ],
+    "math_ops_columns": {
+      "-": [
+        "composite model magnitude u",
+        "composite model magnitude g",
+        "composite model magnitude r",
+        "magnitude u",
+        "magnitude g",
+        "magnitude r",
+        "magnitude i",
+        "magnitude z"
+      ],
+      "+": [],
+      "*": [],
+      "/": []
+    }
+  },
+  {
+    "name": "Emission line estimates",
+    "original_name": "galspecline",
+    "logical_name": "emission_line_estimates",
+    "columns": [
+      {
+        "name": "spectroscopic object id",
+        "original_name": "specobjid",
+        "logical_name": "spectroscopic_object_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "Stellar spectal line indices",
+    "original_name": "spplines",
+    "logical_name": "equivalent_width_estimates",
+    "columns": [
+      {
+        "name": "spectroscopic object id",
+        "original_name": "specobjid",
+        "logical_name": "spectroscopic_object_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "Spectroscopic objects",
+    "original_name": "specobj",
+    "logical_name": "spectroscopic_objects",
+    "columns": [
+      {
+        "name": "spectroscopic object id",
+        "original_name": "specobjid",
+        "logical_name": "object_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "best object id",
+        "original_name": "bestobjid",
+        "logical_name": "best_object_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "plate id",
+        "original_name": "plateid",
+        "logical_name": "plate_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "best spectrum",
+        "original_name": "scienceprimary",
+        "logical_name": "best_spectrum",
+        "original_datatype": "number",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "segue2 best spectrum",
+        "original_name": "segue2primary",
+        "logical_name": "segue2_object_type",
+        "original_datatype": "number",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "survey",
+        "original_name": "survey",
+        "logical_name": "survey",
+        "original_datatype": "text",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "Program name",
+        "original_name": "programname",
+        "logical_name": "program_name",
+        "original_datatype": "text",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "modified julien date",
+        "original_name": "mjd",
+        "logical_name": "modified_julien_date",
+        "original_datatype": "number",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "plate number",
+        "original_name": "plate",
+        "logical_name": "plate_number",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "fiber id",
+        "original_name": "fiberid",
+        "logical_name": "fiber_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "SDSS special program targets",
+        "original_name": "special_target1",
+        "logical_name": "SDSS_special_program_targets",
+        "original_datatype": "number",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "segue2 primary objects",
+        "original_name": "segue2_target1",
+        "logical_name": "segue2_primary_objects",
+        "original_datatype": "number",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "segue2 secondary objects",
+        "original_name": "segue2_target2",
+        "logical_name": "segue2_secondary_objects",
+        "original_datatype": "number",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "BOSS ancillary program targets",
+        "original_name": "ancillary_target1",
+        "logical_name": "BOSS_ancillary_program_targets",
+        "original_datatype": "number",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "right ascension",
+        "original_name": "ra",
+        "logical_name": "right_ascension",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "declination",
+        "original_name": "dec",
+        "logical_name": "declination",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "redshift",
+        "original_name": "z",
+        "logical_name": "redshift",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "redshift error",
+        "original_name": "zerr",
+        "logical_name": "redshift_error",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "redshift warning",
+        "original_name": "zwarning",
+        "logical_name": "redshift_warning",
+        "original_datatype": "number",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "Spectroscopic class",
+        "original_name": "class",
+        "logical_name": "spectroscopic_class",
+        "original_datatype": "text",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "spectroscopic subclass",
+        "original_name": "subclass",
+        "logical_name": "spectroscopic_subclass",
+        "original_datatype": "text",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "velocity dispersion",
+        "original_name": "veldisp",
+        "logical_name": "velocity_dispersion",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "velocity dispersion error",
+        "original_name": "veldisperr",
+        "logical_name": "velocity_dispersion_error",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "load version",
+        "original_name": "loadversion",
+        "logical_name": "load_version",
+        "original_datatype": "number",
+        "logical_datatype": "categorical"
+      }
+    ]
+  },
+  {
+    "name": "photometrically observed",
+    "original_name": "photo_type",
+    "logical_name": "photometrically_observed",
+    "columns": [
+      {
+        "name": "value",
+        "original_name": "value",
+        "logical_name": "value",
+        "original_datatype": "number",
+        "logical_datatype": "categorical"
+      },
+      {
+        "name": "name",
+        "original_name": "name",
+        "logical_name": "name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "description",
+        "original_name": "description",
+        "logical_name": "description",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+SELECT project_members.department_name FROM project_members WHERE project_members.rcn = '1948089'
+
+###
+
+
+Original Query:
+SELECT project_members.department_name FROM project_members WHERE project_members.rcn = '1948089'
+GPT-3 choices:
+(0) Return all departments of the project member with the RCN 1948089
+(1) Show me the departments of the project member with rcn 1948089
+(2) What is the department name of all project members with the number 1958089?
+(3) Which department is associated with project member with RUC number 1948089?
+(4) Show all departments of the project member with Research Council number 1948089
+(5) Show all projects members in the department with the rcn of 1958089
+(6) Show me the department names of project members whose research code is 1948089
+(7) Show me the departments of project members with research code 1948089
+
+
+Re-ranked choices:
+5.547  Show me the departments of the project member with rcn 1948089
+5.351  Show me the departments of project members with research code 1948089
+5.225  Show all departments of the project member with Research Council number 1948089
+5.223  Show me the department names of project members whose research code is 1948089
+4.966  Show all projects members in the department with the rcn of 1958089
+4.907  What is the department name of all project members with the number 1958089?
+4.851  Return all departments of the project member with the RCN 1948089
+4.631  Which department is associated with project member with RUC number 1948089?
+

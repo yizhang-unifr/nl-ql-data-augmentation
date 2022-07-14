@@ -1,0 +1,16 @@
+SELECT institutions.db_pedia_url FROM institutions WHERE institutions.short_name = 'UBM'
+
+###
+
+
+Original Query:
+SELECT institutions.db_pedia_url FROM institutions WHERE institutions.short_name = 'UBM'
+GPT-3 choices:
+(0) Show me the Wikipedia page corresponding to the institution name UBM.
+(1) Show the DBpedia URL of institutions with short name UBM
+(2) Display the dbpedia url of the institution with short name = UBM
+(3) Show all the db-pedia urls of the institution with short name UBM
+(4) Show me the epedia url for all institutions with short name UBM
+(5) How many institutions have the short name UBM?
+(6) Retrieve the EPW of all institutions with short name UBM
+(7) Show all the ephadics pointing to institutions with short name UBM

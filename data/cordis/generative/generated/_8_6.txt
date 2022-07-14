@@ -1,0 +1,28 @@
+SELECT erc_research_domains.description FROM erc_research_domains WHERE erc_research_domains.code != 'SH'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.description FROM erc_research_domains WHERE erc_research_domains.code != 'SH'
+GPT-3 choices:
+(0) Show me the description of the research domains located outside of the country of Switzerland.
+(1) Retrieve the descriptions of ERC's research domains which do not have a code equal to SH
+(2) Display all my research domains that are not about shipbuilding.
+(3) Show me the research domains that are not about superhologram
+(4) Show me the descriptions of research domains that are different than 'SH'
+(5) Show me the research domains that are different from SH
+(6) Show me all research domains except those having code equals to SH.
+(7) Display all research domains that are not SH
+
+
+Re-ranked choices:
+4.872  Show me the research domains that are different from SH
+4.828  Show me the descriptions of research domains that are different than 'SH'
+4.581  Display all research domains that are not SH
+4.573  Show me all research domains except those having code equals to SH.
+3.861  Retrieve the descriptions of ERC's research domains which do not have a code equal to SH
+3.519  Display all my research domains that are not about shipbuilding.
+3.499  Show me the description of the research domains located outside of the country of Switzerland.
+3.418  Show me the research domains that are not about superhologram
+

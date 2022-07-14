@@ -1,0 +1,492 @@
+[
+  {
+    "name": "coach",
+    "original_name": "coach",
+    "logical_name": "coach",
+    "columns": [
+      {
+        "name": "coach name",
+        "original_name": "coach_name",
+        "logical_name": "coach_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "coach id",
+        "original_name": "coach_id",
+        "logical_name": "coach_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "country code",
+        "original_name": "country_code",
+        "logical_name": "country_code",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "match",
+    "original_name": "match",
+    "logical_name": "match",
+    "columns": [
+      {
+        "name": "match id",
+        "original_name": "match_id",
+        "logical_name": "match_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "year",
+        "original_name": "year",
+        "logical_name": "year",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "home team id",
+        "original_name": "home_team_id",
+        "logical_name": "home_team_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "away team id",
+        "original_name": "away_team_id",
+        "logical_name": "away_team_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "round id",
+        "original_name": "round_id",
+        "logical_name": "round_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "datetime",
+        "original_name": "datetime",
+        "logical_name": "datetime",
+        "original_datatype": "time",
+        "logical_datatype": "time"
+      },
+      {
+        "name": "stage",
+        "original_name": "stage",
+        "logical_name": "stage",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "half time home goals",
+        "original_name": "half_time_home_goals",
+        "logical_name": "half_time_home_goals",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "home team goals",
+        "original_name": "home_team_goals",
+        "logical_name": "home_team_goals",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "half time away team goals",
+        "original_name": "half_time_away_team_goals",
+        "logical_name": "half_time_away_team_goals",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "away team goals",
+        "original_name": "away_team_goals",
+        "logical_name": "away_team_goals",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "win conditions",
+        "original_name": "win_conditions",
+        "logical_name": "win_conditions",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "referee",
+        "original_name": "referee",
+        "logical_name": "referee",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "assistant 1",
+        "original_name": "assistant_1",
+        "logical_name": "assistant_1",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "assistant 2",
+        "original_name": "assistant_2",
+        "logical_name": "assistant_2",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "attendance",
+        "original_name": "attendance",
+        "logical_name": "attendance",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "stadium id",
+        "original_name": "stadium_id",
+        "logical_name": "stadium_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "national team",
+    "original_name": "national_team",
+    "logical_name": "national_team",
+    "columns": [
+      {
+        "name": "team id",
+        "original_name": "team_id",
+        "logical_name": "team_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "teamname",
+        "original_name": "teamname",
+        "logical_name": "teamname",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "team initials",
+        "original_name": "team_initials",
+        "logical_name": "team_initials",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "goals",
+        "original_name": "goals",
+        "logical_name": "goals",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "year",
+        "original_name": "year",
+        "logical_name": "year",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  },
+  {
+    "name": "player",
+    "original_name": "player",
+    "logical_name": "player",
+    "columns": [
+      {
+        "name": "player name",
+        "original_name": "player_name",
+        "logical_name": "player_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "player id",
+        "original_name": "player_id",
+        "logical_name": "player_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "player fact",
+    "original_name": "player_fact",
+    "logical_name": "player_fact",
+    "columns": [
+      {
+        "name": "coach id",
+        "original_name": "coach_id",
+        "logical_name": "coach_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "team id",
+        "original_name": "team_id",
+        "logical_name": "team_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "year id",
+        "original_name": "year_id",
+        "logical_name": "year_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "player id",
+        "original_name": "player_id",
+        "logical_name": "player_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "shirt number",
+        "original_name": "shirt_number",
+        "logical_name": "shirt_number",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "position",
+        "original_name": "position",
+        "logical_name": "position",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "stadium",
+    "original_name": "stadium",
+    "logical_name": "stadium",
+    "columns": [
+      {
+        "name": "stadium id",
+        "original_name": "stadium_id",
+        "logical_name": "stadium_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "stadium name",
+        "original_name": "stadium_name",
+        "logical_name": "stadium_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "city",
+        "original_name": "city",
+        "logical_name": "city",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "capacity",
+        "original_name": "capacity",
+        "logical_name": "capacity",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "country",
+        "original_name": "country",
+        "logical_name": "country",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "continent",
+        "original_name": "continent",
+        "logical_name": "continent",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "world cup",
+    "original_name": "world_cup",
+    "logical_name": "world_cup",
+    "columns": [
+      {
+        "name": "year",
+        "original_name": "year",
+        "logical_name": "year",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "winner",
+        "original_name": "winner",
+        "logical_name": "winner",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "runner up",
+        "original_name": "runner_up",
+        "logical_name": "runner_up",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "third",
+        "original_name": "third",
+        "logical_name": "third",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "fourth",
+        "original_name": "fourth",
+        "logical_name": "fourth",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "venue",
+        "original_name": "venue",
+        "logical_name": "venue",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "goals scored",
+        "original_name": "goals_scored",
+        "logical_name": "goals_scored",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "qualified team",
+        "original_name": "qualified_team",
+        "logical_name": "qualified_team",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "matches played",
+        "original_name": "matches_played",
+        "logical_name": "matches_played",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "attendance",
+        "original_name": "attendance",
+        "logical_name": "attendance",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  },
+  {
+    "name": "match fact",
+    "original_name": "match_fact",
+    "logical_name": "match_fact",
+    "columns": [
+      {
+        "name": "player id",
+        "original_name": "player_id",
+        "logical_name": "player_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "match id",
+        "original_name": "match_id",
+        "logical_name": "match_id",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "minute",
+        "original_name": "minute",
+        "logical_name": "minute",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "goal",
+        "original_name": "goal",
+        "logical_name": "goal",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "own goal",
+        "original_name": "own_goal",
+        "logical_name": "own_goal",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "yellow card",
+        "original_name": "yellow_card",
+        "logical_name": "yellow_card",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "red card",
+        "original_name": "red_card",
+        "logical_name": "red_card",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "second yellow card",
+        "original_name": "second_yellow_card",
+        "logical_name": "second_yellow_card",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "penalty",
+        "original_name": "penalty",
+        "logical_name": "penalty",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "missed penalty",
+        "original_name": "missed_penalty",
+        "logical_name": "missed_penalty",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "substitution in",
+        "original_name": "substitution_in",
+        "logical_name": "substitution_in",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "substitution out",
+        "original_name": "substitution_out",
+        "logical_name": "substitution_out",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "line up",
+        "original_name": "line_up",
+        "logical_name": "line_up",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  }
+]

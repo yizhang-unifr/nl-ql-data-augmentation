@@ -1,0 +1,177 @@
+[
+  {
+    "name": "stadium",
+    "original_name": "stadium",
+    "logical_name": "stadium",
+    "columns": [
+      {
+        "name": "stadium id",
+        "original_name": "Stadium_ID",
+        "logical_name": "Stadium_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "location",
+        "original_name": "Location",
+        "logical_name": "Location",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "name",
+        "original_name": "Name",
+        "logical_name": "Name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "capacity",
+        "original_name": "Capacity",
+        "logical_name": "Capacity",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "highest",
+        "original_name": "Highest",
+        "logical_name": "Highest",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "lowest",
+        "original_name": "Lowest",
+        "logical_name": "Lowest",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "average",
+        "original_name": "Average",
+        "logical_name": "Average",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  },
+  {
+    "name": "singer",
+    "original_name": "singer",
+    "logical_name": "singer",
+    "columns": [
+      {
+        "name": "singer id",
+        "original_name": "Singer_ID",
+        "logical_name": "Singer_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "name",
+        "original_name": "Name",
+        "logical_name": "Name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "country",
+        "original_name": "Country",
+        "logical_name": "Country",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "song name",
+        "original_name": "Song_Name",
+        "logical_name": "Song_Name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "song release year",
+        "original_name": "Song_release_year",
+        "logical_name": "Song_release_year",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "age",
+        "original_name": "Age",
+        "logical_name": "Age",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "is male",
+        "original_name": "Is_male",
+        "logical_name": "Is_male",
+        "original_datatype": "others",
+        "logical_datatype": "others"
+      }
+    ]
+  },
+  {
+    "name": "concert",
+    "original_name": "concert",
+    "logical_name": "concert",
+    "columns": [
+      {
+        "name": "concert id",
+        "original_name": "concert_ID",
+        "logical_name": "concert_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "concert name",
+        "original_name": "concert_Name",
+        "logical_name": "concert_Name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "theme",
+        "original_name": "Theme",
+        "logical_name": "Theme",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "stadium id",
+        "original_name": "Stadium_ID",
+        "logical_name": "Stadium_ID",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "year",
+        "original_name": "Year",
+        "logical_name": "Year",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "singer in concert",
+    "original_name": "singer_in_concert",
+    "logical_name": "singer_in_concert",
+    "columns": [
+      {
+        "name": "concert id",
+        "original_name": "concert_ID",
+        "logical_name": "concert_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "singer id",
+        "original_name": "Singer_ID",
+        "logical_name": "Singer_ID",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  }
+]

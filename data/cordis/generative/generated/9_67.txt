@@ -1,0 +1,16 @@
+SELECT countries.country_code FROM countries JOIN institutions ON countries.unics_id = institutions.country_id WHERE institutions.grid_id != 'grid.424060.4'
+
+###
+
+
+Original Query:
+SELECT countries.country_code2 FROM countries JOIN institutions ON countries.unics_id = institutions.country_id WHERE institutions.grid_id != 'grid.424060.4'
+GPT-3 choices:
+(0) Show the country code for all institutions that aren't in grid 424060.4
+(1) Show me country codes of institutions that are not within the european grid 424060.4
+(2) What are the country codes of institutions whose grid ID is not 424060.4?
+(3) Show the country code for all institutions that don't have the grid id 424060.4
+(4) Show the country codes of institutions having a grid different from grid.424060.4.
+(5) Show countries having at least one institution inside a grid different from grid.424060.4
+(6) How are countries different from institutions with grid ID 424060?
+(7) Show countries the do not have the institution with grid ID = 424060

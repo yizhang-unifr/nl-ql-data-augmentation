@@ -1,0 +1,28 @@
+SELECT institutions.institutions_name FROM institutions WHERE institutions.grid_id = 'grid.57544.37' and institutions.wikidata_url = 'http://www.wikidata.org/wiki/Q2279894'
+
+###
+
+
+Original Query:
+SELECT institutions.institutions_name FROM institutions WHERE institutions.grid_id = 'grid.57544.37' and institutions.wikidata_url = 'http://www.wikidata.org/wiki/Q2279894'
+GPT-3 choices:
+(0) Show me all institutions having grid.57544.37 and wikidata url http://www.wikidata.org/wiki/Q2279894
+(1) Retrieve names of institutions that are located in 'grid.57544.37' and the URL for their Wikidata entry is 'http://www.wikidata.org/wiki/Q2279894'.
+(2) Show all the names of institutions that have a Wikidata location equal to http://www.wikidata.org/wiki/Q2279894
+(3) What are the names of the institutions that have a wikidata url ending with http://www.wikidata.org/wiki/Q2279894?
+(4) Retrieve the institutions name associated with a particular grid id and a wikidata url
+(5) Show me all institutions named "Amazon" in the grid with grid id "grid.57544.37" and have wikidata url "http://www.wikidata.org/wiki/Q2279894".
+(6) Show all institutions named South Azerbaijani University that are part of the project grid.57544.37
+(7) Show me the name of institutions that have a Wikidata item about grid id "grid.57544.37"
+
+
+Re-ranked choices:
+5.237  Retrieve names of institutions that are located in 'grid.57544.37' and the URL for their Wikidata entry is 'http://www.wikidata.org/wiki/Q2279894'.
+5.114  Show me the name of institutions that have a Wikidata item about grid id "grid.57544.37"
+5.033  Show me all institutions having grid.57544.37 and wikidata url http://www.wikidata.org/wiki/Q2279894
+4.839  Show me all institutions named "Amazon" in the grid with grid id "grid.57544.37" and have wikidata url "http://www.wikidata.org/wiki/Q2279894".
+4.816  Show all the names of institutions that have a Wikidata location equal to http://www.wikidata.org/wiki/Q2279894
+4.762  Retrieve the institutions name associated with a particular grid id and a wikidata url
+4.451  What are the names of the institutions that have a wikidata url ending with http://www.wikidata.org/wiki/Q2279894?
+3.030  Show all institutions named South Azerbaijani University that are part of the project grid.57544.37
+

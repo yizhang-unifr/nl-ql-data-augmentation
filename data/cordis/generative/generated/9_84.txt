@@ -1,0 +1,16 @@
+SELECT activity_types.code FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.member_role != 'participant'
+
+###
+
+
+Original Query:
+SELECT activity_types.code FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.member_role != 'participant'
+GPT-3 choices:
+(0) How many activity types are there for project members other than participants?
+(1) Show the activity types of project members that are not participants
+(2) What is the code of the activity type of project members when they aren't participants?
+(3) Display the activity types associated with project members whose role is not participant.
+(4) Show activity type for project members with a different role than participant
+(5) Which activity types are used by project members different than participants?
+(6) Show me activity types used by project members who are not participants
+(7) Show activity types of project members who are not participants.

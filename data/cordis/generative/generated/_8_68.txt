@@ -1,0 +1,28 @@
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title != 'EuroHPC-IA'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title != 'EuroHPC-IA'
+GPT-3 choices:
+(0) Only projects with funding scheme with title that is different than Eurohpc-ia
+(1) Show the funding scheme code of all the funding schemes except EuroHPC-IA
+(2) What are the different code of funding schemes that are not about EuroHPC-IA?
+(3) What are the funding schemes of EuroHPC-IA project?
+(4) Get all funding scheme codes of projects which are not about EuroHPC-IA
+(5) Show me funding scheme codes of projects that are not called EuroHPC-IA
+(6) Show all funding schems except EuroHPC-IA
+(7) Show me funding schemes for a project named "EuroHPC-IA"
+
+
+Re-ranked choices:
+5.891  Show me funding scheme codes of projects that are not called EuroHPC-IA
+5.833  Get all funding scheme codes of projects which are not about EuroHPC-IA
+5.788  Show me funding schemes for a project named "EuroHPC-IA"
+5.689  Show the funding scheme code of all the funding schemes except EuroHPC-IA
+5.687  What are the different code of funding schemes that are not about EuroHPC-IA?
+5.664  What are the funding schemes of EuroHPC-IA project?
+5.310  Show all funding schems except EuroHPC-IA
+5.304  Only projects with funding scheme with title that is different than Eurohpc-ia
+

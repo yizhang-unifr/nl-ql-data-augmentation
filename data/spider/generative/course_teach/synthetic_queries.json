@@ -1,0 +1,2718 @@
+[
+  {
+    "db_id": "course_teach",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Grade FROM course_arrange AS T1 WHERE T1.Course_ID = 2",
+    "readable_query": "SELECT course_arrange.Grade FROM course_arrange AS course_arrange WHERE course_arrange.Course_ID = 2"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Course_ID FROM course_arrange AS T1 WHERE T1.Teacher_ID = 3",
+    "readable_query": "SELECT course_arrange.Course_ID FROM course_arrange AS course_arrange WHERE course_arrange.Teacher_ID = 3"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Name FROM teacher AS T1 WHERE T1.Hometown = \"Turton Urban District\"",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher WHERE teacher.Hometown = \"Turton Urban District\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Hometown FROM teacher AS T1 WHERE T1.Name = \"Joseph Huts\"",
+    "readable_query": "SELECT teacher.Hometown FROM teacher AS teacher WHERE teacher.Name = \"Joseph Huts\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1 WHERE T1.Course_ID = 2",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course WHERE course.Course_ID = 2"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Grade FROM course_arrange AS T1 WHERE T1.Course_ID = 10",
+    "readable_query": "SELECT course_arrange.Grade FROM course_arrange AS course_arrange WHERE course_arrange.Course_ID = 10"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Course_ID FROM course AS T1 WHERE T1.Course = \"Bible\"",
+    "readable_query": "SELECT course.Course_ID FROM course AS course WHERE course.Course = \"Bible\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Name FROM teacher AS T1 WHERE T1.Teacher_ID = 7",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher WHERE teacher.Teacher_ID = 7"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Course_ID FROM course_arrange AS T1 WHERE T1.Grade = 4",
+    "readable_query": "SELECT course_arrange.Course_ID FROM course_arrange AS course_arrange WHERE course_arrange.Grade = 4"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Course FROM course AS T1 WHERE T1.Staring_Date = \"13 May\"",
+    "readable_query": "SELECT course.Course FROM course AS course WHERE course.Staring_Date = \"13 May\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Grade FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Course = \"Sports\"",
+    "readable_query": "SELECT course_arrange.Grade FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course.Course = \"Sports\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Course_ID FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Course = \"Math\"",
+    "readable_query": "SELECT course_arrange.Course_ID FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course.Course = \"Math\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Age = \"45\"",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID WHERE teacher.Age = \"45\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Course_ID FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Teacher_ID = 2",
+    "readable_query": "SELECT course.Course_ID FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Teacher_ID = 2"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Grade FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Name = \"Joseph Huts\"",
+    "readable_query": "SELECT course_arrange.Grade FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID WHERE teacher.Name = \"Joseph Huts\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Name FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Grade = 3",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID WHERE course_arrange.Grade = 3"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Teacher_ID FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Grade = 7",
+    "readable_query": "SELECT teacher.Teacher_ID FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID WHERE course_arrange.Grade = 7"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Hometown FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Course_ID = 2",
+    "readable_query": "SELECT teacher.Hometown FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID WHERE course_arrange.Course_ID = 2"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Name FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Grade = 5",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID WHERE course_arrange.Grade = 5"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Course FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Grade = 1",
+    "readable_query": "SELECT course.Course FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Grade = 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Course_ID, count(*) FROM course_arrange AS T1  GROUP BY T1.Course_ID",
+    "readable_query": "SELECT course_arrange.Course_ID, count(*) FROM course_arrange AS course_arrange  GROUP BY course_arrange.Course_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Course_ID, count(*) FROM course AS T1  GROUP BY T1.Course_ID",
+    "readable_query": "SELECT course.Course_ID, count(*) FROM course AS course  GROUP BY course.Course_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Hometown, count(*) FROM teacher AS T1  GROUP BY T1.Hometown",
+    "readable_query": "SELECT teacher.Hometown, count(*) FROM teacher AS teacher  GROUP BY teacher.Hometown"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Age, count(*) FROM teacher AS T1  GROUP BY T1.Age",
+    "readable_query": "SELECT teacher.Age, count(*) FROM teacher AS teacher  GROUP BY teacher.Age"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Teacher_ID, count(*) FROM teacher AS T1  GROUP BY T1.Teacher_ID",
+    "readable_query": "SELECT teacher.Teacher_ID, count(*) FROM teacher AS teacher  GROUP BY teacher.Teacher_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Name, count(*) FROM teacher AS T1  GROUP BY T1.Name",
+    "readable_query": "SELECT teacher.Name, count(*) FROM teacher AS teacher  GROUP BY teacher.Name"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Teacher_ID, count(*) FROM course_arrange AS T1  GROUP BY T1.Teacher_ID",
+    "readable_query": "SELECT course_arrange.Teacher_ID, count(*) FROM course_arrange AS course_arrange  GROUP BY course_arrange.Teacher_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Staring_Date, count(*) FROM course AS T1  GROUP BY T1.Staring_Date",
+    "readable_query": "SELECT course.Staring_Date, count(*) FROM course AS course  GROUP BY course.Staring_Date"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Grade, count(*) FROM course_arrange AS T1  GROUP BY T1.Grade",
+    "readable_query": "SELECT course_arrange.Grade, count(*) FROM course_arrange AS course_arrange  GROUP BY course_arrange.Grade"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Course, count(*) FROM course AS T1  GROUP BY T1.Course",
+    "readable_query": "SELECT course.Course, count(*) FROM course AS course  GROUP BY course.Course"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Teacher_ID, count(*) FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID  GROUP BY T1.Teacher_ID",
+    "readable_query": "SELECT course_arrange.Teacher_ID, count(*) FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID  GROUP BY course_arrange.Teacher_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Name, count(*) FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID  GROUP BY T1.Name",
+    "readable_query": "SELECT teacher.Name, count(*) FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID  GROUP BY teacher.Name"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Teacher_ID, count(*) FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID  GROUP BY T1.Teacher_ID",
+    "readable_query": "SELECT course_arrange.Teacher_ID, count(*) FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID  GROUP BY course_arrange.Teacher_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Course_ID, count(*) FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID  GROUP BY T1.Course_ID",
+    "readable_query": "SELECT course_arrange.Course_ID, count(*) FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID  GROUP BY course_arrange.Course_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Course_ID, count(*) FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID  GROUP BY T1.Course_ID",
+    "readable_query": "SELECT course.Course_ID, count(*) FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID  GROUP BY course.Course_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Course, count(*) FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID  GROUP BY T1.Course",
+    "readable_query": "SELECT course.Course, count(*) FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID  GROUP BY course.Course"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Staring_Date, count(*) FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID  GROUP BY T1.Staring_Date",
+    "readable_query": "SELECT course.Staring_Date, count(*) FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID  GROUP BY course.Staring_Date"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Hometown, count(*) FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID  GROUP BY T1.Hometown",
+    "readable_query": "SELECT teacher.Hometown, count(*) FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID  GROUP BY teacher.Hometown"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Teacher_ID, count(*) FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID  GROUP BY T1.Teacher_ID",
+    "readable_query": "SELECT teacher.Teacher_ID, count(*) FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID  GROUP BY teacher.Teacher_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Course_ID, count(*) FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID  GROUP BY T1.Course_ID",
+    "readable_query": "SELECT course_arrange.Course_ID, count(*) FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID  GROUP BY course_arrange.Course_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM course AS T1",
+    "readable_query": "SELECT count(*) FROM course AS course"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM teacher AS T1",
+    "readable_query": "SELECT count(*) FROM teacher AS teacher"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM course_arrange AS T1",
+    "readable_query": "SELECT count(*) FROM course_arrange AS course_arrange"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Course_ID, T1.Teacher_ID FROM course_arrange AS T1",
+    "readable_query": "SELECT course_arrange.Course_ID, course_arrange.Teacher_ID FROM course_arrange AS course_arrange"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Staring_Date, T1.Course FROM course AS T1",
+    "readable_query": "SELECT course.Staring_Date, course.Course FROM course AS course"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Hometown, T1.Age FROM teacher AS T1",
+    "readable_query": "SELECT teacher.Hometown, teacher.Age FROM teacher AS teacher"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Course_ID, T1.Course FROM course AS T1",
+    "readable_query": "SELECT course.Course_ID, course.Course FROM course AS course"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Name, T1.Age FROM teacher AS T1",
+    "readable_query": "SELECT teacher.Name, teacher.Age FROM teacher AS teacher"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Course_ID, T1.Staring_Date FROM course AS T1",
+    "readable_query": "SELECT course.Course_ID, course.Staring_Date FROM course AS course"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Grade, T1.Teacher_ID FROM course_arrange AS T1",
+    "readable_query": "SELECT course_arrange.Grade, course_arrange.Teacher_ID FROM course_arrange AS course_arrange"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Course, T1.Course_ID FROM course AS T1",
+    "readable_query": "SELECT course.Course, course.Course_ID FROM course AS course"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Course_ID, T1.Grade FROM course_arrange AS T1",
+    "readable_query": "SELECT course_arrange.Course_ID, course_arrange.Grade FROM course_arrange AS course_arrange"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Hometown, T1.Teacher_ID FROM teacher AS T1",
+    "readable_query": "SELECT teacher.Hometown, teacher.Teacher_ID FROM teacher AS teacher"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Staring_Date, T2.Grade FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID",
+    "readable_query": "SELECT course.Staring_Date, course_arrange.Grade FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Grade, T2.Course_ID FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID",
+    "readable_query": "SELECT course_arrange.Grade, course.Course_ID FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Staring_Date, T2.Course_ID FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID",
+    "readable_query": "SELECT course.Staring_Date, course_arrange.Course_ID FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Course, T2.Course_ID FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID",
+    "readable_query": "SELECT course.Course, course_arrange.Course_ID FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Course_ID, T2.Age FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID",
+    "readable_query": "SELECT course_arrange.Course_ID, teacher.Age FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Course_ID, T2.Staring_Date FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID",
+    "readable_query": "SELECT course_arrange.Course_ID, course.Staring_Date FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Course_ID, T2.Course FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID",
+    "readable_query": "SELECT course_arrange.Course_ID, course.Course FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Teacher_ID, T2.Course_ID FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID",
+    "readable_query": "SELECT course_arrange.Teacher_ID, course.Course_ID FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Course_ID, T2.Teacher_ID FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID",
+    "readable_query": "SELECT course.Course_ID, course_arrange.Teacher_ID FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Course_ID, T2.Grade FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID",
+    "readable_query": "SELECT course.Course_ID, course_arrange.Grade FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Teacher_ID, T1.Grade FROM course_arrange AS T1 WHERE T1.Course_ID = 10",
+    "readable_query": "SELECT course_arrange.Teacher_ID, course_arrange.Grade FROM course_arrange AS course_arrange WHERE course_arrange.Course_ID = 10"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Course, T1.Staring_Date FROM course AS T1 WHERE T1.Course_ID = 5",
+    "readable_query": "SELECT course.Course, course.Staring_Date FROM course AS course WHERE course.Course_ID = 5"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Teacher_ID, T1.Age FROM teacher AS T1 WHERE T1.Hometown = \"Turton Urban District\"",
+    "readable_query": "SELECT teacher.Teacher_ID, teacher.Age FROM teacher AS teacher WHERE teacher.Hometown = \"Turton Urban District\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Age, T1.Name FROM teacher AS T1 WHERE T1.Hometown = \"Turton Urban District\"",
+    "readable_query": "SELECT teacher.Age, teacher.Name FROM teacher AS teacher WHERE teacher.Hometown = \"Turton Urban District\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Course_ID, T1.Grade FROM course_arrange AS T1 WHERE T1.Teacher_ID = 5",
+    "readable_query": "SELECT course_arrange.Course_ID, course_arrange.Grade FROM course_arrange AS course_arrange WHERE course_arrange.Teacher_ID = 5"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Teacher_ID, T1.Grade FROM course_arrange AS T1 WHERE T1.Course_ID = 2",
+    "readable_query": "SELECT course_arrange.Teacher_ID, course_arrange.Grade FROM course_arrange AS course_arrange WHERE course_arrange.Course_ID = 2"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Course, T1.Staring_Date FROM course AS T1 WHERE T1.Course_ID = 2",
+    "readable_query": "SELECT course.Course, course.Staring_Date FROM course AS course WHERE course.Course_ID = 2"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Course_ID, T1.Course FROM course AS T1 WHERE T1.Staring_Date = \"7 May\"",
+    "readable_query": "SELECT course.Course_ID, course.Course FROM course AS course WHERE course.Staring_Date = \"7 May\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Grade, T1.Course_ID FROM course_arrange AS T1 WHERE T1.Teacher_ID = 2",
+    "readable_query": "SELECT course_arrange.Grade, course_arrange.Course_ID FROM course_arrange AS course_arrange WHERE course_arrange.Teacher_ID = 2"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Age, T1.Name FROM teacher AS T1 WHERE T1.Hometown = \"Bolton County Borough\"",
+    "readable_query": "SELECT teacher.Age, teacher.Name FROM teacher AS teacher WHERE teacher.Hometown = \"Bolton County Borough\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Course_ID FROM course_arrange AS T1  GROUP BY T1.Course_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT course_arrange.Course_ID FROM course_arrange AS course_arrange  GROUP BY course_arrange.Course_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Hometown FROM teacher AS T1  GROUP BY T1.Hometown  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT teacher.Hometown FROM teacher AS teacher  GROUP BY teacher.Hometown  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1  GROUP BY T1.Teacher_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange  GROUP BY course_arrange.Teacher_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Age FROM teacher AS T1  GROUP BY T1.Age  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT teacher.Age FROM teacher AS teacher  GROUP BY teacher.Age  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Name FROM teacher AS T1  GROUP BY T1.Name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher  GROUP BY teacher.Name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Teacher_ID FROM teacher AS T1  GROUP BY T1.Teacher_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT teacher.Teacher_ID FROM teacher AS teacher  GROUP BY teacher.Teacher_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Grade FROM course_arrange AS T1  GROUP BY T1.Grade  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT course_arrange.Grade FROM course_arrange AS course_arrange  GROUP BY course_arrange.Grade  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Course FROM course AS T1  GROUP BY T1.Course  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT course.Course FROM course AS course  GROUP BY course.Course  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Course_ID FROM course AS T1  GROUP BY T1.Course_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT course.Course_ID FROM course AS course  GROUP BY course.Course_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1  GROUP BY T1.Staring_Date  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course  GROUP BY course.Staring_Date  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM course AS T1 WHERE T1.Staring_Date = \"17 May\"",
+    "readable_query": "SELECT count(*) FROM course AS course WHERE course.Staring_Date = \"17 May\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM teacher AS T1 WHERE T1.Hometown = \"Blackrod Urban District\"",
+    "readable_query": "SELECT count(*) FROM teacher AS teacher WHERE teacher.Hometown = \"Blackrod Urban District\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM course AS T1 WHERE T1.Course = \"Sports\"",
+    "readable_query": "SELECT count(*) FROM course AS course WHERE course.Course = \"Sports\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM course_arrange AS T1 WHERE T1.Grade = 5",
+    "readable_query": "SELECT count(*) FROM course_arrange AS course_arrange WHERE course_arrange.Grade = 5"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM teacher AS T1 WHERE T1.Hometown = \"Horwich Urban District\"",
+    "readable_query": "SELECT count(*) FROM teacher AS teacher WHERE teacher.Hometown = \"Horwich Urban District\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM course_arrange AS T1 WHERE T1.Teacher_ID = 6",
+    "readable_query": "SELECT count(*) FROM course_arrange AS course_arrange WHERE course_arrange.Teacher_ID = 6"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM course_arrange AS T1 WHERE T1.Grade = 4",
+    "readable_query": "SELECT count(*) FROM course_arrange AS course_arrange WHERE course_arrange.Grade = 4"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM teacher AS T1 WHERE T1.Age = \"32\"",
+    "readable_query": "SELECT count(*) FROM teacher AS teacher WHERE teacher.Age = \"32\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM teacher AS T1 WHERE T1.Teacher_ID = 3",
+    "readable_query": "SELECT count(*) FROM teacher AS teacher WHERE teacher.Teacher_ID = 3"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM teacher AS T1 WHERE T1.Teacher_ID = 4",
+    "readable_query": "SELECT count(*) FROM teacher AS teacher WHERE teacher.Teacher_ID = 4"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM teacher AS T1    ORDER BY T1.Teacher_ID DESC LIMIT 1",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher    ORDER BY teacher.Teacher_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Course FROM course AS T1    ORDER BY T1.Course_ID DESC LIMIT 1",
+    "readable_query": "SELECT course.Course FROM course AS course    ORDER BY course.Course_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Course_ID FROM course_arrange AS T1    ORDER BY T1.Grade DESC LIMIT 1",
+    "readable_query": "SELECT course_arrange.Course_ID FROM course_arrange AS course_arrange    ORDER BY course_arrange.Grade DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Course_ID FROM course_arrange AS T1    ORDER BY T1.Teacher_ID DESC LIMIT 1",
+    "readable_query": "SELECT course_arrange.Course_ID FROM course_arrange AS course_arrange    ORDER BY course_arrange.Teacher_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1    ORDER BY T1.Course_ID DESC LIMIT 1",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course    ORDER BY course.Course_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Grade FROM course_arrange AS T1    ORDER BY T1.Teacher_ID DESC LIMIT 1",
+    "readable_query": "SELECT course_arrange.Grade FROM course_arrange AS course_arrange    ORDER BY course_arrange.Teacher_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Hometown FROM teacher AS T1    ORDER BY T1.Teacher_ID DESC LIMIT 1",
+    "readable_query": "SELECT teacher.Hometown FROM teacher AS teacher    ORDER BY teacher.Teacher_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1    ORDER BY T1.Course_ID DESC LIMIT 1",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange    ORDER BY course_arrange.Course_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Age FROM teacher AS T1    ORDER BY T1.Teacher_ID DESC LIMIT 1",
+    "readable_query": "SELECT teacher.Age FROM teacher AS teacher    ORDER BY teacher.Teacher_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1    ORDER BY T1.Grade DESC LIMIT 1",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange    ORDER BY course_arrange.Grade DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Age FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID    ORDER BY T2.Grade DESC LIMIT 1",
+    "readable_query": "SELECT teacher.Age FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID    ORDER BY course_arrange.Grade DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID    ORDER BY T2.Grade DESC LIMIT 1",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID    ORDER BY course_arrange.Grade DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID    ORDER BY T2.Grade DESC LIMIT 1",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID    ORDER BY course_arrange.Grade DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Teacher_ID FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID    ORDER BY T2.Grade DESC LIMIT 1",
+    "readable_query": "SELECT teacher.Teacher_ID FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID    ORDER BY course_arrange.Grade DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID    ORDER BY T2.Course_ID DESC LIMIT 1",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID    ORDER BY course_arrange.Course_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Teacher_ID FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID    ORDER BY T2.Course_ID DESC LIMIT 1",
+    "readable_query": "SELECT teacher.Teacher_ID FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID    ORDER BY course_arrange.Course_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Age FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID    ORDER BY T2.Course_ID DESC LIMIT 1",
+    "readable_query": "SELECT teacher.Age FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID    ORDER BY course_arrange.Course_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Course_ID FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID    ORDER BY T2.Grade DESC LIMIT 1",
+    "readable_query": "SELECT course.Course_ID FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID    ORDER BY course_arrange.Grade DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Grade FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID    ORDER BY T2.Teacher_ID DESC LIMIT 1",
+    "readable_query": "SELECT course_arrange.Grade FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID    ORDER BY teacher.Teacher_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Course FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID    ORDER BY T2.Course_ID DESC LIMIT 1",
+    "readable_query": "SELECT course.Course FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID    ORDER BY course_arrange.Course_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID    ORDER BY T2.Course_ID ASC LIMIT 1",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID    ORDER BY course.Course_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Course_ID FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID    ORDER BY T2.Grade ASC LIMIT 1",
+    "readable_query": "SELECT course.Course_ID FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID    ORDER BY course_arrange.Grade ASC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID    ORDER BY T2.Course_ID ASC LIMIT 1",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID    ORDER BY course_arrange.Course_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Teacher_ID FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID    ORDER BY T2.Grade ASC LIMIT 1",
+    "readable_query": "SELECT teacher.Teacher_ID FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID    ORDER BY course_arrange.Grade ASC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Age FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID    ORDER BY T2.Course_ID ASC LIMIT 1",
+    "readable_query": "SELECT teacher.Age FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID    ORDER BY course_arrange.Course_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Hometown FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID    ORDER BY T2.Teacher_ID ASC LIMIT 1",
+    "readable_query": "SELECT teacher.Hometown FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID    ORDER BY course_arrange.Teacher_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID    ORDER BY T2.Grade ASC LIMIT 1",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID    ORDER BY course_arrange.Grade ASC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Teacher_ID FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID    ORDER BY T2.Course_ID ASC LIMIT 1",
+    "readable_query": "SELECT teacher.Teacher_ID FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID    ORDER BY course_arrange.Course_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID    ORDER BY T2.Grade ASC LIMIT 1",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID    ORDER BY course_arrange.Grade ASC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Course FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID    ORDER BY T2.Course_ID ASC LIMIT 1",
+    "readable_query": "SELECT course.Course FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID    ORDER BY course_arrange.Course_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Course, T1.Staring_Date FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID    ORDER BY T2.Course_ID DESC LIMIT 1",
+    "readable_query": "SELECT course.Course, course.Staring_Date FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID    ORDER BY course_arrange.Course_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Staring_Date, T1.Course_ID FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID    ORDER BY T2.Teacher_ID DESC LIMIT 1",
+    "readable_query": "SELECT course.Staring_Date, course.Course_ID FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID    ORDER BY course_arrange.Teacher_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Hometown, T1.Teacher_ID FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID    ORDER BY T2.Grade DESC LIMIT 1",
+    "readable_query": "SELECT teacher.Hometown, teacher.Teacher_ID FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID    ORDER BY course_arrange.Grade DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Grade, T1.Course_ID FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID    ORDER BY T2.Teacher_ID DESC LIMIT 1",
+    "readable_query": "SELECT course_arrange.Grade, course_arrange.Course_ID FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID    ORDER BY teacher.Teacher_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Hometown, T1.Age FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID    ORDER BY T2.Teacher_ID DESC LIMIT 1",
+    "readable_query": "SELECT teacher.Hometown, teacher.Age FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID    ORDER BY course_arrange.Teacher_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Course, T1.Staring_Date FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID    ORDER BY T2.Teacher_ID DESC LIMIT 1",
+    "readable_query": "SELECT course.Course, course.Staring_Date FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID    ORDER BY course_arrange.Teacher_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Teacher_ID, T1.Hometown FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID    ORDER BY T2.Grade DESC LIMIT 1",
+    "readable_query": "SELECT teacher.Teacher_ID, teacher.Hometown FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID    ORDER BY course_arrange.Grade DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Hometown, T1.Name FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID    ORDER BY T2.Teacher_ID DESC LIMIT 1",
+    "readable_query": "SELECT teacher.Hometown, teacher.Name FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID    ORDER BY course_arrange.Teacher_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Hometown, T1.Name FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID    ORDER BY T2.Course_ID DESC LIMIT 1",
+    "readable_query": "SELECT teacher.Hometown, teacher.Name FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID    ORDER BY course_arrange.Course_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Course_ID, T1.Staring_Date FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID    ORDER BY T2.Teacher_ID DESC LIMIT 1",
+    "readable_query": "SELECT course.Course_ID, course.Staring_Date FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID    ORDER BY course_arrange.Teacher_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Grade) FROM course_arrange AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  course_arrange.Grade) FROM course_arrange AS course_arrange"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Course) FROM course AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  course.Course) FROM course AS course"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Hometown) FROM teacher AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  teacher.Hometown) FROM teacher AS teacher"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Teacher_ID) FROM teacher AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  teacher.Teacher_ID) FROM teacher AS teacher"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM teacher AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  teacher.Name) FROM teacher AS teacher"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Course_ID) FROM course_arrange AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  course_arrange.Course_ID) FROM course_arrange AS course_arrange"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Teacher_ID) FROM course_arrange AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  course_arrange.Teacher_ID) FROM course_arrange AS course_arrange"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Staring_Date) FROM course AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  course.Staring_Date) FROM course AS course"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Age) FROM teacher AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  teacher.Age) FROM teacher AS teacher"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Course_ID) FROM course AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  course.Course_ID) FROM course AS course"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Teacher_ID) FROM course_arrange AS T1",
+    "readable_query": "SELECT avg( course_arrange.Teacher_ID) FROM course_arrange AS course_arrange"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Course_ID) FROM course_arrange AS T1",
+    "readable_query": "SELECT avg( course_arrange.Course_ID) FROM course_arrange AS course_arrange"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Course_ID) FROM course AS T1",
+    "readable_query": "SELECT avg( course.Course_ID) FROM course AS course"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Teacher_ID) FROM teacher AS T1",
+    "readable_query": "SELECT avg( teacher.Teacher_ID) FROM teacher AS teacher"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Grade) FROM course_arrange AS T1",
+    "readable_query": "SELECT avg( course_arrange.Grade) FROM course_arrange AS course_arrange"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Teacher_ID FROM teacher AS T1",
+    "readable_query": "SELECT teacher.Teacher_ID FROM teacher AS teacher"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Name FROM teacher AS T1",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Course_ID FROM course AS T1",
+    "readable_query": "SELECT course.Course_ID FROM course AS course"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Grade FROM course_arrange AS T1",
+    "readable_query": "SELECT course_arrange.Grade FROM course_arrange AS course_arrange"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Course_ID FROM course_arrange AS T1",
+    "readable_query": "SELECT course_arrange.Course_ID FROM course_arrange AS course_arrange"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Age FROM teacher AS T1",
+    "readable_query": "SELECT teacher.Age FROM teacher AS teacher"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Hometown FROM teacher AS T1",
+    "readable_query": "SELECT teacher.Hometown FROM teacher AS teacher"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Course FROM course AS T1",
+    "readable_query": "SELECT course.Course FROM course AS course"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Hometown FROM teacher AS T1",
+    "readable_query": "SELECT DISTINCT teacher.Hometown FROM teacher AS teacher"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Name FROM teacher AS T1",
+    "readable_query": "SELECT DISTINCT teacher.Name FROM teacher AS teacher"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Grade FROM course_arrange AS T1",
+    "readable_query": "SELECT DISTINCT course_arrange.Grade FROM course_arrange AS course_arrange"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Course FROM course AS T1",
+    "readable_query": "SELECT DISTINCT course.Course FROM course AS course"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Age FROM teacher AS T1",
+    "readable_query": "SELECT DISTINCT teacher.Age FROM teacher AS teacher"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Teacher_ID FROM teacher AS T1",
+    "readable_query": "SELECT DISTINCT teacher.Teacher_ID FROM teacher AS teacher"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Course_ID FROM course AS T1",
+    "readable_query": "SELECT DISTINCT course.Course_ID FROM course AS course"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Teacher_ID FROM course_arrange AS T1",
+    "readable_query": "SELECT DISTINCT course_arrange.Teacher_ID FROM course_arrange AS course_arrange"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Staring_Date FROM course AS T1",
+    "readable_query": "SELECT DISTINCT course.Staring_Date FROM course AS course"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Course_ID FROM course_arrange AS T1",
+    "readable_query": "SELECT DISTINCT course_arrange.Course_ID FROM course_arrange AS course_arrange"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Course FROM course AS T1     ORDER BY T1.Course_ID ASC",
+    "readable_query": "SELECT course.Course FROM course AS course     ORDER BY course.Course_ID ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM teacher AS T1     ORDER BY T1.Teacher_ID ASC",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher     ORDER BY teacher.Teacher_ID ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1     ORDER BY T1.Grade ASC",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange     ORDER BY course_arrange.Grade ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Grade FROM course_arrange AS T1     ORDER BY T1.Teacher_ID ASC",
+    "readable_query": "SELECT course_arrange.Grade FROM course_arrange AS course_arrange     ORDER BY course_arrange.Teacher_ID ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1     ORDER BY T1.Course_ID ASC",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange     ORDER BY course_arrange.Course_ID ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Hometown FROM teacher AS T1     ORDER BY T1.Teacher_ID ASC",
+    "readable_query": "SELECT teacher.Hometown FROM teacher AS teacher     ORDER BY teacher.Teacher_ID ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1     ORDER BY T1.Course_ID ASC",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course     ORDER BY course.Course_ID ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Course_ID FROM course_arrange AS T1     ORDER BY T1.Grade ASC",
+    "readable_query": "SELECT course_arrange.Course_ID FROM course_arrange AS course_arrange     ORDER BY course_arrange.Grade ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Age FROM teacher AS T1     ORDER BY T1.Teacher_ID ASC",
+    "readable_query": "SELECT teacher.Age FROM teacher AS teacher     ORDER BY teacher.Teacher_ID ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Grade FROM course_arrange AS T1     ORDER BY T1.Course_ID ASC",
+    "readable_query": "SELECT course_arrange.Grade FROM course_arrange AS course_arrange     ORDER BY course_arrange.Course_ID ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Grade FROM course_arrange AS T1     ORDER BY T1.Teacher_ID DESC",
+    "readable_query": "SELECT course_arrange.Grade FROM course_arrange AS course_arrange     ORDER BY course_arrange.Teacher_ID DESC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Course FROM course AS T1     ORDER BY T1.Course_ID DESC",
+    "readable_query": "SELECT course.Course FROM course AS course     ORDER BY course.Course_ID DESC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM teacher AS T1     ORDER BY T1.Teacher_ID DESC",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher     ORDER BY teacher.Teacher_ID DESC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1     ORDER BY T1.Course_ID DESC",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course     ORDER BY course.Course_ID DESC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Hometown FROM teacher AS T1     ORDER BY T1.Teacher_ID DESC",
+    "readable_query": "SELECT teacher.Hometown FROM teacher AS teacher     ORDER BY teacher.Teacher_ID DESC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Grade FROM course_arrange AS T1     ORDER BY T1.Course_ID DESC",
+    "readable_query": "SELECT course_arrange.Grade FROM course_arrange AS course_arrange     ORDER BY course_arrange.Course_ID DESC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Age FROM teacher AS T1     ORDER BY T1.Teacher_ID DESC",
+    "readable_query": "SELECT teacher.Age FROM teacher AS teacher     ORDER BY teacher.Teacher_ID DESC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1     ORDER BY T1.Course_ID DESC",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange     ORDER BY course_arrange.Course_ID DESC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Course_ID FROM course_arrange AS T1     ORDER BY T1.Teacher_ID DESC",
+    "readable_query": "SELECT course_arrange.Course_ID FROM course_arrange AS course_arrange     ORDER BY course_arrange.Teacher_ID DESC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Course_ID FROM course_arrange AS T1     ORDER BY T1.Grade DESC",
+    "readable_query": "SELECT course_arrange.Course_ID FROM course_arrange AS course_arrange     ORDER BY course_arrange.Grade DESC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Course, T1.Course_ID FROM course AS T1     ORDER BY T1.Course_ID ASC",
+    "readable_query": "SELECT course.Course, course.Course_ID FROM course AS course     ORDER BY course.Course_ID ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Course_ID, T1.Teacher_ID FROM course_arrange AS T1     ORDER BY T1.Teacher_ID ASC",
+    "readable_query": "SELECT course_arrange.Course_ID, course_arrange.Teacher_ID FROM course_arrange AS course_arrange     ORDER BY course_arrange.Teacher_ID ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Course, T1.Staring_Date FROM course AS T1     ORDER BY T1.Staring_Date ASC",
+    "readable_query": "SELECT course.Course, course.Staring_Date FROM course AS course     ORDER BY course.Staring_Date ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Teacher_ID, T1.Grade FROM course_arrange AS T1     ORDER BY T1.Grade ASC",
+    "readable_query": "SELECT course_arrange.Teacher_ID, course_arrange.Grade FROM course_arrange AS course_arrange     ORDER BY course_arrange.Grade ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Course_ID, T1.Course FROM course AS T1     ORDER BY T1.Course ASC",
+    "readable_query": "SELECT course.Course_ID, course.Course FROM course AS course     ORDER BY course.Course ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Grade, T1.Teacher_ID FROM course_arrange AS T1     ORDER BY T1.Teacher_ID ASC",
+    "readable_query": "SELECT course_arrange.Grade, course_arrange.Teacher_ID FROM course_arrange AS course_arrange     ORDER BY course_arrange.Teacher_ID ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Staring_Date, T1.Course_ID FROM course AS T1     ORDER BY T1.Course_ID ASC",
+    "readable_query": "SELECT course.Staring_Date, course.Course_ID FROM course AS course     ORDER BY course.Course_ID ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Teacher_ID, T1.Name FROM teacher AS T1     ORDER BY T1.Name ASC",
+    "readable_query": "SELECT teacher.Teacher_ID, teacher.Name FROM teacher AS teacher     ORDER BY teacher.Name ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Name, T1.Age FROM teacher AS T1     ORDER BY T1.Age ASC",
+    "readable_query": "SELECT teacher.Name, teacher.Age FROM teacher AS teacher     ORDER BY teacher.Age ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Age, T1.Name FROM teacher AS T1     ORDER BY T1.Name ASC",
+    "readable_query": "SELECT teacher.Age, teacher.Name FROM teacher AS teacher     ORDER BY teacher.Name ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID JOIN teacher AS T3 ON T2.Teacher_ID = T3.Teacher_ID WHERE T2.Course_ID = 5 and T3.Name = \"Kearsley Brown\"",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID WHERE course_arrange.Course_ID = 5 and teacher.Name = \"Kearsley Brown\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Name FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID JOIN course AS T3 ON T2.Course_ID = T3.Course_ID WHERE T2.Teacher_ID = 6 and T3.Course_ID = 1",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course_arrange.Teacher_ID = 6 and course.Course_ID = 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Teacher_ID FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID JOIN course AS T3 ON T2.Course_ID = T3.Course_ID WHERE T2.Grade = 3 and T3.Staring_Date = \"13 May\"",
+    "readable_query": "SELECT teacher.Teacher_ID FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course_arrange.Grade = 3 and course.Staring_Date = \"13 May\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID JOIN course AS T3 ON T1.Course_ID = T3.Course_ID WHERE T2.Hometown = \"Turton Urban District\" and T3.Staring_Date = \"10 May\"",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE teacher.Hometown = \"Turton Urban District\" and course.Staring_Date = \"10 May\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID JOIN course AS T3 ON T1.Course_ID = T3.Course_ID WHERE T2.Name = \"Gustaaf Deloor\" and T3.Staring_Date = \"17 May\"",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE teacher.Name = \"Gustaaf Deloor\" and course.Staring_Date = \"17 May\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID JOIN teacher AS T3 ON T2.Teacher_ID = T3.Teacher_ID WHERE T2.Course_ID = 10 and T3.Age = \"45\"",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID WHERE course_arrange.Course_ID = 10 and teacher.Age = \"45\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID JOIN teacher AS T3 ON T2.Teacher_ID = T3.Teacher_ID WHERE T2.Grade = 7 and T3.Hometown = \"Blackrod Urban District\"",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID WHERE course_arrange.Grade = 7 and teacher.Hometown = \"Blackrod Urban District\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Grade FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID JOIN teacher AS T3 ON T1.Teacher_ID = T3.Teacher_ID WHERE T2.Course_ID = 2 and T3.Name = \"Lucy Wong\"",
+    "readable_query": "SELECT course_arrange.Grade FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID WHERE course.Course_ID = 2 and teacher.Name = \"Lucy Wong\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Course_ID FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID JOIN teacher AS T3 ON T2.Teacher_ID = T3.Teacher_ID WHERE T2.Teacher_ID = 7 and T3.Hometown = \"Blackrod Urban District\"",
+    "readable_query": "SELECT course.Course_ID FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID WHERE course_arrange.Teacher_ID = 7 and teacher.Hometown = \"Blackrod Urban District\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Grade FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID JOIN course AS T3 ON T1.Course_ID = T3.Course_ID WHERE T2.Teacher_ID = 7 and T3.Staring_Date = \"11 May\"",
+    "readable_query": "SELECT course_arrange.Grade FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE teacher.Teacher_ID = 7 and course.Staring_Date = \"11 May\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Course FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Course_ID = 4 or T2.Course_ID = 3",
+    "readable_query": "SELECT course.Course FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Course_ID = 4 or course_arrange.Course_ID = 3"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Course_ID FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Teacher_ID = 3 or T2.Teacher_ID = 6",
+    "readable_query": "SELECT course.Course_ID FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Teacher_ID = 3 or course_arrange.Teacher_ID = 6"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Grade = 7 or T2.Grade = 3",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Grade = 7 or course_arrange.Grade = 3"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Hometown FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Teacher_ID = 6 or T2.Teacher_ID = 5",
+    "readable_query": "SELECT teacher.Hometown FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID WHERE course_arrange.Teacher_ID = 6 or course_arrange.Teacher_ID = 5"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Course_ID FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Grade = 7 or T2.Grade = 4",
+    "readable_query": "SELECT course.Course_ID FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Grade = 7 or course_arrange.Grade = 4"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Course FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Grade = 5 or T2.Grade = 3",
+    "readable_query": "SELECT course.Course FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Grade = 5 or course_arrange.Grade = 3"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Course_ID FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Grade = 5 or T2.Grade = 4",
+    "readable_query": "SELECT course.Course_ID FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Grade = 5 or course_arrange.Grade = 4"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Staring_Date = \"14 May\" or T2.Staring_Date = \"14 May\"",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course.Staring_Date = \"14 May\" or course.Staring_Date = \"14 May\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Course_ID FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Staring_Date = \"7 May\" or T2.Staring_Date = \"9 May\"",
+    "readable_query": "SELECT course_arrange.Course_ID FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course.Staring_Date = \"7 May\" or course.Staring_Date = \"9 May\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Course_ID FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Course = \"History\" or T2.Course = \"French\"",
+    "readable_query": "SELECT course_arrange.Course_ID FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course.Course = \"History\" or course.Course = \"French\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Teacher_ID FROM teacher AS T1 WHERE T1.Name = \"Joseph Huts\" and T1.Age = \"32\"",
+    "readable_query": "SELECT teacher.Teacher_ID FROM teacher AS teacher WHERE teacher.Name = \"Joseph Huts\" and teacher.Age = \"32\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Teacher_ID FROM teacher AS T1 WHERE T1.Hometown = \"Blackrod Urban District\" and T1.Age = \"41\"",
+    "readable_query": "SELECT teacher.Teacher_ID FROM teacher AS teacher WHERE teacher.Hometown = \"Blackrod Urban District\" and teacher.Age = \"41\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Course FROM course AS T1 WHERE T1.Staring_Date = \"17 May\" and T1.Course_ID = 10",
+    "readable_query": "SELECT course.Course FROM course AS course WHERE course.Staring_Date = \"17 May\" and course.Course_ID = 10"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Course_ID FROM course AS T1 WHERE T1.Course = \"Math\" and T1.Staring_Date = \"11 May\"",
+    "readable_query": "SELECT course.Course_ID FROM course AS course WHERE course.Course = \"Math\" and course.Staring_Date = \"11 May\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Course_ID FROM course AS T1 WHERE T1.Course = \"Geography\" and T1.Staring_Date = \"5 May\"",
+    "readable_query": "SELECT course.Course_ID FROM course AS course WHERE course.Course = \"Geography\" and course.Staring_Date = \"5 May\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Age FROM teacher AS T1 WHERE T1.Name = \"Vicente Carretero\" and T1.Hometown = \"Bolton County Borough\"",
+    "readable_query": "SELECT teacher.Age FROM teacher AS teacher WHERE teacher.Name = \"Vicente Carretero\" and teacher.Hometown = \"Bolton County Borough\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Age FROM teacher AS T1 WHERE T1.Hometown = \"Turton Urban District\" and T1.Teacher_ID = 5",
+    "readable_query": "SELECT teacher.Age FROM teacher AS teacher WHERE teacher.Hometown = \"Turton Urban District\" and teacher.Teacher_ID = 5"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1 WHERE T1.Grade = 4 and T1.Course_ID = 2",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange WHERE course_arrange.Grade = 4 and course_arrange.Course_ID = 2"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Course_ID FROM course_arrange AS T1 WHERE T1.Grade = 3 and T1.Teacher_ID = 2",
+    "readable_query": "SELECT course_arrange.Course_ID FROM course_arrange AS course_arrange WHERE course_arrange.Grade = 3 and course_arrange.Teacher_ID = 2"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1 WHERE T1.Grade = 7 and T1.Course_ID = 5",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange WHERE course_arrange.Grade = 7 and course_arrange.Course_ID = 5"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Hometown) FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T1.Teacher_ID = 7 and T2.Grade = 5",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  teacher.Hometown) FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID WHERE teacher.Teacher_ID = 7 and course_arrange.Grade = 5"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Teacher_ID) FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T1.Grade = 7 and T2.Name = \"Vicente Carretero\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  course_arrange.Teacher_ID) FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID WHERE course_arrange.Grade = 7 and teacher.Name = \"Vicente Carretero\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Teacher_ID) FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID WHERE T1.Course_ID = 5 and T2.Staring_Date = \"9 May\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  course_arrange.Teacher_ID) FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course_arrange.Course_ID = 5 and course.Staring_Date = \"9 May\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Age) FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T1.Teacher_ID = 5 and T2.Grade = 3",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  teacher.Age) FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID WHERE teacher.Teacher_ID = 5 and course_arrange.Grade = 3"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Grade) FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T1.Teacher_ID = 2 and T2.Name = \"Kearsley Brown\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  course_arrange.Grade) FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID WHERE course_arrange.Teacher_ID = 2 and teacher.Name = \"Kearsley Brown\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Teacher_ID) FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T1.Age = \"29\" and T2.Grade = 4",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  teacher.Teacher_ID) FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID WHERE teacher.Age = \"29\" and course_arrange.Grade = 4"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Course) FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T1.Staring_Date = \"14 May\" and T2.Grade = 4",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  course.Course) FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course.Staring_Date = \"14 May\" and course_arrange.Grade = 4"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Course_ID) FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T1.Course = \"Music\" and T2.Grade = 5",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  course.Course_ID) FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course.Course = \"Music\" and course_arrange.Grade = 5"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Hometown) FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T1.Teacher_ID = 7 and T2.Grade = 4",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  teacher.Hometown) FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID WHERE teacher.Teacher_ID = 7 and course_arrange.Grade = 4"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Grade) FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T1.Course_ID = 10 and T2.Age = \"45\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  course_arrange.Grade) FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID WHERE course_arrange.Course_ID = 10 and teacher.Age = \"45\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1 WHERE T1.Course_ID = 4 or T1.Course = \"Language Arts\"",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course WHERE course.Course_ID = 4 or course.Course = \"Language Arts\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Course_ID FROM course_arrange AS T1 WHERE T1.Teacher_ID = 7 or T1.Grade = 5",
+    "readable_query": "SELECT course_arrange.Course_ID FROM course_arrange AS course_arrange WHERE course_arrange.Teacher_ID = 7 or course_arrange.Grade = 5"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Name FROM teacher AS T1 WHERE T1.Hometown = \"Horwich Urban District\" or T1.Age = \"39\"",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher WHERE teacher.Hometown = \"Horwich Urban District\" or teacher.Age = \"39\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Course FROM course AS T1 WHERE T1.Course_ID = 2 or T1.Staring_Date = \"7 May\"",
+    "readable_query": "SELECT course.Course FROM course AS course WHERE course.Course_ID = 2 or course.Staring_Date = \"7 May\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1 WHERE T1.Course_ID = 4 or T1.Course = \"Geography\"",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course WHERE course.Course_ID = 4 or course.Course = \"Geography\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Course_ID FROM course AS T1 WHERE T1.Staring_Date = \"5 May\" or T1.Course = \"Bible\"",
+    "readable_query": "SELECT course.Course_ID FROM course AS course WHERE course.Staring_Date = \"5 May\" or course.Course = \"Bible\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Age FROM teacher AS T1 WHERE T1.Name = \"Lucy Wong\" or T1.Teacher_ID = 6",
+    "readable_query": "SELECT teacher.Age FROM teacher AS teacher WHERE teacher.Name = \"Lucy Wong\" or teacher.Teacher_ID = 6"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1 WHERE T1.Grade = 7 or T1.Course_ID = 3",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange WHERE course_arrange.Grade = 7 or course_arrange.Course_ID = 3"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Grade FROM course_arrange AS T1 WHERE T1.Course_ID = 5 or T1.Teacher_ID = 7",
+    "readable_query": "SELECT course_arrange.Grade FROM course_arrange AS course_arrange WHERE course_arrange.Course_ID = 5 or course_arrange.Teacher_ID = 7"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Grade FROM course_arrange AS T1 WHERE T1.Course_ID = 2 or T1.Teacher_ID = 3",
+    "readable_query": "SELECT course_arrange.Grade FROM course_arrange AS course_arrange WHERE course_arrange.Course_ID = 2 or course_arrange.Teacher_ID = 3"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Teacher_ID = 5 and T2.Grade = 7",
+    "readable_query": "SELECT count(*) FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Teacher_ID = 5 and course_arrange.Grade = 7"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Teacher_ID = 2 and T2.Age = \"26\"",
+    "readable_query": "SELECT count(*) FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID WHERE teacher.Teacher_ID = 2 and teacher.Age = \"26\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Course_ID = 4 and T2.Grade = 3",
+    "readable_query": "SELECT count(*) FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Course_ID = 4 and course_arrange.Grade = 3"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Grade = 1 and T2.Teacher_ID = 5",
+    "readable_query": "SELECT count(*) FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Grade = 1 and course_arrange.Teacher_ID = 5"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Teacher_ID = 5 and T2.Course_ID = 3",
+    "readable_query": "SELECT count(*) FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID WHERE course_arrange.Teacher_ID = 5 and course_arrange.Course_ID = 3"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Staring_Date = \"13 May\" and T2.Course_ID = 8",
+    "readable_query": "SELECT count(*) FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course.Staring_Date = \"13 May\" and course.Course_ID = 8"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Teacher_ID = 7 and T2.Grade = 4",
+    "readable_query": "SELECT count(*) FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Teacher_ID = 7 and course_arrange.Grade = 4"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Grade = 3 and T2.Course_ID = 10",
+    "readable_query": "SELECT count(*) FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID WHERE course_arrange.Grade = 3 and course_arrange.Course_ID = 10"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Teacher_ID = 7 and T2.Course_ID = 5",
+    "readable_query": "SELECT count(*) FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Teacher_ID = 7 and course_arrange.Course_ID = 5"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Age = \"32\" and T2.Teacher_ID = 6",
+    "readable_query": "SELECT count(*) FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID WHERE teacher.Age = \"32\" and teacher.Teacher_ID = 6"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1 WHERE T1.Course_ID != 4",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course WHERE course.Course_ID != 4"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Age FROM teacher AS T1 WHERE T1.Name != \"Lucy Wong\"",
+    "readable_query": "SELECT teacher.Age FROM teacher AS teacher WHERE teacher.Name != \"Lucy Wong\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1 WHERE T1.Course != \"Music\"",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course WHERE course.Course != \"Music\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Age FROM teacher AS T1 WHERE T1.Hometown != \"Farnworth Municipal Borough\"",
+    "readable_query": "SELECT teacher.Age FROM teacher AS teacher WHERE teacher.Hometown != \"Farnworth Municipal Borough\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Age FROM teacher AS T1 WHERE T1.Hometown != \"Blackrod Urban District\"",
+    "readable_query": "SELECT teacher.Age FROM teacher AS teacher WHERE teacher.Hometown != \"Blackrod Urban District\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1 WHERE T1.Grade != 1",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange WHERE course_arrange.Grade != 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Course FROM course AS T1 WHERE T1.Staring_Date != \"9 May\"",
+    "readable_query": "SELECT course.Course FROM course AS course WHERE course.Staring_Date != \"9 May\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1 WHERE T1.Course_ID != 10",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange WHERE course_arrange.Course_ID != 10"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Hometown FROM teacher AS T1 WHERE T1.Teacher_ID != 6",
+    "readable_query": "SELECT teacher.Hometown FROM teacher AS teacher WHERE teacher.Teacher_ID != 6"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Teacher_ID FROM teacher AS T1 WHERE T1.Age != \"26\"",
+    "readable_query": "SELECT teacher.Teacher_ID FROM teacher AS teacher WHERE teacher.Age != \"26\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Course_ID FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Teacher_ID != 6",
+    "readable_query": "SELECT course.Course_ID FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Teacher_ID != 6"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Grade FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Staring_Date != \"15 May\"",
+    "readable_query": "SELECT course_arrange.Grade FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course.Staring_Date != \"15 May\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Grade FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Course_ID != 8",
+    "readable_query": "SELECT course_arrange.Grade FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course.Course_ID != 8"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Course != \"Geography\"",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course.Course != \"Geography\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Name FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Grade != 7",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID WHERE course_arrange.Grade != 7"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Course_ID FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Grade != 7",
+    "readable_query": "SELECT course.Course_ID FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Grade != 7"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Course FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Course_ID != 2",
+    "readable_query": "SELECT course.Course FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Course_ID != 2"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Course FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Course_ID != 4",
+    "readable_query": "SELECT course.Course FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Course_ID != 4"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Course_ID != 2",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Course_ID != 2"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Course_ID FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Course != \"Music\"",
+    "readable_query": "SELECT course_arrange.Course_ID FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course.Course != \"Music\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Course_ID FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Course = \"Science\"",
+    "readable_query": "SELECT DISTINCT course_arrange.Course_ID FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course.Course = \"Science\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Age FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Course_ID = 2",
+    "readable_query": "SELECT DISTINCT teacher.Age FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID WHERE course_arrange.Course_ID = 2"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Course_ID FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Teacher_ID = 7",
+    "readable_query": "SELECT DISTINCT course.Course_ID FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Teacher_ID = 7"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Course FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Teacher_ID = 2",
+    "readable_query": "SELECT DISTINCT course.Course FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Teacher_ID = 2"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Grade FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Course_ID = 6",
+    "readable_query": "SELECT DISTINCT course_arrange.Grade FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course.Course_ID = 6"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Name FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Teacher_ID = 5",
+    "readable_query": "SELECT DISTINCT teacher.Name FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID WHERE course_arrange.Teacher_ID = 5"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Course_ID FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Staring_Date = \"14 May\"",
+    "readable_query": "SELECT DISTINCT course_arrange.Course_ID FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course.Staring_Date = \"14 May\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Teacher_ID FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Course_ID = 4",
+    "readable_query": "SELECT DISTINCT teacher.Teacher_ID FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID WHERE course_arrange.Course_ID = 4"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Course_ID FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Name = \"Gustaaf Deloor\"",
+    "readable_query": "SELECT DISTINCT course_arrange.Course_ID FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID WHERE teacher.Name = \"Gustaaf Deloor\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Grade FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Hometown = \"Turton Urban District\"",
+    "readable_query": "SELECT DISTINCT course_arrange.Grade FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID WHERE teacher.Hometown = \"Turton Urban District\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM teacher AS T1 WHERE T1.Hometown = \"Turton Urban District\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  teacher.Name) FROM teacher AS teacher WHERE teacher.Hometown = \"Turton Urban District\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM teacher AS T1 WHERE T1.Age = \"26\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  teacher.Name) FROM teacher AS teacher WHERE teacher.Age = \"26\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Age) FROM teacher AS T1 WHERE T1.Name = \"Anne Walker\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  teacher.Age) FROM teacher AS teacher WHERE teacher.Name = \"Anne Walker\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Course_ID) FROM course_arrange AS T1 WHERE T1.Teacher_ID = 6",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  course_arrange.Course_ID) FROM course_arrange AS course_arrange WHERE course_arrange.Teacher_ID = 6"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Course_ID) FROM course_arrange AS T1 WHERE T1.Teacher_ID = 3",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  course_arrange.Course_ID) FROM course_arrange AS course_arrange WHERE course_arrange.Teacher_ID = 3"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Course) FROM course AS T1 WHERE T1.Course_ID = 3",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  course.Course) FROM course AS course WHERE course.Course_ID = 3"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Teacher_ID) FROM teacher AS T1 WHERE T1.Hometown = \"Farnworth Municipal Borough\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  teacher.Teacher_ID) FROM teacher AS teacher WHERE teacher.Hometown = \"Farnworth Municipal Borough\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM teacher AS T1 WHERE T1.Hometown = \"Horwich Urban District\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  teacher.Name) FROM teacher AS teacher WHERE teacher.Hometown = \"Horwich Urban District\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Course_ID) FROM course AS T1 WHERE T1.Course = \"Language Arts\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  course.Course_ID) FROM course AS course WHERE course.Course = \"Language Arts\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM teacher AS T1 WHERE T1.Hometown = \"Bolton County Borough\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  teacher.Name) FROM teacher AS teacher WHERE teacher.Hometown = \"Bolton County Borough\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1 WHERE T1.Course_ID > 3",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course WHERE course.Course_ID > 3"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Hometown FROM teacher AS T1 WHERE T1.Teacher_ID > 3",
+    "readable_query": "SELECT teacher.Hometown FROM teacher AS teacher WHERE teacher.Teacher_ID > 3"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1 WHERE T1.Course_ID > 5",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange WHERE course_arrange.Course_ID > 5"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Course FROM course AS T1 WHERE T1.Course_ID > 5",
+    "readable_query": "SELECT course.Course FROM course AS course WHERE course.Course_ID > 5"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1 WHERE T1.Grade > 5",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange WHERE course_arrange.Grade > 5"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1 WHERE T1.Course_ID > 2",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange WHERE course_arrange.Course_ID > 2"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Name FROM teacher AS T1 WHERE T1.Teacher_ID > 2",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher WHERE teacher.Teacher_ID > 2"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Name FROM teacher AS T1 WHERE T1.Teacher_ID > 4",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher WHERE teacher.Teacher_ID > 4"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1 WHERE T1.Grade > 7",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange WHERE course_arrange.Grade > 7"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Name FROM teacher AS T1 WHERE T1.Teacher_ID > 7",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher WHERE teacher.Teacher_ID > 7"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Staring_Date, T2.Grade, T3.Hometown FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID JOIN teacher AS T3 ON T2.Teacher_ID = T3.Teacher_ID",
+    "readable_query": "SELECT course.Staring_Date, course_arrange.Grade, teacher.Hometown FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Staring_Date, T2.Course_ID, T3.Teacher_ID FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID JOIN teacher AS T3 ON T2.Teacher_ID = T3.Teacher_ID",
+    "readable_query": "SELECT course.Staring_Date, course_arrange.Course_ID, teacher.Teacher_ID FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Course_ID, T2.Teacher_ID, T3.Age FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID JOIN teacher AS T3 ON T2.Teacher_ID = T3.Teacher_ID",
+    "readable_query": "SELECT course.Course_ID, course_arrange.Teacher_ID, teacher.Age FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Course_ID, T2.Staring_Date, T3.Hometown FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID JOIN teacher AS T3 ON T1.Teacher_ID = T3.Teacher_ID",
+    "readable_query": "SELECT course_arrange.Course_ID, course.Staring_Date, teacher.Hometown FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Course_ID, T2.Hometown, T3.Course FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID JOIN course AS T3 ON T1.Course_ID = T3.Course_ID",
+    "readable_query": "SELECT course_arrange.Course_ID, teacher.Hometown, course.Course FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID JOIN course AS course ON course_arrange.Course_ID = course.Course_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Hometown, T2.Course_ID, T3.Staring_Date FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID JOIN course AS T3 ON T2.Course_ID = T3.Course_ID",
+    "readable_query": "SELECT teacher.Hometown, course_arrange.Course_ID, course.Staring_Date FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID JOIN course AS course ON course_arrange.Course_ID = course.Course_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Teacher_ID, T2.Course_ID, T3.Age FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID JOIN teacher AS T3 ON T1.Teacher_ID = T3.Teacher_ID",
+    "readable_query": "SELECT course_arrange.Teacher_ID, course.Course_ID, teacher.Age FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Teacher_ID, T2.Age, T3.Course_ID FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID JOIN course AS T3 ON T1.Course_ID = T3.Course_ID",
+    "readable_query": "SELECT course_arrange.Teacher_ID, teacher.Age, course.Course_ID FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID JOIN course AS course ON course_arrange.Course_ID = course.Course_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Name, T2.Course_ID, T3.Staring_Date FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID JOIN course AS T3 ON T2.Course_ID = T3.Course_ID",
+    "readable_query": "SELECT teacher.Name, course_arrange.Course_ID, course.Staring_Date FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID JOIN course AS course ON course_arrange.Course_ID = course.Course_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Grade, T2.Name, T3.Course FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID JOIN course AS T3 ON T1.Course_ID = T3.Course_ID",
+    "readable_query": "SELECT course_arrange.Grade, teacher.Name, course.Course FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID JOIN course AS course ON course_arrange.Course_ID = course.Course_ID"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID     ORDER BY T2.Grade ASC",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID     ORDER BY course_arrange.Grade ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Course_ID FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID     ORDER BY T2.Teacher_ID ASC",
+    "readable_query": "SELECT course.Course_ID FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID     ORDER BY course_arrange.Teacher_ID ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Course_ID FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID     ORDER BY T2.Teacher_ID ASC",
+    "readable_query": "SELECT course_arrange.Course_ID FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID     ORDER BY teacher.Teacher_ID ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Course FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID     ORDER BY T2.Grade ASC",
+    "readable_query": "SELECT course.Course FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID     ORDER BY course_arrange.Grade ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Course FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID     ORDER BY T2.Course_ID ASC",
+    "readable_query": "SELECT course.Course FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID     ORDER BY course_arrange.Course_ID ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Teacher_ID FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID     ORDER BY T2.Course_ID ASC",
+    "readable_query": "SELECT teacher.Teacher_ID FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID     ORDER BY course_arrange.Course_ID ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Course_ID FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID     ORDER BY T2.Grade ASC",
+    "readable_query": "SELECT course.Course_ID FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID     ORDER BY course_arrange.Grade ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID     ORDER BY T2.Teacher_ID ASC",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID     ORDER BY course_arrange.Teacher_ID ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID     ORDER BY T2.Grade ASC",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID     ORDER BY course_arrange.Grade ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID     ORDER BY T2.Course_ID ASC",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID     ORDER BY course_arrange.Course_ID ASC"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1 WHERE T1.Course_ID = 7     INTERSECT SELECT T2.Staring_Date FROM course AS T2 WHERE T2.Course_ID = 1",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course WHERE course.Course_ID = 7     INTERSECT SELECT course.Staring_Date FROM course AS course WHERE course.Course_ID = 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Course_ID FROM course AS T1 WHERE T1.Staring_Date = \"14 May\"     INTERSECT SELECT T2.Course_ID FROM course AS T2 WHERE T2.Staring_Date = \"15 May\"",
+    "readable_query": "SELECT course.Course_ID FROM course AS course WHERE course.Staring_Date = \"14 May\"     INTERSECT SELECT course.Course_ID FROM course AS course WHERE course.Staring_Date = \"15 May\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Course FROM course AS T1 WHERE T1.Course_ID = 10     INTERSECT SELECT T2.Course FROM course AS T2 WHERE T2.Course_ID = 6",
+    "readable_query": "SELECT course.Course FROM course AS course WHERE course.Course_ID = 10     INTERSECT SELECT course.Course FROM course AS course WHERE course.Course_ID = 6"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Age FROM teacher AS T1 WHERE T1.Teacher_ID = 5     INTERSECT SELECT T2.Age FROM teacher AS T2 WHERE T2.Teacher_ID = 5",
+    "readable_query": "SELECT teacher.Age FROM teacher AS teacher WHERE teacher.Teacher_ID = 5     INTERSECT SELECT teacher.Age FROM teacher AS teacher WHERE teacher.Teacher_ID = 5"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Grade FROM course_arrange AS T1 WHERE T1.Teacher_ID = 3     INTERSECT SELECT T2.Grade FROM course_arrange AS T2 WHERE T2.Teacher_ID = 3",
+    "readable_query": "SELECT course_arrange.Grade FROM course_arrange AS course_arrange WHERE course_arrange.Teacher_ID = 3     INTERSECT SELECT course_arrange.Grade FROM course_arrange AS course_arrange WHERE course_arrange.Teacher_ID = 3"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Course_ID FROM course_arrange AS T1 WHERE T1.Teacher_ID = 7     INTERSECT SELECT T2.Course_ID FROM course_arrange AS T2 WHERE T2.Teacher_ID = 5",
+    "readable_query": "SELECT course_arrange.Course_ID FROM course_arrange AS course_arrange WHERE course_arrange.Teacher_ID = 7     INTERSECT SELECT course_arrange.Course_ID FROM course_arrange AS course_arrange WHERE course_arrange.Teacher_ID = 5"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1 WHERE T1.Course_ID = 4     INTERSECT SELECT T2.Staring_Date FROM course AS T2 WHERE T2.Course_ID = 4",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course WHERE course.Course_ID = 4     INTERSECT SELECT course.Staring_Date FROM course AS course WHERE course.Course_ID = 4"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Name FROM teacher AS T1 WHERE T1.Hometown = \"Little Lever Urban District\"     INTERSECT SELECT T2.Name FROM teacher AS T2 WHERE T2.Hometown = \"Farnworth Municipal Borough\"",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher WHERE teacher.Hometown = \"Little Lever Urban District\"     INTERSECT SELECT teacher.Name FROM teacher AS teacher WHERE teacher.Hometown = \"Farnworth Municipal Borough\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Name FROM teacher AS T1 WHERE T1.Age = \"41\"     INTERSECT SELECT T2.Name FROM teacher AS T2 WHERE T2.Age = \"29\"",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher WHERE teacher.Age = \"41\"     INTERSECT SELECT teacher.Name FROM teacher AS teacher WHERE teacher.Age = \"29\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1 WHERE T1.Course = \"Language Arts\"     INTERSECT SELECT T2.Staring_Date FROM course AS T2 WHERE T2.Course = \"French\"",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course WHERE course.Course = \"Language Arts\"     INTERSECT SELECT course.Staring_Date FROM course AS course WHERE course.Course = \"French\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Teacher_ID) FROM teacher AS T1 WHERE T1.Hometown = \"Turton Urban District\"",
+    "readable_query": "SELECT avg( teacher.Teacher_ID) FROM teacher AS teacher WHERE teacher.Hometown = \"Turton Urban District\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Course_ID) FROM course_arrange AS T1 WHERE T1.Grade = 7",
+    "readable_query": "SELECT avg( course_arrange.Course_ID) FROM course_arrange AS course_arrange WHERE course_arrange.Grade = 7"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Grade) FROM course_arrange AS T1 WHERE T1.Teacher_ID = 6",
+    "readable_query": "SELECT avg( course_arrange.Grade) FROM course_arrange AS course_arrange WHERE course_arrange.Teacher_ID = 6"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Course_ID) FROM course AS T1 WHERE T1.Course = \"Geography\"",
+    "readable_query": "SELECT avg( course.Course_ID) FROM course AS course WHERE course.Course = \"Geography\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Course_ID) FROM course AS T1 WHERE T1.Staring_Date = \"13 May\"",
+    "readable_query": "SELECT avg( course.Course_ID) FROM course AS course WHERE course.Staring_Date = \"13 May\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Teacher_ID) FROM course_arrange AS T1 WHERE T1.Course_ID = 3",
+    "readable_query": "SELECT avg( course_arrange.Teacher_ID) FROM course_arrange AS course_arrange WHERE course_arrange.Course_ID = 3"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Course_ID) FROM course_arrange AS T1 WHERE T1.Teacher_ID = 7",
+    "readable_query": "SELECT avg( course_arrange.Course_ID) FROM course_arrange AS course_arrange WHERE course_arrange.Teacher_ID = 7"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Teacher_ID) FROM teacher AS T1 WHERE T1.Age = \"41\"",
+    "readable_query": "SELECT avg( teacher.Teacher_ID) FROM teacher AS teacher WHERE teacher.Age = \"41\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Grade) FROM course_arrange AS T1 WHERE T1.Teacher_ID = 7",
+    "readable_query": "SELECT avg( course_arrange.Grade) FROM course_arrange AS course_arrange WHERE course_arrange.Teacher_ID = 7"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Grade) FROM course_arrange AS T1 WHERE T1.Course_ID = 5",
+    "readable_query": "SELECT avg( course_arrange.Grade) FROM course_arrange AS course_arrange WHERE course_arrange.Course_ID = 5"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Course FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Course_ID = (SELECT max( T23.Course_ID) FROM course_arrange AS T23)",
+    "readable_query": "SELECT course.Course FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Course_ID = (SELECT max( course_arrange.Course_ID) FROM course_arrange AS course_arrange)"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Hometown FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Grade = (SELECT max( T23.Grade) FROM course_arrange AS T23)",
+    "readable_query": "SELECT teacher.Hometown FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID WHERE course_arrange.Grade = (SELECT max( course_arrange.Grade) FROM course_arrange AS course_arrange)"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Grade FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Teacher_ID = (SELECT max( T23.Teacher_ID) FROM teacher AS T23)",
+    "readable_query": "SELECT course_arrange.Grade FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID WHERE teacher.Teacher_ID = (SELECT max( teacher.Teacher_ID) FROM teacher AS teacher)"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Course FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Grade = (SELECT max( T23.Grade) FROM course_arrange AS T23)",
+    "readable_query": "SELECT course.Course FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Grade = (SELECT max( course_arrange.Grade) FROM course_arrange AS course_arrange)"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Grade FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Course_ID = (SELECT max( T23.Course_ID) FROM course AS T23)",
+    "readable_query": "SELECT course_arrange.Grade FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course.Course_ID = (SELECT max( course.Course_ID) FROM course AS course)"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Course_ID FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Teacher_ID = (SELECT max( T23.Teacher_ID) FROM teacher AS T23)",
+    "readable_query": "SELECT course_arrange.Course_ID FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID WHERE teacher.Teacher_ID = (SELECT max( teacher.Teacher_ID) FROM teacher AS teacher)"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Teacher_ID FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Grade = (SELECT max( T23.Grade) FROM course_arrange AS T23)",
+    "readable_query": "SELECT teacher.Teacher_ID FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID WHERE course_arrange.Grade = (SELECT max( course_arrange.Grade) FROM course_arrange AS course_arrange)"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Age FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Teacher_ID = (SELECT max( T23.Teacher_ID) FROM course_arrange AS T23)",
+    "readable_query": "SELECT teacher.Age FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID WHERE course_arrange.Teacher_ID = (SELECT max( course_arrange.Teacher_ID) FROM course_arrange AS course_arrange)"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Course_ID FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Teacher_ID = (SELECT max( T23.Teacher_ID) FROM course_arrange AS T23)",
+    "readable_query": "SELECT course.Course_ID FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Teacher_ID = (SELECT max( course_arrange.Teacher_ID) FROM course_arrange AS course_arrange)"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Course_ID FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Grade = (SELECT max( T23.Grade) FROM course_arrange AS T23)",
+    "readable_query": "SELECT course.Course_ID FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Grade = (SELECT max( course_arrange.Grade) FROM course_arrange AS course_arrange)"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Course_ID, T2.Teacher_ID FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID JOIN teacher AS T3 ON T2.Teacher_ID = T3.Teacher_ID WHERE T3.Hometown = \"Farnworth Municipal Borough\" and T2.Grade = 5",
+    "readable_query": "SELECT course.Course_ID, course_arrange.Teacher_ID FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID WHERE teacher.Hometown = \"Farnworth Municipal Borough\" and course_arrange.Grade = 5"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Teacher_ID, T2.Staring_Date FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID JOIN teacher AS T3 ON T1.Teacher_ID = T3.Teacher_ID WHERE T3.Name = \"John Deloor\" and T2.Course = \"Math\"",
+    "readable_query": "SELECT course_arrange.Teacher_ID, course.Staring_Date FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID WHERE teacher.Name = \"John Deloor\" and course.Course = \"Math\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Course_ID, T2.Teacher_ID FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID JOIN course AS T3 ON T1.Course_ID = T3.Course_ID WHERE T3.Course = \"Sports\" and T2.Hometown = \"Kearsley Urban District\"",
+    "readable_query": "SELECT course_arrange.Course_ID, teacher.Teacher_ID FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course.Course = \"Sports\" and teacher.Hometown = \"Kearsley Urban District\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Teacher_ID, T2.Hometown FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID JOIN course AS T3 ON T1.Course_ID = T3.Course_ID WHERE T3.Course = \"Science\" and T2.Age = \"39\"",
+    "readable_query": "SELECT course_arrange.Teacher_ID, teacher.Hometown FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course.Course = \"Science\" and teacher.Age = \"39\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Teacher_ID, T2.Course_ID FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID JOIN teacher AS T3 ON T1.Teacher_ID = T3.Teacher_ID WHERE T3.Name = \"Joseph Huts\" and T2.Staring_Date = \"14 May\"",
+    "readable_query": "SELECT course_arrange.Teacher_ID, course.Course_ID FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID WHERE teacher.Name = \"Joseph Huts\" and course.Staring_Date = \"14 May\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Hometown, T2.Grade FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID JOIN course AS T3 ON T2.Course_ID = T3.Course_ID WHERE T3.Staring_Date = \"14 May\" and T2.Course_ID = 2",
+    "readable_query": "SELECT teacher.Hometown, course_arrange.Grade FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course.Staring_Date = \"14 May\" and course_arrange.Course_ID = 2"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Hometown, T2.Grade FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID JOIN course AS T3 ON T2.Course_ID = T3.Course_ID WHERE T3.Staring_Date = \"11 May\" and T2.Course_ID = 4",
+    "readable_query": "SELECT teacher.Hometown, course_arrange.Grade FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course.Staring_Date = \"11 May\" and course_arrange.Course_ID = 4"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Course_ID, T2.Teacher_ID FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID JOIN teacher AS T3 ON T2.Teacher_ID = T3.Teacher_ID WHERE T3.Hometown = \"Horwich Urban District\" and T2.Grade = 3",
+    "readable_query": "SELECT course.Course_ID, course_arrange.Teacher_ID FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID WHERE teacher.Hometown = \"Horwich Urban District\" and course_arrange.Grade = 3"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Staring_Date, T2.Teacher_ID FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID JOIN teacher AS T3 ON T2.Teacher_ID = T3.Teacher_ID WHERE T3.Age = \"33\" and T2.Grade = 4",
+    "readable_query": "SELECT course.Staring_Date, course_arrange.Teacher_ID FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID WHERE teacher.Age = \"33\" and course_arrange.Grade = 4"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Teacher_ID, T2.Staring_Date FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID JOIN teacher AS T3 ON T1.Teacher_ID = T3.Teacher_ID WHERE T3.Age = \"33\" and T2.Course = \"Sports\"",
+    "readable_query": "SELECT course_arrange.Teacher_ID, course.Staring_Date FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID WHERE teacher.Age = \"33\" and course.Course = \"Sports\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Name FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Course_ID = 2 GROUP BY T1.Name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID WHERE course_arrange.Course_ID = 2 GROUP BY teacher.Name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Course_ID = 5 GROUP BY T1.Staring_Date  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Course_ID = 5 GROUP BY course.Staring_Date  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Grade FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Course = \"Math\" GROUP BY T1.Grade  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT course_arrange.Grade FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course.Course = \"Math\" GROUP BY course_arrange.Grade  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Course = \"Math\" GROUP BY T1.Teacher_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course.Course = \"Math\" GROUP BY course_arrange.Teacher_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1 JOIN course_arrange AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Grade = 7 GROUP BY T1.Staring_Date  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course JOIN course_arrange AS course_arrange ON course.Course_ID = course_arrange.Course_ID WHERE course_arrange.Grade = 7 GROUP BY course.Staring_Date  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Course_ID = 6 GROUP BY T1.Teacher_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course.Course_ID = 6 GROUP BY course_arrange.Teacher_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Name FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Teacher_ID = 5 GROUP BY T1.Name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID WHERE course_arrange.Teacher_ID = 5 GROUP BY teacher.Name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Course_ID FROM course_arrange AS T1 JOIN teacher AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Age = \"29\" GROUP BY T1.Course_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT course_arrange.Course_ID FROM course_arrange AS course_arrange JOIN teacher AS teacher ON course_arrange.Teacher_ID = teacher.Teacher_ID WHERE teacher.Age = \"29\" GROUP BY course_arrange.Course_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Course_ID FROM course_arrange AS T1 JOIN course AS T2 ON T1.Course_ID = T2.Course_ID WHERE T2.Course = \"Bible\" GROUP BY T1.Course_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT course_arrange.Course_ID FROM course_arrange AS course_arrange JOIN course AS course ON course_arrange.Course_ID = course.Course_ID WHERE course.Course = \"Bible\" GROUP BY course_arrange.Course_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Age FROM teacher AS T1 JOIN course_arrange AS T2 ON T1.Teacher_ID = T2.Teacher_ID WHERE T2.Teacher_ID = 5 GROUP BY T1.Age  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT teacher.Age FROM teacher AS teacher JOIN course_arrange AS course_arrange ON teacher.Teacher_ID = course_arrange.Teacher_ID WHERE course_arrange.Teacher_ID = 5 GROUP BY teacher.Age  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Age FROM teacher AS T1        EXCEPT SELECT T2.Age FROM teacher AS T2 WHERE T2.Name = \"Vicente Carretero\"",
+    "readable_query": "SELECT teacher.Age FROM teacher AS teacher        EXCEPT SELECT teacher.Age FROM teacher AS teacher WHERE teacher.Name = \"Vicente Carretero\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1        EXCEPT SELECT T2.Staring_Date FROM course AS T2 WHERE T2.Course = \"Math\"",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course        EXCEPT SELECT course.Staring_Date FROM course AS course WHERE course.Course = \"Math\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Age FROM teacher AS T1        EXCEPT SELECT T2.Age FROM teacher AS T2 WHERE T2.Teacher_ID = 5",
+    "readable_query": "SELECT teacher.Age FROM teacher AS teacher        EXCEPT SELECT teacher.Age FROM teacher AS teacher WHERE teacher.Teacher_ID = 5"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Course_ID FROM course AS T1        EXCEPT SELECT T2.Course_ID FROM course AS T2 WHERE T2.Course = \"Health\"",
+    "readable_query": "SELECT course.Course_ID FROM course AS course        EXCEPT SELECT course.Course_ID FROM course AS course WHERE course.Course = \"Health\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Grade FROM course_arrange AS T1        EXCEPT SELECT T2.Grade FROM course_arrange AS T2 WHERE T2.Course_ID = 3",
+    "readable_query": "SELECT course_arrange.Grade FROM course_arrange AS course_arrange        EXCEPT SELECT course_arrange.Grade FROM course_arrange AS course_arrange WHERE course_arrange.Course_ID = 3"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Course_ID FROM course_arrange AS T1        EXCEPT SELECT T2.Course_ID FROM course_arrange AS T2 WHERE T2.Grade = 1",
+    "readable_query": "SELECT course_arrange.Course_ID FROM course_arrange AS course_arrange        EXCEPT SELECT course_arrange.Course_ID FROM course_arrange AS course_arrange WHERE course_arrange.Grade = 1"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Teacher_ID FROM course_arrange AS T1        EXCEPT SELECT T2.Teacher_ID FROM course_arrange AS T2 WHERE T2.Course_ID = 5",
+    "readable_query": "SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange        EXCEPT SELECT course_arrange.Teacher_ID FROM course_arrange AS course_arrange WHERE course_arrange.Course_ID = 5"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Name FROM teacher AS T1        EXCEPT SELECT T2.Name FROM teacher AS T2 WHERE T2.Hometown = \"Kearsley Urban District\"",
+    "readable_query": "SELECT teacher.Name FROM teacher AS teacher        EXCEPT SELECT teacher.Name FROM teacher AS teacher WHERE teacher.Hometown = \"Kearsley Urban District\""
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Staring_Date FROM course AS T1        EXCEPT SELECT T2.Staring_Date FROM course AS T2 WHERE T2.Course_ID = 5",
+    "readable_query": "SELECT course.Staring_Date FROM course AS course        EXCEPT SELECT course.Staring_Date FROM course AS course WHERE course.Course_ID = 5"
+  },
+  {
+    "db_id": "course_teach",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Teacher_ID FROM teacher AS T1        EXCEPT SELECT T2.Teacher_ID FROM teacher AS T2 WHERE T2.Name = \"Joseph Huts\"",
+    "readable_query": "SELECT teacher.Teacher_ID FROM teacher AS teacher        EXCEPT SELECT teacher.Teacher_ID FROM teacher AS teacher WHERE teacher.Name = \"Joseph Huts\""
+  }
+]

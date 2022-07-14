@@ -1,0 +1,16 @@
+SELECT institutions.unics_id FROM institutions WHERE institutions.institutions_name != 'AGGREGAZIONE PUBBLICO PRIVATA SULLALOGISTICA MARE TERRA SOCIETA CONSORTILE A RESPONSABILITA LIMITATA'
+
+###
+
+
+Original Query:
+SELECT institutions.unics_id FROM institutions WHERE institutions.institutions_name != 'AGGREGAZIONE PUBBLICO PRIVATA SULLALOGISTICA MARE TERRA SOCIETA CONSORTILE A RESPONSABILITA LIMITATA'
+GPT-3 choices:
+(0) Show me all institutions whose name is different than AGGREGAZIONE PUBBLICO PRIVATA SULLALOGISTICA MARE TERRA SOCIETA CONSORTILE A RESPONSABILITA LIMITATA
+(1) Which are the different institutions that are not part of AGGREGAZIONE PUBBLICO PRIVATA SULLALOGISTICA MARE TERRA SOCIETA CONSORTILE A RESPONSABILITA LIMITATA?
+(2) Show me all the institutions that are different to the one named "AGGREGAZIONE PUBBLICO PRIVATA SULLALOGISTICA MARE TERRA SOCIETA CONSORTILE A RESPONSABILITA LIMITATA"
+(3) Retrieve all institutions except those with the name equal to 'AGGREGAZIONE PUBBLICO PRIVATA SULLALOGISTICA MARE TERRA SOCIETA CONSORTILE A RESPONSABILITA LIMITATA'
+(4) Show me all the institutions that have a name that is different from "AGGREGAZIONE PUBBLICO PRIVATA SULLALOGISTICA MARE TERRA SOCIETA CONSORTILE A RESPONSABILITA LIMITATA"
+(5) Get me all institutions that do not have the name company AGGREGAZIONE PUBBLICO PRIVATA SULLALOGISTICA MARE TERRA SOCIETA CONSORTILE A RESPONSABILITA LIMITATA
+(6) Show me all institutions except for REGNAZE PUBBLICA NAZIONALE INFORMAGRI SOCIETA CONSORZIALE
+(7) Show me institutions within 200 miles that don’t have the name Aggregazione Pubblico Privata Sullalogistica Mare Terra Societa’ Conteria

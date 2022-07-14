@@ -1,0 +1,26 @@
+SELECT countries.country_name FROM countries WHERE countries.country_code = 'PH'
+
+###
+
+
+Original Query:
+SELECT countries.country_name FROM countries WHERE countries.country_code2 = 'PH'
+GPT-3 choices:
+(0) What are the countries whose country code is PH?
+(1) 
+(2) Retrieve the country name of all countries with country code PH.
+(3) 
+(4) Retrieve all country names of countries which have a country code PH
+(5) Show all countries with country code PH
+(6) What are the different countries names from which we have projects?
+(7) Show me all countries whose country code is PH
+
+
+Re-ranked choices:
+4.081  Show me all countries whose country code is PH
+4.063  Show all countries with country code PH
+4.040  Retrieve all country names of countries which have a country code PH
+3.968  Retrieve the country name of all countries with country code PH.
+3.947  What are the countries whose country code is PH?
+2.469  What are the different countries names from which we have projects?
+

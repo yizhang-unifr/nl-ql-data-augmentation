@@ -1,0 +1,28 @@
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.framework_program = 'H2020'
+
+###
+
+
+Original Query:
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.framework_program = 'H2020'
+GPT-3 choices:
+(0) Show the full name of people with projects in the H2020 framework program
+(1) Retrieve the full_name for the principal investigators of projects with national funding framework
+(2) Get the full name of all people with a project funded by H2020 framework program
+(3) What is the full name of the people that have a project in the H2020 framework program?
+(4) Show the full name of all people associated with a project with the framework program H2020.
+(5) Show me the names of researchers involved in projects of H2020 framework
+(6) Show the full name of people having a project in the framework program H2020
+(7) Show full names of people in projects running in the H2020 framework program
+
+
+Re-ranked choices:
+5.767  Show the full name of people with projects in the H2020 framework program
+5.721  Show the full name of all people associated with a project with the framework program H2020.
+5.703  Show the full name of people having a project in the framework program H2020
+5.447  Show full names of people in projects running in the H2020 framework program
+5.440  Get the full name of all people with a project funded by H2020 framework program
+5.262  What is the full name of the people that have a project in the H2020 framework program?
+4.933  Show me the names of researchers involved in projects of H2020 framework
+3.488  Retrieve the full_name for the principal investigators of projects with national funding framework
+

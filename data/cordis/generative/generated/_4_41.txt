@@ -1,0 +1,27 @@
+SELECT count(*) FROM countries WHERE countries.country_name = 'Bangladesh'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM countries WHERE countries.country_name = 'Bangladesh'
+GPT-3 choices:
+(0) Show the total number of countries in the world
+(1) Count of countries that have Bangladesh as country name
+(2) 
+(3) Total number of countries with name Bangladesh.
+(4) What is the total number of countries with country name Bangladesh?
+(5) How many countries are there in the world whose country name is Bangladesh?
+(6) Which is the number of countries that have the country name Bangladesh?
+(7) How many countries are there in which the country name is Bangladesh?
+
+
+Re-ranked choices:
+5.346  What is the total number of countries with country name Bangladesh?
+5.307  Which is the number of countries that have the country name Bangladesh?
+5.245  How many countries are there in the world whose country name is Bangladesh?
+5.231  Total number of countries with name Bangladesh.
+5.222  How many countries are there in which the country name is Bangladesh?
+5.126  Count of countries that have Bangladesh as country name
+3.607  Show the total number of countries in the world
+

@@ -1,0 +1,28 @@
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title = 'Coordination of research actions' or funding_schemes.title = 'ECSEL Innovation Action'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title = 'Coordination of research actions' or funding_schemes.title = 'ECSEL Innovation Action'
+GPT-3 choices:
+(0) Retrieve code of funding schemes with title Coordination of research actions or ECSEL Innovation Action
+(1) Which are the funding schemes with title Coordination of Research Actions or ECSEL Innovation Action?
+(2) Show me the funding schemes associated with the project called "Coordination of research actions" or "ECSEL Innovation Action"
+(3) Show me the funding scheme for Coordination of research actions or for the ECSEL Innovation Action
+(4) What are the funding scheme's codes of project called Coordination of research actions or ECSEL Innovation Action?
+(5) Show the different funding schema national code names
+(6) Show me the funding schems named Coordination of research actions or ECSEL Innovation Action.
+(7) Show all funding schemes with titles Coordination of research actions or ECSEL Innovation Action
+
+
+Re-ranked choices:
+5.658  Show me the funding schemes associated with the project called "Coordination of research actions" or "ECSEL Innovation Action"
+5.628  Show me the funding scheme for Coordination of research actions or for the ECSEL Innovation Action
+5.541  Show all funding schemes with titles Coordination of research actions or ECSEL Innovation Action
+5.540  Which are the funding schemes with title Coordination of Research Actions or ECSEL Innovation Action?
+5.495  Show me the funding schems named Coordination of research actions or ECSEL Innovation Action.
+5.418  What are the funding scheme's codes of project called Coordination of research actions or ECSEL Innovation Action?
+5.327  Retrieve code of funding schemes with title Coordination of research actions or ECSEL Innovation Action
+3.217  Show the different funding schema national code names
+

@@ -1,0 +1,27 @@
+SELECT project_members.city FROM project_members WHERE project_members.id = 477102
+
+###
+
+
+Original Query:
+SELECT project_members.city FROM project_members WHERE project_members.unics_id = 477102
+GPT-3 choices:
+(0) Show all city of project members who have the id 477102
+(1) Show me the city of the project member with id 477102
+(2) Show all the city of the project member with id 477102
+(3) Show me the city of the project member with id 477102
+(4) What is the city of the project member with id = 477102?
+(5) Show me the city of project member with id 477102
+(6) What is the city of the project member with code 477102?
+(7) Get all the city of project members whose id is 477102
+
+
+Re-ranked choices:
+5.379  Show me the city of project member with id 477102
+5.358  Show me the city of the project member with id 477102
+5.195  Show all the city of the project member with id 477102
+5.131  What is the city of the project member with id = 477102?
+5.065  Show all city of project members who have the id 477102
+5.002  Get all the city of project members whose id is 477102
+4.537  What is the city of the project member with code 477102?
+

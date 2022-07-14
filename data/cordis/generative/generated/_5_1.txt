@@ -1,0 +1,28 @@
+SELECT project_members.member_name FROM project_members    ORDER BY project_members.ec_contribution DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT project_members.member_name FROM project_members    ORDER BY project_members.ec_contribution DESC LIMIT 1
+GPT-3 choices:
+(0) Show the full name of the top contributing project member.
+(1) Show me the name of the project members which have the highest contribution
+(2) What is the name of the project member with the smallest contribution?
+(3) Show project members in projects with most EC funding
+(4) Show me the member name of the project member with most contributed European Council at SCOPUS?
+(5) Show me the name of the project member that made the most contributions.
+(6) Get the name of the project member with the highest Eu contribution.
+(7) Which is the name of the highest participating institution in projects?
+
+
+Re-ranked choices:
+5.375  Show me the name of the project members which have the highest contribution
+5.002  Show the full name of the top contributing project member.
+4.990  Show me the name of the project member that made the most contributions.
+4.890  Get the name of the project member with the highest Eu contribution.
+4.726  What is the name of the project member with the smallest contribution?
+4.334  Show me the member name of the project member with most contributed European Council at SCOPUS?
+3.911  Which is the name of the highest participating institution in projects?
+3.907  Show project members in projects with most EC funding
+

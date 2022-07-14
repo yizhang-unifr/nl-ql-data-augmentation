@@ -1,0 +1,27 @@
+SELECT countries.country_code FROM countries WHERE countries.country_name = 'British Indian Ocean Territory' or countries.country_name = 'Jordan'
+
+###
+
+
+Original Query:
+SELECT countries.country_code2 FROM countries WHERE countries.country_name = 'British Indian Ocean Territory' or countries.country_name = 'Jordan'
+GPT-3 choices:
+(0) What are the country codes of British Indian Ocean Territory and Jordan?
+(1) What are the country codes for countries named Jordan or British Indian Ocean Territory?
+(2) What are the different country codes of countries named either British Indian Ocean Territory or Jordan?
+(3) What are the country codes of British Indian Ocean Territory and Jordan?
+(4) Show all country codes for countries having "British Indian Ocean Territory" or "Jordan" as a country name
+(5) What are the country codes of countries whose name is British Indian Ocean Territory or Jordan?
+(6) The countries with codes assigned that are also countries named British Indian Ocean Territory or Jordan
+(7) Show the country code of the countries with country names British Indian Ocean Territory or Jordan
+
+
+Re-ranked choices:
+5.644  What are the country codes of countries whose name is British Indian Ocean Territory or Jordan?
+5.602  What are the country codes for countries named Jordan or British Indian Ocean Territory?
+5.594  What are the different country codes of countries named either British Indian Ocean Territory or Jordan?
+5.429  Show the country code of the countries with country names British Indian Ocean Territory or Jordan
+5.384  The countries with codes assigned that are also countries named British Indian Ocean Territory or Jordan
+5.340  What are the country codes of British Indian Ocean Territory and Jordan?
+5.282  Show all country codes for countries having "British Indian Ocean Territory" or "Jordan" as a country name
+

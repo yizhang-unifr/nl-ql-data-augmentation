@@ -1,0 +1,28 @@
+SELECT project_members.longitude FROM project_members WHERE project_members.street = 'FEIDIPPIDOU  22' and project_members.latitude = 48.0044311
+
+###
+
+
+Original Query:
+SELECT project_members.longitude FROM project_members WHERE project_members.street = 'FEIDIPPIDOU  22' and project_members.latitude = 48.0044311
+GPT-3 choices:
+(0) Show me the longitudes of project members whose street is FEIDIPPIDOU 22 and whose latitude is 48.0044311
+(1) What is the longitude of the project members whose address is FEIDIPPIDOU 22 and what is their latitude?
+(2) What is the longitude of project members who live in a street called FEIDIPPIDOU 22 and are located in 48 degrees latitude?
+(3) Retrieve the longitude of project members having the street "FEIDIPPIDOU 22" and a latitude equal to 48.0044311
+(4) Show me the longitude of all project members located in FEIDIPPIDOU 22
+(5) Which is the longitude of the project members with street FEIDIPPIDOU 22 and latitude 48.0044311?
+(6) Retrieve all members of projects that have the street FEIDIPPIDOU 22 and are at latitude 48.0044311
+(7) Display all project members with street FEIDIPPIDOU 22 and latitude 48.0044311.
+
+
+Re-ranked choices:
+5.947  Show me the longitudes of project members whose street is FEIDIPPIDOU 22 and whose latitude is 48.0044311
+5.867  Which is the longitude of the project members with street FEIDIPPIDOU 22 and latitude 48.0044311?
+5.675  What is the longitude of the project members whose address is FEIDIPPIDOU 22 and what is their latitude?
+5.626  Show me the longitude of all project members located in FEIDIPPIDOU 22
+5.547  What is the longitude of project members who live in a street called FEIDIPPIDOU 22 and are located in 48 degrees latitude?
+5.545  Retrieve the longitude of project members having the street "FEIDIPPIDOU 22" and a latitude equal to 48.0044311
+5.181  Display all project members with street FEIDIPPIDOU 22 and latitude 48.0044311.
+4.991  Retrieve all members of projects that have the street FEIDIPPIDOU 22 and are at latitude 48.0044311
+

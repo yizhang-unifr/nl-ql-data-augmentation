@@ -1,0 +1,16 @@
+SELECT project_members.member_role FROM project_members    ORDER BY project_members.ec_contribution DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT project_members.member_role FROM project_members    ORDER BY project_members.ec_contribution DESC LIMIT 1
+GPT-3 choices:
+(0) What is the member role of the project members who contributed most?
+(1) Show me the project member that has the most European funding?
+(2) Show all project members and their relative contribution to the total expenditure by projects.
+(3) Retrieve the project members' different roles and their relative contribution that have the highest value
+(4) Show all project members with the highest contribution
+(5) Retrieve the project members' contribution for the highest project in the database
+(6) Retrieve the project member role with the highest contribution.
+(7) Show me the name of the project member with the highest contribution.

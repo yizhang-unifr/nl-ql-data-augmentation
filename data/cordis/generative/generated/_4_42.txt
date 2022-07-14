@@ -1,0 +1,28 @@
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.description = 'Corse'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.description = 'Corse'
+GPT-3 choices:
+(0) Count the eu territorial units where the description is Cors.
+(1) The number of territorial units in Corsica?
+(2) How many territorial units are there in Corsica?
+(3) ### Get the total number of territorial unit descriptions ending with 'Corse'
+(4) Show me how many territorial units description are "Corse"
+(5) How many territorial units in Corsica?
+(6) How many territorial units are there in Corse?
+(7) How many territorial units have the description Cors?
+
+
+Re-ranked choices:
+5.104  How many territorial units are there in Corse?
+4.973  Show me how many territorial units description are "Corse"
+4.925  The number of territorial units in Corsica?
+4.848  How many territorial units have the description Cors?
+4.677  How many territorial units are there in Corsica?
+4.669  How many territorial units in Corsica?
+4.461  Count the eu territorial units where the description is Cors.
+4.140  ### Get the total number of territorial unit descriptions ending with 'Corse'
+

@@ -1,0 +1,28 @@
+SELECT ec_framework_programs.program_name FROM ec_framework_programs JOIN projects ON ec_framework_programs.program_name = projects.framework_program WHERE projects.end_year != 2023
+
+###
+
+
+Original Query:
+SELECT ec_framework_programs.ec_framework_program_name FROM ec_framework_programs JOIN projects ON ec_framework_programs.ec_framework_program_name = projects.framework_program WHERE projects.end_year != 2023
+GPT-3 choices:
+(0) ### What are the names of the projects that don't end in 2023?
+(1) Show me all the projects in Europe with a framework program that ends in 2023.
+(2) Retrieve the names of all programs in frameworks of projects that do not end in 2023.
+(3) Show me the different program names of projects which did not end in 2023.
+(4) What is the name of the program used in projects that didn't end in 2023?
+(5) Retrieve the names of all Europe 2020 programs except for projects ending in 2023
+(6) Show me all of the program names of the projects that don't end in 2023
+(7) What is the name of the program of projects that will end before 2023?
+
+
+Re-ranked choices:
+5.747  Show me all of the program names of the projects that don't end in 2023
+5.647  Show me the different program names of projects which did not end in 2023.
+5.398  What is the name of the program of projects that will end before 2023?
+5.143  What is the name of the program used in projects that didn't end in 2023?
+5.033  Retrieve the names of all programs in frameworks of projects that do not end in 2023.
+4.969  ### What are the names of the projects that don't end in 2023?
+4.822  Show me all the projects in Europe with a framework program that ends in 2023.
+4.614  Retrieve the names of all Europe 2020 programs except for projects ending in 2023
+

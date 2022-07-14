@@ -1,0 +1,16 @@
+SELECT project_member_roles.code, count(*) FROM project_member_roles  GROUP BY project_member_roles.code
+
+###
+
+
+Original Query:
+SELECT project_member_roles.code, count(*) FROM project_member_roles  GROUP BY project_member_roles.code
+GPT-3 choices:
+(0) What are the different project member role codenames?
+(1) Show the number of project member roles per country.
+(2) How many project member roles are there?
+(3) Count the number of project member roles in different countries
+(4) Show the number of project member roles
+(5) Show all project member roles, counting how many there are
+(6) Show the number of project member roles held by all project members
+(7) Show me the number of project member roles in projects

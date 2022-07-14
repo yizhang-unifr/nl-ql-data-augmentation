@@ -1,0 +1,16 @@
+SELECT count(*) FROM ec_framework_programs WHERE ec_framework_programs.program_name = 'IC'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM ec_framework_programs WHERE ec_framework_programs.ec_framework_program_name = 'IC'
+GPT-3 choices:
+(0) How many framework programs are there in the subject field of Information and Communication?
+(1) How many EC framework programmes are there?
+(2) How many framework programs are associated with the topic IC?
+(3) How many different programs are there in the European Commission that have the acronymIC as part of their name?
+(4) How many funding programmes for research and innovation projects are there?
+(5) How many framework programs are there with the name 'IC'?
+(6) The total number of projects having the program 'IC'.
+(7) Total number of results from all programs with the tree and cryps project.

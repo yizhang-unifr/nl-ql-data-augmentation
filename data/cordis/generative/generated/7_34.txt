@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description = 'Marijampolės apskritis' or eu_territorial_units.description = 'Neustadt an der Weinstraße, Kreisfreie Stadt'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description = 'Marijampolės apskritis' or eu_territorial_units.description = 'Neustadt an der Weinstraße, Kreisfreie Stadt'
+GPT-3 choices:
+(0) Show me the geocode region for Marijampolės apskritis or Neustadt an der Weinstraße, Kreisfreie Stadt
+(1) Show all EU territorial units with description Marijampolės apskritis or Neustadt an der Weinstraße, Kreisfreie Stadt.
+(2) Show me the geocode regions of territorial units from "Marijampolės apskritis" or "Neustadt an der Weinstraße, Kreisfreie Stadt"
+(3) Show all the geocode regions of territorial units with description Marijampolės apskritis or Neustadt an der Weinstraße, Kreisfreie Stadt.
+(4) Show me the geocode region descriptions for the territorial unit descriptions "Marijampolės apskritis" and "Neustadt an der Weinstraße, Kreisfreie Stadt".
+(5) Show me the eu territorial units having different descriptions or the name Marijampolės apskritis or Neustadt an der Weinstraße, Kreisfreie Stadt
+(6) Describe the eu territorial units that have Marijampolės apskritis or Neustadt an der Weinstraße as description
+(7) Retrieve territorial unit descriptions that are either 'Marijampolės apskritis' or 'Neustadt an der Weinstraße, Kreisfreie Stadt'

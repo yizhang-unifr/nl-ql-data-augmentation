@@ -1,0 +1,28 @@
+SELECT topics.code FROM topics WHERE topics.title = 'Advanced predictive models development and simulation capabilities for Engine design space exploration and performance optimization' and topics.rcn = '664597'
+
+###
+
+
+Original Query:
+SELECT topics.code FROM topics WHERE topics.title = 'Advanced predictive models development and simulation capabilities for Engine design space exploration and performance optimization' and topics.rcn = '664597'
+GPT-3 choices:
+(0) Show the code of topics having title "Advanced predictive models development and simulation capabilities for Engine design space exploration and performance optimization" and research council number "664597"
+(1) Retrieve topics having title Advanced predictive models development and simulation capabilities for Engine design space exploration and performance optimization and RCN 664597
+(2) Retrieve all topics containing "Advanced predictive models development and simulation capabilities for Engine design space exploration and performance optimization" with registration code 664597
+(3) Render the topics code of all topics having title Advanced predictive models development and simulation capabilities for Engine design space exploration and performance optimization and research council number 664597.
+(4) Show me all topics related to Advanced predictive models development and simulation capabilities for Engine design space exploration and performance optimization and with Research Council number 664597
+(5) Show topics having the title Advanced predictive models development and simulation capabilities for Engine design space exploration and performance optimization and their research council number is 664597
+(6) Show topics related to the Advanced predictive models development and simulation capabilities for Engine design space exploration and performance optimization cutting 664597
+(7) What are the topics with title Advanced predictive models development and simulation capabilities for Engine design space exploration and performance optimization and rcn 664597?
+
+
+Re-ranked choices:
+6.270  Show topics having the title Advanced predictive models development and simulation capabilities for Engine design space exploration and performance optimization and their research council number is 664597
+6.204  Show me all topics related to Advanced predictive models development and simulation capabilities for Engine design space exploration and performance optimization and with Research Council number 664597
+6.033  Retrieve topics having title Advanced predictive models development and simulation capabilities for Engine design space exploration and performance optimization and RCN 664597
+6.023  What are the topics with title Advanced predictive models development and simulation capabilities for Engine design space exploration and performance optimization and rcn 664597?
+5.954  Render the topics code of all topics having title Advanced predictive models development and simulation capabilities for Engine design space exploration and performance optimization and research council number 664597.
+5.765  Retrieve all topics containing "Advanced predictive models development and simulation capabilities for Engine design space exploration and performance optimization" with registration code 664597
+5.749  Show the code of topics having title "Advanced predictive models development and simulation capabilities for Engine design space exploration and performance optimization" and research council number "664597"
+5.707  Show topics related to the Advanced predictive models development and simulation capabilities for Engine design space exploration and performance optimization cutting 664597
+

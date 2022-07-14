@@ -1,0 +1,16 @@
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'ITG19'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'ITG19'
+GPT-3 choices:
+(0) Count the number of territorial units of region ITG19
+(1) Show me the number of territorial units which geocode is ITG19
+(2) Show the count of territorial units in the region ITG19.
+(3) 
+(4) Show the number of territorial units in Italy.
+(5) Show the number of eu territorial units that are in the region ITG19
+(6) How many territorial units are there in Italy that have the regional code ITG19?
+(7) Sum all the territorial unit counts in Itg19

@@ -1,0 +1,324 @@
+[
+  {
+    "name": "players",
+    "original_name": "players",
+    "logical_name": "players",
+    "columns": [
+      {
+        "name": "player id",
+        "original_name": "player_id",
+        "logical_name": "player_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "first name",
+        "original_name": "first_name",
+        "logical_name": "first_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "last name",
+        "original_name": "last_name",
+        "logical_name": "last_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "hand",
+        "original_name": "hand",
+        "logical_name": "hand",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "birth date",
+        "original_name": "birth_date",
+        "logical_name": "birth_date",
+        "original_datatype": "time",
+        "logical_datatype": "time"
+      },
+      {
+        "name": "country code",
+        "original_name": "country_code",
+        "logical_name": "country_code",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "matches",
+    "original_name": "matches",
+    "logical_name": "matches",
+    "columns": [
+      {
+        "name": "best of",
+        "original_name": "best_of",
+        "logical_name": "best_of",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "draw size",
+        "original_name": "draw_size",
+        "logical_name": "draw_size",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "loser age",
+        "original_name": "loser_age",
+        "logical_name": "loser_age",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "loser entry",
+        "original_name": "loser_entry",
+        "logical_name": "loser_entry",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "loser hand",
+        "original_name": "loser_hand",
+        "logical_name": "loser_hand",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "loser ht",
+        "original_name": "loser_ht",
+        "logical_name": "loser_ht",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "loser id",
+        "original_name": "loser_id",
+        "logical_name": "loser_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "loser ioc",
+        "original_name": "loser_ioc",
+        "logical_name": "loser_ioc",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "loser name",
+        "original_name": "loser_name",
+        "logical_name": "loser_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "loser rank",
+        "original_name": "loser_rank",
+        "logical_name": "loser_rank",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "loser rank points",
+        "original_name": "loser_rank_points",
+        "logical_name": "loser_rank_points",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "loser seed",
+        "original_name": "loser_seed",
+        "logical_name": "loser_seed",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "match num",
+        "original_name": "match_num",
+        "logical_name": "match_num",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "minutes",
+        "original_name": "minutes",
+        "logical_name": "minutes",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "round",
+        "original_name": "round",
+        "logical_name": "round",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "score",
+        "original_name": "score",
+        "logical_name": "score",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "surface",
+        "original_name": "surface",
+        "logical_name": "surface",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "tourney date",
+        "original_name": "tourney_date",
+        "logical_name": "tourney_date",
+        "original_datatype": "time",
+        "logical_datatype": "time"
+      },
+      {
+        "name": "tourney id",
+        "original_name": "tourney_id",
+        "logical_name": "tourney_id",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "tourney level",
+        "original_name": "tourney_level",
+        "logical_name": "tourney_level",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "tourney name",
+        "original_name": "tourney_name",
+        "logical_name": "tourney_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "winner age",
+        "original_name": "winner_age",
+        "logical_name": "winner_age",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "winner entry",
+        "original_name": "winner_entry",
+        "logical_name": "winner_entry",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "winner hand",
+        "original_name": "winner_hand",
+        "logical_name": "winner_hand",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "winner ht",
+        "original_name": "winner_ht",
+        "logical_name": "winner_ht",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "winner id",
+        "original_name": "winner_id",
+        "logical_name": "winner_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "winner ioc",
+        "original_name": "winner_ioc",
+        "logical_name": "winner_ioc",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "winner name",
+        "original_name": "winner_name",
+        "logical_name": "winner_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "winner rank",
+        "original_name": "winner_rank",
+        "logical_name": "winner_rank",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "winner rank points",
+        "original_name": "winner_rank_points",
+        "logical_name": "winner_rank_points",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "winner seed",
+        "original_name": "winner_seed",
+        "logical_name": "winner_seed",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "year",
+        "original_name": "year",
+        "logical_name": "year",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  },
+  {
+    "name": "rankings",
+    "original_name": "rankings",
+    "logical_name": "rankings",
+    "columns": [
+      {
+        "name": "ranking date",
+        "original_name": "ranking_date",
+        "logical_name": "ranking_date",
+        "original_datatype": "time",
+        "logical_datatype": "time"
+      },
+      {
+        "name": "ranking",
+        "original_name": "ranking",
+        "logical_name": "ranking",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "player id",
+        "original_name": "player_id",
+        "logical_name": "player_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "ranking points",
+        "original_name": "ranking_points",
+        "logical_name": "ranking_points",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "tours",
+        "original_name": "tours",
+        "logical_name": "tours",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  }
+]

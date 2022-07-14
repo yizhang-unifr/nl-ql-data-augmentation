@@ -1,0 +1,16 @@
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.code = 'CIP-ICT-PSP-PA'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.code = 'CIP-ICT-PSP-PA'
+GPT-3 choices:
+(0) How many different funding schema are there for projects with project activity ICT, funded by the European Commission?
+(1) What is the number of funding schemes with code CIP-ICT-PSP-PA?
+(2) How many funding schems have the code CIP-ICT-PSP-PA?
+(3) How many funding schemes are there for the topic ICT-PSP developed by the competence center Paderborn?
+(4) How many funding schemes are there with the code CIP-ICT-PSP-PA?
+(5) How many funding schemes are there with code CIP-ICT-PSP-PA ?
+(6) How many funding schemes are there for intercompany projects in the field of ICT?
+(7) How many funding schemes are in category CIP-ICT-PSP-PA?

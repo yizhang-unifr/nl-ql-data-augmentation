@@ -1,0 +1,16 @@
+SELECT programmes.code FROM programmes WHERE programmes.rcn = '10346'
+
+###
+
+
+Original Query:
+SELECT programmes.code FROM programmes WHERE programmes.rcn = '10346'
+GPT-3 choices:
+(0) What is the code of the programme with RCN 10346?
+(1) Retrieve all programme codes associated with the programme with RCN 10346
+(2) What is the code of the programme with research council number 10346?
+(3) SELECT programmes.code FROM programmes WHERE programmes.rcn = '10346'
+(4) Retrieve the programme code of the rcn 10346 programme
+(5) Retrieve the programme code of all programmes whose region is 10346.
+(6) What is the code for the programme with Research Council number 10346?
+(7) What is the code of the programme with research council number 10346?

@@ -1,0 +1,28 @@
+SELECT project_members.ec_contribution, count(*) FROM project_members  GROUP BY project_members.ec_contribution
+
+###
+
+
+Original Query:
+SELECT project_members.ec_contribution, count(*) FROM project_members  GROUP BY project_members.ec_contribution
+GPT-3 choices:
+(0) How many project members have an ec contribution?
+(1) How many project members have an activity contribution?
+(2) Show the number of project members according to their ecs.
+(3) Show the number of different project member contributions?
+(4) How many project members have an euro contribution?
+(5) Count the number of project members that have different contributing countries
+(6) How many project members are there in total?
+(7) How many different project members are there that contributed to a project?
+
+
+Re-ranked choices:
+5.322  How many different project members are there that contributed to a project?
+5.216  How many project members are there in total?
+5.196  How many project members have an ec contribution?
+5.107  How many project members have an activity contribution?
+4.974  How many project members have an euro contribution?
+4.950  Show the number of different project member contributions?
+4.575  Show the number of project members according to their ecs.
+4.566  Count the number of project members that have different contributing countries
+

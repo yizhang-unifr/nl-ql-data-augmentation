@@ -1,0 +1,16 @@
+SELECT topics.code FROM topics WHERE topics.title != 'Nanomedicine therapy for cancer'
+
+###
+
+
+Original Query:
+SELECT topics.code FROM topics WHERE topics.title != 'Nanomedicine therapy for cancer'
+GPT-3 choices:
+(0) The topics that don't have the title "Nanomedicine therapy for cancer"?
+(1) Show me all topics except “Nanomedicine therapy for cancer”
+(2) Query returned 23 rows.
+(3) Show me topics that have a code different from "Nanomedicine therapy for cancer"
+(4) Show me topics that do not have the title "Nanomedicine therapy for cancer"
+(5) Show me all topics which are not about nanomedicine therapy for cancer
+(6) Show all topics that are not about Nanomedicine therapy for cancer
+(7) Show me all topics that are not about nanomedicine therapy for cancer

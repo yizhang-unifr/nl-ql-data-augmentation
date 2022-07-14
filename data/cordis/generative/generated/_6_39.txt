@@ -1,0 +1,28 @@
+SELECT project_members.latitude FROM project_members WHERE project_members.vat_number = 'SE202100293201' and project_members.member_name = 'ADELPHI RESEARCH GEMEINNUTZIGE GMBH'
+
+###
+
+
+Original Query:
+SELECT project_members.latitude FROM project_members WHERE project_members.vat_number = 'SE202100293201' and project_members.member_name = 'ADELPHI RESEARCH GEMEINNUTZIGE GMBH'
+GPT-3 choices:
+(0) What is the latitude of the project members whose name is ADELPHI RESEARCH GEMEINNUTZIGE GMBH and vat number is SE202100293201?
+(1) Show the latitude of all members of the project named "ADELPHI RESEARCH GEMEINNUTZIGE GMBH" with VAT number "SE202100293201"
+(2) Show me the latitude of project members of the company ADELPHI RESEARCH GEMEINNUTZIGE GMBH with vat number SE202100293201
+(3) Show me project members localization for the member with VAT number SE202100293201 having name ADELPHI RESEARCH GEMEINNUTZIGE GMBH
+(4) Show me the latitude for all project members of the company ADELPHI RESEARCH GEMEINNUTZIGE GMBH with vat number SE202100293201
+(5) Retrieve the latitude of all project members whose vat number is SE202100293201 and the member name is ADELPHI RESEARCH GEMEINNUTZIGE GMBH
+(6) What is the latitude of the project member Adelphi Research Gemeinnützige GmbH?
+(7) What is the latitude of all the project members whose name is “ADELPHI RESEARCH GEMEINNUTZIGE GMBH” and have a vat number “SE202100293201”?
+
+
+Re-ranked choices:
+6.310  Show me the latitude of project members of the company ADELPHI RESEARCH GEMEINNUTZIGE GMBH with vat number SE202100293201
+6.239  What is the latitude of the project members whose name is ADELPHI RESEARCH GEMEINNUTZIGE GMBH and vat number is SE202100293201?
+6.217  What is the latitude of all the project members whose name is “ADELPHI RESEARCH GEMEINNUTZIGE GMBH” and have a vat number “SE202100293201”?
+6.208  Show the latitude of all members of the project named "ADELPHI RESEARCH GEMEINNUTZIGE GMBH" with VAT number "SE202100293201"
+6.161  Show me the latitude for all project members of the company ADELPHI RESEARCH GEMEINNUTZIGE GMBH with vat number SE202100293201
+5.632  Retrieve the latitude of all project members whose vat number is SE202100293201 and the member name is ADELPHI RESEARCH GEMEINNUTZIGE GMBH
+5.296  What is the latitude of the project member Adelphi Research Gemeinnützige GmbH?
+5.161  Show me project members localization for the member with VAT number SE202100293201 having name ADELPHI RESEARCH GEMEINNUTZIGE GMBH
+

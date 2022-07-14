@@ -1,0 +1,28 @@
+SELECT ec_framework_programs.program_name FROM ec_framework_programs JOIN projects ON ec_framework_programs.program_name = projects.framework_program WHERE projects.acronym != 'UltraPal'
+
+###
+
+
+Original Query:
+SELECT ec_framework_programs.ec_framework_program_name FROM ec_framework_programs JOIN projects ON ec_framework_programs.ec_framework_program_name = projects.framework_program WHERE projects.acronym != 'UltraPal'
+GPT-3 choices:
+(0) What are the names of the programs associated with projects that don't have the acronym UltraPal?
+(1) Show me programs from frameworks different from the project UltraPal
+(2) Show me the programs in frameworks other than UltraPal.
+(3) Show me the names of all project’s framework programs except for projects that have the acronym UltraPal
+(4) Show me all of the programs in which the project UltraPal is not the framework program.
+(5) Display all the framework program names for projects except 'UltraPal'.
+(6) Show me the different names of the programs of the projects whose acronym is not UltraPal
+(7) Query poster den vær programs, der ikke er fra UltraPal projekter.
+
+
+Re-ranked choices:
+5.133  Show me the names of all project’s framework programs except for projects that have the acronym UltraPal
+4.992  Show me all of the programs in which the project UltraPal is not the framework program.
+4.798  Show me the different names of the programs of the projects whose acronym is not UltraPal
+4.677  Show me the programs in frameworks other than UltraPal.
+4.635  Show me programs from frameworks different from the project UltraPal
+4.596  Display all the framework program names for projects except 'UltraPal'.
+4.520  What are the names of the programs associated with projects that don't have the acronym UltraPal?
+1.556  Query poster den vær programs, der ikke er fra UltraPal projekter.
+

@@ -1,0 +1,16 @@
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.description = 'Wales'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.description = 'Wales'
+GPT-3 choices:
+(0) Show me the number of territorial units in Wals
+(1) How many territorial unit descriptions are there for Wales?
+(2) How many administrative territorial units are there in Wales?
+(3) 
+(4) What is the number of eu territorial units called "Wales"?
+(5) How many territorial units are in Wales?
+(6) Show the number of territorial units of Europe that have the description Wales
+(7) How many eu territorial unit descriptions are there?

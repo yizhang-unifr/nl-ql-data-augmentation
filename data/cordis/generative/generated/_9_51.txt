@@ -1,0 +1,28 @@
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.framework_program != 'H2020'
+
+###
+
+
+Original Query:
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.framework_program != 'H2020'
+GPT-3 choices:
+(0) Show all the principal investigators of projects of a project having a different framework program than H2020
+(1) Retrieve the full name of people who are principal investigators in a project that is not in the H2020 framework program.
+(2) Show the full name of people with a project in a different framework program than H2020
+(3) Show full name of all people from projects that are not from H2020 framework program.
+(4) Retrieve the full name of people that aren’t a principal investigator in a project funded by H2020
+(5) Show full name of all people with projects in the framework program H2020.
+(6) Retrieve the names of people whose projects are not in the H2020 framework program
+(7) Show the names of the people with a project in a non H2020 framework program
+
+
+Re-ranked choices:
+5.718  Show full name of all people from projects that are not from H2020 framework program.
+5.600  Show the names of the people with a project in a non H2020 framework program
+5.581  Retrieve the names of people whose projects are not in the H2020 framework program
+5.564  Show full name of all people with projects in the framework program H2020.
+5.525  Show the full name of people with a project in a different framework program than H2020
+5.197  Retrieve the full name of people who are principal investigators in a project that is not in the H2020 framework program.
+4.729  Retrieve the full name of people that aren’t a principal investigator in a project funded by H2020
+4.354  Show all the principal investigators of projects of a project having a different framework program than H2020
+

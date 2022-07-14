@@ -1,0 +1,16 @@
+SELECT programmes.short_name FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.end_year != 2018
+
+###
+
+
+Original Query:
+SELECT programmes.short_name FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.end_year != 2018
+GPT-3 choices:
+(0) Show me all the programmes and their projects in projects that didn't end in 2018
+(1) Show me the short names of all programmes except the projects ending in 2018
+(2) The short names of all projects having a programme that is not 2018
+(3) Show me the short names of projects that haven't ended in 2018
+(4) What are the short names of the programmes of projects that haven't ended in 2018?
+(5) Show me the short name of all programmes that have projects after the year 2018
+(6) What are the short names of the programmes of projects that didn't end in 2018?
+(7) Retrieve the program names of projects that didn't end in 2018.

@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'FRE12'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'FRE12'
+GPT-3 choices:
+(0) What are the descriptions of all European territorial units with a geocode region of FRE12?
+(1) Show me the descriptions of the EU territorial units in FRE12.
+(2) Show me the territorial unit descriptions in the region FRE12.
+(3) Show the descriptions of all European territorial units which are falling in the region FRE12
+(4) Get all territorial unit descriptions that belong to the region FRE12
+(5) Show all description of Europe territorial unit with geocode region FRE12.
+(6) What are the descriptions of the eu territorial units located in FRE12?
+(7) What is the description of the eu territorial unit that has the geocode region FRE12?

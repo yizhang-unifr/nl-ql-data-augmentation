@@ -1,0 +1,16 @@
+SELECT programmes.short_name FROM programmes WHERE programmes.title = 'Clean coal technologies' or programmes.title = 'Support to "Maritime Partnership"'
+
+###
+
+
+Original Query:
+SELECT programmes.short_name FROM programmes WHERE programmes.title = 'Clean coal technologies' or programmes.title = 'Support to "Maritime Partnership"'
+GPT-3 choices:
+(0) Retrive short title of the programmes named "Clean coal technologies" or "Support to "Maritime Partnership""
+(1) What are the short names of the programmes that have "Clean coal technologies" in their title or have "Support to "Maritime Partnership" ?"
+(2) Show me all short titles from programmes with title Clean coal technologies or Support to "Maritime Partnership"
+(3) Show me programmes with title Clean coal technologies or Maritime Partnership
+(4) Show all short project titles from projects named "Clean coal technologies" or "Support to "Maritime Partnership"
+(5) Show me the short name of the programmes with titles Clean coal technologies or Support to "Maritime Partnership"
+(6) Retrieve the short names of programmes with title Clean coal technologies or Maritime Partnership
+(7) Show me all short titles of programmes with title Clean coal technologies or Support to "Maritime Partnership"

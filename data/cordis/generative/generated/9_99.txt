@@ -1,0 +1,16 @@
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.ec_max_contribution != 86238.6
+
+###
+
+
+Original Query:
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.ec_max_contribution != 86238.6
+GPT-3 choices:
+(0) What is the full name of all people with a project funded at least partially through the European Commission with a contribution of less than 86,238.6 euros?
+(1) What is the full name of all people with a project whose maximum EC contribution is not 86238.6?
+(2) Retrieve the full names of people whose projects have an ec max contribution that is != 86238.6
+(3) Show me the full name of people that are principal investigators of a project and the project's EC funding is not 86238.6.
+(4) Show the full name of people having projects with a total EC contribution different from 86238.6
+(5) Retrieve the full names of all people with a project that has a maximum EC contribution different than 86238.6
+(6) Show the full name of all people working on a project having a maximum contribution different than 86238.6 euros
+(7) Show all full names of people that are principal investigators of projects that did not get an ec funding of 86238.6

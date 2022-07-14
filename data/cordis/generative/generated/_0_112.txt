@@ -1,0 +1,28 @@
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title = 'Marie Skłodowska-Curie Research and Innovation Staff Exchange (RISE)'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title = 'Marie Skłodowska-Curie Research and Innovation Staff Exchange (RISE)'
+GPT-3 choices:
+(0) Show me all funding schemes with title='Marie Skłodowska-Curie Research and Innovation Staff Exchange (RISE)'
+(1) Show me the funding scheme for Marie Skłodowska-Curie Research and Innovation Staff Exchange (RISE)
+(2) Show me the code of funding schemes named Marie Skłodowska-Curie Research and Innovation Staff Exchange (RISE).
+(3) Show me all funding schemes with the title Marie Skłodowska-Curie Research and Innovation Staff Exchange (RISE).
+(4) Show me all the funding scheme titles containing "Marie Skłodowska-Curie Research and Innovation Staff Exchange (RISE)"
+(5) Show all funding schemes with title Marie Skłodowska-Curie Research and Innovation Staff Exchange (RISE)
+(6) Retrieve the funding scheme code for the Marie Skłodowska-Curie Research and Innovation Staff Exchange (RISE)
+(7) Who have the funding scheme "Marie Skłodowska-Curie Research and Innovation Staff Exchange (RISE)" ?
+
+
+Re-ranked choices:
+6.370  Show me all funding schemes with the title Marie Skłodowska-Curie Research and Innovation Staff Exchange (RISE).
+6.324  Show me the funding scheme for Marie Skłodowska-Curie Research and Innovation Staff Exchange (RISE)
+6.311  Show me all funding schemes with title='Marie Skłodowska-Curie Research and Innovation Staff Exchange (RISE)'
+6.307  Show all funding schemes with title Marie Skłodowska-Curie Research and Innovation Staff Exchange (RISE)
+6.095  Show me all the funding scheme titles containing "Marie Skłodowska-Curie Research and Innovation Staff Exchange (RISE)"
+5.999  Who have the funding scheme "Marie Skłodowska-Curie Research and Innovation Staff Exchange (RISE)" ?
+5.913  Retrieve the funding scheme code for the Marie Skłodowska-Curie Research and Innovation Staff Exchange (RISE)
+5.892  Show me the code of funding schemes named Marie Skłodowska-Curie Research and Innovation Staff Exchange (RISE).
+

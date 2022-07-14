@@ -1,0 +1,16 @@
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title = 'Intra-European Fellowships (IEF)'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title = 'Intra-European Fellowships (IEF)'
+GPT-3 choices:
+(0) Retrieve all different funding scheme codes from the funding scheme titled Intra-European Fellowships (IEF)
+(1) Retrieve the funding scheme's code from all projects entitled "Intra-European Fellowships (IEF)".
+(2) Show me the funding schemes of the Intra-European Fellowships.
+(3) Show me the code of funding schemes with title Intra-European Fellowships (IEF)
+(4) Which are the different funding schemes?
+(5) Display all funding schemas titled Intra-European Fellowships (IEF)
+(6) Show me funding scheme code for Intra-European Fellowships (IEF).
+(7) Show me all funding schemes with IEF in their title

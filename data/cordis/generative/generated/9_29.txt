@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units JOIN project_members ON eu_territorial_units.geocode_regions = project_members.geocode_regions_3 WHERE project_members.member_role != 'participant'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units JOIN project_members ON eu_territorial_units.geocode_regions = project_members.geocode_regions_3 WHERE project_members.member_role != 'participant'
+GPT-3 choices:
+(0) Remove all geocode regions of project members that are part of a project team
+(1) Show all eu territorial unit which project members don't participate in.
+(2) Show me the regions of European territorial units where there is a project member different from 'participant'
+(3) Retrieve the project members from the EU territorial unit with a geocode region.
+(4) What are the geocode regions of territorial units that belong to project members but are not project participants?
+(5) Retrieve the geocode regions of all project members that are not participants.
+(6) Retrieve all geocode regions of the Europe territorial areas and project members that are not participants
+(7) Show the number of eu territorial units associated with project members differing from participant.

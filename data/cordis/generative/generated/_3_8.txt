@@ -1,0 +1,27 @@
+SELECT count(*) FROM projects
+
+###
+
+
+Original Query:
+SELECT count(*) FROM projects
+GPT-3 choices:
+(0) The number of projects.
+(1) NOTE:
+(2) How many projects are there?
+(3) Total number of projects
+(4) The total number of projects.
+(5) Show post-project activity count
+(6) How many projects are in the database?
+(7) 
+
+
+Re-ranked choices:
+4.256  The total number of projects.
+4.171  The number of projects.
+4.139  Total number of projects
+3.986  How many projects are there?
+3.735  How many projects are in the database?
+2.678  Show post-project activity count
+0.729  NOTE:
+

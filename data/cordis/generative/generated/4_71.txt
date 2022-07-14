@@ -1,0 +1,16 @@
+SELECT count(*) FROM project_member_roles WHERE project_member_roles.description = 'Host institution'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM project_member_roles WHERE project_member_roles.description = 'Host institution'
+GPT-3 choices:
+(0) How many project member roles are there for the host institution?
+(1) Count the number of project member roles with description Host institution
+(2) How many people have this role?
+(3) How many project members have the role of host institution?
+(4) How many role descriptions are there for the project members in which the institution is a host?
+(5) How many institutions that participate as host institutions?
+(6) How many project member roles are there with the description 'Host institution'?
+(7) How many project member roles have the description Host institution?

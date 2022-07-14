@@ -1,0 +1,27 @@
+SELECT activity_types.description FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.member_short_name = 'RVC'
+
+###
+
+
+Original Query:
+SELECT activity_types.description FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.member_short_name = 'RVC'
+GPT-3 choices:
+(0) Retrieve the activity types associated with a project whose member is named RVC
+(1) What are the activity types of the project members whose short name is RVC?
+(2) What are the activity types of the project members whose short name is RVC?
+(3) Show all descriptions of activity types projects from which a member of short name RVC is participating.
+(4) Show activity types of project members with short name = 'RVC'
+(5) What are the activity type descriptions of members whose short name is RVC?
+(6) Show activity type descriptions for projects of member RVC
+(7) Show activity types associated with project members whose short name is RVC.
+
+
+Re-ranked choices:
+5.352  Show activity types associated with project members whose short name is RVC.
+5.222  Show all descriptions of activity types projects from which a member of short name RVC is participating.
+5.157  Show activity types of project members with short name = 'RVC'
+4.924  Show activity type descriptions for projects of member RVC
+4.915  What are the activity types of the project members whose short name is RVC?
+4.883  Retrieve the activity types associated with a project whose member is named RVC
+4.680  What are the activity type descriptions of members whose short name is RVC?
+

@@ -1,0 +1,27 @@
+SELECT project_members.city FROM project_members    ORDER BY project_members.ec_contribution DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT project_members.city FROM project_members    ORDER BY project_members.ec_contribution DESC LIMIT 1
+GPT-3 choices:
+(0) What is the city of the project members with the largest contribution?
+(1) What is the city of the most contributing project member located in?
+(2) What is the city of the project members with the largest contribution?
+(3) What is the city of the most contributing member of projects?
+(4) What is the city of the project members with the highest funding?
+(5) Show project members with a contribution in euros
+(6) Display all projects of all project members, starting with the highest amount of contribution
+(7) Retrieve the city of all project members having an ec contribution equal or below the one of the project member with id###
+
+
+Re-ranked choices:
+4.419  What is the city of the project members with the largest contribution?
+4.345  What is the city of the most contributing member of projects?
+4.323  What is the city of the most contributing project member located in?
+4.108  What is the city of the project members with the highest funding?
+3.596  Display all projects of all project members, starting with the highest amount of contribution
+3.358  Retrieve the city of all project members having an ec contribution equal or below the one of the project member with id###
+2.965  Show project members with a contribution in euros
+

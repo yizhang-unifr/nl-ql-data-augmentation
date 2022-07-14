@@ -1,0 +1,28 @@
+SELECT topics.code FROM topics WHERE topics.rcn = '664869' or topics.rcn = '664648'
+
+###
+
+
+Original Query:
+SELECT topics.code FROM topics WHERE topics.rcn = '664869' or topics.rcn = '664648'
+GPT-3 choices:
+(0) What are the topics of research that fall under the structuring element 664869 and 664648?
+(1) Show me topics where the primary subject is 664869 or 664648
+(2) Show all the "Science" subject codes from institutions with either 664869 or 664648 as their institution code.
+(3) What ics topics have the rcn 664340?
+(4) Show me the topics that have a label of either 664869 or 664648
+(5) Remove topics assigned to a RCN that is either 664869 or 664648.
+(6) Show me the topics where either the code is 664869 or the code is 664648
+(7) Show me all the different topics with their associated code.
+
+
+Re-ranked choices:
+4.392  Show me the topics that have a label of either 664869 or 664648
+4.335  Show me the topics where either the code is 664869 or the code is 664648
+4.205  Show me topics where the primary subject is 664869 or 664648
+3.627  Show all the "Science" subject codes from institutions with either 664869 or 664648 as their institution code.
+3.500  Show me all the different topics with their associated code.
+3.459  What are the topics of research that fall under the structuring element 664869 and 664648?
+3.090  Remove topics assigned to a RCN that is either 664869 or 664648.
+3.088  What ics topics have the rcn 664340?
+

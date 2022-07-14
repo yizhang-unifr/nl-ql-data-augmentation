@@ -1,0 +1,28 @@
+SELECT projects.start_date FROM projects WHERE projects.ec_fund_scheme != 'ERC-SG'
+
+###
+
+
+Original Query:
+SELECT projects.start_date FROM projects WHERE projects.ec_fund_scheme != 'ERC-SG'
+GPT-3 choices:
+(0) Show me the starting dates of projects that are not funded via ERC-SG.
+(1) Show projects that have a start date and are not in the ERC-SG ec fund scheme
+(2) Show me the starting dates of all projects except those who get ecr-sg funding
+(3) Show me projects that have started since April 2014
+(4) Show me the starting date of projects that do not have an ERC-SG funding scheme
+(5) Show project from which the ERC-SG does not fund
+(6) What is the first project's starting date?
+(7) Show the start date of all projects except those in the ERC-SG fund
+
+
+Re-ranked choices:
+5.424  Show me the starting date of projects that do not have an ERC-SG funding scheme
+5.384  Show me the starting dates of projects that are not funded via ERC-SG.
+5.270  Show projects that have a start date and are not in the ERC-SG ec fund scheme
+5.246  Show the start date of all projects except those in the ERC-SG fund
+5.102  Show me the starting dates of all projects except those who get ecr-sg funding
+4.263  Show project from which the ERC-SG does not fund
+3.990  Show me projects that have started since April 2014
+3.784  What is the first project's starting date?
+

@@ -1,0 +1,28 @@
+SELECT countries.country_code FROM countries WHERE countries.country_name != 'Honduras'
+
+###
+
+
+Original Query:
+SELECT countries.country_code2 FROM countries WHERE countries.country_name != 'Honduras'
+GPT-3 choices:
+(0) Show the country code for countries that are not Honduras###
+(1) Show all country codes of countries that are not the same as the country name of "Honduras"
+(2) Which are the countries that don't have the country name Honduras?
+(3) Show all country codes of countries that are not named Honduras
+(4) Show the country code of all countries that are neither Honduras nor Bahamas.
+(5) Which countries' country code are different from "Honduras"?
+(6) Show the country codes of countries that are not Honduras
+(7) What are the country codes of the countries that are not named Honduras?
+
+
+Re-ranked choices:
+6.230  Show all country codes of countries that are not named Honduras
+6.213  Show the country codes of countries that are not Honduras
+6.114  Show all country codes of countries that are not the same as the country name of "Honduras"
+6.111  What are the country codes of the countries that are not named Honduras?
+6.033  Show the country code for countries that are not Honduras###
+5.829  Which countries' country code are different from "Honduras"?
+5.705  Show the country code of all countries that are neither Honduras nor Bahamas.
+5.469  Which are the countries that don't have the country name Honduras?
+

@@ -1,0 +1,16 @@
+SELECT institutions.acronym FROM institutions WHERE institutions.wikidata_url = 'http://www.wikidata.org/wiki/Q36878913'
+
+###
+
+
+Original Query:
+SELECT institutions.acronym FROM institutions WHERE institutions.wikidata_url = 'http://www.wikidata.org/wiki/Q36878913'
+GPT-3 choices:
+(0) The acronym of institutions whose wikidata url is Q36878913
+(1) Give me institutions acronyms
+(2) 
+(3) Show me the acronym of all institutions with a wikidata url equal to 'http://www.wikidata.org/wiki/Q36878913'
+(4) Show me institutions with a wikidata url equaling Q36878913
+(5) Show me the acronym of all institutions having a wikidata property with the code Q36878913
+(6) Show all the acronyms of the institutions with a wikidata URL equal to http://www.wikidata.org/wiki/Q36878913
+(7) Show me acronym of institutions having a wikidata property with the code Q36878913

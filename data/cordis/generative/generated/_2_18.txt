@@ -1,0 +1,27 @@
+SELECT erc_research_domains.code, count(*) FROM erc_research_domains  GROUP BY erc_research_domains.code
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.code, count(*) FROM erc_research_domains  GROUP BY erc_research_domains.code
+GPT-3 choices:
+(0) Display the number of research domains
+(1) How many research domains are there?
+(2) How many different research domain codes are there?
+(3) How many ERC research domains are there?
+(4) What are the most popular research domains?
+(5) What are the different research domains?
+(6) Show the number of research domains.
+(7) What are the different research domains?
+
+
+Re-ranked choices:
+4.809  How many research domains are there?
+4.470  Show the number of research domains.
+4.437  What are the different research domains?
+4.242  What are the most popular research domains?
+4.175  Display the number of research domains
+4.083  How many ERC research domains are there?
+3.846  How many different research domain codes are there?
+

@@ -1,0 +1,502 @@
+[
+  {
+    "db_id": "cordis_temporary",
+    "query": "select distinct erc_panels.description from projects join project_erc_panels on projects.unics_id = project_erc_panels.project join erc_panels on project_erc_panels.panel = erc_panels.code where projects.start_year = '2016'",
+    "question": "Show all of the european research council panel descriptions from projects that started in 2016"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select count(distinct erc_panels.description) from projects join project_erc_panels on projects.unics_id = project_erc_panels.project join erc_panels on project_erc_panels.panel = erc_panels.code where projects.acronym != 'BELENUS'",
+    "question": "How many european research council panel descriptions are there for projects that do not have the acronym belenus? "
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select distinct erc_panels.description from project_erc_panels join erc_panels on project_erc_panels.panel = erc_panels.code join projects on projects.unics_id = project_erc_panels.project where projects.start_date >= '2018-08-13'",
+    "question": "The descriptions of the European Research Council panels who have funded projects whose starting date is after August 13, 2018. "
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select sum(projects.total_cost) from eu_territorial_units join institutions on eu_territorial_units.geocode_regions = institutions.geocode_regions_3 join project_members on institutions.unics_id = project_members.institution_id join projects on project_members.project = projects.unics_id where eu_territorial_units.description != 'Hildburghausen' and project_members.department_name = 'Medical Engineering'",
+    "question": "Added total cost of projects with a member from a Medical Engineering department outside the region of Hildburghausen."
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select count(distinct eu_territorial_units.description) from institutions join eu_territorial_units on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join countries on countries.unics_id = institutions.country_id where countries.country_code2 != 'AU' and institutions.institutions_name = 'OPENLIGHTCOMM LTD'",
+    "question": "Total number of descriptions of European Union territorial units for all countries except Australia and where the OPENLIGHTCOMM LTD company is based."
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select count(distinct countries.country_name) from project_members join institutions on project_members.institution_id = institutions.unics_id join countries on institutions.country_id = countries.unics_id join eu_territorial_units on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 where eu_territorial_units.description != 'Salzburg und Umgebung' and institutions.institutions_name = 'DAACRO GMBH & CO KG'",
+    "question": "Total number of names of countries not containing Salzburg und Umgebung as territorial unit and where the DAACRO GMBH & CO KG company is placed."
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from institutions join project_members on institutions.unics_id = project_members.institution_id join projects on project_members.project = projects.unics_id where institutions.acronym != 'ICN2' and projects.title = 'Modernisation of Vessels for Inland waterway freight Transport' and project_members.department_name = 'Large Systems Business Unit'",
+    "question": "The average funding of projects in which no institution called ICN2 is a member, whose title is \"Modernisation of Vessels for Inland waterway freight Transport\", and in which the Large Systems Business Unit department participates.."
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from project_members join projects on project_members.project = projects.unics_id where project_members.member_short_name = 'Optim' and projects.acronym != 'BILINGUALPLAS'",
+    "question": "What is the average cost for the project with members Optim regarding all projects except the project BILINGUALPLAS?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from eu_territorial_units join institutions on eu_territorial_units.geocode_regions = institutions.geocode_regions_3 join project_members on institutions.unics_id = project_members.institution_id join projects on project_members.project = projects.unics_id where eu_territorial_units.description != 'La Gomera' and project_members.member_short_name = 'EXELIXIS'",
+    "question": "What is the average total score for projects which involve the partecipant EXELIS in a region different than La Gomera?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from project_members join projects on project_members.project = projects.unics_id join institutions on institutions.unics_id = project_members.institution_id where project_members.member_short_name = 'ACIF - CCIM' and institutions.institutions_name != 'APSIDE S.A'",
+    "question": "What is the averange cost for the projects which have partecipant called ACIF-CCIM excluding the institution APSIE S.A?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select count(distinct projects.end_date) from institutions join eu_territorial_units on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join countries on countries.unics_id = institutions.country_id join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id where institutions.institutions_name != 'FONDAZIONE RI.MED' and countries.country_code2 = 'TH' and eu_territorial_units.description != 'R\u00e9gion l\u00e9manique'",
+    "question": "What is the total number of distinct ending dates of projects that have a member whose geocode region 3 is not \"R\u00e9gion l\u00e9manique\" but it is the same as that of some institution different from \"FONDAZIONE RI.MED\" whose country is Thailand?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select distinct institutions.short_name from project_members join institutions on project_members.institution_id = institutions.unics_id join eu_territorial_units on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 where institutions.acronym = 'INSERM' and eu_territorial_units.description != 'Lichtenfels'",
+    "question": "Show me the short name of the institution with acronym INSERM which is a project member and has an eu territorial unit different from Lichtenfels?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from project_members join projects on project_members.project = projects.unics_id where project_members.country != 'BH' and projects.start_date = '2018-02-25'",
+    "question": "What is the average total cost of projects that started on the 25th of February 2018 and have a member whose country is Bahrain?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from project_members join projects on project_members.project = projects.unics_id join institutions on institutions.unics_id = project_members.institution_id join eu_territorial_units on eu_territorial_units.geocode_regions = institutions.geocode_regions_3 where project_members.department_name = 'Comune di Roma' and eu_territorial_units.description != 'Arr. Nivelles'",
+    "question": "What is the average total cost of projects that have members whose participating department is \"Comune di Roma\" and are not in the geocode region 3 of \"Arr. Nivelles\"?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select distinct countries.country_code2 from institutions join countries on institutions.country_id = countries.unics_id where countries.country_name = 'New Zealand' and institutions.short_name = 'Parc Agrari del Baix Llobregat'",
+    "question": "Retrieve country code 2 of country \"New Zealand\" having an institution named \"Parc Agrari del Baix Llobregat\" inside."
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from eu_territorial_units join institutions on eu_territorial_units.geocode_regions = institutions.geocode_regions_3 join project_members on institutions.unics_id = project_members.institution_id join projects on project_members.project = projects.unics_id where eu_territorial_units.description != 'Outer London \u2013 East and North East' and projects.acronym != 'ANTEPIGENETICS'",
+    "question": "What is the average total cost of projects of members that are not from Outer London East and North East and do not have the acronym Antepigenetics"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from institutions join eu_territorial_units on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id where projects.acronym = 'DEMOBASE' and institutions.short_name != 'PSL'",
+    "question": "What is the total cost of all DEMOBASE projects from all institutions except PSL?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select count(distinct institutions.acronym) from project_programmes join projects on project_programmes.project = projects.unics_id join project_members on projects.unics_id = project_members.project join institutions on project_members.institution_id = institutions.unics_id join programmes on programmes.code = project_programmes.programme where programmes.short_name = 'Safe and sustainable nanotechnologies' and projects.start_year > 0  and project_members.city = 'SARNO SA'",
+    "question": "Count the number of distinct acronyms for the institutions having a project programme \"Safe and sustainable nanotechnologies\" whose members are all in the city \"Sarno SA\""
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select distinct eu_territorial_units.description from project_members join eu_territorial_units on project_members.geocode_regions_3 = eu_territorial_units.geocode_regions where project_members.department_name = 'Grant Office'",
+    "question": "List the eu territorial units that have project members with a Grant Office department"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select sum(projects.total_cost) from project_erc_panels join projects on project_erc_panels.project = projects.unics_id join erc_panels on erc_panels.code = project_erc_panels.panel where erc_panels.description = 'Physical and Analytical Chemical sciences' and projects.acronym != 'COELUX'",
+    "question": "What is the total cost of the projects whose acronym is not COELUX and the panel description is Physical and Analytical Chemical sciences?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select sum(projects.total_cost) from erc_panels join project_erc_panels on erc_panels.code = project_erc_panels.panel join projects on project_erc_panels.project = projects.unics_id where erc_panels.description = 'Neurosciences and neural disorders' and projects.end_date > '2017-12-12'",
+    "question": "What is the total cost of the projects whose end date is after 2017-12-12 and their panel description is Neurosciences and neural disorders?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from eu_territorial_units join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id where eu_territorial_units.description = 'Warszawski zachodni' and project_members.country = 'BG' and projects.acronym != 'PROX1'",
+    "question": "What is the average cost of projects whose acronym is not PROX1, their members are located in BG and have territorial unit description Warszawski zachodni?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select sum(projects.total_cost) from project_members join projects on project_members.project = projects.unics_id join institutions on institutions.unics_id = project_members.institution_id where institutions.acronym = 'barcelonabeta' and projects.end_date > '2017-01-01'",
+    "question": "What is the total cost of projects with date after 2017-01-01 whose institution's acronym is barcelonabeta ?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select sum(projects.total_cost) from project_members join projects on project_members.project = projects.unics_id join institutions on institutions.unics_id = project_members.institution_id join countries on countries.unics_id = institutions.country_id where projects.start_date >= '2019-10-30' and countries.country_name = 'South Georgia'",
+    "question": "Show the total cost of projects with a starting date equal or greater than 2019-10-30 and where at least one participant is from South Georgia"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select sum(projects.total_cost) from project_erc_panels join projects on project_erc_panels.project = projects.unics_id join erc_panels on erc_panels.code = project_erc_panels.panel where erc_panels.description = 'Cellular and Developmental Biology' and projects.start_date > '2008-11-10'",
+    "question": "Show the total cost of projects that started after 2008-11-10 and fall into the ERC panel \"Cellular and Developmental Biology\""
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select count(distinct erc_panels.description) from project_erc_panels join erc_panels on project_erc_panels.panel = erc_panels.code join projects on projects.unics_id = project_erc_panels.project where projects.end_year != '2020'",
+    "question": "Count the number of ERC panels for projects that do not end in 2020"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from project_members join projects on project_members.project = projects.unics_id join institutions on institutions.unics_id = project_members.institution_id where institutions.acronym != 'CEA' and projects.start_year = '2010'",
+    "question": "Show the average total cost of projects that started in 2010 in which there is an institution involved with an acronym different than \"CEA\""
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select distinct countries.country_code2 from institutions join countries on institutions.country_id = countries.unics_id where institutions.acronym != 'IDIBELL' and countries.country_name = 'Martinique'",
+    "question": "Get country code 2 from country with name Martinique having an institution inside with an acronym different than \"IDIBELL\"."
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select distinct erc_panels.description from project_erc_panels join erc_panels on project_erc_panels.panel = erc_panels.code join projects on projects.unics_id = project_erc_panels.project where projects.end_year = '2012'",
+    "question": "Select distincct ERC panel descriptions from project ending in 2012"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select sum(projects.total_cost) from project_erc_panels join projects on project_erc_panels.project = projects.unics_id join erc_panels on erc_panels.code = project_erc_panels.panel where erc_panels.description != 'Molecular and Structural Biology and Biochemistry' and projects.start_year > '2017'",
+    "question": "Retrieve the sum of the projects total costs starting after 2017 and whose panel description is != \"Molecular and Structural Biology and Biochemistry\""
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select distinct projects.acronym from project_members join projects on project_members.project = projects.unics_id join institutions on institutions.unics_id = project_members.institution_id join eu_territorial_units on eu_territorial_units.geocode_regions = institutions.geocode_regions_3 where eu_territorial_units.description != 'Miasto Warszawa' and projects.total_cost <= '3107350'",
+    "question": "Retrieve the acronyms of projects having a total cost <= 3107350.0 and an institution with geocode region != \"Miasto Warszawa\""
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select count(distinct institutions.short_name) from projects join project_members on projects.unics_id = project_members.project join eu_territorial_units on project_members.geocode_regions_3 = eu_territorial_units.geocode_regions join institutions on eu_territorial_units.geocode_regions = institutions.geocode_regions_3 where projects.end_year < '2022' and institutions.institutions_name = 'MOBYDOC SAS'",
+    "question": "Count the short names of institutions having name \"MOBYDOC SAS\" of people working for projects whose end year is < 2022."
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from erc_panels join project_erc_panels on erc_panels.code = project_erc_panels.panel join projects on project_erc_panels.project = projects.unics_id where erc_panels.description = 'Computer science and informatics' and projects.acronym = 'MARBIGEN'",
+    "question": "Compute the average total cost for projects whose relative ERC panel description equals to \"Computer Science and Informatics\" nad whose arconym equals \"MARBIGEN\""
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select sum(projects.total_cost) from countries join institutions on countries.unics_id = institutions.country_id join eu_territorial_units on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id where countries.country_name = 'Antarctica' and eu_territorial_units.description = 'Napoli'",
+    "question": "Retrieve the sum of total costs for projects having at least one member whose geocode region is \"Napoli\" and whose institution country is \"Antarctica\"."
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select sum(projects.total_cost) from erc_panels join project_erc_panels on erc_panels.code = project_erc_panels.panel join projects on project_erc_panels.project = projects.unics_id where erc_panels.description = 'Evolutionary, population and environmental biology' and projects.end_year > '2019'",
+    "question": "Compute the sum of total  costs for projects ending after 2019 and whose ERC panel description is \"Evolutionary, population and environmental biology\""
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select sum(projects.total_cost) from institutions join eu_territorial_units on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join countries on countries.unics_id = institutions.country_id join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id where countries.country_name = 'Falkland Islands' and institutions.acronym = 'UPVD'",
+    "question": "Compute the sum of the total costs fo projects whose both institutions and institutions members are in the country \"Falkland Islands\", and whose institutions have acronym \"UPDV\"."
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select sum(projects.total_cost) from eu_territorial_units join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join institutions on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join projects on project_members.project = projects.unics_id where institutions.acronym != 'INSA' and eu_territorial_units.description = 'Zollernalbkreis'",
+    "question": "Retrieve the sum of total costs of projects whose institutions are in \"Zollernalbkreis\" and institutions acronyms are != \"INSA\""
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select distinct institutions.short_name from project_members join institutions on project_members.institution_id = institutions.unics_id where institutions.acronym = 'ICEC' and project_members.city != 'KINGSTON ON SOAR NOTTINGHAM'",
+    "question": "Retrieve the short names of institutions having a project member whose city is != \"KINGSTON ON SOAR NOTTINGHAM\" and acronym \"ICEC\""
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from institutions join eu_territorial_units on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id join countries on countries.unics_id = institutions.country_id where countries.country_name != 'Benin' and institutions.acronym != 'ICRA'",
+    "question": "What is the average cost of projects associated with institutions located in Benin with an acronym that is not ICRA?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select project_members.vat_number from project_members join institutions on project_members.institution_id = institutions.unics_id join countries on institutions.country_id = countries.unics_id where project_members.department_name != 'GENERAL SECRETARY' and countries.country_name != 'Mauritania'",
+    "question": "Get the vat number of project members whose department name is not GENERAL SECRETARY and the country of the institution is not Mauritania?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select sum(projects.total_cost) from eu_territorial_units join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id join institutions on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join countries on countries.unics_id = institutions.country_id where countries.country_name = 'Republic of the Congo' and project_members.country = 'LY'",
+    "question": "What is the total cost of the projects whose members are in the country LY and their institution location is the country of Republic of the Congo?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from countries join institutions on countries.unics_id = institutions.country_id join eu_territorial_units on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id where countries.country_name = 'Ivory Coast' and eu_territorial_units.description = 'Heinsberg' and projects.start_year = '2019'",
+    "question": "What is the average cost of projects started in 2019, assigned to institutions located in Ivory Coast with eu territorial unit description Heinsberg?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from project_members join projects on project_members.project = projects.unics_id where project_members.city = 'OVIEDO ASTURIAS' and projects.start_date <= '2018-02-01'",
+    "question": "What is the average cost of projects started in 2018-02-01 with members in OVIEDO ASTURIAS?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select sum(projects.total_cost) from eu_territorial_units join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join institutions on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join projects on project_members.project = projects.unics_id where project_members.department_name != 'Civiele bescherming' and institutions.short_name = 'UTBM'",
+    "question": "What is the total cost of projects assigned to the institution with short name UTBM for all the departments except Civiele bescherming?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select sum(projects.total_cost) from institutions join eu_territorial_units on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join countries on countries.unics_id = institutions.country_id join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id where countries.country_code2 != 'GW' and projects.end_year > '2009'",
+    "question": "What is the total cost of projects whose end year is after 2009 and are assigned to institutions in countries that don't have the country code GW?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select sum(projects.total_cost) from countries join institutions on countries.unics_id = institutions.country_id join eu_territorial_units on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id where eu_territorial_units.description = 'Pays de la Loire' and projects.title != 'Rapid Analysis and Spatialisation Of Risk (RASOR)' and countries.country_code2 = 'LT'",
+    "question": "What is the cost of Rapid Analysis and Spatialisation Of Risk (RASOR) project assigned to institutions with country code LT and eu territorial unit description Pays de la Loire?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from countries join institutions on countries.unics_id = institutions.country_id join project_members on institutions.unics_id = project_members.institution_id join projects on project_members.project = projects.unics_id where countries.country_name = 'Mauritius' and institutions.acronym = 'EURECAT'",
+    "question": "What is the average cost of projects assigned to the institute with acronym EURECAT located in Mauritius?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select sum(projects.total_cost) from project_members join projects on project_members.project = projects.unics_id where project_members.department_name != 'NXP Semiconductors Netherlands BV' and projects.start_year <= '2015'",
+    "question": "What is the total cost of projects that started by 2015 and are not assigned to the department of NXP Semiconductors Netherlands BV?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from institutions join project_members on institutions.unics_id = project_members.institution_id join projects on project_members.project = projects.unics_id where institutions.acronym != 'ICN2' and projects.title = 'Modernisation of Vessels for Inland waterway freight Transport' and project_members.department_name = 'Large Systems Business Unit'",
+    "question": "What is the average cost of projects with title Modernisation of Vessels for Inland waterway freight Transport that are not assigned to the institution with acronym ICN2 and department Large Systems Business Unit?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from institutions join eu_territorial_units on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join countries on countries.unics_id = institutions.country_id join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id where countries.country_name = 'Somalia' and project_members.city = 'DUNSTABLE' and institutions.acronym != 'EHESS'",
+    "question": "What is the average cost of projects assigned to institutions with the acronym EHESS, located in Somalia in the city DUNSTABLE?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from eu_territorial_units join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id join institutions on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions where institutions.institutions_name != 'LIGHTSENSE TECHNOLOGIES LTD' and project_members.member_short_name = 'MIMTech'",
+    "question": "What is the average cost of projects whose members short name is MIMTech and are not assigned to the institution LIGHTSENSE TECHNOLOGIES LTD?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select erc_panels.description from projects join project_erc_panels on projects.unics_id = project_erc_panels.project join erc_panels on project_erc_panels.panel = erc_panels.code where projects.start_year != '2010'",
+    "question": "display all panels that have a project whose start year is not 2010."
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select sum(projects.total_cost) from erc_panels join project_erc_panels on erc_panels.code = project_erc_panels.panel join projects on project_erc_panels.project = projects.unics_id where projects.start_date > '2016-11-14' and erc_panels.description != 'Computer science and informatics'",
+    "question": "What is the total cost of projects started in 2016-11-14 with erc panels description Computer science and informatics?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from countries join institutions on countries.unics_id = institutions.country_id join eu_territorial_units on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id where countries.country_code2 != 'TR' and eu_territorial_units.description = 'Buskerud' and projects.start_date = '2008-09-08'",
+    "question": "What is the average cost of projects started in 2008-09-08, assigned to institutions with country code TR and territorial unit description Buskerud?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from institutions join eu_territorial_units on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join countries on countries.unics_id = institutions.country_id join projects on project_members.project = projects.unics_id where countries.country_name != 'United States Virgin Islands' and eu_territorial_units.description = 'Leszczy\u0144ski'",
+    "question": "What is the average cost of projects assigned to institutions located in United States Virgin Islands with territorial unit description Leszczy\u0144ski?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select sum(projects.total_cost) from programmes join project_programmes on programmes.code = project_programmes.programme join projects on project_programmes.project = projects.unics_id where programmes.short_name != 'Reducing energy consumption and carbon footprint' and projects.end_year < '2007'",
+    "question": "What is the total cost of projects that ended before 2007 and don't have a programme with short name Reducing energy consumption and carbon footprint?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select count(distinct erc_panels.description) from institutions join project_members on institutions.unics_id = project_members.institution_id join projects on project_members.project = projects.unics_id join project_erc_panels on projects.unics_id = project_erc_panels.project join erc_panels on project_erc_panels.panel = erc_panels.code where project_members.city = 'TROIA' and institutions.institutions_name = 'ECTRL SOLUTIONS SRL' and projects.acronym = 'REFREEPERMAG'",
+    "question": "How many different panels have a project with acronym REFREEPERMAG assigned to the institute ECTRL SOLUTIONS SRL in the city of TROIA?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select sum(projects.total_cost) from project_programmes join projects on project_programmes.project = projects.unics_id join programmes on programmes.code = project_programmes.programme where programmes.title = 'Any research topic covered by the EC FP7 (EC/EP Decision No 1982/2006/EC of 18 December 2006, published in the Official Journal 30.12.2006 L 412)' and projects.end_date < '2014-07-15'",
+    "question": "What is the total cost of projects which belong in the Any research topic covered by the EC FP7 (EC/EP Decision No 1982/2006/EC of 18 December 2006, published in the Official Journal 30.12.2006 L 412) programme and ended before 2014-07-15?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from project_members join projects on project_members.project = projects.unics_id where projects.acronym = 'MONTEX' and project_members.country = 'BW'",
+    "question": "What is the average cost of projects with acronym MONTEX for members in the country BW?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from project_members join projects on project_members.project = projects.unics_id join eu_territorial_units on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join institutions on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join countries on countries.unics_id = institutions.country_id where countries.country_name = 'Wallis and Futuna' and eu_territorial_units.description != '\u0421\u0435\u0432\u0435\u0440\u043e\u0437\u0430\u043f\u0430\u0434\u0435\u043d' and institutions.institutions_name = 'CAMBRIDGE DESIGN PARTNERSHIP LLP'",
+    "question": "What is the average cost of projects assigned to CAMBRIDGE DESIGN PARTNERSHIP LLP institution, located in Wallis and Futuna with territorial unit description \u0421\u0435\u0432\u0435\u0440\u043e\u0437\u0430\u043f\u0430\u0434\u0435\u043d?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select distinct erc_panels.description from project_erc_panels join erc_panels on project_erc_panels.panel = erc_panels.code join projects on projects.unics_id = project_erc_panels.project where projects.start_year != '2011'",
+    "question": "What are the different panel descriptions associated with projects that didn't start in 2011?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select count(distinct projects.end_year) from eu_territorial_units join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id where eu_territorial_units.description = 'Is\u00e8re' and project_members.member_short_name = 'ZZZS' and projects.total_cost = '1941144'",
+    "question": "How many projects have total cost 1941144 and are assigned to members whose short name is ZZZS with territorial unit description Is\u00e8re?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from project_members join projects on project_members.project = projects.unics_id join eu_territorial_units on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join institutions on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join countries on countries.unics_id = institutions.country_id where institutions.short_name = 'Ensad' and countries.country_code2 != 'IN'",
+    "question": "What is the average cost of projects assigned to the institution with short name Ensad and its not located in a country with code IN?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select distinct erc_panels.description from project_erc_panels join erc_panels on project_erc_panels.panel = erc_panels.code ",
+    "question": "What are the different panel descriptions that have a project?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from project_members join projects on project_members.project = projects.unics_id where projects.end_date != '2018-03-10' and project_members.department_name = 'General Secretariat'",
+    "question": "What is the average cost of projects that didn't end in 2018-03-10 and are assigned to the department General Secretariat?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select distinct countries.country_code2 from project_members join institutions on project_members.institution_id = institutions.unics_id join countries on institutions.country_id = countries.unics_id where project_members.country = 'EL' and institutions.short_name = 'UCA' and countries.country_name = 'Belize'",
+    "question": "Retrieve country code 2 of countries associated with the institution UCA, located in Belize with members in EL."
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from project_members join projects on project_members.project = projects.unics_id join eu_territorial_units on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join institutions on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join countries on countries.unics_id = institutions.country_id where countries.country_code2 = 'ID' and eu_territorial_units.description = 'Etel\u00e4-Karjala'",
+    "question": "What is the average cost of projects whose members are located in countries with code ID and have the territorial unit description Etel\u00e4-Karjala?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select count(distinct erc_panels.description) from project_erc_panels join erc_panels on project_erc_panels.panel = erc_panels.code ",
+    "question": "How many descriptions are there for European Research Council panels?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select count(distinct programmes.title) from eu_territorial_units join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id join project_programmes on projects.unics_id = project_programmes.project join programmes on project_programmes.programme = programmes.code where eu_territorial_units.description != 'Catalu\u00f1a' and projects.start_year = '2020'",
+    "question": "How many project programmes are there, with projects that start in 2020 and members that are not from Catalu\u00f1a?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select distinct eu_territorial_units.description from project_members join eu_territorial_units on project_members.geocode_regions_3 = eu_territorial_units.geocode_regions where project_members.member_short_name = 'Spoon'",
+    "question": "From which region is the project member whose short name is Spoon?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from institutions join eu_territorial_units on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id where institutions.acronym = 'UCBL' and projects.end_year <= '2013'",
+    "question": "What is the average total cost of all projects that end in 2013 or earlier and a have a member institution whose acronym is UCBL?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from erc_panels join project_erc_panels on erc_panels.code = project_erc_panels.panel join projects on project_erc_panels.project = projects.unics_id where erc_panels.description = 'Immunity and infection' and projects.end_date != '2020-11-18'",
+    "question": "What is the average total cost of projects that end at 2020-11-18 and have panel about Immunity and infection?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select distinct projects.title from countries join institutions on countries.unics_id = institutions.country_id join eu_territorial_units on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id where countries.country_code2 = 'NO' and project_members.city = 'KJERRGARDEN'",
+    "question": "Display titles of projects with a member from KJERRGARDEN that is also in the same region as an institution from Norway?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select distinct projects.title from project_erc_panels join projects on project_erc_panels.project = projects.unics_id join erc_panels on erc_panels.code = project_erc_panels.panel where erc_panels.description = 'Physiology, Pathophysiology and Endocrinology' and projects.end_year >= '2010'",
+    "question": "Show me projects that end in 2010 or later and have a panel about Physiology, Pathophysiology and Endocrinology."
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select count(distinct project_members.member_short_name) from projects join project_members on projects.unics_id = project_members.project where projects.acronym != 'iTractor' and project_members.country = 'JE'",
+    "question": "How many project members from Jersey are there, in projects whose acronym is not iTractor?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from project_members join projects on project_members.project = projects.unics_id where project_members.member_short_name != 'TILLID' and projects.start_date = '2015-09-21'",
+    "question": "What's the average total cost of projects with a start date of 2015-09-21, who don't have a member with the short name TILLID?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from countries join institutions on countries.unics_id = institutions.country_id join eu_territorial_units on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id where countries.country_name != 'United States Virgin Islands' and projects.end_year >= '2015' and project_members.city != 'SESTO SAN GIOVANNI MILANO'",
+    "question": "What is the average total cost of projects ending in 2015 or late, that have a member that is not from SESTO SAN GIOVANNI MILANO and an institution not from United States Virgin Islands?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select distinct countries.country_code2 from institutions join countries on institutions.country_id = countries.unics_id where institutions.short_name = 'UTT' and countries.country_name != 'Switzerland'",
+    "question": "What are the country codes of institutions with the short name UTT, that are not in Switzerland?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select count(distinct erc_panels.description) from project_erc_panels join erc_panels on project_erc_panels.panel = erc_panels.code ",
+    "question": "How many panel descriptions are there?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select distinct erc_panels.description from project_erc_panels join erc_panels on project_erc_panels.panel = erc_panels.code ",
+    "question": "What are the panel descriptions?"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select sum(projects.total_cost) from project_members join projects on project_members.project = projects.unics_id join institutions on institutions.unics_id = project_members.institution_id join countries on countries.unics_id = institutions.country_id where countries.country_name = 'Nepal' and institutions.short_name = 'UTC'",
+    "question": "Show the total cost of projects in which participates an insitutions named UTC and located in Nepal"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select sum(projects.total_cost) from institutions join project_members on institutions.unics_id = project_members.institution_id join eu_territorial_units on eu_territorial_units.geocode_regions = institutions.geocode_regions_3 join projects on project_members.project = projects.unics_id where eu_territorial_units.description = 'Wilhelmshaven, Kreisfreie Stadt' and projects.end_date = '2017-07-13'",
+    "question": "Show the total cost of projects that end on \"2017-07-13\" and have a participant located in \"Wilhelmshaven, Kreisfreie Stadt\""
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from project_erc_panels join projects on project_erc_panels.project = projects.unics_id join erc_panels on erc_panels.code = project_erc_panels.panel where erc_panels.description != 'Mathematical foundations' and projects.start_year > '2013'",
+    "question": "Show the average total cost of ERC projects that started after 2013 and fall under a panel different from \"Mathematical foundations\""
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from project_members join projects on project_members.project = projects.unics_id join institutions on institutions.unics_id = project_members.institution_id where project_members.city != 'KOSTELEC NAD ORLICI' and institutions.short_name = 'ECP' and projects.start_year >= '2019'",
+    "question": "Show the average total cost of projects that started in or after 2019 and have a participant named \"ECP\" from a city different than \"KOSTELEC NAD ORLICI\""
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from eu_territorial_units join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id where eu_territorial_units.description = 'Vzhodna Slovenija' and project_members.department_name = 'Finance Office / National Archives of Hungary'",
+    "question": "Show the average total cost of projects that involve the department \"Finance Office / National Archives of Hungary\" from the region \"Vzhodna Slovenija\""
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select count(distinct erc_panels.description) from project_members join projects on project_members.project = projects.unics_id join project_erc_panels on projects.unics_id = project_erc_panels.project join institutions on institutions.unics_id = project_members.institution_id join erc_panels on project_erc_panels.panel = erc_panels.code where institutions.institutions_name = 'SYNARC SAS' and project_members.city = 'NANCY' and projects.end_year > '2018'",
+    "question": "Show the number of ERC panels of projects that end after 2018 and have a participant  named \"SYNARC SAS\" from the city of \"NANCY\""
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select distinct erc_panels.description from projects join project_erc_panels on projects.unics_id = project_erc_panels.project join erc_panels on project_erc_panels.panel = erc_panels.code where projects.end_year >= '2022'",
+    "question": "Show me ERC panels for projects that end in or after 2022"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from institutions join eu_territorial_units on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id join countries on countries.unics_id = institutions.country_id where projects.start_year = '2017' and countries.country_code2 != 'KH'",
+    "question": "What is the average costs of projects where the country code is not KH that started in 2017"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select sum(projects.total_cost) from project_members join projects on project_members.project = projects.unics_id join eu_territorial_units on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 where eu_territorial_units.description = 'Vaucluse' and project_members.department_name = 'PRISMA Lab' and projects.acronym = 'E3Canarias 2017-2018'",
+    "question": "What is the sum of all project costs of the terriotrial unit Vaucluse of the department PRISMA Lab with the project acronym \"E3Canarias 2017-2018\""
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select count(distinct countries.country_name) from institutions join countries on institutions.country_id = countries.unics_id where countries.country_code2 = 'AS' and institutions.institutions_name = 'ACOBIOM'",
+    "question": "Count the number of countries where the institution is ACOBIOM and the country code is AS"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select count(distinct projects.total_cost) from countries join institutions on countries.unics_id = institutions.country_id join eu_territorial_units on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id where countries.country_name != 'Western Sahara' and eu_territorial_units.description = 'R\u012bga' and projects.start_date <= '2015-10-07'",
+    "question": "What is the total cost of projects that are not in Western Sahara but in Riga and started before 2015-10-07"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select count(distinct erc_panels.description) from programmes join project_programmes on programmes.code = project_programmes.programme join projects on project_programmes.project = projects.unics_id join project_erc_panels on projects.unics_id = project_erc_panels.project join erc_panels on project_erc_panels.panel = erc_panels.code where projects.total_cost >= '210446' and programmes.short_name != 'Specific RTD programme in the field of telematics applications'",
+    "question": "Count the panel descriptions of project with total cost greater than 210446 that are not part of the program Specific RTD programme in the field of telematics applications"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from countries join institutions on countries.unics_id = institutions.country_id join eu_territorial_units on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id where countries.country_code2 = 'BT' and projects.start_year > '2007'",
+    "question": "Show me the average cost of all projects with country code BT that started after 2007"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from countries join institutions on countries.unics_id = institutions.country_id join eu_territorial_units on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id where institutions.short_name = 'Fundaci\u00f3 Pau Costa' and countries.country_code2 = 'TV' and project_members.country = 'LU'",
+    "question": "What is the average cost of projects from Fundaci\u00f3 Pau Costa in TV and LU"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select distinct erc_panels.description from projects join project_erc_panels on projects.unics_id = project_erc_panels.project join erc_panels on project_erc_panels.panel = erc_panels.code where projects.start_year = '2016'",
+    "question": "Show the description of all ERC panels of projects that started in 2016"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select sum(projects.total_cost) from project_members join projects on project_members.project = projects.unics_id join eu_territorial_units on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join institutions on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join countries on countries.unics_id = institutions.country_id where countries.country_code2 != 'TT' and project_members.member_short_name != 'Newtec Belgium' and eu_territorial_units.description != '\u041b\u043e\u0432\u0435\u0447'",
+    "question": "What is the total cost of all projects that do not have the country code TT with members from Newtec Belgium but are not from \u041b\u043e\u0432\u0435\u0447"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select distinct countries.country_name from project_members join institutions on project_members.institution_id = institutions.unics_id join countries on institutions.country_id = countries.unics_id where project_members.city = 'Schrobenhausen' and institutions.institutions_name = 'KLINIKUM AUGSBURG KOMMUNALUNTERNEHMEN' and countries.country_code2 = 'NU'",
+    "question": "Show the different country name of projects from the city Schrobenhausen of KLINIKUM AUGSBURG KOMMUNALUNTERNEHMEN with country code NU"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from project_members join projects on project_members.project = projects.unics_id join eu_territorial_units on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 where eu_territorial_units.description = 'Bad Kreuznach' and project_members.country = 'IE'",
+    "question": "What is the average cost of all projects of countries with code IE and territorial unit Bad Kreuznach"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from eu_territorial_units join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join projects on project_members.project = projects.unics_id where eu_territorial_units.description = 'Sheffield' and project_members.department_name != 'Agrotechnology and Food Science Group' and projects.end_date <= '2010-11-17'",
+    "question": "Show me the average costs of projects with projects members from the EU territorial unit \"Sheffield\". The projects I am looking for a should have ended latest by 17.11.2010 and the project member should not be from department \"Agrotechnology and Food Science Group\""
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "select avg(projects.total_cost) from eu_territorial_units join project_members on eu_territorial_units.geocode_regions = project_members.geocode_regions_3 join institutions on institutions.geocode_regions_3 = eu_territorial_units.geocode_regions join countries on countries.unics_id = institutions.country_id join projects on project_members.project = projects.unics_id where countries.country_name = 'Wallis and Futuna' and institutions.acronym = 'CED'",
+    "question": "Show me the average project costs of projects having an institution as project member where the institution acronym is \u201cCED\u201d and the institution\u2019s country name \u201cWallis and Futuna\u201d"
+  }
+]

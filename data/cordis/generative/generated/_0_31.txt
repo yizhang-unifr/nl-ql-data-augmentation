@@ -1,0 +1,28 @@
+SELECT programmes.title FROM programmes WHERE programmes.rcn = '18678'
+
+###
+
+
+Original Query:
+SELECT programmes.title FROM programmes WHERE programmes.rcn = '18678'
+GPT-3 choices:
+(0) Retrieve all programme titles from the RCN 18678
+(1) Show me all programs whose Rcn is 18678
+(2) What are the titles of projects with code 18678?
+(3) What are the titles of programmes from Aalborg with funding?
+(4) Show me all projects ( programmes ) with the RCN 18678 .
+(5) Show me the titles of programmes that have a RCN equal to 18678.
+(6) Show me the title of the programme with number 18678
+(7) Show me all programmes with rcn 18678.
+
+
+Re-ranked choices:
+5.102  Show me the titles of programmes that have a RCN equal to 18678.
+4.959  Show me all projects ( programmes ) with the RCN 18678 .
+4.959  Show me all programmes with rcn 18678.
+4.744  Show me all programs whose Rcn is 18678
+4.396  Show me the title of the programme with number 18678
+4.258  Retrieve all programme titles from the RCN 18678
+4.163  What are the titles of projects with code 18678?
+2.791  What are the titles of programmes from Aalborg with funding?
+

@@ -1,0 +1,16 @@
+SELECT projects.ec_call FROM projects WHERE projects.start_year = 2019
+
+###
+
+
+Original Query:
+SELECT projects.ec_call FROM projects WHERE projects.start_year = 2019
+GPT-3 choices:
+(0) Which are the research institutes that are starting in 2019?
+(1) What are the EC call projects from 2019?
+(2) Show all European Commission calls for projects that started during 2019
+(3) Show all projects starting in 2019
+(4) Display the EC contact of projects that started in 2019
+(5) Show the EC calls that have projects that start in 2019
+(6) Retrieve all projects starting in 2019
+(7) Show me projects that started in 2019

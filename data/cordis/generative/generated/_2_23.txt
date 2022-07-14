@@ -1,0 +1,28 @@
+SELECT programmes.rcn, count(*) FROM programmes  GROUP BY programmes.rcn
+
+###
+
+
+Original Query:
+SELECT programmes.rcn, count(*) FROM programmes  GROUP BY programmes.rcn
+GPT-3 choices:
+(0) Show me how many programs there are in total as of July 2008
+(1) Count the number of programmes in this organization.
+(2) How many programme codes are there?
+(3) Show the number of different programmes
+(4) How many institutions do have programmes?
+(5) ######## Building intersections.
+(6) How many programmes are there?
+(7) Count the number of programmes in the different regions of Austria
+
+
+Re-ranked choices:
+3.966  How many programmes are there?
+3.848  Show the number of different programmes
+3.833  Count the number of programmes in this organization.
+3.683  Show me how many programs there are in total as of July 2008
+3.585  How many institutions do have programmes?
+3.326  Count the number of programmes in the different regions of Austria
+3.171  How many programme codes are there?
+0.780  ######## Building intersections.
+

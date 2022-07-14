@@ -1,0 +1,16 @@
+SELECT count(*) FROM countries WHERE countries.country_code = 'TN'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM countries WHERE countries.country_code2 = 'TN'
+GPT-3 choices:
+(0) How many countries are there with the country code TN?
+(1) The number of countries with country code TN
+(2) How many countries are there that have the country code TN ?
+(3) How many countries are there in the world that have "TN" as country code?
+(4) How many countries are there that have the country code TN?
+(5) How many countries are there in the world where the country code is TN?
+(6) How many countries are there with country code TN?
+(7) How many countries are there in the UN region 4?

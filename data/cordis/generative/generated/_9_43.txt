@@ -1,0 +1,28 @@
+SELECT ec_framework_programs.program_name FROM ec_framework_programs JOIN projects ON ec_framework_programs.program_name = projects.framework_program WHERE projects.ec_fund_scheme != 'CP-FP'
+
+###
+
+
+Original Query:
+SELECT ec_framework_programs.ec_framework_program_name FROM ec_framework_programs JOIN projects ON ec_framework_programs.ec_framework_program_name = projects.framework_program WHERE projects.ec_fund_scheme != 'CP-FP'
+GPT-3 choices:
+(0) Show me the different program names for projects that have a different ec fund scheme.
+(1) Get the name of all the framework programs from projects with a different funding scheme
+(2) Show the program names of projects having an framework program different than "CP-FP"
+(3) What is the name of the program that does not apply to projects with the funding schema CP-FP?
+(4) Show all of the names of the frameworks program of the projects that don't have the EC fund scheme
+(5) Show all the different program names of the projects funded through the scheme "CP-FP"
+(6) What is the name of the programs belonging to projects which have a different EC fund scheme than 'CP-FP'?
+(7) Show the program names of all projects except the ones with framework program "CP-FP"
+
+
+Re-ranked choices:
+4.910  Show all the different program names of the projects funded through the scheme "CP-FP"
+4.649  Show all of the names of the frameworks program of the projects that don't have the EC fund scheme
+4.605  Show the program names of projects having an framework program different than "CP-FP"
+4.508  Get the name of all the framework programs from projects with a different funding scheme
+4.434  Show the program names of all projects except the ones with framework program "CP-FP"
+4.425  Show me the different program names for projects that have a different ec fund scheme.
+4.420  What is the name of the programs belonging to projects which have a different EC fund scheme than 'CP-FP'?
+4.083  What is the name of the program that does not apply to projects with the funding schema CP-FP?
+

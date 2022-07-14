@@ -1,0 +1,16 @@
+SELECT topics.title FROM topics JOIN project_topics ON topics.code = project_topics.topic JOIN projects ON project_topics.project = projects.unics_id WHERE projects.end_date != '2013-06-30'
+
+###
+
+
+Original Query:
+SELECT topics.title FROM topics JOIN project_topics ON topics.code = project_topics.topic JOIN projects ON project_topics.project = projects.unics_id WHERE projects.end_date != '2013-06-30'
+GPT-3 choices:
+(0) Show topics of projects that didn't end on 2013-06-30
+(1) Retrieve titles of topics in projects that didn't end on 2013-06-30
+(2) Retrieve topics for projects with a both ended date and topic different from 2013-06-30
+(3) Show topics used in projects which did not end on 2013-06-30
+(4) #### What are the title of the topics of projects that didn't end on 2013-06-30?
+(5) Show topics of projects with an end date != 2013-06-30
+(6) What are the different topic titles of projects that did not end on 2013-06-30?
+(7) Get me all the topics from projects whose end date is != 2013-06-30

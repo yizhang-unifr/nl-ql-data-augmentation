@@ -1,0 +1,16 @@
+SELECT countries.country_code FROM countries WHERE countries.country_name = 'Kenya' or countries.country_name = 'Turks and Caicos Islands'
+
+###
+
+
+Original Query:
+SELECT countries.country_code2 FROM countries WHERE countries.country_name = 'Kenya' or countries.country_name = 'Turks and Caicos Islands'
+GPT-3 choices:
+(0) Retrieve all countries with country name = 'Kenya' or country name = 'Turks and Caicos Islands'
+(1) Show me all countries whose name is either Kenya or Turks and Caicos Islands
+(2) What are the country codes of countries having either the country name Kenya or Turks and Caicos Islands?
+(3) Show all countries with country names "Kenya" or "Turks and Caicos Islands"
+(4) What are the country codes for Kenya or Turks and Caicos Islands?
+(5) Show me countries with the name of Kenya or Turks and Caicos Islands
+(6) Display the country code of countries called Kenya or Turks and Caicos Islands
+(7) Display all countries with country code ending in "A" or "I" from the countries "Kenya" or "Turks and Caicos Islands"

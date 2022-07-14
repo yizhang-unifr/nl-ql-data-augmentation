@@ -1,0 +1,16 @@
+SELECT count(*) FROM programmes WHERE programmes.rcn = '19514'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM programmes WHERE programmes.rcn = '19514'
+GPT-3 choices:
+(0) How many programmes are there with a rcn equal to 19514?
+(1) Show the number of programmes in which the subject code is 19514
+(2) Count the number of programmes that have rcn 19514
+(3) Count the number of programme that have rcn 19514
+(4) How many programmes are there with a registered country of origin equal to `19514'?
+(5) Show the number of programmes with RCN=19514
+(6) How many programmes are there with a subject code of 19514?
+(7) How many programmes are there within the RSCN 19514?

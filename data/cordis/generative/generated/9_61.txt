@@ -1,0 +1,16 @@
+SELECT projects.homepage FROM projects JOIN project_members ON projects.unics_id = project_members.project WHERE project_members.longitude != 16.5972215
+
+###
+
+
+Original Query:
+SELECT projects.homepage FROM projects JOIN project_members ON projects.unics_id = project_members.project WHERE project_members.longitude != 16.5972215
+GPT-3 choices:
+(0) Show me the projects in which members are found along a 16.5972 degrees longitude.
+(1) Show project homepage for all members that have latitude different than 16.5972215.
+(2) Show me all projects members that are not in the same location as 16.5972215.
+(3) Retrieve all project homepage associated with any project member with a different longitude than 16.597722
+(4) Show me the project homepage for all projects that have someone with latitude 16.5972215.
+(5) Show me projects members which are not located in 16.5972215
+(6) What is the homepage of projects that have a member that does not have the longitude 16.5972215?
+(7) Show projects with a member that has a longitude different than 16.5972215.

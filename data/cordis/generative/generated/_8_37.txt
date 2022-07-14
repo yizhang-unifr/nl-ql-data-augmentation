@@ -1,0 +1,28 @@
+SELECT countries.country_name FROM countries WHERE countries.country_code != 'TC'
+
+###
+
+
+Original Query:
+SELECT countries.country_name FROM countries WHERE countries.country_code2 != 'TC'
+GPT-3 choices:
+(0) Retrieve names of all countries except trees.
+(1) All countries except for those having the country code TC
+(2) Show me the country names of countries that don't have the country code TC.
+(3) Show countries names that have a different country code than 'TC'
+(4) Get country names of countries not having country code TC
+(5) Display all countries different than "TC"
+(6) What are the country names of countries that don't have the country code TC?
+(7) Show the name of countries which have a country code different than TC.
+
+
+Re-ranked choices:
+5.776  Show countries names that have a different country code than 'TC'
+5.749  Show the name of countries which have a country code different than TC.
+5.718  Get country names of countries not having country code TC
+5.710  Show me the country names of countries that don't have the country code TC.
+5.530  What are the country names of countries that don't have the country code TC?
+5.387  All countries except for those having the country code TC
+5.003  Display all countries different than "TC"
+3.949  Retrieve names of all countries except trees.
+

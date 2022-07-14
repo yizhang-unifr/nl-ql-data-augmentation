@@ -1,0 +1,16 @@
+SELECT activity_types.description FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.longitude != 6.1466014
+
+###
+
+
+Original Query:
+SELECT activity_types.description FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.longitude != 6.1466014
+GPT-3 choices:
+(0) Show activity types of project members who are not in the 6.1466014 latitude
+(1) What are the activity types of project members who are not at 6.1466014 latitude?
+(2) Show activity types for project members who are not in a project at 6.1466014
+(3) Show me activity types of project members with a different longitude than 6.1466014
+(4) Retrieve activity types of project members who don't live in Bodø (North of Europe) but the project members live in the same city placing a float 6.1466014 from their city center
+(5) Show activity types of project members with a different longitude than 6.1466014
+(6) Show activity types of project members that are not in the 6.1466014 latitude
+(7) Retrieve all activity types associated with a project member having a longitude different from 6.1466014

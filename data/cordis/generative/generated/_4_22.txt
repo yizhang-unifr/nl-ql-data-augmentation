@@ -1,0 +1,28 @@
+SELECT count(*) FROM project_members WHERE project_members.activity_type = 'PRC'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM project_members WHERE project_members.activity_type = 'PRC'
+GPT-3 choices:
+(0) How many people are workin in project members that have activity type PRC?
+(1) How many project members are working at PRC institutions?
+(2) How many project members are in the activity PRC?
+(3) How many project members have activity type PRC?
+(4) How many project members are active in PRC?
+(5) How many project members are studying in the country of PRC?
+(6) How many project members are associated with a project as PRC activity type?
+(7) How many project members have an activity type of PRC?
+
+
+Re-ranked choices:
+6.425  How many project members have an activity type of PRC?
+6.406  How many project members have activity type PRC?
+6.359  How many project members are in the activity PRC?
+6.335  How many project members are associated with a project as PRC activity type?
+6.311  How many project members are active in PRC?
+6.078  How many people are workin in project members that have activity type PRC?
+6.059  How many project members are working at PRC institutions?
+5.816  How many project members are studying in the country of PRC?
+

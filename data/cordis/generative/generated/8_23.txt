@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description != 'Arr. Dendermonde'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description != 'Arr. Dendermonde'
+GPT-3 choices:
+(0) 
+(1) Show me the region code for territorial units where the description is not Arr. Dendermonde?
+(2) What are the geocode regions of territorial units differing from Arr. Dendermonde ?
+(3) Show me the geocoders of all territorial units that are not located in Dendermonde.
+(4) Show me everything with a geocode region that isn't Arr. Dendermonde
+(5) What are the geocode regions of the territorial unit description Arr. Dendermonde?
+(6) Retrieve all territorial units except Arr. Dendermonde
+(7) Show me all of the European territorial units except the ones located in the Arr. Dendermonde

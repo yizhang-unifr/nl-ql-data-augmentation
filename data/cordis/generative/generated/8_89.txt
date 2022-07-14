@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description != 'Arr. Hasselt'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description != 'Arr. Hasselt'
+GPT-3 choices:
+(0) Show all geocode regions not having "Arr. Hasselt" as description
+(1) The geocode region of all territorial units that have a description != 'Arr. Hasselt'
+(2) Show me eu territorial units descriptions that are not equal to Arr. Hasselt.
+(3) Count the number of geocode regions associated with a territorial unit description different from "Arr. Hasselt"
+(4) What are the geocode regions of European territorial units that are different from "Arr. Hasselt"?
+(5) Show all the European territorial unit's geocode regions except the ones in the Hasselt military recruitment district.
+(6) Show me the geocode regions of eu territorial unit descriptions that are different from "Arr. Hasselt"
+(7) Display the geocode region ids of all Eu territorial units except for Arr. Hasselt.

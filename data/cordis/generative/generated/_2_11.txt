@@ -1,0 +1,28 @@
+SELECT institutions.wikidata_url, count(*) FROM institutions  GROUP BY institutions.wikidata_url
+
+###
+
+
+Original Query:
+SELECT institutions.wikidata_url, count(*) FROM institutions  GROUP BY institutions.wikidata_url
+GPT-3 choices:
+(0) What is the total number of institutions assigned a project by the CRC-D
+(1) How many institutions have a wikidata item?
+(2) Counting the number of institutions from the countries having no institutions of their own.
+(3) Show me the number of institutions in each possible destination according to their wikidata url
+(4) How many institutions are there in total?
+(5) How many institutions are there?
+(6) How many institutions have a Wikidata URL?
+(7) Total number of institutions with given wikidata url
+
+
+Re-ranked choices:
+4.500  Total number of institutions with given wikidata url
+4.495  How many institutions are there in total?
+4.425  How many institutions have a Wikidata URL?
+4.370  Show me the number of institutions in each possible destination according to their wikidata url
+4.359  How many institutions are there?
+4.317  How many institutions have a wikidata item?
+3.373  Counting the number of institutions from the countries having no institutions of their own.
+2.775  What is the total number of institutions assigned a project by the CRC-D
+

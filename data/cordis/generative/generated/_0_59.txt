@@ -1,0 +1,28 @@
+SELECT subject_areas.title FROM subject_areas WHERE subject_areas.description = 'Mathematical theory; statistical analysis; operational research; numerical analysis; mathematical modelling. (See also application area)'
+
+###
+
+
+Original Query:
+SELECT subject_areas.title FROM subject_areas WHERE subject_areas.description = 'Mathematical theory; statistical analysis; operational research; numerical analysis; mathematical modelling. (See also application area)'
+GPT-3 choices:
+(0) Return all subject areas with topics "Mathematical theory; statistical analysis; operational research; numerical analysis; mathematical modelling."
+(1) Show me the subject areas' title that have the description "Mathematical theory; statistical analysis; operational research; numerical analysis; mathematical modelling. (See also application area)",
+(2) Show me the subject areas with a description containing “Mathematical theory; statistical analysis; operational research; numerical analysis; mathematical modelling. (See also application area)”
+(3) Show all subject areas that have description equals to Mathematic theory; statistical analysis; operational research; numerical analysis; mathematical modelling. (See also application area)
+(4) Show me all the different subject areas describing "Mathematical theory; statistical analysis; operational research; numerical analysis; mathematical modelling."
+(5) Show me all subject areas about mathematical theory, statistical analysis, operational research, numerical analysis, mathematical modelling.
+(6) Retrieve all subject areas whose description is “Mathematical theory; statistical analysis; operational research; numerical analysis; mathematical modelling. (See also application area)”
+(7) Show me all the titles of subject areas which have descriptions containing "Mathematical theory; statistical analysis; operational research; numerical analysis; mathematical modelling. (See also application area)".
+
+
+Re-ranked choices:
+6.199  Show me the subject areas with a description containing “Mathematical theory; statistical analysis; operational research; numerical analysis; mathematical modelling. (See also application area)”
+6.173  Show me the subject areas' title that have the description "Mathematical theory; statistical analysis; operational research; numerical analysis; mathematical modelling. (See also application area)",
+6.089  Show all subject areas that have description equals to Mathematic theory; statistical analysis; operational research; numerical analysis; mathematical modelling. (See also application area)
+6.045  Show me all the different subject areas describing "Mathematical theory; statistical analysis; operational research; numerical analysis; mathematical modelling."
+6.003  Show me all the titles of subject areas which have descriptions containing "Mathematical theory; statistical analysis; operational research; numerical analysis; mathematical modelling. (See also application area)".
+5.913  Show me all subject areas about mathematical theory, statistical analysis, operational research, numerical analysis, mathematical modelling.
+5.871  Return all subject areas with topics "Mathematical theory; statistical analysis; operational research; numerical analysis; mathematical modelling."
+5.852  Retrieve all subject areas whose description is “Mathematical theory; statistical analysis; operational research; numerical analysis; mathematical modelling. (See also application area)”
+

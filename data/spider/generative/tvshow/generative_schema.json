@@ -1,0 +1,198 @@
+[
+  {
+    "name": "tv channel",
+    "original_name": "TV_Channel",
+    "logical_name": "TV_Channel",
+    "columns": [
+      {
+        "name": "id",
+        "original_name": "id",
+        "logical_name": "id",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "series name",
+        "original_name": "series_name",
+        "logical_name": "series_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "country",
+        "original_name": "Country",
+        "logical_name": "Country",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "language",
+        "original_name": "Language",
+        "logical_name": "Language",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "content",
+        "original_name": "Content",
+        "logical_name": "Content",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "pixel aspect ratio par",
+        "original_name": "Pixel_aspect_ratio_PAR",
+        "logical_name": "Pixel_aspect_ratio_PAR",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "hight definition tv",
+        "original_name": "Hight_definition_TV",
+        "logical_name": "Hight_definition_TV",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "pay per view ppv",
+        "original_name": "Pay_per_view_PPV",
+        "logical_name": "Pay_per_view_PPV",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "package option",
+        "original_name": "Package_Option",
+        "logical_name": "Package_Option",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "tv series",
+    "original_name": "TV_series",
+    "logical_name": "TV_series",
+    "columns": [
+      {
+        "name": "id",
+        "original_name": "id",
+        "logical_name": "id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "episode",
+        "original_name": "Episode",
+        "logical_name": "Episode",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "air date",
+        "original_name": "Air_Date",
+        "logical_name": "Air_Date",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "rating",
+        "original_name": "Rating",
+        "logical_name": "Rating",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "share",
+        "original_name": "Share",
+        "logical_name": "Share",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "18 49 rating share",
+        "original_name": "18_49_Rating_Share",
+        "logical_name": "18_49_Rating_Share",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "viewers m",
+        "original_name": "Viewers_m",
+        "logical_name": "Viewers_m",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "weekly rank",
+        "original_name": "Weekly_Rank",
+        "logical_name": "Weekly_Rank",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "channel",
+        "original_name": "Channel",
+        "logical_name": "Channel",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "cartoon",
+    "original_name": "Cartoon",
+    "logical_name": "Cartoon",
+    "columns": [
+      {
+        "name": "id",
+        "original_name": "id",
+        "logical_name": "id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "title",
+        "original_name": "Title",
+        "logical_name": "Title",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "directed by",
+        "original_name": "Directed_by",
+        "logical_name": "Directed_by",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "written by",
+        "original_name": "Written_by",
+        "logical_name": "Written_by",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "original air date",
+        "original_name": "Original_air_date",
+        "logical_name": "Original_air_date",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "production code",
+        "original_name": "Production_code",
+        "logical_name": "Production_code",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "channel",
+        "original_name": "Channel",
+        "logical_name": "Channel",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  }
+]

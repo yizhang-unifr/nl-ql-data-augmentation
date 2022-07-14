@@ -1,0 +1,16 @@
+SELECT project_members.latitude FROM project_members WHERE project_members.member_name != 'UNIVERSITEIT TWENTE'
+
+###
+
+
+Original Query:
+SELECT project_members.latitude FROM project_members WHERE project_members.member_name != 'UNIVERSITEIT TWENTE'
+GPT-3 choices:
+(0) Show the latitude of project members that are not from the UNIVERSITEIT TWENTE
+(1) What is the latitude of project members that are not from the Universiteit Twente?
+(2) Show me the latitude of every project member except for the one from the UNIVERSITEIT TWENTE
+(3) What is the latitude of project members that are not from the UNIVERSITEIT TWENTE?
+(4) Show the latitude of project members whose name is not UNIVERSITEIT TWENTE
+(5) What is the latitude of project members, who are not from the UNIVERSITEIT TWENTE institution?
+(6) Show the latitude of project member from the project where the member name is not UNIVERSITEIT TWENTE
+(7) Show me the latitude of project members who are not from UNIVERSITEIT TWENTE?

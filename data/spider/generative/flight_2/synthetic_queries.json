@@ -1,0 +1,2683 @@
+[
+  {
+    "db_id": "flight_2",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Airline FROM airlines AS T1 WHERE T1.Country = \"USA\"",
+    "readable_query": "SELECT airlines.Airline FROM airlines AS airlines WHERE airlines.Country = \"USA\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.uid FROM airlines AS T1 WHERE T1.Airline = \"Continental Airlines\"",
+    "readable_query": "SELECT airlines.uid FROM airlines AS airlines WHERE airlines.Airline = \"Continental Airlines\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Abbreviation FROM airlines AS T1 WHERE T1.Country = \"USA\"",
+    "readable_query": "SELECT airlines.Abbreviation FROM airlines AS airlines WHERE airlines.Country = \"USA\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Country FROM airports AS T1 WHERE T1.AirportCode = \"ALM\"",
+    "readable_query": "SELECT airports.Country FROM airports AS airports WHERE airports.AirportCode = \"ALM\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.FlightNo FROM flights AS T1 WHERE T1.DestAirport = \" AAF\"",
+    "readable_query": "SELECT flights.FlightNo FROM flights AS flights WHERE flights.DestAirport = \" AAF\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Country FROM airports AS T1 WHERE T1.City = \"Apple Valley \"",
+    "readable_query": "SELECT airports.Country FROM airports AS airports WHERE airports.City = \"Apple Valley \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.SourceAirport FROM flights AS T1 WHERE T1.Airline = 9",
+    "readable_query": "SELECT flights.SourceAirport FROM flights AS flights WHERE flights.Airline = 9"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.CountryAbbrev FROM airports AS T1 WHERE T1.AirportName = \"Reilly AHP \"",
+    "readable_query": "SELECT airports.CountryAbbrev FROM airports AS airports WHERE airports.AirportName = \"Reilly AHP \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.City FROM airports AS T1 WHERE T1.AirportName = \"Akutan \"",
+    "readable_query": "SELECT airports.City FROM airports AS airports WHERE airports.AirportName = \"Akutan \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.FlightNo FROM flights AS T1 WHERE T1.SourceAirport = \" AIA\"",
+    "readable_query": "SELECT flights.FlightNo FROM flights AS flights WHERE flights.SourceAirport = \" AIA\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Airline FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode WHERE T2.CountryAbbrev = \"US\"",
+    "readable_query": "SELECT flights.Airline FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode WHERE airports.CountryAbbrev = \"US\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.uid FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T2.FlightNo = 1244",
+    "readable_query": "SELECT airlines.uid FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE flights.FlightNo = 1244"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.AirportName FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.SourceAirport = \" AXB\"",
+    "readable_query": "SELECT airports.AirportName FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.SourceAirport = \" AXB\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Country FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.FlightNo = 609",
+    "readable_query": "SELECT airports.Country FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.FlightNo = 609"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.AirportCode FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.FlightNo = 239",
+    "readable_query": "SELECT airports.AirportCode FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.FlightNo = 239"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Airline FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode WHERE T2.AirportCode = \"AIA\"",
+    "readable_query": "SELECT flights.Airline FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode WHERE airports.AirportCode = \"AIA\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.FlightNo FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode WHERE T2.AirportName = \"Lee \"",
+    "readable_query": "SELECT flights.FlightNo FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode WHERE airports.AirportName = \"Lee \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.AirportCode FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.FlightNo = 34",
+    "readable_query": "SELECT airports.AirportCode FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.FlightNo = 34"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.AirportCode FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.SourceAirport = \" AXX\"",
+    "readable_query": "SELECT airports.AirportCode FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.SourceAirport = \" AXX\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Country FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.DestAirport = \" CAK\"",
+    "readable_query": "SELECT airports.Country FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.DestAirport = \" CAK\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Country, count(*) FROM airports AS T1  GROUP BY T1.Country",
+    "readable_query": "SELECT airports.Country, count(*) FROM airports AS airports  GROUP BY airports.Country"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.CountryAbbrev, count(*) FROM airports AS T1  GROUP BY T1.CountryAbbrev",
+    "readable_query": "SELECT airports.CountryAbbrev, count(*) FROM airports AS airports  GROUP BY airports.CountryAbbrev"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Abbreviation, count(*) FROM airlines AS T1  GROUP BY T1.Abbreviation",
+    "readable_query": "SELECT airlines.Abbreviation, count(*) FROM airlines AS airlines  GROUP BY airlines.Abbreviation"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Airline, count(*) FROM airlines AS T1  GROUP BY T1.Airline",
+    "readable_query": "SELECT airlines.Airline, count(*) FROM airlines AS airlines  GROUP BY airlines.Airline"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Airline, count(*) FROM flights AS T1  GROUP BY T1.Airline",
+    "readable_query": "SELECT flights.Airline, count(*) FROM flights AS flights  GROUP BY flights.Airline"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.uid, count(*) FROM airlines AS T1  GROUP BY T1.uid",
+    "readable_query": "SELECT airlines.uid, count(*) FROM airlines AS airlines  GROUP BY airlines.uid"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.AirportCode, count(*) FROM airports AS T1  GROUP BY T1.AirportCode",
+    "readable_query": "SELECT airports.AirportCode, count(*) FROM airports AS airports  GROUP BY airports.AirportCode"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.SourceAirport, count(*) FROM flights AS T1  GROUP BY T1.SourceAirport",
+    "readable_query": "SELECT flights.SourceAirport, count(*) FROM flights AS flights  GROUP BY flights.SourceAirport"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.AirportName, count(*) FROM airports AS T1  GROUP BY T1.AirportName",
+    "readable_query": "SELECT airports.AirportName, count(*) FROM airports AS airports  GROUP BY airports.AirportName"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.DestAirport, count(*) FROM flights AS T1  GROUP BY T1.DestAirport",
+    "readable_query": "SELECT flights.DestAirport, count(*) FROM flights AS flights  GROUP BY flights.DestAirport"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Country, count(*) FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport  GROUP BY T1.Country",
+    "readable_query": "SELECT airports.Country, count(*) FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport  GROUP BY airports.Country"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Abbreviation, count(*) FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline  GROUP BY T1.Abbreviation",
+    "readable_query": "SELECT airlines.Abbreviation, count(*) FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline  GROUP BY airlines.Abbreviation"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.City, count(*) FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport  GROUP BY T1.City",
+    "readable_query": "SELECT airports.City, count(*) FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport  GROUP BY airports.City"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.AirportName, count(*) FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport  GROUP BY T1.AirportName",
+    "readable_query": "SELECT airports.AirportName, count(*) FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport  GROUP BY airports.AirportName"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Airline, count(*) FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline  GROUP BY T1.Airline",
+    "readable_query": "SELECT airlines.Airline, count(*) FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline  GROUP BY airlines.Airline"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.DestAirport, count(*) FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode  GROUP BY T1.DestAirport",
+    "readable_query": "SELECT flights.DestAirport, count(*) FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode  GROUP BY flights.DestAirport"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.CountryAbbrev, count(*) FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport  GROUP BY T1.CountryAbbrev",
+    "readable_query": "SELECT airports.CountryAbbrev, count(*) FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport  GROUP BY airports.CountryAbbrev"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.FlightNo, count(*) FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode  GROUP BY T1.FlightNo",
+    "readable_query": "SELECT flights.FlightNo, count(*) FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode  GROUP BY flights.FlightNo"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.uid, count(*) FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline  GROUP BY T1.uid",
+    "readable_query": "SELECT airlines.uid, count(*) FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline  GROUP BY airlines.uid"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.FlightNo, count(*) FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid  GROUP BY T1.FlightNo",
+    "readable_query": "SELECT flights.FlightNo, count(*) FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid  GROUP BY flights.FlightNo"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM flights AS T1",
+    "readable_query": "SELECT count(*) FROM flights AS flights"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM airports AS T1",
+    "readable_query": "SELECT count(*) FROM airports AS airports"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM airlines AS T1",
+    "readable_query": "SELECT count(*) FROM airlines AS airlines"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Country, T1.uid FROM airlines AS T1",
+    "readable_query": "SELECT airlines.Country, airlines.uid FROM airlines AS airlines"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Country, T1.Abbreviation FROM airlines AS T1",
+    "readable_query": "SELECT airlines.Country, airlines.Abbreviation FROM airlines AS airlines"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.DestAirport, T1.FlightNo FROM flights AS T1",
+    "readable_query": "SELECT flights.DestAirport, flights.FlightNo FROM flights AS flights"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.CountryAbbrev, T1.AirportName FROM airports AS T1",
+    "readable_query": "SELECT airports.CountryAbbrev, airports.AirportName FROM airports AS airports"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Airline, T1.Country FROM airlines AS T1",
+    "readable_query": "SELECT airlines.Airline, airlines.Country FROM airlines AS airlines"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.CountryAbbrev, T1.AirportCode FROM airports AS T1",
+    "readable_query": "SELECT airports.CountryAbbrev, airports.AirportCode FROM airports AS airports"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Abbreviation, T1.uid FROM airlines AS T1",
+    "readable_query": "SELECT airlines.Abbreviation, airlines.uid FROM airlines AS airlines"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Airline, T1.uid FROM airlines AS T1",
+    "readable_query": "SELECT airlines.Airline, airlines.uid FROM airlines AS airlines"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.uid, T1.Country FROM airlines AS T1",
+    "readable_query": "SELECT airlines.uid, airlines.Country FROM airlines AS airlines"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.CountryAbbrev, T1.Country FROM airports AS T1",
+    "readable_query": "SELECT airports.CountryAbbrev, airports.Country FROM airports AS airports"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.FlightNo, T2.uid FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid",
+    "readable_query": "SELECT flights.FlightNo, airlines.uid FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.SourceAirport, T2.Airline FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid",
+    "readable_query": "SELECT flights.SourceAirport, airlines.Airline FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.CountryAbbrev, T2.DestAirport FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport",
+    "readable_query": "SELECT airports.CountryAbbrev, flights.DestAirport FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.CountryAbbrev, T2.FlightNo FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport",
+    "readable_query": "SELECT airports.CountryAbbrev, flights.FlightNo FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Airline, T2.Airline FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline",
+    "readable_query": "SELECT airlines.Airline, flights.Airline FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.FlightNo, T2.AirportName FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode",
+    "readable_query": "SELECT flights.FlightNo, airports.AirportName FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Airline, T2.SourceAirport FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline",
+    "readable_query": "SELECT airlines.Airline, flights.SourceAirport FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Airline, T2.DestAirport FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline",
+    "readable_query": "SELECT airlines.Airline, flights.DestAirport FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Country, T2.FlightNo FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport",
+    "readable_query": "SELECT airports.Country, flights.FlightNo FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.uid, T2.Airline FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline",
+    "readable_query": "SELECT airlines.uid, flights.Airline FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Airline, T1.SourceAirport FROM flights AS T1 WHERE T1.DestAirport = \" AKI\"",
+    "readable_query": "SELECT flights.Airline, flights.SourceAirport FROM flights AS flights WHERE flights.DestAirport = \" AKI\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.CountryAbbrev, T1.City FROM airports AS T1 WHERE T1.Country = \"United States \"",
+    "readable_query": "SELECT airports.CountryAbbrev, airports.City FROM airports AS airports WHERE airports.Country = \"United States \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.SourceAirport, T1.DestAirport FROM flights AS T1 WHERE T1.FlightNo = 622",
+    "readable_query": "SELECT flights.SourceAirport, flights.DestAirport FROM flights AS flights WHERE flights.FlightNo = 622"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.SourceAirport, T1.FlightNo FROM flights AS T1 WHERE T1.Airline = 6",
+    "readable_query": "SELECT flights.SourceAirport, flights.FlightNo FROM flights AS flights WHERE flights.Airline = 6"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.FlightNo, T1.DestAirport FROM flights AS T1 WHERE T1.SourceAirport = \" ANQ\"",
+    "readable_query": "SELECT flights.FlightNo, flights.DestAirport FROM flights AS flights WHERE flights.SourceAirport = \" ANQ\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.DestAirport, T1.FlightNo FROM flights AS T1 WHERE T1.Airline = 8",
+    "readable_query": "SELECT flights.DestAirport, flights.FlightNo FROM flights AS flights WHERE flights.Airline = 8"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Country, T1.City FROM airports AS T1 WHERE T1.CountryAbbrev = \"US\"",
+    "readable_query": "SELECT airports.Country, airports.City FROM airports AS airports WHERE airports.CountryAbbrev = \"US\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.City, T1.Country FROM airports AS T1 WHERE T1.AirportName = \"Merrill Field \"",
+    "readable_query": "SELECT airports.City, airports.Country FROM airports AS airports WHERE airports.AirportName = \"Merrill Field \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Airline, T1.FlightNo FROM flights AS T1 WHERE T1.SourceAirport = \" AHT\"",
+    "readable_query": "SELECT flights.Airline, flights.FlightNo FROM flights AS flights WHERE flights.SourceAirport = \" AHT\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Airline, T1.SourceAirport FROM flights AS T1 WHERE T1.FlightNo = 370",
+    "readable_query": "SELECT flights.Airline, flights.SourceAirport FROM flights AS flights WHERE flights.FlightNo = 370"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Airline FROM airlines AS T1  GROUP BY T1.Airline  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT airlines.Airline FROM airlines AS airlines  GROUP BY airlines.Airline  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.DestAirport FROM flights AS T1  GROUP BY T1.DestAirport  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT flights.DestAirport FROM flights AS flights  GROUP BY flights.DestAirport  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.FlightNo FROM flights AS T1  GROUP BY T1.FlightNo  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT flights.FlightNo FROM flights AS flights  GROUP BY flights.FlightNo  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Country FROM airports AS T1  GROUP BY T1.Country  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT airports.Country FROM airports AS airports  GROUP BY airports.Country  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.SourceAirport FROM flights AS T1  GROUP BY T1.SourceAirport  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT flights.SourceAirport FROM flights AS flights  GROUP BY flights.SourceAirport  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.AirportCode FROM airports AS T1  GROUP BY T1.AirportCode  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT airports.AirportCode FROM airports AS airports  GROUP BY airports.AirportCode  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.City FROM airports AS T1  GROUP BY T1.City  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT airports.City FROM airports AS airports  GROUP BY airports.City  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.AirportName FROM airports AS T1  GROUP BY T1.AirportName  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT airports.AirportName FROM airports AS airports  GROUP BY airports.AirportName  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.CountryAbbrev FROM airports AS T1  GROUP BY T1.CountryAbbrev  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT airports.CountryAbbrev FROM airports AS airports  GROUP BY airports.CountryAbbrev  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Abbreviation FROM airlines AS T1  GROUP BY T1.Abbreviation  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT airlines.Abbreviation FROM airlines AS airlines  GROUP BY airlines.Abbreviation  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM airports AS T1 WHERE T1.City = \"Albert Lea \"",
+    "readable_query": "SELECT count(*) FROM airports AS airports WHERE airports.City = \"Albert Lea \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM airlines AS T1 WHERE T1.Abbreviation = \"Continental\"",
+    "readable_query": "SELECT count(*) FROM airlines AS airlines WHERE airlines.Abbreviation = \"Continental\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM airlines AS T1 WHERE T1.Airline = \"JetBlue Airways\"",
+    "readable_query": "SELECT count(*) FROM airlines AS airlines WHERE airlines.Airline = \"JetBlue Airways\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM airports AS T1 WHERE T1.AirportName = \"Phillips AAF \"",
+    "readable_query": "SELECT count(*) FROM airports AS airports WHERE airports.AirportName = \"Phillips AAF \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM airports AS T1 WHERE T1.AirportName = \"Downtown \"",
+    "readable_query": "SELECT count(*) FROM airports AS airports WHERE airports.AirportName = \"Downtown \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM airlines AS T1 WHERE T1.uid = 11",
+    "readable_query": "SELECT count(*) FROM airlines AS airlines WHERE airlines.uid = 11"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM airports AS T1 WHERE T1.City = \"Amarillo \"",
+    "readable_query": "SELECT count(*) FROM airports AS airports WHERE airports.City = \"Amarillo \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM flights AS T1 WHERE T1.DestAirport = \" ADT\"",
+    "readable_query": "SELECT count(*) FROM flights AS flights WHERE flights.DestAirport = \" ADT\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM flights AS T1 WHERE T1.SourceAirport = \" APV\"",
+    "readable_query": "SELECT count(*) FROM flights AS flights WHERE flights.SourceAirport = \" APV\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM flights AS T1 WHERE T1.Airline = 5",
+    "readable_query": "SELECT count(*) FROM flights AS flights WHERE flights.Airline = 5"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.FlightNo FROM flights AS T1    ORDER BY T1.Airline DESC LIMIT 1",
+    "readable_query": "SELECT flights.FlightNo FROM flights AS flights    ORDER BY flights.Airline DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Country FROM airlines AS T1    ORDER BY T1.uid DESC LIMIT 1",
+    "readable_query": "SELECT airlines.Country FROM airlines AS airlines    ORDER BY airlines.uid DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.SourceAirport FROM flights AS T1    ORDER BY T1.FlightNo DESC LIMIT 1",
+    "readable_query": "SELECT flights.SourceAirport FROM flights AS flights    ORDER BY flights.FlightNo DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.DestAirport FROM flights AS T1    ORDER BY T1.Airline DESC LIMIT 1",
+    "readable_query": "SELECT flights.DestAirport FROM flights AS flights    ORDER BY flights.Airline DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.DestAirport FROM flights AS T1    ORDER BY T1.FlightNo DESC LIMIT 1",
+    "readable_query": "SELECT flights.DestAirport FROM flights AS flights    ORDER BY flights.FlightNo DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Airline FROM airlines AS T1    ORDER BY T1.uid DESC LIMIT 1",
+    "readable_query": "SELECT airlines.Airline FROM airlines AS airlines    ORDER BY airlines.uid DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Airline FROM flights AS T1    ORDER BY T1.FlightNo DESC LIMIT 1",
+    "readable_query": "SELECT flights.Airline FROM flights AS flights    ORDER BY flights.FlightNo DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Abbreviation FROM airlines AS T1    ORDER BY T1.uid DESC LIMIT 1",
+    "readable_query": "SELECT airlines.Abbreviation FROM airlines AS airlines    ORDER BY airlines.uid DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.SourceAirport FROM flights AS T1    ORDER BY T1.Airline DESC LIMIT 1",
+    "readable_query": "SELECT flights.SourceAirport FROM flights AS flights    ORDER BY flights.Airline DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.AirportCode FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport    ORDER BY T2.FlightNo DESC LIMIT 1",
+    "readable_query": "SELECT airports.AirportCode FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport    ORDER BY flights.FlightNo DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.DestAirport FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid    ORDER BY T2.uid DESC LIMIT 1",
+    "readable_query": "SELECT flights.DestAirport FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid    ORDER BY airlines.uid DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.AirportName FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport    ORDER BY T2.FlightNo DESC LIMIT 1",
+    "readable_query": "SELECT airports.AirportName FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport    ORDER BY flights.FlightNo DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Airline FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline    ORDER BY T2.FlightNo DESC LIMIT 1",
+    "readable_query": "SELECT airlines.Airline FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline    ORDER BY flights.FlightNo DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.AirportName FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport    ORDER BY T2.Airline DESC LIMIT 1",
+    "readable_query": "SELECT airports.AirportName FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport    ORDER BY flights.Airline DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.City FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport    ORDER BY T2.Airline DESC LIMIT 1",
+    "readable_query": "SELECT airports.City FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport    ORDER BY flights.Airline DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.CountryAbbrev FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport    ORDER BY T2.Airline DESC LIMIT 1",
+    "readable_query": "SELECT airports.CountryAbbrev FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport    ORDER BY flights.Airline DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.SourceAirport FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid    ORDER BY T2.uid DESC LIMIT 1",
+    "readable_query": "SELECT flights.SourceAirport FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid    ORDER BY airlines.uid DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Country FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline    ORDER BY T2.Airline DESC LIMIT 1",
+    "readable_query": "SELECT airlines.Country FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline    ORDER BY flights.Airline DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.uid FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline    ORDER BY T2.FlightNo DESC LIMIT 1",
+    "readable_query": "SELECT airlines.uid FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline    ORDER BY flights.FlightNo DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.SourceAirport FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid    ORDER BY T2.uid ASC LIMIT 1",
+    "readable_query": "SELECT flights.SourceAirport FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid    ORDER BY airlines.uid ASC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.CountryAbbrev FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport    ORDER BY T2.FlightNo ASC LIMIT 1",
+    "readable_query": "SELECT airports.CountryAbbrev FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport    ORDER BY flights.FlightNo ASC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.AirportCode FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport    ORDER BY T2.FlightNo ASC LIMIT 1",
+    "readable_query": "SELECT airports.AirportCode FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport    ORDER BY flights.FlightNo ASC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Airline FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline    ORDER BY T2.Airline ASC LIMIT 1",
+    "readable_query": "SELECT airlines.Airline FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline    ORDER BY flights.Airline ASC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.CountryAbbrev FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport    ORDER BY T2.Airline ASC LIMIT 1",
+    "readable_query": "SELECT airports.CountryAbbrev FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport    ORDER BY flights.Airline ASC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.City FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport    ORDER BY T2.FlightNo ASC LIMIT 1",
+    "readable_query": "SELECT airports.City FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport    ORDER BY flights.FlightNo ASC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.FlightNo FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid    ORDER BY T2.uid ASC LIMIT 1",
+    "readable_query": "SELECT flights.FlightNo FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid    ORDER BY airlines.uid ASC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Airline FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline    ORDER BY T2.FlightNo ASC LIMIT 1",
+    "readable_query": "SELECT airlines.Airline FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline    ORDER BY flights.FlightNo ASC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.DestAirport FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid    ORDER BY T2.uid ASC LIMIT 1",
+    "readable_query": "SELECT flights.DestAirport FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid    ORDER BY airlines.uid ASC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.AirportName FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport    ORDER BY T2.FlightNo ASC LIMIT 1",
+    "readable_query": "SELECT airports.AirportName FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport    ORDER BY flights.FlightNo ASC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.uid, T1.Abbreviation FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline    ORDER BY T2.Airline DESC LIMIT 1",
+    "readable_query": "SELECT airlines.uid, airlines.Abbreviation FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline    ORDER BY flights.Airline DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.City, T1.Country FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport    ORDER BY T2.Airline DESC LIMIT 1",
+    "readable_query": "SELECT airports.City, airports.Country FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport    ORDER BY flights.Airline DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Airline, T1.DestAirport FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid    ORDER BY T2.uid DESC LIMIT 1",
+    "readable_query": "SELECT flights.Airline, flights.DestAirport FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid    ORDER BY airlines.uid DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Airline, T1.uid FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline    ORDER BY T2.Airline DESC LIMIT 1",
+    "readable_query": "SELECT airlines.Airline, airlines.uid FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline    ORDER BY flights.Airline DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.DestAirport, T1.FlightNo FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid    ORDER BY T2.uid DESC LIMIT 1",
+    "readable_query": "SELECT flights.DestAirport, flights.FlightNo FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid    ORDER BY airlines.uid DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Abbreviation, T1.Airline FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline    ORDER BY T2.FlightNo DESC LIMIT 1",
+    "readable_query": "SELECT airlines.Abbreviation, airlines.Airline FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline    ORDER BY flights.FlightNo DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.uid, T1.Abbreviation FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline    ORDER BY T2.FlightNo DESC LIMIT 1",
+    "readable_query": "SELECT airlines.uid, airlines.Abbreviation FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline    ORDER BY flights.FlightNo DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Airline, T1.SourceAirport FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid    ORDER BY T2.uid DESC LIMIT 1",
+    "readable_query": "SELECT flights.Airline, flights.SourceAirport FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid    ORDER BY airlines.uid DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.AirportName, T1.Country FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport    ORDER BY T2.FlightNo DESC LIMIT 1",
+    "readable_query": "SELECT airports.AirportName, airports.Country FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport    ORDER BY flights.FlightNo DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.DestAirport, T1.Airline FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid    ORDER BY T2.uid DESC LIMIT 1",
+    "readable_query": "SELECT flights.DestAirport, flights.Airline FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid    ORDER BY airlines.uid DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.uid) FROM airlines AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  airlines.uid) FROM airlines AS airlines"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.DestAirport) FROM flights AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  flights.DestAirport) FROM flights AS flights"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Country) FROM airlines AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  airlines.Country) FROM airlines AS airlines"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.SourceAirport) FROM flights AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  flights.SourceAirport) FROM flights AS flights"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Airline) FROM airlines AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  airlines.Airline) FROM airlines AS airlines"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.City) FROM airports AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  airports.City) FROM airports AS airports"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Airline) FROM flights AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  flights.Airline) FROM flights AS flights"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Country) FROM airports AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  airports.Country) FROM airports AS airports"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.AirportCode) FROM airports AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  airports.AirportCode) FROM airports AS airports"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.FlightNo) FROM flights AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  flights.FlightNo) FROM flights AS flights"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.FlightNo) FROM flights AS T1",
+    "readable_query": "SELECT avg( flights.FlightNo) FROM flights AS flights"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.uid) FROM airlines AS T1",
+    "readable_query": "SELECT avg( airlines.uid) FROM airlines AS airlines"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Airline) FROM flights AS T1",
+    "readable_query": "SELECT avg( flights.Airline) FROM flights AS flights"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.City FROM airports AS T1",
+    "readable_query": "SELECT airports.City FROM airports AS airports"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Airline FROM flights AS T1",
+    "readable_query": "SELECT flights.Airline FROM flights AS flights"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Country FROM airlines AS T1",
+    "readable_query": "SELECT airlines.Country FROM airlines AS airlines"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.CountryAbbrev FROM airports AS T1",
+    "readable_query": "SELECT airports.CountryAbbrev FROM airports AS airports"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.SourceAirport FROM flights AS T1",
+    "readable_query": "SELECT flights.SourceAirport FROM flights AS flights"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Abbreviation FROM airlines AS T1",
+    "readable_query": "SELECT airlines.Abbreviation FROM airlines AS airlines"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.AirportCode FROM airports AS T1",
+    "readable_query": "SELECT airports.AirportCode FROM airports AS airports"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.DestAirport FROM flights AS T1",
+    "readable_query": "SELECT flights.DestAirport FROM flights AS flights"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.AirportName FROM airports AS T1",
+    "readable_query": "SELECT airports.AirportName FROM airports AS airports"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Country FROM airports AS T1",
+    "readable_query": "SELECT airports.Country FROM airports AS airports"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.DestAirport FROM flights AS T1",
+    "readable_query": "SELECT DISTINCT flights.DestAirport FROM flights AS flights"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Abbreviation FROM airlines AS T1",
+    "readable_query": "SELECT DISTINCT airlines.Abbreviation FROM airlines AS airlines"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Airline FROM airlines AS T1",
+    "readable_query": "SELECT DISTINCT airlines.Airline FROM airlines AS airlines"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.FlightNo FROM flights AS T1",
+    "readable_query": "SELECT DISTINCT flights.FlightNo FROM flights AS flights"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Country FROM airports AS T1",
+    "readable_query": "SELECT DISTINCT airports.Country FROM airports AS airports"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Airline FROM flights AS T1",
+    "readable_query": "SELECT DISTINCT flights.Airline FROM flights AS flights"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.SourceAirport FROM flights AS T1",
+    "readable_query": "SELECT DISTINCT flights.SourceAirport FROM flights AS flights"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.uid FROM airlines AS T1",
+    "readable_query": "SELECT DISTINCT airlines.uid FROM airlines AS airlines"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.AirportCode FROM airports AS T1",
+    "readable_query": "SELECT DISTINCT airports.AirportCode FROM airports AS airports"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.AirportName FROM airports AS T1",
+    "readable_query": "SELECT DISTINCT airports.AirportName FROM airports AS airports"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Airline FROM airlines AS T1     ORDER BY T1.uid ASC",
+    "readable_query": "SELECT airlines.Airline FROM airlines AS airlines     ORDER BY airlines.uid ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Country FROM airlines AS T1     ORDER BY T1.uid ASC",
+    "readable_query": "SELECT airlines.Country FROM airlines AS airlines     ORDER BY airlines.uid ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.SourceAirport FROM flights AS T1     ORDER BY T1.FlightNo ASC",
+    "readable_query": "SELECT flights.SourceAirport FROM flights AS flights     ORDER BY flights.FlightNo ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.FlightNo FROM flights AS T1     ORDER BY T1.Airline ASC",
+    "readable_query": "SELECT flights.FlightNo FROM flights AS flights     ORDER BY flights.Airline ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Airline FROM flights AS T1     ORDER BY T1.FlightNo ASC",
+    "readable_query": "SELECT flights.Airline FROM flights AS flights     ORDER BY flights.FlightNo ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Abbreviation FROM airlines AS T1     ORDER BY T1.uid ASC",
+    "readable_query": "SELECT airlines.Abbreviation FROM airlines AS airlines     ORDER BY airlines.uid ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.DestAirport FROM flights AS T1     ORDER BY T1.Airline ASC",
+    "readable_query": "SELECT flights.DestAirport FROM flights AS flights     ORDER BY flights.Airline ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.SourceAirport FROM flights AS T1     ORDER BY T1.Airline ASC",
+    "readable_query": "SELECT flights.SourceAirport FROM flights AS flights     ORDER BY flights.Airline ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.DestAirport FROM flights AS T1     ORDER BY T1.FlightNo ASC",
+    "readable_query": "SELECT flights.DestAirport FROM flights AS flights     ORDER BY flights.FlightNo ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Airline FROM flights AS T1     ORDER BY T1.FlightNo DESC",
+    "readable_query": "SELECT flights.Airline FROM flights AS flights     ORDER BY flights.FlightNo DESC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Abbreviation FROM airlines AS T1     ORDER BY T1.uid DESC",
+    "readable_query": "SELECT airlines.Abbreviation FROM airlines AS airlines     ORDER BY airlines.uid DESC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Airline FROM airlines AS T1     ORDER BY T1.uid DESC",
+    "readable_query": "SELECT airlines.Airline FROM airlines AS airlines     ORDER BY airlines.uid DESC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.DestAirport FROM flights AS T1     ORDER BY T1.Airline DESC",
+    "readable_query": "SELECT flights.DestAirport FROM flights AS flights     ORDER BY flights.Airline DESC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.DestAirport FROM flights AS T1     ORDER BY T1.FlightNo DESC",
+    "readable_query": "SELECT flights.DestAirport FROM flights AS flights     ORDER BY flights.FlightNo DESC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Country FROM airlines AS T1     ORDER BY T1.uid DESC",
+    "readable_query": "SELECT airlines.Country FROM airlines AS airlines     ORDER BY airlines.uid DESC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.SourceAirport FROM flights AS T1     ORDER BY T1.FlightNo DESC",
+    "readable_query": "SELECT flights.SourceAirport FROM flights AS flights     ORDER BY flights.FlightNo DESC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.FlightNo FROM flights AS T1     ORDER BY T1.Airline DESC",
+    "readable_query": "SELECT flights.FlightNo FROM flights AS flights     ORDER BY flights.Airline DESC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.SourceAirport FROM flights AS T1     ORDER BY T1.Airline DESC",
+    "readable_query": "SELECT flights.SourceAirport FROM flights AS flights     ORDER BY flights.Airline DESC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Airline, T1.DestAirport FROM flights AS T1     ORDER BY T1.DestAirport ASC",
+    "readable_query": "SELECT flights.Airline, flights.DestAirport FROM flights AS flights     ORDER BY flights.DestAirport ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.SourceAirport, T1.Airline FROM flights AS T1     ORDER BY T1.Airline ASC",
+    "readable_query": "SELECT flights.SourceAirport, flights.Airline FROM flights AS flights     ORDER BY flights.Airline ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.uid, T1.Airline FROM airlines AS T1     ORDER BY T1.Airline ASC",
+    "readable_query": "SELECT airlines.uid, airlines.Airline FROM airlines AS airlines     ORDER BY airlines.Airline ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Abbreviation, T1.Country FROM airlines AS T1     ORDER BY T1.Country ASC",
+    "readable_query": "SELECT airlines.Abbreviation, airlines.Country FROM airlines AS airlines     ORDER BY airlines.Country ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.AirportCode, T1.AirportName FROM airports AS T1     ORDER BY T1.AirportName ASC",
+    "readable_query": "SELECT airports.AirportCode, airports.AirportName FROM airports AS airports     ORDER BY airports.AirportName ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.FlightNo, T1.SourceAirport FROM flights AS T1     ORDER BY T1.SourceAirport ASC",
+    "readable_query": "SELECT flights.FlightNo, flights.SourceAirport FROM flights AS flights     ORDER BY flights.SourceAirport ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Country, T1.AirportName FROM airports AS T1     ORDER BY T1.AirportName ASC",
+    "readable_query": "SELECT airports.Country, airports.AirportName FROM airports AS airports     ORDER BY airports.AirportName ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Country, T1.Abbreviation FROM airlines AS T1     ORDER BY T1.Abbreviation ASC",
+    "readable_query": "SELECT airlines.Country, airlines.Abbreviation FROM airlines AS airlines     ORDER BY airlines.Abbreviation ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Abbreviation, T1.uid FROM airlines AS T1     ORDER BY T1.uid ASC",
+    "readable_query": "SELECT airlines.Abbreviation, airlines.uid FROM airlines AS airlines     ORDER BY airlines.uid ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.AirportName, T1.AirportCode FROM airports AS T1     ORDER BY T1.AirportCode ASC",
+    "readable_query": "SELECT airports.AirportName, airports.AirportCode FROM airports AS airports     ORDER BY airports.AirportCode ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.FlightNo FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode JOIN airlines AS T3 ON T1.Airline = T3.uid WHERE T2.AirportCode = \"ABI\" and T3.Airline = \"Northwest Airlines\"",
+    "readable_query": "SELECT flights.FlightNo FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE airports.AirportCode = \"ABI\" and airlines.Airline = \"Northwest Airlines\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Airline FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid JOIN airports AS T3 ON T1.DestAirport = T3.AirportCode WHERE T2.Abbreviation = \"USAir\" and T3.AirportName = \"Anita Bay \"",
+    "readable_query": "SELECT flights.Airline FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid JOIN airports AS airports ON flights.DestAirport = airports.AirportCode WHERE airlines.Abbreviation = \"USAir\" and airports.AirportName = \"Anita Bay \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.FlightNo FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid JOIN airports AS T3 ON T1.DestAirport = T3.AirportCode WHERE T2.Country = \"USA\" and T3.City = \"Alameda \"",
+    "readable_query": "SELECT flights.FlightNo FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid JOIN airports AS airports ON flights.DestAirport = airports.AirportCode WHERE airlines.Country = \"USA\" and airports.City = \"Alameda \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.uid FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline JOIN airports AS T3 ON T2.DestAirport = T3.AirportCode WHERE T2.SourceAirport = \" AND\" and T3.AirportCode = \"ALB\"",
+    "readable_query": "SELECT airlines.uid FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline JOIN airports AS airports ON flights.DestAirport = airports.AirportCode WHERE flights.SourceAirport = \" AND\" and airports.AirportCode = \"ALB\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.uid FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline JOIN airports AS T3 ON T2.DestAirport = T3.AirportCode WHERE T2.FlightNo = 813 and T3.AirportCode = \"AND\"",
+    "readable_query": "SELECT airlines.uid FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline JOIN airports AS airports ON flights.DestAirport = airports.AirportCode WHERE flights.FlightNo = 813 and airports.AirportCode = \"AND\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.AirportName FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport JOIN airlines AS T3 ON T2.Airline = T3.uid WHERE T2.FlightNo = 845 and T3.Abbreviation = \"American\"",
+    "readable_query": "SELECT airports.AirportName FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE flights.FlightNo = 845 and airlines.Abbreviation = \"American\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.FlightNo FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode JOIN airlines AS T3 ON T1.Airline = T3.uid WHERE T2.City = \" Alexander City AL  \" and T3.Abbreviation = \"Northwest\"",
+    "readable_query": "SELECT flights.FlightNo FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE airports.City = \" Alexander City AL  \" and airlines.Abbreviation = \"Northwest\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.DestAirport FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid JOIN airports AS T3 ON T1.DestAirport = T3.AirportCode WHERE T2.Abbreviation = \"Frontier\" and T3.City = \"Apple Valley \"",
+    "readable_query": "SELECT flights.DestAirport FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid JOIN airports AS airports ON flights.DestAirport = airports.AirportCode WHERE airlines.Abbreviation = \"Frontier\" and airports.City = \"Apple Valley \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.uid FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline JOIN airports AS T3 ON T2.DestAirport = T3.AirportCode WHERE T2.Airline = 6 and T3.AirportCode = \"ATO\"",
+    "readable_query": "SELECT airlines.uid FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline JOIN airports AS airports ON flights.DestAirport = airports.AirportCode WHERE flights.Airline = 6 and airports.AirportCode = \"ATO\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.uid FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline JOIN airports AS T3 ON T2.DestAirport = T3.AirportCode WHERE T2.Airline = 6 and T3.AirportCode = \"AET\"",
+    "readable_query": "SELECT airlines.uid FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline JOIN airports AS airports ON flights.DestAirport = airports.AirportCode WHERE flights.Airline = 6 and airports.AirportCode = \"AET\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.DestAirport FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid WHERE T2.Abbreviation = \"Continental\" or T2.Abbreviation = \"JetBlue\"",
+    "readable_query": "SELECT flights.DestAirport FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE airlines.Abbreviation = \"Continental\" or airlines.Abbreviation = \"JetBlue\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.City FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.SourceAirport = \" ATE\" or T2.SourceAirport = \" ALZ\"",
+    "readable_query": "SELECT airports.City FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.SourceAirport = \" ATE\" or flights.SourceAirport = \" ALZ\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.City FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.FlightNo = 80 or T2.FlightNo = 166",
+    "readable_query": "SELECT airports.City FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.FlightNo = 80 or flights.FlightNo = 166"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.CountryAbbrev FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.DestAirport = \" ADM\" or T2.DestAirport = \" ALB\"",
+    "readable_query": "SELECT airports.CountryAbbrev FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.DestAirport = \" ADM\" or flights.DestAirport = \" ALB\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Country FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.SourceAirport = \" ADR\" or T2.SourceAirport = \" ANQ\"",
+    "readable_query": "SELECT airports.Country FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.SourceAirport = \" ADR\" or flights.SourceAirport = \" ANQ\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Airline FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T2.DestAirport = \" EDF\" or T2.DestAirport = \" AND\"",
+    "readable_query": "SELECT airlines.Airline FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE flights.DestAirport = \" EDF\" or flights.DestAirport = \" AND\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.AirportName FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.SourceAirport = \" APV\" or T2.SourceAirport = \" AUK\"",
+    "readable_query": "SELECT airports.AirportName FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.SourceAirport = \" APV\" or flights.SourceAirport = \" AUK\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.SourceAirport FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid WHERE T2.Country = \"USA\" or T2.Country = \"USA\"",
+    "readable_query": "SELECT flights.SourceAirport FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE airlines.Country = \"USA\" or airlines.Country = \"USA\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Country FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T2.SourceAirport = \" ALI\" or T2.SourceAirport = \" AHN\"",
+    "readable_query": "SELECT airlines.Country FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE flights.SourceAirport = \" ALI\" or flights.SourceAirport = \" AHN\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.AirportName FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.Airline = 6 or T2.Airline = 5",
+    "readable_query": "SELECT airports.AirportName FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.Airline = 6 or flights.Airline = 5"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.City FROM airports AS T1 WHERE T1.Country = \"United States \" and T1.AirportName = \"Esler Field \"",
+    "readable_query": "SELECT airports.City FROM airports AS airports WHERE airports.Country = \"United States \" and airports.AirportName = \"Esler Field \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Abbreviation FROM airlines AS T1 WHERE T1.Airline = \"Virgin America\" and T1.uid = 10",
+    "readable_query": "SELECT airlines.Abbreviation FROM airlines AS airlines WHERE airlines.Airline = \"Virgin America\" and airlines.uid = 10"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Airline FROM flights AS T1 WHERE T1.FlightNo = 1233 and T1.SourceAirport = \" AMA\"",
+    "readable_query": "SELECT flights.Airline FROM flights AS flights WHERE flights.FlightNo = 1233 and flights.SourceAirport = \" AMA\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.FlightNo FROM flights AS T1 WHERE T1.SourceAirport = \" AET\" and T1.Airline = 5",
+    "readable_query": "SELECT flights.FlightNo FROM flights AS flights WHERE flights.SourceAirport = \" AET\" and flights.Airline = 5"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.uid FROM airlines AS T1 WHERE T1.Abbreviation = \"Allegiant\" and T1.Country = \"USA\"",
+    "readable_query": "SELECT airlines.uid FROM airlines AS airlines WHERE airlines.Abbreviation = \"Allegiant\" and airlines.Country = \"USA\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.AirportName FROM airports AS T1 WHERE T1.CountryAbbrev = \"US \" and T1.Country = \"United States \"",
+    "readable_query": "SELECT airports.AirportName FROM airports AS airports WHERE airports.CountryAbbrev = \"US \" and airports.Country = \"United States \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Country FROM airports AS T1 WHERE T1.AirportCode = \"AST\" and T1.City = \"Alamosa \"",
+    "readable_query": "SELECT airports.Country FROM airports AS airports WHERE airports.AirportCode = \"AST\" and airports.City = \"Alamosa \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Airline FROM airlines AS T1 WHERE T1.Abbreviation = \"Allegiant\" and T1.Country = \"USA\"",
+    "readable_query": "SELECT airlines.Airline FROM airlines AS airlines WHERE airlines.Abbreviation = \"Allegiant\" and airlines.Country = \"USA\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.DestAirport FROM flights AS T1 WHERE T1.FlightNo = 210 and T1.Airline = 4",
+    "readable_query": "SELECT flights.DestAirport FROM flights AS flights WHERE flights.FlightNo = 210 and flights.Airline = 4"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Country FROM airlines AS T1 WHERE T1.Abbreviation = \"Southwest\" and T1.Airline = \"Northwest Airlines\"",
+    "readable_query": "SELECT airlines.Country FROM airlines AS airlines WHERE airlines.Abbreviation = \"Southwest\" and airlines.Airline = \"Northwest Airlines\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.FlightNo) FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid WHERE T1.Airline = 4 and T2.Airline = \"Southwest Airlines\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  flights.FlightNo) FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE flights.Airline = 4 and airlines.Airline = \"Southwest Airlines\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Country) FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T1.AirportCode = \"ALM\" and T2.DestAirport = \" DYS\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  airports.Country) FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE airports.AirportCode = \"ALM\" and flights.DestAirport = \" DYS\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Airline) FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode WHERE T1.SourceAirport = \" ANV\" and T2.Country = \"United States \"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  flights.Airline) FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode WHERE flights.SourceAirport = \" ANV\" and airports.Country = \"United States \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Country) FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T1.uid = 2 and T2.FlightNo = 575",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  airlines.Country) FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE airlines.uid = 2 and flights.FlightNo = 575"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.City) FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T1.CountryAbbrev = \"US \" and T2.DestAirport = \" ABY\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  airports.City) FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE airports.CountryAbbrev = \"US \" and flights.DestAirport = \" ABY\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.DestAirport) FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid WHERE T1.SourceAirport = \" DYS\" and T2.Country = \"USA\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  flights.DestAirport) FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE flights.SourceAirport = \" DYS\" and airlines.Country = \"USA\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Country) FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T1.Airline = \"Northwest Airlines\" and T2.DestAirport = \" ATO\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  airlines.Country) FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE airlines.Airline = \"Northwest Airlines\" and flights.DestAirport = \" ATO\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.City) FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T1.CountryAbbrev = \"US \" and T2.DestAirport = \" ALM\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  airports.City) FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE airports.CountryAbbrev = \"US \" and flights.DestAirport = \" ALM\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Country) FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T1.AirportCode = \"HMN\" and T2.Airline = 3",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  airports.Country) FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE airports.AirportCode = \"HMN\" and flights.Airline = 3"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.AirportName) FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T1.AirportCode = \"AKO\" and T2.SourceAirport = \" ATO\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  airports.AirportName) FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE airports.AirportCode = \"AKO\" and flights.SourceAirport = \" ATO\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Abbreviation FROM airlines AS T1 WHERE T1.uid = 12 or T1.Country = \"USA\"",
+    "readable_query": "SELECT airlines.Abbreviation FROM airlines AS airlines WHERE airlines.uid = 12 or airlines.Country = \"USA\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.FlightNo FROM flights AS T1 WHERE T1.DestAirport = \" LTS\" or T1.Airline = 2",
+    "readable_query": "SELECT flights.FlightNo FROM flights AS flights WHERE flights.DestAirport = \" LTS\" or flights.Airline = 2"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Airline FROM flights AS T1 WHERE T1.DestAirport = \" AXG\" or T1.SourceAirport = \" ANW\"",
+    "readable_query": "SELECT flights.Airline FROM flights AS flights WHERE flights.DestAirport = \" AXG\" or flights.SourceAirport = \" ANW\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.DestAirport FROM flights AS T1 WHERE T1.Airline = 12 or T1.FlightNo = 605",
+    "readable_query": "SELECT flights.DestAirport FROM flights AS flights WHERE flights.Airline = 12 or flights.FlightNo = 605"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.City FROM airports AS T1 WHERE T1.AirportCode = \"ANP\" or T1.CountryAbbrev = \"US\"",
+    "readable_query": "SELECT airports.City FROM airports AS airports WHERE airports.AirportCode = \"ANP\" or airports.CountryAbbrev = \"US\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.AirportCode FROM airports AS T1 WHERE T1.CountryAbbrev = \"US\" or T1.AirportName = \"Alitak SPB \"",
+    "readable_query": "SELECT airports.AirportCode FROM airports AS airports WHERE airports.CountryAbbrev = \"US\" or airports.AirportName = \"Alitak SPB \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.uid FROM airlines AS T1 WHERE T1.Abbreviation = \"USAir\" or T1.Airline = \"AirTran Airways\"",
+    "readable_query": "SELECT airlines.uid FROM airlines AS airlines WHERE airlines.Abbreviation = \"USAir\" or airlines.Airline = \"AirTran Airways\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Airline FROM flights AS T1 WHERE T1.DestAirport = \" AED\" or T1.FlightNo = 379",
+    "readable_query": "SELECT flights.Airline FROM flights AS flights WHERE flights.DestAirport = \" AED\" or flights.FlightNo = 379"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.SourceAirport FROM flights AS T1 WHERE T1.DestAirport = \" AIB\" or T1.FlightNo = 10",
+    "readable_query": "SELECT flights.SourceAirport FROM flights AS flights WHERE flights.DestAirport = \" AIB\" or flights.FlightNo = 10"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.uid FROM airlines AS T1 WHERE T1.Airline = \"Southwest Airlines\" or T1.Abbreviation = \"Delta\"",
+    "readable_query": "SELECT airlines.uid FROM airlines AS airlines WHERE airlines.Airline = \"Southwest Airlines\" or airlines.Abbreviation = \"Delta\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T2.SourceAirport = \" AXS\" and T2.FlightNo = 1155",
+    "readable_query": "SELECT count(*) FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE flights.SourceAirport = \" AXS\" and flights.FlightNo = 1155"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode WHERE T2.AirportName = \"USN Heliport \" and T2.AirportCode = \"WKK\"",
+    "readable_query": "SELECT count(*) FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode WHERE airports.AirportName = \"USN Heliport \" and airports.AirportCode = \"WKK\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid WHERE T2.Country = \"USA\" and T2.Abbreviation = \"JetBlue\"",
+    "readable_query": "SELECT count(*) FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE airlines.Country = \"USA\" and airlines.Abbreviation = \"JetBlue\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid WHERE T2.Abbreviation = \"UAL\" and T2.Country = \"USA\"",
+    "readable_query": "SELECT count(*) FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE airlines.Abbreviation = \"UAL\" and airlines.Country = \"USA\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T2.Airline = 6 and T2.DestAirport = \" MRI\"",
+    "readable_query": "SELECT count(*) FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE flights.Airline = 6 and flights.DestAirport = \" MRI\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T2.SourceAirport = \" APN\" and T2.FlightNo = 987",
+    "readable_query": "SELECT count(*) FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE flights.SourceAirport = \" APN\" and flights.FlightNo = 987"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.DestAirport = \" ARB\" and T2.SourceAirport = \" AOS\"",
+    "readable_query": "SELECT count(*) FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.DestAirport = \" ARB\" and flights.SourceAirport = \" AOS\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode WHERE T2.City = \"Albany \" and T2.Country = \"United States \"",
+    "readable_query": "SELECT count(*) FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode WHERE airports.City = \"Albany \" and airports.Country = \"United States \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode WHERE T2.CountryAbbrev = \"US\" and T2.Country = \"United States \"",
+    "readable_query": "SELECT count(*) FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode WHERE airports.CountryAbbrev = \"US\" and airports.Country = \"United States \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T2.DestAirport = \" ABL\" and T2.SourceAirport = \" ABQ\"",
+    "readable_query": "SELECT count(*) FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE flights.DestAirport = \" ABL\" and flights.SourceAirport = \" ABQ\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.uid FROM airlines AS T1 WHERE T1.Country != \"USA\"",
+    "readable_query": "SELECT airlines.uid FROM airlines AS airlines WHERE airlines.Country != \"USA\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.City FROM airports AS T1 WHERE T1.AirportCode != \"AIV\"",
+    "readable_query": "SELECT airports.City FROM airports AS airports WHERE airports.AirportCode != \"AIV\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.DestAirport FROM flights AS T1 WHERE T1.Airline != 4",
+    "readable_query": "SELECT flights.DestAirport FROM flights AS flights WHERE flights.Airline != 4"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Country FROM airports AS T1 WHERE T1.City != \" Amarillo   \"",
+    "readable_query": "SELECT airports.Country FROM airports AS airports WHERE airports.City != \" Amarillo   \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.FlightNo FROM flights AS T1 WHERE T1.DestAirport != \" AIV\"",
+    "readable_query": "SELECT flights.FlightNo FROM flights AS flights WHERE flights.DestAirport != \" AIV\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Airline FROM airlines AS T1 WHERE T1.Country != \"USA\"",
+    "readable_query": "SELECT airlines.Airline FROM airlines AS airlines WHERE airlines.Country != \"USA\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Country FROM airlines AS T1 WHERE T1.Abbreviation != \"USAir\"",
+    "readable_query": "SELECT airlines.Country FROM airlines AS airlines WHERE airlines.Abbreviation != \"USAir\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.AirportName FROM airports AS T1 WHERE T1.Country != \"United States \"",
+    "readable_query": "SELECT airports.AirportName FROM airports AS airports WHERE airports.Country != \"United States \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.FlightNo FROM flights AS T1 WHERE T1.DestAirport != \" ARC\"",
+    "readable_query": "SELECT flights.FlightNo FROM flights AS flights WHERE flights.DestAirport != \" ARC\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.SourceAirport FROM flights AS T1 WHERE T1.DestAirport != \" ABR\"",
+    "readable_query": "SELECT flights.SourceAirport FROM flights AS flights WHERE flights.DestAirport != \" ABR\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.CountryAbbrev FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.SourceAirport != \" AUK\"",
+    "readable_query": "SELECT airports.CountryAbbrev FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.SourceAirport != \" AUK\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Airline FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T2.SourceAirport != \" ADK\"",
+    "readable_query": "SELECT airlines.Airline FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE flights.SourceAirport != \" ADK\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Country FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T2.SourceAirport != \" AST\"",
+    "readable_query": "SELECT airlines.Country FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE flights.SourceAirport != \" AST\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.uid FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T2.DestAirport != \" ATW\"",
+    "readable_query": "SELECT airlines.uid FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE flights.DestAirport != \" ATW\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Abbreviation FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T2.DestAirport != \" AIA\"",
+    "readable_query": "SELECT airlines.Abbreviation FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE flights.DestAirport != \" AIA\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.SourceAirport FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode WHERE T2.CountryAbbrev != \"US\"",
+    "readable_query": "SELECT flights.SourceAirport FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode WHERE airports.CountryAbbrev != \"US\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Country FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.FlightNo != 171",
+    "readable_query": "SELECT airports.Country FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.FlightNo != 171"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.City FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.FlightNo != 641",
+    "readable_query": "SELECT airports.City FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.FlightNo != 641"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.DestAirport FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode WHERE T2.AirportName != \"Ainsworth \"",
+    "readable_query": "SELECT flights.DestAirport FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode WHERE airports.AirportName != \"Ainsworth \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Abbreviation FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T2.FlightNo != 485",
+    "readable_query": "SELECT airlines.Abbreviation FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE flights.FlightNo != 485"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.uid FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T2.Airline = 9",
+    "readable_query": "SELECT DISTINCT airlines.uid FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE flights.Airline = 9"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Country FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.Airline = 2",
+    "readable_query": "SELECT DISTINCT airports.Country FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.Airline = 2"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.DestAirport FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid WHERE T2.Airline = \"American Airlines\"",
+    "readable_query": "SELECT DISTINCT flights.DestAirport FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE airlines.Airline = \"American Airlines\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.CountryAbbrev FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.DestAirport = \" ALM\"",
+    "readable_query": "SELECT DISTINCT airports.CountryAbbrev FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.DestAirport = \" ALM\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Airline FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid WHERE T2.Abbreviation = \"JetBlue\"",
+    "readable_query": "SELECT DISTINCT flights.Airline FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE airlines.Abbreviation = \"JetBlue\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.FlightNo FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode WHERE T2.City = \"Anderson \"",
+    "readable_query": "SELECT DISTINCT flights.FlightNo FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode WHERE airports.City = \"Anderson \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.SourceAirport FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode WHERE T2.CountryAbbrev = \"US\"",
+    "readable_query": "SELECT DISTINCT flights.SourceAirport FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode WHERE airports.CountryAbbrev = \"US\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.City FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.FlightNo = 525",
+    "readable_query": "SELECT DISTINCT airports.City FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.FlightNo = 525"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Airline FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid WHERE T2.Airline = \"Virgin America\"",
+    "readable_query": "SELECT DISTINCT flights.Airline FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE airlines.Airline = \"Virgin America\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.AirportCode FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.DestAirport = \" ANY\"",
+    "readable_query": "SELECT DISTINCT airports.AirportCode FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.DestAirport = \" ANY\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.AirportCode) FROM airports AS T1 WHERE T1.City = \"Akron/Canton \"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  airports.AirportCode) FROM airports AS airports WHERE airports.City = \"Akron/Canton \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Abbreviation) FROM airlines AS T1 WHERE T1.Airline = \"Allegiant Air\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  airlines.Abbreviation) FROM airlines AS airlines WHERE airlines.Airline = \"Allegiant Air\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.AirportName) FROM airports AS T1 WHERE T1.AirportCode = \"ADT\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  airports.AirportName) FROM airports AS airports WHERE airports.AirportCode = \"ADT\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.AirportCode) FROM airports AS T1 WHERE T1.CountryAbbrev = \"US\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  airports.AirportCode) FROM airports AS airports WHERE airports.CountryAbbrev = \"US\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Country) FROM airlines AS T1 WHERE T1.Abbreviation = \"Southwest\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  airlines.Country) FROM airlines AS airlines WHERE airlines.Abbreviation = \"Southwest\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.AirportCode) FROM airports AS T1 WHERE T1.CountryAbbrev = \"US \"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  airports.AirportCode) FROM airports AS airports WHERE airports.CountryAbbrev = \"US \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.FlightNo) FROM flights AS T1 WHERE T1.DestAirport = \" AEX\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  flights.FlightNo) FROM flights AS flights WHERE flights.DestAirport = \" AEX\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Airline) FROM flights AS T1 WHERE T1.DestAirport = \" LTS\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  flights.Airline) FROM flights AS flights WHERE flights.DestAirport = \" LTS\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.CountryAbbrev) FROM airports AS T1 WHERE T1.City = \"Arlington Heights \"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  airports.CountryAbbrev) FROM airports AS airports WHERE airports.City = \"Arlington Heights \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Airline) FROM airlines AS T1 WHERE T1.Country = \"USA\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  airlines.Airline) FROM airlines AS airlines WHERE airlines.Country = \"USA\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.SourceAirport FROM flights AS T1 WHERE T1.FlightNo > 1233",
+    "readable_query": "SELECT flights.SourceAirport FROM flights AS flights WHERE flights.FlightNo > 1233"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.SourceAirport FROM flights AS T1 WHERE T1.FlightNo > 886",
+    "readable_query": "SELECT flights.SourceAirport FROM flights AS flights WHERE flights.FlightNo > 886"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.FlightNo FROM flights AS T1 WHERE T1.Airline > 4",
+    "readable_query": "SELECT flights.FlightNo FROM flights AS flights WHERE flights.Airline > 4"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.SourceAirport FROM flights AS T1 WHERE T1.FlightNo > 1324",
+    "readable_query": "SELECT flights.SourceAirport FROM flights AS flights WHERE flights.FlightNo > 1324"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.DestAirport FROM flights AS T1 WHERE T1.FlightNo > 817",
+    "readable_query": "SELECT flights.DestAirport FROM flights AS flights WHERE flights.FlightNo > 817"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Airline FROM airlines AS T1 WHERE T1.uid > 2",
+    "readable_query": "SELECT airlines.Airline FROM airlines AS airlines WHERE airlines.uid > 2"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Abbreviation FROM airlines AS T1 WHERE T1.uid > 1",
+    "readable_query": "SELECT airlines.Abbreviation FROM airlines AS airlines WHERE airlines.uid > 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.SourceAirport FROM flights AS T1 WHERE T1.Airline > 9",
+    "readable_query": "SELECT flights.SourceAirport FROM flights AS flights WHERE flights.Airline > 9"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.DestAirport FROM flights AS T1 WHERE T1.Airline > 3",
+    "readable_query": "SELECT flights.DestAirport FROM flights AS flights WHERE flights.Airline > 3"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.FlightNo FROM flights AS T1 WHERE T1.Airline > 12",
+    "readable_query": "SELECT flights.FlightNo FROM flights AS flights WHERE flights.Airline > 12"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.uid, T2.SourceAirport, T3.AirportName FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline JOIN airports AS T3 ON T2.DestAirport = T3.AirportCode",
+    "readable_query": "SELECT airlines.uid, flights.SourceAirport, airports.AirportName FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline JOIN airports AS airports ON flights.DestAirport = airports.AirportCode"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.CountryAbbrev, T2.Airline, T3.Abbreviation FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport JOIN airlines AS T3 ON T2.Airline = T3.uid",
+    "readable_query": "SELECT airports.CountryAbbrev, flights.Airline, airlines.Abbreviation FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport JOIN airlines AS airlines ON flights.Airline = airlines.uid"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.DestAirport, T2.City, T3.uid FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode JOIN airlines AS T3 ON T1.Airline = T3.uid",
+    "readable_query": "SELECT flights.DestAirport, airports.City, airlines.uid FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode JOIN airlines AS airlines ON flights.Airline = airlines.uid"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.FlightNo, T2.Country, T3.AirportName FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid JOIN airports AS T3 ON T1.DestAirport = T3.AirportCode",
+    "readable_query": "SELECT flights.FlightNo, airlines.Country, airports.AirportName FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid JOIN airports AS airports ON flights.DestAirport = airports.AirportCode"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.CountryAbbrev, T2.FlightNo, T3.Abbreviation FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport JOIN airlines AS T3 ON T2.Airline = T3.uid",
+    "readable_query": "SELECT airports.CountryAbbrev, flights.FlightNo, airlines.Abbreviation FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport JOIN airlines AS airlines ON flights.Airline = airlines.uid"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.AirportName, T2.SourceAirport, T3.Country FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport JOIN airlines AS T3 ON T2.Airline = T3.uid",
+    "readable_query": "SELECT airports.AirportName, flights.SourceAirport, airlines.Country FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport JOIN airlines AS airlines ON flights.Airline = airlines.uid"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.FlightNo, T2.Abbreviation, T3.AirportCode FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid JOIN airports AS T3 ON T1.DestAirport = T3.AirportCode",
+    "readable_query": "SELECT flights.FlightNo, airlines.Abbreviation, airports.AirportCode FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid JOIN airports AS airports ON flights.DestAirport = airports.AirportCode"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Airline, T2.FlightNo, T3.AirportName FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline JOIN airports AS T3 ON T2.DestAirport = T3.AirportCode",
+    "readable_query": "SELECT airlines.Airline, flights.FlightNo, airports.AirportName FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline JOIN airports AS airports ON flights.DestAirport = airports.AirportCode"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Airline, T2.Country, T3.AirportCode FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid JOIN airports AS T3 ON T1.DestAirport = T3.AirportCode",
+    "readable_query": "SELECT flights.Airline, airlines.Country, airports.AirportCode FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid JOIN airports AS airports ON flights.DestAirport = airports.AirportCode"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.FlightNo, T2.AirportName, T3.Abbreviation FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode JOIN airlines AS T3 ON T1.Airline = T3.uid",
+    "readable_query": "SELECT flights.FlightNo, airports.AirportName, airlines.Abbreviation FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode JOIN airlines AS airlines ON flights.Airline = airlines.uid"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.AirportCode FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport     ORDER BY T2.Airline ASC",
+    "readable_query": "SELECT airports.AirportCode FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport     ORDER BY flights.Airline ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.CountryAbbrev FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport     ORDER BY T2.FlightNo ASC",
+    "readable_query": "SELECT airports.CountryAbbrev FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport     ORDER BY flights.FlightNo ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.AirportName FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport     ORDER BY T2.FlightNo ASC",
+    "readable_query": "SELECT airports.AirportName FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport     ORDER BY flights.FlightNo ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Abbreviation FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline     ORDER BY T2.FlightNo ASC",
+    "readable_query": "SELECT airlines.Abbreviation FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline     ORDER BY flights.FlightNo ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Abbreviation FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline     ORDER BY T2.Airline ASC",
+    "readable_query": "SELECT airlines.Abbreviation FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline     ORDER BY flights.Airline ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Country FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline     ORDER BY T2.Airline ASC",
+    "readable_query": "SELECT airlines.Country FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline     ORDER BY flights.Airline ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.DestAirport FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid     ORDER BY T2.uid ASC",
+    "readable_query": "SELECT flights.DestAirport FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid     ORDER BY airlines.uid ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.AirportCode FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport     ORDER BY T2.FlightNo ASC",
+    "readable_query": "SELECT airports.AirportCode FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport     ORDER BY flights.FlightNo ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Airline FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline     ORDER BY T2.Airline ASC",
+    "readable_query": "SELECT airlines.Airline FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline     ORDER BY flights.Airline ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.CountryAbbrev FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport     ORDER BY T2.Airline ASC",
+    "readable_query": "SELECT airports.CountryAbbrev FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport     ORDER BY flights.Airline ASC"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Airline FROM airlines AS T1 WHERE T1.Abbreviation = \"Southwest\"     INTERSECT SELECT T2.Airline FROM airlines AS T2 WHERE T2.Abbreviation = \"American\"",
+    "readable_query": "SELECT airlines.Airline FROM airlines AS airlines WHERE airlines.Abbreviation = \"Southwest\"     INTERSECT SELECT airlines.Airline FROM airlines AS airlines WHERE airlines.Abbreviation = \"American\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Country FROM airports AS T1 WHERE T1.City = \"Alitak \"     INTERSECT SELECT T2.Country FROM airports AS T2 WHERE T2.City = \"Andrews \"",
+    "readable_query": "SELECT airports.Country FROM airports AS airports WHERE airports.City = \"Alitak \"     INTERSECT SELECT airports.Country FROM airports AS airports WHERE airports.City = \"Andrews \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.AirportName FROM airports AS T1 WHERE T1.CountryAbbrev = \"US\"     INTERSECT SELECT T2.AirportName FROM airports AS T2 WHERE T2.CountryAbbrev = \"US \"",
+    "readable_query": "SELECT airports.AirportName FROM airports AS airports WHERE airports.CountryAbbrev = \"US\"     INTERSECT SELECT airports.AirportName FROM airports AS airports WHERE airports.CountryAbbrev = \"US \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.AirportName FROM airports AS T1 WHERE T1.Country = \"United States \"     INTERSECT SELECT T2.AirportName FROM airports AS T2 WHERE T2.Country = \"United States \"",
+    "readable_query": "SELECT airports.AirportName FROM airports AS airports WHERE airports.Country = \"United States \"     INTERSECT SELECT airports.AirportName FROM airports AS airports WHERE airports.Country = \"United States \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Abbreviation FROM airlines AS T1 WHERE T1.Country = \"USA\"     INTERSECT SELECT T2.Abbreviation FROM airlines AS T2 WHERE T2.Country = \"USA\"",
+    "readable_query": "SELECT airlines.Abbreviation FROM airlines AS airlines WHERE airlines.Country = \"USA\"     INTERSECT SELECT airlines.Abbreviation FROM airlines AS airlines WHERE airlines.Country = \"USA\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.SourceAirport FROM flights AS T1 WHERE T1.Airline = 12     INTERSECT SELECT T2.SourceAirport FROM flights AS T2 WHERE T2.Airline = 12",
+    "readable_query": "SELECT flights.SourceAirport FROM flights AS flights WHERE flights.Airline = 12     INTERSECT SELECT flights.SourceAirport FROM flights AS flights WHERE flights.Airline = 12"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Airline FROM airlines AS T1 WHERE T1.Country = \"USA\"     INTERSECT SELECT T2.Airline FROM airlines AS T2 WHERE T2.Country = \"USA\"",
+    "readable_query": "SELECT airlines.Airline FROM airlines AS airlines WHERE airlines.Country = \"USA\"     INTERSECT SELECT airlines.Airline FROM airlines AS airlines WHERE airlines.Country = \"USA\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.City FROM airports AS T1 WHERE T1.Country = \"United States \"     INTERSECT SELECT T2.City FROM airports AS T2 WHERE T2.Country = \"United States \"",
+    "readable_query": "SELECT airports.City FROM airports AS airports WHERE airports.Country = \"United States \"     INTERSECT SELECT airports.City FROM airports AS airports WHERE airports.Country = \"United States \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.DestAirport FROM flights AS T1 WHERE T1.SourceAirport = \" ANW\"     INTERSECT SELECT T2.DestAirport FROM flights AS T2 WHERE T2.SourceAirport = \" AKI\"",
+    "readable_query": "SELECT flights.DestAirport FROM flights AS flights WHERE flights.SourceAirport = \" ANW\"     INTERSECT SELECT flights.DestAirport FROM flights AS flights WHERE flights.SourceAirport = \" AKI\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.FlightNo FROM flights AS T1 WHERE T1.DestAirport = \" ADM\"     INTERSECT SELECT T2.FlightNo FROM flights AS T2 WHERE T2.DestAirport = \" ATW\"",
+    "readable_query": "SELECT flights.FlightNo FROM flights AS flights WHERE flights.DestAirport = \" ADM\"     INTERSECT SELECT flights.FlightNo FROM flights AS flights WHERE flights.DestAirport = \" ATW\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.uid) FROM airlines AS T1 WHERE T1.Abbreviation = \"Southwest\"",
+    "readable_query": "SELECT avg( airlines.uid) FROM airlines AS airlines WHERE airlines.Abbreviation = \"Southwest\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.FlightNo) FROM flights AS T1 WHERE T1.DestAirport = \" ALB\"",
+    "readable_query": "SELECT avg( flights.FlightNo) FROM flights AS flights WHERE flights.DestAirport = \" ALB\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.FlightNo) FROM flights AS T1 WHERE T1.DestAirport = \" AOS\"",
+    "readable_query": "SELECT avg( flights.FlightNo) FROM flights AS flights WHERE flights.DestAirport = \" AOS\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Airline) FROM flights AS T1 WHERE T1.FlightNo = 559",
+    "readable_query": "SELECT avg( flights.Airline) FROM flights AS flights WHERE flights.FlightNo = 559"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Airline) FROM flights AS T1 WHERE T1.DestAirport = \" HMN\"",
+    "readable_query": "SELECT avg( flights.Airline) FROM flights AS flights WHERE flights.DestAirport = \" HMN\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Airline) FROM flights AS T1 WHERE T1.DestAirport = \" ATW\"",
+    "readable_query": "SELECT avg( flights.Airline) FROM flights AS flights WHERE flights.DestAirport = \" ATW\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.uid) FROM airlines AS T1 WHERE T1.Country = \"USA\"",
+    "readable_query": "SELECT avg( airlines.uid) FROM airlines AS airlines WHERE airlines.Country = \"USA\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Airline) FROM flights AS T1 WHERE T1.SourceAirport = \" ADT\"",
+    "readable_query": "SELECT avg( flights.Airline) FROM flights AS flights WHERE flights.SourceAirport = \" ADT\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Airline) FROM flights AS T1 WHERE T1.DestAirport = \" AHT\"",
+    "readable_query": "SELECT avg( flights.Airline) FROM flights AS flights WHERE flights.DestAirport = \" AHT\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.uid) FROM airlines AS T1 WHERE T1.Abbreviation = \"Allegiant\"",
+    "readable_query": "SELECT avg( airlines.uid) FROM airlines AS airlines WHERE airlines.Abbreviation = \"Allegiant\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.uid FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T2.Airline = (SELECT max( T23.Airline) FROM flights AS T23)",
+    "readable_query": "SELECT airlines.uid FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE flights.Airline = (SELECT max( flights.Airline) FROM flights AS flights)"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.uid FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T2.FlightNo = (SELECT max( T23.FlightNo) FROM flights AS T23)",
+    "readable_query": "SELECT airlines.uid FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE flights.FlightNo = (SELECT max( flights.FlightNo) FROM flights AS flights)"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.CountryAbbrev FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.FlightNo = (SELECT max( T23.FlightNo) FROM flights AS T23)",
+    "readable_query": "SELECT airports.CountryAbbrev FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.FlightNo = (SELECT max( flights.FlightNo) FROM flights AS flights)"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Airline FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T2.Airline = (SELECT max( T23.Airline) FROM flights AS T23)",
+    "readable_query": "SELECT airlines.Airline FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE flights.Airline = (SELECT max( flights.Airline) FROM flights AS flights)"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Country FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T2.Airline = (SELECT max( T23.Airline) FROM flights AS T23)",
+    "readable_query": "SELECT airlines.Country FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE flights.Airline = (SELECT max( flights.Airline) FROM flights AS flights)"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Country FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.Airline = (SELECT max( T23.Airline) FROM flights AS T23)",
+    "readable_query": "SELECT airports.Country FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.Airline = (SELECT max( flights.Airline) FROM flights AS flights)"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.SourceAirport FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid WHERE T2.uid = (SELECT max( T23.uid) FROM airlines AS T23)",
+    "readable_query": "SELECT flights.SourceAirport FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE airlines.uid = (SELECT max( airlines.uid) FROM airlines AS airlines)"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.AirportCode FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.Airline = (SELECT max( T23.Airline) FROM flights AS T23)",
+    "readable_query": "SELECT airports.AirportCode FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.Airline = (SELECT max( flights.Airline) FROM flights AS flights)"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.FlightNo FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid WHERE T2.uid = (SELECT max( T23.uid) FROM airlines AS T23)",
+    "readable_query": "SELECT flights.FlightNo FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE airlines.uid = (SELECT max( airlines.uid) FROM airlines AS airlines)"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Country FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T2.FlightNo = (SELECT max( T23.FlightNo) FROM flights AS T23)",
+    "readable_query": "SELECT airlines.Country FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE flights.FlightNo = (SELECT max( flights.FlightNo) FROM flights AS flights)"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.City, T2.DestAirport FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport JOIN airlines AS T3 ON T2.Airline = T3.uid WHERE T3.Airline = \"Delta Airlines\" and T2.SourceAirport = \" ALM\"",
+    "readable_query": "SELECT airports.City, flights.DestAirport FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE airlines.Airline = \"Delta Airlines\" and flights.SourceAirport = \" ALM\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Airline, T2.DestAirport FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline JOIN airports AS T3 ON T2.DestAirport = T3.AirportCode WHERE T3.AirportCode = \"AED\" and T2.SourceAirport = \" ABY\"",
+    "readable_query": "SELECT airlines.Airline, flights.DestAirport FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline JOIN airports AS airports ON flights.DestAirport = airports.AirportCode WHERE airports.AirportCode = \"AED\" and flights.SourceAirport = \" ABY\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.FlightNo, T2.AirportCode FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode JOIN airlines AS T3 ON T1.Airline = T3.uid WHERE T3.Abbreviation = \"Continental\" and T2.City = \"Amityville \"",
+    "readable_query": "SELECT flights.FlightNo, airports.AirportCode FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE airlines.Abbreviation = \"Continental\" and airports.City = \"Amityville \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.DestAirport, T2.Country FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode JOIN airlines AS T3 ON T1.Airline = T3.uid WHERE T3.Airline = \"Allegiant Air\" and T2.AirportName = \"Gratiot Community \"",
+    "readable_query": "SELECT flights.DestAirport, airports.Country FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE airlines.Airline = \"Allegiant Air\" and airports.AirportName = \"Gratiot Community \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.FlightNo, T2.CountryAbbrev FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode JOIN airlines AS T3 ON T1.Airline = T3.uid WHERE T3.Abbreviation = \"Virgin\" and T2.City = \"Anacortes \"",
+    "readable_query": "SELECT flights.FlightNo, airports.CountryAbbrev FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE airlines.Abbreviation = \"Virgin\" and airports.City = \"Anacortes \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.AirportCode, T2.FlightNo FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport JOIN airlines AS T3 ON T2.Airline = T3.uid WHERE T3.uid = 2 and T2.SourceAirport = \" KQA\"",
+    "readable_query": "SELECT airports.AirportCode, flights.FlightNo FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE airlines.uid = 2 and flights.SourceAirport = \" KQA\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.AirportName, T2.FlightNo FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport JOIN airlines AS T3 ON T2.Airline = T3.uid WHERE T3.Country = \"USA\" and T2.Airline = 1",
+    "readable_query": "SELECT airports.AirportName, flights.FlightNo FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE airlines.Country = \"USA\" and flights.Airline = 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Airline, T2.Country FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode JOIN airlines AS T3 ON T1.Airline = T3.uid WHERE T3.uid = 10 and T2.AirportCode = \"KQA\"",
+    "readable_query": "SELECT flights.Airline, airports.Country FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE airlines.uid = 10 and airports.AirportCode = \"KQA\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Country, T2.Airline FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport JOIN airlines AS T3 ON T2.Airline = T3.uid WHERE T3.Abbreviation = \"USAir\" and T2.FlightNo = 115",
+    "readable_query": "SELECT airports.Country, flights.Airline FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE airlines.Abbreviation = \"USAir\" and flights.FlightNo = 115"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.SourceAirport, T2.Country FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode JOIN airlines AS T3 ON T1.Airline = T3.uid WHERE T3.uid = 10 and T2.AirportCode = \"AAF\"",
+    "readable_query": "SELECT flights.SourceAirport, airports.Country FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE airlines.uid = 10 and airports.AirportCode = \"AAF\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Abbreviation FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T2.FlightNo = 364 GROUP BY T1.Abbreviation  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT airlines.Abbreviation FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE flights.FlightNo = 364 GROUP BY airlines.Abbreviation  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Abbreviation FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T2.FlightNo = 902 GROUP BY T1.Abbreviation  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT airlines.Abbreviation FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE flights.FlightNo = 902 GROUP BY airlines.Abbreviation  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.uid FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T2.DestAirport = \" ANA\" GROUP BY T1.uid  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT airlines.uid FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE flights.DestAirport = \" ANA\" GROUP BY airlines.uid  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.City FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.SourceAirport = \" TDW\" GROUP BY T1.City  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT airports.City FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.SourceAirport = \" TDW\" GROUP BY airports.City  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.DestAirport FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid WHERE T2.Country = \"USA\" GROUP BY T1.DestAirport  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT flights.DestAirport FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE airlines.Country = \"USA\" GROUP BY flights.DestAirport  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.FlightNo FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode WHERE T2.City = \" Anniston AL  \" GROUP BY T1.FlightNo  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT flights.FlightNo FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode WHERE airports.City = \" Anniston AL  \" GROUP BY flights.FlightNo  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.DestAirport FROM flights AS T1 JOIN airlines AS T2 ON T1.Airline = T2.uid WHERE T2.Airline = \"American Airlines\" GROUP BY T1.DestAirport  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT flights.DestAirport FROM flights AS flights JOIN airlines AS airlines ON flights.Airline = airlines.uid WHERE airlines.Airline = \"American Airlines\" GROUP BY flights.DestAirport  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.uid FROM airlines AS T1 JOIN flights AS T2 ON T1.uid = T2.Airline WHERE T2.FlightNo = 753 GROUP BY T1.uid  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT airlines.uid FROM airlines AS airlines JOIN flights AS flights ON airlines.uid = flights.Airline WHERE flights.FlightNo = 753 GROUP BY airlines.uid  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.City FROM airports AS T1 JOIN flights AS T2 ON T1.AirportCode = T2.DestAirport WHERE T2.Airline = 1 GROUP BY T1.City  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT airports.City FROM airports AS airports JOIN flights AS flights ON airports.AirportCode = flights.DestAirport WHERE flights.Airline = 1 GROUP BY airports.City  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.FlightNo FROM flights AS T1 JOIN airports AS T2 ON T1.DestAirport = T2.AirportCode WHERE T2.AirportCode = \"ALM\" GROUP BY T1.FlightNo  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT flights.FlightNo FROM flights AS flights JOIN airports AS airports ON flights.DestAirport = airports.AirportCode WHERE airports.AirportCode = \"ALM\" GROUP BY flights.FlightNo  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Airline FROM flights AS T1        EXCEPT SELECT T2.Airline FROM flights AS T2 WHERE T2.SourceAirport = \" AXG\"",
+    "readable_query": "SELECT flights.Airline FROM flights AS flights        EXCEPT SELECT flights.Airline FROM flights AS flights WHERE flights.SourceAirport = \" AXG\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.uid FROM airlines AS T1        EXCEPT SELECT T2.uid FROM airlines AS T2 WHERE T2.Country = \"USA\"",
+    "readable_query": "SELECT airlines.uid FROM airlines AS airlines        EXCEPT SELECT airlines.uid FROM airlines AS airlines WHERE airlines.Country = \"USA\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.CountryAbbrev FROM airports AS T1        EXCEPT SELECT T2.CountryAbbrev FROM airports AS T2 WHERE T2.AirportCode = \"ANY\"",
+    "readable_query": "SELECT airports.CountryAbbrev FROM airports AS airports        EXCEPT SELECT airports.CountryAbbrev FROM airports AS airports WHERE airports.AirportCode = \"ANY\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Airline FROM flights AS T1        EXCEPT SELECT T2.Airline FROM flights AS T2 WHERE T2.DestAirport = \" ASE\"",
+    "readable_query": "SELECT flights.Airline FROM flights AS flights        EXCEPT SELECT flights.Airline FROM flights AS flights WHERE flights.DestAirport = \" ASE\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.CountryAbbrev FROM airports AS T1        EXCEPT SELECT T2.CountryAbbrev FROM airports AS T2 WHERE T2.Country = \"United States \"",
+    "readable_query": "SELECT airports.CountryAbbrev FROM airports AS airports        EXCEPT SELECT airports.CountryAbbrev FROM airports AS airports WHERE airports.Country = \"United States \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.City FROM airports AS T1        EXCEPT SELECT T2.City FROM airports AS T2 WHERE T2.AirportCode = \"AXG\"",
+    "readable_query": "SELECT airports.City FROM airports AS airports        EXCEPT SELECT airports.City FROM airports AS airports WHERE airports.AirportCode = \"AXG\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.FlightNo FROM flights AS T1        EXCEPT SELECT T2.FlightNo FROM flights AS T2 WHERE T2.SourceAirport = \" AKI\"",
+    "readable_query": "SELECT flights.FlightNo FROM flights AS flights        EXCEPT SELECT flights.FlightNo FROM flights AS flights WHERE flights.SourceAirport = \" AKI\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.CountryAbbrev FROM airports AS T1        EXCEPT SELECT T2.CountryAbbrev FROM airports AS T2 WHERE T2.AirportName = \"Rick Husband Amarillo International \"",
+    "readable_query": "SELECT airports.CountryAbbrev FROM airports AS airports        EXCEPT SELECT airports.CountryAbbrev FROM airports AS airports WHERE airports.AirportName = \"Rick Husband Amarillo International \""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Country FROM airports AS T1        EXCEPT SELECT T2.Country FROM airports AS T2 WHERE T2.AirportCode = \"ABR\"",
+    "readable_query": "SELECT airports.Country FROM airports AS airports        EXCEPT SELECT airports.Country FROM airports AS airports WHERE airports.AirportCode = \"ABR\""
+  },
+  {
+    "db_id": "flight_2",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.FlightNo FROM flights AS T1        EXCEPT SELECT T2.FlightNo FROM flights AS T2 WHERE T2.SourceAirport = \" NDV\"",
+    "readable_query": "SELECT flights.FlightNo FROM flights AS flights        EXCEPT SELECT flights.FlightNo FROM flights AS flights WHERE flights.SourceAirport = \" NDV\""
+  }
+]

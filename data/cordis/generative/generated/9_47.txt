@@ -1,0 +1,16 @@
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.ec_call != 'ERC-2011-StG_20101124'
+
+###
+
+
+Original Query:
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.ec_call != 'ERC-2011-StG_20101124'
+GPT-3 choices:
+(0) Retrieve the full names of principal investigators of projects whose european research council call is different than 2011 StG.20101124.
+(1) Show me all principal investigators of projects that do not have the code ERC-2011-StG_20101124
+(2) Show me the full names of people that participated in projects that didn't got the ERC grant of 2011
+(3) Retrieve the full name of all people who are principal investigators for a project differing from ERC-2011-StG_20101124
+(4) What is the full name of all the people that still have a project from 2011-06-24 and are not doing an ERC?
+(5) Display full name for all people in projects except the one with the EC call `ERC-2011-StG_20101124`
+(6) Retrieve the full name of the principals of projects which did not receive funding by the ERC in 2011 and are not assigned to the funding call “ERC-2011-StG_20101124”
+(7) Select full names of people having a project with no european research council grant with the code "ERC-2011-StG_20101124"

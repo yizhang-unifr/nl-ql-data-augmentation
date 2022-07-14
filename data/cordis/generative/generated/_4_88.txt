@@ -1,0 +1,28 @@
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'SE32'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'SE32'
+GPT-3 choices:
+(0) Send the number of entities inside the region SE32 which are territorial units
+(1) Show me the number of european territorial units that have the geocode region SE32
+(2) How many eu territorial units are there in SE32?
+(3) How many entities are there in the eu territorial unit region SE32?
+(4) How many countries that have a geocode region equal to SE32 are there?
+(5) Show the total number of territorial unit inside SE32
+(6) ## 33
+(7) Show me the total number of territorial units associated with the region SE32
+
+
+Re-ranked choices:
+5.064  Show me the total number of territorial units associated with the region SE32
+4.835  How many eu territorial units are there in SE32?
+4.829  Show me the number of european territorial units that have the geocode region SE32
+4.822  How many entities are there in the eu territorial unit region SE32?
+4.609  Send the number of entities inside the region SE32 which are territorial units
+4.580  Show the total number of territorial unit inside SE32
+3.851  How many countries that have a geocode region equal to SE32 are there?
+1.208  ## 33
+

@@ -1,0 +1,6456 @@
+[
+  {
+    "entities": [
+      {
+        "name": "teamname",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.45423505,
+        "mentions": [
+          {
+            "text": {
+              "content": "teamname",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "winner",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.41149953,
+        "mentions": [
+          {
+            "text": {
+              "content": "winner",
+              "beginOffset": 28
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "world cup",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.13426542,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup",
+              "beginOffset": 42
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "1954",
+        "type": "DATE",
+        "metadata": {
+          "year": "1954"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "1954",
+              "beginOffset": 55
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      },
+      {
+        "name": "1954",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "1954"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "1954",
+              "beginOffset": 55
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me the teamname of the winner of the world cup in 1954.",
+    "values": [
+      "1954"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "world cup",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.80513895,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "teamname",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.19486105,
+        "mentions": [
+          {
+            "text": {
+              "content": "teamname",
+              "beginOffset": 42
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "2002",
+        "type": "DATE",
+        "metadata": {
+          "year": "2002"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "2002",
+              "beginOffset": 25
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      },
+      {
+        "name": "2002",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "2002"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "2002",
+              "beginOffset": 25
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Who won the world cup in 2002? Return the teamname.",
+    "values": [
+      "2002"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "team",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.551666,
+        "mentions": [
+          {
+            "text": {
+              "content": "team",
+              "beginOffset": 6
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "winner",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.25818732,
+        "mentions": [
+          {
+            "text": {
+              "content": "winner",
+              "beginOffset": 18
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "world cup",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.15021217,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup",
+              "beginOffset": 32
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "teamname",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.03993449,
+        "mentions": [
+          {
+            "text": {
+              "content": "teamname",
+              "beginOffset": 62
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "2014",
+        "type": "DATE",
+        "metadata": {
+          "year": "2014"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "2014",
+              "beginOffset": 45
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      },
+      {
+        "name": "2014",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "2014"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "2014",
+              "beginOffset": 45
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Which team is the winner of the world cup in 2014? Return the teamname.",
+    "values": [
+      "2014"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "stadium",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.5370384,
+        "mentions": [
+          {
+            "text": {
+              "content": "stadium",
+              "beginOffset": 6
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "capacity",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.41011646,
+        "mentions": [
+          {
+            "text": {
+              "content": "capacity",
+              "beginOffset": 30
+            },
+            "type": "COMMON"
+          },
+          {
+            "text": {
+              "content": "capacity",
+              "beginOffset": 51
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "stadium name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.052845158,
+        "mentions": [
+          {
+            "text": {
+              "content": "stadium name",
+              "beginOffset": 68
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Which stadium has the biggest capacity? Return the capacity and the stadium name.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "stadium name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.60300255,
+        "mentions": [
+          {
+            "text": {
+              "content": "stadium name",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "capacity",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.39699745,
+        "mentions": [
+          {
+            "text": {
+              "content": "capacity",
+              "beginOffset": 42
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me the stadium name with the biggest capacity",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.4155629,
+        "mentions": [
+          {
+            "text": {
+              "content": "name",
+              "beginOffset": 11
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "stadium",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.32991052,
+        "mentions": [
+          {
+            "text": {
+              "content": "stadium",
+              "beginOffset": 23
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "capacity",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.2545266,
+        "mentions": [
+          {
+            "text": {
+              "content": "capacity",
+              "beginOffset": 44
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "What's the name of the stadium with biggest capacity?",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "world cup",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.65447354,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup",
+              "beginOffset": 6
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "attendance",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.22936258,
+        "mentions": [
+          {
+            "text": {
+              "content": "attendance",
+              "beginOffset": 32
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "attendance",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.08327878,
+        "mentions": [
+          {
+            "text": {
+              "content": "attendance",
+              "beginOffset": 71
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "venue",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.032885104,
+        "mentions": [
+          {
+            "text": {
+              "content": "venue",
+              "beginOffset": 61
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Which world cup had the biggest attendance? Return the year, venue and attendance.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "attendance",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.390943,
+        "mentions": [
+          {
+            "text": {
+              "content": "attendance",
+              "beginOffset": 21
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "world cup",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.3257723,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup",
+              "beginOffset": 39
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "attendance",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.28328472,
+        "mentions": [
+          {
+            "text": {
+              "content": "attendance",
+              "beginOffset": 66
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me the year and attendance of the world cup with the biggest attendance.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "world cup",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.59557563,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup",
+              "beginOffset": 22
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "attendance",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.4044244,
+        "mentions": [
+          {
+            "text": {
+              "content": "attendance",
+              "beginOffset": 49
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "In which year was the world cup with the biggest attendance?",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "attendance",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.3599479,
+        "mentions": [
+          {
+            "text": {
+              "content": "attendance",
+              "beginOffset": 30
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "country",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.35382035,
+        "mentions": [
+          {
+            "text": {
+              "content": "country",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "attendance",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.18319671,
+        "mentions": [
+          {
+            "text": {
+              "content": "attendance",
+              "beginOffset": 75
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "world cup",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.10303507,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup",
+              "beginOffset": 48
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me the country, year and attendance of the world cup with the biggest attendance",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "world cup",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.32606906,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup",
+              "beginOffset": 9
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.2537339,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 33
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.19398163,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 84
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "number",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.1499709,
+        "mentions": [
+          {
+            "text": {
+              "content": "number",
+              "beginOffset": 74
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "venue",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.07624454,
+        "mentions": [
+          {
+            "text": {
+              "content": "venue",
+              "beginOffset": 64
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "In which world cup were the most goals scored? Return the year, venue and number of goals scored.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "venue",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.37631118,
+        "mentions": [
+          {
+            "text": {
+              "content": "venue",
+              "beginOffset": 21
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "world cup",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.35206783,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup",
+              "beginOffset": 34
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.271621,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 65
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "What is the year and venue of the world cup with the most scored goals?",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.35738757,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 22
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "venue",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.3552357,
+        "mentions": [
+          {
+            "text": {
+              "content": "venue",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.18392952,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 68
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "world cup",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.10344723,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup",
+              "beginOffset": 44
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me the venue and goals scored from the world cup with the most goals",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "players",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 1,
+        "mentions": [
+          {
+            "text": {
+              "content": "players",
+              "beginOffset": 9
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "How many players have played so far?",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "player",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.6676284,
+        "mentions": [
+          {
+            "text": {
+              "content": "player",
+              "beginOffset": 6
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "most",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.19353685,
+        "mentions": [
+          {
+            "text": {
+              "content": "most",
+              "beginOffset": 37
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "count",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0595951,
+        "mentions": [
+          {
+            "text": {
+              "content": "count",
+              "beginOffset": 54
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "player name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.048576217,
+        "mentions": [
+          {
+            "text": {
+              "content": "player name",
+              "beginOffset": 85
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "substitutions",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.030663436,
+        "mentions": [
+          {
+            "text": {
+              "content": "substitutions",
+              "beginOffset": 63
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Which player was substituted out the most? Return the count of substitutions and the player name.",
+    "values": [
+      "1"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "players",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.58080244,
+        "mentions": [
+          {
+            "text": {
+              "content": "players",
+              "beginOffset": 6
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "team",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.15574108,
+        "mentions": [
+          {
+            "text": {
+              "content": "team",
+              "beginOffset": 49
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "final",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.14389887,
+        "mentions": [
+          {
+            "text": {
+              "content": "final",
+              "beginOffset": 61
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "hungarian",
+        "type": "LOCATION",
+        "metadata": {
+          "mid": "/m/03gj2",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Hungary"
+        },
+        "salience": 0.09425315,
+        "mentions": [
+          {
+            "text": {
+              "content": "hungarian",
+              "beginOffset": 30
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "names",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.025304476,
+        "mentions": [
+          {
+            "text": {
+              "content": "names",
+              "beginOffset": 87
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "1954",
+        "type": "DATE",
+        "metadata": {
+          "year": "1954"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "1954",
+              "beginOffset": 70
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      },
+      {
+        "name": "1954",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "1954"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "1954",
+              "beginOffset": 70
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Which players started for the hungarian national team in the final of 1954? Return the names.",
+    "values": [
+      "hun",
+      "1954",
+      "final",
+      "1"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "players",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.58080244,
+        "mentions": [
+          {
+            "text": {
+              "content": "players",
+              "beginOffset": 6
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "team",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.15574108,
+        "mentions": [
+          {
+            "text": {
+              "content": "team",
+              "beginOffset": 46
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "final",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.14389887,
+        "mentions": [
+          {
+            "text": {
+              "content": "final",
+              "beginOffset": 58
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "german",
+        "type": "LOCATION",
+        "metadata": {
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Germany",
+          "mid": "/m/0345h"
+        },
+        "salience": 0.09425315,
+        "mentions": [
+          {
+            "text": {
+              "content": "german",
+              "beginOffset": 30
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "names",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.025304476,
+        "mentions": [
+          {
+            "text": {
+              "content": "names",
+              "beginOffset": 84
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "1954",
+        "type": "DATE",
+        "metadata": {
+          "year": "1954"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "1954",
+              "beginOffset": 67
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      },
+      {
+        "name": "1954",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "1954"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "1954",
+              "beginOffset": 67
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Which players started for the german national team in the final of 1954? Return the names.",
+    "values": [
+      "Germany fr",
+      "1954",
+      "final",
+      "t"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "players",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.6314402,
+        "mentions": [
+          {
+            "text": {
+              "content": "players",
+              "beginOffset": 6
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "final",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.15532438,
+        "mentions": [
+          {
+            "text": {
+              "content": "final",
+              "beginOffset": 49
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "team",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.15358481,
+        "mentions": [
+          {
+            "text": {
+              "content": "team",
+              "beginOffset": 37
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "players",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.04376424,
+        "mentions": [
+          {
+            "text": {
+              "content": "players",
+              "beginOffset": 88
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "names",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.015886359,
+        "mentions": [
+          {
+            "text": {
+              "content": "names",
+              "beginOffset": 75
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "2014",
+        "type": "DATE",
+        "metadata": {
+          "year": "2014"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "2014",
+              "beginOffset": 58
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      },
+      {
+        "name": "2014",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "2014"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "2014",
+              "beginOffset": 58
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Which players started for the german team in the final of 2014? Return the names of the players.",
+    "values": [
+      "Germany",
+      "2014",
+      "final",
+      "t"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "players",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.6190769,
+        "mentions": [
+          {
+            "text": {
+              "content": "players",
+              "beginOffset": 15
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "final",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.15228322,
+        "mentions": [
+          {
+            "text": {
+              "content": "final",
+              "beginOffset": 63
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "team",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.1505777,
+        "mentions": [
+          {
+            "text": {
+              "content": "team",
+              "beginOffset": 51
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "players",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.04290736,
+        "mentions": [
+          {
+            "text": {
+              "content": "players",
+              "beginOffset": 102
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "names",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.0351548,
+        "mentions": [
+          {
+            "text": {
+              "content": "names",
+              "beginOffset": 89
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "2014",
+        "type": "DATE",
+        "metadata": {
+          "year": "2014"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "2014",
+              "beginOffset": 72
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      },
+      {
+        "name": "2014",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "2014"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "2014",
+              "beginOffset": 72
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Which distinct players started for the argentinian team in the final of 2014? Return the names of the players.",
+    "values": [
+      "arg",
+      "2014",
+      "final",
+      "t"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "stadium",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.5909188,
+        "mentions": [
+          {
+            "text": {
+              "content": "stadium",
+              "beginOffset": 9
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.17033996,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 31
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "number",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.099480174,
+        "mentions": [
+          {
+            "text": {
+              "content": "number",
+              "beginOffset": 56
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "stadium name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.08108671,
+        "mentions": [
+          {
+            "text": {
+              "content": "stadium name",
+              "beginOffset": 87
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.058174357,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 66
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "In which stadium were the most goals scored? Return the number of goals scored and the stadium name.",
+    "values": [
+      "t"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "player",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.6699349,
+        "mentions": [
+          {
+            "text": {
+              "content": "player",
+              "beginOffset": 6
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.24996679,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 33
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "player name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.05667582,
+        "mentions": [
+          {
+            "text": {
+              "content": "player name",
+              "beginOffset": 96
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "goal count",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.023422465,
+        "mentions": [
+          {
+            "text": {
+              "content": "goal count",
+              "beginOffset": 77
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Which player has scored the most goals when being substituted in? Return the goal count and the player name.",
+    "values": [
+      "t",
+      "f"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "fastes goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.58150464,
+        "mentions": [
+          {
+            "text": {
+              "content": "fastes goals",
+              "beginOffset": 21
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "world cups",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.4184954,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cups",
+              "beginOffset": 41
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "3",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "3"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "3",
+              "beginOffset": 19
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Who scored the top 3 fastes goals in all world cups?",
+    "values": [
+      "t"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "games",
+        "type": "WORK_OF_ART",
+        "metadata": {},
+        "salience": 0.7983086,
+        "mentions": [
+          {
+            "text": {
+              "content": "games",
+              "beginOffset": 9
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "penalties",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.20169136,
+        "mentions": [
+          {
+            "text": {
+              "content": "penalties",
+              "beginOffset": 31
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "How many games were decided by penalties?",
+    "values": [
+      "pen"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "player",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.68800974,
+        "mentions": [
+          {
+            "text": {
+              "content": "player",
+              "beginOffset": 6
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "games",
+        "type": "WORK_OF_ART",
+        "metadata": {},
+        "salience": 0.18832478,
+        "mentions": [
+          {
+            "text": {
+              "content": "games",
+              "beginOffset": 34
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "number",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.051529687,
+        "mentions": [
+          {
+            "text": {
+              "content": "number",
+              "beginOffset": 52
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "player name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.042002067,
+        "mentions": [
+          {
+            "text": {
+              "content": "player name",
+              "beginOffset": 76
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "games",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.030133707,
+        "mentions": [
+          {
+            "text": {
+              "content": "games",
+              "beginOffset": 62
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Which player has started the most games? Return the number of games and the player name.",
+    "values": [
+      "t",
+      "0"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "players",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.74021995,
+        "mentions": [
+          {
+            "text": {
+              "content": "players",
+              "beginOffset": 6
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Switzerland",
+        "type": "LOCATION",
+        "metadata": {
+          "mid": "/m/06mzp",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Switzerland"
+        },
+        "salience": 0.14181295,
+        "mentions": [
+          {
+            "text": {
+              "content": "Switzerland",
+              "beginOffset": 25
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "players",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.09376824,
+        "mentions": [
+          {
+            "text": {
+              "content": "players",
+              "beginOffset": 70
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "names",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.024198825,
+        "mentions": [
+          {
+            "text": {
+              "content": "names",
+              "beginOffset": 57
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "2014",
+        "type": "DATE",
+        "metadata": {
+          "year": "2014"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "2014",
+              "beginOffset": 40
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      },
+      {
+        "name": "2014",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "2014"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "2014",
+              "beginOffset": 40
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Which players played for Switzerland in 2014? Return the names of the players.",
+    "values": [
+      "sui",
+      "2014"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "players",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.34986904,
+        "mentions": [
+          {
+            "text": {
+              "content": "players",
+              "beginOffset": 15
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "part",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.27097967,
+        "mentions": [
+          {
+            "text": {
+              "content": "part",
+              "beginOffset": 28
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "squad",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.1912996,
+        "mentions": [
+          {
+            "text": {
+              "content": "squad",
+              "beginOffset": 49
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Switzerlands",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.11514917,
+        "mentions": [
+          {
+            "text": {
+              "content": "Switzerlands",
+              "beginOffset": 36
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "players",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.053374693,
+        "mentions": [
+          {
+            "text": {
+              "content": "players",
+              "beginOffset": 88
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "names",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.019327814,
+        "mentions": [
+          {
+            "text": {
+              "content": "names",
+              "beginOffset": 75
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "2010",
+        "type": "DATE",
+        "metadata": {
+          "year": "2010"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "2010",
+              "beginOffset": 58
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      },
+      {
+        "name": "2010",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "2010"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "2010",
+              "beginOffset": 58
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Which distinct players were part of Switzerlands squad in 2010? Return the names of the players.",
+    "values": [
+      "sui",
+      "2010"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.6823475,
+        "mentions": [
+          {
+            "text": {
+              "content": "name",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "player",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.18576756,
+        "mentions": [
+          {
+            "text": {
+              "content": "player",
+              "beginOffset": 24
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.13188498,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 53
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "What is the name of the player that had the most own goals?",
+    "values": [
+      "t"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "team",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.64774305,
+        "mentions": [
+          {
+            "text": {
+              "content": "team",
+              "beginOffset": 10
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Yobo",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.2512863,
+        "mentions": [
+          {
+            "text": {
+              "content": "Yobo",
+              "beginOffset": 19
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "team name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.10097064,
+        "mentions": [
+          {
+            "text": {
+              "content": "team name",
+              "beginOffset": 43
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "For which team has Yobo played? Return the team name.",
+    "values": [
+      "yobo"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "team",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.5768038,
+        "mentions": [
+          {
+            "text": {
+              "content": "team",
+              "beginOffset": 7
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "most",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.15768881,
+        "mentions": [
+          {
+            "text": {
+              "content": "most",
+              "beginOffset": 38
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "world cup",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.1558988,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup",
+              "beginOffset": 24
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "number",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.054940786,
+        "mentions": [
+          {
+            "text": {
+              "content": "number",
+              "beginOffset": 73
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "wins",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.038735844,
+        "mentions": [
+          {
+            "text": {
+              "content": "wins",
+              "beginOffset": 83
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "team name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.015931973,
+        "mentions": [
+          {
+            "text": {
+              "content": "team name",
+              "beginOffset": 55
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Which team has won the world cup the most? Return the team name and the number of wins.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "team",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.6136188,
+        "mentions": [
+          {
+            "text": {
+              "content": "team",
+              "beginOffset": 6
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "most",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.16517241,
+        "mentions": [
+          {
+            "text": {
+              "content": "most",
+              "beginOffset": 29
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "runner-up",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.16332254,
+        "mentions": [
+          {
+            "text": {
+              "content": "runner-up",
+              "beginOffset": 15
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "count",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.040992666,
+        "mentions": [
+          {
+            "text": {
+              "content": "count",
+              "beginOffset": 64
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "team name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.016893601,
+        "mentions": [
+          {
+            "text": {
+              "content": "team name",
+              "beginOffset": 46
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Which team was runner-up the most? Return the team name and the count.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.58150464,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 21
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "world cups",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.4184954,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cups",
+              "beginOffset": 43
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show me the year and goals scored from all world cups.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.7028357,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "world cups",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.29716432,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cups",
+              "beginOffset": 47
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show me the goals scored and the year from all world cups ordered by year.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.43771473,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.40005666,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 69
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "world cups",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.16222861,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cups",
+              "beginOffset": 47
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show me the goals scored and the year from all world cups ordered by goals scored.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "world cups",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.35448262,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cups",
+              "beginOffset": 47
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.33726677,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.3082506,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 69
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show me the goals scored and the year from all world cups ordered by goals scored descending.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "player",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.35704082,
+        "mentions": [
+          {
+            "text": {
+              "content": "player",
+              "beginOffset": 22
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.33556247,
+        "mentions": [
+          {
+            "text": {
+              "content": "name",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "SCHWEINSTEIGER",
+        "type": "PERSON",
+        "metadata": {
+          "mid": "/m/06n0nr",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Bastian_Schweinsteiger"
+        },
+        "salience": 0.16621533,
+        "mentions": [
+          {
+            "text": {
+              "content": "SCHWEINSTEIGER",
+              "beginOffset": 39
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.14118138,
+        "mentions": [
+          {
+            "text": {
+              "content": "name",
+              "beginOffset": 34
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me the name of a player with name SCHWEINSTEIGER.",
+    "values": [
+      "SCHWEINSTEIGER"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.44946104,
+        "mentions": [
+          {
+            "text": {
+              "content": "name",
+              "beginOffset": 33
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "list",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.29067892,
+        "mentions": [
+          {
+            "text": {
+              "content": "list",
+              "beginOffset": 10
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "players",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.25986007,
+        "mentions": [
+          {
+            "text": {
+              "content": "players",
+              "beginOffset": 18
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me a list of players with a name that begins with m.",
+    "values": [
+      "m"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "player",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.5491407,
+        "mentions": [
+          {
+            "text": {
+              "content": "player",
+              "beginOffset": 10
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.23178884,
+        "mentions": [
+          {
+            "text": {
+              "content": "name",
+              "beginOffset": 24
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "XHAKA",
+        "type": "PERSON",
+        "metadata": {
+          "mid": "/m/0ddf48z",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Granit_Xhaka"
+        },
+        "salience": 0.21907046,
+        "mentions": [
+          {
+            "text": {
+              "content": "XHAKA",
+              "beginOffset": 34
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me a player with a name like XHAKA",
+    "values": [
+      "XHAKA"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "players",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.627525,
+        "mentions": [
+          {
+            "text": {
+              "content": "players",
+              "beginOffset": 26
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "names",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.3172716,
+        "mentions": [
+          {
+            "text": {
+              "content": "names",
+              "beginOffset": 13
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "France",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/m/0f8l9c",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/France"
+        },
+        "salience": 0.055203415,
+        "mentions": [
+          {
+            "text": {
+              "content": "France",
+              "beginOffset": 49
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "1998",
+        "type": "DATE",
+        "metadata": {
+          "year": "1998"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "1998",
+              "beginOffset": 59
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      },
+      {
+        "name": "1998",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "1998"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "1998",
+              "beginOffset": 59
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Give me the names of the players who played for France in 1998.",
+    "values": [
+      "france",
+      "1998"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "world cup",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 1,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup",
+              "beginOffset": 28
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "In which year was the first world cup played?",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "world cup",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 1,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup",
+              "beginOffset": 19
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "When was the first world cup played? Return the year.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "world cup",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 1,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup",
+              "beginOffset": 30
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me the year of the first world cup played.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "matches",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.61292356,
+        "mentions": [
+          {
+            "text": {
+              "content": "matches",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "stage",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.38707644,
+        "mentions": [
+          {
+            "text": {
+              "content": "stage",
+              "beginOffset": 30
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show me the matches where the stage was final.",
+    "values": [
+      "final"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "player",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.40069178,
+        "mentions": [
+          {
+            "text": {
+              "content": "player",
+              "beginOffset": 24
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.31326786,
+        "mentions": [
+          {
+            "text": {
+              "content": "name",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "matches",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.28604037,
+        "mentions": [
+          {
+            "text": {
+              "content": "matches",
+              "beginOffset": 52
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show me the name of the player with the most played matches.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "player",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.62448597,
+        "mentions": [
+          {
+            "text": {
+              "content": "player",
+              "beginOffset": 24
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.1729855,
+        "mentions": [
+          {
+            "text": {
+              "content": "name",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "earliest",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.15759674,
+        "mentions": [
+          {
+            "text": {
+              "content": "earliest",
+              "beginOffset": 54
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "red card",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.044931795,
+        "mentions": [
+          {
+            "text": {
+              "content": "red card",
+              "beginOffset": 41
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show me the name of the player who got a red card the earliest.",
+    "values": [
+      "t"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "team names",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.3917541,
+        "mentions": [
+          {
+            "text": {
+              "content": "team names",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "winner",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.35489693,
+        "mentions": [
+          {
+            "text": {
+              "content": "winner",
+              "beginOffset": 34
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "runner-up",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.25334898,
+        "mentions": [
+          {
+            "text": {
+              "content": "runner-up",
+              "beginOffset": 49
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "2014",
+        "type": "DATE",
+        "metadata": {
+          "year": "2014"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "2014",
+              "beginOffset": 64
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      },
+      {
+        "name": "2014",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "2014"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "2014",
+              "beginOffset": 64
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me the team names of the the winner and the runner-up from 2014.",
+    "values": [
+      "2014"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "stadium names",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 1,
+        "mentions": [
+          {
+            "text": {
+              "content": "stadium names",
+              "beginOffset": 16
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me all the stadium names.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "player names",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 1,
+        "mentions": [
+          {
+            "text": {
+              "content": "player names",
+              "beginOffset": 16
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me all the player names.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "team names",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 1,
+        "mentions": [
+          {
+            "text": {
+              "content": "team names",
+              "beginOffset": 35
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me all the different national team names.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "coach names",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 1,
+        "mentions": [
+          {
+            "text": {
+              "content": "coach names",
+              "beginOffset": 16
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me all the coach names.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "positions",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 1,
+        "mentions": [
+          {
+            "text": {
+              "content": "positions",
+              "beginOffset": 26
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me all the different positions.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "team",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.5690227,
+        "mentions": [
+          {
+            "text": {
+              "content": "team",
+              "beginOffset": 47
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "team names",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.43097728,
+        "mentions": [
+          {
+            "text": {
+              "content": "team names",
+              "beginOffset": 25
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me all the national team names grouped by team and ordered by year.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "team",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.41152862,
+        "mentions": [
+          {
+            "text": {
+              "content": "team",
+              "beginOffset": 47
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "team names",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.30593982,
+        "mentions": [
+          {
+            "text": {
+              "content": "team names",
+              "beginOffset": 25
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "descending",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.28253156,
+        "mentions": [
+          {
+            "text": {
+              "content": "descending",
+              "beginOffset": 72
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me all the national team names grouped by team and ordered by year descending.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "team",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.6300195,
+        "mentions": [
+          {
+            "text": {
+              "content": "team",
+              "beginOffset": 25
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.17576763,
+        "mentions": [
+          {
+            "text": {
+              "content": "name",
+              "beginOffset": 13
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "most",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.11853173,
+        "mentions": [
+          {
+            "text": {
+              "content": "most",
+              "beginOffset": 51
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "team name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.055588137,
+        "mentions": [
+          {
+            "text": {
+              "content": "team name",
+              "beginOffset": 82
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "count",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.02009301,
+        "mentions": [
+          {
+            "text": {
+              "content": "count",
+              "beginOffset": 68
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Show me the name of the team, which got third the most. Return the count and the team name.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "team",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.66091263,
+        "mentions": [
+          {
+            "text": {
+              "content": "team",
+              "beginOffset": 15
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "most",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.2199525,
+        "mentions": [
+          {
+            "text": {
+              "content": "most",
+              "beginOffset": 35
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "team name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.08436641,
+        "mentions": [
+          {
+            "text": {
+              "content": "team name",
+              "beginOffset": 66
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "count",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.034768477,
+        "mentions": [
+          {
+            "text": {
+              "content": "count",
+              "beginOffset": 52
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Show me which team got fourth the most. Return the count and the team name.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "team",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.49831003,
+        "mentions": [
+          {
+            "text": {
+              "content": "team",
+              "beginOffset": 15
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "most",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.2529846,
+        "mentions": [
+          {
+            "text": {
+              "content": "most",
+              "beginOffset": 41
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "place",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.16100024,
+        "mentions": [
+          {
+            "text": {
+              "content": "place",
+              "beginOffset": 31
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "team name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.062145013,
+        "mentions": [
+          {
+            "text": {
+              "content": "team name",
+              "beginOffset": 72
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "count",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.025560115,
+        "mentions": [
+          {
+            "text": {
+              "content": "count",
+              "beginOffset": 58
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Show me which team got second place the most. Return the count and the team name.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "team",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.4987943,
+        "mentions": [
+          {
+            "text": {
+              "content": "team",
+              "beginOffset": 15
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "place",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.2503559,
+        "mentions": [
+          {
+            "text": {
+              "content": "place",
+              "beginOffset": 30
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "most",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.16305944,
+        "mentions": [
+          {
+            "text": {
+              "content": "most",
+              "beginOffset": 40
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "team name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.062205404,
+        "mentions": [
+          {
+            "text": {
+              "content": "team name",
+              "beginOffset": 71
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "count",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.025584953,
+        "mentions": [
+          {
+            "text": {
+              "content": "count",
+              "beginOffset": 57
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Show me which team got first place the most. Return the count and the team name.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "team",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.39141613,
+        "mentions": [
+          {
+            "text": {
+              "content": "team",
+              "beginOffset": 24
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.30785295,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 49
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "number",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.09491282,
+        "mentions": [
+          {
+            "text": {
+              "content": "number",
+              "beginOffset": 104
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.08209108,
+        "mentions": [
+          {
+            "text": {
+              "content": "name",
+              "beginOffset": 67
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.075911865,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 114
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "team",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.04781514,
+        "mentions": [
+          {
+            "text": {
+              "content": "team",
+              "beginOffset": 79
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Show me which national team has scored the most goals. Return the name of the team alongside the total number of goals.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "names",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.42910627,
+        "mentions": [
+          {
+            "text": {
+              "content": "names",
+              "beginOffset": 13
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "teams",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.39181077,
+        "mentions": [
+          {
+            "text": {
+              "content": "teams",
+              "beginOffset": 45
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "goal",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.17908297,
+        "mentions": [
+          {
+            "text": {
+              "content": "goal",
+              "beginOffset": 32
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "3",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "3"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "3",
+              "beginOffset": 30
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Show me the names of the top 3 goal scoring teams.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "teams",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.22253183,
+        "mentions": [
+          {
+            "text": {
+              "content": "teams",
+              "beginOffset": 49
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "goal",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.1943781,
+        "mentions": [
+          {
+            "text": {
+              "content": "goal",
+              "beginOffset": 36
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "team names",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.15164259,
+        "mentions": [
+          {
+            "text": {
+              "content": "team names",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "France",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/m/0f8l9c",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/France"
+        },
+        "salience": 0.10887109,
+        "mentions": [
+          {
+            "text": {
+              "content": "France",
+              "beginOffset": 63
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Brazil",
+        "type": "LOCATION",
+        "metadata": {
+          "mid": "/m/015fr",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Brazil"
+        },
+        "salience": 0.10887109,
+        "mentions": [
+          {
+            "text": {
+              "content": "Brazil",
+              "beginOffset": 71
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Italy",
+        "type": "LOCATION",
+        "metadata": {
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Italy",
+          "mid": "/m/03rjj"
+        },
+        "salience": 0.0825283,
+        "mentions": [
+          {
+            "text": {
+              "content": "Italy",
+              "beginOffset": 91
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Argentina",
+        "type": "LOCATION",
+        "metadata": {
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Argentina",
+          "mid": "/m/0jgd"
+        },
+        "salience": 0.058074296,
+        "mentions": [
+          {
+            "text": {
+              "content": "Argentina",
+              "beginOffset": 101
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Germany",
+        "type": "LOCATION",
+        "metadata": {
+          "mid": "/m/0345h",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Germany"
+        },
+        "salience": 0.036551364,
+        "mentions": [
+          {
+            "text": {
+              "content": "Germany",
+              "beginOffset": 79
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "FR",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.036551364,
+        "mentions": [
+          {
+            "text": {
+              "content": "FR",
+              "beginOffset": 87
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "5",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "5"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "5",
+              "beginOffset": 34
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show me the team names of the top 5 goal scoring teams without France, Brazil, Germany FR, Italy and Argentina.",
+    "values": [
+      "France",
+      "Brazil",
+      "Germany FR",
+      "Italy",
+      "Argentina"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.30565646,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 18
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "score",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.28561383,
+        "mentions": [
+          {
+            "text": {
+              "content": "score",
+              "beginOffset": 40
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "world cup history",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.2194575,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup history",
+              "beginOffset": 49
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Siwtzerland",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.1892722,
+        "mentions": [
+          {
+            "text": {
+              "content": "Siwtzerland",
+              "beginOffset": 28
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Show me how many goals did Siwtzerland score in world cup history.",
+    "values": [
+      "Switzerland"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.51946944,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 13
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "teams",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.48053056,
+        "mentions": [
+          {
+            "text": {
+              "content": "teams",
+              "beginOffset": 33
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Give me the goals of all german teams.",
+    "values": [
+      "Germany"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "teams goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.5646831,
+        "mentions": [
+          {
+            "text": {
+              "content": "teams goals",
+              "beginOffset": 35
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "number",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.4353169,
+        "mentions": [
+          {
+            "text": {
+              "content": "number",
+              "beginOffset": 18
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show me the total number of french teams goals.",
+    "values": [
+      "fra"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.38659224,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 9
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "teams",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.23351593,
+        "mentions": [
+          {
+            "text": {
+              "content": "teams",
+              "beginOffset": 31
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "total",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.20379794,
+        "mentions": [
+          {
+            "text": {
+              "content": "total",
+              "beginOffset": 47
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "german",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.17609389,
+        "mentions": [
+          {
+            "text": {
+              "content": "german",
+              "beginOffset": 24
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "How many goals have the german teams scored in total?",
+    "values": [
+      "Germany"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.3917541,
+        "mentions": [
+          {
+            "text": {
+              "content": "name",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "player",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.35489693,
+        "mentions": [
+          {
+            "text": {
+              "content": "player",
+              "beginOffset": 24
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "substitutions",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.25334898,
+        "mentions": [
+          {
+            "text": {
+              "content": "substitutions",
+              "beginOffset": 45
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me the name of the player with the most substitutions in.",
+    "values": [
+      "t"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.45423505,
+        "mentions": [
+          {
+            "text": {
+              "content": "name",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "player",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.41149953,
+        "mentions": [
+          {
+            "text": {
+              "content": "player",
+              "beginOffset": 24
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "penalties",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.13426542,
+        "mentions": [
+          {
+            "text": {
+              "content": "penalties",
+              "beginOffset": 52
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me the name of the player with the most missed penalties are true.",
+    "values": [
+      "t"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "player name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.58150464,
+        "mentions": [
+          {
+            "text": {
+              "content": "player name",
+              "beginOffset": 24
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.4184954,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 47
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Give me minute and the player name of all own goals.",
+    "values": [
+      "t"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "world cup history",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.6037858,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup history",
+              "beginOffset": 33
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.39621422,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 13
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "How many own goals were there in world cup history.",
+    "values": [
+      "t"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "sum",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.7005169,
+        "mentions": [
+          {
+            "text": {
+              "content": "sum",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "matches",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.29948312,
+        "mentions": [
+          {
+            "text": {
+              "content": "matches",
+              "beginOffset": 23
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me the sum of all matches played.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "matches",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.4456108,
+        "mentions": [
+          {
+            "text": {
+              "content": "matches",
+              "beginOffset": 9
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "total",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.3223799,
+        "mentions": [
+          {
+            "text": {
+              "content": "total",
+              "beginOffset": 32
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "world cup history",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.23200932,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup history",
+              "beginOffset": 50
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "How many matches were played in total accross all world cup history?",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "team names",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.38629764,
+        "mentions": [
+          {
+            "text": {
+              "content": "team names",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "teams",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.3638821,
+        "mentions": [
+          {
+            "text": {
+              "content": "teams",
+              "beginOffset": 48
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "world cups",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.24982026,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cups",
+              "beginOffset": 65
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "four",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "4"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "four",
+              "beginOffset": 36
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me the team names of the first four placed teams across all world cups.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "venues",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 1,
+        "mentions": [
+          {
+            "text": {
+              "content": "venues",
+              "beginOffset": 17
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Give me all the venues.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "venues",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 1,
+        "mentions": [
+          {
+            "text": {
+              "content": "venues",
+              "beginOffset": 17
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Show me all the venues.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "attendances",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.3835938,
+        "mentions": [
+          {
+            "text": {
+              "content": "attendances",
+              "beginOffset": 23
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "sum",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.32046282,
+        "mentions": [
+          {
+            "text": {
+              "content": "sum",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "venues",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.29594338,
+        "mentions": [
+          {
+            "text": {
+              "content": "venues",
+              "beginOffset": 43
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me the sum of all attendances and the venues.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "count",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.7005169,
+        "mentions": [
+          {
+            "text": {
+              "content": "count",
+              "beginOffset": 13
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "penalties",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.29948312,
+        "mentions": [
+          {
+            "text": {
+              "content": "penalties",
+              "beginOffset": 26
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Give me the count of all penalties.",
+    "values": [
+      "t"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "count",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.51946944,
+        "mentions": [
+          {
+            "text": {
+              "content": "count",
+              "beginOffset": 13
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "penalties",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.48053056,
+        "mentions": [
+          {
+            "text": {
+              "content": "penalties",
+              "beginOffset": 37
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Give me the count of all successful penalties.",
+    "values": [
+      "t"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "count",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.7005169,
+        "mentions": [
+          {
+            "text": {
+              "content": "count",
+              "beginOffset": 13
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "penalties",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.29948312,
+        "mentions": [
+          {
+            "text": {
+              "content": "penalties",
+              "beginOffset": 29
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Give me the count of missed penalties.",
+    "values": [
+      "t"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "players",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.7973141,
+        "mentions": [
+          {
+            "text": {
+              "content": "players",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Italy",
+        "type": "LOCATION",
+        "metadata": {
+          "mid": "/m/03rjj",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Italy"
+        },
+        "salience": 0.20268592,
+        "mentions": [
+          {
+            "text": {
+              "content": "Italy",
+              "beginOffset": 25
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me all players from Italy.",
+    "values": [
+      "Italy"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "players",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.6365852,
+        "mentions": [
+          {
+            "text": {
+              "content": "players",
+              "beginOffset": 14
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Argentina",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.3634148,
+        "mentions": [
+          {
+            "text": {
+              "content": "Argentina",
+              "beginOffset": 27
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Give mne all players from Argentina\n",
+    "values": [
+      "Argentina"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "matches",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 1,
+        "mentions": [
+          {
+            "text": {
+              "content": "matches",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me all matches.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "stages",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 1,
+        "mentions": [
+          {
+            "text": {
+              "content": "stages",
+              "beginOffset": 21
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me all distinct stages.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "matches",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.5732733,
+        "mentions": [
+          {
+            "text": {
+              "content": "matches",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "stage",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.16049108,
+        "mentions": [
+          {
+            "text": {
+              "content": "stage",
+              "beginOffset": 26
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.08756778,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 70
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "team",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.07567302,
+        "mentions": [
+          {
+            "text": {
+              "content": "team",
+              "beginOffset": 104
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "teamnames",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.07304736,
+        "mentions": [
+          {
+            "text": {
+              "content": "teamnames",
+              "beginOffset": 55
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "home",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.029947465,
+        "mentions": [
+          {
+            "text": {
+              "content": "home",
+              "beginOffset": 90
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me all matches where stage is final including the teamnames, the goals scored by the home and away team and year.",
+    "values": [
+      "Cant handle this sample as it has more than 5 select columns"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "stage",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.5920082,
+        "mentions": [
+          {
+            "text": {
+              "content": "stage",
+              "beginOffset": 26
+            },
+            "type": "COMMON"
+          },
+          {
+            "text": {
+              "content": "Match",
+              "beginOffset": 36
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "matches",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.33107528,
+        "mentions": [
+          {
+            "text": {
+              "content": "matches",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "teamnames",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.03961744,
+        "mentions": [
+          {
+            "text": {
+              "content": "teamnames",
+              "beginOffset": 73
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "place",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.037299104,
+        "mentions": [
+          {
+            "text": {
+              "content": "place",
+              "beginOffset": 52
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me all matches where stage is \"Match for third place\" including the teamnames.",
+    "values": [
+      "Match for third place"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "matches",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.5443084,
+        "mentions": [
+          {
+            "text": {
+              "content": "matches",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "stage",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.19570918,
+        "mentions": [
+          {
+            "text": {
+              "content": "stage",
+              "beginOffset": 26
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Semi-finals",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.18084443,
+        "mentions": [
+          {
+            "text": {
+              "content": "Semi-finals",
+              "beginOffset": 35
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "teamnames",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.07913797,
+        "mentions": [
+          {
+            "text": {
+              "content": "teamnames",
+              "beginOffset": 61
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me all matches where stage is Semi-finals including the teamnames.",
+    "values": [
+      "Semi-finals"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "matches",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.61577326,
+        "mentions": [
+          {
+            "text": {
+              "content": "matches",
+              "beginOffset": 13
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "stage",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.21892805,
+        "mentions": [
+          {
+            "text": {
+              "content": "stage",
+              "beginOffset": 27
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "teamnames",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.089528374,
+        "mentions": [
+          {
+            "text": {
+              "content": "teamnames",
+              "beginOffset": 65
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Quarter-finals",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.07577031,
+        "mentions": [
+          {
+            "text": {
+              "content": "Quarter-finals",
+              "beginOffset": 36
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " give me all matches where stage is Quarter-finals including the teamnames.",
+    "values": [
+      "Quarter-finals"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "matches",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.69761497,
+        "mentions": [
+          {
+            "text": {
+              "content": "matches",
+              "beginOffset": 13
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "stage",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.25513983,
+        "mentions": [
+          {
+            "text": {
+              "content": "stage",
+              "beginOffset": 27
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "teamnames",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.047245212,
+        "mentions": [
+          {
+            "text": {
+              "content": "teamnames",
+              "beginOffset": 56
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " give me all matches where stage is Final including the teamnames ordered descending by year\n",
+    "values": [
+      "Final"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "stage",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.5763872,
+        "mentions": [
+          {
+            "text": {
+              "content": "stage",
+              "beginOffset": 27
+            },
+            "type": "COMMON"
+          },
+          {
+            "text": {
+              "content": "Match",
+              "beginOffset": 37
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "matches",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.30184805,
+        "mentions": [
+          {
+            "text": {
+              "content": "matches",
+              "beginOffset": 13
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "place",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.09896241,
+        "mentions": [
+          {
+            "text": {
+              "content": "place",
+              "beginOffset": 53
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "teamnames",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.022802325,
+        "mentions": [
+          {
+            "text": {
+              "content": "teamnames",
+              "beginOffset": 74
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " give me all matches where stage is \"Match for third place\" including the teamnames ordered by year descending\n",
+    "values": [
+      "Match for third place",
+      "third place"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "matches",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.45444915,
+        "mentions": [
+          {
+            "text": {
+              "content": "matches",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Semi-finals",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.21653256,
+        "mentions": [
+          {
+            "text": {
+              "content": "Semi-finals",
+              "beginOffset": 35
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "stage",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.21411036,
+        "mentions": [
+          {
+            "text": {
+              "content": "stage",
+              "beginOffset": 26
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "teamnames",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.11490792,
+        "mentions": [
+          {
+            "text": {
+              "content": "teamnames",
+              "beginOffset": 61
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me all matches where stage is Semi-finals including the teamnames ordered descending by year.",
+    "values": [
+      "Semi-finals"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "matches",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.5006156,
+        "mentions": [
+          {
+            "text": {
+              "content": "matches",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "stage",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.23586133,
+        "mentions": [
+          {
+            "text": {
+              "content": "stage",
+              "beginOffset": 26
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Quarter-finals",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.22041251,
+        "mentions": [
+          {
+            "text": {
+              "content": "Quarter-finals",
+              "beginOffset": 35
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "teamnames",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.04311055,
+        "mentions": [
+          {
+            "text": {
+              "content": "teamnames",
+              "beginOffset": 64
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me all matches where stage is Quarter-finals including the teamnames ordered descending by year\n",
+    "values": [
+      "Quarter-finals"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "stage",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.6792612,
+        "mentions": [
+          {
+            "text": {
+              "content": "stage",
+              "beginOffset": 27
+            },
+            "type": "COMMON"
+          },
+          {
+            "text": {
+              "content": "Round",
+              "beginOffset": 37
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "matches",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.25337705,
+        "mentions": [
+          {
+            "text": {
+              "content": "matches",
+              "beginOffset": 13
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "teamname",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.06736178,
+        "mentions": [
+          {
+            "text": {
+              "content": "teamname",
+              "beginOffset": 64
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "16",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "16"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "16",
+              "beginOffset": 46
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Show me all matches where stage is \"Round of 16\" including the teamname.",
+    "values": [
+      "Round of 16"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "matches",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.44774628,
+        "mentions": [
+          {
+            "text": {
+              "content": "matches",
+              "beginOffset": 13
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "stage",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.30035722,
+        "mentions": [
+          {
+            "text": {
+              "content": "stage",
+              "beginOffset": 27
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Round",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.21333882,
+        "mentions": [
+          {
+            "text": {
+              "content": "Round",
+              "beginOffset": 37
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "teamnames",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.0385577,
+        "mentions": [
+          {
+            "text": {
+              "content": "teamnames",
+              "beginOffset": 64
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "16",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "16"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "16",
+              "beginOffset": 46
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " give me all matches where stage is \"Round of 16\" including the teamnames ordered descending by year.",
+    "values": [
+      "Round of 16"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "home goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.2608878,
+        "mentions": [
+          {
+            "text": {
+              "content": "home goals",
+              "beginOffset": 28
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "teamnames",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.2592931,
+        "mentions": [
+          {
+            "text": {
+              "content": "teamnames",
+              "beginOffset": 13
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "away goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.24372584,
+        "mentions": [
+          {
+            "text": {
+              "content": "away goals",
+              "beginOffset": 44
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "match",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.16552998,
+        "mentions": [
+          {
+            "text": {
+              "content": "match",
+              "beginOffset": 77
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Switzerland",
+        "type": "LOCATION",
+        "metadata": {
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Switzerland",
+          "mid": "/m/06mzp"
+        },
+        "salience": 0.07056328,
+        "mentions": [
+          {
+            "text": {
+              "content": "Switzerland",
+              "beginOffset": 93
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Give me the teamnames, the home goals, the away goals and the year of every match played by Switzerland\n",
+    "values": [
+      "Switzerland"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.4130752,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 28
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "teamnames",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.32523793,
+        "mentions": [
+          {
+            "text": {
+              "content": "teamnames",
+              "beginOffset": 13
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "match",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.13455671,
+        "mentions": [
+          {
+            "text": {
+              "content": "match",
+              "beginOffset": 56
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Netherlands",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Netherlands",
+          "mid": "/m/059j2"
+        },
+        "salience": 0.12713017,
+        "mentions": [
+          {
+            "text": {
+              "content": "Netherlands",
+              "beginOffset": 72
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Show me the teamnames, the goals and the year of every match played by Netherlands\n",
+    "values": [
+      "Netherlands"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.3580972,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 31
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "teamnames",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.19225316,
+        "mentions": [
+          {
+            "text": {
+              "content": "teamnames",
+              "beginOffset": 20
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "side",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.18113774,
+        "mentions": [
+          {
+            "text": {
+              "content": "side",
+              "beginOffset": 87
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Argentinian",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.15370746,
+        "mentions": [
+          {
+            "text": {
+              "content": "Argentinian",
+              "beginOffset": 75
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "match",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.11480443,
+        "mentions": [
+          {
+            "text": {
+              "content": "match",
+              "beginOffset": 55
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Can you show me the teamnames, goals and year of every match played by the Argentinian side?",
+    "values": [
+      "Argentina"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "teams names",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.7005169,
+        "mentions": [
+          {
+            "text": {
+              "content": "teams names",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "world cup",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.29948312,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup",
+              "beginOffset": 33
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "1994",
+        "type": "DATE",
+        "metadata": {
+          "year": "1994"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "1994",
+              "beginOffset": 43
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      },
+      {
+        "name": "1994",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "1994"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "1994",
+              "beginOffset": 43
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me all teams names from the world cup 1994.",
+    "values": [
+      "1994"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "team names",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.8060447,
+        "mentions": [
+          {
+            "text": {
+              "content": "team names",
+              "beginOffset": 7
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "world cup",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.19395527,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup",
+              "beginOffset": 37
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "1966",
+        "type": "DATE",
+        "metadata": {
+          "year": "1966"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "1966",
+              "beginOffset": 47
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      },
+      {
+        "name": "1966",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "1966"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "1966",
+              "beginOffset": 47
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Which team names that played in the world cup 1966?",
+    "values": [
+      "1966"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "team names",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.7983086,
+        "mentions": [
+          {
+            "text": {
+              "content": "team names",
+              "beginOffset": 6
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "world cup",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.20169136,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup",
+              "beginOffset": 37
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "2006",
+        "type": "DATE",
+        "metadata": {
+          "year": "2006"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "2006",
+              "beginOffset": 47
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      },
+      {
+        "name": "2006",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "2006"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "2006",
+              "beginOffset": 47
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " What team names participated in the world cup 2006?",
+    "values": [
+      "2006"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "players",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.55826557,
+        "mentions": [
+          {
+            "text": {
+              "content": "players",
+              "beginOffset": 16
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "goal",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.20333542,
+        "mentions": [
+          {
+            "text": {
+              "content": "goal",
+              "beginOffset": 38
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "world cup",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.1902358,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup",
+              "beginOffset": 50
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.048163228,
+        "mentions": [
+          {
+            "text": {
+              "content": "name",
+              "beginOffset": 72
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Which distinct players have scored a goal at the world cup? Return the name.",
+    "values": [
+      "t"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "players",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.66702753,
+        "mentions": [
+          {
+            "text": {
+              "content": "players",
+              "beginOffset": 16
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "red card",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.22326481,
+        "mentions": [
+          {
+            "text": {
+              "content": "red card",
+              "beginOffset": 38
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "world cup",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.07284758,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup",
+              "beginOffset": 54
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.036860056,
+        "mentions": [
+          {
+            "text": {
+              "content": "name",
+              "beginOffset": 76
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Which distinct players have gotten a red card at the world cup? Return the name.",
+    "values": [
+      "t"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "players",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.66702753,
+        "mentions": [
+          {
+            "text": {
+              "content": "players",
+              "beginOffset": 16
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "card",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.22326481,
+        "mentions": [
+          {
+            "text": {
+              "content": "card",
+              "beginOffset": 45
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "world cup",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.07284758,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup",
+              "beginOffset": 57
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.036860056,
+        "mentions": [
+          {
+            "text": {
+              "content": "name",
+              "beginOffset": 79
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Which distinct players have gotten a yellow card at the world cup? Return the name.",
+    "values": [
+      "t"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "players",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.66702753,
+        "mentions": [
+          {
+            "text": {
+              "content": "players",
+              "beginOffset": 16
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "card",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.22326481,
+        "mentions": [
+          {
+            "text": {
+              "content": "card",
+              "beginOffset": 52
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "world cup",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.07284758,
+        "mentions": [
+          {
+            "text": {
+              "content": "world cup",
+              "beginOffset": 64
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.036860056,
+        "mentions": [
+          {
+            "text": {
+              "content": "name",
+              "beginOffset": 86
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": " Which distinct players have gotten a second yellow card at the world cup? Return the name.",
+    "values": [
+      "t"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "Squad",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.426759,
+        "mentions": [
+          {
+            "text": {
+              "content": "Squad",
+              "beginOffset": 29
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.30712855,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 49
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "French",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.26611245,
+        "mentions": [
+          {
+            "text": {
+              "content": "French",
+              "beginOffset": 22
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "In which year has the French Squad shot the most goals?",
+    "values": [
+      "France"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.5647999,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 45
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Swiss Team",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/m/032jlh",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Switzerland_national_football_team"
+        },
+        "salience": 0.4352001,
+        "mentions": [
+          {
+            "text": {
+              "content": "Swiss Team",
+              "beginOffset": 18
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "What year has the Swiss Team scored the most goals?",
+    "values": [
+      "Switzerland"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.67735374,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "goals",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.19935715,
+        "mentions": [
+          {
+            "text": {
+              "content": "goals",
+              "beginOffset": 65
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Germany",
+        "type": "LOCATION",
+        "metadata": {
+          "mid": "/m/0345h",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Germany"
+        },
+        "salience": 0.12328913,
+        "mentions": [
+          {
+            "text": {
+              "content": "Germany",
+              "beginOffset": 37
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me the goals and the year where Germany has scored the most goals.",
+    "values": [
+      "Germany"
+    ]
+  }
+]

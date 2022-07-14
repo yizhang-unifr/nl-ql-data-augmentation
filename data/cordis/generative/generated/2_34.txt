@@ -1,0 +1,16 @@
+SELECT project_members.member_role, count(*) FROM project_members  GROUP BY project_members.member_role
+
+###
+
+
+Original Query:
+SELECT project_members.member_role, count(*) FROM project_members  GROUP BY project_members.member_role
+GPT-3 choices:
+(0) Count the number of project members' roles
+(1) Retrieve number of project members per role.
+(2) What is the number of project members in Brussels?
+(3) How many project members are there?
+(4) How many project members are there?
+(5) How many members have distinct roles?
+(6) Count the number of project members with a role
+(7) How many project members are there?

@@ -1,0 +1,149 @@
+[
+  {
+    "name": "employee",
+    "original_name": "employee",
+    "logical_name": "employee",
+    "columns": [
+      {
+        "name": "employee id",
+        "original_name": "Employee_ID",
+        "logical_name": "Employee_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "name",
+        "original_name": "Name",
+        "logical_name": "Name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "age",
+        "original_name": "Age",
+        "logical_name": "Age",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "city",
+        "original_name": "City",
+        "logical_name": "City",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "shop",
+    "original_name": "shop",
+    "logical_name": "shop",
+    "columns": [
+      {
+        "name": "shop id",
+        "original_name": "Shop_ID",
+        "logical_name": "Shop_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "name",
+        "original_name": "Name",
+        "logical_name": "Name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "location",
+        "original_name": "Location",
+        "logical_name": "Location",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "district",
+        "original_name": "District",
+        "logical_name": "District",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "number products",
+        "original_name": "Number_products",
+        "logical_name": "Number_products",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "manager name",
+        "original_name": "Manager_name",
+        "logical_name": "Manager_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "hiring",
+    "original_name": "hiring",
+    "logical_name": "hiring",
+    "columns": [
+      {
+        "name": "shop id",
+        "original_name": "Shop_ID",
+        "logical_name": "Shop_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "employee id",
+        "original_name": "Employee_ID",
+        "logical_name": "Employee_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "start from",
+        "original_name": "Start_from",
+        "logical_name": "Start_from",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "is full time",
+        "original_name": "Is_full_time",
+        "logical_name": "Is_full_time",
+        "original_datatype": "others",
+        "logical_datatype": "others"
+      }
+    ]
+  },
+  {
+    "name": "evaluation",
+    "original_name": "evaluation",
+    "logical_name": "evaluation",
+    "columns": [
+      {
+        "name": "employee id",
+        "original_name": "Employee_ID",
+        "logical_name": "Employee_ID",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "year awarded",
+        "original_name": "Year_awarded",
+        "logical_name": "Year_awarded",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "bonus",
+        "original_name": "Bonus",
+        "logical_name": "Bonus",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  }
+]

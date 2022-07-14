@@ -1,0 +1,28 @@
+SELECT project_member_roles.code FROM project_member_roles WHERE project_member_roles.description != 'thirdParty'
+
+###
+
+
+Original Query:
+SELECT project_member_roles.code FROM project_member_roles WHERE project_member_roles.description != 'thirdParty'
+GPT-3 choices:
+(0) Show project member role whoever is about not third party
+(1) Show me project member roles that are not third party.
+(2) Retrieve project member roles which are not third parties.
+(3) Show me all project member roles different from 'thirdParty'.
+(4) Show me project member role descriptions that are not third parties
+(5) Show me all project member roles except third party
+(6) Show project member roles that are not third party.
+(7) Show project member role descriptions that are not 'thirdParty'
+
+
+Re-ranked choices:
+6.112  Show project member roles that are not third party.
+6.103  Show me project member roles that are not third party.
+6.013  Show me all project member roles except third party
+5.930  Show me project member role descriptions that are not third parties
+5.792  Show project member role whoever is about not third party
+5.496  Retrieve project member roles which are not third parties.
+5.473  Show me all project member roles different from 'thirdParty'.
+5.446  Show project member role descriptions that are not 'thirdParty'
+

@@ -1,0 +1,16 @@
+SELECT subject_areas.code FROM subject_areas WHERE subject_areas.description = 'Evaluation of Community RTD programmes; evaluation methodologies.'
+
+###
+
+
+Original Query:
+SELECT subject_areas.code FROM subject_areas WHERE subject_areas.description = 'Evaluation of Community RTD programmes; evaluation methodologies.'
+GPT-3 choices:
+(0) What are the subject areas whose description is Evaluation of Community RTD programmes; evaluation methodologies.?
+(1) Show me subject areas with description Evaluation of Community RTD programmes; evaluation methodologies.
+(2) Show the subject areas with descriptions Evaluation of Community RTD programmes; evaluation methodologies.
+(3) Which are the subject areas that have description 'Evaluation of Community RTD programmes; evaluation methodologies.'?
+(4) Show me all the areas of research that have a description of "Evaluation of Community RTD programmes; evaluation methodologies."
+(5) Select subject areas with description Evaluation of Community RTD programmes; evaluation methodologies.
+(6) The subject areas having the description "Evaluation of Community RTD programmes; evaluation methodologies."
+(7) Show me the subject areas with description “Evaluation of Community RTD programmes; evaluation methodologies.”

@@ -1,0 +1,16 @@
+SELECT subject_areas.title FROM subject_areas JOIN project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects ON project_subject_areas.project = projects.unics_id WHERE projects.acronym != 'RESHAPE'
+
+###
+
+
+Original Query:
+SELECT subject_areas.title FROM subject_areas JOIN project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects ON project_subject_areas.project = projects.unics_id WHERE projects.acronym != 'RESHAPE'
+GPT-3 choices:
+(0) Display all subject areas of projects that have an acronym different than 'RESHAPE'
+(1) Show me all project subject areas except those associated with the project with acronym "RESHAPE".
+(2) Show me the subject area of projects that do not have the acronym 'RESHAPE'
+(3) Show the subject areas of all projects in which the acronym is not RESHAPE
+(4) Show me subject areas of projects except the project RESHAPE
+(5) Show all the subjects areas of projects that do not have the acronym RESHAPE
+(6) Show all the subject areas associated with projects that do not have the acronym RESHAPE
+(7) Display the subject areas of all projects different from "RESHAPE"

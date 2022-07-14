@@ -1,0 +1,16 @@
+SELECT count(*) FROM programmes WHERE programmes.rcn = '16100'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM programmes WHERE programmes.rcn = '16100'
+GPT-3 choices:
+(0) How many programmes are there about pharmacology?
+(1) How many programmes are there in the region 16100?
+(2) Count the number of programmes whose RCN is 16100.
+(3) How many programmes are there with rcn 16100?
+(4) Number of programmes with rcn=16100
+(5) Show the number of programmes that have an rcn of 16100
+(6) How many programmes are there with Rcn = 16100
+(7) How many programmes are there with an RCN equal to 16100?

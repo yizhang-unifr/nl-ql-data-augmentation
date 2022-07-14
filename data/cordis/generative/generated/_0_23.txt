@@ -1,0 +1,28 @@
+SELECT countries.country_code FROM countries WHERE countries.country_name = 'Iceland'
+
+###
+
+
+Original Query:
+SELECT countries.country_code2 FROM countries WHERE countries.country_name = 'Iceland'
+GPT-3 choices:
+(0) What are the country code for countries with name Iceland
+(1) Show the country code of countries with a country name of Iceland
+(2) Show me all countries with country_name = 'Iceland'
+(3) Show the country codes for countries called Iceland
+(4) What are the country codes of countries whose name is Iceland?
+(5) What country codes are associated with the country name Iceland?
+(6) Show all country codes of countries with country name of Iceland
+(7) Show the country code for all countries named Iceland.
+
+
+Re-ranked choices:
+6.339  Show the country code of countries with a country name of Iceland
+6.327  Show the country codes for countries called Iceland
+6.295  Show all country codes of countries with country name of Iceland
+6.219  What are the country codes of countries whose name is Iceland?
+6.155  What are the country code for countries with name Iceland
+6.141  Show the country code for all countries named Iceland.
+6.095  What country codes are associated with the country name Iceland?
+5.701  Show me all countries with country_name = 'Iceland'
+

@@ -1,0 +1,16 @@
+SELECT count(*) FROM activity_types WHERE activity_types.code = 'OTH'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM activity_types WHERE activity_types.code = 'OTH'
+GPT-3 choices:
+(0) Show me the number of activity types with code = 'OTH'
+(1) How many activity types are there, which have a code equal to OTH?
+(2) How many activity types have the code 'OTH'?
+(3) Show the count of activity types with code OTH
+(4) Show the number of activity types with code OTH
+(5) How many activity types have the code OTH?
+(6) Show the number of activity types with code ‘OTH’.
+(7) The number of activity types with code OTH

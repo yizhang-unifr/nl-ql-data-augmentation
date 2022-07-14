@@ -1,0 +1,28 @@
+SELECT programmes.title FROM programmes WHERE programmes.short_name = 'Debt facility'
+
+###
+
+
+Original Query:
+SELECT programmes.title FROM programmes WHERE programmes.short_name = 'Debt facility'
+GPT-3 choices:
+(0) What are the programme titles of debt facilities?
+(1) Show me all the programs with the short name Debt facility
+(2) Show me the titles of all programmes with short name Debt facility
+(3) Show me the program named Debt facility
+(4) Show me all programs with title Debt facility
+(5) Show me all the project titles which have "Debt facility" in their short name
+(6) How many programmes have the title Debt facility?
+(7) Show me titles of programmes with short name Debt facility
+
+
+Re-ranked choices:
+5.673  Show me the titles of all programmes with short name Debt facility
+5.642  Show me titles of programmes with short name Debt facility
+5.611  Show me all programs with title Debt facility
+5.518  Show me all the programs with the short name Debt facility
+5.482  What are the programme titles of debt facilities?
+5.296  Show me all the project titles which have "Debt facility" in their short name
+5.281  How many programmes have the title Debt facility?
+5.120  Show me the program named Debt facility
+

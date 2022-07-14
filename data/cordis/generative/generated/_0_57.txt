@@ -1,0 +1,28 @@
+SELECT project_members.longitude FROM project_members WHERE project_members.institution_id = 208243
+
+###
+
+
+Original Query:
+SELECT project_members.longitude FROM project_members WHERE project_members.institution_id = 208243
+GPT-3 choices:
+(0) Show me the geolocation of project members of the institution 208243
+(1) Show all project members working in the institution 208243
+(2) Retrieve the project members longitude from the institute with code 208243
+(3) Show me the longitude of project members from the institution 208243.
+(4) Show me the longitude of the project members from the institution 208243
+(5) Show all project members' longitude, whatever their institution is
+(6) What is the longitude of project members from institution 208243?
+(7) Show me the longitude for project members inside the institution 208243
+
+
+Re-ranked choices:
+6.097  Show me the longitude of the project members from the institution 208243
+6.086  Show me the longitude for project members inside the institution 208243
+6.075  Show me the longitude of project members from the institution 208243.
+5.906  What is the longitude of project members from institution 208243?
+5.599  Show me the geolocation of project members of the institution 208243
+5.504  Retrieve the project members longitude from the institute with code 208243
+5.361  Show all project members' longitude, whatever their institution is
+4.604  Show all project members working in the institution 208243
+

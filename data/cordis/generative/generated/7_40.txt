@@ -1,0 +1,16 @@
+SELECT programmes.rcn FROM programmes WHERE programmes.code = 'Fusion-5' or programmes.code = 'H2020-EU.3.6.3.'
+
+###
+
+
+Original Query:
+SELECT programmes.rcn FROM programmes WHERE programmes.code = 'Fusion-5' or programmes.code = 'H2020-EU.3.6.3.'
+GPT-3 choices:
+(0) What are the RCR numbers of programmes with code Fusion-5 or H2020-EU.3.6.3?
+(1) Display all projects associated with the projects from the h2020 call at the fusion 5 or h2020-eu.3.6.3 topic
+(2) Show me all RCNs of the project called Fusion-5 or the project H2020-EU.3.6.3.
+(3) Show me programmes that have either the code "Fusion-5" or the code "H2020-EU.3.6.3."
+(4) Retrieve the RCC number of all Fusion-5 schemes, or all H2020-EU.3.6.3 research and technology projects, within programmes.
+(5) Which countries participated in the project Fusion-5?
+(6) Show me the European projects in Fusion 5 or H2020-EU.3.6.3.
+(7) See fusion projects funded via EU programme 3.6.3

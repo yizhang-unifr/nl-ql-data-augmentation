@@ -1,0 +1,28 @@
+SELECT count(*) FROM topics WHERE topics.title = 'Advanced HLFC fin design work: Structural design and manufacturing of operational HLFC fin'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM topics WHERE topics.title = 'Advanced HLFC fin design work: Structural design and manufacturing of operational HLFC fin'
+GPT-3 choices:
+(0) How many topics are in the category "Advanced HLFC fin design work: Structural design and manufacturing of operational HLFC fin" ?
+(1) How many projects in the topic called Advanced HLFC fin design work: Structural design and manufacturing of operational HLFC fin?
+(2) Show me the count of topics named Advanced HLFC fin design work: Structural design and manufacturing of operational HLFC fin
+(3) Retrieve a number of topics with title Advanced HLFC fin design work: Structural design and manufacturing of operational HLFC fin
+(4) Show me the total number of topics using the same title as Advanced HLFC fin design work: Structural design and manufacturing of operational HLFC fin
+(5) Show me how many topics are there about Advanced HLFC fin design work: Structural design and manufacturing of operational HLFC fin?
+(6) How many topics are associated with the title "Advanced HLFC fin design work: Structural design and manufacturing of operational HLFC fin"?
+(7) Display the number of topics with title Advanced HLFC fin design work: Structural design and manufacturing of operational HLFC fin.
+
+
+Re-ranked choices:
+6.606  Show me the count of topics named Advanced HLFC fin design work: Structural design and manufacturing of operational HLFC fin
+6.599  How many topics are associated with the title "Advanced HLFC fin design work: Structural design and manufacturing of operational HLFC fin"?
+6.543  Show me how many topics are there about Advanced HLFC fin design work: Structural design and manufacturing of operational HLFC fin?
+6.511  How many topics are in the category "Advanced HLFC fin design work: Structural design and manufacturing of operational HLFC fin" ?
+6.466  Display the number of topics with title Advanced HLFC fin design work: Structural design and manufacturing of operational HLFC fin.
+6.455  How many projects in the topic called Advanced HLFC fin design work: Structural design and manufacturing of operational HLFC fin?
+6.453  Retrieve a number of topics with title Advanced HLFC fin design work: Structural design and manufacturing of operational HLFC fin
+6.285  Show me the total number of topics using the same title as Advanced HLFC fin design work: Structural design and manufacturing of operational HLFC fin
+

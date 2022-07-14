@@ -1,0 +1,28 @@
+SELECT project_members.street FROM project_members WHERE project_members.postal_code = 'NW1 2PG' and project_members.city = 'TORINO'
+
+###
+
+
+Original Query:
+SELECT project_members.street FROM project_members WHERE project_members.postal_code = 'NW1 2PG' and project_members.city = 'TORINO'
+GPT-3 choices:
+(0) Show street for project members whose postal code is NW1 2PG and city is TORINO
+(1) Show me all the people who have an address in TORINO which ends in NW1 2PG
+(2) Show me project member's street from TORINO with a postal code of NW1 2PG
+(3) Show me project members from TORINO having a postal code of NW1 2PG
+(4) Show the street of project members having the postal code NW1 2PG and the city TORINO
+(5) All project members who are in the city of Torino and have the postal code NW1 2PG
+(6) Show me the project members in TORINO with the postal code NW1 2PG.
+(7) Retrieve all project members having city TORINO and a postal code of NW1 2PG
+
+
+Re-ranked choices:
+6.275  Show me project members from TORINO having a postal code of NW1 2PG
+6.204  Show me project member's street from TORINO with a postal code of NW1 2PG
+6.190  All project members who are in the city of Torino and have the postal code NW1 2PG
+6.175  Show me the project members in TORINO with the postal code NW1 2PG.
+6.059  Show the street of project members having the postal code NW1 2PG and the city TORINO
+5.962  Show street for project members whose postal code is NW1 2PG and city is TORINO
+5.571  Retrieve all project members having city TORINO and a postal code of NW1 2PG
+5.359  Show me all the people who have an address in TORINO which ends in NW1 2PG
+

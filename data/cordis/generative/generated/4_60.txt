@@ -1,0 +1,16 @@
+SELECT count(*) FROM institutions WHERE institutions.geocode_regions_3 = 'NL221'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM institutions WHERE institutions.geocode_regions_3 = 'NL221'
+GPT-3 choices:
+(0) How many institutions are there in the region NL 221?
+(1) Show the number of institutions in the region NL221
+(2) Show the number of institutions located in the region 231
+(3) Show me the number of institutions located in the region NL221
+(4) Get the count of the institutions starting with 'NL' and assigned to region 221?
+(5) Show the number of institutions with region code NL221
+(6) Show me the number of institutions in the region NL221
+(7) Show me the total number of institutions for the region of NL221

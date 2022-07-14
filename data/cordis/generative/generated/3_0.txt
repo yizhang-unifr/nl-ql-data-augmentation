@@ -1,0 +1,16 @@
+SELECT count(*) FROM eu_territorial_units
+
+###
+
+
+Original Query:
+SELECT count(*) FROM eu_territorial_units
+GPT-3 choices:
+(0) What is the number of territorial units?
+(1) The number of Europan territorial units?
+(2) How many territorial units are there in the EU?
+(3) If more than 1 result is returned, something is wrong
+(4) The number of European Union territorial units
+(5) Show the total number of european territorial units
+(6) Show me the number of European territorial unit.
+(7) The total number of territorial units

@@ -1,0 +1,27 @@
+SELECT topics.rcn FROM topics WHERE topics.title = 'Networking of researchers for a high level multi-organisational and cross-border collaboration'
+
+###
+
+
+Original Query:
+SELECT topics.rcn FROM topics WHERE topics.title = 'Networking of researchers for a high level multi-organisational and cross-border collaboration'
+GPT-3 choices:
+(0) What are the topics about networking of researchers for a high level cross-border collaboration?
+(1) Show me all the topics that are about an organisation of researchers
+(2) SELECT rcn FROM topics WHERE topics.title = 'Networking of researchers for a high level multi-organisational and cross-border collaboration'
+(3) Show me the topics in which the title is "Networking of researchers for a high level multi-organisational and cross-border collaboration".
+(4) Show me a project's title that is about "Networking of researchers for a high level multi-organisational and cross-border collaboration".
+(5) 
+(6) Show all topics having title "Networking of researchers for a high level multi-organisational and cross-border collaboration"
+(7) Show me all topics about "Networking of researchers for a high level multi-organisational and cross-border collaboration"
+
+
+Re-ranked choices:
+5.086  Show me the topics in which the title is "Networking of researchers for a high level multi-organisational and cross-border collaboration".
+5.008  Show me all topics about "Networking of researchers for a high level multi-organisational and cross-border collaboration"
+4.960  Show all topics having title "Networking of researchers for a high level multi-organisational and cross-border collaboration"
+4.704  Show me a project's title that is about "Networking of researchers for a high level multi-organisational and cross-border collaboration".
+4.475  What are the topics about networking of researchers for a high level cross-border collaboration?
+4.246  SELECT rcn FROM topics WHERE topics.title = 'Networking of researchers for a high level multi-organisational and cross-border collaboration'
+3.651  Show me all the topics that are about an organisation of researchers
+

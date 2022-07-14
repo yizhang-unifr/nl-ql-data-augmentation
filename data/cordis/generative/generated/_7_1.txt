@@ -1,0 +1,28 @@
+SELECT projects.title FROM projects WHERE projects.end_year = 2019 or projects.end_year = 2019
+
+###
+
+
+Original Query:
+SELECT projects.title FROM projects WHERE projects.end_year = 2019 or projects.end_year = 2019
+GPT-3 choices:
+(0) Show me all project titles for 2019
+(1) At least one of the projects has a end year equal to 2019
+(2) Show projects that end in 2019
+(3) Show me projects with a title
+(4) Show all projects ending in 2019
+(5) What are the titles of projects that end in 2019?
+(6) Are there projects that end in 2019?
+(7) Show me project titles for 2019
+
+
+Re-ranked choices:
+5.323  Show projects that end in 2019
+5.272  What are the titles of projects that end in 2019?
+5.156  Show all projects ending in 2019
+5.133  Show me project titles for 2019
+5.062  Show me all project titles for 2019
+4.840  Are there projects that end in 2019?
+4.622  At least one of the projects has a end year equal to 2019
+3.887  Show me projects with a title
+

@@ -1,0 +1,28 @@
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code = 'SESAR-CSA'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code = 'SESAR-CSA'
+GPT-3 choices:
+(0) Show me the titles of funding schemes with code SESAR-CSA
+(1) Get the funding scheme titles
+(2) Show funding scheme title of SESAR-CSA
+(3) Show me all the funding schemes with title SESAR-CSA
+(4) Show all titles of funding schemes that are equal to 'SESAR-CSA'
+(5) Return all funding schemes named "SESAR-CSA"
+(6) Show me all funding schemes associated with the code SESAR-CSA
+(7) What are the different funding schemes with the title SESAR-CSA?
+
+
+Re-ranked choices:
+6.139  Show me all the funding schemes with title SESAR-CSA
+6.053  Show me the titles of funding schemes with code SESAR-CSA
+5.942  Show funding scheme title of SESAR-CSA
+5.928  Show all titles of funding schemes that are equal to 'SESAR-CSA'
+5.733  What are the different funding schemes with the title SESAR-CSA?
+5.640  Show me all funding schemes associated with the code SESAR-CSA
+5.538  Return all funding schemes named "SESAR-CSA"
+4.525  Get the funding scheme titles
+

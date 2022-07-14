@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description != 'Jan Mayen and Svalbard'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description != 'Jan Mayen and Svalbard'
+GPT-3 choices:
+(0) Searching all the european territorial units that aren't in Jan Mayen and Svalbard. It returns one result.
+(1) You shouldn't show a region description as region
+(2) Show me the geocode region description of all territorial unit descriptions that do not contain ‘Jan Mayen and Svalbard’.
+(3) Show region(s) of the project where the description is != Jan Mayen and Svalbard
+(4) Show all the European territorial units which are not distinct from Jan Mayen and Svalbard.
+(5) Increase the number of displayed territorial unit's.
+(6) Show me all territorial units except for Jan Mayen and Svalbard.
+(7) Show me the different territorial units in Europe which are not part of Jan Mayen and Svalbard

@@ -1,0 +1,16 @@
+SELECT programmes.code FROM programmes WHERE programmes.rcn = '10148' or programmes.rcn = '665359'
+
+###
+
+
+Original Query:
+SELECT programmes.code FROM programmes WHERE programmes.rcn = '10148' or programmes.rcn = '665359'
+GPT-3 choices:
+(0) Show me all the different programmatic areas that I have
+(1) What are the program codes of projects with either rcn = 10148 or rcn = 665359?
+(2) What are the different codes of programmes having rcn = 10148 or rcn = 665359?
+(3) Show me all the program codes of the programs with rcn = 10148 or rcn = 665359
+(4) Show the code of programmes with rcn = 10148 or rcn = 665359
+(5) Show me the codes of programmes having at least one unit assigned with Rcn 10148, or having at least one unit assigned with Rcn 665359?
+(6) Display the code of programmes having the RCN 10148 or 665359.
+(7) Show me programme codes of either 10148 or 665359

@@ -1,0 +1,28 @@
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title = 'Science and Society-Descartes prize'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title = 'Science and Society-Descartes prize'
+GPT-3 choices:
+(0) Retrieve all funding schemes that are associated with the title 'Science and Society-Descartes prize'
+(1) Show the different funding schemes for the Escartes award.
+(2) Query 189 from 3.2.3.6
+(3) Retrieve all the funding schemes with title Science and Society-Descartes prize
+(4) Retrieve the funding scheme code associated with the "Science and Society-Descartes prize" title
+(5) Retrieve the code of the funding scheme with title Science and Society-Descartes prize
+(6) What are the different funding schemes for a project named 'Science and Society-Descartes prize'?
+(7) Which are the funding schemes that have the title Science and Society-Descartes prize?
+
+
+Re-ranked choices:
+5.181  Retrieve all the funding schemes with title Science and Society-Descartes prize
+5.136  Retrieve all funding schemes that are associated with the title 'Science and Society-Descartes prize'
+5.049  Retrieve the funding scheme code associated with the "Science and Society-Descartes prize" title
+5.047  Which are the funding schemes that have the title Science and Society-Descartes prize?
+5.024  Retrieve the code of the funding scheme with title Science and Society-Descartes prize
+4.789  What are the different funding schemes for a project named 'Science and Society-Descartes prize'?
+3.976  Show the different funding schemes for the Escartes award.
+0.710  Query 189 from 3.2.3.6
+

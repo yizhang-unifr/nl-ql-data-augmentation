@@ -1,0 +1,16 @@
+SELECT institutions.db_pedia_url, count(*) FROM institutions  GROUP BY institutions.db_pedia_url
+
+###
+
+
+Original Query:
+SELECT institutions.db_pedia_url, count(*) FROM institutions  GROUP BY institutions.db_pedia_url
+GPT-3 choices:
+(0) What is the number of EPSRC institutions?
+(1) Show the number of institutions within different projects
+(2) Show me all the institutions with their associated wikipedia URL
+(3) Show the number of distinct wikipedia URLs associated with the institutions.
+(4) How many institutions in the European Research Council grant database have a wiki encyclopedia entry?
+(5) Show the number of institutions having a dbpedia url
+(6) How many institutions have a page in the wikipedia project?
+(7) What is the number of different database European Platform for Astronomy eResearch (EPIA) topics?

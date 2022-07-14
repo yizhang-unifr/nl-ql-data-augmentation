@@ -1,0 +1,16 @@
+SELECT subject_areas.code FROM subject_areas WHERE subject_areas.description = 'Formulation, evaluation or application of laws and regulations, administrative measures, codes of conduct, decisions, directives or agreements for research and development in science and technology.' and subject_areas.title = 'Radiation Protection'
+
+###
+
+
+Original Query:
+SELECT subject_areas.code FROM subject_areas WHERE subject_areas.description = 'Formulation, evaluation or application of laws and regulations, administrative measures, codes of conduct, decisions, directives or agreements for research and development in science and technology.' and subject_areas.title = 'Radiation Protection'
+GPT-3 choices:
+(0) Show all the subject areas within Radiation Protection dealing with Formulations, Evaluations, etc.
+(1) Show me the subject areas in radiation protection that have a description that is different than "Formulation, evaluation or application of laws and regulations, administrative measures, codes of conduct, decisions, directives or agreements for research and development in science and technology"
+(2) Show all subject areas about Radiative Protection
+(3) Show me subject areas that match "Formulation, evaluation or application of laws and regulations, administrative measures, codes of conduct, decisions, directives or agreements for research and development in science and technology." and are titled "Radiation Protection"
+(4) What are the subject areas regarding radiation protection?
+(5) Show me subject areas concerning the formulation, evaluation or application of laws and regulations, administrative measures, codes of conduct, decisions, directives or agreements for research and development in science and technology and its title is Radiation Protection.
+(6) Retrieve subject areas with subject areas title = Radiation Protection and description = Formulation, evaluation or application of laws and regulations, administrative measures, codes of conduct, decisions, directives or agreements for research and development in science and technology.
+(7) What are the subject areas of research and development topics related to radiation protection?

@@ -1,0 +1,28 @@
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title != 'Coordination of research actions'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title != 'Coordination of research actions'
+GPT-3 choices:
+(0) Show me the different code of funding schemes
+(1) What are the funding schemes?
+(2) Show all funding scheme codes.
+(3) Show me the funding schemes with the title different from 'Coordnation of research actions'
+(4) Show me all the funding scheme titles
+(5) Which are the funding-scheme codes of projects that doesn't have "Coordination of research actions" as title?
+(6) Show all funding scheme titles that are not Coordination of research actions
+(7) Show me the funding scheme code for projects that are NOT about coordination of research actions.
+
+
+Re-ranked choices:
+4.969  Show me the funding scheme code for projects that are NOT about coordination of research actions.
+4.923  Show me all the funding scheme titles
+4.906  Show me the different code of funding schemes
+4.885  Show me the funding schemes with the title different from 'Coordnation of research actions'
+4.840  Show all funding scheme codes.
+4.684  Which are the funding-scheme codes of projects that doesn't have "Coordination of research actions" as title?
+4.630  What are the funding schemes?
+4.555  Show all funding scheme titles that are not Coordination of research actions
+

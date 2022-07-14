@@ -1,0 +1,16 @@
+SELECT subject_areas.title FROM subject_areas JOIN project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects ON project_subject_areas.project = projects.unics_id WHERE projects.start_year != 2010
+
+###
+
+
+Original Query:
+SELECT subject_areas.title FROM subject_areas JOIN project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects ON project_subject_areas.project = projects.unics_id WHERE projects.start_year != 2010
+GPT-3 choices:
+(0) Retrieve subject areas assigned to projects that did not start in 2010.
+(1) Retrieve all subject areas of projects that didn't start in 2010
+(2) Show me the subject areas of projects that didn't start in 2010
+(3) Show me the subject areas of projects that did not start in 2010
+(4) Retrieve the title of subject areas of all projects with a start year != 2010
+(5) Retrieve all subject areas of projects whose starting date is not 2010
+(6) Retrieve all subject areas of projects, whose project start year is not 2010
+(7) Retrieve all subject areas associated with projects before 2010.

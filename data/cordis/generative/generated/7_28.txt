@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'NL230' or eu_territorial_units.geocode_regions = 'FI197'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'NL230' or eu_territorial_units.geocode_regions = 'FI197'
+GPT-3 choices:
+(0) Show me the description of territorial units that have the code for Europe 230 or for Finland 197
+(1) Show me the territorial unit descriptions that have a geocode region equal to NL230 or FI197.
+(2) Retrieve all territorial units that cover the world regions NL230 or FI197
+(3) What are the descriptions of eu territorial units with geo codes at least in NL230 or FI197?
+(4) Show me the descriptions of all EU territorial units that have the Geocode regions "NL230" or "FI195"
+(5) Show the description of the European territorial units in the geocode regions of FI197 and NL230
+(6) Show me all territorial unit descriptions while taking in account at least one of the territorial unit geocode regions.
+(7) Show me all territorial units descriptions of FI197 or NL230

@@ -1,0 +1,2515 @@
+[
+  {
+    "db_id": "singer",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Net_Worth_Millions FROM singer AS T1 WHERE T1.Birth_Year = 1961.0",
+    "readable_query": "SELECT singer.Net_Worth_Millions FROM singer AS singer WHERE singer.Birth_Year = 1961.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Name FROM singer AS T1 WHERE T1.Singer_ID = 4",
+    "readable_query": "SELECT singer.Name FROM singer AS singer WHERE singer.Singer_ID = 4"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1 WHERE T1.Song_ID = 5",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song WHERE song.Song_ID = 5"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Song_ID FROM song AS T1 WHERE T1.Sales = 1094000.0",
+    "readable_query": "SELECT song.Song_ID FROM song AS song WHERE song.Sales = 1094000.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Birth_Year FROM singer AS T1 WHERE T1.Net_Worth_Millions = 17.8",
+    "readable_query": "SELECT singer.Birth_Year FROM singer AS singer WHERE singer.Net_Worth_Millions = 17.8"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1 WHERE T1.Birth_Year = 1940.0",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer WHERE singer.Birth_Year = 1940.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Sales FROM song AS T1 WHERE T1.Song_ID = 4",
+    "readable_query": "SELECT song.Sales FROM song AS song WHERE song.Song_ID = 4"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Title FROM song AS T1 WHERE T1.Sales = 552407.0",
+    "readable_query": "SELECT song.Title FROM song AS song WHERE song.Sales = 552407.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Net_Worth_Millions FROM singer AS T1 WHERE T1.Singer_ID = 1",
+    "readable_query": "SELECT singer.Net_Worth_Millions FROM singer AS singer WHERE singer.Singer_ID = 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1 WHERE T1.Net_Worth_Millions = 30.0",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer WHERE singer.Net_Worth_Millions = 30.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Name FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Title = \"Mysterious Girl\"",
+    "readable_query": "SELECT singer.Name FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Title = \"Mysterious Girl\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Sales FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Citizenship = \"Germany\"",
+    "readable_query": "SELECT song.Sales FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Citizenship = \"Germany\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Singer_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Birth_Year = 1949.0",
+    "readable_query": "SELECT song.Singer_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Birth_Year = 1949.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Song_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Singer_ID = 6",
+    "readable_query": "SELECT song.Song_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Singer_ID = 6"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Song_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Birth_Year = 1962.0",
+    "readable_query": "SELECT song.Song_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Birth_Year = 1962.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Net_Worth_Millions FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Song_ID = 7",
+    "readable_query": "SELECT singer.Net_Worth_Millions FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Song_ID = 7"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Birth_Year FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Sales = 275000.0",
+    "readable_query": "SELECT singer.Birth_Year FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Sales = 275000.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Title FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Name = \"Christy Walton\"",
+    "readable_query": "SELECT song.Title FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Name = \"Christy Walton\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Sales FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Birth_Year = 1953.0",
+    "readable_query": "SELECT song.Sales FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Birth_Year = 1953.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Title FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Birth_Year = 1942.0",
+    "readable_query": "SELECT song.Title FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Birth_Year = 1942.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Net_Worth_Millions, count(*) FROM singer AS T1  GROUP BY T1.Net_Worth_Millions",
+    "readable_query": "SELECT singer.Net_Worth_Millions, count(*) FROM singer AS singer  GROUP BY singer.Net_Worth_Millions"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Song_ID, count(*) FROM song AS T1  GROUP BY T1.Song_ID",
+    "readable_query": "SELECT song.Song_ID, count(*) FROM song AS song  GROUP BY song.Song_ID"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Sales, count(*) FROM song AS T1  GROUP BY T1.Sales",
+    "readable_query": "SELECT song.Sales, count(*) FROM song AS song  GROUP BY song.Sales"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Highest_Position, count(*) FROM song AS T1  GROUP BY T1.Highest_Position",
+    "readable_query": "SELECT song.Highest_Position, count(*) FROM song AS song  GROUP BY song.Highest_Position"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Name, count(*) FROM singer AS T1  GROUP BY T1.Name",
+    "readable_query": "SELECT singer.Name, count(*) FROM singer AS singer  GROUP BY singer.Name"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Birth_Year, count(*) FROM singer AS T1  GROUP BY T1.Birth_Year",
+    "readable_query": "SELECT singer.Birth_Year, count(*) FROM singer AS singer  GROUP BY singer.Birth_Year"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Singer_ID, count(*) FROM song AS T1  GROUP BY T1.Singer_ID",
+    "readable_query": "SELECT song.Singer_ID, count(*) FROM song AS song  GROUP BY song.Singer_ID"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Title, count(*) FROM song AS T1  GROUP BY T1.Title",
+    "readable_query": "SELECT song.Title, count(*) FROM song AS song  GROUP BY song.Title"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Citizenship, count(*) FROM singer AS T1  GROUP BY T1.Citizenship",
+    "readable_query": "SELECT singer.Citizenship, count(*) FROM singer AS singer  GROUP BY singer.Citizenship"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Singer_ID, count(*) FROM singer AS T1  GROUP BY T1.Singer_ID",
+    "readable_query": "SELECT singer.Singer_ID, count(*) FROM singer AS singer  GROUP BY singer.Singer_ID"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Highest_Position, count(*) FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID  GROUP BY T1.Highest_Position",
+    "readable_query": "SELECT song.Highest_Position, count(*) FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID  GROUP BY song.Highest_Position"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Name, count(*) FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID  GROUP BY T1.Name",
+    "readable_query": "SELECT singer.Name, count(*) FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID  GROUP BY singer.Name"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Song_ID, count(*) FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID  GROUP BY T1.Song_ID",
+    "readable_query": "SELECT song.Song_ID, count(*) FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID  GROUP BY song.Song_ID"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Sales, count(*) FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID  GROUP BY T1.Sales",
+    "readable_query": "SELECT song.Sales, count(*) FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID  GROUP BY song.Sales"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Title, count(*) FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID  GROUP BY T1.Title",
+    "readable_query": "SELECT song.Title, count(*) FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID  GROUP BY song.Title"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Citizenship, count(*) FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID  GROUP BY T1.Citizenship",
+    "readable_query": "SELECT singer.Citizenship, count(*) FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID  GROUP BY singer.Citizenship"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Net_Worth_Millions, count(*) FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID  GROUP BY T1.Net_Worth_Millions",
+    "readable_query": "SELECT singer.Net_Worth_Millions, count(*) FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID  GROUP BY singer.Net_Worth_Millions"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Singer_ID, count(*) FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID  GROUP BY T1.Singer_ID",
+    "readable_query": "SELECT singer.Singer_ID, count(*) FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID  GROUP BY singer.Singer_ID"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Birth_Year, count(*) FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID  GROUP BY T1.Birth_Year",
+    "readable_query": "SELECT singer.Birth_Year, count(*) FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID  GROUP BY singer.Birth_Year"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Singer_ID, count(*) FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID  GROUP BY T1.Singer_ID",
+    "readable_query": "SELECT song.Singer_ID, count(*) FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID  GROUP BY song.Singer_ID"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM song AS T1",
+    "readable_query": "SELECT count(*) FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM singer AS T1",
+    "readable_query": "SELECT count(*) FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Song_ID, T1.Singer_ID FROM song AS T1",
+    "readable_query": "SELECT song.Song_ID, song.Singer_ID FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Net_Worth_Millions, T1.Name FROM singer AS T1",
+    "readable_query": "SELECT singer.Net_Worth_Millions, singer.Name FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Singer_ID, T1.Citizenship FROM singer AS T1",
+    "readable_query": "SELECT singer.Singer_ID, singer.Citizenship FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Name, T1.Birth_Year FROM singer AS T1",
+    "readable_query": "SELECT singer.Name, singer.Birth_Year FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Singer_ID, T1.Net_Worth_Millions FROM singer AS T1",
+    "readable_query": "SELECT singer.Singer_ID, singer.Net_Worth_Millions FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Sales, T1.Highest_Position FROM song AS T1",
+    "readable_query": "SELECT song.Sales, song.Highest_Position FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Net_Worth_Millions, T1.Birth_Year FROM singer AS T1",
+    "readable_query": "SELECT singer.Net_Worth_Millions, singer.Birth_Year FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Title, T1.Sales FROM song AS T1",
+    "readable_query": "SELECT song.Title, song.Sales FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Song_ID, T1.Title FROM song AS T1",
+    "readable_query": "SELECT song.Song_ID, song.Title FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Birth_Year, T1.Citizenship FROM singer AS T1",
+    "readable_query": "SELECT singer.Birth_Year, singer.Citizenship FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Highest_Position, T2.Singer_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID",
+    "readable_query": "SELECT song.Highest_Position, singer.Singer_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Singer_ID, T2.Sales FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID",
+    "readable_query": "SELECT singer.Singer_ID, song.Sales FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Song_ID, T2.Net_Worth_Millions FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID",
+    "readable_query": "SELECT song.Song_ID, singer.Net_Worth_Millions FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Birth_Year, T2.Singer_ID FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID",
+    "readable_query": "SELECT singer.Birth_Year, song.Singer_ID FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Citizenship, T2.Singer_ID FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID",
+    "readable_query": "SELECT singer.Citizenship, song.Singer_ID FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Singer_ID, T2.Highest_Position FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID",
+    "readable_query": "SELECT singer.Singer_ID, song.Highest_Position FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Name, T2.Title FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID",
+    "readable_query": "SELECT singer.Name, song.Title FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Singer_ID, T2.Net_Worth_Millions FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID",
+    "readable_query": "SELECT song.Singer_ID, singer.Net_Worth_Millions FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Birth_Year, T2.Song_ID FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID",
+    "readable_query": "SELECT singer.Birth_Year, song.Song_ID FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Singer_ID, T2.Song_ID FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID",
+    "readable_query": "SELECT singer.Singer_ID, song.Song_ID FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Sales, T1.Song_ID FROM song AS T1 WHERE T1.Singer_ID = 7",
+    "readable_query": "SELECT song.Sales, song.Song_ID FROM song AS song WHERE song.Singer_ID = 7"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Citizenship, T1.Singer_ID FROM singer AS T1 WHERE T1.Birth_Year = 1953.0",
+    "readable_query": "SELECT singer.Citizenship, singer.Singer_ID FROM singer AS singer WHERE singer.Birth_Year = 1953.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Net_Worth_Millions, T1.Birth_Year FROM singer AS T1 WHERE T1.Singer_ID = 6",
+    "readable_query": "SELECT singer.Net_Worth_Millions, singer.Birth_Year FROM singer AS singer WHERE singer.Singer_ID = 6"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Singer_ID, T1.Net_Worth_Millions FROM singer AS T1 WHERE T1.Name = \"Gina Rinehart\"",
+    "readable_query": "SELECT singer.Singer_ID, singer.Net_Worth_Millions FROM singer AS singer WHERE singer.Name = \"Gina Rinehart\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Net_Worth_Millions, T1.Name FROM singer AS T1 WHERE T1.Singer_ID = 6",
+    "readable_query": "SELECT singer.Net_Worth_Millions, singer.Name FROM singer AS singer WHERE singer.Singer_ID = 6"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Singer_ID, T1.Song_ID FROM song AS T1 WHERE T1.Highest_Position = 3.0",
+    "readable_query": "SELECT song.Singer_ID, song.Song_ID FROM song AS song WHERE song.Highest_Position = 3.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Song_ID, T1.Singer_ID FROM song AS T1 WHERE T1.Sales = 1094000.0",
+    "readable_query": "SELECT song.Song_ID, song.Singer_ID FROM song AS song WHERE song.Sales = 1094000.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Name, T1.Net_Worth_Millions FROM singer AS T1 WHERE T1.Singer_ID = 4",
+    "readable_query": "SELECT singer.Name, singer.Net_Worth_Millions FROM singer AS singer WHERE singer.Singer_ID = 4"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Net_Worth_Millions, T1.Birth_Year FROM singer AS T1 WHERE T1.Citizenship = \"United States\"",
+    "readable_query": "SELECT singer.Net_Worth_Millions, singer.Birth_Year FROM singer AS singer WHERE singer.Citizenship = \"United States\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Highest_Position, T1.Song_ID FROM song AS T1 WHERE T1.Sales = 300000.0",
+    "readable_query": "SELECT song.Highest_Position, song.Song_ID FROM song AS song WHERE song.Sales = 300000.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Sales FROM song AS T1  GROUP BY T1.Sales  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT song.Sales FROM song AS song  GROUP BY song.Sales  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Singer_ID FROM song AS T1  GROUP BY T1.Singer_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT song.Singer_ID FROM song AS song  GROUP BY song.Singer_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1  GROUP BY T1.Singer_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer  GROUP BY singer.Singer_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1  GROUP BY T1.Citizenship  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer  GROUP BY singer.Citizenship  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Song_ID FROM song AS T1  GROUP BY T1.Song_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT song.Song_ID FROM song AS song  GROUP BY song.Song_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Title FROM song AS T1  GROUP BY T1.Title  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT song.Title FROM song AS song  GROUP BY song.Title  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1  GROUP BY T1.Highest_Position  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song  GROUP BY song.Highest_Position  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Name FROM singer AS T1  GROUP BY T1.Name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT singer.Name FROM singer AS singer  GROUP BY singer.Name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Birth_Year FROM singer AS T1  GROUP BY T1.Birth_Year  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT singer.Birth_Year FROM singer AS singer  GROUP BY singer.Birth_Year  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Net_Worth_Millions FROM singer AS T1  GROUP BY T1.Net_Worth_Millions  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT singer.Net_Worth_Millions FROM singer AS singer  GROUP BY singer.Net_Worth_Millions  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM song AS T1 WHERE T1.Singer_ID = 5",
+    "readable_query": "SELECT count(*) FROM song AS song WHERE song.Singer_ID = 5"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM singer AS T1 WHERE T1.Birth_Year = 1944.0",
+    "readable_query": "SELECT count(*) FROM singer AS singer WHERE singer.Birth_Year = 1944.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM song AS T1 WHERE T1.Title = \"F**k It (I Don't Want You Back)\"",
+    "readable_query": "SELECT count(*) FROM song AS song WHERE song.Title = \"F**k It (I Don't Want You Back)\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM singer AS T1 WHERE T1.Singer_ID = 4",
+    "readable_query": "SELECT count(*) FROM singer AS singer WHERE singer.Singer_ID = 4"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM singer AS T1 WHERE T1.Birth_Year = 1940.0",
+    "readable_query": "SELECT count(*) FROM singer AS singer WHERE singer.Birth_Year = 1940.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM song AS T1 WHERE T1.Highest_Position = 3.0",
+    "readable_query": "SELECT count(*) FROM song AS song WHERE song.Highest_Position = 3.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM song AS T1 WHERE T1.Highest_Position = 1.0",
+    "readable_query": "SELECT count(*) FROM song AS song WHERE song.Highest_Position = 1.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM song AS T1 WHERE T1.Singer_ID = 2",
+    "readable_query": "SELECT count(*) FROM song AS song WHERE song.Singer_ID = 2"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM singer AS T1 WHERE T1.Birth_Year = 1961.0",
+    "readable_query": "SELECT count(*) FROM singer AS singer WHERE singer.Birth_Year = 1961.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM song AS T1 WHERE T1.Sales = 300000.0",
+    "readable_query": "SELECT count(*) FROM song AS song WHERE song.Sales = 300000.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Birth_Year FROM singer AS T1    ORDER BY T1.Singer_ID DESC LIMIT 1",
+    "readable_query": "SELECT singer.Birth_Year FROM singer AS singer    ORDER BY singer.Singer_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Singer_ID FROM song AS T1    ORDER BY T1.Sales DESC LIMIT 1",
+    "readable_query": "SELECT song.Singer_ID FROM song AS song    ORDER BY song.Sales DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1    ORDER BY T1.Birth_Year DESC LIMIT 1",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer    ORDER BY singer.Birth_Year DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1    ORDER BY T1.Sales DESC LIMIT 1",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song    ORDER BY song.Sales DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Song_ID FROM song AS T1    ORDER BY T1.Highest_Position DESC LIMIT 1",
+    "readable_query": "SELECT song.Song_ID FROM song AS song    ORDER BY song.Highest_Position DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Song_ID FROM song AS T1    ORDER BY T1.Singer_ID DESC LIMIT 1",
+    "readable_query": "SELECT song.Song_ID FROM song AS song    ORDER BY song.Singer_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Sales FROM song AS T1    ORDER BY T1.Song_ID DESC LIMIT 1",
+    "readable_query": "SELECT song.Sales FROM song AS song    ORDER BY song.Song_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Sales FROM song AS T1    ORDER BY T1.Singer_ID DESC LIMIT 1",
+    "readable_query": "SELECT song.Sales FROM song AS song    ORDER BY song.Singer_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1    ORDER BY T1.Birth_Year DESC LIMIT 1",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer    ORDER BY singer.Birth_Year DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Title FROM song AS T1    ORDER BY T1.Song_ID DESC LIMIT 1",
+    "readable_query": "SELECT song.Title FROM song AS song    ORDER BY song.Song_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Net_Worth_Millions FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Sales DESC LIMIT 1",
+    "readable_query": "SELECT singer.Net_Worth_Millions FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID    ORDER BY song.Sales DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Birth_Year FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Highest_Position DESC LIMIT 1",
+    "readable_query": "SELECT singer.Birth_Year FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID    ORDER BY song.Highest_Position DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Birth_Year DESC LIMIT 1",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID    ORDER BY singer.Birth_Year DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Net_Worth_Millions FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Highest_Position DESC LIMIT 1",
+    "readable_query": "SELECT singer.Net_Worth_Millions FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID    ORDER BY song.Highest_Position DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Singer_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Birth_Year DESC LIMIT 1",
+    "readable_query": "SELECT song.Singer_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID    ORDER BY singer.Birth_Year DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Sales FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Net_Worth_Millions DESC LIMIT 1",
+    "readable_query": "SELECT song.Sales FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID    ORDER BY singer.Net_Worth_Millions DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Singer_ID DESC LIMIT 1",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID    ORDER BY singer.Singer_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Singer_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Net_Worth_Millions DESC LIMIT 1",
+    "readable_query": "SELECT song.Singer_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID    ORDER BY singer.Net_Worth_Millions DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Sales DESC LIMIT 1",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID    ORDER BY song.Sales DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Title FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Birth_Year DESC LIMIT 1",
+    "readable_query": "SELECT song.Title FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID    ORDER BY singer.Birth_Year DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Sales FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Singer_ID ASC LIMIT 1",
+    "readable_query": "SELECT song.Sales FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID    ORDER BY singer.Singer_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Song_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Singer_ID ASC LIMIT 1",
+    "readable_query": "SELECT song.Song_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID    ORDER BY singer.Singer_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Highest_Position ASC LIMIT 1",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID    ORDER BY song.Highest_Position ASC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Birth_Year FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Highest_Position ASC LIMIT 1",
+    "readable_query": "SELECT singer.Birth_Year FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID    ORDER BY song.Highest_Position ASC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Sales ASC LIMIT 1",
+    "readable_query": "SELECT singer.Name FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID    ORDER BY song.Sales ASC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Singer_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Net_Worth_Millions ASC LIMIT 1",
+    "readable_query": "SELECT song.Singer_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID    ORDER BY singer.Net_Worth_Millions ASC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Net_Worth_Millions ASC LIMIT 1",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID    ORDER BY singer.Net_Worth_Millions ASC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Highest_Position ASC LIMIT 1",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID    ORDER BY song.Highest_Position ASC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Sales ASC LIMIT 1",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID    ORDER BY song.Sales ASC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Birth_Year FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Singer_ID ASC LIMIT 1",
+    "readable_query": "SELECT singer.Birth_Year FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID    ORDER BY song.Singer_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Citizenship, T1.Name FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Singer_ID DESC LIMIT 1",
+    "readable_query": "SELECT singer.Citizenship, singer.Name FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID    ORDER BY song.Singer_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Singer_ID, T1.Birth_Year FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Sales DESC LIMIT 1",
+    "readable_query": "SELECT singer.Singer_ID, singer.Birth_Year FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID    ORDER BY song.Sales DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Citizenship, T1.Singer_ID FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Sales DESC LIMIT 1",
+    "readable_query": "SELECT singer.Citizenship, singer.Singer_ID FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID    ORDER BY song.Sales DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Title, T1.Highest_Position FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Singer_ID DESC LIMIT 1",
+    "readable_query": "SELECT song.Title, song.Highest_Position FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID    ORDER BY singer.Singer_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Citizenship, T1.Name FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Highest_Position DESC LIMIT 1",
+    "readable_query": "SELECT singer.Citizenship, singer.Name FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID    ORDER BY song.Highest_Position DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Sales, T1.Song_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Singer_ID DESC LIMIT 1",
+    "readable_query": "SELECT song.Sales, song.Song_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID    ORDER BY singer.Singer_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Sales, T1.Title FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Singer_ID DESC LIMIT 1",
+    "readable_query": "SELECT song.Sales, song.Title FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID    ORDER BY singer.Singer_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Net_Worth_Millions, T1.Birth_Year FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Highest_Position DESC LIMIT 1",
+    "readable_query": "SELECT singer.Net_Worth_Millions, singer.Birth_Year FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID    ORDER BY song.Highest_Position DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name, T1.Citizenship FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Highest_Position DESC LIMIT 1",
+    "readable_query": "SELECT singer.Name, singer.Citizenship FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID    ORDER BY song.Highest_Position DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Singer_ID, T1.Highest_Position FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Birth_Year DESC LIMIT 1",
+    "readable_query": "SELECT song.Singer_ID, song.Highest_Position FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID    ORDER BY singer.Birth_Year DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM singer AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer.Name) FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Net_Worth_Millions) FROM singer AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer.Net_Worth_Millions) FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Highest_Position) FROM song AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  song.Highest_Position) FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Singer_ID) FROM song AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  song.Singer_ID) FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Singer_ID) FROM singer AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer.Singer_ID) FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Title) FROM song AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  song.Title) FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Birth_Year) FROM singer AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer.Birth_Year) FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Citizenship) FROM singer AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer.Citizenship) FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Sales) FROM song AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  song.Sales) FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Song_ID) FROM song AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  song.Song_ID) FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Net_Worth_Millions) FROM singer AS T1",
+    "readable_query": "SELECT avg( singer.Net_Worth_Millions) FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Singer_ID) FROM singer AS T1",
+    "readable_query": "SELECT avg( singer.Singer_ID) FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Singer_ID) FROM song AS T1",
+    "readable_query": "SELECT avg( song.Singer_ID) FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Sales) FROM song AS T1",
+    "readable_query": "SELECT avg( song.Sales) FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Song_ID) FROM song AS T1",
+    "readable_query": "SELECT avg( song.Song_ID) FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Highest_Position) FROM song AS T1",
+    "readable_query": "SELECT avg( song.Highest_Position) FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Birth_Year) FROM singer AS T1",
+    "readable_query": "SELECT avg( singer.Birth_Year) FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Sales FROM song AS T1",
+    "readable_query": "SELECT song.Sales FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Title FROM song AS T1",
+    "readable_query": "SELECT song.Title FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Birth_Year FROM singer AS T1",
+    "readable_query": "SELECT singer.Birth_Year FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Song_ID FROM song AS T1",
+    "readable_query": "SELECT song.Song_ID FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Name FROM singer AS T1",
+    "readable_query": "SELECT singer.Name FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Singer_ID FROM song AS T1",
+    "readable_query": "SELECT song.Singer_ID FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Net_Worth_Millions FROM singer AS T1",
+    "readable_query": "SELECT singer.Net_Worth_Millions FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Citizenship FROM singer AS T1",
+    "readable_query": "SELECT DISTINCT singer.Citizenship FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Singer_ID FROM song AS T1",
+    "readable_query": "SELECT DISTINCT song.Singer_ID FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Sales FROM song AS T1",
+    "readable_query": "SELECT DISTINCT song.Sales FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Highest_Position FROM song AS T1",
+    "readable_query": "SELECT DISTINCT song.Highest_Position FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Song_ID FROM song AS T1",
+    "readable_query": "SELECT DISTINCT song.Song_ID FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Name FROM singer AS T1",
+    "readable_query": "SELECT DISTINCT singer.Name FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Birth_Year FROM singer AS T1",
+    "readable_query": "SELECT DISTINCT singer.Birth_Year FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Title FROM song AS T1",
+    "readable_query": "SELECT DISTINCT song.Title FROM song AS song"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Net_Worth_Millions FROM singer AS T1",
+    "readable_query": "SELECT DISTINCT singer.Net_Worth_Millions FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Singer_ID FROM singer AS T1",
+    "readable_query": "SELECT DISTINCT singer.Singer_ID FROM singer AS singer"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1     ORDER BY T1.Sales ASC",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song     ORDER BY song.Sales ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Net_Worth_Millions FROM singer AS T1     ORDER BY T1.Birth_Year ASC",
+    "readable_query": "SELECT singer.Net_Worth_Millions FROM singer AS singer     ORDER BY singer.Birth_Year ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Sales FROM song AS T1     ORDER BY T1.Song_ID ASC",
+    "readable_query": "SELECT song.Sales FROM song AS song     ORDER BY song.Song_ID ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Sales FROM song AS T1     ORDER BY T1.Singer_ID ASC",
+    "readable_query": "SELECT song.Sales FROM song AS song     ORDER BY song.Singer_ID ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Singer_ID FROM song AS T1     ORDER BY T1.Song_ID ASC",
+    "readable_query": "SELECT song.Singer_ID FROM song AS song     ORDER BY song.Song_ID ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Singer_ID FROM song AS T1     ORDER BY T1.Highest_Position ASC",
+    "readable_query": "SELECT song.Singer_ID FROM song AS song     ORDER BY song.Highest_Position ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Song_ID FROM song AS T1     ORDER BY T1.Highest_Position ASC",
+    "readable_query": "SELECT song.Song_ID FROM song AS song     ORDER BY song.Highest_Position ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1     ORDER BY T1.Net_Worth_Millions ASC",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer     ORDER BY singer.Net_Worth_Millions ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Title FROM song AS T1     ORDER BY T1.Song_ID ASC",
+    "readable_query": "SELECT song.Title FROM song AS song     ORDER BY song.Song_ID ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1     ORDER BY T1.Birth_Year ASC",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer     ORDER BY singer.Birth_Year ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM singer AS T1     ORDER BY T1.Birth_Year DESC",
+    "readable_query": "SELECT singer.Name FROM singer AS singer     ORDER BY singer.Birth_Year DESC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Net_Worth_Millions FROM singer AS T1     ORDER BY T1.Singer_ID DESC",
+    "readable_query": "SELECT singer.Net_Worth_Millions FROM singer AS singer     ORDER BY singer.Singer_ID DESC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1     ORDER BY T1.Sales DESC",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song     ORDER BY song.Sales DESC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM singer AS T1     ORDER BY T1.Net_Worth_Millions DESC",
+    "readable_query": "SELECT singer.Name FROM singer AS singer     ORDER BY singer.Net_Worth_Millions DESC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Birth_Year FROM singer AS T1     ORDER BY T1.Singer_ID DESC",
+    "readable_query": "SELECT singer.Birth_Year FROM singer AS singer     ORDER BY singer.Singer_ID DESC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Sales FROM song AS T1     ORDER BY T1.Song_ID DESC",
+    "readable_query": "SELECT song.Sales FROM song AS song     ORDER BY song.Song_ID DESC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1     ORDER BY T1.Net_Worth_Millions DESC",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer     ORDER BY singer.Net_Worth_Millions DESC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1     ORDER BY T1.Net_Worth_Millions DESC",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer     ORDER BY singer.Net_Worth_Millions DESC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Birth_Year FROM singer AS T1     ORDER BY T1.Net_Worth_Millions DESC",
+    "readable_query": "SELECT singer.Birth_Year FROM singer AS singer     ORDER BY singer.Net_Worth_Millions DESC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1     ORDER BY T1.Birth_Year DESC",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer     ORDER BY singer.Birth_Year DESC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Highest_Position, T1.Title FROM song AS T1     ORDER BY T1.Title ASC",
+    "readable_query": "SELECT song.Highest_Position, song.Title FROM song AS song     ORDER BY song.Title ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Singer_ID, T1.Song_ID FROM song AS T1     ORDER BY T1.Song_ID ASC",
+    "readable_query": "SELECT song.Singer_ID, song.Song_ID FROM song AS song     ORDER BY song.Song_ID ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Net_Worth_Millions, T1.Citizenship FROM singer AS T1     ORDER BY T1.Citizenship ASC",
+    "readable_query": "SELECT singer.Net_Worth_Millions, singer.Citizenship FROM singer AS singer     ORDER BY singer.Citizenship ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Singer_ID, T1.Title FROM song AS T1     ORDER BY T1.Title ASC",
+    "readable_query": "SELECT song.Singer_ID, song.Title FROM song AS song     ORDER BY song.Title ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Birth_Year, T1.Singer_ID FROM singer AS T1     ORDER BY T1.Singer_ID ASC",
+    "readable_query": "SELECT singer.Birth_Year, singer.Singer_ID FROM singer AS singer     ORDER BY singer.Singer_ID ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Highest_Position, T1.Sales FROM song AS T1     ORDER BY T1.Sales ASC",
+    "readable_query": "SELECT song.Highest_Position, song.Sales FROM song AS song     ORDER BY song.Sales ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Name, T1.Birth_Year FROM singer AS T1     ORDER BY T1.Birth_Year ASC",
+    "readable_query": "SELECT singer.Name, singer.Birth_Year FROM singer AS singer     ORDER BY singer.Birth_Year ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Name, T1.Net_Worth_Millions FROM singer AS T1     ORDER BY T1.Net_Worth_Millions ASC",
+    "readable_query": "SELECT singer.Name, singer.Net_Worth_Millions FROM singer AS singer     ORDER BY singer.Net_Worth_Millions ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Title, T1.Sales FROM song AS T1     ORDER BY T1.Sales ASC",
+    "readable_query": "SELECT song.Title, song.Sales FROM song AS song     ORDER BY song.Sales ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Singer_ID, T1.Citizenship FROM singer AS T1     ORDER BY T1.Citizenship ASC",
+    "readable_query": "SELECT singer.Singer_ID, singer.Citizenship FROM singer AS singer     ORDER BY singer.Citizenship ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Citizenship = \"United States\" or T2.Citizenship = \"Chile\"",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Citizenship = \"United States\" or singer.Citizenship = \"Chile\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Sales = 1094000.0 or T2.Sales = 275000.0",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Sales = 1094000.0 or song.Sales = 275000.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Name FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Title = \"All This Time\" or T2.Title = \"Do They Know It's Christmas\"",
+    "readable_query": "SELECT singer.Name FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Title = \"All This Time\" or song.Title = \"Do They Know It's Christmas\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Song_ID = 3 or T2.Song_ID = 4",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Song_ID = 3 or song.Song_ID = 4"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Singer_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Name = \"Alice Walton\" or T2.Name = \"Jacqueline Mars\"",
+    "readable_query": "SELECT song.Singer_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Name = \"Alice Walton\" or singer.Name = \"Jacqueline Mars\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Song_ID = 5 or T2.Song_ID = 6",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Song_ID = 5 or song.Song_ID = 6"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Title FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Citizenship = \"United States\" or T2.Citizenship = \"France\"",
+    "readable_query": "SELECT song.Title FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Citizenship = \"United States\" or singer.Citizenship = \"France\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Song_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Name = \"Liliane Bettencourt\" or T2.Name = \"Iris Fontbona\"",
+    "readable_query": "SELECT song.Song_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Name = \"Liliane Bettencourt\" or singer.Name = \"Iris Fontbona\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Sales FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Net_Worth_Millions = 28.8 or T2.Net_Worth_Millions = 12.7",
+    "readable_query": "SELECT song.Sales FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Net_Worth_Millions = 28.8 or singer.Net_Worth_Millions = 12.7"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Net_Worth_Millions FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Highest_Position = 1.0 or T2.Highest_Position = 1.0",
+    "readable_query": "SELECT singer.Net_Worth_Millions FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Highest_Position = 1.0 or song.Highest_Position = 1.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Title FROM song AS T1 WHERE T1.Highest_Position = 3.0 and T1.Sales = 552407.0",
+    "readable_query": "SELECT song.Title FROM song AS song WHERE song.Highest_Position = 3.0 and song.Sales = 552407.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 WHERE T1.Citizenship = \"Australia\" and T1.Net_Worth_Millions = 28.8",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer WHERE singer.Citizenship = \"Australia\" and singer.Net_Worth_Millions = 28.8"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 WHERE T1.Net_Worth_Millions = 28.8 and T1.Name = \"Christy Walton\"",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer WHERE singer.Net_Worth_Millions = 28.8 and singer.Name = \"Christy Walton\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Name FROM singer AS T1 WHERE T1.Net_Worth_Millions = 30.0 and T1.Citizenship = \"Chile\"",
+    "readable_query": "SELECT singer.Name FROM singer AS singer WHERE singer.Net_Worth_Millions = 30.0 and singer.Citizenship = \"Chile\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Song_ID FROM song AS T1 WHERE T1.Highest_Position = 3.0 and T1.Title = \"Yeah\"",
+    "readable_query": "SELECT song.Song_ID FROM song AS song WHERE song.Highest_Position = 3.0 and song.Title = \"Yeah\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Sales FROM song AS T1 WHERE T1.Song_ID = 3 and T1.Singer_ID = 5",
+    "readable_query": "SELECT song.Sales FROM song AS song WHERE song.Song_ID = 3 and song.Singer_ID = 5"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Title FROM song AS T1 WHERE T1.Sales = 292000.0 and T1.Song_ID = 2",
+    "readable_query": "SELECT song.Title FROM song AS song WHERE song.Sales = 292000.0 and song.Song_ID = 2"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Birth_Year FROM singer AS T1 WHERE T1.Name = \"Abigail Johnson\" and T1.Singer_ID = 2",
+    "readable_query": "SELECT singer.Birth_Year FROM singer AS singer WHERE singer.Name = \"Abigail Johnson\" and singer.Singer_ID = 2"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1 WHERE T1.Birth_Year = 1961.0 and T1.Net_Worth_Millions = 17.8",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer WHERE singer.Birth_Year = 1961.0 and singer.Net_Worth_Millions = 17.8"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1 WHERE T1.Song_ID = 4 and T1.Sales = 292000.0",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song WHERE song.Song_ID = 4 and song.Sales = 292000.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Song_ID) FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T1.Sales = 261000.0 and T2.Singer_ID = 2",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  song.Song_ID) FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE song.Sales = 261000.0 and singer.Singer_ID = 2"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Singer_ID) FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T1.Birth_Year = 1940.0 and T2.Title = \"Call on Me\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer.Singer_ID) FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE singer.Birth_Year = 1940.0 and song.Title = \"Call on Me\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Highest_Position) FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T1.Song_ID = 5 and T2.Singer_ID = 8",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  song.Highest_Position) FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE song.Song_ID = 5 and singer.Singer_ID = 8"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Net_Worth_Millions) FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T1.Singer_ID = 7 and T2.Sales = 335000.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer.Net_Worth_Millions) FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE singer.Singer_ID = 7 and song.Sales = 335000.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Title) FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T1.Sales = 300000.0 and T2.Birth_Year = 1953.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  song.Title) FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE song.Sales = 300000.0 and singer.Birth_Year = 1953.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Singer_ID) FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T1.Highest_Position = 1.0 and T2.Net_Worth_Millions = 12.7",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  song.Singer_ID) FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE song.Highest_Position = 1.0 and singer.Net_Worth_Millions = 12.7"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Singer_ID) FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T1.Name = \"Susanne Klatten\" and T2.Song_ID = 3",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer.Singer_ID) FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE singer.Name = \"Susanne Klatten\" and song.Song_ID = 3"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Singer_ID) FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T1.Highest_Position = 3.0 and T2.Net_Worth_Millions = 30.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  song.Singer_ID) FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE song.Highest_Position = 3.0 and singer.Net_Worth_Millions = 30.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Song_ID) FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T1.Title = \"Left Outside Alone\" and T2.Citizenship = \"Chile\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  song.Song_ID) FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE song.Title = \"Left Outside Alone\" and singer.Citizenship = \"Chile\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Song_ID) FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T1.Singer_ID = 4 and T2.Name = \"Iris Fontbona\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  song.Song_ID) FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE song.Singer_ID = 4 and singer.Name = \"Iris Fontbona\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1 WHERE T1.Song_ID = 6 or T1.Title = \"Left Outside Alone\"",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song WHERE song.Song_ID = 6 or song.Title = \"Left Outside Alone\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Sales FROM song AS T1 WHERE T1.Title = \"Cha Cha Slide\" or T1.Song_ID = 2",
+    "readable_query": "SELECT song.Sales FROM song AS song WHERE song.Title = \"Cha Cha Slide\" or song.Song_ID = 2"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1 WHERE T1.Sales = 300000.0 or T1.Title = \"All This Time\"",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song WHERE song.Sales = 300000.0 or song.Title = \"All This Time\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Net_Worth_Millions FROM singer AS T1 WHERE T1.Name = \"Abigail Johnson\" or T1.Birth_Year = 1942.0",
+    "readable_query": "SELECT singer.Net_Worth_Millions FROM singer AS singer WHERE singer.Name = \"Abigail Johnson\" or singer.Birth_Year = 1942.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1 WHERE T1.Net_Worth_Millions = 14.3 or T1.Name = \"Iris Fontbona\"",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer WHERE singer.Net_Worth_Millions = 14.3 or singer.Name = \"Iris Fontbona\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 WHERE T1.Citizenship = \"Chile\" or T1.Net_Worth_Millions = 28.8",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer WHERE singer.Citizenship = \"Chile\" or singer.Net_Worth_Millions = 28.8"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Song_ID FROM song AS T1 WHERE T1.Highest_Position = 1.0 or T1.Singer_ID = 2",
+    "readable_query": "SELECT song.Song_ID FROM song AS song WHERE song.Highest_Position = 1.0 or song.Singer_ID = 2"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Name FROM singer AS T1 WHERE T1.Singer_ID = 6 or T1.Net_Worth_Millions = 12.7",
+    "readable_query": "SELECT singer.Name FROM singer AS singer WHERE singer.Singer_ID = 6 or singer.Net_Worth_Millions = 12.7"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Birth_Year FROM singer AS T1 WHERE T1.Name = \"Gina Rinehart\" or T1.Net_Worth_Millions = 30.0",
+    "readable_query": "SELECT singer.Birth_Year FROM singer AS singer WHERE singer.Name = \"Gina Rinehart\" or singer.Net_Worth_Millions = 30.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Sales FROM song AS T1 WHERE T1.Song_ID = 7 or T1.Title = \"F**k It (I Don't Want You Back)\"",
+    "readable_query": "SELECT song.Sales FROM song AS song WHERE song.Song_ID = 7 or song.Title = \"F**k It (I Don't Want You Back)\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Sales = 300000.0 and T2.Singer_ID = 4",
+    "readable_query": "SELECT count(*) FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Sales = 300000.0 and song.Singer_ID = 4"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Song_ID = 6 and T2.Title = \"Mysterious Girl\"",
+    "readable_query": "SELECT count(*) FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Song_ID = 6 and song.Title = \"Mysterious Girl\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Singer_ID = 5 and T2.Title = \"F**k It (I Don't Want You Back)\"",
+    "readable_query": "SELECT count(*) FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Singer_ID = 5 and song.Title = \"F**k It (I Don't Want You Back)\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Name = \"Gina Rinehart\" and T2.Birth_Year = 1942.0",
+    "readable_query": "SELECT count(*) FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Name = \"Gina Rinehart\" and singer.Birth_Year = 1942.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Name = \"Christy Walton\" and T2.Citizenship = \"France\"",
+    "readable_query": "SELECT count(*) FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Name = \"Christy Walton\" and singer.Citizenship = \"France\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Name = \"Susanne Klatten\" and T2.Singer_ID = 4",
+    "readable_query": "SELECT count(*) FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Name = \"Susanne Klatten\" and singer.Singer_ID = 4"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Sales = 552407.0 and T2.Highest_Position = 3.0",
+    "readable_query": "SELECT count(*) FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Sales = 552407.0 and song.Highest_Position = 3.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Singer_ID = 7 and T2.Song_ID = 3",
+    "readable_query": "SELECT count(*) FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Singer_ID = 7 and song.Song_ID = 3"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Name = \"Liliane Bettencourt\" and T2.Citizenship = \"Germany\"",
+    "readable_query": "SELECT count(*) FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Name = \"Liliane Bettencourt\" and singer.Citizenship = \"Germany\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Birth_Year = 1949.0 and T2.Net_Worth_Millions = 30.0",
+    "readable_query": "SELECT count(*) FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Birth_Year = 1949.0 and singer.Net_Worth_Millions = 30.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Birth_Year FROM singer AS T1 WHERE T1.Net_Worth_Millions != 28.8",
+    "readable_query": "SELECT singer.Birth_Year FROM singer AS singer WHERE singer.Net_Worth_Millions != 28.8"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1 WHERE T1.Singer_ID != 4",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song WHERE song.Singer_ID != 4"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Title FROM song AS T1 WHERE T1.Sales != 351421.0",
+    "readable_query": "SELECT song.Title FROM song AS song WHERE song.Sales != 351421.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1 WHERE T1.Birth_Year != 1953.0",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer WHERE singer.Birth_Year != 1953.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Birth_Year FROM singer AS T1 WHERE T1.Name != \"Gina Rinehart\"",
+    "readable_query": "SELECT singer.Birth_Year FROM singer AS singer WHERE singer.Name != \"Gina Rinehart\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Name FROM singer AS T1 WHERE T1.Birth_Year != 1949.0",
+    "readable_query": "SELECT singer.Name FROM singer AS singer WHERE singer.Birth_Year != 1949.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Song_ID FROM song AS T1 WHERE T1.Sales != 300000.0",
+    "readable_query": "SELECT song.Song_ID FROM song AS song WHERE song.Sales != 300000.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1 WHERE T1.Song_ID != 7",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song WHERE song.Song_ID != 7"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Birth_Year FROM singer AS T1 WHERE T1.Citizenship != \"Germany\"",
+    "readable_query": "SELECT singer.Birth_Year FROM singer AS singer WHERE singer.Citizenship != \"Germany\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1 WHERE T1.Title != \"All This Time\"",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song WHERE song.Title != \"All This Time\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Title != \"Yeah\"",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Title != \"Yeah\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Title FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Name != \"Abigail Johnson\"",
+    "readable_query": "SELECT song.Title FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Name != \"Abigail Johnson\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Net_Worth_Millions FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Song_ID != 3",
+    "readable_query": "SELECT singer.Net_Worth_Millions FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Song_ID != 3"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Net_Worth_Millions != 17.8",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Net_Worth_Millions != 17.8"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Title FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Singer_ID != 6",
+    "readable_query": "SELECT song.Title FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Singer_ID != 6"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Sales FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Singer_ID != 4",
+    "readable_query": "SELECT song.Sales FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Singer_ID != 4"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Title FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Birth_Year != 1942.0",
+    "readable_query": "SELECT song.Title FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Birth_Year != 1942.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Song_ID != 1",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Song_ID != 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Song_ID != 2",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Song_ID != 2"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Singer_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Citizenship != \"Germany\"",
+    "readable_query": "SELECT song.Singer_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Citizenship != \"Germany\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Singer_ID FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Sales = 261000.0",
+    "readable_query": "SELECT DISTINCT singer.Singer_ID FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Sales = 261000.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Name FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Song_ID = 8",
+    "readable_query": "SELECT DISTINCT singer.Name FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Song_ID = 8"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Title FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Name = \"Abigail Johnson\"",
+    "readable_query": "SELECT DISTINCT song.Title FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Name = \"Abigail Johnson\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Song_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Net_Worth_Millions = 17.8",
+    "readable_query": "SELECT DISTINCT song.Song_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Net_Worth_Millions = 17.8"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Song_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Net_Worth_Millions = 28.8",
+    "readable_query": "SELECT DISTINCT song.Song_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Net_Worth_Millions = 28.8"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Name FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Highest_Position = 1.0",
+    "readable_query": "SELECT DISTINCT singer.Name FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Highest_Position = 1.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Net_Worth_Millions FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Song_ID = 3",
+    "readable_query": "SELECT DISTINCT singer.Net_Worth_Millions FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Song_ID = 3"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Birth_Year FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Singer_ID = 6",
+    "readable_query": "SELECT DISTINCT singer.Birth_Year FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Singer_ID = 6"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Net_Worth_Millions FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Sales = 275000.0",
+    "readable_query": "SELECT DISTINCT singer.Net_Worth_Millions FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Sales = 275000.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Singer_ID FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Highest_Position = 3.0",
+    "readable_query": "SELECT DISTINCT singer.Singer_ID FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Highest_Position = 3.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Sales) FROM song AS T1 WHERE T1.Singer_ID = 4",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  song.Sales) FROM song AS song WHERE song.Singer_ID = 4"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Sales) FROM song AS T1 WHERE T1.Song_ID = 7",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  song.Sales) FROM song AS song WHERE song.Song_ID = 7"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Song_ID) FROM song AS T1 WHERE T1.Singer_ID = 6",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  song.Song_ID) FROM song AS song WHERE song.Singer_ID = 6"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Birth_Year) FROM singer AS T1 WHERE T1.Singer_ID = 8",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer.Birth_Year) FROM singer AS singer WHERE singer.Singer_ID = 8"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Song_ID) FROM song AS T1 WHERE T1.Singer_ID = 2",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  song.Song_ID) FROM song AS song WHERE song.Singer_ID = 2"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Title) FROM song AS T1 WHERE T1.Song_ID = 3",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  song.Title) FROM song AS song WHERE song.Song_ID = 3"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Highest_Position) FROM song AS T1 WHERE T1.Song_ID = 8",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  song.Highest_Position) FROM song AS song WHERE song.Song_ID = 8"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Birth_Year) FROM singer AS T1 WHERE T1.Singer_ID = 3",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer.Birth_Year) FROM singer AS singer WHERE singer.Singer_ID = 3"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Title) FROM song AS T1 WHERE T1.Highest_Position = 3.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  song.Title) FROM song AS song WHERE song.Highest_Position = 3.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Net_Worth_Millions) FROM singer AS T1 WHERE T1.Birth_Year = 1948.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer.Net_Worth_Millions) FROM singer AS singer WHERE singer.Birth_Year = 1948.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Sales FROM song AS T1 WHERE T1.Song_ID > 3",
+    "readable_query": "SELECT song.Sales FROM song AS song WHERE song.Song_ID > 3"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Singer_ID FROM song AS T1 WHERE T1.Highest_Position > 3.0",
+    "readable_query": "SELECT song.Singer_ID FROM song AS song WHERE song.Highest_Position > 3.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Sales FROM song AS T1 WHERE T1.Singer_ID > 4",
+    "readable_query": "SELECT song.Sales FROM song AS song WHERE song.Singer_ID > 4"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Net_Worth_Millions FROM singer AS T1 WHERE T1.Singer_ID > 6",
+    "readable_query": "SELECT singer.Net_Worth_Millions FROM singer AS singer WHERE singer.Singer_ID > 6"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Sales FROM song AS T1 WHERE T1.Highest_Position > 1.0",
+    "readable_query": "SELECT song.Sales FROM song AS song WHERE song.Highest_Position > 1.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Song_ID FROM song AS T1 WHERE T1.Sales > 351421.0",
+    "readable_query": "SELECT song.Song_ID FROM song AS song WHERE song.Sales > 351421.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1 WHERE T1.Singer_ID > 6",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song WHERE song.Singer_ID > 6"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Birth_Year FROM singer AS T1 WHERE T1.Singer_ID > 5",
+    "readable_query": "SELECT singer.Birth_Year FROM singer AS singer WHERE singer.Singer_ID > 5"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1 WHERE T1.Birth_Year > 1948.0",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer WHERE singer.Birth_Year > 1948.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1 WHERE T1.Net_Worth_Millions > 17.8",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer WHERE singer.Net_Worth_Millions > 17.8"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID     ORDER BY T2.Singer_ID ASC",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID     ORDER BY singer.Singer_ID ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Title FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID     ORDER BY T2.Net_Worth_Millions ASC",
+    "readable_query": "SELECT song.Title FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID     ORDER BY singer.Net_Worth_Millions ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Song_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID     ORDER BY T2.Birth_Year ASC",
+    "readable_query": "SELECT song.Song_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID     ORDER BY singer.Birth_Year ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Song_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID     ORDER BY T2.Singer_ID ASC",
+    "readable_query": "SELECT song.Song_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID     ORDER BY singer.Singer_ID ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Sales FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID     ORDER BY T2.Net_Worth_Millions ASC",
+    "readable_query": "SELECT song.Sales FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID     ORDER BY singer.Net_Worth_Millions ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID     ORDER BY T2.Highest_Position ASC",
+    "readable_query": "SELECT singer.Name FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID     ORDER BY song.Highest_Position ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Birth_Year FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID     ORDER BY T2.Highest_Position ASC",
+    "readable_query": "SELECT singer.Birth_Year FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID     ORDER BY song.Highest_Position ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Net_Worth_Millions FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID     ORDER BY T2.Sales ASC",
+    "readable_query": "SELECT singer.Net_Worth_Millions FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID     ORDER BY song.Sales ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Song_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID     ORDER BY T2.Net_Worth_Millions ASC",
+    "readable_query": "SELECT song.Song_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID     ORDER BY singer.Net_Worth_Millions ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Birth_Year FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID     ORDER BY T2.Song_ID ASC",
+    "readable_query": "SELECT singer.Birth_Year FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID     ORDER BY song.Song_ID ASC"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Singer_ID FROM song AS T1 WHERE T1.Title = \"All This Time\"     INTERSECT SELECT T2.Singer_ID FROM song AS T2 WHERE T2.Title = \"Cha Cha Slide\"",
+    "readable_query": "SELECT song.Singer_ID FROM song AS song WHERE song.Title = \"All This Time\"     INTERSECT SELECT song.Singer_ID FROM song AS song WHERE song.Title = \"Cha Cha Slide\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Singer_ID FROM song AS T1 WHERE T1.Highest_Position = 1.0     INTERSECT SELECT T2.Singer_ID FROM song AS T2 WHERE T2.Highest_Position = 1.0",
+    "readable_query": "SELECT song.Singer_ID FROM song AS song WHERE song.Highest_Position = 1.0     INTERSECT SELECT song.Singer_ID FROM song AS song WHERE song.Highest_Position = 1.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1 WHERE T1.Birth_Year = 1953.0     INTERSECT SELECT T2.Citizenship FROM singer AS T2 WHERE T2.Birth_Year = 1942.0",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer WHERE singer.Birth_Year = 1953.0     INTERSECT SELECT singer.Citizenship FROM singer AS singer WHERE singer.Birth_Year = 1942.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Song_ID FROM song AS T1 WHERE T1.Highest_Position = 3.0     INTERSECT SELECT T2.Song_ID FROM song AS T2 WHERE T2.Highest_Position = 1.0",
+    "readable_query": "SELECT song.Song_ID FROM song AS song WHERE song.Highest_Position = 3.0     INTERSECT SELECT song.Song_ID FROM song AS song WHERE song.Highest_Position = 1.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 WHERE T1.Birth_Year = 1949.0     INTERSECT SELECT T2.Singer_ID FROM singer AS T2 WHERE T2.Birth_Year = 1962.0",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer WHERE singer.Birth_Year = 1949.0     INTERSECT SELECT singer.Singer_ID FROM singer AS singer WHERE singer.Birth_Year = 1962.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Song_ID FROM song AS T1 WHERE T1.Singer_ID = 7     INTERSECT SELECT T2.Song_ID FROM song AS T2 WHERE T2.Singer_ID = 5",
+    "readable_query": "SELECT song.Song_ID FROM song AS song WHERE song.Singer_ID = 7     INTERSECT SELECT song.Song_ID FROM song AS song WHERE song.Singer_ID = 5"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1 WHERE T1.Name = \"Susanne Klatten\"     INTERSECT SELECT T2.Citizenship FROM singer AS T2 WHERE T2.Name = \"Iris Fontbona\"",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer WHERE singer.Name = \"Susanne Klatten\"     INTERSECT SELECT singer.Citizenship FROM singer AS singer WHERE singer.Name = \"Iris Fontbona\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 WHERE T1.Birth_Year = 1948.0     INTERSECT SELECT T2.Singer_ID FROM singer AS T2 WHERE T2.Birth_Year = 1949.0",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer WHERE singer.Birth_Year = 1948.0     INTERSECT SELECT singer.Singer_ID FROM singer AS singer WHERE singer.Birth_Year = 1949.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Singer_ID FROM song AS T1 WHERE T1.Song_ID = 3     INTERSECT SELECT T2.Singer_ID FROM song AS T2 WHERE T2.Song_ID = 7",
+    "readable_query": "SELECT song.Singer_ID FROM song AS song WHERE song.Song_ID = 3     INTERSECT SELECT song.Singer_ID FROM song AS song WHERE song.Song_ID = 7"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 WHERE T1.Net_Worth_Millions = 17.4     INTERSECT SELECT T2.Singer_ID FROM singer AS T2 WHERE T2.Net_Worth_Millions = 28.8",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer WHERE singer.Net_Worth_Millions = 17.4     INTERSECT SELECT singer.Singer_ID FROM singer AS singer WHERE singer.Net_Worth_Millions = 28.8"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Singer_ID) FROM singer AS T1 WHERE T1.Citizenship = \"Australia\"",
+    "readable_query": "SELECT avg( singer.Singer_ID) FROM singer AS singer WHERE singer.Citizenship = \"Australia\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Birth_Year) FROM singer AS T1 WHERE T1.Singer_ID = 8",
+    "readable_query": "SELECT avg( singer.Birth_Year) FROM singer AS singer WHERE singer.Singer_ID = 8"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Birth_Year) FROM singer AS T1 WHERE T1.Citizenship = \"Australia\"",
+    "readable_query": "SELECT avg( singer.Birth_Year) FROM singer AS singer WHERE singer.Citizenship = \"Australia\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Birth_Year) FROM singer AS T1 WHERE T1.Name = \"Liliane Bettencourt\"",
+    "readable_query": "SELECT avg( singer.Birth_Year) FROM singer AS singer WHERE singer.Name = \"Liliane Bettencourt\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Net_Worth_Millions) FROM singer AS T1 WHERE T1.Birth_Year = 1940.0",
+    "readable_query": "SELECT avg( singer.Net_Worth_Millions) FROM singer AS singer WHERE singer.Birth_Year = 1940.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Birth_Year) FROM singer AS T1 WHERE T1.Name = \"Abigail Johnson\"",
+    "readable_query": "SELECT avg( singer.Birth_Year) FROM singer AS singer WHERE singer.Name = \"Abigail Johnson\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Singer_ID) FROM singer AS T1 WHERE T1.Net_Worth_Millions = 17.8",
+    "readable_query": "SELECT avg( singer.Singer_ID) FROM singer AS singer WHERE singer.Net_Worth_Millions = 17.8"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Highest_Position) FROM song AS T1 WHERE T1.Sales = 351421.0",
+    "readable_query": "SELECT avg( song.Highest_Position) FROM song AS song WHERE song.Sales = 351421.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Singer_ID) FROM song AS T1 WHERE T1.Sales = 300000.0",
+    "readable_query": "SELECT avg( song.Singer_ID) FROM song AS song WHERE song.Sales = 300000.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Sales) FROM song AS T1 WHERE T1.Highest_Position = 3.0",
+    "readable_query": "SELECT avg( song.Sales) FROM song AS song WHERE song.Highest_Position = 3.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Singer_ID = (SELECT max( T23.Singer_ID) FROM song AS T23)",
+    "readable_query": "SELECT singer.Name FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Singer_ID = (SELECT max( song.Singer_ID) FROM song AS song)"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Title FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Birth_Year = (SELECT max( T23.Birth_Year) FROM singer AS T23)",
+    "readable_query": "SELECT song.Title FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Birth_Year = (SELECT max( singer.Birth_Year) FROM singer AS singer)"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Net_Worth_Millions FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Sales = (SELECT max( T23.Sales) FROM song AS T23)",
+    "readable_query": "SELECT singer.Net_Worth_Millions FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Sales = (SELECT max( song.Sales) FROM song AS song)"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Song_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Net_Worth_Millions = (SELECT max( T23.Net_Worth_Millions) FROM singer AS T23)",
+    "readable_query": "SELECT song.Song_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Net_Worth_Millions = (SELECT max( singer.Net_Worth_Millions) FROM singer AS singer)"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Highest_Position = (SELECT max( T23.Highest_Position) FROM song AS T23)",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Highest_Position = (SELECT max( song.Highest_Position) FROM song AS song)"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Sales = (SELECT max( T23.Sales) FROM song AS T23)",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Sales = (SELECT max( song.Sales) FROM song AS song)"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Birth_Year FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Song_ID = (SELECT max( T23.Song_ID) FROM song AS T23)",
+    "readable_query": "SELECT singer.Birth_Year FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Song_ID = (SELECT max( song.Song_ID) FROM song AS song)"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Song_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Singer_ID = (SELECT max( T23.Singer_ID) FROM singer AS T23)",
+    "readable_query": "SELECT song.Song_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Singer_ID = (SELECT max( singer.Singer_ID) FROM singer AS singer)"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Highest_Position = (SELECT max( T23.Highest_Position) FROM song AS T23)",
+    "readable_query": "SELECT singer.Name FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Highest_Position = (SELECT max( song.Highest_Position) FROM song AS song)"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Birth_Year = (SELECT max( T23.Birth_Year) FROM singer AS T23)",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Birth_Year = (SELECT max( singer.Birth_Year) FROM singer AS singer)"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Title = \"All This Time\" GROUP BY T1.Citizenship  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Title = \"All This Time\" GROUP BY singer.Citizenship  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Name FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Sales = 292000.0 GROUP BY T1.Name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT singer.Name FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Sales = 292000.0 GROUP BY singer.Name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Song_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Name = \"Gina Rinehart\" GROUP BY T1.Song_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT song.Song_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Name = \"Gina Rinehart\" GROUP BY song.Song_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Song_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Birth_Year = 1953.0 GROUP BY T1.Song_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT song.Song_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Birth_Year = 1953.0 GROUP BY song.Song_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Singer_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Net_Worth_Millions = 12.7 GROUP BY T1.Singer_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT song.Singer_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Net_Worth_Millions = 12.7 GROUP BY song.Singer_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Name = \"Christy Walton\" GROUP BY T1.Highest_Position  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Name = \"Christy Walton\" GROUP BY song.Highest_Position  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Highest_Position = 1.0 GROUP BY T1.Singer_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Highest_Position = 1.0 GROUP BY singer.Singer_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 JOIN song AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Title = \"Call on Me\" GROUP BY T1.Singer_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer JOIN song AS song ON singer.Singer_ID = song.Singer_ID WHERE song.Title = \"Call on Me\" GROUP BY singer.Singer_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Song_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Net_Worth_Millions = 17.4 GROUP BY T1.Song_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT song.Song_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Net_Worth_Millions = 17.4 GROUP BY song.Song_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Song_ID FROM song AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Citizenship = \"Australia\" GROUP BY T1.Song_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT song.Song_ID FROM song AS song JOIN singer AS singer ON song.Singer_ID = singer.Singer_ID WHERE singer.Citizenship = \"Australia\" GROUP BY song.Song_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1        EXCEPT SELECT T2.Citizenship FROM singer AS T2 WHERE T2.Singer_ID = 2",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer        EXCEPT SELECT singer.Citizenship FROM singer AS singer WHERE singer.Singer_ID = 2"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1        EXCEPT SELECT T2.Highest_Position FROM song AS T2 WHERE T2.Song_ID = 8",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song        EXCEPT SELECT song.Highest_Position FROM song AS song WHERE song.Song_ID = 8"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1        EXCEPT SELECT T2.Highest_Position FROM song AS T2 WHERE T2.Sales = 1094000.0",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song        EXCEPT SELECT song.Highest_Position FROM song AS song WHERE song.Sales = 1094000.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1        EXCEPT SELECT T2.Citizenship FROM singer AS T2 WHERE T2.Singer_ID = 6",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer        EXCEPT SELECT singer.Citizenship FROM singer AS singer WHERE singer.Singer_ID = 6"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Singer_ID FROM song AS T1        EXCEPT SELECT T2.Singer_ID FROM song AS T2 WHERE T2.Title = \"Call on Me\"",
+    "readable_query": "SELECT song.Singer_ID FROM song AS song        EXCEPT SELECT song.Singer_ID FROM song AS song WHERE song.Title = \"Call on Me\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Citizenship FROM singer AS T1        EXCEPT SELECT T2.Citizenship FROM singer AS T2 WHERE T2.Net_Worth_Millions = 12.7",
+    "readable_query": "SELECT singer.Citizenship FROM singer AS singer        EXCEPT SELECT singer.Citizenship FROM singer AS singer WHERE singer.Net_Worth_Millions = 12.7"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Name FROM singer AS T1        EXCEPT SELECT T2.Name FROM singer AS T2 WHERE T2.Singer_ID = 4",
+    "readable_query": "SELECT singer.Name FROM singer AS singer        EXCEPT SELECT singer.Name FROM singer AS singer WHERE singer.Singer_ID = 4"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Net_Worth_Millions FROM singer AS T1        EXCEPT SELECT T2.Net_Worth_Millions FROM singer AS T2 WHERE T2.Birth_Year = 1961.0",
+    "readable_query": "SELECT singer.Net_Worth_Millions FROM singer AS singer        EXCEPT SELECT singer.Net_Worth_Millions FROM singer AS singer WHERE singer.Birth_Year = 1961.0"
+  },
+  {
+    "db_id": "singer",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Net_Worth_Millions FROM singer AS T1        EXCEPT SELECT T2.Net_Worth_Millions FROM singer AS T2 WHERE T2.Citizenship = \"Chile\"",
+    "readable_query": "SELECT singer.Net_Worth_Millions FROM singer AS singer        EXCEPT SELECT singer.Net_Worth_Millions FROM singer AS singer WHERE singer.Citizenship = \"Chile\""
+  },
+  {
+    "db_id": "singer",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Highest_Position FROM song AS T1        EXCEPT SELECT T2.Highest_Position FROM song AS T2 WHERE T2.Singer_ID = 5",
+    "readable_query": "SELECT song.Highest_Position FROM song AS song        EXCEPT SELECT song.Highest_Position FROM song AS song WHERE song.Singer_ID = 5"
+  }
+]

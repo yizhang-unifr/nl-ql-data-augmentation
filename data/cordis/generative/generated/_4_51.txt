@@ -1,0 +1,28 @@
+SELECT count(*) FROM topics WHERE topics.code = 'Activity-2-2015'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM topics WHERE topics.code = 'Activity-2-2015'
+GPT-3 choices:
+(0) Total number of topics with the code Activity-2-2015
+(1) Show how many topics are associated to the activity 2 of 2015
+(2) How many topics are there about Activity-2-2015?
+(3) How many topics are there with Activity-2-2015 in their code?
+(4) How many topics have the activity 2 2015?
+(5) How many topics are associated with Activity-2-2015?
+(6) Show the number of topics in the Activity-2-2015 theme.
+(7) Count all the topics fitting the activity 2 of year 2015
+
+
+Re-ranked choices:
+6.109  How many topics are associated with Activity-2-2015?
+6.029  How many topics have the activity 2 2015?
+6.001  How many topics are there about Activity-2-2015?
+5.905  How many topics are there with Activity-2-2015 in their code?
+5.851  Show how many topics are associated to the activity 2 of 2015
+5.499  Count all the topics fitting the activity 2 of year 2015
+5.411  Show the number of topics in the Activity-2-2015 theme.
+5.375  Total number of topics with the code Activity-2-2015
+

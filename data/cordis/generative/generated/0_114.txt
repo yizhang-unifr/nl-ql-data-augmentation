@@ -1,0 +1,16 @@
+SELECT topics.code FROM topics WHERE topics.rcn = '664965'
+
+###
+
+
+Original Query:
+SELECT topics.code FROM topics WHERE topics.rcn = '664965'
+GPT-3 choices:
+(0) Show me all topics having the subject code 664965
+(1) ####
+(2) Show me all registered Short Courses with code 664965
+(3) Retrieve the code of topics that have a record in the rcn 664965.
+(4) Retrieve all topics with 664965 as their registration country
+(5) Get all topics with code 664965
+(6) Show all topics with code 664965
+(7) 4

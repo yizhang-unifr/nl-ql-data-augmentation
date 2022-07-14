@@ -1,0 +1,16 @@
+SELECT activity_types.description FROM activity_types WHERE activity_types.code = 'PRC'
+
+###
+
+
+Original Query:
+SELECT activity_types.description FROM activity_types WHERE activity_types.code = 'PRC'
+GPT-3 choices:
+(0) Show me all the activity types name for projects for which the country code is PRC
+(1) Retrieve the description for activity types with code PRC
+(2) What are the descriptions of activity types associated with the activity PRC?
+(3) Show all activity type descriptions in PRC
+(4) What are the activity types descriptions of projects?
+(5) Show all description of activity type PRC
+(6) What are the different activity types?
+(7) Show me all activity types descriptions when looking for PRC

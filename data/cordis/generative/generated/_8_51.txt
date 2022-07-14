@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions != 'DE276'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions != 'DE276'
+GPT-3 choices:
+(0) Show the names of EU territorial units which are not in the region DE276
+(1) What are the different territorial unit descriptions?
+(2) Which European terretrial unit description does not correspond to DE276?
+(3) Show all territorial unit descriptions which don't match with DE276
+(4) Show me the territorial units descriptions for which the geocode region is not DE276.
+(5) Show me territorial units that are not in the geocode region DE276.
+(6) What are the territorial unit descriptions which are not part of the region DE276?
+(7) Show me all territorial units in Europe excluding the geocode region DE276.
+
+
+Re-ranked choices:
+5.380  What are the territorial unit descriptions which are not part of the region DE276?
+5.306  Show me territorial units that are not in the geocode region DE276.
+5.264  Show me the territorial units descriptions for which the geocode region is not DE276.
+5.097  Show me all territorial units in Europe excluding the geocode region DE276.
+4.935  Show all territorial unit descriptions which don't match with DE276
+4.918  Show the names of EU territorial units which are not in the region DE276
+4.426  Which European terretrial unit description does not correspond to DE276?
+4.127  What are the different territorial unit descriptions?
+

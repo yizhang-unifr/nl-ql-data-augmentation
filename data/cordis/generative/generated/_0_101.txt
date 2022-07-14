@@ -1,0 +1,28 @@
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code = 'CIP-ICT-PSP-PA'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code = 'CIP-ICT-PSP-PA'
+GPT-3 choices:
+(0) What are the funding schemes of the project titled CIP-ICT-PSP-PA?
+(1) Retrieve all funding scheme titles from the schema CIP-ICT-PSP-PA
+(2) Show me all the funding scheme titles for the funding scheme with code CIP-ICT-PSP-PA .
+(3) Retrieve all funding scheme titles within the funding schema with code = 'CIP-ICT-PSP-PA'
+(4) Show me all funding schemas with title 'CIP-ICT-PSP-PA'
+(5) What are the titles of the funding schemes with code CIP-ICT-PSP-PA?
+(6) Retrieve the title of all the funding schemes whose code is "CIP-ICT-PSP-PA"
+(7) Show me the titles of all sequences of funding scheme CIP-ICT-PSP-PA.
+
+
+Re-ranked choices:
+5.859  Show me all the funding scheme titles for the funding scheme with code CIP-ICT-PSP-PA .
+5.684  Retrieve the title of all the funding schemes whose code is "CIP-ICT-PSP-PA"
+5.606  Show me all funding schemas with title 'CIP-ICT-PSP-PA'
+5.570  Show me the titles of all sequences of funding scheme CIP-ICT-PSP-PA.
+5.537  Retrieve all funding scheme titles from the schema CIP-ICT-PSP-PA
+5.506  What are the titles of the funding schemes with code CIP-ICT-PSP-PA?
+5.336  Retrieve all funding scheme titles within the funding schema with code = 'CIP-ICT-PSP-PA'
+5.018  What are the funding schemes of the project titled CIP-ICT-PSP-PA?
+

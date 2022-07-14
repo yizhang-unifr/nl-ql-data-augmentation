@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description != 'Stredné Slovensko'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description != 'Stredné Slovensko'
+GPT-3 choices:
+(0) Which are the geocode regions of the territorial unit descriptions different than Stredné Slovensko?
+(1) Show me the european territorial unit region codes without the "Stredné Slovensko" description.
+(2) Show me the descriptions of territorial units, except the one named Stredné Slovensko
+(3) Retrieve the geocode region of territorial unit descriptions which are not in "Stredné Slovensko"
+(4) Show me the geocode regions of territorial units except those whose description is Stredné Slovensko.
+(5) Show me territorial units having region code != Stredné Slovensko
+(6) Retrieve territorial unit geocode regions where the description is different than "Stredné Slovensko"
+(7) Show me territorial units with geocode regions that are different than Stredne Slovensko

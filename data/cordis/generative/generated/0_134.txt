@@ -1,0 +1,16 @@
+SELECT project_members.id FROM project_members WHERE project_members.member_name = 'POLITECNICO DI TORINO'
+
+###
+
+
+Original Query:
+SELECT project_members.unics_id FROM project_members WHERE project_members.member_name = 'POLITECNICO DI TORINO'
+GPT-3 choices:
+(0) Show me all project members from The Polytechnic of Turin
+(1) Show all project members which have the name POLITECNICO DI TORINO
+(2) What is the id of project members from PACIFIC TECHNOLOGIES who are from the participant of the project POLITECNICO DI TORINO
+(3) Show me all project members named "POLITECNICO DI TORINO"
+(4) Show me all project members from some institution.
+(5) What are the project members institutions that are composed of the member with name “POLITECNICO DI TORINO”?
+(6) Show me the project members who are in POLITECNICO DI TORINO
+(7) Show the id of project members named "POLITECNICO DI TORINO"

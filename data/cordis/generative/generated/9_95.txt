@@ -1,0 +1,16 @@
+SELECT subject_areas.title FROM subject_areas JOIN project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects ON project_subject_areas.project = projects.unics_id WHERE projects.end_date != '2012-07-31'
+
+###
+
+
+Original Query:
+SELECT subject_areas.title FROM subject_areas JOIN project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects ON project_subject_areas.project = projects.unics_id WHERE projects.end_date != '2012-07-31'
+GPT-3 choices:
+(0) What are the subject areas of projects that didn't end on 2012-07-31?
+(1) What are the subject areas of projects that didn't end on 2012-07-31?
+(2) What are the title of subject areas of projects that did not end at 2012-07-31?
+(3) What are the subject areas of projects that did not end in 2012-07-31?
+(4) Retrieve the subject areas of projects that did not end in 2012-07-31
+(5) Retrieve subject areas of projects that aren't ending in 2012-07-31
+(6) Retrieve the title of all subject areas associated with project that do not have an end date equals 2012-07-31
+(7) #### Show subject areas of projects that didn't end in 2012-07-31.

@@ -1,0 +1,16 @@
+SELECT activity_types.description FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.member_name != 'ELLINIKO MESOGEIAKO PANEPISTIMIO'
+
+###
+
+
+Original Query:
+SELECT activity_types.description FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.member_name != 'ELLINIKO MESOGEIAKO PANEPISTIMIO'
+GPT-3 choices:
+(0) Retrieve the description of activity types used by project members who do not have the member name “ELLINIKO MESOGEIAKO PANEPISTIMIO”.
+(1) Show all description types of projects whose members are not 'Elliniko Mesogeiakko Paneplismo'
+(2) Show me the activity types of members that are not the "ELLINIKO MESOGEIAKO PANEPISTIMIO" company
+(3) Retrieve activity types descriptions of projects members who are not from ELLINIKO MESOGEIAKO PANEPISTIMIO.
+(4) Show me the description of activity types of project members that are not in "Elliniko Mesogeiakko Paneipistimio"
+(5) Retrieve activity types of project members that are not from Elliniko Mesogeiakko Panepistimio
+(6) Show me the descriptions of activity types of project members who are not called ELLINIKO MESOGEIAKO PANEPISTIMIO?
+(7) Show activity types of project members that are not from Elliniko mesogeiako pancefimio.

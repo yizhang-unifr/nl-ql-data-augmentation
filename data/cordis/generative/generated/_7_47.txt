@@ -1,0 +1,28 @@
+SELECT programmes.title FROM programmes WHERE programmes.code = 'H2020-EU.2.1.2.' or programmes.code = 'PEOPLE-2007-2-3.COFUND'
+
+###
+
+
+Original Query:
+SELECT programmes.title FROM programmes WHERE programmes.code = 'H2020-EU.2.1.2.' or programmes.code = 'PEOPLE-2007-2-3.COFUND'
+GPT-3 choices:
+(0) What are the project titles funded by the EU through the People programme as CoFund?
+(1) Show me all programs with titles ending with “H2020-EU.2.1.2” or “PEOPLE-2007-2-3.COFUND”
+(2) Show me all the projects with titles H2020-EU.2.1.2. or PEOPLE-2007-2-3.COFUND.
+(3) Retrieve the titles of all project listed under the programme H2020-EU.2.1.2 or PEOPLE-2007-2-3.COFUND
+(4) Show me all the project titles where we have a program named 'H2020-EU.2.1.2.' or a program named 'PEOPLE-2007-2-3.COFUND'
+(5) Show me all project titles with code EU.2.1.2. or PEOPLE-2007-2-3.COFUND
+(6) Show me all programmes with title "H2020-EU.2.1.2." or "PEOPLE-2007-2-3.COFUND".
+(7) Show me a programme with title "H2020-EU.2.1.2" or "PEOPLE-2007-2-3.COFUND".
+
+
+Re-ranked choices:
+5.785  Show me all the project titles where we have a program named 'H2020-EU.2.1.2.' or a program named 'PEOPLE-2007-2-3.COFUND'
+5.669  Show me all the projects with titles H2020-EU.2.1.2. or PEOPLE-2007-2-3.COFUND.
+5.619  Show me all programmes with title "H2020-EU.2.1.2." or "PEOPLE-2007-2-3.COFUND".
+5.513  Show me a programme with title "H2020-EU.2.1.2" or "PEOPLE-2007-2-3.COFUND".
+5.428  Show me all project titles with code EU.2.1.2. or PEOPLE-2007-2-3.COFUND
+5.389  Show me all programs with titles ending with “H2020-EU.2.1.2” or “PEOPLE-2007-2-3.COFUND”
+5.364  Retrieve the titles of all project listed under the programme H2020-EU.2.1.2 or PEOPLE-2007-2-3.COFUND
+4.766  What are the project titles funded by the EU through the People programme as CoFund?
+

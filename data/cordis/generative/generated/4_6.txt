@@ -1,0 +1,16 @@
+SELECT count(*) FROM ec_framework_programs WHERE ec_framework_programs.program_name = 'H2020'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM ec_framework_programs WHERE ec_framework_programs.ec_framework_program_name = 'H2020'
+GPT-3 choices:
+(0) How many projects are there in the framework programme H2020?
+(1) Show how many projects have the eu fundational program "H2020" as a project?
+(2) Show the number of projects for the program H2020
+(3) How many ERC programme are there?
+(4) How many program are part of the Europe 2020 programmes?
+(5) How many program names are there within the H2020 framework?
+(6) How many projects are there that have the program name H2020?
+(7) How many frameworks are there in Horizon 2020?

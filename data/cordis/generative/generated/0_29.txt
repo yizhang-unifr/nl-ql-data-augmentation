@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'DE133'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'DE133'
+GPT-3 choices:
+(0) Return descriptions of the European territorial units where the geocode region is DE133
+(1) Show all european territorial unit descriptions that have a geocode region code
+(2) Show all description nodes of territorial units in the region DE133
+(3) Show me the territorial unit descriptions within DE133
+(4) Display the description of territorial units in the region DE133
+(5) RETURN all territorial unit descriptions that contain the word DE133
+(6) Display all territorial unit descriptions in the region DE133
+(7) Find territorial unit descriptions associated with the geocode regions DE133.

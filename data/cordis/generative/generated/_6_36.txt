@@ -1,0 +1,28 @@
+SELECT project_members.city FROM project_members WHERE project_members.member_short_name = 'ICCS' and project_members.rcn = '1923947'
+
+###
+
+
+Original Query:
+SELECT project_members.city FROM project_members WHERE project_members.member_short_name = 'ICCS' and project_members.rcn = '1923947'
+GPT-3 choices:
+(0) What is the city of all project members whose short name is ICCS and research core number is 1923947?
+(1) What is the city of the project members with member short name ICCS and research collaboration number 1923947?
+(2) Show the city of project members that have the RCN1923947
+(3) Show all city of project members whose short name is "ICCS" and research code is "1923947".
+(4) Retrieve the city of all project members whose short name is ICCS and research code is 1923947
+(5) Show me all the project members that participate in a project named ICCS and have an RCN of 1923947
+(6) Show me the city of project members of the project ICCS with RCN 1923947
+(7) Which are the cities of the project members with short name ICCS and rcn 1923947?
+
+
+Re-ranked choices:
+5.949  Show me the city of project members of the project ICCS with RCN 1923947
+5.889  What is the city of the project members with member short name ICCS and research collaboration number 1923947?
+5.881  Which are the cities of the project members with short name ICCS and rcn 1923947?
+5.851  What is the city of all project members whose short name is ICCS and research core number is 1923947?
+5.842  Show all city of project members whose short name is "ICCS" and research code is "1923947".
+5.631  Show me all the project members that participate in a project named ICCS and have an RCN of 1923947
+5.566  Retrieve the city of all project members whose short name is ICCS and research code is 1923947
+4.859  Show the city of project members that have the RCN1923947
+

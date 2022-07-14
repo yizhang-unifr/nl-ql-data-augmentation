@@ -1,0 +1,28 @@
+SELECT activity_types.description FROM activity_types WHERE activity_types.code = 'HES' or activity_types.code = 'OTH'
+
+###
+
+
+Original Query:
+SELECT activity_types.description FROM activity_types WHERE activity_types.code = 'HES' or activity_types.code = 'OTH'
+GPT-3 choices:
+(0) Retrieve activity types descriptions from code "HES" or "OTH"
+(1) Show me the activity types descriptions used for either HES or OTH.
+(2) Show all activity types with descriptions relating to the hospitals or centre for orthopedics
+(3) Give me all the activity types from the HES or OTH code.
+(4) Display all activity types that have either HES or OTH as the code
+(5) Show me activity type descriptions when the activity codefield is different than HES or OTH
+(6) Show me activity types descriptions
+(7) Show me descriptions for activity types "HES" and "OTH"
+
+
+Re-ranked choices:
+5.523  Show me descriptions for activity types "HES" and "OTH"
+5.263  Show me activity types descriptions
+5.205  Show me the activity types descriptions used for either HES or OTH.
+5.149  Retrieve activity types descriptions from code "HES" or "OTH"
+5.100  Display all activity types that have either HES or OTH as the code
+4.973  Show me activity type descriptions when the activity codefield is different than HES or OTH
+4.836  Give me all the activity types from the HES or OTH code.
+4.180  Show all activity types with descriptions relating to the hospitals or centre for orthopedics
+

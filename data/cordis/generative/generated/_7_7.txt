@@ -1,0 +1,28 @@
+SELECT projects.unics_id FROM projects WHERE projects.framework_program = 'H2020' or projects.framework_program = 'FP7'
+
+###
+
+
+Original Query:
+SELECT projects.unics_id FROM projects WHERE projects.framework_program = 'H2020' or projects.framework_program = 'FP7'
+GPT-3 choices:
+(0) Retrieve all project records that are assigned to H2020 or FP7
+(1) Show me all institutions that have projects through both the H2020 framework and the FP7 framework
+(2) Show me the unique projects of an H2020 or FP7 framework program
+(3) What is the unics_id of projects that have either a framework_program of H2020 or FP7?
+(4) Show me the unique id of projects with a framework program of H2020 or FP7
+(5) Retrieve all the project's unics id having a framework program.
+(6) Show me all projects assigned either H2020 or FP7 framework programmes
+(7) Show me all project having either a framework program ending with "H2020" or a program ending with "FP7"
+
+
+Re-ranked choices:
+5.195  Show me the unique projects of an H2020 or FP7 framework program
+5.131  Show me the unique id of projects with a framework program of H2020 or FP7
+5.129  Show me all projects assigned either H2020 or FP7 framework programmes
+5.005  What is the unics_id of projects that have either a framework_program of H2020 or FP7?
+4.943  Show me all project having either a framework program ending with "H2020" or a program ending with "FP7"
+4.657  Show me all institutions that have projects through both the H2020 framework and the FP7 framework
+4.080  Retrieve all project records that are assigned to H2020 or FP7
+3.620  Retrieve all the project's unics id having a framework program.
+

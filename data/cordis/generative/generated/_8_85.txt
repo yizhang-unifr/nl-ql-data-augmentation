@@ -1,0 +1,28 @@
+SELECT project_members.country FROM project_members WHERE project_members.postal_code != '7034'
+
+###
+
+
+Original Query:
+SELECT project_members.country FROM project_members WHERE project_members.postal_code != '7034'
+GPT-3 choices:
+(0) What are the countries of project members that do not have the postal code 7034?
+(1) Which countries have project members who don't have a postal code of 7034?
+(2) What is the country of project members with a different postal code
+(3) Show all the project members that do not have the postal code 7034
+(4) Return country of project members having a different postal code than 7034
+(5) Show all project members from countries different than "7034"
+(6) Which countries are different from project members having postal_code as 7034?
+(7) Show me all project members located outside district 7034.
+
+
+Re-ranked choices:
+5.384  What are the countries of project members that do not have the postal code 7034?
+5.325  Which countries have project members who don't have a postal code of 7034?
+5.135  Which countries are different from project members having postal_code as 7034?
+4.999  Return country of project members having a different postal code than 7034
+4.886  What is the country of project members with a different postal code
+4.730  Show all the project members that do not have the postal code 7034
+4.340  Show all project members from countries different than "7034"
+3.713  Show me all project members located outside district 7034.
+

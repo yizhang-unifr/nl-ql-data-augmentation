@@ -1,0 +1,16 @@
+SELECT countries.country_name FROM countries WHERE countries.country_code = 'VE'
+
+###
+
+
+Original Query:
+SELECT countries.country_name FROM countries WHERE countries.country_code2 = 'VE'
+GPT-3 choices:
+(0) Show me the names of all countries whose country code is VE
+(1) Show me all country names from the country with code VE
+(2) Show me all the countries whose country code is VE.
+(3) Show all country names of the country with country code = 'VE'
+(4) Show all country names that have as country code the value VE.
+(5) What are the country names of countries with country code VE ?
+(6) What are the different country names?
+(7) Show all countries with country code set to VE

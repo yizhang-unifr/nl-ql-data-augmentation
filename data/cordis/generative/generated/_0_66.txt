@@ -1,0 +1,28 @@
+SELECT institutions.db_pedia_url FROM institutions WHERE institutions.grid_id = 'grid.8295.6'
+
+###
+
+
+Original Query:
+SELECT institutions.db_pedia_url FROM institutions WHERE institutions.grid_id = 'grid.8295.6'
+GPT-3 choices:
+(0) Show me institutions with a grid_id of 8295.6
+(1) Get the URL of the Wikipedia entry for the institution with grid ID of grid.8295.6
+(2) Return the dbpedia URL for column grid.8295.6 of the institution with code SPMCI###
+(3) Show me all the wikipedia pages about institutions that are associated with the grid 8295.6
+(4) Show all the wiki URLs for the institution with grid ID 8295.6.
+(5) What is the Wikipedia URL of the institutions in grid 8295.6?
+(6) What is the short wikipedia URL for the grid 8295.6?
+(7) Show me all the wiki pages for institutions having grid id grid.8295.6
+
+
+Re-ranked choices:
+5.288  What is the Wikipedia URL of the institutions in grid 8295.6?
+5.123  Get the URL of the Wikipedia entry for the institution with grid ID of grid.8295.6
+5.003  Show me all the wiki pages for institutions having grid id grid.8295.6
+4.998  Show all the wiki URLs for the institution with grid ID 8295.6.
+4.950  Show me all the wikipedia pages about institutions that are associated with the grid 8295.6
+4.454  What is the short wikipedia URL for the grid 8295.6?
+4.407  Show me institutions with a grid_id of 8295.6
+3.772  Return the dbpedia URL for column grid.8295.6 of the institution with code SPMCI###
+

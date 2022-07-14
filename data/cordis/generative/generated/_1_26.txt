@@ -1,0 +1,27 @@
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.title = 'CROWD sensing and ride sharing FOR ROAD Sustainability'
+
+###
+
+
+Original Query:
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.title = 'CROWD sensing and ride sharing FOR ROAD Sustainability'
+GPT-3 choices:
+(0) Show me the name of the person with id 1 who has worked on the project titled CROWD sensing and ride sharing FOR ROAD Sustainability
+(1) Show me the names of people that have a project called "CROWD sensing and ride sharing FOR ROAD Sustainability".
+(2) 
+(3) What is the full name of principal investigators of projects named CROWD sensing and ride sharing FOR ROAD Sustainability?
+(4) Retrieve the full name of all project principals involved in the project "CROWD sensing and ride sharing FOR ROAD Sustainability"
+(5) What is the full name of the principal investigators working in the project CROWD sensing and ride sharing FOR ROAD Sustainability?
+(6) Retrieve the full name of people from projects with title CROWD sensing and ride sharing FOR ROAD Sustainability.
+(7) Retrieve the full name of people that are principal investigators of a project with title "CROWD sensing and ride sharing FOR ROAD Sustainability"
+
+
+Re-ranked choices:
+5.037  What is the full name of principal investigators of projects named CROWD sensing and ride sharing FOR ROAD Sustainability?
+4.975  Show me the names of people that have a project called "CROWD sensing and ride sharing FOR ROAD Sustainability".
+4.929  What is the full name of the principal investigators working in the project CROWD sensing and ride sharing FOR ROAD Sustainability?
+4.895  Retrieve the full name of people that are principal investigators of a project with title "CROWD sensing and ride sharing FOR ROAD Sustainability"
+4.869  Retrieve the full name of people from projects with title CROWD sensing and ride sharing FOR ROAD Sustainability.
+4.772  Show me the name of the person with id 1 who has worked on the project titled CROWD sensing and ride sharing FOR ROAD Sustainability
+4.736  Retrieve the full name of all project principals involved in the project "CROWD sensing and ride sharing FOR ROAD Sustainability"
+

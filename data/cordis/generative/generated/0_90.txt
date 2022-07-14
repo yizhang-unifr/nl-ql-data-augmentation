@@ -1,0 +1,16 @@
+SELECT project_member_roles.code FROM project_member_roles WHERE project_member_roles.description = 'internationalPartner'
+
+###
+
+
+Original Query:
+SELECT project_member_roles.code FROM project_member_roles WHERE project_member_roles.description = 'internationalPartner'
+GPT-3 choices:
+(0) What are the project member roles with description internationalPartner?
+(1) Show properties of the project member role with description internationalPartner
+(2) What are the project member role descriptions of the international partners?
+(3) Retrieve all project member roles that have the description 'internationalPartner'
+(4) Show project members of the project with code 'International Program'
+(5) Show project member roles that are international partners.
+(6) What are the project member role descriptions assigned to international partners?
+(7) How are the project member roles assigned to the project members?

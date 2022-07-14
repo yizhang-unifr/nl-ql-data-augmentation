@@ -1,0 +1,28 @@
+SELECT topics.code FROM topics WHERE topics.rcn = '664742' or topics.rcn = '665188'
+
+###
+
+
+Original Query:
+SELECT topics.code FROM topics WHERE topics.rcn = '664742' or topics.rcn = '665188'
+GPT-3 choices:
+(0) What are the different topics?
+(1) What are the codes of the topics from which come research centre 664742 or research centre 665188?
+(2) #### Show me all the different topics with rcn = 664742 or 665188
+(3) Show me all the topics which have a code, either 664742 or 665188
+(4) Which countries participate in project 664742?
+(5) What are the topics associated with the research councils 664742 and 66 5188?
+(6) What are the topics associated with research areas 664742 or 665188?
+(7) What are the topics of articles that have been assigned to position 664742 or 665188?
+
+
+Re-ranked choices:
+4.644  What are the topics associated with research areas 664742 or 665188?
+4.407  What are the topics associated with the research councils 664742 and 66 5188?
+4.134  What are the codes of the topics from which come research centre 664742 or research centre 665188?
+4.065  What are the topics of articles that have been assigned to position 664742 or 665188?
+3.766  Show me all the topics which have a code, either 664742 or 665188
+3.655  #### Show me all the different topics with rcn = 664742 or 665188
+3.170  Which countries participate in project 664742?
+3.129  What are the different topics?
+

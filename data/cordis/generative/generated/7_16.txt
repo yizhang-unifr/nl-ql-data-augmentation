@@ -1,0 +1,16 @@
+SELECT project_members.vat_number FROM project_members WHERE project_members.id = 506988 or project_members.id = 507433
+
+###
+
+
+Original Query:
+SELECT project_members.vat_number FROM project_members WHERE project_members.unics_id = 506988 or project_members.unics_id = 507433
+GPT-3 choices:
+(0) Show the vat number of either project member with id 506988 or 507433
+(1) Retrieve all members that have project with id = 506988 or 507433
+(2) Show the vat numbers of project members who are either 506988 or 507433
+(3) What is the vat number of project members with id 506988 or 507433?
+(4) Show the vat number of project members having one of the two ids 506988 or 507433
+(5) Show full project members of projects 506988 or 507433
+(6) What is the vat number of project members with ids 506988 and 507433?
+(7) Retrieve the vat number of project members with either of the two ids 506988 or 507433

@@ -1,0 +1,16 @@
+SELECT projects.start_date FROM projects WHERE projects.start_year != 2018
+
+###
+
+
+Original Query:
+SELECT projects.start_date FROM projects WHERE projects.start_year != 2018
+GPT-3 choices:
+(0) Show me projects that start before 2018
+(1) Show me projects that started before 2018.
+(2) Show me all projects that did not start in 2018
+(3) Show me all projects that do not start in 2018
+(4) Show the project start date except when the year is 2018
+(5) Show all projects that did not start this year
+(6) Retrieve all project start dates from 2018
+(7) Show me projects that started before the year 2018

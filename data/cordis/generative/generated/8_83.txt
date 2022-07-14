@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description != 'Kırşehir'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description != 'Kırşehir'
+GPT-3 choices:
+(0) Show me the geocode region for territorial units not having "Kırşehir" in their description
+(1) Show me all European territorial units not in Kırşehir
+(2) Show me the geocode regions for the territorial unit "Kırşehir"
+(3) How many region's number exist of the territorial unit and description is not "Kırşehir"?
+(4) Show all territorial unit descriptions except Kırşehir.
+(5) Show me eu territorial unit geocode regions which are not Kırşehir
+(6) What are the geocode regions of European territorial units that don't fall with the city of Kırşehir ?
+(7) Show me the regions for the territorial unit that are not about "Kırşehir".

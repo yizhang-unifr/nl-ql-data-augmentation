@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description = 'Harz'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description = 'Harz'
+GPT-3 choices:
+(0) What are the geocode regions of the territorial unit description Harz?
+(1) The geocode region of the territorial unit description Harz
+(2) Show me the eu territorial units having the descriptions Harz
+(3) Retrieve geocode region(s) of territorial unit with description Harz
+(4) Show me all territorial units that are named Harz
+(5) Show me all European Union territorial units which have the region name Harz
+(6) Retrieve geocode region descriptions of all European territorial units which are named "Harz"
+(7) Retrieve the geocode regions associated with the territory of Harz.
+
+
+Re-ranked choices:
+5.476  The geocode region of the territorial unit description Harz
+5.469  Retrieve geocode region descriptions of all European territorial units which are named "Harz"
+5.376  What are the geocode regions of the territorial unit description Harz?
+5.203  Retrieve geocode region(s) of territorial unit with description Harz
+5.114  Show me all European Union territorial units which have the region name Harz
+5.076  Retrieve the geocode regions associated with the territory of Harz.
+4.929  Show me all territorial units that are named Harz
+4.872  Show me the eu territorial units having the descriptions Harz
+

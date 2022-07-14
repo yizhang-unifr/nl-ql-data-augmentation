@@ -1,0 +1,16 @@
+SELECT projects.ec_call FROM projects JOIN project_members ON projects.unics_id = project_members.project WHERE project_members.latitude != 48.1789165
+
+###
+
+
+Original Query:
+SELECT projects.ec_call FROM projects JOIN project_members ON projects.unics_id = project_members.project WHERE project_members.latitude != 48.1789165
+GPT-3 choices:
+(0) Which project has members located north of 48.1789165?
+(1) Retrieve all projects whose members have a latitude != 48.1789165.
+(2) Retrieve the urn of European Capitals from the project with member with latitude != 48.1789165
+(3) Show me projects that have at least one different co-member's latitude than 48.1789165
+(4) Show me all projects that have a member who's latitude is != 48.1789165
+(5) Show me the European call numbers of projects that don't have at least one member located in a particular latitude
+(6) Show me projects that have members in a different country than 48.1789165
+(7) Show all EC calls institutions have in projects that their members haven't.

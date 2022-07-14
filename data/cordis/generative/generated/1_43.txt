@@ -1,0 +1,16 @@
+SELECT activity_types.code FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.rcn = '1920888'
+
+###
+
+
+Original Query:
+SELECT activity_types.code FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.rcn = '1920888'
+GPT-3 choices:
+(0) Show activity types of project members with research council number 1920888
+(1) Show all activity types from project members with registratin code 1920888
+(2) Show activity types of project members whose research and career number is 1920888.
+(3) Show activity types of project members with research council number 1920888
+(4) Show all activity types of project members with research council number 1920888
+(5) Show me all the activity types of project members having the rcn 1920888
+(6) Which are the activity types of the project member with research centre number 1920888?
+(7) Retrieve activity types associated with project member with Retric council number 1920888

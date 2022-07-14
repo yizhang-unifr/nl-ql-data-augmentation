@@ -1,0 +1,28 @@
+SELECT erc_research_domains.code FROM erc_research_domains JOIN erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects ON project_erc_panels.project = projects.unics_id WHERE projects.framework_program != 'H2020'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.code FROM erc_research_domains JOIN erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects ON project_erc_panels.project = projects.unics_id WHERE projects.framework_program != 'H2020'
+GPT-3 choices:
+(0) Show me the research domains of project with a framework program != 'H2020' and with a panel that is part of an ERC panel
+(1) Retrieve the ERC research domains from which projects are not funded under the H2020 framework program
+(2) Show me the research domains with projects that are not part of the H2020 framework program
+(3) Show me the ERC research domains associated to projects that do not fall under the framework program H2020
+(4) Display the ERC research domain codes of projects whose framework program is not H2020
+(5) Show the code of the ERC research domain associated with projects funded outside the H2020 framework
+(6) Show the code of research domains that participate in a project whose framework program is not H2020
+(7) Show the codes of all research domains that are not part of a project with a framework program H2020
+
+
+Re-ranked choices:
+5.776  Display the ERC research domain codes of projects whose framework program is not H2020
+5.665  Show me the ERC research domains associated to projects that do not fall under the framework program H2020
+5.618  Show me the research domains with projects that are not part of the H2020 framework program
+5.590  Show the code of research domains that participate in a project whose framework program is not H2020
+5.511  Show the codes of all research domains that are not part of a project with a framework program H2020
+5.486  Show the code of the ERC research domain associated with projects funded outside the H2020 framework
+5.394  Show me the research domains of project with a framework program != 'H2020' and with a panel that is part of an ERC panel
+5.239  Retrieve the ERC research domains from which projects are not funded under the H2020 framework program
+

@@ -1,0 +1,16 @@
+SELECT programmes.short_name, count(*) FROM programmes  GROUP BY programmes.short_name
+
+###
+
+
+Original Query:
+SELECT programmes.short_name, count(*) FROM programmes  GROUP BY programmes.short_name
+GPT-3 choices:
+(0) Count the number of programmes by their short name
+(1) Show the number of programmes in the different countries.
+(2) How many programme short names are there?
+(3) What is the number of programme short names?
+(4) What is the most frequently used short name of a programme?
+(5) Show me the different programme short names and the number of projects in each.
+(6) How many programme short names are there?
+(7) How many programme names are there?

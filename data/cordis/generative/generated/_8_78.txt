@@ -1,0 +1,28 @@
+SELECT project_members.postal_code FROM project_members WHERE project_members.city != 'UXBRIDGE'
+
+###
+
+
+Original Query:
+SELECT project_members.postal_code FROM project_members WHERE project_members.city != 'UXBRIDGE'
+GPT-3 choices:
+(0) Show me project members in institutions not in Uxbridge
+(1) What is the postal code of project members who don't live in UXBRIDGE?
+(2) Show me the postal code for project members that do not have the city of UXBRIDGE
+(3) Show me project members that are not based in UXBRIDGE
+(4) Retrieve project members' postal codes from all project members, except from those from Uxbridge.
+(5) What is the postal code of project members which do not live at UXBRIDGE?
+(6) What are the postal codes of project members different from "UXBRIDGE"?
+(7) Show the postal code for project members who are not in the city of UXBRIDGE.
+
+
+Re-ranked choices:
+5.765  Show the postal code for project members who are not in the city of UXBRIDGE.
+5.716  What is the postal code of project members which do not live at UXBRIDGE?
+5.679  Show me the postal code for project members that do not have the city of UXBRIDGE
+5.646  What is the postal code of project members who don't live in UXBRIDGE?
+5.262  What are the postal codes of project members different from "UXBRIDGE"?
+5.128  Retrieve project members' postal codes from all project members, except from those from Uxbridge.
+4.813  Show me project members that are not based in UXBRIDGE
+4.626  Show me project members in institutions not in Uxbridge
+

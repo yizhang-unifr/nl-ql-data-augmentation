@@ -1,0 +1,16 @@
+SELECT project_member_roles.description FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.member_role = 'participant'
+
+###
+
+
+Original Query:
+SELECT project_member_roles.description FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.member_role = 'participant'
+GPT-3 choices:
+(0) Show project members roles as participant
+(1) Retrieve the description of project member roles of project members having the role participant
+(2) Show the description of project member roles assigned to project members with role = participant
+(3) Show the description of all project member role descriptions for the project members having the role participant
+(4) Retrieve the description of all project member roles for project members having the participant role
+(5) Retrieve project member roles of participants
+(6) Show all project member role descriptions for project members with role participant.
+(7) What are the project member roles of all project members?

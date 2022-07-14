@@ -1,0 +1,16 @@
+SELECT programmes.rcn FROM programmes WHERE programmes.title = 'Innovative methods in science education'
+
+###
+
+
+Original Query:
+SELECT programmes.rcn FROM programmes WHERE programmes.title = 'Innovative methods in science education'
+GPT-3 choices:
+(0) Select projects that have the title “Innovative methods in science education”
+(1) What are the RCNs of programmes with title "Innovative methods in science education"?
+(2) What are the different title of programmes?
+(3) Show me all RCNs of programmes having the title “Innovative methods in science education”
+(4) Show me all the panel topics that are unique and are called "Innovative methods in science education"
+(5) What are the European Research Council project that have the title "Innovative methods in science education"?
+(6) Show me the institutions assigned to the programme with title "Innovative methods in science education"
+(7) Retrieve the number of research council programmes with short title "Innovative methods in science education" .

@@ -1,0 +1,16 @@
+SELECT subject_areas.description FROM subject_areas WHERE subject_areas.title = 'Scientific Research'
+
+###
+
+
+Original Query:
+SELECT subject_areas.description FROM subject_areas WHERE subject_areas.title = 'Scientific Research'
+GPT-3 choices:
+(0) Which are the subject areas for a research project?
+(1) Add SQL extension node "Scientific Research"
+(2) What are the subject areas that have the title Scientific Research?
+(3) Show me the subject areas for Scientific Research.
+(4) Show all areas of interest in scientific research.
+(5) Show all subject areas where the title is Scientific Research.
+(6) Show me the subject areas of scientific research.
+(7) Select the description from subject areas having title Scientific Research

@@ -1,0 +1,28 @@
+SELECT project_members.latitude FROM project_members    ORDER BY project_members.ec_contribution DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT project_members.latitude FROM project_members    ORDER BY project_members.ec_contribution DESC LIMIT 1
+GPT-3 choices:
+(0) Retrieve the latitude of the project members with the most contributions
+(1) Show me the latitude of the project members with the largest economic contribution
+(2) Show the latitude of the project member with the highest EC contribution.
+(3) What is the latitude of the project mutant members with the highest EC contribution?
+(4) What is the latitude of the project member with largest ec contribution?
+(5) Show me the latitude of the project member whose ec contribution is lowest
+(6) Show me the latitude of the member with the lowest contribution.
+(7) Show me the latitude of the project member with the highest contributed European Community (EC)research project.
+
+
+Re-ranked choices:
+5.511  Show the latitude of the project member with the highest EC contribution.
+5.421  Show me the latitude of the project member whose ec contribution is lowest
+5.385  What is the latitude of the project member with largest ec contribution?
+4.878  Show me the latitude of the project member with the highest contributed European Community (EC)research project.
+4.730  Show me the latitude of the project members with the largest economic contribution
+4.586  Retrieve the latitude of the project members with the most contributions
+4.498  Show me the latitude of the member with the lowest contribution.
+4.399  What is the latitude of the project mutant members with the highest EC contribution?
+

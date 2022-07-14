@@ -1,0 +1,93 @@
+[
+  {
+    "name": "poker player",
+    "original_name": "poker_player",
+    "logical_name": "poker_player",
+    "columns": [
+      {
+        "name": "poker player id",
+        "original_name": "Poker_Player_ID",
+        "logical_name": "Poker_Player_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "people id",
+        "original_name": "People_ID",
+        "logical_name": "People_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "final table made",
+        "original_name": "Final_Table_Made",
+        "logical_name": "Final_Table_Made",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "best finish",
+        "original_name": "Best_Finish",
+        "logical_name": "Best_Finish",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "money rank",
+        "original_name": "Money_Rank",
+        "logical_name": "Money_Rank",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "earnings",
+        "original_name": "Earnings",
+        "logical_name": "Earnings",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  },
+  {
+    "name": "people",
+    "original_name": "people",
+    "logical_name": "people",
+    "columns": [
+      {
+        "name": "people id",
+        "original_name": "People_ID",
+        "logical_name": "People_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "nationality",
+        "original_name": "Nationality",
+        "logical_name": "Nationality",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "name",
+        "original_name": "Name",
+        "logical_name": "Name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "birth date",
+        "original_name": "Birth_Date",
+        "logical_name": "Birth_Date",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "height",
+        "original_name": "Height",
+        "logical_name": "Height",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  }
+]

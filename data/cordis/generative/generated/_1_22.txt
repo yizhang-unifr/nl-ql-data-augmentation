@@ -1,0 +1,28 @@
+SELECT activity_types.description FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.country = 'UK'
+
+###
+
+
+Original Query:
+SELECT activity_types.description FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.country = 'UK'
+GPT-3 choices:
+(0) Show activity types of project members located in the UK
+(1) Retrieve descriptions of activity types associated with project members located in UK
+(2) Show all activity types associated with project members located in UK.
+(3) What are the activity types of project members who are in UK?
+(4) Show activity types associated with project members located in UK
+(5) Display activity type descriptions for project members in UK
+(6) What are the activity types of the project members located in UK?
+(7) Show me the activity type descriptions of project members who are in the UK.
+
+
+Re-ranked choices:
+6.281  Show activity types of project members located in the UK
+6.279  Show activity types associated with project members located in UK
+6.222  Show me the activity type descriptions of project members who are in the UK.
+6.218  Show all activity types associated with project members located in UK.
+5.930  What are the activity types of the project members located in UK?
+5.905  What are the activity types of project members who are in UK?
+5.820  Retrieve descriptions of activity types associated with project members located in UK
+5.683  Display activity type descriptions for project members in UK
+

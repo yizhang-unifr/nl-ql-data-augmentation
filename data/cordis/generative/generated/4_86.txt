@@ -1,0 +1,16 @@
+SELECT count(*) FROM activity_types WHERE activity_types.description = 'Private for-profit entities (excluding Higher or Secondary Education Establishments)'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM activity_types WHERE activity_types.description = 'Private for-profit entities (excluding Higher or Secondary Education Establishments)'
+GPT-3 choices:
+(0) How many activity types are associated with entities that are not private for-profits and do not run a primary or secondary school?
+(1) How many activity types are associated with private for-profit entities that are not Higher or Secondary Education Establishments?
+(2) How many activity types are there for Private for-profit entities (excluding Higher or Secondary Education Establishments)?
+(3) How many activity types are there in the ERIC database for Private for-profit entities (excluding Higher or Secondary Education Establishments)?
+(4) How many activity types are there for Private for-profit entities (excluding Higher or Secondary Education Establishments)?
+(5) Show the number of admeasurement activity types.
+(6) How many private for-profit entities are there?
+(7) How many activity types are associated with Private for-profit entities (excluding Higher or Secondary Education Establishments)?

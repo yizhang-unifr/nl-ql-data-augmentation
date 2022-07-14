@@ -1,0 +1,16 @@
+SELECT projects.homepage FROM projects WHERE projects.ec_call = 'FP7-SSH-2007-1' or projects.ec_call = 'FP7-KBBE-2010-4'
+
+###
+
+
+Original Query:
+SELECT projects.homepage FROM projects WHERE projects.ec_call = 'FP7-SSH-2007-1' or projects.ec_call = 'FP7-KBBE-2010-4'
+GPT-3 choices:
+(0) Show me projects that have either an ec_call variable with the value FP7-SSH-2007-1 or an ec_call variable with the value FP7-KBBE-2010-4
+(1) Show me project homepage which either have the code "FP7-SSH-2007-1" or "FP7-KBBE-2010-4"
+(2) What is the homepage of projects that have an ec call or have the value FP7-KBBE-2010-4?
+(3) Show me all project's homepages associated with the programme "FP7-SSH-2007-1" or "FP7-KBBE-2010-4"
+(4) Show me the homepages of all projects that participated unexcused in FP7-SSH-2007-1 or FP7-KBBE-2010-4
+(5) List all project homepages, who have or have had an European Commission project funding call with the code FP7-SSH-2007-1 or FP7-KBBE-2010-4
+(6) Show me the homepages of projects that have acronyms 'FP7-SSH-2007-1' or 'FP7-KBBE-2010-4'
+(7) Or projects having either the same eacall or any eacall "FP7-SSH-2007-1" or "FP7-KBBE-2010-4"

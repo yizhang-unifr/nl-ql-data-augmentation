@@ -1,0 +1,28 @@
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code != 'MC-IR'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code != 'MC-IR'
+GPT-3 choices:
+(0) Show me funding scheme titles which are not MC-IR
+(1) Show me the title of funding schemes that do not have the code MC-IR
+(2) What are the title of funding schemes that are not about the European multifocality programme involving research centres?
+(3) Display all funding schemes with a title not equal to 'MC-IR'
+(4) Show me all funding schema titles that are not MC-IR
+(5) Retrieve all funding scheme titles that are different from MC-IR
+(6) Show me the funding schemes titles.
+(7) All funding schemes which don't have code MC-IR
+
+
+Re-ranked choices:
+5.445  Show me funding scheme titles which are not MC-IR
+5.267  Show me the title of funding schemes that do not have the code MC-IR
+5.132  Display all funding schemes with a title not equal to 'MC-IR'
+4.867  Retrieve all funding scheme titles that are different from MC-IR
+4.819  Show me all funding schema titles that are not MC-IR
+4.670  All funding schemes which don't have code MC-IR
+4.641  Show me the funding schemes titles.
+2.952  What are the title of funding schemes that are not about the European multifocality programme involving research centres?
+

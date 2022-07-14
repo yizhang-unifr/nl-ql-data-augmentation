@@ -1,0 +1,16 @@
+SELECT project_members.postal_code FROM project_members JOIN projects ON project_members.project = projects.unics_id WHERE projects.start_date = '2019-01-01'
+
+###
+
+
+Original Query:
+SELECT project_members.postal_code FROM project_members JOIN projects ON project_members.project = projects.unics_id WHERE projects.start_date = '2019-01-01'
+GPT-3 choices:
+(0) Show all project members with the same project across all projects that have a starting date in 2019-01-01
+(1) Show the postal code of project members within a project that started in 2019-01-01
+(2) What is the postal code of project members that have a project that started in 2019-01-01?
+(3) What is the postal code of all project members whose project started in 2019-01-01 ?
+(4) Show the postal code of all project members in projects that started in 2019-01-01
+(5) Show my postal code as project member of projects with starting date of 2019-01-01
+(6) Show the postal code of projects that started in 2019-01-01
+(7) Show the postal code of project members who participated in a project whose starting date is January 1, 2019.

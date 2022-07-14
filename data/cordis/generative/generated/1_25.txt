@@ -1,0 +1,16 @@
+SELECT project_member_roles.description FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.city = 'KOBENHAVN'
+
+###
+
+
+Original Query:
+SELECT project_member_roles.description FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.city = 'KOBENHAVN'
+GPT-3 choices:
+(0) What are the descriptions of project member roles assigned to project members located in Kobenhavn?
+(1) What are the project member roles descriptions of the project members that have city Kobenhavn?
+(2) Retrieve project member roles of project members having city KOBENHAVN
+(3) Retrieve the project member roles associated with project members in Kobenhavn
+(4) Show me project member roles for project members in the city of KOBENHAVN
+(5) The project member roles associated with members whose city is 'KOBENHAVN'
+(6) What are the project member roles descriptions of members from KOBENHAVN?
+(7) Show project member roles assigned to members living in Kobenhavn

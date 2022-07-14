@@ -1,0 +1,16 @@
+SELECT ec_framework_programs.program_name, count(*) FROM ec_framework_programs  GROUP BY ec_framework_programs.program_name
+
+###
+
+
+Original Query:
+SELECT ec_framework_programs.ec_framework_program_name, count(*) FROM ec_framework_programs  GROUP BY ec_framework_programs.ec_framework_program_name
+GPT-3 choices:
+(0) How many programs are there in the European framework?
+(1) Show the number of framework programs
+(2) Show the number of programs per framework
+(3) Total number of different framework programs
+(4) Show the number of entries for each program in the framework
+(5) How many different framework programs are there?
+(6) Retrieve the number of frameworks programs available
+(7) How many framework programs are there?

@@ -1,0 +1,16 @@
+SELECT countries.country_name FROM countries JOIN institutions ON countries.unics_id = institutions.country_id WHERE institutions.wikidata_url != 'http://www.wikidata.org/wiki/Q11712937'
+
+###
+
+
+Original Query:
+SELECT countries.country_name FROM countries JOIN institutions ON countries.unics_id = institutions.country_id WHERE institutions.wikidata_url != 'http://www.wikidata.org/wiki/Q11712937'
+GPT-3 choices:
+(0) Retrieve all country names for countries for which there is an institution with a wikidata_url != "http://www.wikidata.org/wiki/Q11712937".
+(1) Retrieve the country names of institutions that don't have a Wikidata entry
+(2) Show the country name of institutions that have a wikidata but are not the Q11712937
+(3) Only country names of countries in which there is an institution eu level project other then Q11712937
+(4) The country names of institutions located in countries whose Wikidata URL is different than http://www.wikidata.org/wiki/Q11712937
+(5) Replace the wikidata url of the first institution in which it is not equal to http://www.wikidata.org/wiki/Q11712937
+(6) Retrieve country names corresponding to institutions that don't have Wikidata project.
+(7) Show me all countries that are assigned a different institution than the one in question.

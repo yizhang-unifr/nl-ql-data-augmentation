@@ -1,0 +1,28 @@
+SELECT countries.country_code FROM countries JOIN institutions ON countries.unics_id = institutions.country_id WHERE institutions.institutions_name = 'BOUWRADIUS TRAINING & ADVIES BV'
+
+###
+
+
+Original Query:
+SELECT countries.country_code2 FROM countries JOIN institutions ON countries.unics_id = institutions.country_id WHERE institutions.institutions_name = 'BOUWRADIUS TRAINING & ADVIES BV'
+GPT-3 choices:
+(0) Retrieve all country codes associated with the institution BOUWRADIUS TRAINING & ADVIES BV.
+(1) Show all countries having an institution named "BOUWRADIUS TRAINING & ADVIES BV"
+(2) Show the country code of institutions with name BOUWRADIUS TRAINING & ADVIES BV
+(3) Show country codes of institutions with name BOUWRADIUS TRAINING & ADVIES BV
+(4) What are the country codes of all the institutions with name BOUWRADIUS TRAINING & ADVIES BV?
+(5) Retrieve country codes of countries where an institution called BOUWRADIUS TRAINING & ADVIES BV is located.
+(6) Show me all country codes of institutions with name BOUWRADIUS TRAINING & ADVIES BV
+(7) Show me country codes of institutions with name BOUWRADIUS TRAINING & ADVIES BV
+
+
+Re-ranked choices:
+6.523  Show me country codes of institutions with name BOUWRADIUS TRAINING & ADVIES BV
+6.514  Show country codes of institutions with name BOUWRADIUS TRAINING & ADVIES BV
+6.502  Show me all country codes of institutions with name BOUWRADIUS TRAINING & ADVIES BV
+6.480  Show the country code of institutions with name BOUWRADIUS TRAINING & ADVIES BV
+6.224  Retrieve country codes of countries where an institution called BOUWRADIUS TRAINING & ADVIES BV is located.
+6.204  What are the country codes of all the institutions with name BOUWRADIUS TRAINING & ADVIES BV?
+6.142  Retrieve all country codes associated with the institution BOUWRADIUS TRAINING & ADVIES BV.
+5.826  Show all countries having an institution named "BOUWRADIUS TRAINING & ADVIES BV"
+

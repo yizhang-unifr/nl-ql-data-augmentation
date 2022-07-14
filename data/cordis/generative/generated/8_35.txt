@@ -1,0 +1,16 @@
+SELECT project_member_roles.code FROM project_member_roles WHERE project_member_roles.description != 'partner'
+
+###
+
+
+Original Query:
+SELECT project_member_roles.code FROM project_member_roles WHERE project_member_roles.description != 'partner'
+GPT-3 choices:
+(0) Show me all project member roles descriptions which are not partner .
+(1) Show project member roles which are not for partners.
+(2) Show project member roles that are not partner
+(3) Show all project member roles except partner
+(4) What are the code of project members' roles in which the role description is different from 'partner'?
+(5) Get all project member roles except partner roles
+(6) Show me project member roles different than partner
+(7) Show me all project member roles except partner

@@ -1,0 +1,16 @@
+SELECT erc_research_domains.description, count(*) FROM erc_research_domains  GROUP BY erc_research_domains.description
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.description, count(*) FROM erc_research_domains  GROUP BY erc_research_domains.description
+GPT-3 choices:
+(0) Aggregate the distinct repository descriptions into number of distinct repository descriptions
+(1) What is the number of research domains?
+(2) How many research domains are there?
+(3) How many research domains are there?
+(4) What is the number of different research domains?
+(5) What is the number of research domains?
+(6) What are the different research domains funded in the project?
+(7) Associate and disassociate institution codes for all research domains with descriptions

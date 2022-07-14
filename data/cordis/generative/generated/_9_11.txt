@@ -1,0 +1,28 @@
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.title != 'White Islam: A New Religion of the European Far Right'
+
+###
+
+
+Original Query:
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.title != 'White Islam: A New Religion of the European Far Right'
+GPT-3 choices:
+(0) Show full names of principal investigators of projects different from White Islam: A New Religion of the European Far Right
+(1) Show me the names of people that have projects that are not about “White Islam: A New Religion of the European Far Right”.
+(2) Show the full names of people whose principal project is not named White Islam: A New Religion of the European Far Right
+(3) Retrieve the full names of people that have not participated in a project with the title "White Islam: A New Religion of the European Far Right"
+(4) Show me names of people associated to projects apart from "White Islam: A New Religion of the European Far Right"
+(5) Show me the full name of all people with a project where the title differs from White Islam: A New Religion of the European Far Right
+(6) What is the full name of people who have a project and the project title is not White Islam: A New Religion of the European Far Right?
+(7) Show me the names of people who are principal investigators of projects that don't have the title White Islam: A New Religion of the European Far Right.
+
+
+Re-ranked choices:
+6.327  Show the full names of people whose principal project is not named White Islam: A New Religion of the European Far Right
+6.321  Show me the names of people who are principal investigators of projects that don't have the title White Islam: A New Religion of the European Far Right.
+6.319  Show me names of people associated to projects apart from "White Islam: A New Religion of the European Far Right"
+6.263  Show me the full name of all people with a project where the title differs from White Islam: A New Religion of the European Far Right
+6.236  Show me the names of people that have projects that are not about “White Islam: A New Religion of the European Far Right”.
+6.171  What is the full name of people who have a project and the project title is not White Islam: A New Religion of the European Far Right?
+6.075  Show full names of principal investigators of projects different from White Islam: A New Religion of the European Far Right
+5.597  Retrieve the full names of people that have not participated in a project with the title "White Islam: A New Religion of the European Far Right"
+

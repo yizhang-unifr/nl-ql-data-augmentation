@@ -1,0 +1,28 @@
+SELECT count(*) FROM programmes WHERE programmes.short_name = 'Reducing energy consumption and carbon footprint'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM programmes WHERE programmes.short_name = 'Reducing energy consumption and carbon footprint'
+GPT-3 choices:
+(0) Total number of programmes with the short name ‘Reducing energy consumption and carbon footprint’
+(1) How many programmes are there with short name Reducing energy consumption and carbon footprint?
+(2) How many programme are there for reducing energy consuption and have the short name Reducing energy consumption and carbon footprint?
+(3) How many programmes are there in the programme subject "Reducing energy consumption and carbon footprint"?
+(4) Show the total number of programme entries that have the short name Reducing energy consumption and carbon footprint
+(5) Show me the number of programmes titled "Reducing energy consumption and carbon footprint".
+(6) Show the number of programmes whose short name is Reducing energy consumption and carbon footprint
+(7) How many programmes are there with a name Reducing energy consumption and carbon footprint?
+
+
+Re-ranked choices:
+6.418  Total number of programmes with the short name ‘Reducing energy consumption and carbon footprint’
+6.354  How many programmes are there with a name Reducing energy consumption and carbon footprint?
+6.330  How many programmes are there with short name Reducing energy consumption and carbon footprint?
+6.287  Show the number of programmes whose short name is Reducing energy consumption and carbon footprint
+6.218  How many programme are there for reducing energy consuption and have the short name Reducing energy consumption and carbon footprint?
+6.198  Show me the number of programmes titled "Reducing energy consumption and carbon footprint".
+6.181  How many programmes are there in the programme subject "Reducing energy consumption and carbon footprint"?
+5.629  Show the total number of programme entries that have the short name Reducing energy consumption and carbon footprint
+

@@ -1,0 +1,16 @@
+SELECT project_members.id FROM project_members WHERE project_members.member_name != 'EIDGENOSSICHEN FORSCHUNGSANSTALT FUR WALD SCHNEE UND LANDSCHAFT'
+
+###
+
+
+Original Query:
+SELECT project_members.unics_id FROM project_members WHERE project_members.member_name != 'EIDGENOSSICHEN FORSCHUNGSANSTALT FUR WALD SCHNEE UND LANDSCHAFT'
+GPT-3 choices:
+(0) Show me project members that are not affiliated with the EIDGENOSSICHEN FORSCHUNGSANSTALT FUR WALD SCHNEE UND LANDSCHAFT institute.
+(1) Show me the ids of project members that are not affiliated with the EIDGENOSSICHEN FORSCHUNGSANSTALT FUR WALD SCHNEE UND LANDSCHAFT
+(2) What are the ids of project members whose name is not EIDGENOSSICHEN FORSCHUNGSANSTALT FUR WALD SCHNEE UND LANDSCHAFT?
+(3) Show me project members of different institutions than the EIDGENOSSIC ENFORCEMENT FOR RESEARCH IN FORESTS AND LANDSCAPES
+(4) What are the ID's of project members that are not from EIDGENOSSICHEN FORSCHUNGSANSTALT FUR WALD SCHNEE UND LANDSCHAFT?
+(5) Get all project members except the institut EIDGENOSSICHEN FORSCHUNGSANSTALT FUR WALD SCHNEE UND LANDSCHAFT
+(6) Show project members who are not of the institute "EIDGENOSSICEN FORSCUNGSANSTALT FUR WALD SCHNEE UND LANDSCHAFT"
+(7) Retrieve project members that have not research institute EIDGENOSSICHE FORSCHUNGSANSTALT FUR WALD SCHNEE UND LANDSCHAFT as member.

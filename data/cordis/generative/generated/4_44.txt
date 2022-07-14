@@ -1,0 +1,16 @@
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.title = 'Integrating activities / e-infrastructures / preparatory phase'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.title = 'Integrating activities / e-infrastructures / preparatory phase'
+GPT-3 choices:
+(0) How many funding schemes have the title "Integrating activities / e-infrastructures / preparatory phase"?
+(1) How many funding schemes are there with title 'Integrating activities / e-infrastructures / preparatory phase'?
+(2) How many funding schemes are there with title "Integrating activities / e-infrastructures / preparatory phase"?
+(3) How many funding schemes are there in the topic of "Integrating activities / e-infrastructures / preparatory phase"?
+(4) How many funding schemes have the title "Integrating activities / e-infrastructures / preparatory phase"?
+(5) How many funding schemes are there with title Integrating activities / e-infrastructures / preparatory phase?
+(6) How many funding schemes are there with title Integrating activities / e-infrastructures / preparatory phase?
+(7) Show me the number of funding schemes titled "Integrating activities / e-infrastructures / preparatory phase"

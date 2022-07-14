@@ -1,0 +1,16 @@
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title = 'CIP-EIP - EI (Europe INNOVA) - Thematic Network'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title = 'CIP-EIP - EI (Europe INNOVA) - Thematic Network'
+GPT-3 choices:
+(0) Show me the different funding scheme in Europe INNOVA Thematic Network.
+(1) Show the code of the funding scheme named 'CIP-EIP - EI (Europe INNOVA) - Thematic Network'
+(2) Show me the funding scheme code for the funding scheme titled "CIP-EIP - EI (Europe INNOVA) - Thematic Network"
+(3) Give me all possible funding scheme codes of the funding scheme with title "CIP-EIP - EI (Europe INNOVA) - Thematic Network"
+(4) Show me funding scheme codes that are part of the scheme "CIP-EIP - EI (Europe INNOVA) - Thematic Network"
+(5) Retrieve all fundings schemes with title = "CIP-EIP - EI (Europe INNOVA) - Thematic Network"
+(6) Show me the funding scheme for the project named "EI (Europe INNOVA) - Thematic Network"
+(7) What are the fundign schems entitled "CIP-EIP - EI (Europe INNOVA) - Thematic Network"?

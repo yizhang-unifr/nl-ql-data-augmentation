@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units JOIN institutions ON eu_territorial_units.geocode_regions = institutions.geocode_regions_3 WHERE institutions.institutions_name != 'INFORMATION TECHNOLOGY FOR TRANSLATIONAL MEDICINE (ITTM) SA'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.description FROM eu_territorial_units JOIN institutions ON eu_territorial_units.geocode_regions = institutions.geocode_regions_3 WHERE institutions.institutions_name != 'INFORMATION TECHNOLOGY FOR TRANSLATIONAL MEDICINE (ITTM) SA'
+GPT-3 choices:
+(0) Show all territorial unit descriptions associated with an institution different than
+(1) Display the territorial unit descriptions from institutions in which the institute Information Technology for Translational Medicine (ITTM) SA does not participate
+(2) Show me the descriptions of EU territorial units that are different from the one for the institution INFORMATION TECHNOLOGY FOR TRANSLATIONAL MEDICINE (ITTM) SA.
+(3) Show all descriptions of eu territorial units joined with institutions that are different from INFORMATION TECHNOLOGY FOR TRANSLATIONAL MEDICINE (ITTM) SA
+(4) Retrieve territorial unit descriptions of the institutions that are not the "INFORMATION TECHNOLOGY FOR TRANSLATIONAL MEDICINE (ITTM) SA" institution
+(5) Show me the different territorial units of the institution "INFORMATION TECHNOLOGY FOR TRANSLATIONAL MEDICINE (ITTM) SA"
+(6) Show me the description of all territorial unit associated with an institution but not INFORMATION TECHNOLOGY FOR TRANSLATIONAL MEDICINE (ITTM) SA
+(7) Show me the different territorial unit descriptions associated with institutions except "INFORMATION TECHNOLOGY FOR TRANSLATIONAL MEDICINE (ITTM) SA"

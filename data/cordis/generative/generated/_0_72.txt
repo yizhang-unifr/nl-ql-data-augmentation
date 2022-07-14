@@ -1,0 +1,28 @@
+SELECT countries.country_name FROM countries WHERE countries.country_code = 'MK'
+
+###
+
+
+Original Query:
+SELECT countries.country_name FROM countries WHERE countries.country_code2 = 'MK'
+GPT-3 choices:
+(0) What are the country names of countries with country code MK?
+(1) What are the names of the countries whose country code is MK
+(2) Show all country names from countries having a country code of MK
+(3) Retrieve country names of countries with country code MK.
+(4) Show all the country names of countries with country code MK
+(5) Retrieve all countries with country code MK
+(6) Display all country names from country having country code MK
+(7) Show 3 different countries with country code MK
+
+
+Re-ranked choices:
+6.346  Show all country names from countries having a country code of MK
+6.318  Show all the country names of countries with country code MK
+6.199  Retrieve country names of countries with country code MK.
+6.172  Display all country names from country having country code MK
+6.012  Retrieve all countries with country code MK
+5.922  What are the country names of countries with country code MK?
+5.844  Show 3 different countries with country code MK
+5.753  What are the names of the countries whose country code is MK
+

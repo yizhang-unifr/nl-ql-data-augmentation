@@ -1,0 +1,28 @@
+SELECT topics.title FROM topics WHERE topics.rcn = '666332'
+
+###
+
+
+Original Query:
+SELECT topics.title FROM topics WHERE topics.rcn = '666332'
+GPT-3 choices:
+(0) Retrieve all topics titles related to rcn "666332"
+(1) Retrieve topics whose title is 666332
+(2) What are the different topics?
+(3) What are the title of the topics that have rcn = 666332?
+(4) Show all titles of topics that are in rcn 666332
+(5) Show topics whose title is 666332
+(6) What are the titles of all topics with a country code of 666332?
+(7) What are the topics titles?
+
+
+Re-ranked choices:
+4.521  Show topics whose title is 666332
+4.506  Show all titles of topics that are in rcn 666332
+4.368  Retrieve topics whose title is 666332
+4.332  What are the topics titles?
+4.214  What are the title of the topics that have rcn = 666332?
+4.195  Retrieve all topics titles related to rcn "666332"
+3.969  What are the titles of all topics with a country code of 666332?
+3.563  What are the different topics?
+

@@ -1,0 +1,16 @@
+SELECT topics.code FROM topics WHERE topics.title = 'Stepping up EU research and innovation cooperation in the water area'
+
+###
+
+
+Original Query:
+SELECT topics.code FROM topics WHERE topics.title = 'Stepping up EU research and innovation cooperation in the water area'
+GPT-3 choices:
+(0) Show me all topics with title equal to “Stepping up EU research and innovation cooperation in the water area”
+(1) Show me all topics that have the title "Stepping up EU research and innovation cooperation in the water area"
+(2) Show the topics having title ‘Stepping up EU research and innovation cooperation in the water area’
+(3) Show me the topics having the title "Stepping up EU research and innovation cooperation in the water area"
+(4) Show topics with title "Stepping up EU research and innovation in the water area"
+(5) Show topics about stepping up EU research and innovation cooperation in the water area
+(6) Show me all topics which title is Stepping up EU research and innovation cooperation in the water area
+(7) What are the topics about Stepping up EU research and innovation cooperation in the water area?

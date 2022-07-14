@@ -1,0 +1,16 @@
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.description = 'Bilecik'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.description = 'Bilecik'
+GPT-3 choices:
+(0) Show me the number of territorial units in the description Bilecik.
+(1) Count the number of eu_territorial_units that have the description “Bilecik”
+(2) Count the number of eu_territorial_units where the description is "Bilecik"
+(3) Count the number of eu_territorial_units that have Bilecik as description.
+(4) Count the number of EU territorial units with description equal to Bilecik
+(5) Compute how many terriorial units are there in Bilecik
+(6) Show count of eu territorial units with description 'Bilecik'
+(7) Get the total number of territorial units whose description is Bilecik

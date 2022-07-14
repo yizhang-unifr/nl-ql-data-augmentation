@@ -1,0 +1,16 @@
+SELECT count(*) FROM erc_research_domains WHERE erc_research_domains.description = 'Social Sciences And Humanities'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM erc_research_domains WHERE erc_research_domains.description = 'Social Sciences And Humanities'
+GPT-3 choices:
+(0) Show me the number of research domains in the Social Sciences And Humanities research domain
+(1) Total number of research domains in the Social Sciences And Humanities.
+(2) How many institutions have social sciences and humanities as a research domain?
+(3) Show me the number of erc research domains that have a description of Social Sciences And Humanities
+(4) Show me the number of research institutions from the Social Sciences And Humanities research domain.
+(5) How many institutions have research domains about Social Sciences And Humanities?
+(6) Show me how many erc research domains exist for the category Social Sciences And Humanities
+(7) How many research domains in Social Sciences And Humanities?

@@ -1,0 +1,1598 @@
+[
+  {
+    "db_id": "dog_kennels",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.date_arrived FROM Dogs AS T1 WHERE T1.gender = \"0\"",
+    "readable_query": "SELECT dogs.date_arrived FROM Dogs AS dogs WHERE dogs.gender = \"0\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.professional_id FROM Professionals AS T1 WHERE T1.zip_code = \"54312\"",
+    "readable_query": "SELECT professionals.professional_id FROM Professionals AS professionals WHERE professionals.zip_code = \"54312\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.role_code FROM Professionals AS T1 WHERE T1.first_name = \"Karley\"",
+    "readable_query": "SELECT professionals.role_code FROM Professionals AS professionals WHERE professionals.first_name = \"Karley\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.treatment_type_code FROM Treatments AS T1 WHERE T1.professional_id = 6",
+    "readable_query": "SELECT treatments.treatment_type_code FROM Treatments AS treatments WHERE treatments.professional_id = 6"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.charge_id FROM Charges AS T1 WHERE T1.charge_amount = 322",
+    "readable_query": "SELECT charges.charge_id FROM Charges AS charges WHERE charges.charge_amount = 322"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.treatment_type_description FROM Treatment_Types AS T1 WHERE T1.treatment_type_code = \"WALK\"",
+    "readable_query": "SELECT treatment_types.treatment_type_description FROM Treatment_Types AS treatment_types WHERE treatment_types.treatment_type_code = \"WALK\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.breed_name FROM Breeds AS T1 WHERE T1.breed_code = \"ESK\"",
+    "readable_query": "SELECT breeds.breed_name FROM Breeds AS breeds WHERE breeds.breed_code = \"ESK\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.professional_id FROM Treatments AS T1 WHERE T1.treatment_id = 13",
+    "readable_query": "SELECT treatments.professional_id FROM Treatments AS treatments WHERE treatments.treatment_id = 13"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.first_name FROM Professionals AS T1 WHERE T1.street = \"09615 McKenzie Stravenue Apt. 128\nWest Elliottview\"",
+    "readable_query": "SELECT professionals.first_name FROM Professionals AS professionals WHERE professionals.street = \"09615 McKenzie Stravenue Apt. 128\nWest Elliottview\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.cell_number FROM Owners AS T1 WHERE T1.email_address = \"lynn81@example.org\"",
+    "readable_query": "SELECT owners.cell_number FROM Owners AS owners WHERE owners.email_address = \"lynn81@example.org\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.treatment_type_description, count(*) FROM Treatment_Types AS T1  GROUP BY T1.treatment_type_description",
+    "readable_query": "SELECT treatment_types.treatment_type_description, count(*) FROM Treatment_Types AS treatment_types  GROUP BY treatment_types.treatment_type_description"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.cell_number, count(*) FROM Professionals AS T1  GROUP BY T1.cell_number",
+    "readable_query": "SELECT professionals.cell_number, count(*) FROM Professionals AS professionals  GROUP BY professionals.cell_number"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.zip_code, count(*) FROM Owners AS T1  GROUP BY T1.zip_code",
+    "readable_query": "SELECT owners.zip_code, count(*) FROM Owners AS owners  GROUP BY owners.zip_code"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.breed_code, count(*) FROM Breeds AS T1  GROUP BY T1.breed_code",
+    "readable_query": "SELECT breeds.breed_code, count(*) FROM Breeds AS breeds  GROUP BY breeds.breed_code"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.first_name, count(*) FROM Owners AS T1  GROUP BY T1.first_name",
+    "readable_query": "SELECT owners.first_name, count(*) FROM Owners AS owners  GROUP BY owners.first_name"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.treatment_type_code, count(*) FROM Treatments AS T1  GROUP BY T1.treatment_type_code",
+    "readable_query": "SELECT treatments.treatment_type_code, count(*) FROM Treatments AS treatments  GROUP BY treatments.treatment_type_code"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.breed_name, count(*) FROM Breeds AS T1  GROUP BY T1.breed_name",
+    "readable_query": "SELECT breeds.breed_name, count(*) FROM Breeds AS breeds  GROUP BY breeds.breed_name"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.treatment_type_code, count(*) FROM Treatment_Types AS T1  GROUP BY T1.treatment_type_code",
+    "readable_query": "SELECT treatment_types.treatment_type_code, count(*) FROM Treatment_Types AS treatment_types  GROUP BY treatment_types.treatment_type_code"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.dog_id, count(*) FROM Treatments AS T1  GROUP BY T1.dog_id",
+    "readable_query": "SELECT treatments.dog_id, count(*) FROM Treatments AS treatments  GROUP BY treatments.dog_id"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.home_phone, count(*) FROM Owners AS T1  GROUP BY T1.home_phone",
+    "readable_query": "SELECT owners.home_phone, count(*) FROM Owners AS owners  GROUP BY owners.home_phone"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM Breeds AS T1",
+    "readable_query": "SELECT count(*) FROM Breeds AS breeds"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM Treatments AS T1",
+    "readable_query": "SELECT count(*) FROM Treatments AS treatments"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM Treatment_Types AS T1",
+    "readable_query": "SELECT count(*) FROM Treatment_Types AS treatment_types"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM Professionals AS T1",
+    "readable_query": "SELECT count(*) FROM Professionals AS professionals"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM Sizes AS T1",
+    "readable_query": "SELECT count(*) FROM Sizes AS sizes"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM Owners AS T1",
+    "readable_query": "SELECT count(*) FROM Owners AS owners"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM Dogs AS T1",
+    "readable_query": "SELECT count(*) FROM Dogs AS dogs"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM Charges AS T1",
+    "readable_query": "SELECT count(*) FROM Charges AS charges"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.city, T1.street FROM Professionals AS T1",
+    "readable_query": "SELECT professionals.city, professionals.street FROM Professionals AS professionals"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.breed_name, T1.breed_code FROM Breeds AS T1",
+    "readable_query": "SELECT breeds.breed_name, breeds.breed_code FROM Breeds AS breeds"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.breed_code, T1.breed_name FROM Breeds AS T1",
+    "readable_query": "SELECT breeds.breed_code, breeds.breed_name FROM Breeds AS breeds"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.charge_amount, T1.charge_id FROM Charges AS T1",
+    "readable_query": "SELECT charges.charge_amount, charges.charge_id FROM Charges AS charges"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.cost_of_treatment, T1.treatment_id FROM Treatments AS T1",
+    "readable_query": "SELECT treatments.cost_of_treatment, treatments.treatment_id FROM Treatments AS treatments"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.email_address, T1.owner_id FROM Owners AS T1",
+    "readable_query": "SELECT owners.email_address, owners.owner_id FROM Owners AS owners"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.owner_id, T1.first_name FROM Owners AS T1",
+    "readable_query": "SELECT owners.owner_id, owners.first_name FROM Owners AS owners"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.size_description, T1.size_code FROM Sizes AS T1",
+    "readable_query": "SELECT sizes.size_description, sizes.size_code FROM Sizes AS sizes"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.treatment_type_description, T1.treatment_type_code FROM Treatment_Types AS T1",
+    "readable_query": "SELECT treatment_types.treatment_type_description, treatment_types.treatment_type_code FROM Treatment_Types AS treatment_types"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.gender, T1.size_code FROM Dogs AS T1",
+    "readable_query": "SELECT dogs.gender, dogs.size_code FROM Dogs AS dogs"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.charge_type, T1.charge_id FROM Charges AS T1 WHERE T1.charge_amount = 98",
+    "readable_query": "SELECT charges.charge_type, charges.charge_id FROM Charges AS charges WHERE charges.charge_amount = 98"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.name, T1.date_arrived FROM Dogs AS T1 WHERE T1.owner_id = 5",
+    "readable_query": "SELECT dogs.name, dogs.date_arrived FROM Dogs AS dogs WHERE dogs.owner_id = 5"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.breed_code, T1.dog_id FROM Dogs AS T1 WHERE T1.name = \"Merritt\"",
+    "readable_query": "SELECT dogs.breed_code, dogs.dog_id FROM Dogs AS dogs WHERE dogs.name = \"Merritt\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.city, T1.street FROM Owners AS T1 WHERE T1.owner_id = 13",
+    "readable_query": "SELECT owners.city, owners.street FROM Owners AS owners WHERE owners.owner_id = 13"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.zip_code, T1.email_address FROM Owners AS T1 WHERE T1.owner_id = 2",
+    "readable_query": "SELECT owners.zip_code, owners.email_address FROM Owners AS owners WHERE owners.owner_id = 2"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.dog_id, T1.treatment_type_code FROM Treatments AS T1 WHERE T1.date_of_treatment = \"2018-03-15 20:25:34\"",
+    "readable_query": "SELECT treatments.dog_id, treatments.treatment_type_code FROM Treatments AS treatments WHERE treatments.date_of_treatment = \"2018-03-15 20:25:34\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.email_address, T1.zip_code FROM Professionals AS T1 WHERE T1.first_name = \"Ruben\"",
+    "readable_query": "SELECT professionals.email_address, professionals.zip_code FROM Professionals AS professionals WHERE professionals.first_name = \"Ruben\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.date_arrived, T1.date_adopted FROM Dogs AS T1 WHERE T1.dog_id = 4",
+    "readable_query": "SELECT dogs.date_arrived, dogs.date_adopted FROM Dogs AS dogs WHERE dogs.dog_id = 4"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.street, T1.state FROM Professionals AS T1 WHERE T1.role_code = \"Veterenarian\"",
+    "readable_query": "SELECT professionals.street, professionals.state FROM Professionals AS professionals WHERE professionals.role_code = \"Veterenarian\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.dog_id, T1.treatment_id FROM Treatments AS T1 WHERE T1.treatment_type_code = \"VAC\"",
+    "readable_query": "SELECT treatments.dog_id, treatments.treatment_id FROM Treatments AS treatments WHERE treatments.treatment_type_code = \"VAC\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.charge_amount FROM Charges AS T1  GROUP BY T1.charge_amount  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT charges.charge_amount FROM Charges AS charges  GROUP BY charges.charge_amount  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.breed_name FROM Breeds AS T1  GROUP BY T1.breed_name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT breeds.breed_name FROM Breeds AS breeds  GROUP BY breeds.breed_name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.zip_code FROM Professionals AS T1  GROUP BY T1.zip_code  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT professionals.zip_code FROM Professionals AS professionals  GROUP BY professionals.zip_code  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.charge_id FROM Charges AS T1  GROUP BY T1.charge_id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT charges.charge_id FROM Charges AS charges  GROUP BY charges.charge_id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.date_of_treatment FROM Treatments AS T1  GROUP BY T1.date_of_treatment  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT treatments.date_of_treatment FROM Treatments AS treatments  GROUP BY treatments.date_of_treatment  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.zip_code FROM Owners AS T1  GROUP BY T1.zip_code  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT owners.zip_code FROM Owners AS owners  GROUP BY owners.zip_code  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.size_description FROM Sizes AS T1  GROUP BY T1.size_description  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT sizes.size_description FROM Sizes AS sizes  GROUP BY sizes.size_description  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.treatment_type_description FROM Treatment_Types AS T1  GROUP BY T1.treatment_type_description  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT treatment_types.treatment_type_description FROM Treatment_Types AS treatment_types  GROUP BY treatment_types.treatment_type_description  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.age FROM Dogs AS T1  GROUP BY T1.age  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT dogs.age FROM Dogs AS dogs  GROUP BY dogs.age  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.city FROM Owners AS T1  GROUP BY T1.city  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT owners.city FROM Owners AS owners  GROUP BY owners.city  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Owners AS T1 WHERE T1.email_address = \"kturner@example.net\"",
+    "readable_query": "SELECT count(*) FROM Owners AS owners WHERE owners.email_address = \"kturner@example.net\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Charges AS T1 WHERE T1.charge_id = 2",
+    "readable_query": "SELECT count(*) FROM Charges AS charges WHERE charges.charge_id = 2"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Dogs AS T1 WHERE T1.size_code = \"LGE\"",
+    "readable_query": "SELECT count(*) FROM Dogs AS dogs WHERE dogs.size_code = \"LGE\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Sizes AS T1 WHERE T1.size_description = \"Small\"",
+    "readable_query": "SELECT count(*) FROM Sizes AS sizes WHERE sizes.size_description = \"Small\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Treatment_Types AS T1 WHERE T1.treatment_type_code = \"EXAM\"",
+    "readable_query": "SELECT count(*) FROM Treatment_Types AS treatment_types WHERE treatment_types.treatment_type_code = \"EXAM\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Treatments AS T1 WHERE T1.cost_of_treatment = 349",
+    "readable_query": "SELECT count(*) FROM Treatments AS treatments WHERE treatments.cost_of_treatment = 349"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Charges AS T1 WHERE T1.charge_type = \"Daily Accommodation\"",
+    "readable_query": "SELECT count(*) FROM Charges AS charges WHERE charges.charge_type = \"Daily Accommodation\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Breeds AS T1 WHERE T1.breed_code = \"BUL\"",
+    "readable_query": "SELECT count(*) FROM Breeds AS breeds WHERE breeds.breed_code = \"BUL\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Professionals AS T1 WHERE T1.street = \"44234 Marvin Shoals Suite 659\nNorth Frances, AL 23\"",
+    "readable_query": "SELECT count(*) FROM Professionals AS professionals WHERE professionals.street = \"44234 Marvin Shoals Suite 659\nNorth Frances, AL 23\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Sizes AS T1 WHERE T1.size_description = \"Large\"",
+    "readable_query": "SELECT count(*) FROM Sizes AS sizes WHERE sizes.size_description = \"Large\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.zip_code FROM Owners AS T1    ORDER BY T1.owner_id DESC LIMIT 1",
+    "readable_query": "SELECT owners.zip_code FROM Owners AS owners    ORDER BY owners.owner_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.professional_id FROM Treatments AS T1    ORDER BY T1.treatment_id DESC LIMIT 1",
+    "readable_query": "SELECT treatments.professional_id FROM Treatments AS treatments    ORDER BY treatments.treatment_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.treatment_type_code FROM Treatments AS T1    ORDER BY T1.dog_id DESC LIMIT 1",
+    "readable_query": "SELECT treatments.treatment_type_code FROM Treatments AS treatments    ORDER BY treatments.dog_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.treatment_id FROM Treatments AS T1    ORDER BY T1.professional_id DESC LIMIT 1",
+    "readable_query": "SELECT treatments.treatment_id FROM Treatments AS treatments    ORDER BY treatments.professional_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.zip_code FROM Professionals AS T1    ORDER BY T1.professional_id DESC LIMIT 1",
+    "readable_query": "SELECT professionals.zip_code FROM Professionals AS professionals    ORDER BY professionals.professional_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.cell_number FROM Professionals AS T1    ORDER BY T1.professional_id DESC LIMIT 1",
+    "readable_query": "SELECT professionals.cell_number FROM Professionals AS professionals    ORDER BY professionals.professional_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.charge_amount FROM Charges AS T1    ORDER BY T1.charge_id DESC LIMIT 1",
+    "readable_query": "SELECT charges.charge_amount FROM Charges AS charges    ORDER BY charges.charge_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.city FROM Owners AS T1    ORDER BY T1.owner_id DESC LIMIT 1",
+    "readable_query": "SELECT owners.city FROM Owners AS owners    ORDER BY owners.owner_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.charge_id FROM Charges AS T1    ORDER BY T1.charge_amount DESC LIMIT 1",
+    "readable_query": "SELECT charges.charge_id FROM Charges AS charges    ORDER BY charges.charge_amount DESC LIMIT 1"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.treatment_type_code FROM Treatments AS T1    ORDER BY T1.date_of_treatment DESC LIMIT 1",
+    "readable_query": "SELECT treatments.treatment_type_code FROM Treatments AS treatments    ORDER BY treatments.date_of_treatment DESC LIMIT 1"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.breed_name) FROM Breeds AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  breeds.breed_name) FROM Breeds AS breeds"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.treatment_type_code) FROM Treatment_Types AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  treatment_types.treatment_type_code) FROM Treatment_Types AS treatment_types"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.breed_code) FROM Breeds AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  breeds.breed_code) FROM Breeds AS breeds"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.owner_id) FROM Owners AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  owners.owner_id) FROM Owners AS owners"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.treatment_type_description) FROM Treatment_Types AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  treatment_types.treatment_type_description) FROM Treatment_Types AS treatment_types"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.date_of_treatment) FROM Treatments AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  treatments.date_of_treatment) FROM Treatments AS treatments"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.professional_id) FROM Treatments AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  treatments.professional_id) FROM Treatments AS treatments"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.zip_code) FROM Professionals AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  professionals.zip_code) FROM Professionals AS professionals"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.professional_id) FROM Professionals AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  professionals.professional_id) FROM Professionals AS professionals"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.size_description) FROM Sizes AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  sizes.size_description) FROM Sizes AS sizes"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.owner_id) FROM Owners AS T1",
+    "readable_query": "SELECT avg( owners.owner_id) FROM Owners AS owners"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.cost_of_treatment) FROM Treatments AS T1",
+    "readable_query": "SELECT avg( treatments.cost_of_treatment) FROM Treatments AS treatments"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.professional_id) FROM Professionals AS T1",
+    "readable_query": "SELECT avg( professionals.professional_id) FROM Professionals AS professionals"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.owner_id) FROM Dogs AS T1",
+    "readable_query": "SELECT avg( dogs.owner_id) FROM Dogs AS dogs"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.dog_id) FROM Treatments AS T1",
+    "readable_query": "SELECT avg( treatments.dog_id) FROM Treatments AS treatments"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.treatment_id) FROM Treatments AS T1",
+    "readable_query": "SELECT avg( treatments.treatment_id) FROM Treatments AS treatments"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.dog_id) FROM Dogs AS T1",
+    "readable_query": "SELECT avg( dogs.dog_id) FROM Dogs AS dogs"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.professional_id) FROM Treatments AS T1",
+    "readable_query": "SELECT avg( treatments.professional_id) FROM Treatments AS treatments"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.charge_amount) FROM Charges AS T1",
+    "readable_query": "SELECT avg( charges.charge_amount) FROM Charges AS charges"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.charge_id) FROM Charges AS T1",
+    "readable_query": "SELECT avg( charges.charge_id) FROM Charges AS charges"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.treatment_type_description FROM Treatment_Types AS T1",
+    "readable_query": "SELECT treatment_types.treatment_type_description FROM Treatment_Types AS treatment_types"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.charge_id FROM Charges AS T1",
+    "readable_query": "SELECT charges.charge_id FROM Charges AS charges"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.breed_code FROM Breeds AS T1",
+    "readable_query": "SELECT breeds.breed_code FROM Breeds AS breeds"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.owner_id FROM Dogs AS T1",
+    "readable_query": "SELECT dogs.owner_id FROM Dogs AS dogs"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.treatment_type_code FROM Treatment_Types AS T1",
+    "readable_query": "SELECT treatment_types.treatment_type_code FROM Treatment_Types AS treatment_types"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.size_code FROM Sizes AS T1",
+    "readable_query": "SELECT sizes.size_code FROM Sizes AS sizes"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.dog_id FROM Treatments AS T1",
+    "readable_query": "SELECT treatments.dog_id FROM Treatments AS treatments"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.state FROM Professionals AS T1",
+    "readable_query": "SELECT professionals.state FROM Professionals AS professionals"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.breed_name FROM Breeds AS T1",
+    "readable_query": "SELECT breeds.breed_name FROM Breeds AS breeds"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.size_description FROM Sizes AS T1",
+    "readable_query": "SELECT sizes.size_description FROM Sizes AS sizes"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.breed_name FROM Breeds AS T1",
+    "readable_query": "SELECT DISTINCT breeds.breed_name FROM Breeds AS breeds"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.size_description FROM Sizes AS T1",
+    "readable_query": "SELECT DISTINCT sizes.size_description FROM Sizes AS sizes"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.charge_id FROM Charges AS T1",
+    "readable_query": "SELECT DISTINCT charges.charge_id FROM Charges AS charges"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.zip_code FROM Owners AS T1",
+    "readable_query": "SELECT DISTINCT owners.zip_code FROM Owners AS owners"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.gender FROM Dogs AS T1",
+    "readable_query": "SELECT DISTINCT dogs.gender FROM Dogs AS dogs"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.state FROM Professionals AS T1",
+    "readable_query": "SELECT DISTINCT professionals.state FROM Professionals AS professionals"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.home_phone FROM Professionals AS T1",
+    "readable_query": "SELECT DISTINCT professionals.home_phone FROM Professionals AS professionals"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.size_code FROM Sizes AS T1",
+    "readable_query": "SELECT DISTINCT sizes.size_code FROM Sizes AS sizes"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.charge_type FROM Charges AS T1",
+    "readable_query": "SELECT DISTINCT charges.charge_type FROM Charges AS charges"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.email_address FROM Professionals AS T1",
+    "readable_query": "SELECT DISTINCT professionals.email_address FROM Professionals AS professionals"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.charge_amount FROM Charges AS T1     ORDER BY T1.charge_id ASC",
+    "readable_query": "SELECT charges.charge_amount FROM Charges AS charges     ORDER BY charges.charge_id ASC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.charge_id FROM Charges AS T1     ORDER BY T1.charge_amount ASC",
+    "readable_query": "SELECT charges.charge_id FROM Charges AS charges     ORDER BY charges.charge_amount ASC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.home_phone FROM Professionals AS T1     ORDER BY T1.professional_id ASC",
+    "readable_query": "SELECT professionals.home_phone FROM Professionals AS professionals     ORDER BY professionals.professional_id ASC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.first_name FROM Professionals AS T1     ORDER BY T1.professional_id ASC",
+    "readable_query": "SELECT professionals.first_name FROM Professionals AS professionals     ORDER BY professionals.professional_id ASC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.abandoned_yn FROM Dogs AS T1     ORDER BY T1.date_of_birth ASC",
+    "readable_query": "SELECT dogs.abandoned_yn FROM Dogs AS dogs     ORDER BY dogs.date_of_birth ASC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.date_adopted FROM Dogs AS T1     ORDER BY T1.owner_id ASC",
+    "readable_query": "SELECT dogs.date_adopted FROM Dogs AS dogs     ORDER BY dogs.owner_id ASC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.cell_number FROM Owners AS T1     ORDER BY T1.owner_id ASC",
+    "readable_query": "SELECT owners.cell_number FROM Owners AS owners     ORDER BY owners.owner_id ASC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.dog_id FROM Treatments AS T1     ORDER BY T1.cost_of_treatment ASC",
+    "readable_query": "SELECT treatments.dog_id FROM Treatments AS treatments     ORDER BY treatments.cost_of_treatment ASC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.home_phone FROM Owners AS T1     ORDER BY T1.owner_id ASC",
+    "readable_query": "SELECT owners.home_phone FROM Owners AS owners     ORDER BY owners.owner_id ASC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.date_adopted FROM Dogs AS T1     ORDER BY T1.date_arrived ASC",
+    "readable_query": "SELECT dogs.date_adopted FROM Dogs AS dogs     ORDER BY dogs.date_arrived ASC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.charge_id FROM Charges AS T1     ORDER BY T1.charge_amount DESC",
+    "readable_query": "SELECT charges.charge_id FROM Charges AS charges     ORDER BY charges.charge_amount DESC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.home_phone FROM Owners AS T1     ORDER BY T1.owner_id DESC",
+    "readable_query": "SELECT owners.home_phone FROM Owners AS owners     ORDER BY owners.owner_id DESC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.date_arrived FROM Dogs AS T1     ORDER BY T1.date_of_birth DESC",
+    "readable_query": "SELECT dogs.date_arrived FROM Dogs AS dogs     ORDER BY dogs.date_of_birth DESC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.last_name FROM Owners AS T1     ORDER BY T1.owner_id DESC",
+    "readable_query": "SELECT owners.last_name FROM Owners AS owners     ORDER BY owners.owner_id DESC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.date_of_treatment FROM Treatments AS T1     ORDER BY T1.cost_of_treatment DESC",
+    "readable_query": "SELECT treatments.date_of_treatment FROM Treatments AS treatments     ORDER BY treatments.cost_of_treatment DESC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.date_arrived FROM Dogs AS T1     ORDER BY T1.dog_id DESC",
+    "readable_query": "SELECT dogs.date_arrived FROM Dogs AS dogs     ORDER BY dogs.dog_id DESC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.treatment_id FROM Treatments AS T1     ORDER BY T1.date_of_treatment DESC",
+    "readable_query": "SELECT treatments.treatment_id FROM Treatments AS treatments     ORDER BY treatments.date_of_treatment DESC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.dog_id FROM Treatments AS T1     ORDER BY T1.cost_of_treatment DESC",
+    "readable_query": "SELECT treatments.dog_id FROM Treatments AS treatments     ORDER BY treatments.cost_of_treatment DESC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.owner_id FROM Dogs AS T1     ORDER BY T1.dog_id DESC",
+    "readable_query": "SELECT dogs.owner_id FROM Dogs AS dogs     ORDER BY dogs.dog_id DESC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.charge_amount FROM Charges AS T1     ORDER BY T1.charge_id DESC",
+    "readable_query": "SELECT charges.charge_amount FROM Charges AS charges     ORDER BY charges.charge_id DESC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.state, T1.zip_code FROM Owners AS T1     ORDER BY T1.zip_code ASC",
+    "readable_query": "SELECT owners.state, owners.zip_code FROM Owners AS owners     ORDER BY owners.zip_code ASC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.owner_id, T1.size_code FROM Dogs AS T1     ORDER BY T1.size_code ASC",
+    "readable_query": "SELECT dogs.owner_id, dogs.size_code FROM Dogs AS dogs     ORDER BY dogs.size_code ASC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.email_address, T1.zip_code FROM Professionals AS T1     ORDER BY T1.zip_code ASC",
+    "readable_query": "SELECT professionals.email_address, professionals.zip_code FROM Professionals AS professionals     ORDER BY professionals.zip_code ASC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.charge_id, T1.charge_amount FROM Charges AS T1     ORDER BY T1.charge_amount ASC",
+    "readable_query": "SELECT charges.charge_id, charges.charge_amount FROM Charges AS charges     ORDER BY charges.charge_amount ASC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.breed_name, T1.breed_code FROM Breeds AS T1     ORDER BY T1.breed_code ASC",
+    "readable_query": "SELECT breeds.breed_name, breeds.breed_code FROM Breeds AS breeds     ORDER BY breeds.breed_code ASC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.treatment_type_description, T1.treatment_type_code FROM Treatment_Types AS T1     ORDER BY T1.treatment_type_code ASC",
+    "readable_query": "SELECT treatment_types.treatment_type_description, treatment_types.treatment_type_code FROM Treatment_Types AS treatment_types     ORDER BY treatment_types.treatment_type_code ASC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.city, T1.street FROM Owners AS T1     ORDER BY T1.street ASC",
+    "readable_query": "SELECT owners.city, owners.street FROM Owners AS owners     ORDER BY owners.street ASC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.weight, T1.date_departed FROM Dogs AS T1     ORDER BY T1.date_departed ASC",
+    "readable_query": "SELECT dogs.weight, dogs.date_departed FROM Dogs AS dogs     ORDER BY dogs.date_departed ASC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.date_adopted, T1.abandoned_yn FROM Dogs AS T1     ORDER BY T1.abandoned_yn ASC",
+    "readable_query": "SELECT dogs.date_adopted, dogs.abandoned_yn FROM Dogs AS dogs     ORDER BY dogs.abandoned_yn ASC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.professional_id, T1.treatment_type_code FROM Treatments AS T1     ORDER BY T1.treatment_type_code ASC",
+    "readable_query": "SELECT treatments.professional_id, treatments.treatment_type_code FROM Treatments AS treatments     ORDER BY treatments.treatment_type_code ASC"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.charge_id FROM Charges AS T1 WHERE T1.charge_amount = 98 and T1.charge_type = \"Daily Accommodation\"",
+    "readable_query": "SELECT charges.charge_id FROM Charges AS charges WHERE charges.charge_amount = 98 and charges.charge_type = \"Daily Accommodation\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.charge_amount FROM Charges AS T1 WHERE T1.charge_type = \"Health Check\" and T1.charge_id = 2",
+    "readable_query": "SELECT charges.charge_amount FROM Charges AS charges WHERE charges.charge_type = \"Health Check\" and charges.charge_id = 2"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.email_address FROM Owners AS T1 WHERE T1.cell_number = \"1-739-421-2225x38148\" and T1.street = \"6950 Katherine Forges Apt. 630\"",
+    "readable_query": "SELECT owners.email_address FROM Owners AS owners WHERE owners.cell_number = \"1-739-421-2225x38148\" and owners.street = \"6950 Katherine Forges Apt. 630\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.cell_number FROM Owners AS T1 WHERE T1.email_address = \"ybergstrom@example.com\" and T1.first_name = \"Tre\"",
+    "readable_query": "SELECT owners.cell_number FROM Owners AS owners WHERE owners.email_address = \"ybergstrom@example.com\" and owners.first_name = \"Tre\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.date_departed FROM Dogs AS T1 WHERE T1.date_arrived = \"2017-10-25 00:55:34\" and T1.date_of_birth = \"2008-05-30 12:51:34\"",
+    "readable_query": "SELECT dogs.date_departed FROM Dogs AS dogs WHERE dogs.date_arrived = \"2017-10-25 00:55:34\" and dogs.date_of_birth = \"2008-05-30 12:51:34\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.street FROM Professionals AS T1 WHERE T1.home_phone = \"+71(6)2898266914\" and T1.city = \"Jaceton\"",
+    "readable_query": "SELECT professionals.street FROM Professionals AS professionals WHERE professionals.home_phone = \"+71(6)2898266914\" and professionals.city = \"Jaceton\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.street FROM Owners AS T1 WHERE T1.first_name = \"Nora\" and T1.state = \"Mississippi\"",
+    "readable_query": "SELECT owners.street FROM Owners AS owners WHERE owners.first_name = \"Nora\" and owners.state = \"Mississippi\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.date_of_treatment FROM Treatments AS T1 WHERE T1.dog_id = 12 and T1.professional_id = 6",
+    "readable_query": "SELECT treatments.date_of_treatment FROM Treatments AS treatments WHERE treatments.dog_id = 12 and treatments.professional_id = 6"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.city FROM Owners AS T1 WHERE T1.cell_number = \"478.978.0729\" and T1.zip_code = \"35747\"",
+    "readable_query": "SELECT owners.city FROM Owners AS owners WHERE owners.cell_number = \"478.978.0729\" and owners.zip_code = \"35747\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.home_phone FROM Owners AS T1 WHERE T1.cell_number = \"(783)271-6744x4507\" and T1.state = \"Mississippi\"",
+    "readable_query": "SELECT owners.home_phone FROM Owners AS owners WHERE owners.cell_number = \"(783)271-6744x4507\" and owners.state = \"Mississippi\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.cell_number FROM Professionals AS T1 WHERE T1.state = \"SouthCarolina\" or T1.role_code = \"Veterenarian\"",
+    "readable_query": "SELECT professionals.cell_number FROM Professionals AS professionals WHERE professionals.state = \"SouthCarolina\" or professionals.role_code = \"Veterenarian\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.role_code FROM Professionals AS T1 WHERE T1.street = \"44234 Marvin Shoals Suite 659\nNorth Frances, AL 23\" or T1.first_name = \"Domenica\"",
+    "readable_query": "SELECT professionals.role_code FROM Professionals AS professionals WHERE professionals.street = \"44234 Marvin Shoals Suite 659\nNorth Frances, AL 23\" or professionals.first_name = \"Domenica\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.charge_id FROM Charges AS T1 WHERE T1.charge_type = \"Health Check\" or T1.charge_amount = 322",
+    "readable_query": "SELECT charges.charge_id FROM Charges AS charges WHERE charges.charge_type = \"Health Check\" or charges.charge_amount = 322"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.street FROM Owners AS T1 WHERE T1.last_name = \"DuBuque\" or T1.home_phone = \"363.948.1090\"",
+    "readable_query": "SELECT owners.street FROM Owners AS owners WHERE owners.last_name = \"DuBuque\" or owners.home_phone = \"363.948.1090\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.street FROM Professionals AS T1 WHERE T1.cell_number = \"499-434-0215x1628\" or T1.city = \"Kirastad\"",
+    "readable_query": "SELECT professionals.street FROM Professionals AS professionals WHERE professionals.cell_number = \"499-434-0215x1628\" or professionals.city = \"Kirastad\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.weight FROM Dogs AS T1 WHERE T1.gender = \"1\" or T1.abandoned_yn = \"1\"",
+    "readable_query": "SELECT dogs.weight FROM Dogs AS dogs WHERE dogs.gender = \"1\" or dogs.abandoned_yn = \"1\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.date_of_birth FROM Dogs AS T1 WHERE T1.owner_id = 1 or T1.date_arrived = \"2017-12-29 23:24:13\"",
+    "readable_query": "SELECT dogs.date_of_birth FROM Dogs AS dogs WHERE dogs.owner_id = 1 or dogs.date_arrived = \"2017-12-29 23:24:13\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.name FROM Dogs AS T1 WHERE T1.date_departed = \"2018-03-25 02:47:40\" or T1.size_code = \"LGE\"",
+    "readable_query": "SELECT dogs.name FROM Dogs AS dogs WHERE dogs.date_departed = \"2018-03-25 02:47:40\" or dogs.size_code = \"LGE\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.professional_id FROM Treatments AS T1 WHERE T1.treatment_type_code = \"WALK\" or T1.cost_of_treatment = 429",
+    "readable_query": "SELECT treatments.professional_id FROM Treatments AS treatments WHERE treatments.treatment_type_code = \"WALK\" or treatments.cost_of_treatment = 429"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.zip_code FROM Owners AS T1 WHERE T1.street = \"692 Jaskolski Forges\" or T1.last_name = \"Feil\"",
+    "readable_query": "SELECT owners.zip_code FROM Owners AS owners WHERE owners.street = \"692 Jaskolski Forges\" or owners.last_name = \"Feil\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.city FROM Professionals AS T1 WHERE T1.cell_number != \"(275)939-2435x80863\"",
+    "readable_query": "SELECT professionals.city FROM Professionals AS professionals WHERE professionals.cell_number != \"(275)939-2435x80863\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.treatment_type_code FROM Treatment_Types AS T1 WHERE T1.treatment_type_description != \"Physical examination\"",
+    "readable_query": "SELECT treatment_types.treatment_type_code FROM Treatment_Types AS treatment_types WHERE treatment_types.treatment_type_description != \"Physical examination\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.last_name FROM Owners AS T1 WHERE T1.email_address != \"angeline99@example.com\"",
+    "readable_query": "SELECT owners.last_name FROM Owners AS owners WHERE owners.email_address != \"angeline99@example.com\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.cost_of_treatment FROM Treatments AS T1 WHERE T1.date_of_treatment != \"2018-02-26 09:08:53\"",
+    "readable_query": "SELECT treatments.cost_of_treatment FROM Treatments AS treatments WHERE treatments.date_of_treatment != \"2018-02-26 09:08:53\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.gender FROM Dogs AS T1 WHERE T1.name != \"Kacey\"",
+    "readable_query": "SELECT dogs.gender FROM Dogs AS dogs WHERE dogs.name != \"Kacey\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.breed_name FROM Breeds AS T1 WHERE T1.breed_code != \"BUL\"",
+    "readable_query": "SELECT breeds.breed_name FROM Breeds AS breeds WHERE breeds.breed_code != \"BUL\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.city FROM Owners AS T1 WHERE T1.first_name != \"Kade\"",
+    "readable_query": "SELECT owners.city FROM Owners AS owners WHERE owners.first_name != \"Kade\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.breed_code FROM Breeds AS T1 WHERE T1.breed_name != \"Husky\"",
+    "readable_query": "SELECT breeds.breed_code FROM Breeds AS breeds WHERE breeds.breed_name != \"Husky\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.treatment_type_code FROM Treatment_Types AS T1 WHERE T1.treatment_type_description != \"Take for a Walk\"",
+    "readable_query": "SELECT treatment_types.treatment_type_code FROM Treatment_Types AS treatment_types WHERE treatment_types.treatment_type_description != \"Take for a Walk\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.date_arrived FROM Dogs AS T1 WHERE T1.abandoned_yn != \"0\"",
+    "readable_query": "SELECT dogs.date_arrived FROM Dogs AS dogs WHERE dogs.abandoned_yn != \"0\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.last_name) FROM Professionals AS T1 WHERE T1.city = \"Juddton\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  professionals.last_name) FROM Professionals AS professionals WHERE professionals.city = \"Juddton\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.owner_id) FROM Owners AS T1 WHERE T1.street = \"1858 Jan Park\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  owners.owner_id) FROM Owners AS owners WHERE owners.street = \"1858 Jan Park\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.professional_id) FROM Treatments AS T1 WHERE T1.treatment_type_code = \"EXAM\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  treatments.professional_id) FROM Treatments AS treatments WHERE treatments.treatment_type_code = \"EXAM\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.treatment_type_code) FROM Treatments AS T1 WHERE T1.cost_of_treatment = 514",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  treatments.treatment_type_code) FROM Treatments AS treatments WHERE treatments.cost_of_treatment = 514"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.breed_code) FROM Breeds AS T1 WHERE T1.breed_name = \"Eskimo\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  breeds.breed_code) FROM Breeds AS breeds WHERE breeds.breed_name = \"Eskimo\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.breed_code) FROM Breeds AS T1 WHERE T1.breed_name = \"Bulldog\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  breeds.breed_code) FROM Breeds AS breeds WHERE breeds.breed_name = \"Bulldog\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.zip_code) FROM Professionals AS T1 WHERE T1.cell_number = \"962-983-8109x3509\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  professionals.zip_code) FROM Professionals AS professionals WHERE professionals.cell_number = \"962-983-8109x3509\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.treatment_type_code) FROM Treatments AS T1 WHERE T1.cost_of_treatment = 567",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  treatments.treatment_type_code) FROM Treatments AS treatments WHERE treatments.cost_of_treatment = 567"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.first_name) FROM Professionals AS T1 WHERE T1.home_phone = \"(920)304-4499x59146\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  professionals.first_name) FROM Professionals AS professionals WHERE professionals.home_phone = \"(920)304-4499x59146\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.date_of_treatment) FROM Treatments AS T1 WHERE T1.dog_id = 12",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  treatments.date_of_treatment) FROM Treatments AS treatments WHERE treatments.dog_id = 12"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.abandoned_yn FROM Dogs AS T1 WHERE T1.owner_id > 13",
+    "readable_query": "SELECT dogs.abandoned_yn FROM Dogs AS dogs WHERE dogs.owner_id > 13"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.home_phone FROM Professionals AS T1 WHERE T1.professional_id > 14",
+    "readable_query": "SELECT professionals.home_phone FROM Professionals AS professionals WHERE professionals.professional_id > 14"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.charge_type FROM Charges AS T1 WHERE T1.charge_id > 1",
+    "readable_query": "SELECT charges.charge_type FROM Charges AS charges WHERE charges.charge_id > 1"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.charge_id FROM Charges AS T1 WHERE T1.charge_amount > 640",
+    "readable_query": "SELECT charges.charge_id FROM Charges AS charges WHERE charges.charge_amount > 640"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.state FROM Professionals AS T1 WHERE T1.professional_id > 4",
+    "readable_query": "SELECT professionals.state FROM Professionals AS professionals WHERE professionals.professional_id > 4"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.email_address FROM Owners AS T1 WHERE T1.owner_id > 11",
+    "readable_query": "SELECT owners.email_address FROM Owners AS owners WHERE owners.owner_id > 11"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.professional_id FROM Treatments AS T1 WHERE T1.treatment_id > 14",
+    "readable_query": "SELECT treatments.professional_id FROM Treatments AS treatments WHERE treatments.treatment_id > 14"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.role_code FROM Professionals AS T1 WHERE T1.professional_id > 15",
+    "readable_query": "SELECT professionals.role_code FROM Professionals AS professionals WHERE professionals.professional_id > 15"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.charge_amount FROM Charges AS T1 WHERE T1.charge_id > 3",
+    "readable_query": "SELECT charges.charge_amount FROM Charges AS charges WHERE charges.charge_id > 3"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.city FROM Owners AS T1 WHERE T1.owner_id > 13",
+    "readable_query": "SELECT owners.city FROM Owners AS owners WHERE owners.owner_id > 13"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.size_code FROM Sizes AS T1 WHERE T1.size_description = \"Large\"     INTERSECT SELECT T2.size_code FROM Sizes AS T2 WHERE T2.size_description = \"Large\"",
+    "readable_query": "SELECT sizes.size_code FROM Sizes AS sizes WHERE sizes.size_description = \"Large\"     INTERSECT SELECT sizes.size_code FROM Sizes AS sizes WHERE sizes.size_description = \"Large\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.professional_id FROM Treatments AS T1 WHERE T1.cost_of_treatment = 429     INTERSECT SELECT T2.professional_id FROM Treatments AS T2 WHERE T2.cost_of_treatment = 656",
+    "readable_query": "SELECT treatments.professional_id FROM Treatments AS treatments WHERE treatments.cost_of_treatment = 429     INTERSECT SELECT treatments.professional_id FROM Treatments AS treatments WHERE treatments.cost_of_treatment = 656"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.charge_type FROM Charges AS T1 WHERE T1.charge_amount = 98     INTERSECT SELECT T2.charge_type FROM Charges AS T2 WHERE T2.charge_amount = 98",
+    "readable_query": "SELECT charges.charge_type FROM Charges AS charges WHERE charges.charge_amount = 98     INTERSECT SELECT charges.charge_type FROM Charges AS charges WHERE charges.charge_amount = 98"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.street FROM Professionals AS T1 WHERE T1.city = \"Raynorfort\"     INTERSECT SELECT T2.street FROM Professionals AS T2 WHERE T2.city = \"Raynorfort\"",
+    "readable_query": "SELECT professionals.street FROM Professionals AS professionals WHERE professionals.city = \"Raynorfort\"     INTERSECT SELECT professionals.street FROM Professionals AS professionals WHERE professionals.city = \"Raynorfort\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.breed_code FROM Breeds AS T1 WHERE T1.breed_name = \"Eskimo\"     INTERSECT SELECT T2.breed_code FROM Breeds AS T2 WHERE T2.breed_name = \"Eskimo\"",
+    "readable_query": "SELECT breeds.breed_code FROM Breeds AS breeds WHERE breeds.breed_name = \"Eskimo\"     INTERSECT SELECT breeds.breed_code FROM Breeds AS breeds WHERE breeds.breed_name = \"Eskimo\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.size_code FROM Sizes AS T1 WHERE T1.size_description = \"Small\"     INTERSECT SELECT T2.size_code FROM Sizes AS T2 WHERE T2.size_description = \"Large\"",
+    "readable_query": "SELECT sizes.size_code FROM Sizes AS sizes WHERE sizes.size_description = \"Small\"     INTERSECT SELECT sizes.size_code FROM Sizes AS sizes WHERE sizes.size_description = \"Large\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.street FROM Owners AS T1 WHERE T1.owner_id = 13     INTERSECT SELECT T2.street FROM Owners AS T2 WHERE T2.owner_id = 5",
+    "readable_query": "SELECT owners.street FROM Owners AS owners WHERE owners.owner_id = 13     INTERSECT SELECT owners.street FROM Owners AS owners WHERE owners.owner_id = 5"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.date_of_treatment FROM Treatments AS T1 WHERE T1.dog_id = 14     INTERSECT SELECT T2.date_of_treatment FROM Treatments AS T2 WHERE T2.dog_id = 4",
+    "readable_query": "SELECT treatments.date_of_treatment FROM Treatments AS treatments WHERE treatments.dog_id = 14     INTERSECT SELECT treatments.date_of_treatment FROM Treatments AS treatments WHERE treatments.dog_id = 4"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.size_description FROM Sizes AS T1 WHERE T1.size_code = \"SML\"     INTERSECT SELECT T2.size_description FROM Sizes AS T2 WHERE T2.size_code = \"LGE\"",
+    "readable_query": "SELECT sizes.size_description FROM Sizes AS sizes WHERE sizes.size_code = \"SML\"     INTERSECT SELECT sizes.size_description FROM Sizes AS sizes WHERE sizes.size_code = \"LGE\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.charge_id FROM Charges AS T1 WHERE T1.charge_amount = 98     INTERSECT SELECT T2.charge_id FROM Charges AS T2 WHERE T2.charge_amount = 322",
+    "readable_query": "SELECT charges.charge_id FROM Charges AS charges WHERE charges.charge_amount = 98     INTERSECT SELECT charges.charge_id FROM Charges AS charges WHERE charges.charge_amount = 322"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.owner_id) FROM Dogs AS T1 WHERE T1.date_departed = \"2018-03-25 15:05:16\"",
+    "readable_query": "SELECT avg( dogs.owner_id) FROM Dogs AS dogs WHERE dogs.date_departed = \"2018-03-25 15:05:16\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.owner_id) FROM Owners AS T1 WHERE T1.street = \"59509 Mellie Mountain\"",
+    "readable_query": "SELECT avg( owners.owner_id) FROM Owners AS owners WHERE owners.street = \"59509 Mellie Mountain\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.dog_id) FROM Dogs AS T1 WHERE T1.breed_code = \"ESK\"",
+    "readable_query": "SELECT avg( dogs.dog_id) FROM Dogs AS dogs WHERE dogs.breed_code = \"ESK\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.treatment_id) FROM Treatments AS T1 WHERE T1.dog_id = 7",
+    "readable_query": "SELECT avg( treatments.treatment_id) FROM Treatments AS treatments WHERE treatments.dog_id = 7"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.dog_id) FROM Dogs AS T1 WHERE T1.breed_code = \"HUS\"",
+    "readable_query": "SELECT avg( dogs.dog_id) FROM Dogs AS dogs WHERE dogs.breed_code = \"HUS\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.owner_id) FROM Owners AS T1 WHERE T1.home_phone = \"066.264.7885\"",
+    "readable_query": "SELECT avg( owners.owner_id) FROM Owners AS owners WHERE owners.home_phone = \"066.264.7885\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.charge_amount) FROM Charges AS T1 WHERE T1.charge_id = 2",
+    "readable_query": "SELECT avg( charges.charge_amount) FROM Charges AS charges WHERE charges.charge_id = 2"
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.professional_id) FROM Professionals AS T1 WHERE T1.state = \"NewMexico\"",
+    "readable_query": "SELECT avg( professionals.professional_id) FROM Professionals AS professionals WHERE professionals.state = \"NewMexico\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.owner_id) FROM Owners AS T1 WHERE T1.zip_code = \"35747\"",
+    "readable_query": "SELECT avg( owners.owner_id) FROM Owners AS owners WHERE owners.zip_code = \"35747\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.owner_id) FROM Dogs AS T1 WHERE T1.size_code = \"MED\"",
+    "readable_query": "SELECT avg( dogs.owner_id) FROM Dogs AS dogs WHERE dogs.size_code = \"MED\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.breed_code FROM Breeds AS T1        EXCEPT SELECT T2.breed_code FROM Breeds AS T2 WHERE T2.breed_name = \"Bulldog\"",
+    "readable_query": "SELECT breeds.breed_code FROM Breeds AS breeds        EXCEPT SELECT breeds.breed_code FROM Breeds AS breeds WHERE breeds.breed_name = \"Bulldog\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.treatment_type_code FROM Treatment_Types AS T1        EXCEPT SELECT T2.treatment_type_code FROM Treatment_Types AS T2 WHERE T2.treatment_type_description = \"Take for a Walk\"",
+    "readable_query": "SELECT treatment_types.treatment_type_code FROM Treatment_Types AS treatment_types        EXCEPT SELECT treatment_types.treatment_type_code FROM Treatment_Types AS treatment_types WHERE treatment_types.treatment_type_description = \"Take for a Walk\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.home_phone FROM Professionals AS T1        EXCEPT SELECT T2.home_phone FROM Professionals AS T2 WHERE T2.state = \"SouthCarolina\"",
+    "readable_query": "SELECT professionals.home_phone FROM Professionals AS professionals        EXCEPT SELECT professionals.home_phone FROM Professionals AS professionals WHERE professionals.state = \"SouthCarolina\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.size_description FROM Sizes AS T1        EXCEPT SELECT T2.size_description FROM Sizes AS T2 WHERE T2.size_code = \"MED\"",
+    "readable_query": "SELECT sizes.size_description FROM Sizes AS sizes        EXCEPT SELECT sizes.size_description FROM Sizes AS sizes WHERE sizes.size_code = \"MED\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.zip_code FROM Professionals AS T1        EXCEPT SELECT T2.zip_code FROM Professionals AS T2 WHERE T2.email_address = \"lourdes.lowe@example.net\"",
+    "readable_query": "SELECT professionals.zip_code FROM Professionals AS professionals        EXCEPT SELECT professionals.zip_code FROM Professionals AS professionals WHERE professionals.email_address = \"lourdes.lowe@example.net\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.treatment_type_description FROM Treatment_Types AS T1        EXCEPT SELECT T2.treatment_type_description FROM Treatment_Types AS T2 WHERE T2.treatment_type_code = \"WALK\"",
+    "readable_query": "SELECT treatment_types.treatment_type_description FROM Treatment_Types AS treatment_types        EXCEPT SELECT treatment_types.treatment_type_description FROM Treatment_Types AS treatment_types WHERE treatment_types.treatment_type_code = \"WALK\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.treatment_type_code FROM Treatment_Types AS T1        EXCEPT SELECT T2.treatment_type_code FROM Treatment_Types AS T2 WHERE T2.treatment_type_description = \"Vaccination\"",
+    "readable_query": "SELECT treatment_types.treatment_type_code FROM Treatment_Types AS treatment_types        EXCEPT SELECT treatment_types.treatment_type_code FROM Treatment_Types AS treatment_types WHERE treatment_types.treatment_type_description = \"Vaccination\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.size_description FROM Sizes AS T1        EXCEPT SELECT T2.size_description FROM Sizes AS T2 WHERE T2.size_code = \"SML\"",
+    "readable_query": "SELECT sizes.size_description FROM Sizes AS sizes        EXCEPT SELECT sizes.size_description FROM Sizes AS sizes WHERE sizes.size_code = \"SML\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.professional_id FROM Professionals AS T1        EXCEPT SELECT T2.professional_id FROM Professionals AS T2 WHERE T2.last_name = \"Kshlerin\"",
+    "readable_query": "SELECT professionals.professional_id FROM Professionals AS professionals        EXCEPT SELECT professionals.professional_id FROM Professionals AS professionals WHERE professionals.last_name = \"Kshlerin\""
+  },
+  {
+    "db_id": "dog_kennels",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.treatment_type_description FROM Treatment_Types AS T1        EXCEPT SELECT T2.treatment_type_description FROM Treatment_Types AS T2 WHERE T2.treatment_type_code = \"VAC\"",
+    "readable_query": "SELECT treatment_types.treatment_type_description FROM Treatment_Types AS treatment_types        EXCEPT SELECT treatment_types.treatment_type_description FROM Treatment_Types AS treatment_types WHERE treatment_types.treatment_type_code = \"VAC\""
+  }
+]

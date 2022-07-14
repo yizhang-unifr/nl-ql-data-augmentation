@@ -1,0 +1,28 @@
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.code = 'TOK-IAP'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.code = 'TOK-IAP'
+GPT-3 choices:
+(0) How many funding schemes are there with a code of TOK-IAP?
+(1) Show the number of funding schemes with code TOK-IAP.
+(2) Show the total number of projects funded by the TOK-IAP scheme
+(3) Show the number of funding schemes with the code TOK-IAP
+(4) How many funding schemes are there with a code TOK-IAP?
+(5) Retrieve the number of funding schemes whose code equals “TOK-IAP”
+(6) How many projects have a title called TOK-IAP?
+(7) Show the number of funding schemes having the code TOK-IAP.
+
+
+Re-ranked choices:
+6.114  Show the number of funding schemes with code TOK-IAP.
+6.109  Show the number of funding schemes with the code TOK-IAP
+6.098  Show the number of funding schemes having the code TOK-IAP.
+5.994  How many funding schemes are there with a code of TOK-IAP?
+5.934  How many funding schemes are there with a code TOK-IAP?
+5.842  Retrieve the number of funding schemes whose code equals “TOK-IAP”
+5.604  Show the total number of projects funded by the TOK-IAP scheme
+3.970  How many projects have a title called TOK-IAP?
+

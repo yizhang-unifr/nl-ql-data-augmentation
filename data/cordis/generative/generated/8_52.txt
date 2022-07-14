@@ -1,0 +1,16 @@
+SELECT topics.rcn FROM topics WHERE topics.title != 'Support for clustering and networking in the micro- &amp; nanofluidics community'
+
+###
+
+
+Original Query:
+SELECT topics.rcn FROM topics WHERE topics.title != 'Support for clustering and networking in the micro- &amp; nanofluidics community'
+GPT-3 choices:
+(0) Show me topics that are not about support for clustering and networking in the micro- & nanofluidics community
+(1) Retrieve all topics that have a different title than Support for clustering and networking in the micro- & nanofluidics community
+(2) What are the research topics of the Research Center for Nano- and MicroEuropean Union from different European countries?
+(3) Show me the topics of which title is not Support for clustering and networking in the micro- &amp; nanofluidics community
+(4) 
+(5) Retrieve all topics that don't have the title Support for clustering and networking in the micro- & nanofluidics community
+(6) Retrieve all references made by topics except the one with title Support for clustering and networking in the micro- & nanofluidics community
+(7) Get all topics with the name "Support for clustering and networking in the micro- &amp; nanofluidics community"

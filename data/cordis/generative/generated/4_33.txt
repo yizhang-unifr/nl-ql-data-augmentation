@@ -1,0 +1,16 @@
+SELECT count(*) FROM erc_research_domains WHERE erc_research_domains.code = 'ID'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM erc_research_domains WHERE erc_research_domains.code = 'ID'
+GPT-3 choices:
+(0) Total number of research domains with code ID
+(1) Show the number of different research domains for the project.
+(2) Count the number of research domains with code ID
+(3) Show the total number of research domains.
+(4) Count the number of ERC research domains with a code equal to ID
+(5) Show the number of research domains with code ID
+(6) How many research domains are there?
+(7) How many projects are there in the european research council with a subject area?

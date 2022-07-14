@@ -1,0 +1,16 @@
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title != 'Innovation action'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title != 'Innovation action'
+GPT-3 choices:
+(0) What are the different funding schemes?
+(1) Show me the codes for funding schemes that are different than "Innovation Action"
+(2) Retrieve the funding scheme codes of projects that are not funded in the "Innovation action" scheme.
+(3) Retrieve the funding scheme code.
+(4) What are the funding scheme codes?
+(5) Show all the funding scheme codes and their titles, except for the ones named "Innovation action"
+(6) How many funding scheme codes are there?
+(7) Retrieve the code of funding schema different from Innovation action

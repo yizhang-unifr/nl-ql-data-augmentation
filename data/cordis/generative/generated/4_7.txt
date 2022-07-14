@@ -1,0 +1,16 @@
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.title = 'Large-scale integrating project'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.title = 'Large-scale integrating project'
+GPT-3 choices:
+(0) How many funding scheme titles are there for large-scale integrating project?
+(1) How many funding schemes are there with title Large-scale integrating project?
+(2) Get the total number of funding schemes called Large-scale integrating project.
+(3) Count the number of funding schemes with title Large-scale integrating project
+(4) How many are funding schemes with title Large-scale integrating project?
+(5) How many funding schemes are there with title Large-scale integrating project?
+(6) How many funding schems have the title Large-scale integrating project?
+(7) Show the count of funding schemes with title Large-scale integrating project

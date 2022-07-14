@@ -1,0 +1,16 @@
+SELECT institutions.db_pedia_url FROM institutions WHERE institutions.website != 'http://www.ispo.toscana.it/'
+
+###
+
+
+Original Query:
+SELECT institutions.db_pedia_url FROM institutions WHERE institutions.website != 'http://www.ispo.toscana.it/'
+GPT-3 choices:
+(0) What are the break dates of the institutions that don't have a specific website
+(1) What are the databasepedia urls of the institutions apart from the one of ispo tuscany
+(2) Get all institutions geographical region descriptions pages different than "http://www.ispo.toscana.it/"
+(3) What are the DB-pedia urls of institutions having a different website from http://www.ispo.toscana.it/?
+(4) Show me the dbpedia url of institutions that do not have the website http://www.ispo.toscana.it/
+(5) Show me the list of institutions website except the one having the url http://www.ispo.toscana.it/
+(6) Retrieve the dbpedia Url of institutions that don't have a website = http://www.ispo.toscana.it/
+(7) Show me the dbpedia url of institutions that are not in the website "http://www.ispo.toscana.it/"

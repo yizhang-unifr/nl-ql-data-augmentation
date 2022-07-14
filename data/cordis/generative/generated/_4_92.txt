@@ -1,0 +1,28 @@
+SELECT count(*) FROM subject_areas WHERE subject_areas.description = 'Evaluation of Community RTD programmes; evaluation methodologies.'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM subject_areas WHERE subject_areas.description = 'Evaluation of Community RTD programmes; evaluation methodologies.'
+GPT-3 choices:
+(0) How many different subject areas are associated with the topic of Evaluation of Community RTD programmes; evaluation methodologies?
+(1) How many subject areas are there with a description containing "Evaluation of Community RTD programmes; evaluation methodologies?"
+(2) How many subject areas include the description “Evaluation of Community RTD programmes; evaluation methodologies.”?
+(3) How many subject areas have the description 'Evaluation of Community RTD programmes; evaluation methodologies'.
+(4) How many subject areas are associated with "Evaluation of Community RTD programmes; evaluation methodologies"?
+(5) How many subject areas about "Evaluation of Community RTD programmes; evaluation methodologies" are there?
+(6) Count the number of subject areas which have the description “Evaluation of Community RTD programmes; evaluation methodologies.”
+(7) Show me the count of subject areas with description "Evaluation of Community RTD programmes; evaluation methodologies."
+
+
+Re-ranked choices:
+6.718  How many subject areas include the description “Evaluation of Community RTD programmes; evaluation methodologies.”?
+6.694  How many subject areas are associated with "Evaluation of Community RTD programmes; evaluation methodologies"?
+6.687  How many subject areas are there with a description containing "Evaluation of Community RTD programmes; evaluation methodologies?"
+6.654  How many subject areas have the description 'Evaluation of Community RTD programmes; evaluation methodologies'.
+6.626  How many different subject areas are associated with the topic of Evaluation of Community RTD programmes; evaluation methodologies?
+6.614  How many subject areas about "Evaluation of Community RTD programmes; evaluation methodologies" are there?
+6.546  Count the number of subject areas which have the description “Evaluation of Community RTD programmes; evaluation methodologies.”
+6.089  Show me the count of subject areas with description "Evaluation of Community RTD programmes; evaluation methodologies."
+

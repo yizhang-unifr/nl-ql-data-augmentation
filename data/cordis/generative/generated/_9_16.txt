@@ -1,0 +1,28 @@
+SELECT erc_research_domains.code FROM erc_research_domains JOIN erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects ON project_erc_panels.project = projects.unics_id WHERE projects.start_year != 2020
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.code FROM erc_research_domains JOIN erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects ON project_erc_panels.project = projects.unics_id WHERE projects.start_year != 2020
+GPT-3 choices:
+(0) Show the code of research domains that aren't part of a project with a start year between 2020 and 2023
+(1) Show me the research domains that are part of an ERC panel inside a project starting in 2020
+(2) Retrieve the code of erc research domains within projects having a start year != 2020
+(3) Show me all the ERC research domains from a project that started in 2020
+(4) What are the different research domains for projects that don't start in 2020?
+(5) Show me all the panels of projects that didn't start in 2020
+(6) What is the code of ERC research domains that are not in projects started in 2020?
+(7) Show the different ERC research domains with the panels of projects started before 2020
+
+
+Re-ranked choices:
+5.133  Show me the research domains that are part of an ERC panel inside a project starting in 2020
+5.119  Show the different ERC research domains with the panels of projects started before 2020
+5.022  Show me all the ERC research domains from a project that started in 2020
+4.904  What is the code of ERC research domains that are not in projects started in 2020?
+4.775  Retrieve the code of erc research domains within projects having a start year != 2020
+4.477  Show the code of research domains that aren't part of a project with a start year between 2020 and 2023
+4.428  What are the different research domains for projects that don't start in 2020?
+3.661  Show me all the panels of projects that didn't start in 2020
+

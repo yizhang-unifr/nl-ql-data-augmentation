@@ -1,0 +1,28 @@
+SELECT topics.title FROM topics WHERE topics.code = 'EeB-02-2014' and topics.rcn = '664584'
+
+###
+
+
+Original Query:
+SELECT topics.title FROM topics WHERE topics.code = 'EeB-02-2014' and topics.rcn = '664584'
+GPT-3 choices:
+(0) Show all topics that have a project number 664584 and have the code EeB-02-2014
+(1) Show me all topics whose code is the string "EeB-02-2014" and their research council number is "664584"
+(2) Show topics with title "EeB- 02-2014" with research code "664584"
+(3) What are the titles of the topics from which the record 664584 was retrieved?
+(4) Return topics titles of EeB-02-2014 with 664584 as the regional coordination number
+(5) Show me all topic titles in which the code equals EeB-02-2014 and the region number equals 664 584
+(6) Show me all titles for the lecture with code EeB-02-2014 and recount 664 584.
+(7) Show all topics with title EeB-02-2014 within project 664584
+
+
+Re-ranked choices:
+4.839  Show topics with title "EeB- 02-2014" with research code "664584"
+4.787  Show me all topic titles in which the code equals EeB-02-2014 and the region number equals 664 584
+4.634  Show all topics with title EeB-02-2014 within project 664584
+4.589  Show all topics that have a project number 664584 and have the code EeB-02-2014
+4.488  Show me all topics whose code is the string "EeB-02-2014" and their research council number is "664584"
+4.347  Return topics titles of EeB-02-2014 with 664584 as the regional coordination number
+3.785  Show me all titles for the lecture with code EeB-02-2014 and recount 664 584.
+3.535  What are the titles of the topics from which the record 664584 was retrieved?
+

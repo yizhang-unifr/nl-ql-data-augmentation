@@ -1,0 +1,16 @@
+SELECT count(*) FROM institutions WHERE institutions.short_name = 'UNÎMES'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM institutions WHERE institutions.short_name = 'UNÎMES'
+GPT-3 choices:
+(0) How many institutions with short name = UNÎMES are there?
+(1) How many institutions are there with a short name equal to UNÎMES?
+(2) How many institutions are there with short name UNÎMES?
+(3) Show me the number of institutions with short name UNÎMES
+(4) Total number of institutions with short name UNÎMES
+(5) What is the number of institutions having as short name UNÎMES
+(6) How many institutions are there with short name = UNÎMES?
+(7) How many institutions are there with short name UNÎMES?

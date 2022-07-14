@@ -1,0 +1,16 @@
+SELECT project_members.member_short_name FROM project_members WHERE project_members.street = 'CALLE RAMIRO DE MAEZTU 7 EDIFICIO RECTORADO' or project_members.street = 'GESCHWISTER SCHOLL PLATZ  1'
+
+###
+
+
+Original Query:
+SELECT project_members.member_short_name FROM project_members WHERE project_members.street = 'CALLE RAMIRO DE MAEZTU 7 EDIFICIO RECTORADO' or project_members.street = 'GESCHWISTER SCHOLL PLATZ  1'
+GPT-3 choices:
+(0) Show me all the project members who have a street different from CALLE RAMIRO DE MAEZTU 7 EDIFICIO RECTORADO or GESCHWISTER SCHOLL PLATZ  1
+(1) What is the short name of the project members who have streets named "CALLE RAMIRO DE MAEZTU 7 EDIFICIO RECTORADO" or "GESCHWISTER SCHOLL PLATZ  1" ?
+(2) Return the short name of members whose project's street is CALLE RAMIRO DE MAEZTU 7 EDIFICIO RECTORADO or GESCHWISTER SCHOLL PLATZ).
+(3) Show the short name of project members with street CALLE RAMIRO DE MAEZTU 7 EDIFICIO RECTORADO or with street GESCHWISTER SCHOLL PLATZ  1
+(4) Show the short name of all project members from the projects whose member street address is CALLE RAMIRO DE MAEZTU 7 EDIFICIO RECTORADO or GESCHWISTER SCHOLL PLATZ  1
+(5) Get project members whose street is CALLE RAMIRO DE MAEZTU 7 EDIFICIO RECTORADO or GESCHWISTER SCHOLL PLATZ  1
+(6) Get the member short name of projects having either CALLE RAMIRO DE MAEZTU 7 EDIFICIO RECTORADO or GESCHWISTER SCHOLL PLATZ  1 as street
+(7) Show project members involved in projects with a member street or "GESCHWISTER SCHOLL PLATZ  1"

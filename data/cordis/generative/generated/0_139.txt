@@ -1,0 +1,16 @@
+SELECT projects.end_date FROM projects WHERE projects.ec_fund_scheme = 'SME-1'
+
+###
+
+
+Original Query:
+SELECT projects.end_date FROM projects WHERE projects.ec_fund_scheme = 'SME-1'
+GPT-3 choices:
+(0) Retrieve the ending dates of projects which have an EC fund scheme SME-1
+(1) Show the end date for projects that have the ec_fund_scheme SME-1
+(2) Bring to the end of the project all the projects in the SME-1 European Economic Fund Scheme
+(3) Show projects that end in SME-1 funding
+(4) Show me the last project ending in the scheme SME-1.
+(5) Retrieve all the ending dates of projects that have an ec_fund_scheme of SME-1
+(6) Show the end_date of projects with eu funding scheme SME-1
+(7) Show the end date of projects that have the ec_fund_scheme SME-1

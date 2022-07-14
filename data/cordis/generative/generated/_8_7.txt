@@ -1,0 +1,28 @@
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title != 'Definition Phase Project'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title != 'Definition Phase Project'
+GPT-3 choices:
+(0) Retrieve funding scheme codes of projects that have a title different than "Definition Phase Project"
+(1) Get the code of funding schemas having a title different than "Definition Phase Project".
+(2) Show me the different funding schemes
+(3) Show me the funding scheme codes that are not the title of a Definition Phase Project
+(4) Show me the funding scheme code of projects that are not in the definition phase###
+(5) Match funding schemes that don't have title 'Definition Phase Project'.
+(6) What are the different funding schemes?
+(7) Show all funding scheme codes different from Definition Phase Project
+
+
+Re-ranked choices:
+5.495  Show me the funding scheme codes that are not the title of a Definition Phase Project
+5.194  Show me the funding scheme code of projects that are not in the definition phase###
+5.176  Show all funding scheme codes different from Definition Phase Project
+5.005  Retrieve funding scheme codes of projects that have a title different than "Definition Phase Project"
+4.749  Match funding schemes that don't have title 'Definition Phase Project'.
+4.745  Get the code of funding schemas having a title different than "Definition Phase Project".
+4.309  Show me the different funding schemes
+4.173  What are the different funding schemes?
+

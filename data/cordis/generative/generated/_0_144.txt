@@ -1,0 +1,28 @@
+SELECT project_member_roles.code FROM project_member_roles WHERE project_member_roles.description = 'Coordinator'
+
+###
+
+
+Original Query:
+SELECT project_member_roles.code FROM project_member_roles WHERE project_member_roles.description = 'Coordinator'
+GPT-3 choices:
+(0) What are the project member role codes of projects that have the description of Coordinator?
+(1) Display all projects where the member role is 'Coordinator'
+(2) Show project member role descriptions who are a coordinator
+(3) Retrieve project member roles of `Coordinator`
+(4) Show me the code of project member roles with description 'Coordinator'
+(5) Show me the role associated with project members who participated as Coordinators
+(6) What are the project member roles that are the coordinators?
+(7) Retrieve all project member roles with the description of "Coordinator"
+
+
+Re-ranked choices:
+5.820  Show project member role descriptions who are a coordinator
+5.744  Show me the role associated with project members who participated as Coordinators
+5.638  Retrieve project member roles of `Coordinator`
+5.632  Show me the code of project member roles with description 'Coordinator'
+5.604  Retrieve all project member roles with the description of "Coordinator"
+5.529  Display all projects where the member role is 'Coordinator'
+5.464  What are the project member role codes of projects that have the description of Coordinator?
+5.306  What are the project member roles that are the coordinators?
+

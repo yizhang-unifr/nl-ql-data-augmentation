@@ -1,0 +1,27 @@
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code = 'CP-SoU'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code = 'CP-SoU'
+GPT-3 choices:
+(0) What are the funding scheme titles?
+(1) What are the titles of funding schemes with code CP-SoU?
+(2) Show me all the funding schemes with title 'CP-SoU'
+(3) Show me all funding schemes titled CP-SoU
+(4) Show all funding schemes with title CP-SoU
+(5) Display the title of funding schemes with code CP-SoU
+(6) Show me funding schemes with code CP-SoU
+(7) What are the funding scheme titles?
+
+
+Re-ranked choices:
+5.227  Show me all the funding schemes with title 'CP-SoU'
+5.126  Show me all funding schemes titled CP-SoU
+5.009  Show all funding schemes with title CP-SoU
+4.919  What are the titles of funding schemes with code CP-SoU?
+4.870  Show me funding schemes with code CP-SoU
+4.834  Display the title of funding schemes with code CP-SoU
+3.958  What are the funding scheme titles?
+

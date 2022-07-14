@@ -1,0 +1,28 @@
+SELECT project_members.activity_type FROM project_members WHERE project_members.ec_contribution = 845948.88 and project_members.country = 'DE'
+
+###
+
+
+Original Query:
+SELECT project_members.activity_type FROM project_members WHERE project_members.ec_contribution = 845948.88 and project_members.country = 'DE'
+GPT-3 choices:
+(0) What is the activity type of project members that have an EC contribution in the country of DE?
+(1) Show all members of a project for the European Commission with an ERC contribution of 845948.88 EUR and a country code of DE.
+(2) What is the activity type of project members from DE with an ec contribution of 845948.88?
+(3) Show all project members that contribute 8 million ECUs, have the country code DE and participate in the project European Commission funded project “ALDA”
+(4) Retrieve activity type of project members where activity contribution is 845948.88 and country is DE
+(5) Return project members from DE who contributed 840096.88 euros from The European Union
+(6) Retrieve project members whose activity type is 845948.88 euros and whose country is DE
+(7) which project members have an activity type called 845948.88 from country DE?
+
+
+Re-ranked choices:
+4.851  What is the activity type of project members that have an EC contribution in the country of DE?
+4.845  What is the activity type of project members from DE with an ec contribution of 845948.88?
+4.722  Retrieve project members whose activity type is 845948.88 euros and whose country is DE
+4.601  Which project members have an activity type called 845948.88 from country DE?
+4.399  Show all members of a project for the European Commission with an ERC contribution of 845948.88 EUR and a country code of DE.
+4.319  Return project members from DE who contributed 840096.88 euros from The European Union
+4.305  Retrieve activity type of project members where activity contribution is 845948.88 and country is DE
+4.276  Show all project members that contribute 8 million ECUs, have the country code DE and participate in the project European Commission funded project “ALDA”
+

@@ -1,0 +1,28 @@
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title = 'Marie Curie actions-Grants for Excellent Teams'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title = 'Marie Curie actions-Grants for Excellent Teams'
+GPT-3 choices:
+(0) Show the code of funding schemes named "Marie Curie actions-Grants for Excellent Teams"
+(1) Show me the funding scheme of the project title 'Marie Curie actions-Grants for Excellent Teams'
+(2) What are the different funding scheme codes?
+(3) Show the code of funding schemes with the title Marie Curie actions-Grants for Excellent Teams
+(4) Show me the codes of funding schemes with title Marie Curie actions-Grants for Excellent Teams
+(5) Show me all of the funding scheme titles
+(6) Show me the funding schemes associated with the "Marie Curie actions-Grants for Excellent Teams" title
+(7) Find me all funding schemes with title Marie Curie actions-Grants for Excellent Teams
+
+
+Re-ranked choices:
+5.906  Show me the codes of funding schemes with title Marie Curie actions-Grants for Excellent Teams
+5.879  Show the code of funding schemes with the title Marie Curie actions-Grants for Excellent Teams
+5.718  Show me the funding schemes associated with the "Marie Curie actions-Grants for Excellent Teams" title
+5.688  Show the code of funding schemes named "Marie Curie actions-Grants for Excellent Teams"
+5.627  Show me the funding scheme of the project title 'Marie Curie actions-Grants for Excellent Teams'
+5.550  Find me all funding schemes with title Marie Curie actions-Grants for Excellent Teams
+4.245  Show me all of the funding scheme titles
+3.715  What are the different funding scheme codes?
+

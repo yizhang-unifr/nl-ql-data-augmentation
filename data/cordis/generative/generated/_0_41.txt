@@ -1,0 +1,28 @@
+SELECT institutions.institutions_name FROM institutions WHERE institutions.geocode_regions_3 = 'TR721'
+
+###
+
+
+Original Query:
+SELECT institutions.institutions_name FROM institutions WHERE institutions.geocode_regions_3 = 'TR721'
+GPT-3 choices:
+(0) Show me all the institutions in TR721
+(1) Retrieve institutions having the geocode region 3 = TR721
+(2) Show me institutions that are located in the geocode region TR721.
+(3) Retrieve all the institution names with geocode region TR721
+(4) Show me the name of institutions located in TR721
+(5) Display the name of all institutions with geocode region 3 TR721
+(6) Show all the institutions having geocode region TR721
+(7) Retrieve all institutions having a geocode region 3 equal to TR721.
+
+
+Re-ranked choices:
+5.725  Show all the institutions having geocode region TR721
+5.676  Retrieve all institutions having a geocode region 3 equal to TR721.
+5.643  Retrieve institutions having the geocode region 3 = TR721
+5.566  Show me institutions that are located in the geocode region TR721.
+5.539  Display the name of all institutions with geocode region 3 TR721
+5.423  Retrieve all the institution names with geocode region TR721
+4.939  Show me the name of institutions located in TR721
+4.752  Show me all the institutions in TR721
+

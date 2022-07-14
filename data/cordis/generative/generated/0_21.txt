@@ -1,0 +1,16 @@
+SELECT topics.code FROM topics WHERE topics.title = 'ERC Starting Grant'
+
+###
+
+
+Original Query:
+SELECT topics.code FROM topics WHERE topics.title = 'ERC Starting Grant'
+GPT-3 choices:
+(0) Show me topics that have the code ERC Starting Grant
+(1) Retrieve all topics with title = ERC Starting Grant .
+(2) Show me all topic codes for projects about ERC Starting Grant
+(3) Show me the code assigned to the topic titles "ERC Starting Grant"
+(4) ## What is the code of the topics with title ERC Starting Grant?
+(5) What are the topics associated with the ERC Starting Grant?
+(6) What are the code numbers of projects that are called ERC Starting Grants?
+(7) Show me the topics that have "ERC Starting Grant" as a title.

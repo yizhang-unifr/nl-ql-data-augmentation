@@ -1,0 +1,28 @@
+SELECT projects.title FROM projects WHERE projects.total_cost != 5075398.5
+
+###
+
+
+Original Query:
+SELECT projects.title FROM projects WHERE projects.total_cost != 5075398.5
+GPT-3 choices:
+(0) Show me the titles of all projects that aren't 5075398,50
+(1) Show me all project titles, except for the project with total cost 5075398.5
+(2) Show me projects with a cost different than 5075398.5
+(3) Show me all the projects that did not cost 5075398.5?
+(4) Show projects with a total cost different from 5075398.5.
+(5) Show me all project titles that are not exactly 5075398.5?
+(6) What are the project titles?
+(7) Show me projects that didn't have a total cost of 5075398.5.
+
+
+Re-ranked choices:
+5.097  Show me all project titles, except for the project with total cost 5075398.5
+5.039  Show me all the projects that did not cost 5075398.5?
+5.026  Show me projects that didn't have a total cost of 5075398.5.
+4.975  Show me the titles of all projects that aren't 5075398,50
+4.773  Show me projects with a cost different than 5075398.5
+4.767  Show me all project titles that are not exactly 5075398.5?
+4.640  Show projects with a total cost different from 5075398.5.
+3.762  What are the project titles?
+

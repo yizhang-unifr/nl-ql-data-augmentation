@@ -1,0 +1,28 @@
+SELECT institutions.institutions_name FROM institutions WHERE institutions.acronym != 'BSC-CNS'
+
+###
+
+
+Original Query:
+SELECT institutions.institutions_name FROM institutions WHERE institutions.acronym != 'BSC-CNS'
+GPT-3 choices:
+(0) Show me the names of all institutions that do not have the acronym BSC-CNS
+(1) Show me all the institutions acronyms are not BSC-CNS
+(2) What are the institutions names of the acronyms that are different from BSC-CNS?
+(3) Show me all the institutions that do not have the acronym BSC-CNS.
+(4) What are the different institutions names of the institutions that do not have the acronym BSC-CNS?
+(5) Display all institutions names apart from BSC-CNS
+(6) SELECT institutions.institutions_name FROM institutions WHERE institutions.acronym != 'BSC-CNS'
+(7) Show me institutions with acronym different than "BSC-CNS"
+
+
+Re-ranked choices:
+6.372  Show me the names of all institutions that do not have the acronym BSC-CNS
+6.278  Show me all the institutions that do not have the acronym BSC-CNS.
+6.242  Show me all the institutions acronyms are not BSC-CNS
+6.215  What are the different institutions names of the institutions that do not have the acronym BSC-CNS?
+6.138  Show me institutions with acronym different than "BSC-CNS"
+5.985  What are the institutions names of the acronyms that are different from BSC-CNS?
+5.529  SELECT institutions.institutions_name FROM institutions WHERE institutions.acronym != 'BSC-CNS'
+5.468  Display all institutions names apart from BSC-CNS
+

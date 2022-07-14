@@ -1,0 +1,16 @@
+SELECT activity_types.description FROM activity_types WHERE activity_types.code = 'OTH'
+
+###
+
+
+Original Query:
+SELECT activity_types.description FROM activity_types WHERE activity_types.code = 'OTH'
+GPT-3 choices:
+(0) What are the activity types descriptions?
+(1) Show the description of activity types.
+(2) Retrieve activity types with code 'OTH'.
+(3) Show all description of activity types with code "OTH"
+(4) Show all activity types that have a code equals to 'OTH'
+(5) Retrieve the description of activity type OTH.
+(6) Show me descriptions of activity types containing oth
+(7) Show activity types with code 'OTH'

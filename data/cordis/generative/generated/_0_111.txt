@@ -1,0 +1,27 @@
+SELECT countries.country_code FROM countries WHERE countries.country_name = 'Djibouti'
+
+###
+
+
+Original Query:
+SELECT countries.country_code2 FROM countries WHERE countries.country_name = 'Djibouti'
+GPT-3 choices:
+(0) Retrieve the country_code of countries with country_name "Djibouti"
+(1) Show all country codes from the country Djibouti
+(2) What are the country codes of countries whose name is Djibouti?
+(3) What are the country codes of countries whose name is Djibouti?
+(4) Retrieve all country codes from the country named Djibouti
+(5) Retrieve countries having country code as Djibouti
+(6) Retrieve all country codes from the country Djibouti
+(7) A list of all country code of countries with the name Djibouti
+
+
+Re-ranked choices:
+5.505  Retrieve all country codes from the country named Djibouti
+5.444  Retrieve countries having country code as Djibouti
+5.429  Retrieve all country codes from the country Djibouti
+5.307  Show all country codes from the country Djibouti
+5.284  A list of all country code of countries with the name Djibouti
+5.259  Retrieve the country_code of countries with country_name "Djibouti"
+5.115  What are the country codes of countries whose name is Djibouti?
+

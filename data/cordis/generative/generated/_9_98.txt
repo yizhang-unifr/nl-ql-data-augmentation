@@ -1,0 +1,28 @@
+SELECT project_members.country FROM project_members JOIN eu_territorial_units ON project_members.geocode_regions_3 = eu_territorial_units.geocode_regions WHERE eu_territorial_units.description != 'Havelland'
+
+###
+
+
+Original Query:
+SELECT project_members.country FROM project_members JOIN eu_territorial_units ON project_members.geocode_regions_3 = eu_territorial_units.geocode_regions WHERE eu_territorial_units.description != 'Havelland'
+GPT-3 choices:
+(0) Show me the countries of project members with an eu territorial unit description different from Havelland
+(1) Show me all project members with country different than Havelland and where the eu territorial unit description is different than Havelland.
+(2) Show me project members territorial unit descriptions differing from "Havelland"
+(3) Show all country of project members that are not in Havelland.
+(4) Show me the countries of the project members with territorial units outside of the Havelland
+(5) Which countries are projects members in which the territorial unit is not Havelland?
+(6) Show me all project members from country, who are from a territorial unit that is not the Havelland one.
+(7) Retrieve the country of all project members who are not in the EU territorial unit Havelland
+
+
+Re-ranked choices:
+5.581  Show me all project members from country, who are from a territorial unit that is not the Havelland one.
+5.567  Show me the countries of the project members with territorial units outside of the Havelland
+5.468  Show me all project members with country different than Havelland and where the eu territorial unit description is different than Havelland.
+5.437  Show me the countries of project members with an eu territorial unit description different from Havelland
+5.151  Which countries are projects members in which the territorial unit is not Havelland?
+4.710  Show me project members territorial unit descriptions differing from "Havelland"
+4.704  Retrieve the country of all project members who are not in the EU territorial unit Havelland
+4.701  Show all country of project members that are not in Havelland.
+

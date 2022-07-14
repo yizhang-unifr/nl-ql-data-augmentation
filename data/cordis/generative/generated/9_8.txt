@@ -1,0 +1,16 @@
+SELECT ec_framework_programs.program_name FROM ec_framework_programs JOIN projects ON ec_framework_programs.program_name = projects.framework_program WHERE projects.end_year != 2014
+
+###
+
+
+Original Query:
+SELECT ec_framework_programs.ec_framework_program_name FROM ec_framework_programs JOIN projects ON ec_framework_programs.ec_framework_program_name = projects.framework_program WHERE projects.end_year != 2014
+GPT-3 choices:
+(0) Show the name of all the Eco-framework program's projects in which the end year is not 2014.
+(1) Display the name of all the framework programs that have a project ending in 2014.
+(2) What are the framework programs for projects that didn't end in 2014?
+(3) Show all programs of frameworks, that cover projects that ended in a year different from 2014.
+(4) What are the framework programs available for projects that ended in 2014?
+(5) Retrieve the name of all the framework programs from within projects that didn't end in 2014
+(6) Show all the program names of frameworks that are not ending in 2014
+(7) Retrieve the program names of all framework programs in projects that do not end in 2014.

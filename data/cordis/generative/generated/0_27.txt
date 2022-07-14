@@ -1,0 +1,16 @@
+SELECT erc_research_domains.description FROM erc_research_domains WHERE erc_research_domains.code = 'LS'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.description FROM erc_research_domains WHERE erc_research_domains.code = 'LS'
+GPT-3 choices:
+(0) Show me all research domains that start with LS
+(1) Show me the research domains that have code LS
+(2) Show me all the research domain descriptions
+(3) Show all the erc research domains with code LS
+(4) Show me the descriptions of all research domains containing "LS".
+(5) Show me the different research domains about Logic and Science.
+(6) Show me the descriptions of erc research domains with code LS
+(7) Show me the description of research domains with code LS

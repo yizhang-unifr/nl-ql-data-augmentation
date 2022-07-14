@@ -1,0 +1,16 @@
+SELECT countries.country_name FROM countries WHERE countries.country_code != 'VA'
+
+###
+
+
+Original Query:
+SELECT countries.country_name FROM countries WHERE countries.country_code2 != 'VA'
+GPT-3 choices:
+(0) Show me the countries which don't have the country code pa.
+(1) Show me countries from outside the country VA
+(2) Show all countries with a country code different from VA
+(3) Show the country name for all countries except those with the country code VA
+(4) Show the country name of all country codes different from 'VA'.
+(5) Retrieve the country names of all countries except the country code VA.
+(6) Show all countries which have a different country code than VA
+(7) Show me all countries, except the one called VA.

@@ -1,0 +1,16 @@
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code != 'CIP-EIP-TN-PIE'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code != 'CIP-EIP-TN-PIE'
+GPT-3 choices:
+(0) Show me funding schemes where the code is different from CIP-EIP-TN-PIE.
+(1) Show me the funding schemes titles
+(2) Show me all funding schemes different than CIP-EIP-TN-PIE
+(3) Show me the funding schemes titles
+(4) What are the different title of funding schemes?
+(5) Retrieve all funding scheme titles except for the funding scheme code CIP-EIP-TN-PIE.
+(6) Show me the funding schemes different than EIP-TN-PIE.
+(7) Find funding schemes titles different from "CIP-EIP-TN-PIE"

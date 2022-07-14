@@ -1,0 +1,28 @@
+SELECT institutions.short_name FROM institutions JOIN eu_territorial_units ON institutions.geocode_regions_3 = eu_territorial_units.geocode_regions WHERE eu_territorial_units.geocode_regions != 'TRC13'
+
+###
+
+
+Original Query:
+SELECT institutions.short_name FROM institutions JOIN eu_territorial_units ON institutions.geocode_regions_3 = eu_territorial_units.geocode_regions WHERE eu_territorial_units.geocode_regions != 'TRC13'
+GPT-3 choices:
+(0) Show me the short name of institutions having territorial unit different from TRC13
+(1) Show the short name of institutions located in TRC13 territorial unit that isn't a European territorial unit.
+(2) Display short names of institutions located in a region that is not TRC13.
+(3) Show me the short names of institutions having territorial unit with geocode region != 'TRC13'
+(4) What is the short name of institutions located in the region TRC13 that are not institutions?
+(5) Retrieve the short name of institutions with territorial unit different from trc13
+(6) Retrieve the short names of institutions that have a territorial unit different from TRC13
+(7) Show me the short names of institutions and the european territorial units from which they are not assigned to a region in the TRC13
+
+
+Re-ranked choices:
+5.751  Show me the short name of institutions having territorial unit different from TRC13
+5.699  Show me the short names of institutions and the european territorial units from which they are not assigned to a region in the TRC13
+5.686  Retrieve the short names of institutions that have a territorial unit different from TRC13
+5.638  Retrieve the short name of institutions with territorial unit different from trc13
+5.606  Show the short name of institutions located in TRC13 territorial unit that isn't a European territorial unit.
+5.586  Show me the short names of institutions having territorial unit with geocode region != 'TRC13'
+5.388  Display short names of institutions located in a region that is not TRC13.
+5.166  What is the short name of institutions located in the region TRC13 that are not institutions?
+

@@ -1,0 +1,16 @@
+SELECT programmes.title FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.acronym != 'ANGIOFISH'
+
+###
+
+
+Original Query:
+SELECT programmes.title FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.acronym != 'ANGIOFISH'
+GPT-3 choices:
+(0) Show the title of projects with a project programme different from 'ANGIOFISH' and which are not about ANGIOFISH.
+(1) What are the programmes of projects that don't have the acronym ANGIOFISH?
+(2) What are the titles of projects that are not about ANGIOFISH?
+(3) Show the titles of all programmes that are not part of the project with acronym ANGIOFISH
+(4) Show me the project programmes that don't have the project with acronym ANGIOFISH
+(5) Show me programme titles of projects which are not about Angiofish
+(6) Show me project programme titles different from ANGIOFISH.
+(7) Display titles of programmes in which there is not a project called ANGIOFISH

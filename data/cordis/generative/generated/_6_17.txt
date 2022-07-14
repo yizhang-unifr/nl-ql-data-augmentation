@@ -1,0 +1,28 @@
+SELECT topics.code FROM topics WHERE topics.rcn = '664999' and topics.title = 'Automation in ATM'
+
+###
+
+
+Original Query:
+SELECT topics.code FROM topics WHERE topics.rcn = '664999' and topics.title = 'Automation in ATM'
+GPT-3 choices:
+(0) I want the code of all topics whose title is Automation in ATM and whose R&C number is 664999
+(1) What are the different topics in which the subject is Automation in ATM?
+(2) What are the topics about automation in ATM?
+(3) Show me all topics about Automation in ATM.
+(4) Show me all topics in which the research code equals 664999 and the title is Automation in ATM
+(5) What are the topics that have the code 664999 and are titled Automation in ATM?
+(6) Show me the subjects where the topic is Automation in ATM and the code is 664999
+(7) Show me topics in which the sub-title is 'Automation in ATM' and the region code is 664999
+
+
+Re-ranked choices:
+5.716  Show me the subjects where the topic is Automation in ATM and the code is 664999
+5.609  What are the topics that have the code 664999 and are titled Automation in ATM?
+5.596  Show me all topics about Automation in ATM.
+5.584  What are the different topics in which the subject is Automation in ATM?
+5.477  What are the topics about automation in ATM?
+5.406  Show me all topics in which the research code equals 664999 and the title is Automation in ATM
+5.360  I want the code of all topics whose title is Automation in ATM and whose R&C number is 664999
+5.175  Show me topics in which the sub-title is 'Automation in ATM' and the region code is 664999
+

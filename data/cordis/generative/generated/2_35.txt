@@ -1,0 +1,16 @@
+SELECT project_members.postal_code, count(*) FROM project_members  GROUP BY project_members.postal_code
+
+###
+
+
+Original Query:
+SELECT project_members.postal_code, count(*) FROM project_members  GROUP BY project_members.postal_code
+GPT-3 choices:
+(0) Count of members with a certain postal code
+(1) How many postal codes are there among project members?
+(2) Show the number of project members in each postal code.
+(3) Retrieve the postal codes of all the project members
+(4) How many different postal codes do project members have?
+(5) What is the postal code of all the project members?
+(6) The total number of project members’ postal codes.
+(7) How many project members are there?

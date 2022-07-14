@@ -1,0 +1,28 @@
+SELECT programmes.rcn FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.start_year = 2021
+
+###
+
+
+Original Query:
+SELECT programmes.rcn FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.start_year = 2021
+GPT-3 choices:
+(0) Show me project programs of a project started in 2021.
+(1) Display all project projects that started in 2021 in their programme
+(2) Show the RCN of projects in which the programme is assigned with a start year of 2021
+(3) Retrieve rcns of projects that start in 2021
+(4) Show me the RCN of projects that start in 2021
+(5) Retrieve the RCC of programmes for projects starting in 2021
+(6) Show me the program districts of projects whose starting year is 2021
+(7) What are the research council numbers of projects that started in 2021?
+
+
+Re-ranked choices:
+5.271  Show me the RCN of projects that start in 2021
+5.124  Show the RCN of projects in which the programme is assigned with a start year of 2021
+5.065  Display all project projects that started in 2021 in their programme
+4.949  Show me project programs of a project started in 2021.
+4.827  Retrieve the RCC of programmes for projects starting in 2021
+4.652  Retrieve rcns of projects that start in 2021
+4.435  Show me the program districts of projects whose starting year is 2021
+4.238  What are the research council numbers of projects that started in 2021?
+

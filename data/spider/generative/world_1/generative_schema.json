@@ -1,0 +1,212 @@
+[
+  {
+    "name": "city",
+    "original_name": "city",
+    "logical_name": "city",
+    "columns": [
+      {
+        "name": "id",
+        "original_name": "ID",
+        "logical_name": "ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "name",
+        "original_name": "Name",
+        "logical_name": "Name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "country code",
+        "original_name": "CountryCode",
+        "logical_name": "CountryCode",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "district",
+        "original_name": "District",
+        "logical_name": "District",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "population",
+        "original_name": "Population",
+        "logical_name": "Population",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  },
+  {
+    "name": "sqlite sequence",
+    "original_name": "sqlite_sequence",
+    "logical_name": "sqlite_sequence",
+    "columns": [
+      {
+        "name": "name",
+        "original_name": "name",
+        "logical_name": "name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "seq",
+        "original_name": "seq",
+        "logical_name": "seq",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "country",
+    "original_name": "country",
+    "logical_name": "country",
+    "columns": [
+      {
+        "name": "code",
+        "original_name": "Code",
+        "logical_name": "Code",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "name",
+        "original_name": "Name",
+        "logical_name": "Name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "continent",
+        "original_name": "Continent",
+        "logical_name": "Continent",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "region",
+        "original_name": "Region",
+        "logical_name": "Region",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "surface area",
+        "original_name": "SurfaceArea",
+        "logical_name": "SurfaceArea",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "indepdent year",
+        "original_name": "IndepYear",
+        "logical_name": "IndepYear",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "population",
+        "original_name": "Population",
+        "logical_name": "Population",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "life expectancy",
+        "original_name": "LifeExpectancy",
+        "logical_name": "LifeExpectancy",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "gnp",
+        "original_name": "GNP",
+        "logical_name": "GNP",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "gnp old",
+        "original_name": "GNPOld",
+        "logical_name": "GNPOld",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "local name",
+        "original_name": "LocalName",
+        "logical_name": "LocalName",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "government form",
+        "original_name": "GovernmentForm",
+        "logical_name": "GovernmentForm",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "head of state",
+        "original_name": "HeadOfState",
+        "logical_name": "HeadOfState",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "capital",
+        "original_name": "Capital",
+        "logical_name": "Capital",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "code2",
+        "original_name": "Code2",
+        "logical_name": "Code2",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "countrylanguage",
+    "original_name": "countrylanguage",
+    "logical_name": "countrylanguage",
+    "columns": [
+      {
+        "name": "countrycode",
+        "original_name": "CountryCode",
+        "logical_name": "CountryCode",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "language",
+        "original_name": "Language",
+        "logical_name": "Language",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "is official",
+        "original_name": "IsOfficial",
+        "logical_name": "IsOfficial",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "percentage",
+        "original_name": "Percentage",
+        "logical_name": "Percentage",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  }
+]

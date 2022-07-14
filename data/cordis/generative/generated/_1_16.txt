@@ -1,0 +1,28 @@
+SELECT funding_schemes.code FROM funding_schemes JOIN projects ON funding_schemes.code = projects.ec_fund_scheme WHERE projects.end_date = '2022-09-30'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.code FROM funding_schemes JOIN projects ON funding_schemes.code = projects.ec_fund_scheme WHERE projects.end_date = '2022-09-30'
+GPT-3 choices:
+(0) Retrieve all schema codes of projects that end on "2022-09-30"
+(1) Retrieve funding scheme code associated with projects whose end date is 2022-09-30
+(2) Show the funding scheme codes of projects whose end date is 2022-09-30
+(3) Retrieve the funding scheme's code for all the projects that end on 2022-09-30
+(4) Display all funding scheme codes associated with projects that end on "2022-09-30"
+(5) Display all funding scheme codes associated with projects that end date is 2022-09-30
+(6) Show all funding scheme codes of projects that end on "2022-09-30"
+(7) What are the funding scheme codes of project with end date in 2022-09-30?
+
+
+Re-ranked choices:
+6.242  Show all funding scheme codes of projects that end on "2022-09-30"
+6.223  Display all funding scheme codes associated with projects that end date is 2022-09-30
+6.187  Display all funding scheme codes associated with projects that end on "2022-09-30"
+6.139  Show the funding scheme codes of projects whose end date is 2022-09-30
+6.124  Retrieve the funding scheme's code for all the projects that end on 2022-09-30
+6.097  Retrieve funding scheme code associated with projects whose end date is 2022-09-30
+5.786  What are the funding scheme codes of project with end date in 2022-09-30?
+4.898  Retrieve all schema codes of projects that end on "2022-09-30"
+

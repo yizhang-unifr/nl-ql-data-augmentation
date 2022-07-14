@@ -1,0 +1,2522 @@
+[
+  {
+    "db_id": "poker_player",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.People_ID FROM people AS T1 WHERE T1.Birth_Date = \"August 8, 1986\"",
+    "readable_query": "SELECT people.People_ID FROM people AS people WHERE people.Birth_Date = \"August 8, 1986\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Height FROM people AS T1 WHERE T1.People_ID = 3",
+    "readable_query": "SELECT people.Height FROM people AS people WHERE people.People_ID = 3"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Name FROM people AS T1 WHERE T1.Nationality = \"Bulgaria\"",
+    "readable_query": "SELECT people.Name FROM people AS people WHERE people.Nationality = \"Bulgaria\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Nationality FROM people AS T1 WHERE T1.People_ID = 2",
+    "readable_query": "SELECT people.Nationality FROM people AS people WHERE people.People_ID = 2"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Nationality FROM people AS T1 WHERE T1.Height = 194.0",
+    "readable_query": "SELECT people.Nationality FROM people AS people WHERE people.Height = 194.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Best_Finish FROM poker_player AS T1 WHERE T1.Poker_Player_ID = 5",
+    "readable_query": "SELECT poker_player.Best_Finish FROM poker_player AS poker_player WHERE poker_player.Poker_Player_ID = 5"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1 WHERE T1.Earnings = 476090.0",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player WHERE poker_player.Earnings = 476090.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Birth_Date FROM people AS T1 WHERE T1.Name = \"Semen Poltavskiy\"",
+    "readable_query": "SELECT people.Birth_Date FROM people AS people WHERE people.Name = \"Semen Poltavskiy\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Nationality FROM people AS T1 WHERE T1.Birth_Date = \"April 17, 1987\"",
+    "readable_query": "SELECT people.Nationality FROM people AS people WHERE people.Birth_Date = \"April 17, 1987\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1 WHERE T1.Final_Table_Made = 19.0",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player WHERE poker_player.Final_Table_Made = 19.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Best_Finish FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Birth_Date = \"August 16, 1982\"",
+    "readable_query": "SELECT poker_player.Best_Finish FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Birth_Date = \"August 16, 1982\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Birth_Date FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.People_ID = 2",
+    "readable_query": "SELECT people.Birth_Date FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.People_ID = 2"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Name FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.People_ID = 7",
+    "readable_query": "SELECT people.Name FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.People_ID = 7"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Height FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Money_Rank = 58.0",
+    "readable_query": "SELECT people.Height FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Money_Rank = 58.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Final_Table_Made FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.People_ID = 2",
+    "readable_query": "SELECT poker_player.Final_Table_Made FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.People_ID = 2"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Height = 196.0",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Height = 196.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Name FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Poker_Player_ID = 1",
+    "readable_query": "SELECT people.Name FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Poker_Player_ID = 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Final_Table_Made FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Name = \"Yevgeni Sivozhelez\"",
+    "readable_query": "SELECT poker_player.Final_Table_Made FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Name = \"Yevgeni Sivozhelez\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.People_ID FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Final_Table_Made = 10.0",
+    "readable_query": "SELECT people.People_ID FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Final_Table_Made = 10.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Birth_Date = \"August 8, 1986\"",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Birth_Date = \"August 8, 1986\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Name, count(*) FROM people AS T1  GROUP BY T1.Name",
+    "readable_query": "SELECT people.Name, count(*) FROM people AS people  GROUP BY people.Name"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Poker_Player_ID, count(*) FROM poker_player AS T1  GROUP BY T1.Poker_Player_ID",
+    "readable_query": "SELECT poker_player.Poker_Player_ID, count(*) FROM poker_player AS poker_player  GROUP BY poker_player.Poker_Player_ID"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Money_Rank, count(*) FROM poker_player AS T1  GROUP BY T1.Money_Rank",
+    "readable_query": "SELECT poker_player.Money_Rank, count(*) FROM poker_player AS poker_player  GROUP BY poker_player.Money_Rank"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Nationality, count(*) FROM people AS T1  GROUP BY T1.Nationality",
+    "readable_query": "SELECT people.Nationality, count(*) FROM people AS people  GROUP BY people.Nationality"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Best_Finish, count(*) FROM poker_player AS T1  GROUP BY T1.Best_Finish",
+    "readable_query": "SELECT poker_player.Best_Finish, count(*) FROM poker_player AS poker_player  GROUP BY poker_player.Best_Finish"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Birth_Date, count(*) FROM people AS T1  GROUP BY T1.Birth_Date",
+    "readable_query": "SELECT people.Birth_Date, count(*) FROM people AS people  GROUP BY people.Birth_Date"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.People_ID, count(*) FROM poker_player AS T1  GROUP BY T1.People_ID",
+    "readable_query": "SELECT poker_player.People_ID, count(*) FROM poker_player AS poker_player  GROUP BY poker_player.People_ID"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Earnings, count(*) FROM poker_player AS T1  GROUP BY T1.Earnings",
+    "readable_query": "SELECT poker_player.Earnings, count(*) FROM poker_player AS poker_player  GROUP BY poker_player.Earnings"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.People_ID, count(*) FROM people AS T1  GROUP BY T1.People_ID",
+    "readable_query": "SELECT people.People_ID, count(*) FROM people AS people  GROUP BY people.People_ID"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Final_Table_Made, count(*) FROM poker_player AS T1  GROUP BY T1.Final_Table_Made",
+    "readable_query": "SELECT poker_player.Final_Table_Made, count(*) FROM poker_player AS poker_player  GROUP BY poker_player.Final_Table_Made"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Birth_Date, count(*) FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID  GROUP BY T1.Birth_Date",
+    "readable_query": "SELECT people.Birth_Date, count(*) FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID  GROUP BY people.Birth_Date"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Poker_Player_ID, count(*) FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID  GROUP BY T1.Poker_Player_ID",
+    "readable_query": "SELECT poker_player.Poker_Player_ID, count(*) FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID  GROUP BY poker_player.Poker_Player_ID"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.People_ID, count(*) FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID  GROUP BY T1.People_ID",
+    "readable_query": "SELECT poker_player.People_ID, count(*) FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID  GROUP BY poker_player.People_ID"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Nationality, count(*) FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID  GROUP BY T1.Nationality",
+    "readable_query": "SELECT people.Nationality, count(*) FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID  GROUP BY people.Nationality"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Money_Rank, count(*) FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID  GROUP BY T1.Money_Rank",
+    "readable_query": "SELECT poker_player.Money_Rank, count(*) FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID  GROUP BY poker_player.Money_Rank"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Best_Finish, count(*) FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID  GROUP BY T1.Best_Finish",
+    "readable_query": "SELECT poker_player.Best_Finish, count(*) FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID  GROUP BY poker_player.Best_Finish"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Height, count(*) FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID  GROUP BY T1.Height",
+    "readable_query": "SELECT people.Height, count(*) FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID  GROUP BY people.Height"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Final_Table_Made, count(*) FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID  GROUP BY T1.Final_Table_Made",
+    "readable_query": "SELECT poker_player.Final_Table_Made, count(*) FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID  GROUP BY poker_player.Final_Table_Made"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.People_ID, count(*) FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID  GROUP BY T1.People_ID",
+    "readable_query": "SELECT people.People_ID, count(*) FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID  GROUP BY people.People_ID"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Name, count(*) FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID  GROUP BY T1.Name",
+    "readable_query": "SELECT people.Name, count(*) FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID  GROUP BY people.Name"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM people AS T1",
+    "readable_query": "SELECT count(*) FROM people AS people"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM poker_player AS T1",
+    "readable_query": "SELECT count(*) FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Nationality, T1.People_ID FROM people AS T1",
+    "readable_query": "SELECT people.Nationality, people.People_ID FROM people AS people"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Poker_Player_ID, T1.Final_Table_Made FROM poker_player AS T1",
+    "readable_query": "SELECT poker_player.Poker_Player_ID, poker_player.Final_Table_Made FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Poker_Player_ID, T1.Best_Finish FROM poker_player AS T1",
+    "readable_query": "SELECT poker_player.Poker_Player_ID, poker_player.Best_Finish FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.People_ID, T1.Birth_Date FROM people AS T1",
+    "readable_query": "SELECT people.People_ID, people.Birth_Date FROM people AS people"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Best_Finish, T1.Final_Table_Made FROM poker_player AS T1",
+    "readable_query": "SELECT poker_player.Best_Finish, poker_player.Final_Table_Made FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Money_Rank, T1.Poker_Player_ID FROM poker_player AS T1",
+    "readable_query": "SELECT poker_player.Money_Rank, poker_player.Poker_Player_ID FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Earnings, T1.Final_Table_Made FROM poker_player AS T1",
+    "readable_query": "SELECT poker_player.Earnings, poker_player.Final_Table_Made FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Name, T1.Height FROM people AS T1",
+    "readable_query": "SELECT people.Name, people.Height FROM people AS people"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Height, T1.Nationality FROM people AS T1",
+    "readable_query": "SELECT people.Height, people.Nationality FROM people AS people"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.People_ID, T1.Height FROM people AS T1",
+    "readable_query": "SELECT people.People_ID, people.Height FROM people AS people"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Height, T2.Money_Rank FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID",
+    "readable_query": "SELECT people.Height, poker_player.Money_Rank FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Birth_Date, T2.Final_Table_Made FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID",
+    "readable_query": "SELECT people.Birth_Date, poker_player.Final_Table_Made FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.People_ID, T2.Birth_Date FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID",
+    "readable_query": "SELECT poker_player.People_ID, people.Birth_Date FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Birth_Date, T2.Best_Finish FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID",
+    "readable_query": "SELECT people.Birth_Date, poker_player.Best_Finish FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.People_ID, T2.Nationality FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID",
+    "readable_query": "SELECT poker_player.People_ID, people.Nationality FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Money_Rank, T2.Height FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID",
+    "readable_query": "SELECT poker_player.Money_Rank, people.Height FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Height, T2.Earnings FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID",
+    "readable_query": "SELECT people.Height, poker_player.Earnings FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Poker_Player_ID, T2.Birth_Date FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID",
+    "readable_query": "SELECT poker_player.Poker_Player_ID, people.Birth_Date FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Nationality, T2.People_ID FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID",
+    "readable_query": "SELECT people.Nationality, poker_player.People_ID FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.People_ID, T2.Best_Finish FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID",
+    "readable_query": "SELECT people.People_ID, poker_player.Best_Finish FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Nationality, T1.Name FROM people AS T1 WHERE T1.People_ID = 7",
+    "readable_query": "SELECT people.Nationality, people.Name FROM people AS people WHERE people.People_ID = 7"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Nationality, T1.Name FROM people AS T1 WHERE T1.People_ID = 2",
+    "readable_query": "SELECT people.Nationality, people.Name FROM people AS people WHERE people.People_ID = 2"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.People_ID, T1.Poker_Player_ID FROM poker_player AS T1 WHERE T1.Best_Finish = 3.0",
+    "readable_query": "SELECT poker_player.People_ID, poker_player.Poker_Player_ID FROM poker_player AS poker_player WHERE poker_player.Best_Finish = 3.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Birth_Date, T1.Height FROM people AS T1 WHERE T1.Nationality = \"Russia\"",
+    "readable_query": "SELECT people.Birth_Date, people.Height FROM people AS people WHERE people.Nationality = \"Russia\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.People_ID, T1.Money_Rank FROM poker_player AS T1 WHERE T1.Final_Table_Made = 21.0",
+    "readable_query": "SELECT poker_player.People_ID, poker_player.Money_Rank FROM poker_player AS poker_player WHERE poker_player.Final_Table_Made = 21.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.People_ID, T1.Height FROM people AS T1 WHERE T1.Birth_Date = \"April 17, 1987\"",
+    "readable_query": "SELECT people.People_ID, people.Height FROM people AS people WHERE people.Birth_Date = \"April 17, 1987\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Best_Finish, T1.People_ID FROM poker_player AS T1 WHERE T1.Poker_Player_ID = 1",
+    "readable_query": "SELECT poker_player.Best_Finish, poker_player.People_ID FROM poker_player AS poker_player WHERE poker_player.Poker_Player_ID = 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Nationality, T1.Height FROM people AS T1 WHERE T1.Name = \"Aleksey Ostapenko\"",
+    "readable_query": "SELECT people.Nationality, people.Height FROM people AS people WHERE people.Name = \"Aleksey Ostapenko\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Height, T1.People_ID FROM people AS T1 WHERE T1.Birth_Date = \"February 8, 1981\"",
+    "readable_query": "SELECT people.Height, people.People_ID FROM people AS people WHERE people.Birth_Date = \"February 8, 1981\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Birth_Date, T1.Nationality FROM people AS T1 WHERE T1.Height = 187.0",
+    "readable_query": "SELECT people.Birth_Date, people.Nationality FROM people AS people WHERE people.Height = 187.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Earnings FROM poker_player AS T1  GROUP BY T1.Earnings  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.Earnings FROM poker_player AS poker_player  GROUP BY poker_player.Earnings  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Height FROM people AS T1  GROUP BY T1.Height  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT people.Height FROM people AS people  GROUP BY people.Height  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Nationality FROM people AS T1  GROUP BY T1.Nationality  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT people.Nationality FROM people AS people  GROUP BY people.Nationality  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Birth_Date FROM people AS T1  GROUP BY T1.Birth_Date  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT people.Birth_Date FROM people AS people  GROUP BY people.Birth_Date  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.People_ID FROM people AS T1  GROUP BY T1.People_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT people.People_ID FROM people AS people  GROUP BY people.People_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Best_Finish FROM poker_player AS T1  GROUP BY T1.Best_Finish  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.Best_Finish FROM poker_player AS poker_player  GROUP BY poker_player.Best_Finish  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Name FROM people AS T1  GROUP BY T1.Name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT people.Name FROM people AS people  GROUP BY people.Name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Final_Table_Made FROM poker_player AS T1  GROUP BY T1.Final_Table_Made  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.Final_Table_Made FROM poker_player AS poker_player  GROUP BY poker_player.Final_Table_Made  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1  GROUP BY T1.People_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player  GROUP BY poker_player.People_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Poker_Player_ID FROM poker_player AS T1  GROUP BY T1.Poker_Player_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.Poker_Player_ID FROM poker_player AS poker_player  GROUP BY poker_player.Poker_Player_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM poker_player AS T1 WHERE T1.Poker_Player_ID = 3",
+    "readable_query": "SELECT count(*) FROM poker_player AS poker_player WHERE poker_player.Poker_Player_ID = 3"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM people AS T1 WHERE T1.Height = 193.0",
+    "readable_query": "SELECT count(*) FROM people AS people WHERE people.Height = 193.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM poker_player AS T1 WHERE T1.Poker_Player_ID = 4",
+    "readable_query": "SELECT count(*) FROM poker_player AS poker_player WHERE poker_player.Poker_Player_ID = 4"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM poker_player AS T1 WHERE T1.Poker_Player_ID = 2",
+    "readable_query": "SELECT count(*) FROM poker_player AS poker_player WHERE poker_player.Poker_Player_ID = 2"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM people AS T1 WHERE T1.Name = \"Semen Poltavskiy\"",
+    "readable_query": "SELECT count(*) FROM people AS people WHERE people.Name = \"Semen Poltavskiy\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM poker_player AS T1 WHERE T1.Poker_Player_ID = 1",
+    "readable_query": "SELECT count(*) FROM poker_player AS poker_player WHERE poker_player.Poker_Player_ID = 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM people AS T1 WHERE T1.People_ID = 7",
+    "readable_query": "SELECT count(*) FROM people AS people WHERE people.People_ID = 7"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM poker_player AS T1 WHERE T1.Earnings = 104871.0",
+    "readable_query": "SELECT count(*) FROM poker_player AS poker_player WHERE poker_player.Earnings = 104871.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM poker_player AS T1 WHERE T1.Money_Rank = 154.0",
+    "readable_query": "SELECT count(*) FROM poker_player AS poker_player WHERE poker_player.Money_Rank = 154.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM poker_player AS T1 WHERE T1.Final_Table_Made = 19.0",
+    "readable_query": "SELECT count(*) FROM poker_player AS poker_player WHERE poker_player.Final_Table_Made = 19.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Money_Rank FROM poker_player AS T1    ORDER BY T1.Earnings DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.Money_Rank FROM poker_player AS poker_player    ORDER BY poker_player.Earnings DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Poker_Player_ID FROM poker_player AS T1    ORDER BY T1.People_ID DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.Poker_Player_ID FROM poker_player AS poker_player    ORDER BY poker_player.People_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM people AS T1    ORDER BY T1.People_ID DESC LIMIT 1",
+    "readable_query": "SELECT people.Name FROM people AS people    ORDER BY people.People_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Poker_Player_ID FROM poker_player AS T1    ORDER BY T1.Earnings DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.Poker_Player_ID FROM poker_player AS poker_player    ORDER BY poker_player.Earnings DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1    ORDER BY T1.Poker_Player_ID DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player    ORDER BY poker_player.Poker_Player_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Earnings FROM poker_player AS T1    ORDER BY T1.Best_Finish DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.Earnings FROM poker_player AS poker_player    ORDER BY poker_player.Best_Finish DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.People_ID FROM people AS T1    ORDER BY T1.Height DESC LIMIT 1",
+    "readable_query": "SELECT people.People_ID FROM people AS people    ORDER BY people.Height DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1    ORDER BY T1.Money_Rank DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player    ORDER BY poker_player.Money_Rank DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Height FROM people AS T1    ORDER BY T1.People_ID DESC LIMIT 1",
+    "readable_query": "SELECT people.Height FROM people AS people    ORDER BY people.People_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1    ORDER BY T1.Final_Table_Made DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player    ORDER BY poker_player.Final_Table_Made DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Poker_Player_ID FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.People_ID DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.Poker_Player_ID FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID    ORDER BY people.People_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Poker_Player_ID FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.Height DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.Poker_Player_ID FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID    ORDER BY people.Height DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Birth_Date FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.Poker_Player_ID DESC LIMIT 1",
+    "readable_query": "SELECT people.Birth_Date FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID    ORDER BY poker_player.Poker_Player_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Money_Rank FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.People_ID DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.Money_Rank FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID    ORDER BY people.People_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.Final_Table_Made DESC LIMIT 1",
+    "readable_query": "SELECT people.Name FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID    ORDER BY poker_player.Final_Table_Made DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Height FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.People_ID DESC LIMIT 1",
+    "readable_query": "SELECT people.Height FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID    ORDER BY poker_player.People_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Height FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.Money_Rank DESC LIMIT 1",
+    "readable_query": "SELECT people.Height FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID    ORDER BY poker_player.Money_Rank DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Birth_Date FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.People_ID DESC LIMIT 1",
+    "readable_query": "SELECT people.Birth_Date FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID    ORDER BY poker_player.People_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Birth_Date FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.Earnings DESC LIMIT 1",
+    "readable_query": "SELECT people.Birth_Date FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID    ORDER BY poker_player.Earnings DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Height FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.Best_Finish DESC LIMIT 1",
+    "readable_query": "SELECT people.Height FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID    ORDER BY poker_player.Best_Finish DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Earnings FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.People_ID ASC LIMIT 1",
+    "readable_query": "SELECT poker_player.Earnings FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID    ORDER BY people.People_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Poker_Player_ID FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.People_ID ASC LIMIT 1",
+    "readable_query": "SELECT poker_player.Poker_Player_ID FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID    ORDER BY people.People_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.Height ASC LIMIT 1",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID    ORDER BY people.Height ASC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Nationality FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.Best_Finish ASC LIMIT 1",
+    "readable_query": "SELECT people.Nationality FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID    ORDER BY poker_player.Best_Finish ASC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Height FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.Earnings ASC LIMIT 1",
+    "readable_query": "SELECT people.Height FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID    ORDER BY poker_player.Earnings ASC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.Money_Rank ASC LIMIT 1",
+    "readable_query": "SELECT people.Name FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID    ORDER BY poker_player.Money_Rank ASC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Height FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.Best_Finish ASC LIMIT 1",
+    "readable_query": "SELECT people.Height FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID    ORDER BY poker_player.Best_Finish ASC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Nationality FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.People_ID ASC LIMIT 1",
+    "readable_query": "SELECT people.Nationality FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID    ORDER BY poker_player.People_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Best_Finish FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.People_ID ASC LIMIT 1",
+    "readable_query": "SELECT poker_player.Best_Finish FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID    ORDER BY people.People_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Height FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.Poker_Player_ID ASC LIMIT 1",
+    "readable_query": "SELECT people.Height FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID    ORDER BY poker_player.Poker_Player_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Final_Table_Made, T1.Earnings FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.Height DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.Final_Table_Made, poker_player.Earnings FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID    ORDER BY people.Height DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Earnings, T1.Final_Table_Made FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.People_ID DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.Earnings, poker_player.Final_Table_Made FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID    ORDER BY people.People_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Poker_Player_ID, T1.People_ID FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.Height DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.Poker_Player_ID, poker_player.People_ID FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID    ORDER BY people.Height DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.People_ID, T1.Birth_Date FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.Best_Finish DESC LIMIT 1",
+    "readable_query": "SELECT people.People_ID, people.Birth_Date FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID    ORDER BY poker_player.Best_Finish DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Final_Table_Made, T1.Poker_Player_ID FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.People_ID DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.Final_Table_Made, poker_player.Poker_Player_ID FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID    ORDER BY people.People_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Best_Finish, T1.People_ID FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.Height DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.Best_Finish, poker_player.People_ID FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID    ORDER BY people.Height DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Height, T1.People_ID FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.Earnings DESC LIMIT 1",
+    "readable_query": "SELECT people.Height, people.People_ID FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID    ORDER BY poker_player.Earnings DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Money_Rank, T1.People_ID FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.Height DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.Money_Rank, poker_player.People_ID FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID    ORDER BY people.Height DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name, T1.Birth_Date FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.Final_Table_Made DESC LIMIT 1",
+    "readable_query": "SELECT people.Name, people.Birth_Date FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID    ORDER BY poker_player.Final_Table_Made DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.People_ID, T1.Final_Table_Made FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID    ORDER BY T2.Height DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.People_ID, poker_player.Final_Table_Made FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID    ORDER BY people.Height DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Height) FROM people AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  people.Height) FROM people AS people"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.People_ID) FROM people AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  people.People_ID) FROM people AS people"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Money_Rank) FROM poker_player AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  poker_player.Money_Rank) FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.People_ID) FROM poker_player AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  poker_player.People_ID) FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM people AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  people.Name) FROM people AS people"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Best_Finish) FROM poker_player AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  poker_player.Best_Finish) FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Earnings) FROM poker_player AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  poker_player.Earnings) FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Nationality) FROM people AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  people.Nationality) FROM people AS people"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Poker_Player_ID) FROM poker_player AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  poker_player.Poker_Player_ID) FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Final_Table_Made) FROM poker_player AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  poker_player.Final_Table_Made) FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Height) FROM people AS T1",
+    "readable_query": "SELECT avg( people.Height) FROM people AS people"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Final_Table_Made) FROM poker_player AS T1",
+    "readable_query": "SELECT avg( poker_player.Final_Table_Made) FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.People_ID) FROM people AS T1",
+    "readable_query": "SELECT avg( people.People_ID) FROM people AS people"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Money_Rank) FROM poker_player AS T1",
+    "readable_query": "SELECT avg( poker_player.Money_Rank) FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Best_Finish) FROM poker_player AS T1",
+    "readable_query": "SELECT avg( poker_player.Best_Finish) FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Earnings) FROM poker_player AS T1",
+    "readable_query": "SELECT avg( poker_player.Earnings) FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Poker_Player_ID) FROM poker_player AS T1",
+    "readable_query": "SELECT avg( poker_player.Poker_Player_ID) FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.People_ID) FROM poker_player AS T1",
+    "readable_query": "SELECT avg( poker_player.People_ID) FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.People_ID FROM people AS T1",
+    "readable_query": "SELECT people.People_ID FROM people AS people"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Birth_Date FROM people AS T1",
+    "readable_query": "SELECT people.Birth_Date FROM people AS people"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Money_Rank FROM poker_player AS T1",
+    "readable_query": "SELECT poker_player.Money_Rank FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Earnings FROM poker_player AS T1",
+    "readable_query": "SELECT poker_player.Earnings FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Final_Table_Made FROM poker_player AS T1",
+    "readable_query": "SELECT poker_player.Final_Table_Made FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Height FROM people AS T1",
+    "readable_query": "SELECT people.Height FROM people AS people"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Nationality FROM people AS T1",
+    "readable_query": "SELECT people.Nationality FROM people AS people"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Poker_Player_ID FROM poker_player AS T1",
+    "readable_query": "SELECT poker_player.Poker_Player_ID FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Best_Finish FROM poker_player AS T1",
+    "readable_query": "SELECT poker_player.Best_Finish FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Birth_Date FROM people AS T1",
+    "readable_query": "SELECT DISTINCT people.Birth_Date FROM people AS people"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.People_ID FROM people AS T1",
+    "readable_query": "SELECT DISTINCT people.People_ID FROM people AS people"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Final_Table_Made FROM poker_player AS T1",
+    "readable_query": "SELECT DISTINCT poker_player.Final_Table_Made FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Height FROM people AS T1",
+    "readable_query": "SELECT DISTINCT people.Height FROM people AS people"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Best_Finish FROM poker_player AS T1",
+    "readable_query": "SELECT DISTINCT poker_player.Best_Finish FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Money_Rank FROM poker_player AS T1",
+    "readable_query": "SELECT DISTINCT poker_player.Money_Rank FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Nationality FROM people AS T1",
+    "readable_query": "SELECT DISTINCT people.Nationality FROM people AS people"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Name FROM people AS T1",
+    "readable_query": "SELECT DISTINCT people.Name FROM people AS people"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Earnings FROM poker_player AS T1",
+    "readable_query": "SELECT DISTINCT poker_player.Earnings FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Poker_Player_ID FROM poker_player AS T1",
+    "readable_query": "SELECT DISTINCT poker_player.Poker_Player_ID FROM poker_player AS poker_player"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Birth_Date FROM people AS T1     ORDER BY T1.People_ID ASC",
+    "readable_query": "SELECT people.Birth_Date FROM people AS people     ORDER BY people.People_ID ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Nationality FROM people AS T1     ORDER BY T1.Height ASC",
+    "readable_query": "SELECT people.Nationality FROM people AS people     ORDER BY people.Height ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Earnings FROM poker_player AS T1     ORDER BY T1.Poker_Player_ID ASC",
+    "readable_query": "SELECT poker_player.Earnings FROM poker_player AS poker_player     ORDER BY poker_player.Poker_Player_ID ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Birth_Date FROM people AS T1     ORDER BY T1.Height ASC",
+    "readable_query": "SELECT people.Birth_Date FROM people AS people     ORDER BY people.Height ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Money_Rank FROM poker_player AS T1     ORDER BY T1.Poker_Player_ID ASC",
+    "readable_query": "SELECT poker_player.Money_Rank FROM poker_player AS poker_player     ORDER BY poker_player.Poker_Player_ID ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1     ORDER BY T1.Best_Finish ASC",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player     ORDER BY poker_player.Best_Finish ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Height FROM people AS T1     ORDER BY T1.People_ID ASC",
+    "readable_query": "SELECT people.Height FROM people AS people     ORDER BY people.People_ID ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Money_Rank FROM poker_player AS T1     ORDER BY T1.People_ID ASC",
+    "readable_query": "SELECT poker_player.Money_Rank FROM poker_player AS poker_player     ORDER BY poker_player.People_ID ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Final_Table_Made FROM poker_player AS T1     ORDER BY T1.Money_Rank ASC",
+    "readable_query": "SELECT poker_player.Final_Table_Made FROM poker_player AS poker_player     ORDER BY poker_player.Money_Rank ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1     ORDER BY T1.Money_Rank ASC",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player     ORDER BY poker_player.Money_Rank ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Earnings FROM poker_player AS T1     ORDER BY T1.Money_Rank DESC",
+    "readable_query": "SELECT poker_player.Earnings FROM poker_player AS poker_player     ORDER BY poker_player.Money_Rank DESC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Money_Rank FROM poker_player AS T1     ORDER BY T1.Poker_Player_ID DESC",
+    "readable_query": "SELECT poker_player.Money_Rank FROM poker_player AS poker_player     ORDER BY poker_player.Poker_Player_ID DESC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.People_ID FROM people AS T1     ORDER BY T1.Height DESC",
+    "readable_query": "SELECT people.People_ID FROM people AS people     ORDER BY people.Height DESC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM people AS T1     ORDER BY T1.People_ID DESC",
+    "readable_query": "SELECT people.Name FROM people AS people     ORDER BY people.People_ID DESC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Earnings FROM poker_player AS T1     ORDER BY T1.Poker_Player_ID DESC",
+    "readable_query": "SELECT poker_player.Earnings FROM poker_player AS poker_player     ORDER BY poker_player.Poker_Player_ID DESC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Height FROM people AS T1     ORDER BY T1.People_ID DESC",
+    "readable_query": "SELECT people.Height FROM people AS people     ORDER BY people.People_ID DESC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Nationality FROM people AS T1     ORDER BY T1.People_ID DESC",
+    "readable_query": "SELECT people.Nationality FROM people AS people     ORDER BY people.People_ID DESC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM people AS T1     ORDER BY T1.Height DESC",
+    "readable_query": "SELECT people.Name FROM people AS people     ORDER BY people.Height DESC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Final_Table_Made FROM poker_player AS T1     ORDER BY T1.Best_Finish DESC",
+    "readable_query": "SELECT poker_player.Final_Table_Made FROM poker_player AS poker_player     ORDER BY poker_player.Best_Finish DESC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1     ORDER BY T1.Best_Finish DESC",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player     ORDER BY poker_player.Best_Finish DESC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Height, T1.Birth_Date FROM people AS T1     ORDER BY T1.Birth_Date ASC",
+    "readable_query": "SELECT people.Height, people.Birth_Date FROM people AS people     ORDER BY people.Birth_Date ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Best_Finish, T1.Final_Table_Made FROM poker_player AS T1     ORDER BY T1.Final_Table_Made ASC",
+    "readable_query": "SELECT poker_player.Best_Finish, poker_player.Final_Table_Made FROM poker_player AS poker_player     ORDER BY poker_player.Final_Table_Made ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Birth_Date, T1.Nationality FROM people AS T1     ORDER BY T1.Nationality ASC",
+    "readable_query": "SELECT people.Birth_Date, people.Nationality FROM people AS people     ORDER BY people.Nationality ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Nationality, T1.People_ID FROM people AS T1     ORDER BY T1.People_ID ASC",
+    "readable_query": "SELECT people.Nationality, people.People_ID FROM people AS people     ORDER BY people.People_ID ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Nationality, T1.Height FROM people AS T1     ORDER BY T1.Height ASC",
+    "readable_query": "SELECT people.Nationality, people.Height FROM people AS people     ORDER BY people.Height ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Money_Rank, T1.People_ID FROM poker_player AS T1     ORDER BY T1.People_ID ASC",
+    "readable_query": "SELECT poker_player.Money_Rank, poker_player.People_ID FROM poker_player AS poker_player     ORDER BY poker_player.People_ID ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Best_Finish, T1.Money_Rank FROM poker_player AS T1     ORDER BY T1.Money_Rank ASC",
+    "readable_query": "SELECT poker_player.Best_Finish, poker_player.Money_Rank FROM poker_player AS poker_player     ORDER BY poker_player.Money_Rank ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Birth_Date, T1.Name FROM people AS T1     ORDER BY T1.Name ASC",
+    "readable_query": "SELECT people.Birth_Date, people.Name FROM people AS people     ORDER BY people.Name ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Poker_Player_ID, T1.Earnings FROM poker_player AS T1     ORDER BY T1.Earnings ASC",
+    "readable_query": "SELECT poker_player.Poker_Player_ID, poker_player.Earnings FROM poker_player AS poker_player     ORDER BY poker_player.Earnings ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Poker_Player_ID, T1.Money_Rank FROM poker_player AS T1     ORDER BY T1.Money_Rank ASC",
+    "readable_query": "SELECT poker_player.Poker_Player_ID, poker_player.Money_Rank FROM poker_player AS poker_player     ORDER BY poker_player.Money_Rank ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Height FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Best_Finish = 2.0 or T2.Best_Finish = 1.0",
+    "readable_query": "SELECT people.Height FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Best_Finish = 2.0 or poker_player.Best_Finish = 1.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Nationality FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Best_Finish = 3.0 or T2.Best_Finish = 3.0",
+    "readable_query": "SELECT people.Nationality FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Best_Finish = 3.0 or poker_player.Best_Finish = 3.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Height = 182.0 or T2.Height = 196.0",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Height = 182.0 or people.Height = 196.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Birth_Date FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.People_ID = 2 or T2.People_ID = 1",
+    "readable_query": "SELECT people.Birth_Date FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.People_ID = 2 or poker_player.People_ID = 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Poker_Player_ID FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Birth_Date = \"April 17, 1987\" or T2.Birth_Date = \"August 8, 1986\"",
+    "readable_query": "SELECT poker_player.Poker_Player_ID FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Birth_Date = \"April 17, 1987\" or people.Birth_Date = \"August 8, 1986\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Nationality FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Money_Rank = 68.0 or T2.Money_Rank = 68.0",
+    "readable_query": "SELECT people.Nationality FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Money_Rank = 68.0 or poker_player.Money_Rank = 68.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Final_Table_Made FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Name = \"Sergey Grankin\" or T2.Name = \"Semen Poltavskiy\"",
+    "readable_query": "SELECT poker_player.Final_Table_Made FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Name = \"Sergey Grankin\" or people.Name = \"Semen Poltavskiy\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Nationality FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Best_Finish = 3.0 or T2.Best_Finish = 1.0",
+    "readable_query": "SELECT people.Nationality FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Best_Finish = 3.0 or poker_player.Best_Finish = 1.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Height FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Earnings = 476090.0 or T2.Earnings = 104871.0",
+    "readable_query": "SELECT people.Height FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Earnings = 476090.0 or poker_player.Earnings = 104871.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Birth_Date FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Final_Table_Made = 10.0 or T2.Final_Table_Made = 19.0",
+    "readable_query": "SELECT people.Birth_Date FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Final_Table_Made = 10.0 or poker_player.Final_Table_Made = 19.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Earnings FROM poker_player AS T1 WHERE T1.Money_Rank = 166.0 and T1.Final_Table_Made = 21.0",
+    "readable_query": "SELECT poker_player.Earnings FROM poker_player AS poker_player WHERE poker_player.Money_Rank = 166.0 and poker_player.Final_Table_Made = 21.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Earnings FROM poker_player AS T1 WHERE T1.Final_Table_Made = 42.0 and T1.People_ID = 7",
+    "readable_query": "SELECT poker_player.Earnings FROM poker_player AS poker_player WHERE poker_player.Final_Table_Made = 42.0 and poker_player.People_ID = 7"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Best_Finish FROM poker_player AS T1 WHERE T1.Final_Table_Made = 42.0 and T1.Earnings = 104871.0",
+    "readable_query": "SELECT poker_player.Best_Finish FROM poker_player AS poker_player WHERE poker_player.Final_Table_Made = 42.0 and poker_player.Earnings = 104871.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Money_Rank FROM poker_player AS T1 WHERE T1.People_ID = 1 and T1.Best_Finish = 2.0",
+    "readable_query": "SELECT poker_player.Money_Rank FROM poker_player AS poker_player WHERE poker_player.People_ID = 1 and poker_player.Best_Finish = 2.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.People_ID FROM people AS T1 WHERE T1.Nationality = \"Russia\" and T1.Height = 207.0",
+    "readable_query": "SELECT people.People_ID FROM people AS people WHERE people.Nationality = \"Russia\" and people.Height = 207.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.People_ID FROM people AS T1 WHERE T1.Height = 207.0 and T1.Nationality = \"Bulgaria\"",
+    "readable_query": "SELECT people.People_ID FROM people AS people WHERE people.Height = 207.0 and people.Nationality = \"Bulgaria\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.People_ID FROM people AS T1 WHERE T1.Nationality = \"Russia\" and T1.Height = 187.0",
+    "readable_query": "SELECT people.People_ID FROM people AS people WHERE people.Nationality = \"Russia\" and people.Height = 187.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Nationality FROM people AS T1 WHERE T1.Birth_Date = \"February 8, 1981\" and T1.Height = 182.0",
+    "readable_query": "SELECT people.Nationality FROM people AS people WHERE people.Birth_Date = \"February 8, 1981\" and people.Height = 182.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Earnings FROM poker_player AS T1 WHERE T1.Money_Rank = 166.0 and T1.Best_Finish = 3.0",
+    "readable_query": "SELECT poker_player.Earnings FROM poker_player AS poker_player WHERE poker_player.Money_Rank = 166.0 and poker_player.Best_Finish = 3.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Height FROM people AS T1 WHERE T1.Name = \"Aleksey Ostapenko\" and T1.People_ID = 5",
+    "readable_query": "SELECT people.Height FROM people AS people WHERE people.Name = \"Aleksey Ostapenko\" and people.People_ID = 5"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Nationality) FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T1.Height = 205.0 and T2.Earnings = 189233.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  people.Nationality) FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE people.Height = 205.0 and poker_player.Earnings = 189233.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Earnings) FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T1.Best_Finish = 1.0 and T2.Birth_Date = \"May 26, 1986\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  poker_player.Earnings) FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE poker_player.Best_Finish = 1.0 and people.Birth_Date = \"May 26, 1986\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Poker_Player_ID) FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T1.Money_Rank = 141.0 and T2.Nationality = \"Russia\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  poker_player.Poker_Player_ID) FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE poker_player.Money_Rank = 141.0 and people.Nationality = \"Russia\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Nationality) FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T1.Name = \"Semen Poltavskiy\" and T2.Money_Rank = 141.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  people.Nationality) FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE people.Name = \"Semen Poltavskiy\" and poker_player.Money_Rank = 141.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Money_Rank) FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T1.Earnings = 596462.0 and T2.Nationality = \"Bulgaria\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  poker_player.Money_Rank) FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE poker_player.Earnings = 596462.0 and people.Nationality = \"Bulgaria\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Birth_Date) FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T1.Name = \"Aleksey Ostapenko\" and T2.Earnings = 104871.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  people.Birth_Date) FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE people.Name = \"Aleksey Ostapenko\" and poker_player.Earnings = 104871.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Poker_Player_ID) FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T1.Final_Table_Made = 19.0 and T2.Height = 205.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  poker_player.Poker_Player_ID) FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE poker_player.Final_Table_Made = 19.0 and people.Height = 205.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Poker_Player_ID) FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T1.Earnings = 104871.0 and T2.People_ID = 3",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  poker_player.Poker_Player_ID) FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE poker_player.Earnings = 104871.0 and people.People_ID = 3"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T1.Birth_Date = \"August 8, 1986\" and T2.Final_Table_Made = 26.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  people.Name) FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE people.Birth_Date = \"August 8, 1986\" and poker_player.Final_Table_Made = 26.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Birth_Date) FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T1.Name = \"Teodor Salparov\" and T2.Best_Finish = 2.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  people.Birth_Date) FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE people.Name = \"Teodor Salparov\" and poker_player.Best_Finish = 2.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.People_ID FROM people AS T1 WHERE T1.Nationality = \"Russia\" or T1.Height = 193.0",
+    "readable_query": "SELECT people.People_ID FROM people AS people WHERE people.Nationality = \"Russia\" or people.Height = 193.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Money_Rank FROM poker_player AS T1 WHERE T1.Earnings = 476090.0 or T1.Poker_Player_ID = 1",
+    "readable_query": "SELECT poker_player.Money_Rank FROM poker_player AS poker_player WHERE poker_player.Earnings = 476090.0 or poker_player.Poker_Player_ID = 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Earnings FROM poker_player AS T1 WHERE T1.Final_Table_Made = 19.0 or T1.Best_Finish = 2.0",
+    "readable_query": "SELECT poker_player.Earnings FROM poker_player AS poker_player WHERE poker_player.Final_Table_Made = 19.0 or poker_player.Best_Finish = 2.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Earnings FROM poker_player AS T1 WHERE T1.Poker_Player_ID = 3 or T1.People_ID = 1",
+    "readable_query": "SELECT poker_player.Earnings FROM poker_player AS poker_player WHERE poker_player.Poker_Player_ID = 3 or poker_player.People_ID = 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Height FROM people AS T1 WHERE T1.People_ID = 3 or T1.Name = \"Aleksey Ostapenko\"",
+    "readable_query": "SELECT people.Height FROM people AS people WHERE people.People_ID = 3 or people.Name = \"Aleksey Ostapenko\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Earnings FROM poker_player AS T1 WHERE T1.Poker_Player_ID = 1 or T1.Final_Table_Made = 10.0",
+    "readable_query": "SELECT poker_player.Earnings FROM poker_player AS poker_player WHERE poker_player.Poker_Player_ID = 1 or poker_player.Final_Table_Made = 10.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Birth_Date FROM people AS T1 WHERE T1.Height = 205.0 or T1.Name = \"Semen Poltavskiy\"",
+    "readable_query": "SELECT people.Birth_Date FROM people AS people WHERE people.Height = 205.0 or people.Name = \"Semen Poltavskiy\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Best_Finish FROM poker_player AS T1 WHERE T1.People_ID = 2 or T1.Final_Table_Made = 10.0",
+    "readable_query": "SELECT poker_player.Best_Finish FROM poker_player AS poker_player WHERE poker_player.People_ID = 2 or poker_player.Final_Table_Made = 10.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1 WHERE T1.Poker_Player_ID = 5 or T1.Best_Finish = 3.0",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player WHERE poker_player.Poker_Player_ID = 5 or poker_player.Best_Finish = 3.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Name FROM people AS T1 WHERE T1.Birth_Date = \"August 8, 1986\" or T1.Height = 193.0",
+    "readable_query": "SELECT people.Name FROM people AS people WHERE people.Birth_Date = \"August 8, 1986\" or people.Height = 193.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Poker_Player_ID = 1 and T2.Money_Rank = 58.0",
+    "readable_query": "SELECT count(*) FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Poker_Player_ID = 1 and poker_player.Money_Rank = 58.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.People_ID = 1 and T2.Best_Finish = 1.0",
+    "readable_query": "SELECT count(*) FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.People_ID = 1 and poker_player.Best_Finish = 1.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.People_ID = 5 and T2.Height = 182.0",
+    "readable_query": "SELECT count(*) FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.People_ID = 5 and people.Height = 182.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Nationality = \"Bulgaria\" and T2.Height = 196.0",
+    "readable_query": "SELECT count(*) FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Nationality = \"Bulgaria\" and people.Height = 196.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Best_Finish = 2.0 and T2.People_ID = 5",
+    "readable_query": "SELECT count(*) FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Best_Finish = 2.0 and poker_player.People_ID = 5"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Money_Rank = 154.0 and T2.Poker_Player_ID = 4",
+    "readable_query": "SELECT count(*) FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Money_Rank = 154.0 and poker_player.Poker_Player_ID = 4"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Earnings = 476090.0 and T2.People_ID = 7",
+    "readable_query": "SELECT count(*) FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Earnings = 476090.0 and poker_player.People_ID = 7"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Money_Rank = 68.0 and T2.People_ID = 6",
+    "readable_query": "SELECT count(*) FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Money_Rank = 68.0 and poker_player.People_ID = 6"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Final_Table_Made = 10.0 and T2.Earnings = 189233.0",
+    "readable_query": "SELECT count(*) FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Final_Table_Made = 10.0 and poker_player.Earnings = 189233.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Money_Rank = 68.0 and T2.Final_Table_Made = 10.0",
+    "readable_query": "SELECT count(*) FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Money_Rank = 68.0 and poker_player.Final_Table_Made = 10.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Birth_Date FROM people AS T1 WHERE T1.Nationality != \"Bulgaria\"",
+    "readable_query": "SELECT people.Birth_Date FROM people AS people WHERE people.Nationality != \"Bulgaria\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Name FROM people AS T1 WHERE T1.Height != 194.0",
+    "readable_query": "SELECT people.Name FROM people AS people WHERE people.Height != 194.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.People_ID FROM people AS T1 WHERE T1.Height != 187.0",
+    "readable_query": "SELECT people.People_ID FROM people AS people WHERE people.Height != 187.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Best_Finish FROM poker_player AS T1 WHERE T1.Money_Rank != 154.0",
+    "readable_query": "SELECT poker_player.Best_Finish FROM poker_player AS poker_player WHERE poker_player.Money_Rank != 154.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Poker_Player_ID FROM poker_player AS T1 WHERE T1.Money_Rank != 166.0",
+    "readable_query": "SELECT poker_player.Poker_Player_ID FROM poker_player AS poker_player WHERE poker_player.Money_Rank != 166.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Best_Finish FROM poker_player AS T1 WHERE T1.People_ID != 1",
+    "readable_query": "SELECT poker_player.Best_Finish FROM poker_player AS poker_player WHERE poker_player.People_ID != 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1 WHERE T1.Poker_Player_ID != 5",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player WHERE poker_player.Poker_Player_ID != 5"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1 WHERE T1.Earnings != 596462.0",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player WHERE poker_player.Earnings != 596462.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Name FROM people AS T1 WHERE T1.Nationality != \"Bulgaria\"",
+    "readable_query": "SELECT people.Name FROM people AS people WHERE people.Nationality != \"Bulgaria\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Money_Rank FROM poker_player AS T1 WHERE T1.Poker_Player_ID != 4",
+    "readable_query": "SELECT poker_player.Money_Rank FROM poker_player AS poker_player WHERE poker_player.Poker_Player_ID != 4"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Birth_Date != \"July 14, 1983\"",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Birth_Date != \"July 14, 1983\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Money_Rank FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Nationality != \"Bulgaria\"",
+    "readable_query": "SELECT poker_player.Money_Rank FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Nationality != \"Bulgaria\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Name != \"Aleksey Ostapenko\"",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Name != \"Aleksey Ostapenko\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.People_ID FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Money_Rank != 68.0",
+    "readable_query": "SELECT people.People_ID FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Money_Rank != 68.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Height FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Final_Table_Made != 21.0",
+    "readable_query": "SELECT people.Height FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Final_Table_Made != 21.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Height != 182.0",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Height != 182.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Final_Table_Made FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Name != \"Maksim Botin\"",
+    "readable_query": "SELECT poker_player.Final_Table_Made FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Name != \"Maksim Botin\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Height FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Poker_Player_ID != 3",
+    "readable_query": "SELECT people.Height FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Poker_Player_ID != 3"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Final_Table_Made FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Nationality != \"Russia\"",
+    "readable_query": "SELECT poker_player.Final_Table_Made FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Nationality != \"Russia\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Poker_Player_ID FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Height != 193.0",
+    "readable_query": "SELECT poker_player.Poker_Player_ID FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Height != 193.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Final_Table_Made FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Nationality = \"Russia\"",
+    "readable_query": "SELECT DISTINCT poker_player.Final_Table_Made FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Nationality = \"Russia\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Birth_Date FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Final_Table_Made = 21.0",
+    "readable_query": "SELECT DISTINCT people.Birth_Date FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Final_Table_Made = 21.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Money_Rank FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Nationality = \"Russia\"",
+    "readable_query": "SELECT DISTINCT poker_player.Money_Rank FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Nationality = \"Russia\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Money_Rank FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.People_ID = 3",
+    "readable_query": "SELECT DISTINCT poker_player.Money_Rank FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.People_ID = 3"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.People_ID FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Best_Finish = 2.0",
+    "readable_query": "SELECT DISTINCT people.People_ID FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Best_Finish = 2.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Final_Table_Made FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Birth_Date = \"August 8, 1986\"",
+    "readable_query": "SELECT DISTINCT poker_player.Final_Table_Made FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Birth_Date = \"August 8, 1986\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Earnings FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Name = \"Semen Poltavskiy\"",
+    "readable_query": "SELECT DISTINCT poker_player.Earnings FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Name = \"Semen Poltavskiy\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Earnings FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Birth_Date = \"April 17, 1987\"",
+    "readable_query": "SELECT DISTINCT poker_player.Earnings FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Birth_Date = \"April 17, 1987\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Earnings FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Nationality = \"Russia\"",
+    "readable_query": "SELECT DISTINCT poker_player.Earnings FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Nationality = \"Russia\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.People_ID FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Earnings = 142800.0",
+    "readable_query": "SELECT DISTINCT people.People_ID FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Earnings = 142800.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Earnings) FROM poker_player AS T1 WHERE T1.People_ID = 7",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  poker_player.Earnings) FROM poker_player AS poker_player WHERE poker_player.People_ID = 7"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Height) FROM people AS T1 WHERE T1.Nationality = \"Bulgaria\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  people.Height) FROM people AS people WHERE people.Nationality = \"Bulgaria\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM people AS T1 WHERE T1.Nationality = \"Bulgaria\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  people.Name) FROM people AS people WHERE people.Nationality = \"Bulgaria\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.People_ID) FROM poker_player AS T1 WHERE T1.Money_Rank = 68.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  poker_player.People_ID) FROM poker_player AS poker_player WHERE poker_player.Money_Rank = 68.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Final_Table_Made) FROM poker_player AS T1 WHERE T1.Earnings = 104871.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  poker_player.Final_Table_Made) FROM poker_player AS poker_player WHERE poker_player.Earnings = 104871.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.People_ID) FROM people AS T1 WHERE T1.Nationality = \"Russia\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  people.People_ID) FROM people AS people WHERE people.Nationality = \"Russia\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Birth_Date) FROM people AS T1 WHERE T1.Name = \"Yevgeni Sivozhelez\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  people.Birth_Date) FROM people AS people WHERE people.Name = \"Yevgeni Sivozhelez\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Final_Table_Made) FROM poker_player AS T1 WHERE T1.Best_Finish = 1.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  poker_player.Final_Table_Made) FROM poker_player AS poker_player WHERE poker_player.Best_Finish = 1.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Nationality) FROM people AS T1 WHERE T1.Height = 182.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  people.Nationality) FROM people AS people WHERE people.Height = 182.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Nationality) FROM people AS T1 WHERE T1.Height = 205.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  people.Nationality) FROM people AS people WHERE people.Height = 205.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Birth_Date FROM people AS T1 WHERE T1.People_ID > 3",
+    "readable_query": "SELECT people.Birth_Date FROM people AS people WHERE people.People_ID > 3"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1 WHERE T1.Poker_Player_ID > 2",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player WHERE poker_player.Poker_Player_ID > 2"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Poker_Player_ID FROM poker_player AS T1 WHERE T1.Money_Rank > 154.0",
+    "readable_query": "SELECT poker_player.Poker_Player_ID FROM poker_player AS poker_player WHERE poker_player.Money_Rank > 154.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Birth_Date FROM people AS T1 WHERE T1.Height > 193.0",
+    "readable_query": "SELECT people.Birth_Date FROM people AS people WHERE people.Height > 193.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.People_ID FROM people AS T1 WHERE T1.Height > 205.0",
+    "readable_query": "SELECT people.People_ID FROM people AS people WHERE people.Height > 205.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Name FROM people AS T1 WHERE T1.People_ID > 2",
+    "readable_query": "SELECT people.Name FROM people AS people WHERE people.People_ID > 2"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.People_ID FROM people AS T1 WHERE T1.Height > 207.0",
+    "readable_query": "SELECT people.People_ID FROM people AS people WHERE people.Height > 207.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Nationality FROM people AS T1 WHERE T1.Height > 196.0",
+    "readable_query": "SELECT people.Nationality FROM people AS people WHERE people.Height > 196.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Money_Rank FROM poker_player AS T1 WHERE T1.Best_Finish > 3.0",
+    "readable_query": "SELECT poker_player.Money_Rank FROM poker_player AS poker_player WHERE poker_player.Best_Finish > 3.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Name FROM people AS T1 WHERE T1.Height > 205.0",
+    "readable_query": "SELECT people.Name FROM people AS people WHERE people.Height > 205.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID     ORDER BY T2.People_ID ASC",
+    "readable_query": "SELECT people.Name FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID     ORDER BY poker_player.People_ID ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Earnings FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID     ORDER BY T2.Height ASC",
+    "readable_query": "SELECT poker_player.Earnings FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID     ORDER BY people.Height ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Money_Rank FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID     ORDER BY T2.People_ID ASC",
+    "readable_query": "SELECT poker_player.Money_Rank FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID     ORDER BY people.People_ID ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Height FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID     ORDER BY T2.Money_Rank ASC",
+    "readable_query": "SELECT people.Height FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID     ORDER BY poker_player.Money_Rank ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Birth_Date FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID     ORDER BY T2.Money_Rank ASC",
+    "readable_query": "SELECT people.Birth_Date FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID     ORDER BY poker_player.Money_Rank ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Money_Rank FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID     ORDER BY T2.Height ASC",
+    "readable_query": "SELECT poker_player.Money_Rank FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID     ORDER BY people.Height ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID     ORDER BY T2.Height ASC",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID     ORDER BY people.Height ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Final_Table_Made FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID     ORDER BY T2.People_ID ASC",
+    "readable_query": "SELECT poker_player.Final_Table_Made FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID     ORDER BY people.People_ID ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Earnings FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID     ORDER BY T2.People_ID ASC",
+    "readable_query": "SELECT poker_player.Earnings FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID     ORDER BY people.People_ID ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Nationality FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID     ORDER BY T2.Final_Table_Made ASC",
+    "readable_query": "SELECT people.Nationality FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID     ORDER BY poker_player.Final_Table_Made ASC"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Earnings FROM poker_player AS T1 WHERE T1.Best_Finish = 3.0     INTERSECT SELECT T2.Earnings FROM poker_player AS T2 WHERE T2.Best_Finish = 1.0",
+    "readable_query": "SELECT poker_player.Earnings FROM poker_player AS poker_player WHERE poker_player.Best_Finish = 3.0     INTERSECT SELECT poker_player.Earnings FROM poker_player AS poker_player WHERE poker_player.Best_Finish = 1.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.People_ID FROM people AS T1 WHERE T1.Height = 196.0     INTERSECT SELECT T2.People_ID FROM people AS T2 WHERE T2.Height = 193.0",
+    "readable_query": "SELECT people.People_ID FROM people AS people WHERE people.Height = 196.0     INTERSECT SELECT people.People_ID FROM people AS people WHERE people.Height = 193.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Name FROM people AS T1 WHERE T1.People_ID = 6     INTERSECT SELECT T2.Name FROM people AS T2 WHERE T2.People_ID = 4",
+    "readable_query": "SELECT people.Name FROM people AS people WHERE people.People_ID = 6     INTERSECT SELECT people.Name FROM people AS people WHERE people.People_ID = 4"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Height FROM people AS T1 WHERE T1.People_ID = 1     INTERSECT SELECT T2.Height FROM people AS T2 WHERE T2.People_ID = 3",
+    "readable_query": "SELECT people.Height FROM people AS people WHERE people.People_ID = 1     INTERSECT SELECT people.Height FROM people AS people WHERE people.People_ID = 3"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Poker_Player_ID FROM poker_player AS T1 WHERE T1.People_ID = 2     INTERSECT SELECT T2.Poker_Player_ID FROM poker_player AS T2 WHERE T2.People_ID = 6",
+    "readable_query": "SELECT poker_player.Poker_Player_ID FROM poker_player AS poker_player WHERE poker_player.People_ID = 2     INTERSECT SELECT poker_player.Poker_Player_ID FROM poker_player AS poker_player WHERE poker_player.People_ID = 6"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1 WHERE T1.Money_Rank = 154.0     INTERSECT SELECT T2.People_ID FROM poker_player AS T2 WHERE T2.Money_Rank = 154.0",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player WHERE poker_player.Money_Rank = 154.0     INTERSECT SELECT poker_player.People_ID FROM poker_player AS poker_player WHERE poker_player.Money_Rank = 154.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Nationality FROM people AS T1 WHERE T1.Birth_Date = \"May 26, 1986\"     INTERSECT SELECT T2.Nationality FROM people AS T2 WHERE T2.Birth_Date = \"April 17, 1987\"",
+    "readable_query": "SELECT people.Nationality FROM people AS people WHERE people.Birth_Date = \"May 26, 1986\"     INTERSECT SELECT people.Nationality FROM people AS people WHERE people.Birth_Date = \"April 17, 1987\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1 WHERE T1.Earnings = 476090.0     INTERSECT SELECT T2.People_ID FROM poker_player AS T2 WHERE T2.Earnings = 476090.0",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player WHERE poker_player.Earnings = 476090.0     INTERSECT SELECT poker_player.People_ID FROM poker_player AS poker_player WHERE poker_player.Earnings = 476090.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Final_Table_Made FROM poker_player AS T1 WHERE T1.Poker_Player_ID = 2     INTERSECT SELECT T2.Final_Table_Made FROM poker_player AS T2 WHERE T2.Poker_Player_ID = 1",
+    "readable_query": "SELECT poker_player.Final_Table_Made FROM poker_player AS poker_player WHERE poker_player.Poker_Player_ID = 2     INTERSECT SELECT poker_player.Final_Table_Made FROM poker_player AS poker_player WHERE poker_player.Poker_Player_ID = 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Height FROM people AS T1 WHERE T1.Name = \"Maksim Botin\"     INTERSECT SELECT T2.Height FROM people AS T2 WHERE T2.Name = \"Maksim Botin\"",
+    "readable_query": "SELECT people.Height FROM people AS people WHERE people.Name = \"Maksim Botin\"     INTERSECT SELECT people.Height FROM people AS people WHERE people.Name = \"Maksim Botin\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Earnings) FROM poker_player AS T1 WHERE T1.People_ID = 7",
+    "readable_query": "SELECT avg( poker_player.Earnings) FROM poker_player AS poker_player WHERE poker_player.People_ID = 7"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.People_ID) FROM people AS T1 WHERE T1.Name = \"Semen Poltavskiy\"",
+    "readable_query": "SELECT avg( people.People_ID) FROM people AS people WHERE people.Name = \"Semen Poltavskiy\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Poker_Player_ID) FROM poker_player AS T1 WHERE T1.Final_Table_Made = 19.0",
+    "readable_query": "SELECT avg( poker_player.Poker_Player_ID) FROM poker_player AS poker_player WHERE poker_player.Final_Table_Made = 19.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.People_ID) FROM people AS T1 WHERE T1.Birth_Date = \"August 8, 1986\"",
+    "readable_query": "SELECT avg( people.People_ID) FROM people AS people WHERE people.Birth_Date = \"August 8, 1986\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Poker_Player_ID) FROM poker_player AS T1 WHERE T1.Final_Table_Made = 10.0",
+    "readable_query": "SELECT avg( poker_player.Poker_Player_ID) FROM poker_player AS poker_player WHERE poker_player.Final_Table_Made = 10.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.People_ID) FROM people AS T1 WHERE T1.Nationality = \"Russia\"",
+    "readable_query": "SELECT avg( people.People_ID) FROM people AS people WHERE people.Nationality = \"Russia\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Earnings) FROM poker_player AS T1 WHERE T1.Poker_Player_ID = 3",
+    "readable_query": "SELECT avg( poker_player.Earnings) FROM poker_player AS poker_player WHERE poker_player.Poker_Player_ID = 3"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Final_Table_Made) FROM poker_player AS T1 WHERE T1.Poker_Player_ID = 1",
+    "readable_query": "SELECT avg( poker_player.Final_Table_Made) FROM poker_player AS poker_player WHERE poker_player.Poker_Player_ID = 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Money_Rank) FROM poker_player AS T1 WHERE T1.Poker_Player_ID = 5",
+    "readable_query": "SELECT avg( poker_player.Money_Rank) FROM poker_player AS poker_player WHERE poker_player.Poker_Player_ID = 5"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Height) FROM people AS T1 WHERE T1.Nationality = \"Bulgaria\"",
+    "readable_query": "SELECT avg( people.Height) FROM people AS people WHERE people.Nationality = \"Bulgaria\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Best_Finish FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.People_ID = (SELECT max( T23.People_ID) FROM people AS T23)",
+    "readable_query": "SELECT poker_player.Best_Finish FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.People_ID = (SELECT max( people.People_ID) FROM people AS people)"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Birth_Date FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Poker_Player_ID = (SELECT max( T23.Poker_Player_ID) FROM poker_player AS T23)",
+    "readable_query": "SELECT people.Birth_Date FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Poker_Player_ID = (SELECT max( poker_player.Poker_Player_ID) FROM poker_player AS poker_player)"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.People_ID FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Poker_Player_ID = (SELECT max( T23.Poker_Player_ID) FROM poker_player AS T23)",
+    "readable_query": "SELECT people.People_ID FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Poker_Player_ID = (SELECT max( poker_player.Poker_Player_ID) FROM poker_player AS poker_player)"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Poker_Player_ID FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.People_ID = (SELECT max( T23.People_ID) FROM people AS T23)",
+    "readable_query": "SELECT poker_player.Poker_Player_ID FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.People_ID = (SELECT max( people.People_ID) FROM people AS people)"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Poker_Player_ID FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Height = (SELECT max( T23.Height) FROM people AS T23)",
+    "readable_query": "SELECT poker_player.Poker_Player_ID FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Height = (SELECT max( people.Height) FROM people AS people)"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Best_Finish FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Height = (SELECT max( T23.Height) FROM people AS T23)",
+    "readable_query": "SELECT poker_player.Best_Finish FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Height = (SELECT max( people.Height) FROM people AS people)"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Height FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Best_Finish = (SELECT max( T23.Best_Finish) FROM poker_player AS T23)",
+    "readable_query": "SELECT people.Height FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Best_Finish = (SELECT max( poker_player.Best_Finish) FROM poker_player AS poker_player)"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Money_Rank FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.People_ID = (SELECT max( T23.People_ID) FROM people AS T23)",
+    "readable_query": "SELECT poker_player.Money_Rank FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.People_ID = (SELECT max( people.People_ID) FROM people AS people)"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Final_Table_Made FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Height = (SELECT max( T23.Height) FROM people AS T23)",
+    "readable_query": "SELECT poker_player.Final_Table_Made FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Height = (SELECT max( people.Height) FROM people AS people)"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Earnings FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Height = (SELECT max( T23.Height) FROM people AS T23)",
+    "readable_query": "SELECT poker_player.Earnings FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Height = (SELECT max( people.Height) FROM people AS people)"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.People_ID FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Earnings = 596462.0 GROUP BY T1.People_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT people.People_ID FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Earnings = 596462.0 GROUP BY people.People_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Best_Finish FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Name = \"Yevgeni Sivozhelez\" GROUP BY T1.Best_Finish  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.Best_Finish FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Name = \"Yevgeni Sivozhelez\" GROUP BY poker_player.Best_Finish  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Best_Finish FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Name = \"Teodor Salparov\" GROUP BY T1.Best_Finish  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.Best_Finish FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Name = \"Teodor Salparov\" GROUP BY poker_player.Best_Finish  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.People_ID FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Earnings = 189233.0 GROUP BY T1.People_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT people.People_ID FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Earnings = 189233.0 GROUP BY people.People_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Money_Rank FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Height = 196.0 GROUP BY T1.Money_Rank  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.Money_Rank FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Height = 196.0 GROUP BY poker_player.Money_Rank  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Nationality = \"Bulgaria\" GROUP BY T1.People_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Nationality = \"Bulgaria\" GROUP BY poker_player.People_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Money_Rank FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Nationality = \"Russia\" GROUP BY T1.Money_Rank  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.Money_Rank FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Nationality = \"Russia\" GROUP BY poker_player.Money_Rank  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Name FROM people AS T1 JOIN poker_player AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Money_Rank = 58.0 GROUP BY T1.Name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT people.Name FROM people AS people JOIN poker_player AS poker_player ON people.People_ID = poker_player.People_ID WHERE poker_player.Money_Rank = 58.0 GROUP BY people.Name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Poker_Player_ID FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Birth_Date = \"January 22, 1987\" GROUP BY T1.Poker_Player_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.Poker_Player_ID FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Birth_Date = \"January 22, 1987\" GROUP BY poker_player.Poker_Player_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Earnings FROM poker_player AS T1 JOIN people AS T2 ON T1.People_ID = T2.People_ID WHERE T2.Nationality = \"Russia\" GROUP BY T1.Earnings  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT poker_player.Earnings FROM poker_player AS poker_player JOIN people AS people ON poker_player.People_ID = people.People_ID WHERE people.Nationality = \"Russia\" GROUP BY poker_player.Earnings  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Earnings FROM poker_player AS T1        EXCEPT SELECT T2.Earnings FROM poker_player AS T2 WHERE T2.Best_Finish = 3.0",
+    "readable_query": "SELECT poker_player.Earnings FROM poker_player AS poker_player        EXCEPT SELECT poker_player.Earnings FROM poker_player AS poker_player WHERE poker_player.Best_Finish = 3.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Height FROM people AS T1        EXCEPT SELECT T2.Height FROM people AS T2 WHERE T2.Name = \"Aleksey Ostapenko\"",
+    "readable_query": "SELECT people.Height FROM people AS people        EXCEPT SELECT people.Height FROM people AS people WHERE people.Name = \"Aleksey Ostapenko\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Final_Table_Made FROM poker_player AS T1        EXCEPT SELECT T2.Final_Table_Made FROM poker_player AS T2 WHERE T2.Money_Rank = 166.0",
+    "readable_query": "SELECT poker_player.Final_Table_Made FROM poker_player AS poker_player        EXCEPT SELECT poker_player.Final_Table_Made FROM poker_player AS poker_player WHERE poker_player.Money_Rank = 166.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Birth_Date FROM people AS T1        EXCEPT SELECT T2.Birth_Date FROM people AS T2 WHERE T2.Nationality = \"Russia\"",
+    "readable_query": "SELECT people.Birth_Date FROM people AS people        EXCEPT SELECT people.Birth_Date FROM people AS people WHERE people.Nationality = \"Russia\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Height FROM people AS T1        EXCEPT SELECT T2.Height FROM people AS T2 WHERE T2.Birth_Date = \"July 14, 1983\"",
+    "readable_query": "SELECT people.Height FROM people AS people        EXCEPT SELECT people.Height FROM people AS people WHERE people.Birth_Date = \"July 14, 1983\""
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Poker_Player_ID FROM poker_player AS T1        EXCEPT SELECT T2.Poker_Player_ID FROM poker_player AS T2 WHERE T2.Best_Finish = 1.0",
+    "readable_query": "SELECT poker_player.Poker_Player_ID FROM poker_player AS poker_player        EXCEPT SELECT poker_player.Poker_Player_ID FROM poker_player AS poker_player WHERE poker_player.Best_Finish = 1.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Poker_Player_ID FROM poker_player AS T1        EXCEPT SELECT T2.Poker_Player_ID FROM poker_player AS T2 WHERE T2.Best_Finish = 3.0",
+    "readable_query": "SELECT poker_player.Poker_Player_ID FROM poker_player AS poker_player        EXCEPT SELECT poker_player.Poker_Player_ID FROM poker_player AS poker_player WHERE poker_player.Best_Finish = 3.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Earnings FROM poker_player AS T1        EXCEPT SELECT T2.Earnings FROM poker_player AS T2 WHERE T2.Final_Table_Made = 21.0",
+    "readable_query": "SELECT poker_player.Earnings FROM poker_player AS poker_player        EXCEPT SELECT poker_player.Earnings FROM poker_player AS poker_player WHERE poker_player.Final_Table_Made = 21.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.People_ID FROM poker_player AS T1        EXCEPT SELECT T2.People_ID FROM poker_player AS T2 WHERE T2.Money_Rank = 166.0",
+    "readable_query": "SELECT poker_player.People_ID FROM poker_player AS poker_player        EXCEPT SELECT poker_player.People_ID FROM poker_player AS poker_player WHERE poker_player.Money_Rank = 166.0"
+  },
+  {
+    "db_id": "poker_player",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Nationality FROM people AS T1        EXCEPT SELECT T2.Nationality FROM people AS T2 WHERE T2.Name = \"Teodor Salparov\"",
+    "readable_query": "SELECT people.Nationality FROM people AS people        EXCEPT SELECT people.Nationality FROM people AS people WHERE people.Name = \"Teodor Salparov\""
+  }
+]

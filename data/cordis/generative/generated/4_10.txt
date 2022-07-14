@@ -1,0 +1,16 @@
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.title = 'CIP-Eco-Innovation - Thematic Networks-PIE (Pro Inno Europe)'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.title = 'CIP-Eco-Innovation - Thematic Networks-PIE (Pro Inno Europe)'
+GPT-3 choices:
+(0) How many funding schemes are available under the title CIP-Eco-Innovation - Thematic Networks-PIE (Pro Inno Europe)?
+(1) Show the number of funding schemes having the title "CIP-Eco-Innovation - Thematic Networks-PIE (Pro Inno Europe)"
+(2) How many funding schemes have the title 'CIP-Eco-Innovation - Thematic Networks-PIE (Pro Inno Europe)'?
+(3) How many funding schema have the title "CIP-Eco-Innovation - Thematic Networks-PIE (Pro Inno Europe)"?
+(4) Show me the number of funding schemes that have the title CIP-Eco-Innovation - Thematic Networks-PIE (Pro Inno Europe). ###
+(5) How many are the funding schemes with title 'CIP-Eco-Innovation - Thematic Networks-PIE (Pro Inno Europe)'?
+(6) How many funding schemes are there where the title is CIP-Eco-Innovation - Thematic Networks-PIEC
+(7) How many funding schemes are there with title CIP-Eco-Innovation - Thematic Networks-PIE (Pro Inno Europe)?

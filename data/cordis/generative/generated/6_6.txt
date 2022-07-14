@@ -1,0 +1,16 @@
+SELECT institutions.wikidata_url FROM institutions WHERE institutions.website = 'https://www.dongnocchi.it/' and institutions.unics_id = 283486
+
+###
+
+
+Original Query:
+SELECT institutions.wikidata_url FROM institutions WHERE institutions.website = 'https://www.dongnocchi.it/' and institutions.unics_id = 283486
+GPT-3 choices:
+(0) Show me all the institutions that have a website = 'https://www.dongnocchi.it/' and a unics id = 283486
+(1) Which are the institutions having a website equal to "https://www.dongnocchi.it/"?
+(2) What is the wikidata url of the institution with unics_id 283486?
+(3) Show me the wikiunics section of the institution with the website https://www.dongnocchi.it/
+(4) Show me the Wikidata URL of institutions having https://www.dongnocchi.it/ as a website and having UniCode identifer 283486
+(5) Show me all the institutions that have website https://www.dongnocchi.it/ with unics code 283486.
+(6) Show me all the institutions that have a website and a unit code equal to 283486
+(7) Show me institutions having site == https://www.dongnocchi.it/ and UNICS code 283486

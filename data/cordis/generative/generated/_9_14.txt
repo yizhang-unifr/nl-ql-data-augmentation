@@ -1,0 +1,28 @@
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.end_year != 2023
+
+###
+
+
+Original Query:
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.end_year != 2023
+GPT-3 choices:
+(0) Show the full name of all people that are principals of a project that haven't an end year.
+(1) What is the full name of all the people having a project with a project end year != 2023?
+(2) Show me all people whose projects didn't end in 2023 as principal investigator.
+(3) Get the full names of all people in a project different from 2023
+(4) Show the full name of people that are principal investigators of a project and the end year of the project is not 2023
+(5) Display names of project principal investigators that don't end in 2023
+(6) What are the full names of all people who are principal investigators of projects that did not end in 2023?
+(7) Show me the names of project principal investigators that don't end in 2023.
+
+
+Re-ranked choices:
+5.622  Show the full name of people that are principal investigators of a project and the end year of the project is not 2023
+5.501  Show me the names of project principal investigators that don't end in 2023.
+5.325  What are the full names of all people who are principal investigators of projects that did not end in 2023?
+5.254  Display names of project principal investigators that don't end in 2023
+5.121  Show me all people whose projects didn't end in 2023 as principal investigator.
+4.985  What is the full name of all the people having a project with a project end year != 2023?
+4.818  Show the full name of all people that are principals of a project that haven't an end year.
+4.644  Get the full names of all people in a project different from 2023
+

@@ -1,0 +1,28 @@
+SELECT programmes.rcn FROM programmes WHERE programmes.short_name = 'Health'
+
+###
+
+
+Original Query:
+SELECT programmes.rcn FROM programmes WHERE programmes.short_name = 'Health'
+GPT-3 choices:
+(0) Show me the location of the programme “Health”
+(1) Display all projects from the programme named Health
+(2) Retrieve the research councils that deal with Health
+(3) What are the RCC numbers of all programmes with the short name “Health”?
+(4) Show me the money. What are the programme costs for the short name "Health" selected?
+(5) Which are the research council numbers of programmes with short name Health?
+(6) Retrieve the Radio Channel Number of all programmes whose short name is "Health"
+(7) Show me the RCON of programmes with short name Health?
+
+
+Re-ranked choices:
+4.553  Show me the RCON of programmes with short name Health?
+4.524  What are the RCC numbers of all programmes with the short name “Health”?
+4.499  Which are the research council numbers of programmes with short name Health?
+4.261  Show me the location of the programme “Health”
+4.017  Display all projects from the programme named Health
+3.961  Show me the money. What are the programme costs for the short name "Health" selected?
+3.594  Retrieve the research councils that deal with Health
+3.294  Retrieve the Radio Channel Number of all programmes whose short name is "Health"
+

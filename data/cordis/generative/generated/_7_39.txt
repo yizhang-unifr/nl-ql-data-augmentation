@@ -1,0 +1,28 @@
+SELECT programmes.short_name FROM programmes WHERE programmes.rcn = '10052' or programmes.rcn = '664285'
+
+###
+
+
+Original Query:
+SELECT programmes.short_name FROM programmes WHERE programmes.rcn = '10052' or programmes.rcn = '664285'
+GPT-3 choices:
+(0) Short names of programmes with ics code 10052 or 664285
+(1) Show all short names for programmes with Â 10052 Â or Â 664285
+(2) Show me all the short names of programmes that either have the RCN 10052 or 664285
+(3) Retrieve all program names starting with 10052 or 664285.
+(4) What is the short name of the programme with the rcn number 664285 or 10052?
+(5) What are the short names of the programmes with rcn = 10052 or 664285?
+(6) Show me the short name of programmes with either a rcn of 10052 or 664285
+(7) Show short_name for programme with code 10052 or 664285
+
+
+Re-ranked choices:
+5.556  Show me all the short names of programmes that either have the RCN 10052 or 664285
+5.535  Show me the short name of programmes with either a rcn of 10052 or 664285
+5.275  What are the short names of the programmes with rcn = 10052 or 664285?
+5.073  Short names of programmes with ics code 10052 or 664285
+5.039  Show all short names for programmes with Â 10052 Â or Â 664285
+4.936  What is the short name of the programme with the rcn number 664285 or 10052?
+4.699  Show short_name for programme with code 10052 or 664285
+3.886  Retrieve all program names starting with 10052 or 664285.
+

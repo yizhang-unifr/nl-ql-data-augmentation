@@ -1,0 +1,16 @@
+SELECT activity_types.description FROM activity_types WHERE activity_types.code != 'OTH'
+
+###
+
+
+Original Query:
+SELECT activity_types.description FROM activity_types WHERE activity_types.code != 'OTH'
+GPT-3 choices:
+(0) Display activity types which are not 'OTH'
+(1) Show me the activity types that aren't Other
+(2) Retrieve activity type descriptions for activities that are not other types.
+(3) Show all activity type descriptions that don't start with OTH
+(4) Which activity types have the code that isn't OTH?
+(5) Display activity types descriptions different from 'OTH'
+(6) Show me descriptions for activity types except for OTH
+(7) Show me the description of activity types that are not out-of-the-hospital.

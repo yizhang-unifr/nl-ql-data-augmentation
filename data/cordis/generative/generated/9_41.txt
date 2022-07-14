@@ -1,0 +1,16 @@
+SELECT project_member_roles.description FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.postal_code != '3511 SX'
+
+###
+
+
+Original Query:
+SELECT project_member_roles.description FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.postal_code != '3511 SX'
+GPT-3 choices:
+(0) Display project member roles that do not correspond to a postal code 3511 SX
+(1) Show all project members roles descriptions except for projects outside 3511 SX
+(2) Show me the project member roles of all project members who do not have the postal code 3511 SX
+(3) What are the project member roles descriptions of project members that are not located in 3511 SX?
+(4) Show project member roles of project members that are not located in 3511 SX.
+(5) Show project member roles assigned to members whose postal code is not 3511 SX
+(6) What are the project member roles descriptions?
+(7) What are the project member roles descriptions of people from 3511 SX?

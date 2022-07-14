@@ -1,0 +1,16 @@
+SELECT count(*) FROM activity_types WHERE activity_types.description = 'Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments)'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM activity_types WHERE activity_types.description = 'Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments)'
+GPT-3 choices:
+(0) What is the total number of activities with description Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments)
+(1) Show me the number of activity types present in the European Union institutions.
+(2) Show me how many activity types that have the description Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments) I have.
+(3) How many activity types have the description Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments)?
+(4) Show me number of activity types within this description
+(5) How many activity types are assigned to public bodies?
+(6) How many activity types that have a description that's contained in the label Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments) have?
+(7) How many activity types are there in the EuRegics project that describe Public bodies?

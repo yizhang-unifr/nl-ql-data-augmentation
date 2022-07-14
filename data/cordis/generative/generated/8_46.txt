@@ -1,0 +1,16 @@
+SELECT programmes.rcn FROM programmes WHERE programmes.short_name != 'Specific Programme "Cooperation"'
+
+###
+
+
+Original Query:
+SELECT programmes.rcn FROM programmes WHERE programmes.short_name != 'Specific Programme "Cooperation"'
+GPT-3 choices:
+(0) Show the RCN of programmes with the short name "Specific Program "Cooperation"".
+(1) Show all the different RCN's of the programmes.
+(2) Show programme codes of "Specific Programme "Cooperation"".
+(3) Retrieve the Rcn for all programmes that do not have the short name “Specific Programme “Cooperation”.
+(4) Show all the research and innovation programmes except the "Specific Programme "Cooperation"
+(5) Show me the borcpoints details for projects that are not called "Specific Progree"
+(6) What are the RCN's of projects in which the short name is not Specific Program "Cooperation"?
+(7) Show the Rcn of all programmes except Specific Programme "Cooperation"

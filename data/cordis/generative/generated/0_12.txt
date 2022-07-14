@@ -1,0 +1,16 @@
+SELECT topics.rcn FROM topics WHERE topics.title = 'Information driven Cyber Security Management'
+
+###
+
+
+Original Query:
+SELECT topics.rcn FROM topics WHERE topics.title = 'Information driven Cyber Security Management'
+GPT-3 choices:
+(0) Retrieve all topics where the title equals Information driven Cyber Security Management
+(1) Show me the research areas in which the topic Information driven Cyber Security Management is included
+(2) Show me all topics about Information driven Cyber Security Management
+(3) List all topics containing the subject Information driven Cyber Security Management
+(4) SHOW RECORDS FROM topics WHERE topics.title = 'Information driven Cyber Security Management'
+(5) What are the possible titles of sessions about Information driven Cyber Security Management?
+(6) What are the different topics about Information driven Cyber Security Management?
+(7) What are the RCN topics about Information driven Cyber Security Management?

@@ -1,0 +1,16 @@
+SELECT project_member_roles.code FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.member_role != 'participant'
+
+###
+
+
+Original Query:
+SELECT project_member_roles.code FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.member_role != 'participant'
+GPT-3 choices:
+(0) Retrieve project member roles of project members that are not participants
+(1) Show me project member roles of project members that are not participants
+(2) Show me project members' roles, not their participan
+(3) What are the project member roles?
+(4) How many project member roles are there for project members who are not participants?
+(5) What are the project member roles?
+(6) Display all the project member roles.
+(7) Show me project member roles of project members that are not participants

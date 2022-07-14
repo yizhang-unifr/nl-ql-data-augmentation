@@ -1,0 +1,16 @@
+SELECT projects.unics_id FROM projects WHERE projects.ec_max_contribution != 309235.2
+
+###
+
+
+Original Query:
+SELECT projects.unics_id FROM projects WHERE projects.ec_max_contribution != 309235.2
+GPT-3 choices:
+(0) SELECT projects.unics_id FROM projects LEFT JOIN institutions_members ON projects.institution_id = institutions_members.part_identified_by_member
+(1) Show me all projects which didn't receive a maximum contribution of 309235.2
+(2) Show me all projects except the one with maxima EC contribution equal to 309235.2
+(3) Display all project ids except the one with european contribution 309235.2
+(4) Show me projects which did not receive at least 309235.2 euro from the European Commission.
+(5) Show me projects with an ec max contribution different than 309235.2
+(6) Retrieve the project IDs for all projects except the one with the eu contribution 309235.2
+(7) What is the unics id of projects which have an ec max contribution different from 309235.2

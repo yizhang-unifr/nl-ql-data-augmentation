@@ -1,0 +1,16 @@
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title != 'Research Infrastructure-Design studies'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title != 'Research Infrastructure-Design studies'
+GPT-3 choices:
+(0) Which are the funding scheme codes for research institutions whose funding scheme title is not Research Infrastructure-Design studies?
+(1) Show me all guidelines funding schemes have.
+(2) What are the different funding schemes?
+(3) Show me the different funding scheme with the exact title "Research Infrastructure - Design studies".
+(4) Retrieve the code of funding schemes that do not have the title "Research Infrastructure-Design studies"
+(5) Show me the funding scheme codes of projects inside the funding scheme 'Research Infrastructure-Design studies'
+(6) Which are the funding schemes different from "Research Infrastructure-Design Studies"?
+(7) Retrieve the code of funding schemes apart from Research Infrastructure-Design studies

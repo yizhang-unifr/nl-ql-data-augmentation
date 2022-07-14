@@ -1,0 +1,688 @@
+[
+  {
+    "name": "biomarker alias",
+    "original_name": "biomarker_alias",
+    "logical_name": "biomarker_alias",
+    "columns": [
+      {
+        "name": "alias",
+        "original_name": "alias",
+        "logical_name": "alias",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "biomarker article",
+    "original_name": "biomarker_article",
+    "logical_name": "biomarker_article",
+    "columns": [
+      {
+        "name": "pmid",
+        "original_name": "pmid",
+        "logical_name": "pmid",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "biomarker edrn",
+    "original_name": "biomarker_edrn",
+    "logical_name": "biomarker_edrn",
+    "columns": [
+      {
+        "name": "qa state",
+        "original_name": "qa_state",
+        "logical_name": "qa_state",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "biomarker title",
+        "original_name": "biomarker_title",
+        "logical_name": "biomarker_title",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "biomarker type",
+        "original_name": "biomarker_type",
+        "logical_name": "biomarker_type",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "uberon anatomical id",
+        "original_name": "uberon_anatomical_id",
+        "logical_name": "uberon_anatomical_id",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "phase",
+        "original_name": "phase",
+        "logical_name": "phase",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "biomarker fda drug",
+    "original_name": "biomarker_fda_drug",
+    "logical_name": "biomarker_fda_drug",
+    "columns": [
+      {
+        "name": "biomarker drug",
+        "original_name": "biomarker_drug",
+        "logical_name": "biomarker_drug",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "biomarker",
+    "original_name": "biomarker",
+    "logical_name": "biomarker",
+    "columns": [
+      {
+        "name": "gene symbol",
+        "original_name": "gene_symbol",
+        "logical_name": "gene_symbol",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "biomarker description",
+        "original_name": "biomarker_description",
+        "logical_name": "biomarker_description",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "biomarker id",
+        "original_name": "biomarker_id",
+        "logical_name": "biomarker_id",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "test is a panel",
+        "original_name": "test_is_a_panel",
+        "logical_name": "test_is_a_panel",
+        "original_datatype": "boolean",
+        "logical_datatype": "boolean"
+      }
+    ]
+  },
+  {
+    "name": "biomarker fda ncit term",
+    "original_name": "biomarker_fda_ncit_term",
+    "logical_name": "biomarker_fda_ncit_term",
+    "columns": [
+      {
+        "name": "ncit biomarker",
+        "original_name": "ncit_biomarker",
+        "logical_name": "ncit_biomarker",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "biomarker fda",
+    "original_name": "biomarker_fda",
+    "logical_name": "biomarker_fda",
+    "columns": [
+      {
+        "name": "test trade name",
+        "original_name": "test_trade_name",
+        "logical_name": "test_trade_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "test submission",
+        "original_name": "test_submission",
+        "logical_name": "test_submission",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "biomarker fda test trial",
+    "original_name": "biomarker_fda_test_trial",
+    "logical_name": "biomarker_fda_test_trial",
+    "columns": [
+      {
+        "name": "test trial id",
+        "original_name": "test_trial_id",
+        "logical_name": "test_trial_id",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "biomarker fda test",
+    "original_name": "biomarker_fda_test",
+    "logical_name": "biomarker_fda_test",
+    "columns": [
+      {
+        "name": "test trade name",
+        "original_name": "test_trade_name",
+        "logical_name": "test_trade_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "test manufacturer",
+        "original_name": "test_manufacturer",
+        "logical_name": "test_manufacturer",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "test submission",
+        "original_name": "test_submission",
+        "logical_name": "test_submission",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "biomarker origin",
+        "original_name": "biomarker_origin",
+        "logical_name": "biomarker_origin",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "doid",
+        "original_name": "doid",
+        "logical_name": "doid",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "histological type",
+        "original_name": "histological_type",
+        "logical_name": "histological_type",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "specimen type",
+        "original_name": "specimen_type",
+        "logical_name": "specimen_type",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "platform method",
+        "original_name": "platform_method",
+        "logical_name": "platform_method",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "test number genes",
+        "original_name": "test_number_genes",
+        "logical_name": "test_number_genes",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "test adoption evidence",
+        "original_name": "test_adoption_evidence",
+        "logical_name": "test_adoption_evidence",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "test approval status",
+        "original_name": "test_approval_status",
+        "logical_name": "test_approval_status",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "test study design",
+        "original_name": "test_study_design",
+        "logical_name": "test_study_design",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "clinical significance",
+        "original_name": "clinical_significance",
+        "logical_name": "clinical_significance",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "biomarker fda test use",
+    "original_name": "biomarker_fda_test_use",
+    "logical_name": "biomarker_fda_test_use",
+    "columns": [
+      {
+        "name": "test trade name",
+        "original_name": "test_trade_name",
+        "logical_name": "test_trade_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "test submission",
+        "original_name": "test_submission",
+        "logical_name": "test_submission",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "approved indication",
+        "original_name": "approved_indication",
+        "logical_name": "approved_indication",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "actual use",
+        "original_name": "actual_use",
+        "logical_name": "actual_use",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "disease mutation article",
+    "original_name": "disease_mutation_article",
+    "logical_name": "disease_mutation_article",
+    "columns": [
+      {
+        "name": "pmid",
+        "original_name": "pmid",
+        "logical_name": "pmid",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "disease mutation impact prediction",
+    "original_name": "disease_mutation_impact_prediction",
+    "logical_name": "disease_mutation_impact_prediction",
+    "columns": [
+      {
+        "name": "site prediction",
+        "original_name": "site_prediction",
+        "logical_name": "site_prediction",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "probability",
+        "original_name": "probability",
+        "logical_name": "probability",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "tool",
+        "original_name": "tool",
+        "logical_name": "tool",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "disease mutation site annotation",
+    "original_name": "disease_mutation_site_annotation",
+    "logical_name": "disease_mutation_site_annotation",
+    "columns": [
+      {
+        "name": "description",
+        "original_name": "description",
+        "logical_name": "description",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "feature key",
+        "original_name": "feature_key",
+        "logical_name": "feature_key",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "disease",
+    "original_name": "disease",
+    "logical_name": "disease",
+    "columns": [
+      {
+        "name": "name",
+        "original_name": "name",
+        "logical_name": "name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "xref gene ensembl",
+    "original_name": "xref_gene_ensembl",
+    "logical_name": "xref_gene_ensemble",
+    "columns": [
+      {
+        "name": "gene symbol",
+        "original_name": "gene_symbol",
+        "logical_name": "gene_symbol",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "species",
+    "original_name": "species",
+    "logical_name": "species",
+    "columns": [
+      {
+        "name": "genus",
+        "original_name": "genus",
+        "logical_name": "genus",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "species",
+        "original_name": "species",
+        "logical_name": "species",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "speciescommonname",
+        "original_name": "speciescommonname",
+        "logical_name": "species_common_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "stage",
+    "original_name": "stage",
+    "logical_name": "stage",
+    "columns": [
+      {
+        "name": "name",
+        "original_name": "name",
+        "logical_name": "name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "disease mutation",
+    "original_name": "disease_mutation",
+    "logical_name": "disease_mutation",
+    "columns": [
+      {
+        "name": "chromosome id",
+        "original_name": "chromosome_id",
+        "logical_name": "chromosome_id",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "chromosome pos",
+        "original_name": "chromosome_pos",
+        "logical_name": "chromosome_position",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "ref nt",
+        "original_name": "ref_nt",
+        "logical_name": "reference_nucleotide_base",
+        "original_datatype": "character",
+        "logical_datatype": "character"
+      },
+      {
+        "name": "alt nt",
+        "original_name": "alt_nt",
+        "logical_name": "nucleotide_base_variation",
+        "original_datatype": "character",
+        "logical_datatype": "character"
+      },
+      {
+        "name": "cds pos",
+        "original_name": "cds_pos",
+        "logical_name": "coding_sequence_position",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "peptide pos",
+        "original_name": "peptide_pos",
+        "logical_name": "peptide_position",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "aa pos uniprotkb",
+        "original_name": "aa_pos_uniprotkb",
+        "logical_name": "amino_acids_position_uniprot_kb",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "ref aa",
+        "original_name": "ref_aa",
+        "logical_name": "reference_amino_acid_residue",
+        "original_datatype": "character",
+        "logical_datatype": "character"
+      },
+      {
+        "name": "alt aa",
+        "original_name": "alt_aa",
+        "logical_name": "amino_acid_residue_variation",
+        "original_datatype": "character",
+        "logical_datatype": "character"
+      },
+      {
+        "name": "mutation freq",
+        "original_name": "mutation_freq",
+        "logical_name": "mutation_frequency",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "data source",
+        "original_name": "data_source",
+        "logical_name": "data_source",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "doid",
+        "original_name": "doid",
+        "logical_name": "disease_ontology_identifier",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "healthy expression",
+    "original_name": "healthy_expression",
+    "logical_name": "healthy_expression",
+    "columns": [
+      {
+        "name": "expression level gene relative",
+        "original_name": "expression_level_gene_relative",
+        "logical_name": "expression_level_gene_relative",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "expression level anatomical relative",
+        "original_name": "expression_level_anatomical_relative",
+        "logical_name": "expression_level_anatomical_relative",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "call quality",
+        "original_name": "call_quality",
+        "logical_name": "call_quality",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "expression rank score",
+        "original_name": "expression_rank_score",
+        "logical_name": "expression_rank_score",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "expression score",
+        "original_name": "expression_score",
+        "logical_name": "expression_score",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  },
+  {
+    "name": "anatomical entity",
+    "original_name": "anatomical_entity",
+    "logical_name": "anatomical_entity",
+    "columns": [
+      {
+        "name": "id",
+        "original_name": "id",
+        "logical_name": "uberon_identifier",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "name",
+        "original_name": "name",
+        "logical_name": "name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "description",
+        "original_name": "description",
+        "logical_name": "description",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "differential expression",
+    "original_name": "differential_expression",
+    "logical_name": "differential_expression",
+    "columns": [
+      {
+        "name": "gene symbol",
+        "original_name": "gene_symbol",
+        "logical_name": "gene_symbol",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "doid",
+        "original_name": "doid",
+        "logical_name": "disease_ontology_identifier",
+        "original_datatype": "number",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "log2fc",
+        "original_name": "log2fc",
+        "logical_name": "log2_fold_change",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "pvalue",
+        "original_name": "pvalue",
+        "logical_name": "pvalue",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "adjpvalue",
+        "original_name": "adjpvalue",
+        "logical_name": "adjusted_pvalue",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "statistical significance",
+        "original_name": "statistical_significance",
+        "logical_name": "statistical_significance",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "expression change direction",
+        "original_name": "expression_change_direction",
+        "logical_name": "expression_change_direction",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "subjects up",
+        "original_name": "subjects_up",
+        "logical_name": "subjects_up",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "subjects down",
+        "original_name": "subjects_down",
+        "logical_name": "subjects_down",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "subjects nochange",
+        "original_name": "subjects_nochange",
+        "logical_name": "subjects_nochange",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "subjects nocoverage",
+        "original_name": "subjects_nocoverage",
+        "logical_name": "subjects_nocoverage",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "subjects total",
+        "original_name": "subjects_total",
+        "logical_name": "subjects_total",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  }
+]

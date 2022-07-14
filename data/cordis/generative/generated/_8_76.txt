@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description != 'Zuid-Nederland'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description != 'Zuid-Nederland'
+GPT-3 choices:
+(0) Show me territorial unit description where it is not Zuid-Nederland
+(1) Show me the geocode regions of eu territorial units that do not have the description “South Netherlands”.
+(2) Show me eu territorial unit geocode region descriptions that are not Zuid-Nederland
+(3) Show me the locations of territorial units that are not in Zuid-Nederland.
+(4) Show me territorial units which do not have a region indicated as south-Netherlands
+(5) Show me all territorial units that have another description than Zuid-Nederland
+(6) Show me the geocode region of territorial units that have a different description than Zuid-Nederland
+(7) What are the geocode regions of territorial units that have the description Zuid-Nederland?
+
+
+Re-ranked choices:
+5.904  Show me the geocode region of territorial units that have a different description than Zuid-Nederland
+5.840  Show me eu territorial unit geocode region descriptions that are not Zuid-Nederland
+5.828  What are the geocode regions of territorial units that have the description Zuid-Nederland?
+5.719  Show me territorial unit description where it is not Zuid-Nederland
+5.653  Show me all territorial units that have another description than Zuid-Nederland
+5.647  Show me the locations of territorial units that are not in Zuid-Nederland.
+5.163  Show me the geocode regions of eu territorial units that do not have the description “South Netherlands”.
+5.135  Show me territorial units which do not have a region indicated as south-Netherlands
+

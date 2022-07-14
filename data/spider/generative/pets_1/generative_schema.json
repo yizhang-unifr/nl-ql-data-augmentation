@@ -1,0 +1,121 @@
+[
+  {
+    "name": "student",
+    "original_name": "Student",
+    "logical_name": "Student",
+    "columns": [
+      {
+        "name": "student id",
+        "original_name": "StuID",
+        "logical_name": "StuID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "last name",
+        "original_name": "LName",
+        "logical_name": "LName",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "first name",
+        "original_name": "Fname",
+        "logical_name": "Fname",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "age",
+        "original_name": "Age",
+        "logical_name": "Age",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "sex",
+        "original_name": "Sex",
+        "logical_name": "Sex",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "major",
+        "original_name": "Major",
+        "logical_name": "Major",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "advisor",
+        "original_name": "Advisor",
+        "logical_name": "Advisor",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "city code",
+        "original_name": "city_code",
+        "logical_name": "city_code",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "has pet",
+    "original_name": "Has_Pet",
+    "logical_name": "Has_Pet",
+    "columns": [
+      {
+        "name": "student id",
+        "original_name": "StuID",
+        "logical_name": "StuID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "pet id",
+        "original_name": "PetID",
+        "logical_name": "PetID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  },
+  {
+    "name": "pets",
+    "original_name": "Pets",
+    "logical_name": "Pets",
+    "columns": [
+      {
+        "name": "pet id",
+        "original_name": "PetID",
+        "logical_name": "PetID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "pet type",
+        "original_name": "PetType",
+        "logical_name": "PetType",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "pet age",
+        "original_name": "pet_age",
+        "logical_name": "pet_age",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "weight",
+        "original_name": "weight",
+        "logical_name": "weight",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  }
+]

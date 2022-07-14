@@ -1,0 +1,16 @@
+SELECT topics.code FROM topics WHERE topics.rcn != '669077'
+
+###
+
+
+Original Query:
+SELECT topics.code FROM topics WHERE topics.rcn != '669077'
+GPT-3 choices:
+(0) SELECT topics.code FROM topics WHERE topics.rcn != '669077'
+(1) Retrieve all topics that don't have the code 669077
+(2) Show me all topic categories that don't have the code 669077
+(3) What are the code topics that have not assigned the record with number 669077?
+(4) Retrieve the topics corresponding to non-reduction cases
+(5) Show me the topics that have a project with a reference code other than 669077
+(6) Retrieve all topics that have a code different than 669077
+(7) Get all topics which code is not 669077

@@ -1,0 +1,27 @@
+SELECT count(*) FROM people WHERE people.full_name = 'Leo James'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM people WHERE people.full_name = 'Leo James'
+GPT-3 choices:
+(0) How many people have the full name of Leo James?
+(1) 
+(2) How many people named Leo James are there?
+(3) How many people are there with the full name "Leo James"?
+(4) What is the total number of people with the full name Leo James?
+(5) The number of rows in the table people, whose full name is Leo James
+(6) How many people have the full name Leo James?
+(7) How many people are there with the name "Leo James"?
+
+
+Re-ranked choices:
+5.529  How many people are there with the full name "Leo James"?
+5.505  How many people are there with the name "Leo James"?
+5.480  How many people have the full name Leo James?
+5.468  How many people have the full name of Leo James?
+5.435  What is the total number of people with the full name Leo James?
+5.403  How many people named Leo James are there?
+3.971  The number of rows in the table people, whose full name is Leo James
+

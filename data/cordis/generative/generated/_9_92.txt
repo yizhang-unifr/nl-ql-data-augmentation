@@ -1,0 +1,28 @@
+SELECT funding_schemes.code FROM funding_schemes JOIN projects ON funding_schemes.code = projects.ec_fund_scheme WHERE projects.framework_program != 'H2020'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.code FROM funding_schemes JOIN projects ON funding_schemes.code = projects.ec_fund_scheme WHERE projects.framework_program != 'H2020'
+GPT-3 choices:
+(0) Retrieve all the different funding schemes associated with projects that do not have the framework program H2020
+(1) Show me all funding schemes associated with projects, except for projects for the H2020 framework program
+(2) Show all funding schemes that apply to projects that are not part of the framework program H2020
+(3) Show me the funding schemes of projects that are not in the framework program H2020
+(4) Show me all Funding Schemes from projects that do not fall under the H2020 Framework Program
+(5) Retrieve the funding scheme code from a project that does not have a framework program "H2020".
+(6) What are the funding scheme codes of the projects that don't fall under the H2020 framework program?
+(7) Show me the code of funding schemes associated with projects whose framework program is not H2020.
+
+
+Re-ranked choices:
+6.280  Show me all Funding Schemes from projects that do not fall under the H2020 Framework Program
+6.178  Show me all funding schemes associated with projects, except for projects for the H2020 framework program
+6.174  Show me the funding schemes of projects that are not in the framework program H2020
+6.105  Show me the code of funding schemes associated with projects whose framework program is not H2020.
+6.056  Show all funding schemes that apply to projects that are not part of the framework program H2020
+5.841  Retrieve all the different funding schemes associated with projects that do not have the framework program H2020
+5.644  Retrieve the funding scheme code from a project that does not have a framework program "H2020".
+5.593  What are the funding scheme codes of the projects that don't fall under the H2020 framework program?
+

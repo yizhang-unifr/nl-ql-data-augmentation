@@ -1,0 +1,16 @@
+SELECT count(*) FROM activity_types
+
+###
+
+
+Original Query:
+SELECT count(*) FROM activity_types
+GPT-3 choices:
+(0) Count the number of activity types.
+(1) Retrieve the number of activity types
+(2) How many activity types are there?
+(3) Show me the count of different activity types.
+(4) Show the number of activity types
+(5) How many activity types are there?
+(6) What is the total number of activity types?
+(7) How many activity types are there?

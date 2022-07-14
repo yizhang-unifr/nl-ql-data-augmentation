@@ -1,0 +1,16 @@
+SELECT project_members.postal_code FROM project_members WHERE project_members.member_short_name = 'MSS' and project_members.id = 432005
+
+###
+
+
+Original Query:
+SELECT project_members.postal_code FROM project_members WHERE project_members.member_short_name = 'MSS' and project_members.unics_id = 432005
+GPT-3 choices:
+(0) Show the postal code of project members having the short name MSS, that is the member with fund number 42005.
+(1) Retrieve the postal code of the project member with short name MSS and id = 432005
+(2) Show me members of project 432005 with short name MSS.
+(3) What is the postal code of the project members with short name MSS and the project ID is 432005?
+(4) Display project members with postal code inside the project MSS.
+(5) What is the postal code of the project member named MSS with project number 432005?
+(6) Show me the postal code of members whose short name is MSS and the ID is 432005
+(7) Show me the postal code of project member whose short name is MSS and the project number is 432005

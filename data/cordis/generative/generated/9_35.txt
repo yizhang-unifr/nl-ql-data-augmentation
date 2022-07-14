@@ -1,0 +1,16 @@
+SELECT funding_schemes.code FROM funding_schemes JOIN projects ON funding_schemes.code = projects.ec_fund_scheme WHERE projects.end_year != 2023
+
+###
+
+
+Original Query:
+SELECT funding_schemes.code FROM funding_schemes JOIN projects ON funding_schemes.code = projects.ec_fund_scheme WHERE projects.end_year != 2023
+GPT-3 choices:
+(0) Show me all funding schemes with projects that don't end in 2023
+(1) Retrieve all the funding schemes used for projects that end in 2023
+(2) Retrieve funding schemas of projects whose ending date is not 2023
+(3) Show the funding scheme codes of projects that are not ending in 2023
+(4) Show the funding scheme associated to projects that are not ending in 2023.
+(5) Show me all funding schem es used by projects that have not ended in 2023.
+(6) Retrieve the funding schemes of projects that do not end in 2023
+(7) Get the funding scheme codes associated with projects that don't end in 2023.

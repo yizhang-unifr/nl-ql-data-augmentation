@@ -1,0 +1,16 @@
+SELECT activity_types.description FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.postal_code != '2000'
+
+###
+
+
+Original Query:
+SELECT activity_types.description FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.postal_code != '2000'
+GPT-3 choices:
+(0) What are the activity types of project members who do not live in 2000?
+(1) Show activity types of project members that don't have a postal code of 2000
+(2) Show me activity types of project members that are not located in 2000
+(3) Show me activity types of project members with a postal code different than 2000
+(4) Retrieve all activity types of project members who don't have a postal code 2000.
+(5) Show activity type descriptions of project members whose postal code is not 2000.
+(6) Show all the activity type descriptions of project members that are not located in the postal code 2000
+(7) Show activity types of project members located in a different postal code than 2000.

@@ -1,0 +1,16 @@
+SELECT project_members.postal_code FROM project_members WHERE project_members.longitude != 17.6332425
+
+###
+
+
+Original Query:
+SELECT project_members.postal_code FROM project_members WHERE project_members.longitude != 17.6332425
+GPT-3 choices:
+(0) Show me the members of projects as projects in our short code 17.6332425
+(1) Show me the postal codes of project members and not those of projects
+(2) Show all project members with a different longitude than 17.6332425
+(3) Which project members have a different longitude than the project 17.6332425?
+(4) Show me project members with different postal codes than 17.6332425.
+(5) Show me all project members that don't have the same longitude as 17.6332425
+(6) Which project members are not in the 17.6332425 longitude area ?
+(7) Retrieve all the project members from projects whose longitude is not 17.6331.

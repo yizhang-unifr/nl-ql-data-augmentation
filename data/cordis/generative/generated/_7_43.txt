@@ -1,0 +1,28 @@
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code = 'CRAFT' or funding_schemes.code = 'CP-CSA-INFRA'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code = 'CRAFT' or funding_schemes.code = 'CP-CSA-INFRA'
+GPT-3 choices:
+(0) Retrieve the titles of funding schemes with codes CRAFT and CP-CSA-INFRA
+(1) Show me all funding schemes with title "CRAFT" or "CP-CSA-INFRA".
+(2) Show me titles of funding schemes "CRAFT" or "CP-CSA-INFRA"
+(3) Show me all funding schemes with code CRAFT or CP-CSA-INFRA
+(4) Show me all funding schemes that start with the letters 'COR' or 'CP' or include the letters 'INFRA'
+(5) Show me all funding schemes with a title of CRAPT or CP-CSA-INFRA
+(6) Show me the titles of funding schemes which are either CRAFT or CP-CSA-INFRA.
+(7) Show me the titles of the funding schemes with the codes CRAFT or CP-CSA-INFRA
+
+
+Re-ranked choices:
+6.061  Show me all funding schemes with title "CRAFT" or "CP-CSA-INFRA".
+6.038  Show me the titles of funding schemes which are either CRAFT or CP-CSA-INFRA.
+5.991  Show me the titles of the funding schemes with the codes CRAFT or CP-CSA-INFRA
+5.925  Show me titles of funding schemes "CRAFT" or "CP-CSA-INFRA"
+5.697  Show me all funding schemes with code CRAFT or CP-CSA-INFRA
+5.693  Show me all funding schemes with a title of CRAPT or CP-CSA-INFRA
+5.484  Retrieve the titles of funding schemes with codes CRAFT and CP-CSA-INFRA
+4.867  Show me all funding schemes that start with the letters 'COR' or 'CP' or include the letters 'INFRA'
+

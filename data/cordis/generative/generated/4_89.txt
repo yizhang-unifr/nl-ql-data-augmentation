@@ -1,0 +1,16 @@
+SELECT count(*) FROM topics WHERE topics.code = 'MG-3.5a-2014'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM topics WHERE topics.code = 'MG-3.5a-2014'
+GPT-3 choices:
+(0) How many topics are there in MG-3.5a-2014?
+(1) Show the number of topics associated with the ics code MG-3.5a-2014.
+(2) How many topics are there with code 'MG-3.5a-2014'?
+(3) How many topics have the code "MG-3.5a-2014"?
+(4) How many topic codes are there for the abbreviation MG-3.5a-2014?
+(5) How many topics are there in the conference MG-3.5a-2014?
+(6) How many topics are there with code MG-3.5a-2014?
+(7) Show the count of topics with code MG-3.5a-2014

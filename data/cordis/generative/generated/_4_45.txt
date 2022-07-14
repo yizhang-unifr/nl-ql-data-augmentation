@@ -1,0 +1,28 @@
+SELECT count(*) FROM ec_framework_programs WHERE ec_framework_programs.program_name = 'FP7'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM ec_framework_programs WHERE ec_framework_programs.ec_framework_program_name = 'FP7'
+GPT-3 choices:
+(0) What is the number of fp7 programs?
+(1) How many EC framework program rows are there
+(2) How many projects are there about FP7?
+(3) How many program are there in the framework program FP7?
+(4) How many EC Framework Programs are there?
+(5) How many different programs are there in the FP7 framework?
+(6) How many different programs are there in the European Framework Programmes?
+(7) Show the number of projects with name "FP7" funded in the 7th European Framework program
+
+
+Re-ranked choices:
+4.920  How many program are there in the framework program FP7?
+4.785  How many different programs are there in the FP7 framework?
+4.230  What is the number of fp7 programs?
+4.018  How many EC Framework Programs are there?
+4.005  How many different programs are there in the European Framework Programmes?
+3.888  How many projects are there about FP7?
+3.735  Show the number of projects with name "FP7" funded in the 7th European Framework program
+3.469  How many EC framework program rows are there
+

@@ -1,0 +1,28 @@
+SELECT count(*) FROM project_members WHERE project_members.institution_id = 218674
+
+###
+
+
+Original Query:
+SELECT count(*) FROM project_members WHERE project_members.institution_id = 218674
+GPT-3 choices:
+(0) Show me the count of project members from institution 218674?
+(1) How many people are participating in projects of institution number 218674?
+(2) How many project members are associated with the institution with id 218674?
+(3) How many are the project members of the institution 218674 ?
+(4) How many project members are there at the institution with the institute code 218674?
+(5) How many project members are there at the institution with the institution code 218674?
+(6) Only count institutions and project members whose institution is 218674 from all project members
+(7) Count the number of project members for the institution with the institution id 218674
+
+
+Re-ranked choices:
+6.097  How many are the project members of the institution 218674 ?
+6.088  How many project members are there at the institution with the institution code 218674?
+5.989  How many project members are associated with the institution with id 218674?
+5.914  How many people are participating in projects of institution number 218674?
+5.898  How many project members are there at the institution with the institute code 218674?
+5.860  Show me the count of project members from institution 218674?
+5.759  Count the number of project members for the institution with the institution id 218674
+5.538  Only count institutions and project members whose institution is 218674 from all project members
+

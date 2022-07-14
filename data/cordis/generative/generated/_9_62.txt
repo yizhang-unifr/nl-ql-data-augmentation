@@ -1,0 +1,28 @@
+SELECT programmes.title FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.end_year != 2022
+
+###
+
+
+Original Query:
+SELECT programmes.title FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.end_year != 2022
+GPT-3 choices:
+(0) Show me programmes that have projects that don't end in 2022
+(1) Display programmes associated with projects that end in 2022.
+(2) Show me the programme titles of projects that end in 2023 or later
+(3) Show me all programmes that projects ended in 2022 don't have
+(4) Retrieve titles of programmes in projects that end after 2022
+(5) Show all program titles of projects which end in 2022
+(6) Retrieve programme titles of projects that don't end in 2022.
+(7) Show the titles of programmes of projects that don't end by 2022.
+
+
+Re-ranked choices:
+6.160  Show me the programme titles of projects that end in 2023 or later
+6.159  Show the titles of programmes of projects that don't end by 2022.
+6.003  Retrieve programme titles of projects that don't end in 2022.
+5.984  Show all program titles of projects which end in 2022
+5.968  Show me programmes that have projects that don't end in 2022
+5.878  Display programmes associated with projects that end in 2022.
+5.873  Retrieve titles of programmes in projects that end after 2022
+5.823  Show me all programmes that projects ended in 2022 don't have
+

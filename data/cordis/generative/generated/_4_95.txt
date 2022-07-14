@@ -1,0 +1,28 @@
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.title = 'Coordination (or networking) actions INFSO - FET'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.title = 'Coordination (or networking) actions INFSO - FET'
+GPT-3 choices:
+(0) How many funding schemes are there with title Coordination (or networking) actions INFSO - FET?
+(1) Show me the number of funding schemes titled Coordination (or networking) actions INFSO - FET?
+(2) How many funding schemes are there for the target definition “Coordination (or networking) actions INFSO - FET”?
+(3) How many funding schemes with title Coordination (or networking) actions INFSO - FET are there?
+(4) How many funding schemes are there for the project Coordination (or networking) actions INFSO - FET?
+(5) Total number of funding schemes with title Coordination (or networking) actions INFSO - FET
+(6) How many funding scheme are there called Coordination (or networking) actions INFSO - FET?
+(7) How many funding schemes are there with title Coordination (or networking) actions INFSO - FET
+
+
+Re-ranked choices:
+6.546  How many funding schemes with title Coordination (or networking) actions INFSO - FET are there?
+6.523  How many funding schemes are there with title Coordination (or networking) actions INFSO - FET?
+6.409  How many funding scheme are there called Coordination (or networking) actions INFSO - FET?
+6.395  How many funding schemes are there for the project Coordination (or networking) actions INFSO - FET?
+6.384  Total number of funding schemes with title Coordination (or networking) actions INFSO - FET
+6.379  How many funding schemes are there with title Coordination (or networking) actions INFSO - FET
+6.335  How many funding schemes are there for the target definition “Coordination (or networking) actions INFSO - FET”?
+6.236  Show me the number of funding schemes titled Coordination (or networking) actions INFSO - FET?
+

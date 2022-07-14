@@ -1,0 +1,28 @@
+SELECT countries.country_code FROM countries WHERE countries.country_name = 'Switzerland'
+
+###
+
+
+Original Query:
+SELECT countries.country_code2 FROM countries WHERE countries.country_name = 'Switzerland'
+GPT-3 choices:
+(0) The countries countries with country name Switzerland.
+(1) Show the country code of all countries with the country name Switzerland.
+(2) What is the country code of Switzerland?
+(3) What is the country code for the country Switzerland?
+(4) Retrieve country code for country named "Switzerland"
+(5) Which country_code is associated with the country name Switzerland?
+(6) What are the countries codes of countries whose name is Switzerland?
+(7) Show all country codes of countries whose name is Switzerland
+
+
+Re-ranked choices:
+6.113  What are the countries codes of countries whose name is Switzerland?
+5.996  Which country_code is associated with the country name Switzerland?
+5.949  What is the country code for the country Switzerland?
+5.872  What is the country code of Switzerland?
+5.855  Show all country codes of countries whose name is Switzerland
+5.832  Show the country code of all countries with the country name Switzerland.
+5.750  Retrieve country code for country named "Switzerland"
+5.344  The countries countries with country name Switzerland.
+

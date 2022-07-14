@@ -1,0 +1,28 @@
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.acronym = 'CyberGenetics'
+
+###
+
+
+Original Query:
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.acronym = 'CyberGenetics'
+GPT-3 choices:
+(0) Retrieve the full name of people that have research project named "CyberGenetics"
+(1) Show the full name of all people whose project acronym is CyberGenetics
+(2) Retrieve the full name of people whose projects have the acronym "CyberGenetics"
+(3) Show me all the people involved in project CyberGenetics
+(4) What is the full name of the person with the principal investigator of the project CyberGenetics?
+(5) What are the full names of the people with principal investigator project whose acronym is CyberGenetics?
+(6) Show me the full name of people who are principal investigators and have a project with an acronym of ``CyberGenetics``
+(7) Show the full name of principal investigators of projects with the acronym CyberGenetics.
+
+
+Re-ranked choices:
+5.868  Show me the full name of people who are principal investigators and have a project with an acronym of ``CyberGenetics``
+5.838  Show the full name of principal investigators of projects with the acronym CyberGenetics.
+5.758  What are the full names of the people with principal investigator project whose acronym is CyberGenetics?
+5.621  Show the full name of all people whose project acronym is CyberGenetics
+5.533  Retrieve the full name of people whose projects have the acronym "CyberGenetics"
+5.419  What is the full name of the person with the principal investigator of the project CyberGenetics?
+5.309  Retrieve the full name of people that have research project named "CyberGenetics"
+5.047  Show me all the people involved in project CyberGenetics
+

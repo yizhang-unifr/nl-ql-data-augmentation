@@ -1,0 +1,28 @@
+SELECT topics.code FROM topics JOIN project_topics ON topics.code = project_topics.topic JOIN projects ON project_topics.project = projects.unics_id WHERE projects.unics_id != 175960
+
+###
+
+
+Original Query:
+SELECT topics.code FROM topics JOIN project_topics ON topics.code = project_topics.topic JOIN projects ON project_topics.project = projects.unics_id WHERE projects.unics_id != 175960
+GPT-3 choices:
+(0) Show me the topics of projects that are not 175960
+(1) Retrieve the topics of projects whose code is != 175960
+(2) Show me all topics used by projects that don't have the Unics code 175960
+(3) Show all the project topics.
+(4) Show me codes of topics of projects different than 175960
+(5) Retrieve topics of the project with UNIC funding code 175960
+(6) Show me the topics of projects different from 175960
+(7) Retrieve topics associated with projects with unics_id = 175960
+
+
+Re-ranked choices:
+4.901  Show me the topics of projects that are not 175960
+4.851  Show me codes of topics of projects different than 175960
+4.764  Show me all topics used by projects that don't have the Unics code 175960
+4.743  Show me the topics of projects different from 175960
+4.537  Retrieve the topics of projects whose code is != 175960
+4.331  Show all the project topics.
+4.149  Retrieve topics of the project with UNIC funding code 175960
+4.094  Retrieve topics associated with projects with unics_id = 175960
+

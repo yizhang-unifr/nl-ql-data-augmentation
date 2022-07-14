@@ -1,0 +1,28 @@
+SELECT count(*) FROM programmes WHERE programmes.rcn = '16100'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM programmes WHERE programmes.rcn = '16100'
+GPT-3 choices:
+(0) How many programmes are there about pharmacology?
+(1) How many programmes are there in the region 16100?
+(2) Count the number of programmes whose RCN is 16100.
+(3) How many programmes are there with rcn 16100?
+(4) Number of programmes with rcn=16100
+(5) Show the number of programmes that have an rcn of 16100
+(6) How many programmes are there with Rcn = 16100
+(7) How many programmes are there with an RCN equal to 16100?
+
+
+Re-ranked choices:
+5.693  How many programmes are there with an RCN equal to 16100?
+5.662  How many programmes are there with rcn 16100?
+5.601  Number of programmes with rcn=16100
+5.599  How many programmes are there with Rcn = 16100
+5.435  Count the number of programmes whose RCN is 16100.
+5.424  Show the number of programmes that have an rcn of 16100
+4.410  How many programmes are there in the region 16100?
+3.076  How many programmes are there about pharmacology?
+

@@ -1,0 +1,16 @@
+SELECT erc_research_domains.code FROM erc_research_domains JOIN erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects ON project_erc_panels.project = projects.unics_id WHERE projects.start_year = 2020
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.code FROM erc_research_domains JOIN erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects ON project_erc_panels.project = projects.unics_id WHERE projects.start_year = 2020
+GPT-3 choices:
+(0) Retrieve the code of research domains of projects started in 2020, having an ERC panel.
+(1) List of ERC research domain codes of projects that started in 2020
+(2) Show me the research domains that have a panel with a project that starts in 2020
+(3) What is the code of the research domain of projects that start in 2020?
+(4) Show the code of erc research domains that have projects with a start year equal to 2020
+(5) Show me the ERC research domains that have a panel in a project started in 2020
+(6) Show me the research domains for projects starting in 2020
+(7) Return the ERC panels associated with projects starting in 2020

@@ -1,0 +1,16 @@
+SELECT activity_types.description FROM activity_types WHERE activity_types.code != 'PUB'
+
+###
+
+
+Original Query:
+SELECT activity_types.description FROM activity_types WHERE activity_types.code != 'PUB'
+GPT-3 choices:
+(0) Show activity types description except for PUBLIC activity type
+(1) Show the description of activity types that do not have the code 'PUB'
+(2) Show all activity types descriptions different than "PUB".
+(3) Show me all activity types that don't match 'PUB'
+(4) Show me descriptions of all activity types having a code != PUB
+(5) What are the different activity types that are not building construction?
+(6) Show activity type descriptions that are different than PUB.
+(7) Show me entities of activity type other than entity PUBLIC

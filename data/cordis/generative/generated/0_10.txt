@@ -1,0 +1,16 @@
+SELECT project_member_roles.description FROM project_member_roles WHERE project_member_roles.code = 'thirdParty'
+
+###
+
+
+Original Query:
+SELECT project_member_roles.description FROM project_member_roles WHERE project_member_roles.code = 'thirdParty'
+GPT-3 choices:
+(0) Show me all role descriptions of project members with code thirdParty
+(1) What are the project member role descriptions?
+(2) What are the project member roles of third parties?
+(3) Show me the description of project member roles named "thirdParty"
+(4) What are the descriptions of project member roles called thirdParty
+(5) Show me the different project member roles in a project with code thirdParty.
+(6) Show all descriptions of project member roles that have the code thirdParty
+(7) Show all descriptions for project member roles "thirdParty"

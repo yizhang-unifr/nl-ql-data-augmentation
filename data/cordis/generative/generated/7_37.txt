@@ -1,0 +1,16 @@
+SELECT erc_research_domains.code FROM erc_research_domains WHERE erc_research_domains.description = 'Social Sciences And Humanities' or erc_research_domains.description = 'Social Sciences And Humanities'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.code FROM erc_research_domains WHERE erc_research_domains.description = 'Social Sciences And Humanities' or erc_research_domains.description = 'Social Sciences And Humanities'
+GPT-3 choices:
+(0) SHOW ERC research domains with description 'Social Sciences And Humanities' or 'Social Sciences And Humanities'
+(1) Show me the code for research domains in Social Sciences And Humanities or Social Sciences And Humanities
+(2) Show me all research domains in the category Social Sciences And Humanities
+(3) Retrieve the codes of the research domains in Social Sciences and Humanities.
+(4) Which are the ERC research domains with description Social Sciences And Humanities?
+(5) Show me erc research domains that contain the description Social Sciences And Humanities
+(6) The ERC research domains with descriptions Social Sciences And Humanities or Social Sciences And Humanities.
+(7) Choose the code of European research council research domains whose description equals Social Sciences And Humanities or Social Sciences And Humanities

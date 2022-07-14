@@ -1,0 +1,28 @@
+SELECT institutions.acronym, count(*) FROM institutions  GROUP BY institutions.acronym
+
+###
+
+
+Original Query:
+SELECT institutions.acronym, count(*) FROM institutions  GROUP BY institutions.acronym
+GPT-3 choices:
+(0) How many institutions have different acronyms with the same count of institutions?
+(1) How many institutions have I?
+(2) Count the number of institutions with each acronym.
+(3) How many institutions are there altogether?
+(4) How many institutions we have?
+(5) Show the number of different acronyms used by institutions
+(6) Show the number of institutions associated with each acronym
+(7) How many institutions are there?
+
+
+Re-ranked choices:
+5.393  How many institutions have different acronyms with the same count of institutions?
+5.281  How many institutions are there?
+5.205  How many institutions are there altogether?
+5.134  Count the number of institutions with each acronym.
+5.083  Show the number of institutions associated with each acronym
+5.066  How many institutions we have?
+4.917  How many institutions have I?
+4.748  Show the number of different acronyms used by institutions
+

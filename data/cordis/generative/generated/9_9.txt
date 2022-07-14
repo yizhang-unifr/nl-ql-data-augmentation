@@ -1,0 +1,16 @@
+SELECT project_member_roles.description FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.ec_contribution != 169610.0
+
+###
+
+
+Original Query:
+SELECT project_member_roles.description FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.ec_contribution != 169610.0
+GPT-3 choices:
+(0) Show me the project member roles of project members different from "EC Contribution 169610.0"
+(1) What are the project member roles descriptions for projects where the project member does not have the european contribution number 169610.0?
+(2) What are the project member roles?
+(3) What are the project member role descriptions of the members who have not contributed 169610 euros?
+(4) What are the descriptions of all project member roles?
+(5) Show project members' roles where the project members' contribution is != 169610.0
+(6) Show the description of project member roles for projects that do not have a member with a contribution of 169610.0?
+(7) Show project member roles associated with project members whose contribution is != 169610

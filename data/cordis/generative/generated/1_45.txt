@@ -1,0 +1,16 @@
+SELECT projects.start_date FROM projects JOIN project_members ON projects.unics_id = project_members.project WHERE project_members.vat_number = 'EL094157119'
+
+###
+
+
+Original Query:
+SELECT projects.start_date FROM projects JOIN project_members ON projects.unics_id = project_members.project WHERE project_members.vat_number = 'EL094157119'
+GPT-3 choices:
+(0) Show me projects that have a member whose vat number is EL094157119 .
+(1) What is the starting date of projects that have a member with vat number EL094157119?
+(2) Show the start date of projects that have a member with vat number EL094157119
+(3) Show dates of projects that have a member with the vat number EL094157119
+(4) What is the start date of projects that have a member whose vat number is EL094157119
+(5) Show the start date of projects assigned to the participant with vat number EL094157119.
+(6) Show me projects from which I can select a member with VAT number EL094157119
+(7) Retrieve the start date of all projects that have a member with the vat number EL094157119

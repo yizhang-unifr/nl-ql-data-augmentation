@@ -1,0 +1,28 @@
+SELECT erc_research_domains.code FROM erc_research_domains WHERE erc_research_domains.description != 'Interdisciplinary'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.code FROM erc_research_domains WHERE erc_research_domains.description != 'Interdisciplinary'
+GPT-3 choices:
+(0) Display the code of European Research Council research domains that are not interdisciplinary.
+(1) show me the code of all research domains that are not interdisciplinary
+(2) The ERC Research Domain that does not end in Interdisciplinary.
+(3) Show me institutions whose research domain isn't "Interdisciplinary"
+(4) Get all the codes of research domains different from 'Interdisciplinary'
+(5) What are the codes of research domains that are not interdisciplinary?
+(6) Get the codes for research domains that are not about interdisciplinary research.
+(7) Show me the research domains that are not interdisciplinary.
+
+
+Re-ranked choices:
+5.687  Show me the code of all research domains that are not interdisciplinary
+5.628  What are the codes of research domains that are not interdisciplinary?
+5.420  Get the codes for research domains that are not about interdisciplinary research.
+5.390  Show me the research domains that are not interdisciplinary.
+5.071  Get all the codes of research domains different from 'Interdisciplinary'
+4.981  Show me institutions whose research domain isn't "Interdisciplinary"
+4.651  Display the code of European Research Council research domains that are not interdisciplinary.
+4.219  The ERC Research Domain that does not end in Interdisciplinary.
+

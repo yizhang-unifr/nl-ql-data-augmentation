@@ -1,0 +1,27 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions != 'FRC13'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions != 'FRC13'
+GPT-3 choices:
+(0) Show me the descriptions of the territorial units that are not located in the Geocode Region Code 'FRC13'
+(1) Show me the description of all european territorial units which are not part of region FRC13.
+(2) Show me territorial units located in the region FRC13
+(3) Show me all territorial units that are not in the Geocode Region FRC13
+(4) Show me the territorial units that have a different geocode region than "FRC13"
+(5) 
+(6) Show eu territorial units descriptions for which the geocode region is not FRC13
+(7) Show me the territorial unit descriptions not in the geocode region FRC13.
+
+
+Re-ranked choices:
+5.288  Show me the descriptions of the territorial units that are not located in the Geocode Region Code 'FRC13'
+5.202  Show me all territorial units that are not in the Geocode Region FRC13
+5.200  Show me the territorial unit descriptions not in the geocode region FRC13.
+5.191  Show me the territorial units that have a different geocode region than "FRC13"
+5.075  Show eu territorial units descriptions for which the geocode region is not FRC13
+4.828  Show me territorial units located in the region FRC13
+4.650  Show me the description of all european territorial units which are not part of region FRC13.
+

@@ -1,0 +1,16 @@
+SELECT project_member_roles.description FROM project_member_roles WHERE project_member_roles.code != 'internationalPartner'
+
+###
+
+
+Original Query:
+SELECT project_member_roles.description FROM project_member_roles WHERE project_member_roles.code != 'internationalPartner'
+GPT-3 choices:
+(0) The project members' different role descriptions except international partner
+(1) Show all project member roels that are not International partners
+(2) Retrieve project member roles which are not "international partners"
+(3) What are the descriptions of the project member roles that are different from international partner?
+(4) What are the descriptions of project member roles that are different from international partnerships?
+(5) Show project member roles, which do not have the code internationalPartner
+(6) Show me project member roles that are not of project internationalPartner
+(7) What are the descriptions of project member roles that are not for an international partner?

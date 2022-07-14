@@ -1,0 +1,16 @@
+SELECT institutions.db_pedia_url FROM institutions JOIN countries ON institutions.country_id = countries.unics_id WHERE countries.country_name = 'Swaziland'
+
+###
+
+
+Original Query:
+SELECT institutions.db_pedia_url FROM institutions JOIN countries ON institutions.country_id = countries.unics_id WHERE countries.country_name = 'Swaziland'
+GPT-3 choices:
+(0) Display the name and Wikipedia URL of institutions located in Swaziland.
+(1) Show the db-pedia url of all institutions in Swaziland.
+(2) Retrieve the URL of institutions whose country is Swaziland
+(3) What is the URL of the encyclopedia of institutions in Swaziland?
+(4) What is the db-related encyclopedia url of all institutions located in Swaziland?
+(5) Show me the database wiki url of the institutions located in the country of Swaziland
+(6) Show the database EPIC url of all institutions located in Swaziland
+(7) Show the wikipedia url for the institution with country name of Swaziland

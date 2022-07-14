@@ -1,0 +1,28 @@
+SELECT programmes.title FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.end_date != '2014-04-30'
+
+###
+
+
+Original Query:
+SELECT programmes.title FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.end_date != '2014-04-30'
+GPT-3 choices:
+(0) Show me programmes with projects whose end date is not 2014-04-30.
+(1) Show me project programmes that end date is different than the date 2014-04-30
+(2) Select programmes of projects that don't end on 2014-04-30
+(3) What is the title of the programmes of projects that didn't end in 2014-04-30
+(4) Retrieve the title of all programmes associated to a project whose end date is not 2014-04-30
+(5) What are the project programmes' titles?
+(6) Show me all programmes for a project that ended on != 2014-04-30
+(7) Show me programmes for projects that did not end at 2014-04-30
+
+
+Re-ranked choices:
+5.558  Show me programmes for projects that did not end at 2014-04-30
+5.480  Show me programmes with projects whose end date is not 2014-04-30.
+5.274  Show me all programmes for a project that ended on != 2014-04-30
+5.112  Select programmes of projects that don't end on 2014-04-30
+5.048  What is the title of the programmes of projects that didn't end in 2014-04-30
+4.852  Show me project programmes that end date is different than the date 2014-04-30
+4.849  Retrieve the title of all programmes associated to a project whose end date is not 2014-04-30
+3.932  What are the project programmes' titles?
+

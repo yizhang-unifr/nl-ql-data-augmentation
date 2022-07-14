@@ -1,0 +1,28 @@
+SELECT count(*) FROM countries WHERE countries.country_name = 'New Zealand'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM countries WHERE countries.country_name = 'New Zealand'
+GPT-3 choices:
+(0) How many countries are there in the world with country name New Zealand?
+(1) The number of countries whose country name is New Zealand
+(2) Show the total number of countries:
+(3) How many countries are in the world with the name 'New Zealand'?
+(4) Show me the number of different countries that have the name New Zealand
+(5) How many countries are there in the world whose name is New Zealand ?
+(6) Count the number of countries where country_name = 'New Zealand'.
+(7) How many countries have the country name New Zealand?
+
+
+Re-ranked choices:
+6.051  How many countries are there in the world with country name New Zealand?
+6.026  How many countries are there in the world whose name is New Zealand ?
+6.021  Show me the number of different countries that have the name New Zealand
+6.001  How many countries are in the world with the name 'New Zealand'?
+5.982  How many countries have the country name New Zealand?
+5.834  The number of countries whose country name is New Zealand
+5.581  Count the number of countries where country_name = 'New Zealand'.
+3.742  Show the total number of countries:
+

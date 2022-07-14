@@ -1,0 +1,28 @@
+SELECT projects.framework_program FROM projects WHERE projects.end_year != 2015
+
+###
+
+
+Original Query:
+SELECT projects.framework_program FROM projects WHERE projects.end_year != 2015
+GPT-3 choices:
+(0) Show all the framework programs of the projects which didn't end in 2015
+(1) Show me all the projects that didn't end in 2015
+(2) Show me all major programs that were not active in 2015.
+(3) Display the list of framework programmes of projects that did not end in 2015
+(4) What is the name of the framework program of projects which ended in 2015?
+(5) Display all the framework programs of all projects, whose end year is not 2015.
+(6) Show me the frameworks of all projects that didn't end in 2015
+(7) Retrieve all non-2015 project's frameworkprograms
+
+
+Re-ranked choices:
+5.795  Show all the framework programs of the projects which didn't end in 2015
+5.709  Show me the frameworks of all projects that didn't end in 2015
+5.486  Display the list of framework programmes of projects that did not end in 2015
+5.464  Display all the framework programs of all projects, whose end year is not 2015.
+5.139  Show me all the projects that didn't end in 2015
+4.915  What is the name of the framework program of projects which ended in 2015?
+4.864  Retrieve all non-2015 project's frameworkprograms
+4.200  Show me all major programs that were not active in 2015.
+

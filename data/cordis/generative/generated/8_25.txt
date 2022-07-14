@@ -1,0 +1,16 @@
+SELECT subject_areas.description FROM subject_areas WHERE subject_areas.title != 'Energy Saving'
+
+###
+
+
+Original Query:
+SELECT subject_areas.description FROM subject_areas WHERE subject_areas.title != 'Energy Saving'
+GPT-3 choices:
+(0) Retrieve all subject areas that are not titled 'Energy Saving'
+(1) Show all description for subject areas that are not called Energy Saving.
+(2) Show the description of subject areas where the title is not Energy Saving
+(3) Show me the subject areas that are not about Energy Saving.
+(4) Show me subject areas that are not titled Energy Saving
+(5) Show me all subject areas with a different title than `Energy Saving`.
+(6) Show me the subject areas that are not called “Energy Saving”
+(7) Show me subject areas that don't have the title Energy Saving

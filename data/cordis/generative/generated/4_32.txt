@@ -1,0 +1,16 @@
+SELECT count(*) FROM institutions WHERE institutions.wikidata_url = 'http://www.wikidata.org/wiki/Q15279421'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM institutions WHERE institutions.wikidata_url = 'http://www.wikidata.org/wiki/Q15279421'
+GPT-3 choices:
+(0) How many have a wikidata entry?
+(1) How many institutions are associated with the concept Wikidata item Q15279421?
+(2) How many institutions have Wikidata item Q15279421
+(3) Show me the number of institutions associated with wikidata item Q15279421
+(4) How many institutions are there with a wikidata_url value of http://www.wikidata.org/wiki/Q15279421?
+(5) What is the total number of institutions?
+(6) How many institutions in the wikidata link http://www.wikidata.org/wiki/Q15279421?
+(7) Count the number of different institutions that have Wikidata entry http://www.wikidata.org/wiki/Q15279421

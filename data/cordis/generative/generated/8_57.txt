@@ -1,0 +1,16 @@
+SELECT projects.ec_fund_scheme FROM projects WHERE projects.end_date != '2022-02-28'
+
+###
+
+
+Original Query:
+SELECT projects.ec_fund_scheme FROM projects WHERE projects.end_date != '2022-02-28'
+GPT-3 choices:
+(0) What is the ec fund scheme of projects that doesn't end in 2022-02-28?
+(1) Show the ec fund scheme of all projects which do not end in 2022-02-28
+(2) Show me payment rules for projects that are not ending in 2022-02-28
+(3) Show all the european research and developement funding schemes of projects that ended before 2022-02-28
+(4) Show all EC funding schemes for projects that do not end in 2022-02-28.
+(5) Return all funding schemes in projects that don't end in 2022-02-28
+(6) What is the ec funding scheme of projects that don't end on 2022-02-28
+(7) Show me all EC fund schemes of projects that don't end in 2022-02-28

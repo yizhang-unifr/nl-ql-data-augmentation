@@ -1,0 +1,16 @@
+SELECT count(*) FROM project_member_roles
+
+###
+
+
+Original Query:
+SELECT count(*) FROM project_member_roles
+GPT-3 choices:
+(0) Total number of project member roles.
+(1) Count the number of project member roles
+(2) How many project member roles are there?
+(3) How many project member roles are there?
+(4) How many project member roles are there?
+(5) How many projects have members from the role “project manager”?
+(6) How many project member roles are there?
+(7) Count all project member roles.

@@ -1,0 +1,10989 @@
+[
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "What is photometrically observed star",
+    "question_toks": [
+      "What",
+      "is",
+      "photometrically",
+      "observed",
+      "star"
+    ],
+    "query": "select p.objid from photoobj as p JOIN photo_type as pt on p.type = pt.value where pt.name = 'STAR' ",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ],
+          [
+            "table_unit",
+            5
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                14,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              134,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                8,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              135,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "p.objid",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "join",
+      "photo_type",
+      "as",
+      "pt",
+      "on",
+      "p.type",
+      "=",
+      "pt.value",
+      "where",
+      "pt.name",
+      "=",
+      "\"STAR\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all photometrically observable star that have spectral observations. Retrieve the object id, right ascension, and declination. ",
+    "question_toks": [
+      "Find",
+      "all",
+      "photometrically",
+      "observable",
+      "star",
+      "that",
+      "have",
+      "spectral",
+      "observations",
+      ".",
+      "Retrieve",
+      "the",
+      "object",
+      "i",
+      "d",
+      ",",
+      "right",
+      "ascension",
+      ",",
+      "and",
+      "declination",
+      "."
+    ],
+    "query": "select p.objid, p.ra, p.dec from photoobj as p join specobj as s on s.bestobjid = p.objid join photo_type as pt on p.type = pt.value where pt.name = 'STAR'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ],
+          [
+            "table_unit",
+            4
+          ],
+          [
+            "table_unit",
+            5
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                111,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              8,
+              false
+            ],
+            null
+          ],
+          "and",
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                14,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              134,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                8,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                84,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                85,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              135,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "p.objid",
+      ",",
+      "p.ra",
+      ",",
+      "p.dec",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "join",
+      "specobj",
+      "as",
+      "s",
+      "on",
+      "s.bestobjid",
+      "=",
+      "p.objid",
+      "join",
+      "photo_type",
+      "as",
+      "pt",
+      "on",
+      "p.type",
+      "=",
+      "pt.value",
+      "where",
+      "pt.name",
+      "=",
+      "\"STAR\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "What is photometrically observed Galaxy",
+    "question_toks": [
+      "What",
+      "is",
+      "photometrically",
+      "observed",
+      "Galaxy"
+    ],
+    "query": "select p.objid from photoobj as p JOIN photo_type as pt on p.type = pt.value where pt.name = 'GALAXY'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ],
+          [
+            "table_unit",
+            5
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                14,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              134,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                8,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              135,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "p.objid",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "join",
+      "photo_type",
+      "as",
+      "pt",
+      "on",
+      "p.type",
+      "=",
+      "pt.value",
+      "where",
+      "pt.name",
+      "=",
+      "\"GALAXY\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all photometrically observable Galaxy that have spectral observations. Retrieve the object id, right ascension, and declination. ",
+    "question_toks": [
+      "Find",
+      "all",
+      "photometrically",
+      "observable",
+      "Galaxy",
+      "that",
+      "have",
+      "spectral",
+      "observations",
+      ".",
+      "Retrieve",
+      "the",
+      "object",
+      "i",
+      "d",
+      ",",
+      "right",
+      "ascension",
+      ",",
+      "and",
+      "declination",
+      "."
+    ],
+    "query": "select p.objid, p.ra, p.dec from photoobj as p join specobj as s on s.bestobjid = p.objid join photo_type as pt on p.type = pt.value where  pt.name = 'STAR'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ],
+          [
+            "table_unit",
+            4
+          ],
+          [
+            "table_unit",
+            5
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                111,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              8,
+              false
+            ],
+            null
+          ],
+          "and",
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                14,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              134,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                8,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                84,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                85,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              135,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "p.objid",
+      ",",
+      "p.ra",
+      ",",
+      "p.dec",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "join",
+      "specobj",
+      "as",
+      "s",
+      "on",
+      "s.bestobjid",
+      "=",
+      "p.objid",
+      "join",
+      "photo_type",
+      "as",
+      "pt",
+      "on",
+      "p.type",
+      "=",
+      "pt.value",
+      "where",
+      "pt.name",
+      "=",
+      "\"STAR\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find the object ids, right ascensions and declinations of photometrically observable galaxy whose right ascension is greater than 185, right ascension is less than 186, declination is greater than 15, declination is less than 16.",
+    "question_toks": [
+      "Find",
+      "the",
+      "object",
+      "ids",
+      ",",
+      "right",
+      "ascensions",
+      "and",
+      "declinations",
+      "of",
+      "photometrically",
+      "observable",
+      "galaxy",
+      "whose",
+      "right",
+      "ascension",
+      "is",
+      "greater",
+      "than",
+      "185",
+      ",",
+      "right",
+      "ascension",
+      "is",
+      "less",
+      "than",
+      "186",
+      ",",
+      "declination",
+      "is",
+      "greater",
+      "than",
+      "15",
+      ",",
+      "declination",
+      "is",
+      "less",
+      "than",
+      "16",
+      "."
+    ],
+    "query": "select p.objid, p.ra, p.dec from photoobj as p JOIN photo_type as pt on p.type = pt.value where p.ra > 185 and p.ra < 186 and p.dec > 15 and p.dec < 16 and pt.name = 'GALAXY'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ],
+          [
+            "table_unit",
+            5
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                14,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              134,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                8,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                84,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                85,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          3,
+          [
+            0,
+            [
+              0,
+              84,
+              false
+            ],
+            null
+          ],
+          185.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            0,
+            [
+              0,
+              84,
+              false
+            ],
+            null
+          ],
+          186.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          3,
+          [
+            0,
+            [
+              0,
+              85,
+              false
+            ],
+            null
+          ],
+          15.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            0,
+            [
+              0,
+              85,
+              false
+            ],
+            null
+          ],
+          16.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              135,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "p.objid",
+      ",",
+      "p.ra",
+      ",",
+      "p.dec",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "join",
+      "photo_type",
+      "as",
+      "pt",
+      "on",
+      "p.type",
+      "=",
+      "pt.value",
+      "where",
+      "p.ra",
+      ">",
+      "185",
+      "and",
+      "p.ra",
+      "<",
+      "186",
+      "and",
+      "p.dec",
+      ">",
+      "15",
+      "and",
+      "p.dec",
+      "<",
+      "16",
+      "and",
+      "pt.name",
+      "=",
+      "\"GALAXY\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find the object ids, right ascensions and declinations of photometrically observable star whose right ascension is greater than 185, right ascension is less than 186, declination is greater than 15, declination is less than 16.",
+    "question_toks": [
+      "Find",
+      "the",
+      "object",
+      "ids",
+      ",",
+      "right",
+      "ascensions",
+      "and",
+      "declinations",
+      "of",
+      "photometrically",
+      "observable",
+      "star",
+      "whose",
+      "right",
+      "ascension",
+      "is",
+      "greater",
+      "than",
+      "185",
+      ",",
+      "right",
+      "ascension",
+      "is",
+      "less",
+      "than",
+      "186",
+      ",",
+      "declination",
+      "is",
+      "greater",
+      "than",
+      "15",
+      ",",
+      "declination",
+      "is",
+      "less",
+      "than",
+      "16",
+      "."
+    ],
+    "query": "select p.objid, p.ra, p.dec from photoobj as p JOIN photo_type as pt on p.type = pt.value where p.ra > 185 and p.ra < 186 and p.dec > 15 and p.dec < 16 and pt.name = 'STAR'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ],
+          [
+            "table_unit",
+            5
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                14,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              134,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                8,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                84,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                85,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          3,
+          [
+            0,
+            [
+              0,
+              84,
+              false
+            ],
+            null
+          ],
+          185.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            0,
+            [
+              0,
+              84,
+              false
+            ],
+            null
+          ],
+          186.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          3,
+          [
+            0,
+            [
+              0,
+              85,
+              false
+            ],
+            null
+          ],
+          15.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            0,
+            [
+              0,
+              85,
+              false
+            ],
+            null
+          ],
+          16.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              135,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "p.objid",
+      ",",
+      "p.ra",
+      ",",
+      "p.dec",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "join",
+      "photo_type",
+      "as",
+      "pt",
+      "on",
+      "p.type",
+      "=",
+      "pt.value",
+      "where",
+      "p.ra",
+      ">",
+      "185",
+      "and",
+      "p.ra",
+      "<",
+      "186",
+      "and",
+      "p.dec",
+      ">",
+      "15",
+      "and",
+      "p.dec",
+      "<",
+      "16",
+      "and",
+      "pt.name",
+      "=",
+      "\"STAR\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all spectroscopic observed star,  whose right ascension is greater than 185 and less than 186, declination is greater than 15 and less than 16. Retrieve their object id, right ascension, declination, and photometric object type",
+    "question_toks": [
+      "Find",
+      "all",
+      "spectroscopic",
+      "observed",
+      "star",
+      ",",
+      " ",
+      "whose",
+      "right",
+      "ascension",
+      "is",
+      "greater",
+      "than",
+      "185",
+      "and",
+      "less",
+      "than",
+      "186",
+      ",",
+      "declination",
+      "is",
+      "greater",
+      "than",
+      "15",
+      "and",
+      "less",
+      "than",
+      "16",
+      ".",
+      "Retrieve",
+      "their",
+      "object",
+      "i",
+      "d",
+      ",",
+      "right",
+      "ascension",
+      ",",
+      "declination",
+      ",",
+      "and",
+      "photometric",
+      "object",
+      "type"
+    ],
+    "query": "select p.objID, p.ra, p.dec, s.z from Photoobj as p join specobj as s on s.bestobjid = p.objid where s.ra > 185 and s.ra < 186 AND s.dec > 15 and s.dec < 16 and s.class = 'STAR'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ],
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                111,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              8,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                8,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                84,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                85,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                126,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          3,
+          [
+            0,
+            [
+              0,
+              124,
+              false
+            ],
+            null
+          ],
+          185.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            0,
+            [
+              0,
+              124,
+              false
+            ],
+            null
+          ],
+          186.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          3,
+          [
+            0,
+            [
+              0,
+              125,
+              false
+            ],
+            null
+          ],
+          15.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            0,
+            [
+              0,
+              125,
+              false
+            ],
+            null
+          ],
+          16.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "p.objid",
+      ",",
+      "p.ra",
+      ",",
+      "p.dec",
+      ",",
+      "s.z",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "join",
+      "specobj",
+      "as",
+      "s",
+      "on",
+      "s.bestobjid",
+      "=",
+      "p.objid",
+      "where",
+      "s.ra",
+      ">",
+      "185",
+      "and",
+      "s.ra",
+      "<",
+      "186",
+      "and",
+      "s.dec",
+      ">",
+      "15",
+      "and",
+      "s.dec",
+      "<",
+      "16",
+      "and",
+      "s.class",
+      "=",
+      "\"STAR\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find properties of all spectroscopic observed galaxy,  whose right ascension is greater than 185 and less than 186, declination is greater than 15 and less than 16.",
+    "question_toks": [
+      "Find",
+      "properties",
+      "of",
+      "all",
+      "spectroscopic",
+      "observed",
+      "galaxy",
+      ",",
+      " ",
+      "whose",
+      "right",
+      "ascension",
+      "is",
+      "greater",
+      "than",
+      "185",
+      "and",
+      "less",
+      "than",
+      "186",
+      ",",
+      "declination",
+      "is",
+      "greater",
+      "than",
+      "15",
+      "and",
+      "less",
+      "than",
+      "16",
+      "."
+    ],
+    "query": "select p.objID, p.ra, p.dec, s.z from Photoobj as p join specobj as s on s.bestobjid = p.objid where s.ra > 185 and s.ra < 186 AND s.dec > 15 and s.dec < 16 and s.class = 'GALAXY'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ],
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                111,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              8,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                8,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                84,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                85,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                126,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          3,
+          [
+            0,
+            [
+              0,
+              124,
+              false
+            ],
+            null
+          ],
+          185.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            0,
+            [
+              0,
+              124,
+              false
+            ],
+            null
+          ],
+          186.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          3,
+          [
+            0,
+            [
+              0,
+              125,
+              false
+            ],
+            null
+          ],
+          15.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            0,
+            [
+              0,
+              125,
+              false
+            ],
+            null
+          ],
+          16.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "p.objid",
+      ",",
+      "p.ra",
+      ",",
+      "p.dec",
+      ",",
+      "s.z",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "join",
+      "specobj",
+      "as",
+      "s",
+      "on",
+      "s.bestobjid",
+      "=",
+      "p.objid",
+      "where",
+      "s.ra",
+      ">",
+      "185",
+      "and",
+      "s.ra",
+      "<",
+      "186",
+      "and",
+      "s.dec",
+      ">",
+      "15",
+      "and",
+      "s.dec",
+      "<",
+      "16",
+      "and",
+      "s.class",
+      "=",
+      "\"GALAXY\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all starburst galaxies",
+    "question_toks": [
+      "Find",
+      "all",
+      "starburst",
+      "galaxies"
+    ],
+    "query": "select s.specobjid from specobj as s where s.subclass = 'STARBURST'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              130,
+              false
+            ],
+            null
+          ],
+          "\"STARBURST\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "s.specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.subclass",
+      "=",
+      "\"STARBURST\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find the object ids, classes and subclasses of spectroscopic Galaxy with AGN.",
+    "question_toks": [
+      "Find",
+      "the",
+      "object",
+      "ids",
+      ",",
+      "classes",
+      "and",
+      "subclasses",
+      "of",
+      "spectroscopic",
+      "Galaxy",
+      "with",
+      "AGN",
+      "."
+    ],
+    "query": "select s.specobjid, s.class, s.subclass from specobj as s where s.subclass like '%AGN%' and s.class = 'GALAXY'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                129,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                130,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          9,
+          [
+            0,
+            [
+              0,
+              130,
+              false
+            ],
+            null
+          ],
+          "\"%AGN%\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "s.specobjid",
+      ",",
+      "s.class",
+      ",",
+      "s.subclass",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.subclass",
+      "like",
+      "\"%AGN%\"",
+      "and",
+      "s.class",
+      "=",
+      "\"GALAXY\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find galaxy with Type I AGN BROADLINE.",
+    "question_toks": [
+      "Find",
+      "galaxy",
+      "with",
+      "Type",
+      "I",
+      "AGN",
+      "BROADLINE",
+      "."
+    ],
+    "query": "select s.specobjid from specobj as s where s.subclass = 'AGN BROADLINE' and s.class = 'GALAXY'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              130,
+              false
+            ],
+            null
+          ],
+          "\"AGN BROADLINE\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "s.specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.subclass",
+      "=",
+      "\"AGN BROADLINE\"",
+      "and",
+      "s.class",
+      "=",
+      "\"GALAXY\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find Quasi stellar object (QSO)'",
+    "question_toks": [
+      "Find",
+      "Quasi",
+      "stellar",
+      "object",
+      "(",
+      "QSO",
+      ")",
+      "'"
+    ],
+    "query": "select specobjid from specobj where class = 'QSO'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"QSO\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "specobjid",
+      "from",
+      "specobj",
+      "where",
+      "class",
+      "=",
+      "\"QSO\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find type OB star",
+    "question_toks": [
+      "Find",
+      "type",
+      "OB",
+      "star"
+    ],
+    "query": "select s.specobjid from SpecObj as s where s.subclass = 'OB' and s.class = 'STAR'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              130,
+              false
+            ],
+            null
+          ],
+          "\"OB\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "s.specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.subclass",
+      "=",
+      "\"OB\"",
+      "and",
+      "s.class",
+      "=",
+      "\"STAR\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all spectroscopic objects whose subclass is 'Carbon' or 'Carbon_lines' and class is 'STAR'",
+    "question_toks": [
+      "Find",
+      "all",
+      "spectroscopic",
+      "objects",
+      "whose",
+      "subclass",
+      "is",
+      "'",
+      "Carbon",
+      "'",
+      "or",
+      "'",
+      "Carbon_lines",
+      "'",
+      "and",
+      "class",
+      "is",
+      "'",
+      "STAR",
+      "'"
+    ],
+    "query": "select s.specobjid from specobj as s where s.class = 'STAR' and s.subclass = 'Carbon' or s.subclass = 'Carbon_lines'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              130,
+              false
+            ],
+            null
+          ],
+          "\"Carbon\"",
+          null
+        ],
+        "or",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              130,
+              false
+            ],
+            null
+          ],
+          "\"Carbon_lines\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "s.specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.class",
+      "=",
+      "\"STAR\"",
+      "and",
+      "s.subclass",
+      "=",
+      "\"Carbon\"",
+      "or",
+      "s.subclass",
+      "=",
+      "\"Carbon_lines\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find the object ids, best object ids, spectroscopic subclass, programname and survey of spectroscopic white dwarf STAR ( WD )",
+    "question_toks": [
+      "Find",
+      "the",
+      "object",
+      "ids",
+      ",",
+      "best",
+      "object",
+      "ids",
+      ",",
+      "spectroscopic",
+      "subclass",
+      ",",
+      "programname",
+      "and",
+      "survey",
+      "of",
+      "spectroscopic",
+      "white",
+      "dwarf",
+      "STAR",
+      "(",
+      "WD",
+      ")"
+    ],
+    "query": "select s.specobjid, s.bestobjid, s.subclass, s.programname, s.survey from specobj as s where s.class = 'STAR' and s.subclass like '%WD%'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                111,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                130,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                116,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                115,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          9,
+          [
+            0,
+            [
+              0,
+              130,
+              false
+            ],
+            null
+          ],
+          "\"%WD%\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "s.specobjid",
+      ",",
+      "s.bestobjid",
+      ",",
+      "s.subclass",
+      ",",
+      "s.programname",
+      ",",
+      "s.survey",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.class",
+      "=",
+      "\"STAR\"",
+      "and",
+      "s.subclass",
+      "like",
+      "\"%WD%\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find stars of spectral type 'O'",
+    "question_toks": [
+      "Find",
+      "stars",
+      "of",
+      "spectral",
+      "type",
+      "'",
+      "O",
+      "'"
+    ],
+    "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like 'O%'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                130,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          9,
+          [
+            0,
+            [
+              0,
+              130,
+              false
+            ],
+            null
+          ],
+          "\"O%\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "s.specobjid",
+      ",",
+      "s.subclass",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.class",
+      "=",
+      "\"STAR\"",
+      "and",
+      "s.subclass",
+      "like",
+      "\"O%\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find star of spectral type 'B'",
+    "question_toks": [
+      "Find",
+      "star",
+      "of",
+      "spectral",
+      "type",
+      "'",
+      "B",
+      "'"
+    ],
+    "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like 'B%'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                130,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          9,
+          [
+            0,
+            [
+              0,
+              130,
+              false
+            ],
+            null
+          ],
+          "\"B%\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "s.specobjid",
+      ",",
+      "s.subclass",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.class",
+      "=",
+      "\"STAR\"",
+      "and",
+      "s.subclass",
+      "like",
+      "\"B%\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find star of spectral type 'A' and retrive spectroscopic object id and subclass. ",
+    "question_toks": [
+      "Find",
+      "star",
+      "of",
+      "spectral",
+      "type",
+      "'",
+      "A",
+      "'",
+      "and",
+      "retrive",
+      "spectroscopic",
+      "object",
+      "i",
+      "d",
+      "and",
+      "subclass",
+      "."
+    ],
+    "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like 'A%'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                130,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          9,
+          [
+            0,
+            [
+              0,
+              130,
+              false
+            ],
+            null
+          ],
+          "\"A%\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "s.specobjid",
+      ",",
+      "s.subclass",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.class",
+      "=",
+      "\"STAR\"",
+      "and",
+      "s.subclass",
+      "like",
+      "\"A%\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find star of spectral type 'F' and retrive spectroscopic object id and subclass. ",
+    "question_toks": [
+      "Find",
+      "star",
+      "of",
+      "spectral",
+      "type",
+      "'",
+      "F",
+      "'",
+      "and",
+      "retrive",
+      "spectroscopic",
+      "object",
+      "i",
+      "d",
+      "and",
+      "subclass",
+      "."
+    ],
+    "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like 'F%'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                130,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          9,
+          [
+            0,
+            [
+              0,
+              130,
+              false
+            ],
+            null
+          ],
+          "\"F%\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "s.specobjid",
+      ",",
+      "s.subclass",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.class",
+      "=",
+      "\"STAR\"",
+      "and",
+      "s.subclass",
+      "like",
+      "\"F%\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all spectroscopic objects whose class is 'STAR'' and subclass begins with 'G'",
+    "question_toks": [
+      "Find",
+      "all",
+      "spectroscopic",
+      "objects",
+      "whose",
+      "class",
+      "is",
+      "'",
+      "STAR",
+      "''",
+      "and",
+      "subclass",
+      "begins",
+      "with",
+      "'",
+      "G",
+      "'"
+    ],
+    "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like 'G%'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                130,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          9,
+          [
+            0,
+            [
+              0,
+              130,
+              false
+            ],
+            null
+          ],
+          "\"G%\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "s.specobjid",
+      ",",
+      "s.subclass",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.class",
+      "=",
+      "\"STAR\"",
+      "and",
+      "s.subclass",
+      "like",
+      "\"G%\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find star of spectral type 'K'",
+    "question_toks": [
+      "Find",
+      "star",
+      "of",
+      "spectral",
+      "type",
+      "'",
+      "K",
+      "'"
+    ],
+    "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like 'K%'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                130,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          9,
+          [
+            0,
+            [
+              0,
+              130,
+              false
+            ],
+            null
+          ],
+          "\"K%\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "s.specobjid",
+      ",",
+      "s.subclass",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.class",
+      "=",
+      "\"STAR\"",
+      "and",
+      "s.subclass",
+      "like",
+      "\"K%\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all spectroscopic objects whose class is 'STAR'' and subclass begins with 'M'",
+    "question_toks": [
+      "Find",
+      "all",
+      "spectroscopic",
+      "objects",
+      "whose",
+      "class",
+      "is",
+      "'",
+      "STAR",
+      "''",
+      "and",
+      "subclass",
+      "begins",
+      "with",
+      "'",
+      "M",
+      "'"
+    ],
+    "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like 'M%'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                130,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          9,
+          [
+            0,
+            [
+              0,
+              130,
+              false
+            ],
+            null
+          ],
+          "\"M%\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "s.specobjid",
+      ",",
+      "s.subclass",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.class",
+      "=",
+      "\"STAR\"",
+      "and",
+      "s.subclass",
+      "like",
+      "\"M%\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find star of spectral type 'L' or star of spectral type 'T'",
+    "question_toks": [
+      "Find",
+      "star",
+      "of",
+      "spectral",
+      "type",
+      "'",
+      "L",
+      "'",
+      "or",
+      "star",
+      "of",
+      "spectral",
+      "type",
+      "'",
+      "T",
+      "'"
+    ],
+    "query": "select s.specobjid, s.subclass from specobj as s where s.class = 'STAR' and s.subclass like 'L%' or s.subclass like 'T%'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                130,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          9,
+          [
+            0,
+            [
+              0,
+              130,
+              false
+            ],
+            null
+          ],
+          "\"L%\"",
+          null
+        ],
+        "or",
+        [
+          false,
+          9,
+          [
+            0,
+            [
+              0,
+              130,
+              false
+            ],
+            null
+          ],
+          "\"T%\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "s.specobjid",
+      ",",
+      "s.subclass",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.class",
+      "=",
+      "\"STAR\"",
+      "and",
+      "s.subclass",
+      "like",
+      "\"L%\"",
+      "or",
+      "s.subclass",
+      "like",
+      "\"T%\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all photometrically observable star with a difference of  magnitude u and magnitude g is less than 0.4,  the difference between magnitude g and magnitude r is less than 0.7, the difference between magnitude r and magnitude i is greater than 0.4 and the difference between magnitude g and magnitude r is greater than 0.4",
+    "question_toks": [
+      "Find",
+      "all",
+      "photometrically",
+      "observable",
+      "star",
+      "with",
+      "a",
+      "difference",
+      "of",
+      " ",
+      "magnitude",
+      "u",
+      "and",
+      "magnitude",
+      "g",
+      "is",
+      "less",
+      "than",
+      "0.4",
+      ",",
+      " ",
+      "the",
+      "difference",
+      "between",
+      "magnitude",
+      "g",
+      "and",
+      "magnitude",
+      "r",
+      "is",
+      "less",
+      "than",
+      "0.7",
+      ",",
+      "the",
+      "difference",
+      "between",
+      "magnitude",
+      "r",
+      "and",
+      "magnitude",
+      "i",
+      "is",
+      "greater",
+      "than",
+      "0.4",
+      "and",
+      "the",
+      "difference",
+      "between",
+      "magnitude",
+      "g",
+      "and",
+      "magnitude",
+      "r",
+      "is",
+      "greater",
+      "than",
+      "0.4"
+    ],
+    "query": "select p.objid from photoobj as p JOIN photo_type as pt on p.type = pt.value where pt.name = 'STAR' and p.u - p.g < 0.4  and p.g - p.r < 0.7 and p.r - p.i > 0.4 and p.i - p.z > 0.4",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ],
+          [
+            "table_unit",
+            5
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                14,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              134,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                8,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              135,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            1,
+            [
+              0,
+              93,
+              false
+            ],
+            [
+              0,
+              94,
+              false
+            ]
+          ],
+          0.4,
+          null
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            1,
+            [
+              0,
+              94,
+              false
+            ],
+            [
+              0,
+              95,
+              false
+            ]
+          ],
+          0.7,
+          null
+        ],
+        "and",
+        [
+          false,
+          3,
+          [
+            1,
+            [
+              0,
+              95,
+              false
+            ],
+            [
+              0,
+              96,
+              false
+            ]
+          ],
+          0.4,
+          null
+        ],
+        "and",
+        [
+          false,
+          3,
+          [
+            1,
+            [
+              0,
+              96,
+              false
+            ],
+            [
+              0,
+              97,
+              false
+            ]
+          ],
+          0.4,
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "p.objid",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "join",
+      "photo_type",
+      "as",
+      "pt",
+      "on",
+      "p.type",
+      "=",
+      "pt.value",
+      "where",
+      "pt.name",
+      "=",
+      "\"STAR\"",
+      "and",
+      "p.u",
+      "-",
+      "p.g",
+      "<",
+      "0.4",
+      "and",
+      "p.g",
+      "-",
+      "p.r",
+      "<",
+      "0.7",
+      "and",
+      "p.r",
+      "-",
+      "p.i",
+      ">",
+      "0.4",
+      "and",
+      "p.i",
+      "-",
+      "p.z",
+      ">",
+      "0.4"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all star in photometrically observable binary star system, of which the neighbor's distance less than 0.05,  the difference of magnitude u and magnitude g is lower than 0.4, the difference of magnitude g and magnitude r is lower than 0.7, the difference of magnitude r and magnitude i is higher than 0.4 and the difference of magnitude i and magnitude z is higher than 0.4",
+    "question_toks": [
+      "Find",
+      "all",
+      "star",
+      "in",
+      "photometrically",
+      "observable",
+      "binary",
+      "star",
+      "system",
+      ",",
+      "of",
+      "which",
+      "the",
+      "neighbor",
+      "'s",
+      "distance",
+      "less",
+      "than",
+      "0.05",
+      ",",
+      " ",
+      "the",
+      "difference",
+      "of",
+      "magnitude",
+      "u",
+      "and",
+      "magnitude",
+      "g",
+      "is",
+      "lower",
+      "than",
+      "0.4",
+      ",",
+      "the",
+      "difference",
+      "of",
+      "magnitude",
+      "g",
+      "and",
+      "magnitude",
+      "r",
+      "is",
+      "lower",
+      "than",
+      "0.7",
+      ",",
+      "the",
+      "difference",
+      "of",
+      "magnitude",
+      "r",
+      "and",
+      "magnitude",
+      "i",
+      "is",
+      "higher",
+      "than",
+      "0.4",
+      "and",
+      "the",
+      "difference",
+      "of",
+      "magnitude",
+      "i",
+      "and",
+      "magnitude",
+      "z",
+      "is",
+      "higher",
+      "than",
+      "0.4"
+    ],
+    "query": "select p.objid from photoobj as p join photo_type as pt on p.type = pt.value where pt.name = 'STAR' and (p.u - p.g) < 0.4 and (p.g - p.r) < 0.7 and  (p.r - p.i) > 0.4 and (p.i - p.z) > 0.4 and p.objid in (select n.objid from neighbors as n join photo_type as pt on n.neighbortype = pt.value where n.distance < 0.05 and pt.name = 'STAR');",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ],
+          [
+            "table_unit",
+            5
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                14,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              134,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                8,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              135,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            1,
+            [
+              0,
+              93,
+              false
+            ],
+            [
+              0,
+              94,
+              false
+            ]
+          ],
+          0.4,
+          null
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            1,
+            [
+              0,
+              94,
+              false
+            ],
+            [
+              0,
+              95,
+              false
+            ]
+          ],
+          0.7,
+          null
+        ],
+        "and",
+        [
+          false,
+          3,
+          [
+            1,
+            [
+              0,
+              95,
+              false
+            ],
+            [
+              0,
+              96,
+              false
+            ]
+          ],
+          0.4,
+          null
+        ],
+        "and",
+        [
+          false,
+          3,
+          [
+            1,
+            [
+              0,
+              96,
+              false
+            ],
+            [
+              0,
+              97,
+              false
+            ]
+          ],
+          0.4,
+          null
+        ],
+        "and",
+        [
+          false,
+          8,
+          [
+            0,
+            [
+              0,
+              8,
+              false
+            ],
+            null
+          ],
+          {
+            "from": {
+              "table_units": [
+                [
+                  "table_unit",
+                  0
+                ],
+                [
+                  "table_unit",
+                  5
+                ]
+              ],
+              "conds": [
+                [
+                  false,
+                  2,
+                  [
+                    0,
+                    [
+                      0,
+                      5,
+                      false
+                    ],
+                    null
+                  ],
+                  [
+                    0,
+                    134,
+                    false
+                  ],
+                  null
+                ]
+              ]
+            },
+            "select": [
+              false,
+              [
+                [
+                  0,
+                  [
+                    0,
+                    [
+                      0,
+                      1,
+                      false
+                    ],
+                    null
+                  ]
+                ]
+              ]
+            ],
+            "where": [
+              [
+                false,
+                4,
+                [
+                  0,
+                  [
+                    0,
+                    3,
+                    false
+                  ],
+                  null
+                ],
+                0.05,
+                null
+              ],
+              "and",
+              [
+                false,
+                2,
+                [
+                  0,
+                  [
+                    0,
+                    135,
+                    false
+                  ],
+                  null
+                ],
+                "\"STAR\"",
+                null
+              ]
+            ],
+            "groupBy": [],
+            "having": [],
+            "orderBy": [],
+            "limit": null,
+            "intersect": null,
+            "union": null,
+            "except": null
+          },
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "p.objid",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "join",
+      "photo_type",
+      "as",
+      "pt",
+      "on",
+      "p.type",
+      "=",
+      "pt.value",
+      "where",
+      "pt.name",
+      "=",
+      "\"STAR\"",
+      "and",
+      "(",
+      "p.u",
+      "-",
+      "p.g",
+      ")",
+      "<",
+      "0.4",
+      "and",
+      "(",
+      "p.g",
+      "-",
+      "p.r",
+      ")",
+      "<",
+      "0.7",
+      "and",
+      "(",
+      "p.r",
+      "-",
+      "p.i",
+      ")",
+      ">",
+      "0.4",
+      "and",
+      "(",
+      "p.i",
+      "-",
+      "p.z",
+      ")",
+      ">",
+      "0.4",
+      "and",
+      "p.objid",
+      "in",
+      "(",
+      "select",
+      "n.objid",
+      "from",
+      "neighbors",
+      "as",
+      "n",
+      "join",
+      "photo_type",
+      "as",
+      "pt",
+      "on",
+      "n.neighbortype",
+      "=",
+      "pt.value",
+      "where",
+      "n.distance",
+      "<",
+      "0.05",
+      "and",
+      "pt.name",
+      "=",
+      "\"STAR\"",
+      ")",
+      ";"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find the number of photometrically observed GALAXY whose magnitude r is less than 17, extinction r is greater than 0.2.",
+    "question_toks": [
+      "Find",
+      "the",
+      "number",
+      "of",
+      "photometrically",
+      "observed",
+      "GALAXY",
+      "whose",
+      "magnitude",
+      "r",
+      "is",
+      "less",
+      "than",
+      "17",
+      ",",
+      "extinction",
+      "r",
+      "is",
+      "greater",
+      "than",
+      "0.2",
+      "."
+    ],
+    "query": "select count(*) from photoobj as p join photo_type as pt on p.type = pt.value where p.r < 17 and p.extinction_r > 0.2 and pt.name = 'GALAXY'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ],
+          [
+            "table_unit",
+            5
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                14,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              134,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            3,
+            [
+              0,
+              [
+                0,
+                0,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          4,
+          [
+            0,
+            [
+              0,
+              95,
+              false
+            ],
+            null
+          ],
+          17.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          3,
+          [
+            0,
+            [
+              0,
+              89,
+              false
+            ],
+            null
+          ],
+          0.2,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              135,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "count",
+      "(",
+      "*",
+      ")",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "join",
+      "photo_type",
+      "as",
+      "pt",
+      "on",
+      "p.type",
+      "=",
+      "pt.value",
+      "where",
+      "p.r",
+      "<",
+      "17",
+      "and",
+      "p.extinction_r",
+      ">",
+      "0.2",
+      "and",
+      "pt.name",
+      "=",
+      "\"GALAXY\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all photometric observable GALAXY whose magnitude g is brighter than 22, the difference of magnitude u and magnitude g is between -0.27 and 0.71, the difference of magnitude g and magnitude r is between -0.24 and 0.35, the difference of magnitude r and magnitude i is between -0.27 and 0.57 and the difference of magnitude i and magnitude z is between -0.35 and 0.7. Retrieve the object id and magnitude g with descent order by magnitude g. ",
+    "question_toks": [
+      "Find",
+      "all",
+      "photometric",
+      "observable",
+      "GALAXY",
+      "whose",
+      "magnitude",
+      "g",
+      "is",
+      "brighter",
+      "than",
+      "22",
+      ",",
+      "the",
+      "difference",
+      "of",
+      "magnitude",
+      "u",
+      "and",
+      "magnitude",
+      "g",
+      "is",
+      "between",
+      "-0.27",
+      "and",
+      "0.71",
+      ",",
+      "the",
+      "difference",
+      "of",
+      "magnitude",
+      "g",
+      "and",
+      "magnitude",
+      "r",
+      "is",
+      "between",
+      "-0.24",
+      "and",
+      "0.35",
+      ",",
+      "the",
+      "difference",
+      "of",
+      "magnitude",
+      "r",
+      "and",
+      "magnitude",
+      "i",
+      "is",
+      "between",
+      "-0.27",
+      "and",
+      "0.57",
+      "and",
+      "the",
+      "difference",
+      "of",
+      "magnitude",
+      "i",
+      "and",
+      "magnitude",
+      "z",
+      "is",
+      "between",
+      "-0.35",
+      "and",
+      "0.7",
+      ".",
+      "Retrieve",
+      "the",
+      "object",
+      "i",
+      "d",
+      "and",
+      "magnitude",
+      "g",
+      "with",
+      "descent",
+      "order",
+      "by",
+      "magnitude",
+      "g."
+    ],
+    "query": "select p.objid, p.g from photoobj as p join photo_type as pt on p.type = pt.value where pt.name = 'GALAXY' and p.g <= 22 and p.u - p.g >= -0.27 and p.u - p.g < 0.71 and p.g - p.r  >= -0.24 and p.g - p.r < 0.35 and p.r - p.i >= -0.27 and p.r - p.i < 0.57 and p.i - p.z  >= -0.35 and p.i - p.z < 0.7 order by p.g desc",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ],
+          [
+            "table_unit",
+            5
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                14,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              134,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                8,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                94,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              135,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          6,
+          [
+            0,
+            [
+              0,
+              94,
+              false
+            ],
+            null
+          ],
+          22.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          5,
+          [
+            1,
+            [
+              0,
+              93,
+              false
+            ],
+            [
+              0,
+              94,
+              false
+            ]
+          ],
+          -0.27,
+          null
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            1,
+            [
+              0,
+              93,
+              false
+            ],
+            [
+              0,
+              94,
+              false
+            ]
+          ],
+          0.71,
+          null
+        ],
+        "and",
+        [
+          false,
+          5,
+          [
+            1,
+            [
+              0,
+              94,
+              false
+            ],
+            [
+              0,
+              95,
+              false
+            ]
+          ],
+          -0.24,
+          null
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            1,
+            [
+              0,
+              94,
+              false
+            ],
+            [
+              0,
+              95,
+              false
+            ]
+          ],
+          0.35,
+          null
+        ],
+        "and",
+        [
+          false,
+          5,
+          [
+            1,
+            [
+              0,
+              95,
+              false
+            ],
+            [
+              0,
+              96,
+              false
+            ]
+          ],
+          -0.27,
+          null
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            1,
+            [
+              0,
+              95,
+              false
+            ],
+            [
+              0,
+              96,
+              false
+            ]
+          ],
+          0.57,
+          null
+        ],
+        "and",
+        [
+          false,
+          5,
+          [
+            1,
+            [
+              0,
+              96,
+              false
+            ],
+            [
+              0,
+              97,
+              false
+            ]
+          ],
+          -0.35,
+          null
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            1,
+            [
+              0,
+              96,
+              false
+            ],
+            [
+              0,
+              97,
+              false
+            ]
+          ],
+          0.7,
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [
+        "desc",
+        [
+          [
+            0,
+            [
+              0,
+              94,
+              false
+            ],
+            null
+          ]
+        ]
+      ],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "p.objid",
+      ",",
+      "p.g",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "join",
+      "photo_type",
+      "as",
+      "pt",
+      "on",
+      "p.type",
+      "=",
+      "pt.value",
+      "where",
+      "pt.name",
+      "=",
+      "\"GALAXY\"",
+      "and",
+      "p.g",
+      "<=",
+      "22",
+      "and",
+      "p.u",
+      "-",
+      "p.g",
+      ">=",
+      "-0.27",
+      "and",
+      "p.u",
+      "-",
+      "p.g",
+      "<",
+      "0.71",
+      "and",
+      "p.g",
+      "-",
+      "p.r",
+      ">=",
+      "-0.24",
+      "and",
+      "p.g",
+      "-",
+      "p.r",
+      "<",
+      "0.35",
+      "and",
+      "p.r",
+      "-",
+      "p.i",
+      ">=",
+      "-0.27",
+      "and",
+      "p.r",
+      "-",
+      "p.i",
+      "<",
+      "0.57",
+      "and",
+      "p.i",
+      "-",
+      "p.z",
+      ">=",
+      "-0.35",
+      "and",
+      "p.i",
+      "-",
+      "p.z",
+      "<",
+      "0.7",
+      "order",
+      "by",
+      "p.g",
+      "desc"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find object id, right ascension, declination of photometrically observed star whose magnitude i is brighter than 19 and fainter than 0, the difference of magnitude g and magnitude r is higher than 2.26, the difference of magnitude i and magnitude z is lower than 0.25, and either the difference of magnitude u and magnitude g is greater than 2.0 or magnitude u is fainter than 22.3",
+    "question_toks": [
+      "Find",
+      "object",
+      "i",
+      "d",
+      ",",
+      "right",
+      "ascension",
+      ",",
+      "declination",
+      "of",
+      "photometrically",
+      "observed",
+      "star",
+      "whose",
+      "magnitude",
+      "i",
+      "is",
+      "brighter",
+      "than",
+      "19",
+      "and",
+      "fainter",
+      "than",
+      "0",
+      ",",
+      "the",
+      "difference",
+      "of",
+      "magnitude",
+      "g",
+      "and",
+      "magnitude",
+      "r",
+      "is",
+      "higher",
+      "than",
+      "2.26",
+      ",",
+      "the",
+      "difference",
+      "of",
+      "magnitude",
+      "i",
+      "and",
+      "magnitude",
+      "z",
+      "is",
+      "lower",
+      "than",
+      "0.25",
+      ",",
+      "and",
+      "either",
+      "the",
+      "difference",
+      "of",
+      "magnitude",
+      "u",
+      "and",
+      "magnitude",
+      "g",
+      "is",
+      "greater",
+      "than",
+      "2.0",
+      "or",
+      "magnitude",
+      "u",
+      "is",
+      "fainter",
+      "than",
+      "22.3"
+    ],
+    "query": "SELECT p.objid, p.ra, p.dec from photoobj AS p JOIN photo_type AS pt ON p.type = pt.value where pt.name = 'STAR' and i < 19 and i > 0 and g - r > 2.26 and i - z < 0.25 and u - g > 2.0  or  u > 22.3",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ],
+          [
+            "table_unit",
+            5
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                14,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              134,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                8,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                84,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                85,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              135,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            0,
+            [
+              0,
+              96,
+              false
+            ],
+            null
+          ],
+          19.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          3,
+          [
+            0,
+            [
+              0,
+              96,
+              false
+            ],
+            null
+          ],
+          0.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          3,
+          [
+            1,
+            [
+              0,
+              94,
+              false
+            ],
+            [
+              0,
+              95,
+              false
+            ]
+          ],
+          2.26,
+          null
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            1,
+            [
+              0,
+              96,
+              false
+            ],
+            [
+              0,
+              97,
+              false
+            ]
+          ],
+          0.25,
+          null
+        ],
+        "and",
+        [
+          false,
+          3,
+          [
+            1,
+            [
+              0,
+              93,
+              false
+            ],
+            [
+              0,
+              94,
+              false
+            ]
+          ],
+          2.0,
+          null
+        ],
+        "or",
+        [
+          false,
+          3,
+          [
+            0,
+            [
+              0,
+              93,
+              false
+            ],
+            null
+          ],
+          22.3,
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "p.objid",
+      ",",
+      "p.ra",
+      ",",
+      "p.dec",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "join",
+      "photo_type",
+      "as",
+      "pt",
+      "on",
+      "p.type",
+      "=",
+      "pt.value",
+      "where",
+      "pt.name",
+      "=",
+      "\"STAR\"",
+      "and",
+      "i",
+      "<",
+      "19",
+      "and",
+      "i",
+      ">",
+      "0",
+      "and",
+      "g",
+      "-",
+      "r",
+      ">",
+      "2.26",
+      "and",
+      "i",
+      "-",
+      "z",
+      "<",
+      "0.25",
+      "and",
+      "u",
+      "-",
+      "g",
+      ">",
+      "2.0",
+      "or",
+      "u",
+      ">",
+      "22.3"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "What are the photometrically observable Galaxy whose right ascension is between 140.9 and 141.1, magnitude g is brighter than 18.0 and the difference of magitude u and magnitude g is greater than 2.2. Retrieve the objecti id, right ascension and declination of these objects.",
+    "question_toks": [
+      "What",
+      "are",
+      "the",
+      "photometrically",
+      "observable",
+      "Galaxy",
+      "whose",
+      "right",
+      "ascension",
+      "is",
+      "between",
+      "140.9",
+      "and",
+      "141.1",
+      ",",
+      "magnitude",
+      "g",
+      "is",
+      "brighter",
+      "than",
+      "18.0",
+      "and",
+      "the",
+      "difference",
+      "of",
+      "magitude",
+      "u",
+      "and",
+      "magnitude",
+      "g",
+      "is",
+      "greater",
+      "than",
+      "2.2",
+      ".",
+      "Retrieve",
+      "the",
+      "objecti",
+      "i",
+      "d",
+      ",",
+      "right",
+      "ascension",
+      "and",
+      "declination",
+      "of",
+      "these",
+      "objects",
+      "."
+    ],
+    "query": "select objid, ra, dec from photoobj as p join photo_type as pt on p.type = pt.value where pt.name = 'GALAXY' and p.ra between 140.9 and 141.1 and p.g < 18.0 and p.u - p.g > 2.2",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ],
+          [
+            "table_unit",
+            5
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                14,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              134,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                8,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                84,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                85,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              135,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          1,
+          [
+            0,
+            [
+              0,
+              84,
+              false
+            ],
+            null
+          ],
+          140.9,
+          141.1
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            0,
+            [
+              0,
+              94,
+              false
+            ],
+            null
+          ],
+          18.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          3,
+          [
+            1,
+            [
+              0,
+              93,
+              false
+            ],
+            [
+              0,
+              94,
+              false
+            ]
+          ],
+          2.2,
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "objid",
+      ",",
+      "ra",
+      ",",
+      "dec",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "join",
+      "photo_type",
+      "as",
+      "pt",
+      "on",
+      "p.type",
+      "=",
+      "pt.value",
+      "where",
+      "pt.name",
+      "=",
+      "\"GALAXY\"",
+      "and",
+      "p.ra",
+      "between",
+      "140.9",
+      "and",
+      "141.1",
+      "and",
+      "p.g",
+      "<",
+      "18.0",
+      "and",
+      "p.u",
+      "-",
+      "p.g",
+      ">",
+      "2.2"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find the object id, right ascension and declination of spectroscopic Galaxy, which have value of magnitude g between 17 and 18 and redshift less than 0.05. ",
+    "question_toks": [
+      "Find",
+      "the",
+      "object",
+      "i",
+      "d",
+      ",",
+      "right",
+      "ascension",
+      "and",
+      "declination",
+      "of",
+      "spectroscopic",
+      "Galaxy",
+      ",",
+      "which",
+      "have",
+      "value",
+      "of",
+      "magnitude",
+      "g",
+      "between",
+      "17",
+      "and",
+      "18",
+      "and",
+      "redshift",
+      "less",
+      "than",
+      "0.05",
+      "."
+    ],
+    "query": "select objid, ra, dec from photoobj as p join specobj as s on s.bestobjid = p.objid where s.class = 'GALAXY' and p.g between 17 and 18 and s.z < 0.05",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ],
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                111,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              8,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                8,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                84,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                85,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          1,
+          [
+            0,
+            [
+              0,
+              94,
+              false
+            ],
+            null
+          ],
+          17.0,
+          18.0
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            0,
+            [
+              0,
+              126,
+              false
+            ],
+            null
+          ],
+          0.05,
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "objid",
+      ",",
+      "ra",
+      ",",
+      "dec",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "join",
+      "specobj",
+      "as",
+      "s",
+      "on",
+      "s.bestobjid",
+      "=",
+      "p.objid",
+      "where",
+      "s.class",
+      "=",
+      "\"GALAXY\"",
+      "and",
+      "p.g",
+      "between",
+      "17",
+      "and",
+      "18",
+      "and",
+      "s.z",
+      "<",
+      "0.05"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find highest-redshift quasars ( QSO ) with red shift greater than 4.5 and having clean spectrum with 0 warning. Retrive objecti id, right ascension, declination and redshift.",
+    "question_toks": [
+      "Find",
+      "highest",
+      "-",
+      "redshift",
+      "quasars",
+      "(",
+      "QSO",
+      ")",
+      "with",
+      "red",
+      "shift",
+      "greater",
+      "than",
+      "4.5",
+      "and",
+      "having",
+      "clean",
+      "spectrum",
+      "with",
+      "0",
+      "warning",
+      ".",
+      "Retrive",
+      "objecti",
+      "i",
+      "d",
+      ",",
+      "right",
+      "ascension",
+      ",",
+      "declination",
+      "and",
+      "redshift",
+      "."
+    ],
+    "query": "select bestobjid, ra, dec, z from specobj where class = 'QSO' and z > 4.5 and zWarning = 0",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                111,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                124,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                125,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                126,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"QSO\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          3,
+          [
+            0,
+            [
+              0,
+              126,
+              false
+            ],
+            null
+          ],
+          4.5,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              128,
+              false
+            ],
+            null
+          ],
+          0.0,
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "bestobjid",
+      ",",
+      "ra",
+      ",",
+      "dec",
+      ",",
+      "z",
+      "from",
+      "specobj",
+      "where",
+      "class",
+      "=",
+      "\"QSO\"",
+      "and",
+      "z",
+      ">",
+      "4.5",
+      "and",
+      "zwarning",
+      "=",
+      "0"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Search for photometrically observed Star with the difference of magnitude u and magnitude g is less than 0.5. Retrieve each object id, right ascension and declination.",
+    "question_toks": [
+      "Search",
+      "for",
+      "photometrically",
+      "observed",
+      "Star",
+      "with",
+      "the",
+      "difference",
+      "of",
+      "magnitude",
+      "u",
+      "and",
+      "magnitude",
+      "g",
+      "is",
+      "less",
+      "than",
+      "0.5",
+      ".",
+      "Retrieve",
+      "each",
+      "object",
+      "i",
+      "d",
+      ",",
+      "right",
+      "ascension",
+      "and",
+      "declination",
+      "."
+    ],
+    "query": "select objid, ra, dec from photoobj as p join photo_type as pt on p.type = pt.value where pt.name = 'STAR' and p.u - p.g < 0.5",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ],
+          [
+            "table_unit",
+            5
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                14,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              134,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                8,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                84,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                85,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              135,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            1,
+            [
+              0,
+              93,
+              false
+            ],
+            [
+              0,
+              94,
+              false
+            ]
+          ],
+          0.5,
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "objid",
+      ",",
+      "ra",
+      ",",
+      "dec",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "join",
+      "photo_type",
+      "as",
+      "pt",
+      "on",
+      "p.type",
+      "=",
+      "pt.value",
+      "where",
+      "pt.name",
+      "=",
+      "\"STAR\"",
+      "and",
+      "p.u",
+      "-",
+      "p.g",
+      "<",
+      "0.5"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Search for photometrically observed Star that has a difference of magnitude u and magnitude g less than 0.5. Retrieve all magnitude values (u, g, r, i and z) of these objects.",
+    "question_toks": [
+      "Search",
+      "for",
+      "photometrically",
+      "observed",
+      "Star",
+      "that",
+      "has",
+      "a",
+      "difference",
+      "of",
+      "magnitude",
+      "u",
+      "and",
+      "magnitude",
+      "g",
+      "less",
+      "than",
+      "0.5",
+      ".",
+      "Retrieve",
+      "all",
+      "magnitude",
+      "values",
+      "(",
+      "u",
+      ",",
+      "g",
+      ",",
+      "r",
+      ",",
+      "i",
+      "and",
+      "z",
+      ")",
+      "of",
+      "these",
+      "objects",
+      "."
+    ],
+    "query": "select u, g, r, i, z from photoobj as p join photo_type as pt on p.type = pt.value where pt.name = 'STAR' and  p.u - p.g < 0.5",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ],
+          [
+            "table_unit",
+            5
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                14,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              134,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                93,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                94,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                95,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                96,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                97,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              135,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            1,
+            [
+              0,
+              93,
+              false
+            ],
+            [
+              0,
+              94,
+              false
+            ]
+          ],
+          0.5,
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "u",
+      ",",
+      "g",
+      ",",
+      "r",
+      ",",
+      "i",
+      ",",
+      "z",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "join",
+      "photo_type",
+      "as",
+      "pt",
+      "on",
+      "p.type",
+      "=",
+      "pt.value",
+      "where",
+      "pt.name",
+      "=",
+      "\"STAR\"",
+      "and",
+      "p.u",
+      "-",
+      "p.g",
+      "<",
+      "0.5"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find the object id, right ascension and declination from spectroscopically observed GALAXY whose value of magnitude g between 17 and 18, and redshift less than 0.05. ",
+    "question_toks": [
+      "Find",
+      "the",
+      "object",
+      "i",
+      "d",
+      ",",
+      "right",
+      "ascension",
+      "and",
+      "declination",
+      "from",
+      "spectroscopically",
+      "observed",
+      "GALAXY",
+      "whose",
+      "value",
+      "of",
+      "magnitude",
+      "g",
+      "between",
+      "17",
+      "and",
+      "18",
+      ",",
+      "and",
+      "redshift",
+      "less",
+      "than",
+      "0.05",
+      "."
+    ],
+    "query": "select objid, ra, dec from photoobj as p join specobj as s on s.bestobjid = p.objid where s.class = 'GALAXY' and p.g between 17 and 18 and s.z < 0.05",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ],
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                111,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              8,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                8,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                84,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                85,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          1,
+          [
+            0,
+            [
+              0,
+              94,
+              false
+            ],
+            null
+          ],
+          17.0,
+          18.0
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            0,
+            [
+              0,
+              126,
+              false
+            ],
+            null
+          ],
+          0.05,
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "objid",
+      ",",
+      "ra",
+      ",",
+      "dec",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "join",
+      "specobj",
+      "as",
+      "s",
+      "on",
+      "s.bestobjid",
+      "=",
+      "p.objid",
+      "where",
+      "s.class",
+      "=",
+      "\"GALAXY\"",
+      "and",
+      "p.g",
+      "between",
+      "17",
+      "and",
+      "18",
+      "and",
+      "s.z",
+      "<",
+      "0.05"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all magnitude values (u, g, r, i and z) from spectroscopically observable GALAXY whose value of magnitude g between 17 and 18,  and redshift less than 0.05. ",
+    "question_toks": [
+      "Find",
+      "all",
+      "magnitude",
+      "values",
+      "(",
+      "u",
+      ",",
+      "g",
+      ",",
+      "r",
+      ",",
+      "i",
+      "and",
+      "z",
+      ")",
+      "from",
+      "spectroscopically",
+      "observable",
+      "GALAXY",
+      "whose",
+      "value",
+      "of",
+      "magnitude",
+      "g",
+      "between",
+      "17",
+      "and",
+      "18",
+      ",",
+      " ",
+      "and",
+      "redshift",
+      "less",
+      "than",
+      "0.05",
+      "."
+    ],
+    "query": "select u, g, r, i, z from photoobj as p join specobj as s on s.bestobjid = p.objid where s.class = 'GALAXY' and p.g between 17 and 18 and s.z < 0.05",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ],
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                111,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              8,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                93,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                94,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                95,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                96,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                97,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          1,
+          [
+            0,
+            [
+              0,
+              94,
+              false
+            ],
+            null
+          ],
+          17.0,
+          18.0
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            0,
+            [
+              0,
+              126,
+              false
+            ],
+            null
+          ],
+          0.05,
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "u",
+      ",",
+      "g",
+      ",",
+      "r",
+      ",",
+      "i",
+      ",",
+      "z",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "join",
+      "specobj",
+      "as",
+      "s",
+      "on",
+      "s.bestobjid",
+      "=",
+      "p.objid",
+      "where",
+      "s.class",
+      "=",
+      "\"GALAXY\"",
+      "and",
+      "p.g",
+      "between",
+      "17",
+      "and",
+      "18",
+      "and",
+      "s.z",
+      "<",
+      "0.05"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Retrieve the best object id, right ascension, declination and redshift from spectroscopic objects, whose class is galaxy and redshift in a range of 0.5 and 1  ",
+    "question_toks": [
+      "Retrieve",
+      "the",
+      "best",
+      "object",
+      "i",
+      "d",
+      ",",
+      "right",
+      "ascension",
+      ",",
+      "declination",
+      "and",
+      "redshift",
+      "from",
+      "spectroscopic",
+      "objects",
+      ",",
+      "whose",
+      "class",
+      "is",
+      "galaxy",
+      "and",
+      "redshift",
+      "in",
+      "a",
+      "range",
+      "of",
+      "0.5",
+      "and",
+      "1",
+      " "
+    ],
+    "query": "select bestobjid, ra, dec, z from specobj where class = 'GALAXY' and z > 0.5 and  z < 1 ",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                111,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                124,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                125,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                126,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          3,
+          [
+            0,
+            [
+              0,
+              126,
+              false
+            ],
+            null
+          ],
+          0.5,
+          null
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            0,
+            [
+              0,
+              126,
+              false
+            ],
+            null
+          ],
+          1.0,
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "bestobjid",
+      ",",
+      "ra",
+      ",",
+      "dec",
+      ",",
+      "z",
+      "from",
+      "specobj",
+      "where",
+      "class",
+      "=",
+      "\"GALAXY\"",
+      "and",
+      "z",
+      ">",
+      "0.5",
+      "and",
+      "z",
+      "<",
+      "1"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Retrieve the best object id, right ascension, declination and redshift from spectroscopic objects, which have class galaxy and redshift in a range of 0.5 and 1",
+    "question_toks": [
+      "Retrieve",
+      "the",
+      "best",
+      "object",
+      "i",
+      "d",
+      ",",
+      "right",
+      "ascension",
+      ",",
+      "declination",
+      "and",
+      "redshift",
+      "from",
+      "spectroscopic",
+      "objects",
+      ",",
+      "which",
+      "have",
+      "class",
+      "galaxy",
+      "and",
+      "redshift",
+      "in",
+      "a",
+      "range",
+      "of",
+      "0.5",
+      "and",
+      "1"
+    ],
+    "query": "select bestobjid, ra, dec, z from specobj where class = 'GALAXY' and z between 0.5 and 1 ",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                111,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                124,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                125,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                126,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          1,
+          [
+            0,
+            [
+              0,
+              126,
+              false
+            ],
+            null
+          ],
+          0.5,
+          1.0
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "bestobjid",
+      ",",
+      "ra",
+      ",",
+      "dec",
+      ",",
+      "z",
+      "from",
+      "specobj",
+      "where",
+      "class",
+      "=",
+      "\"GALAXY\"",
+      "and",
+      "z",
+      "between",
+      "0.5",
+      "and",
+      "1"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find everything about nearest neighbors.",
+    "question_toks": [
+      "Find",
+      "everything",
+      "about",
+      "nearest",
+      "neighbors",
+      "."
+    ],
+    "query": "select * from neighbors as n",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            0
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                0,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "*",
+      "from",
+      "neighbors",
+      "as",
+      "n"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find the photometric objects with object ids, nearst neighbor ids, distance center-neighbors, center types.",
+    "question_toks": [
+      "Find",
+      "the",
+      "photometric",
+      "objects",
+      "with",
+      "object",
+      "ids",
+      ",",
+      "nearst",
+      "neighbor",
+      "ids",
+      ",",
+      "distance",
+      "center",
+      "-",
+      "neighbors",
+      ",",
+      "center",
+      "types",
+      "."
+    ],
+    "query": "select p.objid, n.neighborobjid, n.distance, n.type, from neighbors as n join  photoobj as p on n.objid = p.objid",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            0
+          ],
+          [
+            "table_unit",
+            1
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                1,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              8,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                8,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                2,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                3,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                4,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "p.objid",
+      ",",
+      "n.neighborobjid",
+      ",",
+      "n.distance",
+      ",",
+      "n.type",
+      ",",
+      "from",
+      "neighbors",
+      "as",
+      "n",
+      "join",
+      "photoobj",
+      "as",
+      "p",
+      "on",
+      "n.objid",
+      "=",
+      "p.objid"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find spectroscopic objects of equivalent width estimates of galactic-stars from these spectroscopic objects.",
+    "question_toks": [
+      "Find",
+      "spectroscopic",
+      "objects",
+      "of",
+      "equivalent",
+      "width",
+      "estimates",
+      "of",
+      "galactic",
+      "-",
+      "stars",
+      "from",
+      "these",
+      "spectroscopic",
+      "objects",
+      "."
+    ],
+    "query": "select sp.specobjid from spplines as sp join specobj as s on sp.specobjid = s.specobjid",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            3
+          ],
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                109,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              110,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                109,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "sp.specobjid",
+      "from",
+      "spplines",
+      "as",
+      "sp",
+      "join",
+      "specobj",
+      "as",
+      "s",
+      "on",
+      "sp.specobjid",
+      "=",
+      "s.specobjid"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find the object type classifications of photometric objects whose right ascension is greater than 100 and declination is less than 100.",
+    "question_toks": [
+      "Find",
+      "the",
+      "object",
+      "type",
+      "classifications",
+      "of",
+      "photometric",
+      "objects",
+      "whose",
+      "right",
+      "ascension",
+      "is",
+      "greater",
+      "than",
+      "100",
+      "and",
+      "declination",
+      "is",
+      "less",
+      "than",
+      "100",
+      "."
+    ],
+    "query": "select p.type from photoobj as p where p.ra > 100 and p.dec < 100",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                14,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          3,
+          [
+            0,
+            [
+              0,
+              84,
+              false
+            ],
+            null
+          ],
+          100.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          4,
+          [
+            0,
+            [
+              0,
+              85,
+              false
+            ],
+            null
+          ],
+          100.0,
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "p.type",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "where",
+      "p.ra",
+      ">",
+      "100",
+      "and",
+      "p.dec",
+      "<",
+      "100"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find the number of photometrically observed STAR",
+    "question_toks": [
+      "Find",
+      "the",
+      "number",
+      "of",
+      "photometrically",
+      "observed",
+      "STAR"
+    ],
+    "query": "select count(*) from photoobj as p join photo_type as pt on p.type = pt.value where pt.name = 'STAR'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ],
+          [
+            "table_unit",
+            5
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                14,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              134,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            3,
+            [
+              0,
+              [
+                0,
+                0,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              135,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "count",
+      "(",
+      "*",
+      ")",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "join",
+      "photo_type",
+      "as",
+      "pt",
+      "on",
+      "p.type",
+      "=",
+      "pt.value",
+      "where",
+      "pt.name",
+      "=",
+      "\"STAR\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all photometrically observable object types. Return only unique records.",
+    "question_toks": [
+      "Find",
+      "all",
+      "photometrically",
+      "observable",
+      "object",
+      "types",
+      ".",
+      "Return",
+      "only",
+      "unique",
+      "records",
+      "."
+    ],
+    "query": "select distinct pt.name from photo_type as pt join photoobj as p on p.type = pt.value",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            5
+          ],
+          [
+            "table_unit",
+            1
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                14,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              134,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        true,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                135,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "distinct",
+      "pt.name",
+      "from",
+      "photo_type",
+      "as",
+      "pt",
+      "join",
+      "photoobj",
+      "as",
+      "p",
+      "on",
+      "p.type",
+      "=",
+      "pt.value"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find the classes and number of spectroscopic objects grouped by their classes.",
+    "question_toks": [
+      "Find",
+      "the",
+      "classes",
+      "and",
+      "number",
+      "of",
+      "spectroscopic",
+      "objects",
+      "grouped",
+      "by",
+      "their",
+      "classes",
+      "."
+    ],
+    "query": "select s.class, count(*) from specobj as s group by s.class",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                129,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            3,
+            [
+              0,
+              [
+                0,
+                0,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [],
+      "groupBy": [
+        [
+          0,
+          129,
+          false
+        ]
+      ],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "s.class",
+      ",",
+      "count",
+      "(",
+      "*",
+      ")",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "group",
+      "by",
+      "s.class"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find the number of spectroscopic objects whose survey is 'SEGUE2'.",
+    "question_toks": [
+      "Find",
+      "the",
+      "number",
+      "of",
+      "spectroscopic",
+      "objects",
+      "whose",
+      "survey",
+      "is",
+      "'",
+      "SEGUE2",
+      "'",
+      "."
+    ],
+    "query": "select count(*) from specobj as s where s.survey = 'SEGUE2'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            3,
+            [
+              0,
+              [
+                0,
+                0,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              115,
+              false
+            ],
+            null
+          ],
+          "\"SEGUE2\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "count",
+      "(",
+      "*",
+      ")",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.survey",
+      "=",
+      "\"SEGUE2\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find spectroscopic star having clean spectrum with 0 warning.",
+    "question_toks": [
+      "Find",
+      "spectroscopic",
+      "star",
+      "having",
+      "clean",
+      "spectrum",
+      "with",
+      "0",
+      "warning",
+      "."
+    ],
+    "query": "select s.specobjid from specobj as s where s.class = 'STAR' and s.zwarning = 0",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              128,
+              false
+            ],
+            null
+          ],
+          0.0,
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "s.specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.class",
+      "=",
+      "\"STAR\"",
+      "and",
+      "s.zwarning",
+      "=",
+      "0"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find everything about photometrically observable Galaxy.",
+    "question_toks": [
+      "Find",
+      "everything",
+      "about",
+      "photometrically",
+      "observable",
+      "Galaxy",
+      "."
+    ],
+    "query": "select * from photoobj as p join photo_type as pt on p.type = pt.value where pt.name = 'GALAXY'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ],
+          [
+            "table_unit",
+            5
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                14,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              134,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                0,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              135,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "*",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "join",
+      "photo_type",
+      "as",
+      "pt",
+      "on",
+      "p.type",
+      "=",
+      "pt.value",
+      "where",
+      "pt.name",
+      "=",
+      "\"GALAXY\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find everything about spectroscopic objects and everything about emission line estimates of galaxies from these spectroscopic objects.",
+    "question_toks": [
+      "Find",
+      "everything",
+      "about",
+      "spectroscopic",
+      "objects",
+      "and",
+      "everything",
+      "about",
+      "emission",
+      "line",
+      "estimates",
+      "of",
+      "galaxies",
+      "from",
+      "these",
+      "spectroscopic",
+      "objects",
+      "."
+    ],
+    "query": "select * from specobj as s join galspecline as g on s.specobjid = g.specobjid",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ],
+          [
+            "table_unit",
+            2
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              108,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                0,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "*",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "join",
+      "galspecline",
+      "as",
+      "g",
+      "on",
+      "s.specobjid",
+      "=",
+      "g.specobjid"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find the object ids, right ascensions, declinations and object type classifications of photometrically observed Star.",
+    "question_toks": [
+      "Find",
+      "the",
+      "object",
+      "ids",
+      ",",
+      "right",
+      "ascensions",
+      ",",
+      "declinations",
+      "and",
+      "object",
+      "type",
+      "classifications",
+      "of",
+      "photometrically",
+      "observed",
+      "Star",
+      "."
+    ],
+    "query": "select p.objid, p.ra, p.dec, p.type from photoobj as p join photo_type as pt on p.type = pt.value where pt.name = 'STAR'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ],
+          [
+            "table_unit",
+            5
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                14,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              134,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                8,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                84,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                85,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                14,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              135,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "p.objid",
+      ",",
+      "p.ra",
+      ",",
+      "p.dec",
+      ",",
+      "p.type",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "join",
+      "photo_type",
+      "as",
+      "pt",
+      "on",
+      "p.type",
+      "=",
+      "pt.value",
+      "where",
+      "pt.name",
+      "=",
+      "\"STAR\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find the photometric objects with object ids, spectroscopic object id whose spectroscopic class is 'GALAXY', with the difference of magnitude u and magnitude r greater trhan 2.22 and the difference of magnitude g and magnitude i greater than 1.",
+    "question_toks": [
+      "Find",
+      "the",
+      "photometric",
+      "objects",
+      "with",
+      "object",
+      "ids",
+      ",",
+      "spectroscopic",
+      "object",
+      "i",
+      "d",
+      "whose",
+      "spectroscopic",
+      "class",
+      "is",
+      "'",
+      "GALAXY",
+      "'",
+      ",",
+      "with",
+      "the",
+      "difference",
+      "of",
+      "magnitude",
+      "u",
+      "and",
+      "magnitude",
+      "r",
+      "greater",
+      "trhan",
+      "2.22",
+      "and",
+      "the",
+      "difference",
+      "of",
+      "magnitude",
+      "g",
+      "and",
+      "magnitude",
+      "i",
+      "greater",
+      "than",
+      "1",
+      "."
+    ],
+    "query": "select p.objid, s.specobjid from photoobj as p join specobj as s on s.bestobjid = p.objid where s.class = 'GALAXY' and p.u - p.r > 2.22 and p.g - p.i > 1",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            1
+          ],
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": [
+          [
+            false,
+            2,
+            [
+              0,
+              [
+                0,
+                111,
+                false
+              ],
+              null
+            ],
+            [
+              0,
+              8,
+              false
+            ],
+            null
+          ]
+        ]
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                8,
+                false
+              ],
+              null
+            ]
+          ],
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          3,
+          [
+            1,
+            [
+              0,
+              93,
+              false
+            ],
+            [
+              0,
+              95,
+              false
+            ]
+          ],
+          2.22,
+          null
+        ],
+        "and",
+        [
+          false,
+          3,
+          [
+            1,
+            [
+              0,
+              94,
+              false
+            ],
+            [
+              0,
+              96,
+              false
+            ]
+          ],
+          1.0,
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "p.objid",
+      ",",
+      "s.specobjid",
+      "from",
+      "photoobj",
+      "as",
+      "p",
+      "join",
+      "specobj",
+      "as",
+      "s",
+      "on",
+      "s.bestobjid",
+      "=",
+      "p.objid",
+      "where",
+      "s.class",
+      "=",
+      "\"GALAXY\"",
+      "and",
+      "p.u",
+      "-",
+      "p.r",
+      ">",
+      "2.22",
+      "and",
+      "p.g",
+      "-",
+      "p.i",
+      ">",
+      "1"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Show the object id from spectroscopic objects with survey equal to eboss, programname of either 'ELG_NGC' or 'ELG_SGC'  and spectroscopic class 'GALAXY'",
+    "question_toks": [
+      "Show",
+      "the",
+      "object",
+      "i",
+      "d",
+      "from",
+      "spectroscopic",
+      "objects",
+      "with",
+      "survey",
+      "equal",
+      "to",
+      "eboss",
+      ",",
+      "programname",
+      "of",
+      "either",
+      "'",
+      "ELG_NGC",
+      "'",
+      "or",
+      "'",
+      "ELG_SGC",
+      "'",
+      " ",
+      "and",
+      "spectroscopic",
+      "class",
+      "'",
+      "GALAXY",
+      "'"
+    ],
+    "query": "select s.specobjid from specobj as s where s.survey = 'eboss' and s.class = 'GALAXY' and s.programname = 'ELG_NGC' or s.programname = 'ELG_SGC'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              115,
+              false
+            ],
+            null
+          ],
+          "\"eboss\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              116,
+              false
+            ],
+            null
+          ],
+          "\"ELG_NGC\"",
+          null
+        ],
+        "or",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              116,
+              false
+            ],
+            null
+          ],
+          "\"ELG_SGC\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "s.specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.survey",
+      "=",
+      "\"eboss\"",
+      "and",
+      "s.class",
+      "=",
+      "\"GALAXY\"",
+      "and",
+      "s.programname",
+      "=",
+      "\"ELG_NGC\"",
+      "or",
+      "s.programname",
+      "=",
+      "\"ELG_SGC\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all spectroscopic objects with SDSS special program targets equal to 1024",
+    "question_toks": [
+      "Find",
+      "all",
+      "spectroscopic",
+      "objects",
+      "with",
+      "SDSS",
+      "special",
+      "program",
+      "targets",
+      "equal",
+      "to",
+      "1024"
+    ],
+    "query": "select s.specobjid from specobj as s where s.special_target1 = 1024",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              120,
+              false
+            ],
+            null
+          ],
+          1024.0,
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "s.specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.special_target1",
+      "=",
+      "1024"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all spectroscopic GALAXY with SDSS special program targets equal to 768 or 256",
+    "question_toks": [
+      "Find",
+      "all",
+      "spectroscopic",
+      "GALAXY",
+      "with",
+      "SDSS",
+      "special",
+      "program",
+      "targets",
+      "equal",
+      "to",
+      "768",
+      "or",
+      "256"
+    ],
+    "query": "select s.specobjid from specobj as s where s.special_target1 = 768 or s.special_target1 = 256 and s.class = 'GALAXY'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              120,
+              false
+            ],
+            null
+          ],
+          768.0,
+          null
+        ],
+        "or",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              120,
+              false
+            ],
+            null
+          ],
+          256.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "s.specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.special_target1",
+      "=",
+      "768",
+      "or",
+      "s.special_target1",
+      "=",
+      "256",
+      "and",
+      "s.class",
+      "=",
+      "\"GALAXY\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all spectroscopic STAR with SDSS special program targets equal to 16",
+    "question_toks": [
+      "Find",
+      "all",
+      "spectroscopic",
+      "STAR",
+      "with",
+      "SDSS",
+      "special",
+      "program",
+      "targets",
+      "equal",
+      "to",
+      "16"
+    ],
+    "query": "select s.specobjid from specobj as s where s.special_target1 = 16 and s.class = 'STAR'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              120,
+              false
+            ],
+            null
+          ],
+          16.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "s.specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.special_target1",
+      "=",
+      "16",
+      "and",
+      "s.class",
+      "=",
+      "\"STAR\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all spectroscopic GALAXY with SDSS special program targets equal to 536870912",
+    "question_toks": [
+      "Find",
+      "all",
+      "spectroscopic",
+      "GALAXY",
+      "with",
+      "SDSS",
+      "special",
+      "program",
+      "targets",
+      "equal",
+      "to",
+      "536870912"
+    ],
+    "query": "select specobjid from specobj as s where s.special_target1 = 536870912 and s.class = 'STAR'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              120,
+              false
+            ],
+            null
+          ],
+          536870912.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.special_target1",
+      "=",
+      "536870912",
+      "and",
+      "s.class",
+      "=",
+      "\"STAR\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all spectroscopic GALAXY with SDSS special program targets equal to 268435456 or 134217728",
+    "question_toks": [
+      "Find",
+      "all",
+      "spectroscopic",
+      "GALAXY",
+      "with",
+      "SDSS",
+      "special",
+      "program",
+      "targets",
+      "equal",
+      "to",
+      "268435456",
+      "or",
+      "134217728"
+    ],
+    "query": "select specobjid from specobj as s where s.special_target1 = 268435456 or s.special_target1 = 134217728 and s.class = 'GALAXY'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              120,
+              false
+            ],
+            null
+          ],
+          268435456.0,
+          null
+        ],
+        "or",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              120,
+              false
+            ],
+            null
+          ],
+          134217728.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.special_target1",
+      "=",
+      "268435456",
+      "or",
+      "s.special_target1",
+      "=",
+      "134217728",
+      "and",
+      "s.class",
+      "=",
+      "\"GALAXY\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all spectroscopic GALAXY with BOSS ancillary program targets equal to 2048,  4096,  8192 or 16384",
+    "question_toks": [
+      "Find",
+      "all",
+      "spectroscopic",
+      "GALAXY",
+      "with",
+      "BOSS",
+      "ancillary",
+      "program",
+      "targets",
+      "equal",
+      "to",
+      "2048",
+      ",",
+      " ",
+      "4096",
+      ",",
+      " ",
+      "8192",
+      "or",
+      "16384"
+    ],
+    "query": "select specobjid from specobj as s where s.ancillary_target1 = 2048 or s.ancillary_target1 = 4096 or s.ancillary_target1 = 8192 or s.ancillary_target1 = 16384 and s.class = 'GALAXY'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          2048.0,
+          null
+        ],
+        "or",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          4096.0,
+          null
+        ],
+        "or",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          8192.0,
+          null
+        ],
+        "or",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          16384.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.ancillary_target1",
+      "=",
+      "2048",
+      "or",
+      "s.ancillary_target1",
+      "=",
+      "4096",
+      "or",
+      "s.ancillary_target1",
+      "=",
+      "8192",
+      "or",
+      "s.ancillary_target1",
+      "=",
+      "16384",
+      "and",
+      "s.class",
+      "=",
+      "\"GALAXY\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all spectroscopic GALAXY with BOSS ancillary program targets equal to 2097152",
+    "question_toks": [
+      "Find",
+      "all",
+      "spectroscopic",
+      "GALAXY",
+      "with",
+      "BOSS",
+      "ancillary",
+      "program",
+      "targets",
+      "equal",
+      "to",
+      "2097152"
+    ],
+    "query": "select specobjid from specobj as s where s.ancillary_target1 = 2097152 and s.class = 'GALAXY'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          2097152.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.ancillary_target1",
+      "=",
+      "2097152",
+      "and",
+      "s.class",
+      "=",
+      "\"GALAXY\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all spectroscopic GALAXY with BOSS ancillary program targets equal to 549755813888",
+    "question_toks": [
+      "Find",
+      "all",
+      "spectroscopic",
+      "GALAXY",
+      "with",
+      "BOSS",
+      "ancillary",
+      "program",
+      "targets",
+      "equal",
+      "to",
+      "549755813888"
+    ],
+    "query": "select specobjid from specobj as s where s.ancillary_target1 = 549755813888 and s.class = 'GALAXY'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          549755813888.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.ancillary_target1",
+      "=",
+      "549755813888",
+      "and",
+      "s.class",
+      "=",
+      "\"GALAXY\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all spectroscopic STAR with BOSS ancillary program targets equal to 1",
+    "question_toks": [
+      "Find",
+      "all",
+      "spectroscopic",
+      "STAR",
+      "with",
+      "BOSS",
+      "ancillary",
+      "program",
+      "targets",
+      "equal",
+      "to",
+      "1"
+    ],
+    "query": "select specobjid from specobj as s where s.ancillary_target1 = 1 and s.class = 'STAR'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          1.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.ancillary_target1",
+      "=",
+      "1",
+      "and",
+      "s.class",
+      "=",
+      "\"STAR\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all spectroscopic STAR with BOSS ancillary program targets equal to 2 or 4",
+    "question_toks": [
+      "Find",
+      "all",
+      "spectroscopic",
+      "STAR",
+      "with",
+      "BOSS",
+      "ancillary",
+      "program",
+      "targets",
+      "equal",
+      "to",
+      "2",
+      "or",
+      "4"
+    ],
+    "query": "select specobjid from specobj as s where s.class = 'STAR' and  s.ancillary_target1 = 2 or s.ancillary_target1 = 4",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          2.0,
+          null
+        ],
+        "or",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          4.0,
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.class",
+      "=",
+      "\"STAR\"",
+      "and",
+      "s.ancillary_target1",
+      "=",
+      "2",
+      "or",
+      "s.ancillary_target1",
+      "=",
+      "4"
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all spectroscopic STAR with BOSS ancillary program targets equal to 16",
+    "question_toks": [
+      "Find",
+      "all",
+      "spectroscopic",
+      "STAR",
+      "with",
+      "BOSS",
+      "ancillary",
+      "program",
+      "targets",
+      "equal",
+      "to",
+      "16"
+    ],
+    "query": "select specobjid from specobj as s where s.ancillary_target1 = 16 and s.class = 'STAR'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          16.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.ancillary_target1",
+      "=",
+      "16",
+      "and",
+      "s.class",
+      "=",
+      "\"STAR\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all spectroscopic STAR with BOSS ancillary program targets equal to 8",
+    "question_toks": [
+      "Find",
+      "all",
+      "spectroscopic",
+      "STAR",
+      "with",
+      "BOSS",
+      "ancillary",
+      "program",
+      "targets",
+      "equal",
+      "to",
+      "8"
+    ],
+    "query": "select specobjid from specobj as s where s.ancillary_target1 = 8 and s.class = 'STAR'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          8.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.ancillary_target1",
+      "=",
+      "8",
+      "and",
+      "s.class",
+      "=",
+      "\"STAR\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find spectroscopic STAR with BOSS ancillary program targets equal to 281474976710656",
+    "question_toks": [
+      "Find",
+      "spectroscopic",
+      "STAR",
+      "with",
+      "BOSS",
+      "ancillary",
+      "program",
+      "targets",
+      "equal",
+      "to",
+      "281474976710656"
+    ],
+    "query": "select specobjid from specobj as s where s.ancillary_target1 = 281474976710656 and s.class = 'STAR'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          281474976710656.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"STAR\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.ancillary_target1",
+      "=",
+      "281474976710656",
+      "and",
+      "s.class",
+      "=",
+      "\"STAR\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find spectroscopic GALAXY with BOSS ancillary program targets equal to 72057594037927936",
+    "question_toks": [
+      "Find",
+      "spectroscopic",
+      "GALAXY",
+      "with",
+      "BOSS",
+      "ancillary",
+      "program",
+      "targets",
+      "equal",
+      "to",
+      "72057594037927936"
+    ],
+    "query": "select specobjid from specobj as s where s.ancillary_target1 = 72057594037927936 and s.class = 'GALAXY'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          7.205759403792794e+16,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.ancillary_target1",
+      "=",
+      "72057594037927936",
+      "and",
+      "s.class",
+      "=",
+      "\"GALAXY\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find Quasi stellar object (QSO) with BOSS ancillary program targets equal to 1125899906842624",
+    "question_toks": [
+      "Find",
+      "Quasi",
+      "stellar",
+      "object",
+      "(",
+      "QSO",
+      ")",
+      "with",
+      "BOSS",
+      "ancillary",
+      "program",
+      "targets",
+      "equal",
+      "to",
+      "1125899906842624"
+    ],
+    "query": "select specobjid from specobj as s where s.ancillary_target1 = 1125899906842624 and s.class = 'QSO'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          1125899906842624.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"QSO\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.ancillary_target1",
+      "=",
+      "1125899906842624",
+      "and",
+      "s.class",
+      "=",
+      "\"QSO\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find Quasi stellar object (QSO) with BOSS ancillary program targets equal to 18014398509481984",
+    "question_toks": [
+      "Find",
+      "Quasi",
+      "stellar",
+      "object",
+      "(",
+      "QSO",
+      ")",
+      "with",
+      "BOSS",
+      "ancillary",
+      "program",
+      "targets",
+      "equal",
+      "to",
+      "18014398509481984"
+    ],
+    "query": "select specobjid from specobj as s where s.ancillary_target1 = 18014398509481984 and s.class = 'QSO'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          1.8014398509481984e+16,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"QSO\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.ancillary_target1",
+      "=",
+      "18014398509481984",
+      "and",
+      "s.class",
+      "=",
+      "\"QSO\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find Quasi stellar object (QSO) with BOSS ancillary program targets equal to 4503599627370496",
+    "question_toks": [
+      "Find",
+      "Quasi",
+      "stellar",
+      "object",
+      "(",
+      "QSO",
+      ")",
+      "with",
+      "BOSS",
+      "ancillary",
+      "program",
+      "targets",
+      "equal",
+      "to",
+      "4503599627370496"
+    ],
+    "query": "select specobjid from specobj as s where s.ancillary_target1 = 4503599627370496 and s.class = 'QSO'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          4503599627370496.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"QSO\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.ancillary_target1",
+      "=",
+      "4503599627370496",
+      "and",
+      "s.class",
+      "=",
+      "\"QSO\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find spectroscopic GALAXY with BOSS ancillary program targets equal to 144115188075855872",
+    "question_toks": [
+      "Find",
+      "spectroscopic",
+      "GALAXY",
+      "with",
+      "BOSS",
+      "ancillary",
+      "program",
+      "targets",
+      "equal",
+      "to",
+      "144115188075855872"
+    ],
+    "query": "select specobjid from specobj as s where s.ancillary_target1 = 144115188075855872 and s.class = 'GALAXY'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          1.4411518807585587e+17,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.ancillary_target1",
+      "=",
+      "144115188075855872",
+      "and",
+      "s.class",
+      "=",
+      "\"GALAXY\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all Quasi stellar object (QSO) with BOSS ancillary program targets equal to 536870912, 1073741824, or 2147483648",
+    "question_toks": [
+      "Find",
+      "all",
+      "Quasi",
+      "stellar",
+      "object",
+      "(",
+      "QSO",
+      ")",
+      "with",
+      "BOSS",
+      "ancillary",
+      "program",
+      "targets",
+      "equal",
+      "to",
+      "536870912",
+      ",",
+      "1073741824",
+      ",",
+      "or",
+      "2147483648"
+    ],
+    "query": "select specobjid from specobj as s where s.ancillary_target1 = 536870912 or s.ancillary_target1 = 1073741824 or s.ancillary_target1 = 2147483648 and s.class = 'QSO'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          536870912.0,
+          null
+        ],
+        "or",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          1073741824.0,
+          null
+        ],
+        "or",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          2147483648.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"QSO\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.ancillary_target1",
+      "=",
+      "536870912",
+      "or",
+      "s.ancillary_target1",
+      "=",
+      "1073741824",
+      "or",
+      "s.ancillary_target1",
+      "=",
+      "2147483648",
+      "and",
+      "s.class",
+      "=",
+      "\"QSO\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all spectroscopic GALAXY with BOSS ancillary program targets equal to 1152921504606846976 or 16384",
+    "question_toks": [
+      "Find",
+      "all",
+      "spectroscopic",
+      "GALAXY",
+      "with",
+      "BOSS",
+      "ancillary",
+      "program",
+      "targets",
+      "equal",
+      "to",
+      "1152921504606846976",
+      "or",
+      "16384"
+    ],
+    "query": "select specobjid from specobj as s where s.ancillary_target1 = 1152921504606846976 or s.ancillary_target1 = 16384 and s.class = 'GALAXY'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          1.152921504606847e+18,
+          null
+        ],
+        "or",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          16384.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.ancillary_target1",
+      "=",
+      "1152921504606846976",
+      "or",
+      "s.ancillary_target1",
+      "=",
+      "16384",
+      "and",
+      "s.class",
+      "=",
+      "\"GALAXY\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all spectroscopic GALAXY with BOSS ancillary program targets equal to 288230376151711744 or 2048",
+    "question_toks": [
+      "Find",
+      "all",
+      "spectroscopic",
+      "GALAXY",
+      "with",
+      "BOSS",
+      "ancillary",
+      "program",
+      "targets",
+      "equal",
+      "to",
+      "288230376151711744",
+      "or",
+      "2048"
+    ],
+    "query": "select specobjid from specobj as s where s.ancillary_target1 = 288230376151711744 or s.ancillary_target1 = 2048 and s.class = 'GALAXY'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          2.8823037615171174e+17,
+          null
+        ],
+        "or",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          2048.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.ancillary_target1",
+      "=",
+      "288230376151711744",
+      "or",
+      "s.ancillary_target1",
+      "=",
+      "2048",
+      "and",
+      "s.class",
+      "=",
+      "\"GALAXY\""
+    ]
+  },
+  {
+    "db_id": "skyserver_dr16_2020_11_30",
+    "question": "Find all spectroscopic GALAXY with BOSS ancillary program targets equal to 576460752303423488 or 4096",
+    "question_toks": [
+      "Find",
+      "all",
+      "spectroscopic",
+      "GALAXY",
+      "with",
+      "BOSS",
+      "ancillary",
+      "program",
+      "targets",
+      "equal",
+      "to",
+      "576460752303423488",
+      "or",
+      "4096"
+    ],
+    "query": "select specobjid from specobj as s where s.ancillary_target1 = '576460752303423488' or s.ancillary_target1 = 4096 and s.class = 'GALAXY'",
+    "sql": {
+      "from": {
+        "table_units": [
+          [
+            "table_unit",
+            4
+          ]
+        ],
+        "conds": []
+      },
+      "select": [
+        false,
+        [
+          [
+            0,
+            [
+              0,
+              [
+                0,
+                110,
+                false
+              ],
+              null
+            ]
+          ]
+        ]
+      ],
+      "where": [
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          "\"576460752303423488\"",
+          null
+        ],
+        "or",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              123,
+              false
+            ],
+            null
+          ],
+          4096.0,
+          null
+        ],
+        "and",
+        [
+          false,
+          2,
+          [
+            0,
+            [
+              0,
+              129,
+              false
+            ],
+            null
+          ],
+          "\"GALAXY\"",
+          null
+        ]
+      ],
+      "groupBy": [],
+      "having": [],
+      "orderBy": [],
+      "limit": null,
+      "intersect": null,
+      "union": null,
+      "except": null
+    },
+    "query_toks": [
+      "select",
+      "specobjid",
+      "from",
+      "specobj",
+      "as",
+      "s",
+      "where",
+      "s.ancillary_target1",
+      "=",
+      "\"576460752303423488\"",
+      "or",
+      "s.ancillary_target1",
+      "=",
+      "4096",
+      "and",
+      "s.class",
+      "=",
+      "\"GALAXY\""
+    ]
+  }
+]

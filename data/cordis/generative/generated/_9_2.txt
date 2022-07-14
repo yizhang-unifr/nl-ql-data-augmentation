@@ -1,0 +1,28 @@
+SELECT programmes.code FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.framework_program != 'H2020'
+
+###
+
+
+Original Query:
+SELECT programmes.code FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.framework_program != 'H2020'
+GPT-3 choices:
+(0) Retrieve the programmes of projects that do not join a H2020 framework.
+(1) Retrieve the programme codes of projects that are not in the H2020 framework
+(2) Show the code of programmes of projects that don't fall under a H2020 framework
+(3) Show the programme codes of projects that do not belong to a framework programme.
+(4) What are the project programmes that fall outside the H2020 framework?
+(5) Show me project programmes within the framework program "H2020"
+(6) Retrieve the programme code associated with projects not part of the H2020 programme.
+(7) Show me all projects that don’t have a H2020 framework programme
+
+
+Re-ranked choices:
+5.641  Show the code of programmes of projects that don't fall under a H2020 framework
+5.490  Retrieve the programme codes of projects that are not in the H2020 framework
+5.428  Show me all projects that don’t have a H2020 framework programme
+5.223  Retrieve the programmes of projects that do not join a H2020 framework.
+5.186  Retrieve the programme code associated with projects not part of the H2020 programme.
+5.163  Show me project programmes within the framework program "H2020"
+4.858  What are the project programmes that fall outside the H2020 framework?
+4.646  Show the programme codes of projects that do not belong to a framework programme.
+

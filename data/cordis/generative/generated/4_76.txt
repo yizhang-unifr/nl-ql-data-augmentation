@@ -1,0 +1,16 @@
+SELECT count(*) FROM projects WHERE projects.framework_program = 'FP7'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM projects WHERE projects.framework_program = 'FP7'
+GPT-3 choices:
+(0) Show the total project count for projects that fall under the framework program FP7.
+(1) How many projects have FP7 as a framework?
+(2) How many project presently have framework program FP7?
+(3) How many project have the framework program FP7?
+(4) Show the number of projects that have a framework program of FP7.
+(5) How many project from the framework program "FP7" are there?
+(6) What is the number of projects having a framework program FP7, one of their topics is Electrical Engineering, and researchers all over the world both as members and topics?
+(7) How many projects exist in the European Framework Program 7?

@@ -1,0 +1,3 @@
+{"prompt": "select count(*) from specobj where class = 'QSO'", "completion": "Count all Quasi stellar object (QSO)'"}
+{"prompt": "SELECT T1.programname FROM specobj AS T1 WHERE T1.class = 'STAR' and T1.subclass LIKE '%M%'", "completion": "What are the program names of Star with spectral type M"}
+{"prompt": "SELECT T1.bestobjid, T1.mjd FROM specobj AS T1 WHERE T1.class = 'STAR' and T1.subclass like '%K%'", "completion": "Show me the best object and modified julien date for all K type Star"}

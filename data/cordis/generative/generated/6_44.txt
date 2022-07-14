@@ -1,0 +1,16 @@
+SELECT topics.code FROM topics WHERE topics.rcn = '669210' and topics.title = 'Integrated solutions of thermal energy storage for building applications'
+
+###
+
+
+Original Query:
+SELECT topics.code FROM topics WHERE topics.rcn = '669210' and topics.title = 'Integrated solutions of thermal energy storage for building applications'
+GPT-3 choices:
+(0) return the topics with title "Integrated solutions of thermal energy storage for building applications" in region 669210
+(1) Show me topics with the code 669210 and the title "Integrated solutions of thermal energy storage for building applications"
+(2) Show me the different topics about "Integrated solutions of thermal energy storage for building applications"
+(3) What are the topics about "Integrated solutions of thermal energy storage for building applications"?
+(4) Show me all the topics of the conference 669210 with the title 'Integrated solutions of thermal energy storage for building applications'.
+(5) Show me all the topics in RENC 66991
+(6) Show me topics with code 669210 and title 'Integrated solutions of thermal energy storage for building applications'
+(7) Show all topics within the panel 669210 which are about "Integrated solutions of thermal energy storage for building applications".

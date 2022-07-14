@@ -1,0 +1,28 @@
+SELECT programmes.rcn FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.total_cost != 3995036.25
+
+###
+
+
+Original Query:
+SELECT programmes.rcn FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.total_cost != 3995036.25
+GPT-3 choices:
+(0) What are the unique country codes of projects that have a total cost different from 3995036.25?
+(1) Show me the project codes from projects with total cost != 3995.036 that have a programme
+(2) Show me the relevant programmes for projects whose total cost is not 3995036.25
+(3) Retrieve all regional coefficients of projects that have a total cost != 3995036.25
+(4) Show me different projects with a total cost different than 3995036.25 euro
+(5) Retrieve the project institute code of all projects whose total cost is not 3995036.25
+(6) Find the RCN of projects that have a total cost different from 3995036.25
+(7) Show the code for all projects with a total cost != 3995036.25
+
+
+Re-ranked choices:
+5.009  Show me the project codes from projects with total cost != 3995.036 that have a programme
+4.992  Show the code for all projects with a total cost != 3995036.25
+4.871  Show me the relevant programmes for projects whose total cost is not 3995036.25
+4.807  Show me different projects with a total cost different than 3995036.25 euro
+4.680  Retrieve the project institute code of all projects whose total cost is not 3995036.25
+4.646  Find the RCN of projects that have a total cost different from 3995036.25
+4.505  What are the unique country codes of projects that have a total cost different from 3995036.25?
+3.992  Retrieve all regional coefficients of projects that have a total cost != 3995036.25
+

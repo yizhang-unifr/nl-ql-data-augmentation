@@ -1,0 +1,28 @@
+SELECT project_members.postal_code FROM project_members WHERE project_members.rcn = '1907146' and project_members.city = 'LAUSANNE'
+
+###
+
+
+Original Query:
+SELECT project_members.postal_code FROM project_members WHERE project_members.rcn = '1907146' and project_members.city = 'LAUSANNE'
+GPT-3 choices:
+(0) What is the postal code for project members whose member region code is 1907146 and whose city is LAUSANNE?
+(1) What is the postal code of the project members with the rcn 1907146 and the city LAUSANNE
+(2) Show all project members from LAUSANNE with postal code 1907146
+(3) Show me the postal codes of project members who live in LAUSANNE
+(4) What is the postal code of the project member with registration number 1907146 and city LAUSANNE?
+(5) What is the postal code of the member whose id is 1907146 and whose city is LAUSANNE?
+(6) Show the postal code of all project members with the city of LAUSANNE.
+(7) What is the postal code of members having the project code 1907146 located in LAUSANNE?
+
+
+Re-ranked choices:
+6.165  What is the postal code of members having the project code 1907146 located in LAUSANNE?
+6.116  What is the postal code for project members whose member region code is 1907146 and whose city is LAUSANNE?
+6.077  What is the postal code of the project member with registration number 1907146 and city LAUSANNE?
+6.035  Show me the postal codes of project members who live in LAUSANNE
+5.927  Show the postal code of all project members with the city of LAUSANNE.
+5.878  Show all project members from LAUSANNE with postal code 1907146
+5.693  What is the postal code of the member whose id is 1907146 and whose city is LAUSANNE?
+5.554  What is the postal code of the project members with the rcn 1907146 and the city LAUSANNE
+

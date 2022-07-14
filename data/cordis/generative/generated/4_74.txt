@@ -1,0 +1,16 @@
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.description = 'Alkmaar en omgeving'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.description = 'Alkmaar en omgeving'
+GPT-3 choices:
+(0) How many territorial unit descriptions are there that contain the string 'Alkmaar en omgeving'?
+(1) Count the number of territorial units of Alkmaar and its surroundings
+(2) Show the number of territorial unit descriptions within the topic Alkmaar en omgeving
+(3) Retrieving the number of territorial units in Alkmaar area
+(4) How many territorial units are there with the description "Alkmaar en omgeving"?
+(5) Count number of territorial unit descriptions containing "Alkmaar en omgeving"
+(6) Count the number of eu territorial units that have the description 'Alkmaar en omgeving'.
+(7) How many territorial units are there in Alkmaar and the area around?

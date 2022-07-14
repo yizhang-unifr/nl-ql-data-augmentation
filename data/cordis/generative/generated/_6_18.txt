@@ -1,0 +1,28 @@
+SELECT topics.code FROM topics WHERE topics.rcn = '664656' and topics.title = 'ERC Consolidator Grant'
+
+###
+
+
+Original Query:
+SELECT topics.code FROM topics WHERE topics.rcn = '664656' and topics.title = 'ERC Consolidator Grant'
+GPT-3 choices:
+(0) Retrieve all topics containing ERC Consolidator Grant in the rcn field and their title
+(1) Retrieve all topics having the code 664656 and the title ERC Consolidator Grant
+(2) Show me all project descriptions related to the ERC Consolidator Grant
+(3) What are the different topics with the ERC Consolidator Grant as topic code?
+(4) Retrieve all topics with code 664656 having the title ERC Consolidator Grant.
+(5) Show me topics that have the code ERC Consolidator Grant and are titled ERC Consolidator Grant
+(6) Show me all topics that have the ERC Consolidator Grant as their title and have 664656 as a registration code.
+(7) Show me topics about ERC Consolidator Grant
+
+
+Re-ranked choices:
+5.491  Show me topics that have the code ERC Consolidator Grant and are titled ERC Consolidator Grant
+5.366  Show me all topics that have the ERC Consolidator Grant as their title and have 664656 as a registration code.
+5.263  Retrieve all topics with code 664656 having the title ERC Consolidator Grant.
+5.238  Show me topics about ERC Consolidator Grant
+5.222  Retrieve all topics having the code 664656 and the title ERC Consolidator Grant
+5.115  What are the different topics with the ERC Consolidator Grant as topic code?
+4.939  Show me all project descriptions related to the ERC Consolidator Grant
+4.754  Retrieve all topics containing ERC Consolidator Grant in the rcn field and their title
+

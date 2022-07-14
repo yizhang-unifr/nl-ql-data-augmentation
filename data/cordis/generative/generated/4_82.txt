@@ -1,0 +1,16 @@
+SELECT count(*) FROM countries WHERE countries.country_name = 'Indonesia'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM countries WHERE countries.country_name = 'Indonesia'
+GPT-3 choices:
+(0) How many countries are there in Indonesia?
+(1) Show the count of countries where the country name is Indonesia.
+(2) What is the total number of countries with country name Indonesia?
+(3) Show me how many countries there are with the country_name 'Indonesia'
+(4) How many countries are in Indonesia?
+(5) Count the number of countries for the country name Indonesia
+(6) How many countries are there in which the country_name is Indonesia?
+(7) How many countries with country_name Indonesia are there?

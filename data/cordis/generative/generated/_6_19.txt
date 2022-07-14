@@ -1,0 +1,28 @@
+SELECT topics.title FROM topics WHERE topics.code = 'PHC-15-2014' and topics.rcn = '665272'
+
+###
+
+
+Original Query:
+SELECT topics.title FROM topics WHERE topics.code = 'PHC-15-2014' and topics.rcn = '665272'
+GPT-3 choices:
+(0) Show me all topics with the code PHC-15-2014 and a record jurisdiction of 665272
+(1) Retrieve all topics titles from the ones that have rcn 665272 and code PHC-15-2014
+(2) Retrieve the titles of all topics within PHC-15-2014 research code 665272
+(3) Retrieve all topics from the RCN 665272 that have the topic code PHC-15-2014
+(4) What are the titles of the topics that have code PHC-15-2014 and whose research council number is 665272?
+(5) Show me all the topics where the code is PHC-15-2014 and the RCN is 665272
+(6) Show me topics with the code PHC-15-2014 and the research center 665272.
+(7) Show me all topics that are about PHC-15-2014 and have code 665272
+
+
+Re-ranked choices:
+5.039  Show me all topics that are about PHC-15-2014 and have code 665272
+4.890  What are the titles of the topics that have code PHC-15-2014 and whose research council number is 665272?
+4.838  Show me all the topics where the code is PHC-15-2014 and the RCN is 665272
+4.716  Retrieve all topics from the RCN 665272 that have the topic code PHC-15-2014
+4.665  Show me all topics with the code PHC-15-2014 and a record jurisdiction of 665272
+4.652  Show me topics with the code PHC-15-2014 and the research center 665272.
+4.520  Retrieve all topics titles from the ones that have rcn 665272 and code PHC-15-2014
+4.328  Retrieve the titles of all topics within PHC-15-2014 research code 665272
+

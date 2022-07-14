@@ -1,0 +1,28 @@
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.start_year != 2013
+
+###
+
+
+Original Query:
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.start_year != 2013
+GPT-3 choices:
+(0) Show the full name of all people with projects whose starting year is not 2013
+(1) Show me all full names of people from projects that did not start in 2013.
+(2) Retrieve the full name of the people who are principal investigators of a project starting before 2013
+(3) Show me the full name of people who didn't take part in projects starting in 2013
+(4) Retrieve the name of all people that did not participate in a project started in 2013
+(5) Show me the name of the people that have a project started in 2013
+(6) Show me the full name of people assigned to a project whose start year is different to 2013.
+(7) Show me the names of the people from projects that didn't start in 2013
+
+
+Re-ranked choices:
+5.950  Show me the names of the people from projects that didn't start in 2013
+5.888  Show me all full names of people from projects that did not start in 2013.
+5.741  Show the full name of all people with projects whose starting year is not 2013
+5.728  Show me the full name of people who didn't take part in projects starting in 2013
+5.634  Show me the name of the people that have a project started in 2013
+5.421  Show me the full name of people assigned to a project whose start year is different to 2013.
+5.202  Retrieve the name of all people that did not participate in a project started in 2013
+4.718  Retrieve the full name of the people who are principal investigators of a project starting before 2013
+

@@ -1,0 +1,16 @@
+SELECT project_member_roles.code FROM project_member_roles WHERE project_member_roles.description = 'thirdParty' or project_member_roles.description = 'Host institution'
+
+###
+
+
+Original Query:
+SELECT project_member_roles.code FROM project_member_roles WHERE project_member_roles.description = 'thirdParty' or project_member_roles.description = 'Host institution'
+GPT-3 choices:
+(0) Retrieve all roles of project members that have either the description thirdParty or Host institution
+(1) Retrieve the code for project member roles that have descriptions equal to 'thirdParty' or 'Host institution'
+(2) Show project member roles with ###
+(3) Retrieve project member roles with description 'thirdParty' or 'Host institution'
+(4) Show project member roles associated with project members with description thirdParty or Host institution
+(5) Which are the code of project member roles whose description is thirdParty or Host institution?
+(6) Retrieve all project member roles where the description equals 'thirdParty' or equals 'Host institution'
+(7) Show me the role description of project members with at least one institution as a third party or host

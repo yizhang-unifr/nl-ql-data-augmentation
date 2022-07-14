@@ -1,0 +1,28 @@
+SELECT count(*) FROM topics WHERE topics.rcn = '664753'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM topics WHERE topics.rcn = '664753'
+GPT-3 choices:
+(0) How many topics exist dealing with 664753?
+(1) How many topics are there about 664753?
+(2) How many topics are there with a Rcn equal to 664753?
+(3) Retrieve the number of topics having rcn = 664753
+(4) Show the number of topics with rcn = 664753
+(5) How many topics are there about "aircraft"
+(6) Show the number of topics in the European Space Research Programme.
+(7) Show how many forums are associated with this research cluster?
+
+
+Re-ranked choices:
+4.221  How many topics are there with a Rcn equal to 664753?
+4.043  Show the number of topics with rcn = 664753
+3.919  How many topics are there about 664753?
+3.872  How many topics exist dealing with 664753?
+3.814  Retrieve the number of topics having rcn = 664753
+2.770  Show the number of topics in the European Space Research Programme.
+2.357  Show how many forums are associated with this research cluster?
+1.906  How many topics are there about "aircraft"
+

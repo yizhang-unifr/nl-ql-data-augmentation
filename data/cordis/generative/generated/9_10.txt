@@ -1,0 +1,16 @@
+SELECT projects.end_date FROM projects JOIN funding_schemes ON projects.ec_fund_scheme = funding_schemes.code WHERE funding_schemes.code != 'JTI-CP-ARTEMIS'
+
+###
+
+
+Original Query:
+SELECT projects.end_date FROM projects JOIN funding_schemes ON projects.ec_fund_scheme = funding_schemes.code WHERE funding_schemes.code != 'JTI-CP-ARTEMIS'
+GPT-3 choices:
+(0) What is the end date of projects that are not under the funding scheme JTI-CP-ARTEMIS?
+(1) Show me projects that have a funding scheme different than the JTI-CP-ARTEMIS one
+(2) Show projects that have a funding scheme different from JTI-CP-ARTEMIS
+(3) Show me the end date of projects that are not assigned to the funding scheme JTI-CP-ARTEMIS
+(4) Retrieve the end date of all projects that are not funded by the scheme JTI-CP-ARTEMIS
+(5) Show me all project end dates that don't have the funding scheme JTI-CP-ARTEMIS
+(6) Get all project end dates from which are not in the funding scheme JTI-CP-ARTEMIS ...
+(7) Show me projects whose funding scheme end date is after the JTI-CP-ARTEMIS funding scheme.

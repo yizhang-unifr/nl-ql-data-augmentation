@@ -1,0 +1,28 @@
+SELECT projects.end_date FROM projects WHERE projects.ec_fund_scheme = 'CP-FP'
+
+###
+
+
+Original Query:
+SELECT projects.end_date FROM projects WHERE projects.ec_fund_scheme = 'CP-FP'
+GPT-3 choices:
+(0) Show the end dates of projects whose funded scheme is CP-FP?
+(1) Retrieve projects that have an EC funded scheme with the ending date
+(2) Show the end date of projects that have the EC funding schema CP-FP
+(3) Give me all end dates of projects having an EC fund-scheme of CP-FP
+(4) Show me the end date for projects that have the ec_fund_scheme cp-fp
+(5) Show all project end dates associated with EC funding schema CP-FP
+(6) What is the end date of projects that have the European constructing programmes and funding scheme?
+(7) What is the end date of projects that have ec_fund_scheme CP-FP?
+
+
+Re-ranked choices:
+5.699  Show me the end date for projects that have the ec_fund_scheme cp-fp
+5.541  What is the end date of projects that have ec_fund_scheme CP-FP?
+5.506  Give me all end dates of projects having an EC fund-scheme of CP-FP
+5.465  Show the end date of projects that have the EC funding schema CP-FP
+5.237  Show all project end dates associated with EC funding schema CP-FP
+5.229  Show the end dates of projects whose funded scheme is CP-FP?
+4.862  Retrieve projects that have an EC funded scheme with the ending date
+4.490  What is the end date of projects that have the European constructing programmes and funding scheme?
+

@@ -1,0 +1,28 @@
+SELECT countries.country_code FROM countries WHERE countries.country_name != 'New Zealand'
+
+###
+
+
+Original Query:
+SELECT countries.country_code2 FROM countries WHERE countries.country_name != 'New Zealand'
+GPT-3 choices:
+(0) Show country codes of countries that are not New Zealand
+(1) What are the country codes of countries that are not named New Zealand?
+(2) Show me the country code of all the countries that are different from New Zealand
+(3) Show country codes for countries that are not New Zealand
+(4) Show the country code of countries whose country name is not New Zealand
+(5) Show all country codes of countries that are not named New Zealand
+(6) What are the country codes of countries that are different from New Zealand?
+(7) What are the country codes of countries that are not New Zealand?
+
+
+Re-ranked choices:
+6.456  Show country codes of countries that are not New Zealand
+6.445  Show country codes for countries that are not New Zealand
+6.356  What are the country codes of countries that are not New Zealand?
+6.327  Show the country code of countries whose country name is not New Zealand
+6.311  Show all country codes of countries that are not named New Zealand
+6.251  Show me the country code of all the countries that are different from New Zealand
+6.250  What are the country codes of countries that are not named New Zealand?
+6.189  What are the country codes of countries that are different from New Zealand?
+

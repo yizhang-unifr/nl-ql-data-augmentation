@@ -1,0 +1,3033 @@
+[
+  {
+    "entities": [
+      {
+        "name": "disease mutations",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.41546735,
+        "mentions": [
+          {
+            "text": {
+              "content": "disease mutations",
+              "beginOffset": 27
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "information",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.35247466,
+        "mentions": [
+          {
+            "text": {
+              "content": "information",
+              "beginOffset": 9
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "lung cancer",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.23205797,
+        "mentions": [
+          {
+            "text": {
+              "content": "lung cancer",
+              "beginOffset": 48
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show all information about disease mutations of lung cancer",
+    "values": [
+      "lung cancer"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "Show biomarker drugs",
+        "type": "CONSUMER_GOOD",
+        "metadata": {},
+        "salience": 1,
+        "mentions": [
+          {
+            "text": {
+              "content": "Show biomarker drugs",
+              "beginOffset": 0
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show biomarker drugs",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "BRAF",
+        "type": "OTHER",
+        "metadata": {
+          "mid": "/m/03cszjw",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/BRAF_(gene)"
+        },
+        "salience": 0.41039345,
+        "mentions": [
+          {
+            "text": {
+              "content": "BRAF",
+              "beginOffset": 56
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "gene",
+              "beginOffset": 51
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "tests",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.31958047,
+        "mentions": [
+          {
+            "text": {
+              "content": "tests",
+              "beginOffset": 41
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "manufacturer",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.2700261,
+        "mentions": [
+          {
+            "text": {
+              "content": "manufacturer",
+              "beginOffset": 14
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show distinct manufacturer of diagnostic tests for gene BRAF ",
+    "values": [
+      "BRAF",
+      "diagnostic"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.48627853,
+        "mentions": [
+          {
+            "text": {
+              "content": "name",
+              "beginOffset": 13
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "A1CF",
+        "type": "OTHER",
+        "metadata": {
+          "wikipedia_url": "https://en.wikipedia.org/wiki/A1CF",
+          "mid": "/m/03gy5ny"
+        },
+        "salience": 0.3133292,
+        "mentions": [
+          {
+            "text": {
+              "content": "A1CF",
+              "beginOffset": 47
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "gene",
+              "beginOffset": 42
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "cancer diseases",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.11696976,
+        "mentions": [
+          {
+            "text": {
+              "content": "cancer diseases",
+              "beginOffset": 21
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "p-value",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.08342251,
+        "mentions": [
+          {
+            "text": {
+              "content": "p-value",
+              "beginOffset": 90
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "0.01",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "0.010000"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "0.01",
+              "beginOffset": 108
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "What are the name of cancer diseases that gene A1CF is differentially expressed in with a p-value less than 0.01",
+    "values": [
+      "A1CF",
+      "0.01"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "species",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.56278056,
+        "mentions": [
+          {
+            "text": {
+              "content": "species",
+              "beginOffset": 27
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "information",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.43721944,
+        "mentions": [
+          {
+            "text": {
+              "content": "information",
+              "beginOffset": 9
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show all information about species",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "QA states",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.32143047,
+        "mentions": [
+          {
+            "text": {
+              "content": "QA states",
+              "beginOffset": 23
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "biomarkers",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.30375904,
+        "mentions": [
+          {
+            "text": {
+              "content": "biomarkers",
+              "beginOffset": 37
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "platform",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.23339975,
+        "mentions": [
+          {
+            "text": {
+              "content": "platform",
+              "beginOffset": 60
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "EDRN",
+        "type": "OTHER",
+        "metadata": {
+          "mid": "/m/02w96_7",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Early_Detection_Research_Network"
+        },
+        "salience": 0.14141074,
+        "mentions": [
+          {
+            "text": {
+              "content": "EDRN",
+              "beginOffset": 55
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "What are the different QA states for biomarkers on the EDRN platform?",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "entities",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.36810982,
+        "mentions": [
+          {
+            "text": {
+              "content": "entities",
+              "beginOffset": 31
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.28658804,
+        "mentions": [
+          {
+            "text": {
+              "content": "name",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "species",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.21081176,
+        "mentions": [
+          {
+            "text": {
+              "content": "species",
+              "beginOffset": 60
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "species",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.13449037,
+        "mentions": [
+          {
+            "text": {
+              "content": "species",
+              "beginOffset": 44
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show me the name of anatomical entities and species for all species",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "cancer name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.47385877,
+        "mentions": [
+          {
+            "text": {
+              "content": "cancer name",
+              "beginOffset": 61
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "entity",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.22899185,
+        "mentions": [
+          {
+            "text": {
+              "content": "entity",
+              "beginOffset": 36
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.18016683,
+        "mentions": [
+          {
+            "text": {
+              "content": "name",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "entity",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.11698255,
+        "mentions": [
+          {
+            "text": {
+              "content": "entity",
+              "beginOffset": 97
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show me the name of each anatomical entity together with the cancer name which can occur in this entity.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "organs",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.54571337,
+        "mentions": [
+          {
+            "text": {
+              "content": "organs",
+              "beginOffset": 30
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "A1BG",
+        "type": "OTHER",
+        "metadata": {
+          "mid": "/m/0nd4khx",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Alpha-1-B_glycoprotein"
+        },
+        "salience": 0.45428663,
+        "mentions": [
+          {
+            "text": {
+              "content": "gene",
+              "beginOffset": 47
+            },
+            "type": "COMMON"
+          },
+          {
+            "text": {
+              "content": "A1BG",
+              "beginOffset": 52
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "What are the distinct healthy organs where the gene A1BG is expressed.",
+    "values": [
+      "A1BG",
+      "ABSENT"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "biomarker alias",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 1,
+        "mentions": [
+          {
+            "text": {
+              "content": "biomarker alias",
+              "beginOffset": 19
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "List all different biomarker alias.",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "biomarker symbols",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.57363087,
+        "mentions": [
+          {
+            "text": {
+              "content": "biomarker symbols",
+              "beginOffset": 13
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "EDRN biomarker type protein",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.4263691,
+        "mentions": [
+          {
+            "text": {
+              "content": "EDRN biomarker type protein",
+              "beginOffset": 35
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "What are the biomarker symbols for EDRN biomarker type protein?",
+    "values": [
+      "Protein"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "genes",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.6251939,
+        "mentions": [
+          {
+            "text": {
+              "content": "genes",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "species",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.37480614,
+        "mentions": [
+          {
+            "text": {
+              "content": "species",
+              "beginOffset": 22
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show me all genes for species musculus",
+    "values": [
+      "musculus"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "test trade name",
+        "type": "CONSUMER_GOOD",
+        "metadata": {},
+        "salience": 0.79305196,
+        "mentions": [
+          {
+            "text": {
+              "content": "test trade name",
+              "beginOffset": 13
+            },
+            "type": "COMMON"
+          },
+          {
+            "text": {
+              "content": "drug",
+              "beginOffset": 37
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "FDA",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/m/032mx",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Food_and_Drug_Administration"
+        },
+        "salience": 0.16965652,
+        "mentions": [
+          {
+            "text": {
+              "content": "FDA",
+              "beginOffset": 9
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "Vemurafenib",
+        "type": "CONSUMER_GOOD",
+        "metadata": {
+          "mid": "/m/0hqvq1s",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Vemurafenib"
+        },
+        "salience": 0.03729153,
+        "mentions": [
+          {
+            "text": {
+              "content": "Vemurafenib",
+              "beginOffset": 43
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "In which FDA test trade name was the drug 'Vemurafenib' involved?",
+    "values": [
+      "Vemurafenib"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "skin cancer",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.3835938,
+        "mentions": [
+          {
+            "text": {
+              "content": "skin cancer",
+              "beginOffset": 38
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "disease mutation data",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.32046282,
+        "mentions": [
+          {
+            "text": {
+              "content": "disease mutation data",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "peptide position",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.29594338,
+        "mentions": [
+          {
+            "text": {
+              "content": "peptide position",
+              "beginOffset": 57
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "121",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "121"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "121",
+              "beginOffset": 77
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me all disease mutation data for skin cancer with a peptide position of 121",
+    "values": [
+      "skin cancer",
+      "121"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "test",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.50270206,
+        "mentions": [
+          {
+            "text": {
+              "content": "test",
+              "beginOffset": 13
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "FDA",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/m/032mx",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Food_and_Drug_Administration"
+        },
+        "salience": 0.36251867,
+        "mentions": [
+          {
+            "text": {
+              "content": "FDA",
+              "beginOffset": 9
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "specimen type saliva",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.13477926,
+        "mentions": [
+          {
+            "text": {
+              "content": "specimen type saliva",
+              "beginOffset": 23
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "How many FDA test with specimen type saliva are there?",
+    "values": [
+      "Saliva"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "disease mutations",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.5853825,
+        "mentions": [
+          {
+            "text": {
+              "content": "disease mutations",
+              "beginOffset": 21
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "pmid",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.21686205,
+        "mentions": [
+          {
+            "text": {
+              "content": "pmid",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "datasource",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.1977554,
+        "mentions": [
+          {
+            "text": {
+              "content": "datasource",
+              "beginOffset": 60
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show me the pmid for disease mutations which have cosmic as datasource. ",
+    "values": [
+      "cosmic"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "symbol",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.21536118,
+        "mentions": [
+          {
+            "text": {
+              "content": "symbol",
+              "beginOffset": 8
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "biomarkers",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.1942109,
+        "mentions": [
+          {
+            "text": {
+              "content": "biomarkers",
+              "beginOffset": 34
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "description",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.191984,
+        "mentions": [
+          {
+            "text": {
+              "content": "description",
+              "beginOffset": 19
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "breast",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.17911541,
+        "mentions": [
+          {
+            "text": {
+              "content": "breast",
+              "beginOffset": 56
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "phase",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.13692246,
+        "mentions": [
+          {
+            "text": {
+              "content": "phase",
+              "beginOffset": 75
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "EDRN",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Early_Detection_Research_Network",
+          "mid": "/m/02w96_7"
+        },
+        "salience": 0.082406044,
+        "mentions": [
+          {
+            "text": {
+              "content": "EDRN",
+              "beginOffset": 70
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "one",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "1"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "one",
+              "beginOffset": 81
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me symbol and description of biomarkers related to breast at the EDRN phase one",
+    "values": [
+      "breast",
+      "One"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "gene symbols",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.33679312,
+        "mentions": [
+          {
+            "text": {
+              "content": "gene symbols",
+              "beginOffset": 9
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "species",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.31509563,
+        "mentions": [
+          {
+            "text": {
+              "content": "species",
+              "beginOffset": 26
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "genus",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.24309689,
+        "mentions": [
+          {
+            "text": {
+              "content": "genus",
+              "beginOffset": 39
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Mus",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.105014354,
+        "mentions": [
+          {
+            "text": {
+              "content": "Mus",
+              "beginOffset": 45
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "List all gene symbols for species with genus Mus",
+    "values": [
+      "Mus"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "DKK3",
+        "type": "OTHER",
+        "metadata": {
+          "mid": "/m/03gxk3n",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/DKK3"
+        },
+        "salience": 0.38678506,
+        "mentions": [
+          {
+            "text": {
+              "content": "DKK3",
+              "beginOffset": 45
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "symbol",
+              "beginOffset": 38
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "alias",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.31354484,
+        "mentions": [
+          {
+            "text": {
+              "content": "alias",
+              "beginOffset": 13
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "biomarker",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.2996701,
+        "mentions": [
+          {
+            "text": {
+              "content": "biomarker",
+              "beginOffset": 23
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "DKK3",
+        "type": "PRICE",
+        "metadata": {
+          "currency": "DKK",
+          "value": "3.000000"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "DKK3",
+              "beginOffset": 45
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "What are the alias for biomarker with symbol DKK3",
+    "values": [
+      "DKK3"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "diseases",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.5386016,
+        "mentions": [
+          {
+            "text": {
+              "content": "diseases",
+              "beginOffset": 5
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "aa_pos_uniprotkb",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.28047645,
+        "mentions": [
+          {
+            "text": {
+              "content": "uniprot position",
+              "beginOffset": 37
+            },
+            "type": "COMMON"
+          },
+          {
+            "text": {
+              "content": "aa_pos_uniprotkb",
+              "beginOffset": 55
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "mutation",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.18092194,
+        "mentions": [
+          {
+            "text": {
+              "content": "mutation",
+              "beginOffset": 21
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "34333",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "34333"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "34333",
+              "beginOffset": 76
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "What diseases have a mutation with a uniprot position (aa_pos_uniprotkb) of 34333?",
+    "values": [
+      "34333"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "biomarkers",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.5985448,
+        "mentions": [
+          {
+            "text": {
+              "content": "biomarkers",
+              "beginOffset": 9
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "QA",
+        "type": "LOCATION",
+        "metadata": {
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Quality_assurance",
+          "mid": "/m/01sf4b"
+        },
+        "salience": 0.2544768,
+        "mentions": [
+          {
+            "text": {
+              "content": "QA",
+              "beginOffset": 27
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "state",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.14697842,
+        "mentions": [
+          {
+            "text": {
+              "content": "state",
+              "beginOffset": 30
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "How many biomarkers are in QA state Curated?",
+    "values": [
+      "Curated"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "ENSMUSG00000000078",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.30559215,
+        "mentions": [
+          {
+            "text": {
+              "content": "ENSMUSG00000000078",
+              "beginOffset": 115
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "gene",
+              "beginOffset": 110
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.2581439,
+        "mentions": [
+          {
+            "text": {
+              "content": "name",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "gene",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.1402142,
+        "mentions": [
+          {
+            "text": {
+              "content": "gene",
+              "beginOffset": 83
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "expression score",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.134532,
+        "mentions": [
+          {
+            "text": {
+              "content": "expression score",
+              "beginOffset": 50
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "entity",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.13296767,
+        "mentions": [
+          {
+            "text": {
+              "content": "entity",
+              "beginOffset": 35
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "ENSMUSG00000000037",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.028550081,
+        "mentions": [
+          {
+            "text": {
+              "content": "ENSMUSG00000000037",
+              "beginOffset": 88
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show me the name of the anatomical entity and the expression score of where either gene ENSMUSG00000000037 or gene ENSMUSG00000000078 is expressed in.",
+    "values": [
+      "ENSMUSG00000000037",
+      "ENSMUSG00000000078"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "MMP1",
+        "type": "OTHER",
+        "metadata": {
+          "mid": "/m/03crfsl",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/MMP1"
+        },
+        "salience": 0.44948593,
+        "mentions": [
+          {
+            "text": {
+              "content": "MMP1",
+              "beginOffset": 51
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "symbol",
+              "beginOffset": 44
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "biomarkers",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.348249,
+        "mentions": [
+          {
+            "text": {
+              "content": "biomarkers",
+              "beginOffset": 28
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "description",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.20226507,
+        "mentions": [
+          {
+            "text": {
+              "content": "description",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show me the description for biomarkers with symbol MMP1",
+    "values": [
+      "MMP1"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "genes",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.543432,
+        "mentions": [
+          {
+            "text": {
+              "content": "genes",
+              "beginOffset": 22
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "symbol",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.31943387,
+        "mentions": [
+          {
+            "text": {
+              "content": "symbol",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "disease stomach cancer",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.13713412,
+        "mentions": [
+          {
+            "text": {
+              "content": "disease stomach cancer",
+              "beginOffset": 55
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "What is the symbol of genes which are expressed in the disease stomach cancer?",
+    "values": [
+      "stomach cancer"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "QIAGEN GMBH",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Qiagen",
+          "mid": "/m/0937j8"
+        },
+        "salience": 0.44860232,
+        "mentions": [
+          {
+            "text": {
+              "content": "manufacturer",
+              "beginOffset": 38
+            },
+            "type": "COMMON"
+          },
+          {
+            "text": {
+              "content": "QIAGEN GMBH",
+              "beginOffset": 51
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "test trade names",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.20444952,
+        "mentions": [
+          {
+            "text": {
+              "content": "test trade names",
+              "beginOffset": 13
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "FDA",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Food_and_Drug_Administration",
+          "mid": "/m/032mx"
+        },
+        "salience": 0.18075112,
+        "mentions": [
+          {
+            "text": {
+              "content": "FDA",
+              "beginOffset": 9
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "part",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.16619705,
+        "mentions": [
+          {
+            "text": {
+              "content": "part",
+              "beginOffset": 68
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "In which FDA test trade names did the manufacturer QIAGEN GMBH take part?",
+    "values": [
+      "QIAGEN GMBH"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "symbols",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.36929202,
+        "mentions": [
+          {
+            "text": {
+              "content": "symbols",
+              "beginOffset": 13
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "biomarkers",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.26791894,
+        "mentions": [
+          {
+            "text": {
+              "content": "biomarkers",
+              "beginOffset": 25
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "phase",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.247547,
+        "mentions": [
+          {
+            "text": {
+              "content": "phase",
+              "beginOffset": 39
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "EDRN",
+        "type": "OTHER",
+        "metadata": {
+          "mid": "/m/02w96_7",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Early_Detection_Research_Network"
+        },
+        "salience": 0.11524202,
+        "mentions": [
+          {
+            "text": {
+              "content": "EDRN",
+              "beginOffset": 52
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "two",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "2"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "two",
+              "beginOffset": 45
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "What are the symbols for biomarkers in phase two on EDRN?",
+    "values": [
+      "Two"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "ALDH4A1",
+        "type": "OTHER",
+        "metadata": {
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Aldehyde_dehydrogenase_4_family,_member_A1",
+          "mid": "/m/03hgcpn"
+        },
+        "salience": 0.42270702,
+        "mentions": [
+          {
+            "text": {
+              "content": "ALDH4A1",
+              "beginOffset": 47
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "symbol",
+              "beginOffset": 40
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "term",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.2508705,
+        "mentions": [
+          {
+            "text": {
+              "content": "term",
+              "beginOffset": 16
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "biomarker",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.19757475,
+        "mentions": [
+          {
+            "text": {
+              "content": "biomarker",
+              "beginOffset": 25
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "NCIt",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.12884772,
+        "mentions": [
+          {
+            "text": {
+              "content": "NCIt",
+              "beginOffset": 11
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "What's the NCIt term for biomarker with symbol ALDH4A1?",
+    "values": [
+      "ALDH4A1"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "Show cancer biomarker panels",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 1,
+        "mentions": [
+          {
+            "text": {
+              "content": "Show cancer biomarker panels",
+              "beginOffset": 0
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show cancer biomarker panels ",
+    "values": [
+      "true",
+      "NULL"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "gene symbols",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.7983086,
+        "mentions": [
+          {
+            "text": {
+              "content": "gene symbols",
+              "beginOffset": 9
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "p-value",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.20169136,
+        "mentions": [
+          {
+            "text": {
+              "content": "p-value",
+              "beginOffset": 39
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "0.00288",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "0.002880"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "0.00288",
+              "beginOffset": 50
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "List the gene symbols expressed with a p-value of 0.00288",
+    "values": [
+      "0.00288"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "biomarkers",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.4782018,
+        "mentions": [
+          {
+            "text": {
+              "content": "biomarkers",
+              "beginOffset": 9
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "state",
+        "type": "LOCATION",
+        "metadata": {},
+        "salience": 0.15059467,
+        "mentions": [
+          {
+            "text": {
+              "content": "state",
+              "beginOffset": 30
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "platform",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.10771307,
+        "mentions": [
+          {
+            "text": {
+              "content": "platform",
+              "beginOffset": 63
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Under Review",
+        "type": "WORK_OF_ART",
+        "metadata": {},
+        "salience": 0.10679012,
+        "mentions": [
+          {
+            "text": {
+              "content": "Under Review",
+              "beginOffset": 37
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "QA",
+        "type": "LOCATION",
+        "metadata": {
+          "mid": "/m/01sf4b",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Quality_assurance"
+        },
+        "salience": 0.09168842,
+        "mentions": [
+          {
+            "text": {
+              "content": "QA",
+              "beginOffset": 27
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "EDRN",
+        "type": "OTHER",
+        "metadata": {
+          "mid": "/m/02w96_7",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Early_Detection_Research_Network"
+        },
+        "salience": 0.06501193,
+        "mentions": [
+          {
+            "text": {
+              "content": "EDRN",
+              "beginOffset": 58
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "How many biomarkers are in QA state 'Under Review' on the EDRN platform?",
+    "values": [
+      "Under Review"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "tools",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.57363087,
+        "mentions": [
+          {
+            "text": {
+              "content": "tools",
+              "beginOffset": 23
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "disease mutation impact predictions",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.4263691,
+        "mentions": [
+          {
+            "text": {
+              "content": "disease mutation impact predictions",
+              "beginOffset": 33
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "What are the different tools for disease mutation impact predictions?",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "disease",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.73712355,
+        "mentions": [
+          {
+            "text": {
+              "content": "disease",
+              "beginOffset": 6
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "pvalue",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.26287645,
+        "mentions": [
+          {
+            "text": {
+              "content": "pvalue",
+              "beginOffset": 34
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "0.9999",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "0.999900"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "0.9999",
+              "beginOffset": 54
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Which disease is expressed with a pvalue of more than 0.9999",
+    "values": [
+      "0.9999"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "biomarkers",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.6341126,
+        "mentions": [
+          {
+            "text": {
+              "content": "biomarkers",
+              "beginOffset": 22
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "portal",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.19776638,
+        "mentions": [
+          {
+            "text": {
+              "content": "portal",
+              "beginOffset": 70
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "EDRN",
+        "type": "OTHER",
+        "metadata": {
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Early_Detection_Research_Network",
+          "mid": "/m/02w96_7"
+        },
+        "salience": 0.16812102,
+        "mentions": [
+          {
+            "text": {
+              "content": "EDRN",
+              "beginOffset": 65
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show me all different biomarkers which are also available on the EDRN portal",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "mutations",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.3989886,
+        "mentions": [
+          {
+            "text": {
+              "content": "mutations",
+              "beginOffset": 27
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "information",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.31386855,
+        "mentions": [
+          {
+            "text": {
+              "content": "information",
+              "beginOffset": 9
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "lung cancer",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.28714284,
+        "mentions": [
+          {
+            "text": {
+              "content": "lung cancer",
+              "beginOffset": 40
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show all information about mutations of lung cancer",
+    "values": [
+      "lung cancer"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "gene symbol",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.39205626,
+        "mentions": [
+          {
+            "text": {
+              "content": "gene symbol",
+              "beginOffset": 9
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "biomarkers",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.37019947,
+        "mentions": [
+          {
+            "text": {
+              "content": "biomarkers",
+              "beginOffset": 44
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "description",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.23774429,
+        "mentions": [
+          {
+            "text": {
+              "content": "description",
+              "beginOffset": 29
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show the gene symbol and the description of biomarkers",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "approval status",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.34234226,
+        "mentions": [
+          {
+            "text": {
+              "content": "approval status",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "tests",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.27052337,
+        "mentions": [
+          {
+            "text": {
+              "content": "tests",
+              "beginOffset": 36
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "genes",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.20786242,
+        "mentions": [
+          {
+            "text": {
+              "content": "genes",
+              "beginOffset": 50
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "FDA",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Food_and_Drug_Administration",
+          "mid": "/m/032mx"
+        },
+        "salience": 0.17927197,
+        "mentions": [
+          {
+            "text": {
+              "content": "FDA",
+              "beginOffset": 32
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "23",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "23"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "23",
+              "beginOffset": 47
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "What is the approval status for FDA tests with 23 genes?",
+    "values": [
+      "23"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "stages",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.56278056,
+        "mentions": [
+          {
+            "text": {
+              "content": "stages",
+              "beginOffset": 27
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "information",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.43721944,
+        "mentions": [
+          {
+            "text": {
+              "content": "information",
+              "beginOffset": 9
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show all information about stages",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "biomarkers",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 1,
+        "mentions": [
+          {
+            "text": {
+              "content": "biomarkers",
+              "beginOffset": 9
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "How many biomarkers are there",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "disease mutations",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.43392,
+        "mentions": [
+          {
+            "text": {
+              "content": "disease mutations",
+              "beginOffset": 27
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "information",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.3413477,
+        "mentions": [
+          {
+            "text": {
+              "content": "information",
+              "beginOffset": 9
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "entity liver",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.22473232,
+        "mentions": [
+          {
+            "text": {
+              "content": "entity liver",
+              "beginOffset": 63
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show all information about disease mutations of the anatomical entity liver",
+    "values": [
+      "liver"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "FDA",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Food_and_Drug_Administration",
+          "mid": "/m/032mx"
+        },
+        "salience": 0.40228122,
+        "mentions": [
+          {
+            "text": {
+              "content": "FDA",
+              "beginOffset": 6
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "tests",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.26613885,
+        "mentions": [
+          {
+            "text": {
+              "content": "tests",
+              "beginOffset": 10
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "mutation",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.19300486,
+        "mentions": [
+          {
+            "text": {
+              "content": "mutation",
+              "beginOffset": 30
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "biomarker origin",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.13857506,
+        "mentions": [
+          {
+            "text": {
+              "content": "biomarker origin",
+              "beginOffset": 43
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Which FDA tests have 'somatic mutation' as biomarker origin?",
+    "values": [
+      "somatic mutation"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "test manufacturer",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.44805393,
+        "mentions": [
+          {
+            "text": {
+              "content": "test manufacturer",
+              "beginOffset": 11
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "FDA",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/m/032mx",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Food_and_Drug_Administration"
+        },
+        "salience": 0.23462926,
+        "mentions": [
+          {
+            "text": {
+              "content": "FDA",
+              "beginOffset": 33
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "id NCT01899079",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.19389124,
+        "mentions": [
+          {
+            "text": {
+              "content": "id NCT01899079",
+              "beginOffset": 53
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "test trial",
+        "type": "EVENT",
+        "metadata": {},
+        "salience": 0.12342558,
+        "mentions": [
+          {
+            "text": {
+              "content": "test trial",
+              "beginOffset": 37
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Who is the test manufacturer for FDA test trial with id NCT01899079",
+    "values": [
+      "NCT01899079"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "expression",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.7955598,
+        "mentions": [
+          {
+            "text": {
+              "content": "expression",
+              "beginOffset": 9
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "significance",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.20444018,
+        "mentions": [
+          {
+            "text": {
+              "content": "significance",
+              "beginOffset": 40
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "How many expression have no statistical significance? ",
+    "values": [
+      "False"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "tests",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.3820278,
+        "mentions": [
+          {
+            "text": {
+              "content": "tests",
+              "beginOffset": 13
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "FDA",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/m/032mx",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Food_and_Drug_Administration"
+        },
+        "salience": 0.34006673,
+        "mentions": [
+          {
+            "text": {
+              "content": "FDA",
+              "beginOffset": 9
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "disease ovarian cancer",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.27790546,
+        "mentions": [
+          {
+            "text": {
+              "content": "disease ovarian cancer",
+              "beginOffset": 33
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "How many FDA tests exist for the disease ovarian cancer?",
+    "values": [
+      "ovarian cancer"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "disease mutations",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.7457189,
+        "mentions": [
+          {
+            "text": {
+              "content": "disease mutations",
+              "beginOffset": 9
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "entity liver",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.2542811,
+        "mentions": [
+          {
+            "text": {
+              "content": "entity liver",
+              "beginOffset": 54
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "List all disease mutations which belong to anatomical entity liver.",
+    "values": [
+      "liver"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "tests",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.61658305,
+        "mentions": [
+          {
+            "text": {
+              "content": "tests",
+              "beginOffset": 31
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "name",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.23190989,
+        "mentions": [
+          {
+            "text": {
+              "content": "name",
+              "beginOffset": 9
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "use",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.15150703,
+        "mentions": [
+          {
+            "text": {
+              "content": "use",
+              "beginOffset": 58
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show the name of all different tests that are in clinical use",
+    "values": [
+      "clinical use"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "gene symbol",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.4386365,
+        "mentions": [
+          {
+            "text": {
+              "content": "gene symbol",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "biomarker",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.265243,
+        "mentions": [
+          {
+            "text": {
+              "content": "biomarker",
+              "beginOffset": 32
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "alias",
+        "type": "PERSON",
+        "metadata": {},
+        "salience": 0.24507453,
+        "mentions": [
+          {
+            "text": {
+              "content": "alias",
+              "beginOffset": 47
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Dickkopf",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.05104595,
+        "mentions": [
+          {
+            "text": {
+              "content": "Dickkopf",
+              "beginOffset": 54
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "3",
+        "type": "NUMBER",
+        "metadata": {
+          "value": "3"
+        },
+        "salience": 0,
+        "mentions": [
+          {
+            "text": {
+              "content": "3",
+              "beginOffset": 63
+            },
+            "type": "TYPE_UNKNOWN"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "What is the gene symbol for the biomarker with alias 'Dickkopf-3'?",
+    "values": [
+      "Dickkopf-3"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "SAT1",
+        "type": "OTHER",
+        "metadata": {
+          "mid": "/m/02qc18",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Sat.1"
+        },
+        "salience": 0.41319934,
+        "mentions": [
+          {
+            "text": {
+              "content": "SAT1",
+              "beginOffset": 50
+            },
+            "type": "PROPER"
+          },
+          {
+            "text": {
+              "content": "symbol",
+              "beginOffset": 43
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "biomarker",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.32013515,
+        "mentions": [
+          {
+            "text": {
+              "content": "biomarker",
+              "beginOffset": 28
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "description",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.26666552,
+        "mentions": [
+          {
+            "text": {
+              "content": "description",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Give me the description for biomarker with symbol SAT1",
+    "values": [
+      "SAT1"
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "Show tests",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.92627597,
+        "mentions": [
+          {
+            "text": {
+              "content": "Show tests",
+              "beginOffset": 0
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "Roche Molecular Systems Inc",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 0.07372406,
+        "mentions": [
+          {
+            "text": {
+              "content": "Roche Molecular Systems Inc",
+              "beginOffset": 30
+            },
+            "type": "PROPER"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "Show tests by manufactured by Roche Molecular Systems Inc.",
+    "values": [
+      "Roche Molecular Systems Inc."
+    ]
+  },
+  {
+    "entities": [
+      {
+        "name": "test manufacturers",
+        "type": "ORGANIZATION",
+        "metadata": {},
+        "salience": 1,
+        "mentions": [
+          {
+            "text": {
+              "content": "test manufacturers",
+              "beginOffset": 19
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "How many different test manufacturers are there?",
+    "values": []
+  },
+  {
+    "entities": [
+      {
+        "name": "test submission",
+        "type": "WORK_OF_ART",
+        "metadata": {},
+        "salience": 0.37657884,
+        "mentions": [
+          {
+            "text": {
+              "content": "test submission",
+              "beginOffset": 12
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "test",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.25437167,
+        "mentions": [
+          {
+            "text": {
+              "content": "test",
+              "beginOffset": 40
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "genes",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.15958178,
+        "mentions": [
+          {
+            "text": {
+              "content": "genes",
+              "beginOffset": 72
+            },
+            "type": "COMMON"
+          }
+        ]
+      },
+      {
+        "name": "FDA",
+        "type": "ORGANIZATION",
+        "metadata": {
+          "mid": "/m/032mx",
+          "wikipedia_url": "https://en.wikipedia.org/wiki/Food_and_Drug_Administration"
+        },
+        "salience": 0.13744868,
+        "mentions": [
+          {
+            "text": {
+              "content": "FDA",
+              "beginOffset": 36
+            },
+            "type": "PROPER"
+          }
+        ]
+      },
+      {
+        "name": "number",
+        "type": "OTHER",
+        "metadata": {},
+        "salience": 0.072019,
+        "mentions": [
+          {
+            "text": {
+              "content": "number",
+              "beginOffset": 62
+            },
+            "type": "COMMON"
+          }
+        ]
+      }
+    ],
+    "language": "en",
+    "question": "What is the test submission for the FDA test with the highest number of genes?",
+    "values": []
+  }
+]

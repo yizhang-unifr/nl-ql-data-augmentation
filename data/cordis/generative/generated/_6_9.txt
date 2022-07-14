@@ -1,0 +1,28 @@
+SELECT project_members.institution_id FROM project_members WHERE project_members.ec_contribution = 95625.0 and project_members.department_name = 'Social Sciences / National Initiative Brain and Cognition'
+
+###
+
+
+Original Query:
+SELECT project_members.institution_id FROM project_members WHERE project_members.ec_contribution = 95625.0 and project_members.department_name = 'Social Sciences / National Initiative Brain and Cognition'
+GPT-3 choices:
+(0) Show me all project members of the project having code 95625, which are a department of Social Sciences / National Initiative Brain and Cognition
+(1) How many institutions are there, that are part of project 95625 in the department Social Sciences / National Initiative Brain and Cognition?
+(2) Show me all project members that have contributed to project 95625, whose department is Social Sciences / National Initiative Brain and Cognition
+(3) Retrieve all project members belonging to the department Social Sciences / National Initiative Brain and Cognition and that have an eoc contribution of 95625.0
+(4) Retrieve the institution ID of project members whose department name is "Social Sciences / National Initiative Brain and Cognition" and their EC contribution is 95625.0.
+(5) Retrieve the institution id of project members whose euc contribution is 95625.0 and the department name is "Social Sciences / National Initiative Brain and Cognition"
+(6) Show me all of the institutions that have contributed 95625 Euros to the project entitled "National Initiative Brain and Cognition" that is run by the department "Social Sciences"
+(7) Show me all members of projects whose EC contribution is 95625 and take place in the department Social Sciences / National Initiative Brain and Cognition
+
+
+Re-ranked choices:
+5.675  Show me all project members that have contributed to project 95625, whose department is Social Sciences / National Initiative Brain and Cognition
+5.673  Show me all members of projects whose EC contribution is 95625 and take place in the department Social Sciences / National Initiative Brain and Cognition
+5.616  Retrieve all project members belonging to the department Social Sciences / National Initiative Brain and Cognition and that have an eoc contribution of 95625.0
+5.510  Retrieve the institution ID of project members whose department name is "Social Sciences / National Initiative Brain and Cognition" and their EC contribution is 95625.0.
+5.409  Show me all of the institutions that have contributed 95625 Euros to the project entitled "National Initiative Brain and Cognition" that is run by the department "Social Sciences"
+5.402  Show me all project members of the project having code 95625, which are a department of Social Sciences / National Initiative Brain and Cognition
+5.261  Retrieve the institution id of project members whose euc contribution is 95625.0 and the department name is "Social Sciences / National Initiative Brain and Cognition"
+5.239  How many institutions are there, that are part of project 95625 in the department Social Sciences / National Initiative Brain and Cognition?
+

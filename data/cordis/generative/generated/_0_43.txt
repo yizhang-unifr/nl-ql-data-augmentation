@@ -1,0 +1,28 @@
+SELECT programmes.code FROM programmes WHERE programmes.title = 'Planning rail towards 2050'
+
+###
+
+
+Original Query:
+SELECT programmes.code FROM programmes WHERE programmes.title = 'Planning rail towards 2050'
+GPT-3 choices:
+(0) Display all programme codes for the programme titled "Planning rail towards 2050".
+(1) What is the code of the programme "Planning rail towards 2050"?
+(2) Which is the code of the programme "Planning rail towards 2050"?
+(3) Which is the code of the programme "Planning rail towards 2050?"
+(4) Retrieve the code of the program "Planning rail towards 2050"
+(5) What is the code of the programme “Planning rail towards 2050?”
+(6) Display the programme code for the programme titled 'Planning rail towards 2050'
+(7) Show the code of programmes with title "Planning rail towards 2050"
+
+
+Re-ranked choices:
+6.519  Which is the code of the programme "Planning rail towards 2050?"
+6.501  What is the code of the programme “Planning rail towards 2050?”
+6.489  Which is the code of the programme "Planning rail towards 2050"?
+6.473  What is the code of the programme "Planning rail towards 2050"?
+6.319  Display the programme code for the programme titled 'Planning rail towards 2050'
+6.280  Show the code of programmes with title "Planning rail towards 2050"
+6.177  Display all programme codes for the programme titled "Planning rail towards 2050".
+6.070  Retrieve the code of the program "Planning rail towards 2050"
+

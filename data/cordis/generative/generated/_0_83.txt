@@ -1,0 +1,26 @@
+SELECT projects.title FROM projects WHERE projects.total_cost = 239221.6
+
+###
+
+
+Original Query:
+SELECT projects.title FROM projects WHERE projects.total_cost = 239221.6
+GPT-3 choices:
+(0) Show the title of projects with a total cost of 239221.6
+(1) What are the project titles?
+(2) What are the project titles?
+(3) Show all project titles with a total cost of 239221.6 euros
+(4) What are the project titles?
+(5) What is the title of projects with a total cost of 239221.6?
+(6) What are the titles of projects whose total cost is 239221.6?
+(7) Show project titles with a total cost of 239221.6
+
+
+Re-ranked choices:
+4.097  Show the title of projects with a total cost of 239221.6
+4.013  What are the titles of projects whose total cost is 239221.6?
+3.939  Show project titles with a total cost of 239221.6
+3.853  What is the title of projects with a total cost of 239221.6?
+3.653  Show all project titles with a total cost of 239221.6 euros
+2.919  What are the project titles?
+

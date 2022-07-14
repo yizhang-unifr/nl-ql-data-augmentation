@@ -1,0 +1,28 @@
+SELECT topics.title FROM topics WHERE topics.code != 'MSCA-RISE-2015'
+
+###
+
+
+Original Query:
+SELECT topics.title FROM topics WHERE topics.code != 'MSCA-RISE-2015'
+GPT-3 choices:
+(0) Show the different topics titles
+(1) Show me the topics which are not the MSCA-RISE-2015
+(2) Show me topics having a title different from 'MSCA-RISE-2015'
+(3) Get me topics that are not about the MSCA-RISE-2015
+(4) Aggregate the titles of all topics except the one labeled "MSCA-RISE-2015"
+(5) What are the topics of all conferences that are not MSCA-RISE-2015?
+(6) Show me all topics that are not the MSCA-RISE-2015 topic
+(7) What are the topics that have a different code than 'MSCA-RISE-2015'?
+
+
+Re-ranked choices:
+5.425  Show me the topics which are not the MSCA-RISE-2015
+5.379  Show me all topics that are not the MSCA-RISE-2015 topic
+5.175  Get me topics that are not about the MSCA-RISE-2015
+4.849  Show me topics having a title different from 'MSCA-RISE-2015'
+4.715  Aggregate the titles of all topics except the one labeled "MSCA-RISE-2015"
+4.624  What are the topics that have a different code than 'MSCA-RISE-2015'?
+4.619  What are the topics of all conferences that are not MSCA-RISE-2015?
+3.376  Show the different topics titles
+

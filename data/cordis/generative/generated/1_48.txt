@@ -1,0 +1,16 @@
+SELECT activity_types.description FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.longitude = 5.3426583646523
+
+###
+
+
+Original Query:
+SELECT activity_types.description FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.longitude = 5.3426583646523
+GPT-3 choices:
+(0) Show the description of activity types of project members located at 5.3426583646523
+(1) Show activity types of project members located west from 5.3426583646523
+(2) Show the activity type description of project members located in 5.3426583646523###
+(3) Show activity types of project members that are located at 5.3426583646523###
+(4) What are all activity types of project members located at 5.3426583646523 degrees longitude?
+(5) Show me different activity types assigned to project members whose longitude equals 5.3426583646523.
+(6) Show me what project members work in 5.3426583646523 longitude?
+(7) What are the activity types of project members whose longitude is 5.3426583646523 ?

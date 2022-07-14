@@ -1,0 +1,2683 @@
+[
+  {
+    "db_id": "voter_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 WHERE T1.area_code = 641",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.area_code = 641"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.vote_id FROM VOTES AS T1 WHERE T1.state = \"NJ\n\"",
+    "readable_query": "SELECT votes.vote_id FROM VOTES AS votes WHERE votes.state = \"NJ\n\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.contestant_number FROM CONTESTANTS AS T1 WHERE T1.contestant_name = \"Alana Bregman\"",
+    "readable_query": "SELECT contestants.contestant_number FROM CONTESTANTS AS contestants WHERE contestants.contestant_name = \"Alana Bregman\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.contestant_number FROM CONTESTANTS AS T1 WHERE T1.contestant_name = \"Loraine NygrenTania Mattioli\"",
+    "readable_query": "SELECT contestants.contestant_number FROM CONTESTANTS AS contestants WHERE contestants.contestant_name = \"Loraine NygrenTania Mattioli\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.area_code FROM AREA_CODE_STATE AS T1 WHERE T1.state = \"MO\"",
+    "readable_query": "SELECT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.state = \"MO\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 WHERE T1.area_code = 513",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.area_code = 513"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 WHERE T1.area_code = 954",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.area_code = 954"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 WHERE T1.contestant_number = 5",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants WHERE contestants.contestant_number = 5"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.state FROM VOTES AS T1 WHERE T1.vote_id = 2",
+    "readable_query": "SELECT votes.state FROM VOTES AS votes WHERE votes.vote_id = 2"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.state FROM VOTES AS T1 WHERE T1.contestant_number = 2",
+    "readable_query": "SELECT votes.state FROM VOTES AS votes WHERE votes.contestant_number = 2"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.phone_number = 5112677315",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE votes.phone_number = 5112677315"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.contestant_number FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.contestant_name = \"Tabatha Gehling\"",
+    "readable_query": "SELECT votes.contestant_number FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE contestants.contestant_name = \"Tabatha Gehling\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.created = \"2018-03-09 19:03:36\"",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.created = \"2018-03-09 19:03:36\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.area_code FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.contestant_number = 5",
+    "readable_query": "SELECT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.contestant_number = 5"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.phone_number = 7182887233",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE votes.phone_number = 7182887233"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.vote_id = 3",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE votes.vote_id = 3"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.vote_id = 2",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.vote_id = 2"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.contestant_number FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state WHERE T2.state = \"SD\"",
+    "readable_query": "SELECT votes.contestant_number FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state WHERE area_code_state.state = \"SD\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.state FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.contestant_name = \"Jessie Eichman\"",
+    "readable_query": "SELECT votes.state FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE contestants.contestant_name = \"Jessie Eichman\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.area_code FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.state = \"CA\"",
+    "readable_query": "SELECT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.state = \"CA\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.contestant_name, count(*) FROM CONTESTANTS AS T1  GROUP BY T1.contestant_name",
+    "readable_query": "SELECT contestants.contestant_name, count(*) FROM CONTESTANTS AS contestants  GROUP BY contestants.contestant_name"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.area_code, count(*) FROM AREA_CODE_STATE AS T1  GROUP BY T1.area_code",
+    "readable_query": "SELECT area_code_state.area_code, count(*) FROM AREA_CODE_STATE AS area_code_state  GROUP BY area_code_state.area_code"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.phone_number, count(*) FROM VOTES AS T1  GROUP BY T1.phone_number",
+    "readable_query": "SELECT votes.phone_number, count(*) FROM VOTES AS votes  GROUP BY votes.phone_number"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.state, count(*) FROM AREA_CODE_STATE AS T1  GROUP BY T1.state",
+    "readable_query": "SELECT area_code_state.state, count(*) FROM AREA_CODE_STATE AS area_code_state  GROUP BY area_code_state.state"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.vote_id, count(*) FROM VOTES AS T1  GROUP BY T1.vote_id",
+    "readable_query": "SELECT votes.vote_id, count(*) FROM VOTES AS votes  GROUP BY votes.vote_id"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.created, count(*) FROM VOTES AS T1  GROUP BY T1.created",
+    "readable_query": "SELECT votes.created, count(*) FROM VOTES AS votes  GROUP BY votes.created"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.contestant_number, count(*) FROM CONTESTANTS AS T1  GROUP BY T1.contestant_number",
+    "readable_query": "SELECT contestants.contestant_number, count(*) FROM CONTESTANTS AS contestants  GROUP BY contestants.contestant_number"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.contestant_number, count(*) FROM VOTES AS T1  GROUP BY T1.contestant_number",
+    "readable_query": "SELECT votes.contestant_number, count(*) FROM VOTES AS votes  GROUP BY votes.contestant_number"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.state, count(*) FROM VOTES AS T1  GROUP BY T1.state",
+    "readable_query": "SELECT votes.state, count(*) FROM VOTES AS votes  GROUP BY votes.state"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.contestant_number, count(*) FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number  GROUP BY T1.contestant_number",
+    "readable_query": "SELECT contestants.contestant_number, count(*) FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number  GROUP BY contestants.contestant_number"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.state, count(*) FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number  GROUP BY T1.state",
+    "readable_query": "SELECT votes.state, count(*) FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number  GROUP BY votes.state"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.contestant_number, count(*) FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number  GROUP BY T1.contestant_number",
+    "readable_query": "SELECT votes.contestant_number, count(*) FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number  GROUP BY votes.contestant_number"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.contestant_name, count(*) FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number  GROUP BY T1.contestant_name",
+    "readable_query": "SELECT contestants.contestant_name, count(*) FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number  GROUP BY contestants.contestant_name"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.phone_number, count(*) FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state  GROUP BY T1.phone_number",
+    "readable_query": "SELECT votes.phone_number, count(*) FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state  GROUP BY votes.phone_number"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.phone_number, count(*) FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number  GROUP BY T1.phone_number",
+    "readable_query": "SELECT votes.phone_number, count(*) FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number  GROUP BY votes.phone_number"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.vote_id, count(*) FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state  GROUP BY T1.vote_id",
+    "readable_query": "SELECT votes.vote_id, count(*) FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state  GROUP BY votes.vote_id"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.state, count(*) FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state  GROUP BY T1.state",
+    "readable_query": "SELECT area_code_state.state, count(*) FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state  GROUP BY area_code_state.state"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.area_code, count(*) FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state  GROUP BY T1.area_code",
+    "readable_query": "SELECT area_code_state.area_code, count(*) FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state  GROUP BY area_code_state.area_code"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.vote_id, count(*) FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number  GROUP BY T1.vote_id",
+    "readable_query": "SELECT votes.vote_id, count(*) FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number  GROUP BY votes.vote_id"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM CONTESTANTS AS T1",
+    "readable_query": "SELECT count(*) FROM CONTESTANTS AS contestants"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM AREA_CODE_STATE AS T1",
+    "readable_query": "SELECT count(*) FROM AREA_CODE_STATE AS area_code_state"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM VOTES AS T1",
+    "readable_query": "SELECT count(*) FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.contestant_number, T1.contestant_name FROM CONTESTANTS AS T1",
+    "readable_query": "SELECT contestants.contestant_number, contestants.contestant_name FROM CONTESTANTS AS contestants"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.area_code, T1.state FROM AREA_CODE_STATE AS T1",
+    "readable_query": "SELECT area_code_state.area_code, area_code_state.state FROM AREA_CODE_STATE AS area_code_state"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.state, T1.created FROM VOTES AS T1",
+    "readable_query": "SELECT votes.state, votes.created FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.vote_id, T1.contestant_number FROM VOTES AS T1",
+    "readable_query": "SELECT votes.vote_id, votes.contestant_number FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.contestant_number, T1.vote_id FROM VOTES AS T1",
+    "readable_query": "SELECT votes.contestant_number, votes.vote_id FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.state, T1.area_code FROM AREA_CODE_STATE AS T1",
+    "readable_query": "SELECT area_code_state.state, area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.state, T1.contestant_number FROM VOTES AS T1",
+    "readable_query": "SELECT votes.state, votes.contestant_number FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.state, T1.vote_id FROM VOTES AS T1",
+    "readable_query": "SELECT votes.state, votes.vote_id FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.created, T1.vote_id FROM VOTES AS T1",
+    "readable_query": "SELECT votes.created, votes.vote_id FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.phone_number, T1.contestant_number FROM VOTES AS T1",
+    "readable_query": "SELECT votes.phone_number, votes.contestant_number FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.state, T2.area_code FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state",
+    "readable_query": "SELECT votes.state, area_code_state.area_code FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.area_code, T2.created FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state",
+    "readable_query": "SELECT area_code_state.area_code, votes.created FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.created, T2.contestant_name FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number",
+    "readable_query": "SELECT votes.created, contestants.contestant_name FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.vote_id, T2.state FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state",
+    "readable_query": "SELECT votes.vote_id, area_code_state.state FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.vote_id, T2.contestant_name FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number",
+    "readable_query": "SELECT votes.vote_id, contestants.contestant_name FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.contestant_number, T2.created FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number",
+    "readable_query": "SELECT contestants.contestant_number, votes.created FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.contestant_number, T2.vote_id FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number",
+    "readable_query": "SELECT contestants.contestant_number, votes.vote_id FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.vote_id, T2.contestant_number FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number",
+    "readable_query": "SELECT votes.vote_id, contestants.contestant_number FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.state, T2.vote_id FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state",
+    "readable_query": "SELECT area_code_state.state, votes.vote_id FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.contestant_name, T2.contestant_number FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number",
+    "readable_query": "SELECT contestants.contestant_name, votes.contestant_number FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.state, T1.vote_id FROM VOTES AS T1 WHERE T1.phone_number = 7182887233",
+    "readable_query": "SELECT votes.state, votes.vote_id FROM VOTES AS votes WHERE votes.phone_number = 7182887233"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.vote_id, T1.contestant_number FROM VOTES AS T1 WHERE T1.created = \"2018-03-09 19:03:21\"",
+    "readable_query": "SELECT votes.vote_id, votes.contestant_number FROM VOTES AS votes WHERE votes.created = \"2018-03-09 19:03:21\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.contestant_number, T1.phone_number FROM VOTES AS T1 WHERE T1.created = \"2018-03-09 19:03:21\"",
+    "readable_query": "SELECT votes.contestant_number, votes.phone_number FROM VOTES AS votes WHERE votes.created = \"2018-03-09 19:03:21\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.created, T1.phone_number FROM VOTES AS T1 WHERE T1.vote_id = 2",
+    "readable_query": "SELECT votes.created, votes.phone_number FROM VOTES AS votes WHERE votes.vote_id = 2"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.phone_number, T1.created FROM VOTES AS T1 WHERE T1.state = \"CA\"",
+    "readable_query": "SELECT votes.phone_number, votes.created FROM VOTES AS votes WHERE votes.state = \"CA\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.vote_id, T1.phone_number FROM VOTES AS T1 WHERE T1.created = \"2018-03-09 19:03:40\"",
+    "readable_query": "SELECT votes.vote_id, votes.phone_number FROM VOTES AS votes WHERE votes.created = \"2018-03-09 19:03:40\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.phone_number, T1.contestant_number FROM VOTES AS T1 WHERE T1.created = \"2018-03-09 19:03:21\"",
+    "readable_query": "SELECT votes.phone_number, votes.contestant_number FROM VOTES AS votes WHERE votes.created = \"2018-03-09 19:03:21\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.state, T1.contestant_number FROM VOTES AS T1 WHERE T1.created = \"2018-03-09 19:03:36\"",
+    "readable_query": "SELECT votes.state, votes.contestant_number FROM VOTES AS votes WHERE votes.created = \"2018-03-09 19:03:36\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.vote_id, T1.contestant_number FROM VOTES AS T1 WHERE T1.phone_number = 6209222712",
+    "readable_query": "SELECT votes.vote_id, votes.contestant_number FROM VOTES AS votes WHERE votes.phone_number = 6209222712"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.vote_id, T1.phone_number FROM VOTES AS T1 WHERE T1.created = \"2018-03-09 19:03:36\"",
+    "readable_query": "SELECT votes.vote_id, votes.phone_number FROM VOTES AS votes WHERE votes.created = \"2018-03-09 19:03:36\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.area_code FROM AREA_CODE_STATE AS T1  GROUP BY T1.area_code  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state  GROUP BY area_code_state.area_code  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.vote_id FROM VOTES AS T1  GROUP BY T1.vote_id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT votes.vote_id FROM VOTES AS votes  GROUP BY votes.vote_id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1  GROUP BY T1.state  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state  GROUP BY area_code_state.state  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1  GROUP BY T1.contestant_name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants  GROUP BY contestants.contestant_name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.state FROM VOTES AS T1  GROUP BY T1.state  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT votes.state FROM VOTES AS votes  GROUP BY votes.state  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.contestant_number FROM VOTES AS T1  GROUP BY T1.contestant_number  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT votes.contestant_number FROM VOTES AS votes  GROUP BY votes.contestant_number  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.contestant_number FROM CONTESTANTS AS T1  GROUP BY T1.contestant_number  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT contestants.contestant_number FROM CONTESTANTS AS contestants  GROUP BY contestants.contestant_number  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.created FROM VOTES AS T1  GROUP BY T1.created  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT votes.created FROM VOTES AS votes  GROUP BY votes.created  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.phone_number FROM VOTES AS T1  GROUP BY T1.phone_number  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT votes.phone_number FROM VOTES AS votes  GROUP BY votes.phone_number  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM AREA_CODE_STATE AS T1 WHERE T1.area_code = 401",
+    "readable_query": "SELECT count(*) FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.area_code = 401"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM VOTES AS T1 WHERE T1.vote_id = 5",
+    "readable_query": "SELECT count(*) FROM VOTES AS votes WHERE votes.vote_id = 5"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM VOTES AS T1 WHERE T1.state = \"NY\"",
+    "readable_query": "SELECT count(*) FROM VOTES AS votes WHERE votes.state = \"NY\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM AREA_CODE_STATE AS T1 WHERE T1.area_code = 380",
+    "readable_query": "SELECT count(*) FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.area_code = 380"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM AREA_CODE_STATE AS T1 WHERE T1.state = \"OK\"",
+    "readable_query": "SELECT count(*) FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.state = \"OK\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM VOTES AS T1 WHERE T1.state = \"CA\"",
+    "readable_query": "SELECT count(*) FROM VOTES AS votes WHERE votes.state = \"CA\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM AREA_CODE_STATE AS T1 WHERE T1.state = \"NJ\"",
+    "readable_query": "SELECT count(*) FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.state = \"NJ\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM AREA_CODE_STATE AS T1 WHERE T1.state = \"NY\"",
+    "readable_query": "SELECT count(*) FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.state = \"NY\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM AREA_CODE_STATE AS T1 WHERE T1.area_code = 704",
+    "readable_query": "SELECT count(*) FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.area_code = 704"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM CONTESTANTS AS T1 WHERE T1.contestant_number = 2",
+    "readable_query": "SELECT count(*) FROM CONTESTANTS AS contestants WHERE contestants.contestant_number = 2"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1    ORDER BY T1.contestant_number DESC LIMIT 1",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants    ORDER BY contestants.contestant_number DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.contestant_number FROM VOTES AS T1    ORDER BY T1.created DESC LIMIT 1",
+    "readable_query": "SELECT votes.contestant_number FROM VOTES AS votes    ORDER BY votes.created DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.phone_number FROM VOTES AS T1    ORDER BY T1.created DESC LIMIT 1",
+    "readable_query": "SELECT votes.phone_number FROM VOTES AS votes    ORDER BY votes.created DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1    ORDER BY T1.area_code DESC LIMIT 1",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state    ORDER BY area_code_state.area_code DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.contestant_number FROM VOTES AS T1    ORDER BY T1.vote_id DESC LIMIT 1",
+    "readable_query": "SELECT votes.contestant_number FROM VOTES AS votes    ORDER BY votes.vote_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.state FROM VOTES AS T1    ORDER BY T1.contestant_number DESC LIMIT 1",
+    "readable_query": "SELECT votes.state FROM VOTES AS votes    ORDER BY votes.contestant_number DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.state FROM VOTES AS T1    ORDER BY T1.vote_id DESC LIMIT 1",
+    "readable_query": "SELECT votes.state FROM VOTES AS votes    ORDER BY votes.vote_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.vote_id FROM VOTES AS T1    ORDER BY T1.contestant_number DESC LIMIT 1",
+    "readable_query": "SELECT votes.vote_id FROM VOTES AS votes    ORDER BY votes.contestant_number DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.created FROM VOTES AS T1    ORDER BY T1.phone_number DESC LIMIT 1",
+    "readable_query": "SELECT votes.created FROM VOTES AS votes    ORDER BY votes.phone_number DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.vote_id FROM VOTES AS T1    ORDER BY T1.phone_number DESC LIMIT 1",
+    "readable_query": "SELECT votes.vote_id FROM VOTES AS votes    ORDER BY votes.phone_number DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state    ORDER BY T2.vote_id DESC LIMIT 1",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state    ORDER BY votes.vote_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.phone_number FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state    ORDER BY T2.area_code DESC LIMIT 1",
+    "readable_query": "SELECT votes.phone_number FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state    ORDER BY area_code_state.area_code DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.state FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number    ORDER BY T2.contestant_number DESC LIMIT 1",
+    "readable_query": "SELECT votes.state FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number    ORDER BY contestants.contestant_number DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.contestant_number FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number    ORDER BY T2.vote_id DESC LIMIT 1",
+    "readable_query": "SELECT contestants.contestant_number FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number    ORDER BY votes.vote_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state    ORDER BY T2.contestant_number DESC LIMIT 1",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state    ORDER BY votes.contestant_number DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.phone_number FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number    ORDER BY T2.contestant_number DESC LIMIT 1",
+    "readable_query": "SELECT votes.phone_number FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number    ORDER BY contestants.contestant_number DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state    ORDER BY T2.created DESC LIMIT 1",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state    ORDER BY votes.created DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number    ORDER BY T2.created DESC LIMIT 1",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number    ORDER BY votes.created DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.created FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number    ORDER BY T2.contestant_number DESC LIMIT 1",
+    "readable_query": "SELECT votes.created FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number    ORDER BY contestants.contestant_number DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.area_code FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state    ORDER BY T2.vote_id DESC LIMIT 1",
+    "readable_query": "SELECT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state    ORDER BY votes.vote_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state    ORDER BY T2.vote_id ASC LIMIT 1",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state    ORDER BY votes.vote_id ASC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state    ORDER BY T2.contestant_number ASC LIMIT 1",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state    ORDER BY votes.contestant_number ASC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.area_code FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state    ORDER BY T2.contestant_number ASC LIMIT 1",
+    "readable_query": "SELECT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state    ORDER BY votes.contestant_number ASC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state    ORDER BY T2.phone_number ASC LIMIT 1",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state    ORDER BY votes.phone_number ASC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.contestant_number FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number    ORDER BY T2.created ASC LIMIT 1",
+    "readable_query": "SELECT contestants.contestant_number FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number    ORDER BY votes.created ASC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state    ORDER BY T2.created ASC LIMIT 1",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state    ORDER BY votes.created ASC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number    ORDER BY T2.created ASC LIMIT 1",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number    ORDER BY votes.created ASC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.vote_id FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number    ORDER BY T2.contestant_number ASC LIMIT 1",
+    "readable_query": "SELECT votes.vote_id FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number    ORDER BY contestants.contestant_number ASC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.area_code FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state    ORDER BY T2.vote_id ASC LIMIT 1",
+    "readable_query": "SELECT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state    ORDER BY votes.vote_id ASC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.created FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state    ORDER BY T2.area_code ASC LIMIT 1",
+    "readable_query": "SELECT votes.created FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state    ORDER BY area_code_state.area_code ASC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.phone_number, T1.state FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number    ORDER BY T2.contestant_number DESC LIMIT 1",
+    "readable_query": "SELECT votes.phone_number, votes.state FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number    ORDER BY contestants.contestant_number DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.state, T1.area_code FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state    ORDER BY T2.vote_id DESC LIMIT 1",
+    "readable_query": "SELECT area_code_state.state, area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state    ORDER BY votes.vote_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.contestant_number, T1.created FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state    ORDER BY T2.area_code DESC LIMIT 1",
+    "readable_query": "SELECT votes.contestant_number, votes.created FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state    ORDER BY area_code_state.area_code DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.phone_number, T1.created FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state    ORDER BY T2.area_code DESC LIMIT 1",
+    "readable_query": "SELECT votes.phone_number, votes.created FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state    ORDER BY area_code_state.area_code DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.contestant_name, T1.contestant_number FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number    ORDER BY T2.created DESC LIMIT 1",
+    "readable_query": "SELECT contestants.contestant_name, contestants.contestant_number FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number    ORDER BY votes.created DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.contestant_number, T1.contestant_name FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number    ORDER BY T2.phone_number DESC LIMIT 1",
+    "readable_query": "SELECT contestants.contestant_number, contestants.contestant_name FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number    ORDER BY votes.phone_number DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.state, T1.vote_id FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number    ORDER BY T2.contestant_number DESC LIMIT 1",
+    "readable_query": "SELECT votes.state, votes.vote_id FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number    ORDER BY contestants.contestant_number DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.area_code, T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state    ORDER BY T2.created DESC LIMIT 1",
+    "readable_query": "SELECT area_code_state.area_code, area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state    ORDER BY votes.created DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.area_code, T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state    ORDER BY T2.phone_number DESC LIMIT 1",
+    "readable_query": "SELECT area_code_state.area_code, area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state    ORDER BY votes.phone_number DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.contestant_name, T1.contestant_number FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number    ORDER BY T2.phone_number DESC LIMIT 1",
+    "readable_query": "SELECT contestants.contestant_name, contestants.contestant_number FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number    ORDER BY votes.phone_number DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.area_code) FROM AREA_CODE_STATE AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  area_code_state.area_code) FROM AREA_CODE_STATE AS area_code_state"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.contestant_name) FROM CONTESTANTS AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  contestants.contestant_name) FROM CONTESTANTS AS contestants"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.phone_number) FROM VOTES AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  votes.phone_number) FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.contestant_number) FROM CONTESTANTS AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  contestants.contestant_number) FROM CONTESTANTS AS contestants"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.contestant_number) FROM VOTES AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  votes.contestant_number) FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.state) FROM AREA_CODE_STATE AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  area_code_state.state) FROM AREA_CODE_STATE AS area_code_state"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.created) FROM VOTES AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  votes.created) FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.vote_id) FROM VOTES AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  votes.vote_id) FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.state) FROM VOTES AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  votes.state) FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.area_code) FROM AREA_CODE_STATE AS T1",
+    "readable_query": "SELECT avg( area_code_state.area_code) FROM AREA_CODE_STATE AS area_code_state"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.contestant_number) FROM CONTESTANTS AS T1",
+    "readable_query": "SELECT avg( contestants.contestant_number) FROM CONTESTANTS AS contestants"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.vote_id) FROM VOTES AS T1",
+    "readable_query": "SELECT avg( votes.vote_id) FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.contestant_number) FROM VOTES AS T1",
+    "readable_query": "SELECT avg( votes.contestant_number) FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.phone_number) FROM VOTES AS T1",
+    "readable_query": "SELECT avg( votes.phone_number) FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.contestant_number FROM CONTESTANTS AS T1",
+    "readable_query": "SELECT contestants.contestant_number FROM CONTESTANTS AS contestants"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.vote_id FROM VOTES AS T1",
+    "readable_query": "SELECT votes.vote_id FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.area_code FROM AREA_CODE_STATE AS T1",
+    "readable_query": "SELECT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.created FROM VOTES AS T1",
+    "readable_query": "SELECT votes.created FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.phone_number FROM VOTES AS T1",
+    "readable_query": "SELECT votes.phone_number FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.contestant_number FROM VOTES AS T1",
+    "readable_query": "SELECT votes.contestant_number FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.state FROM VOTES AS T1",
+    "readable_query": "SELECT votes.state FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.phone_number FROM VOTES AS T1",
+    "readable_query": "SELECT DISTINCT votes.phone_number FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.contestant_name FROM CONTESTANTS AS T1",
+    "readable_query": "SELECT DISTINCT contestants.contestant_name FROM CONTESTANTS AS contestants"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.contestant_number FROM CONTESTANTS AS T1",
+    "readable_query": "SELECT DISTINCT contestants.contestant_number FROM CONTESTANTS AS contestants"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.contestant_number FROM VOTES AS T1",
+    "readable_query": "SELECT DISTINCT votes.contestant_number FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.vote_id FROM VOTES AS T1",
+    "readable_query": "SELECT DISTINCT votes.vote_id FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.state FROM AREA_CODE_STATE AS T1",
+    "readable_query": "SELECT DISTINCT area_code_state.state FROM AREA_CODE_STATE AS area_code_state"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.area_code FROM AREA_CODE_STATE AS T1",
+    "readable_query": "SELECT DISTINCT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.state FROM VOTES AS T1",
+    "readable_query": "SELECT DISTINCT votes.state FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.created FROM VOTES AS T1",
+    "readable_query": "SELECT DISTINCT votes.created FROM VOTES AS votes"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.state FROM VOTES AS T1     ORDER BY T1.created ASC",
+    "readable_query": "SELECT votes.state FROM VOTES AS votes     ORDER BY votes.created ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1     ORDER BY T1.area_code ASC",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state     ORDER BY area_code_state.area_code ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.created FROM VOTES AS T1     ORDER BY T1.phone_number ASC",
+    "readable_query": "SELECT votes.created FROM VOTES AS votes     ORDER BY votes.phone_number ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.contestant_number FROM VOTES AS T1     ORDER BY T1.created ASC",
+    "readable_query": "SELECT votes.contestant_number FROM VOTES AS votes     ORDER BY votes.created ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1     ORDER BY T1.contestant_number ASC",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants     ORDER BY contestants.contestant_number ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.contestant_number FROM VOTES AS T1     ORDER BY T1.vote_id ASC",
+    "readable_query": "SELECT votes.contestant_number FROM VOTES AS votes     ORDER BY votes.vote_id ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.vote_id FROM VOTES AS T1     ORDER BY T1.contestant_number ASC",
+    "readable_query": "SELECT votes.vote_id FROM VOTES AS votes     ORDER BY votes.contestant_number ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.state FROM VOTES AS T1     ORDER BY T1.phone_number ASC",
+    "readable_query": "SELECT votes.state FROM VOTES AS votes     ORDER BY votes.phone_number ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.phone_number FROM VOTES AS T1     ORDER BY T1.created ASC",
+    "readable_query": "SELECT votes.phone_number FROM VOTES AS votes     ORDER BY votes.created ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.created FROM VOTES AS T1     ORDER BY T1.vote_id ASC",
+    "readable_query": "SELECT votes.created FROM VOTES AS votes     ORDER BY votes.vote_id ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1     ORDER BY T1.area_code DESC",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state     ORDER BY area_code_state.area_code DESC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.contestant_number FROM VOTES AS T1     ORDER BY T1.phone_number DESC",
+    "readable_query": "SELECT votes.contestant_number FROM VOTES AS votes     ORDER BY votes.phone_number DESC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.phone_number FROM VOTES AS T1     ORDER BY T1.created DESC",
+    "readable_query": "SELECT votes.phone_number FROM VOTES AS votes     ORDER BY votes.created DESC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.state FROM VOTES AS T1     ORDER BY T1.phone_number DESC",
+    "readable_query": "SELECT votes.state FROM VOTES AS votes     ORDER BY votes.phone_number DESC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.vote_id FROM VOTES AS T1     ORDER BY T1.phone_number DESC",
+    "readable_query": "SELECT votes.vote_id FROM VOTES AS votes     ORDER BY votes.phone_number DESC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.created FROM VOTES AS T1     ORDER BY T1.vote_id DESC",
+    "readable_query": "SELECT votes.created FROM VOTES AS votes     ORDER BY votes.vote_id DESC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1     ORDER BY T1.contestant_number DESC",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants     ORDER BY contestants.contestant_number DESC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.contestant_number FROM VOTES AS T1     ORDER BY T1.vote_id DESC",
+    "readable_query": "SELECT votes.contestant_number FROM VOTES AS votes     ORDER BY votes.vote_id DESC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.state FROM VOTES AS T1     ORDER BY T1.vote_id DESC",
+    "readable_query": "SELECT votes.state FROM VOTES AS votes     ORDER BY votes.vote_id DESC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.vote_id FROM VOTES AS T1     ORDER BY T1.contestant_number DESC",
+    "readable_query": "SELECT votes.vote_id FROM VOTES AS votes     ORDER BY votes.contestant_number DESC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.state, T1.area_code FROM AREA_CODE_STATE AS T1     ORDER BY T1.area_code ASC",
+    "readable_query": "SELECT area_code_state.state, area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state     ORDER BY area_code_state.area_code ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.contestant_name, T1.contestant_number FROM CONTESTANTS AS T1     ORDER BY T1.contestant_number ASC",
+    "readable_query": "SELECT contestants.contestant_name, contestants.contestant_number FROM CONTESTANTS AS contestants     ORDER BY contestants.contestant_number ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.phone_number, T1.vote_id FROM VOTES AS T1     ORDER BY T1.vote_id ASC",
+    "readable_query": "SELECT votes.phone_number, votes.vote_id FROM VOTES AS votes     ORDER BY votes.vote_id ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.contestant_number, T1.contestant_name FROM CONTESTANTS AS T1     ORDER BY T1.contestant_name ASC",
+    "readable_query": "SELECT contestants.contestant_number, contestants.contestant_name FROM CONTESTANTS AS contestants     ORDER BY contestants.contestant_name ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.contestant_number, T1.state FROM VOTES AS T1     ORDER BY T1.state ASC",
+    "readable_query": "SELECT votes.contestant_number, votes.state FROM VOTES AS votes     ORDER BY votes.state ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.area_code, T1.state FROM AREA_CODE_STATE AS T1     ORDER BY T1.state ASC",
+    "readable_query": "SELECT area_code_state.area_code, area_code_state.state FROM AREA_CODE_STATE AS area_code_state     ORDER BY area_code_state.state ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.contestant_number, T1.vote_id FROM VOTES AS T1     ORDER BY T1.vote_id ASC",
+    "readable_query": "SELECT votes.contestant_number, votes.vote_id FROM VOTES AS votes     ORDER BY votes.vote_id ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.created, T1.contestant_number FROM VOTES AS T1     ORDER BY T1.contestant_number ASC",
+    "readable_query": "SELECT votes.created, votes.contestant_number FROM VOTES AS votes     ORDER BY votes.contestant_number ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.created, T1.state FROM VOTES AS T1     ORDER BY T1.state ASC",
+    "readable_query": "SELECT votes.created, votes.state FROM VOTES AS votes     ORDER BY votes.state ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.phone_number, T1.state FROM VOTES AS T1     ORDER BY T1.state ASC",
+    "readable_query": "SELECT votes.phone_number, votes.state FROM VOTES AS votes     ORDER BY votes.state ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.area_code FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state JOIN CONTESTANTS AS T3 ON T2.contestant_number = T3.contestant_number WHERE T2.vote_id = 1 and T3.contestant_number = 2",
+    "readable_query": "SELECT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE votes.vote_id = 1 and contestants.contestant_number = 2"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number JOIN AREA_CODE_STATE AS T3 ON T2.state = T3.state WHERE T2.phone_number = 7148407040 and T3.state = \"CA\"",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state WHERE votes.phone_number = 7148407040 and area_code_state.state = \"CA\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state JOIN CONTESTANTS AS T3 ON T2.contestant_number = T3.contestant_number WHERE T2.vote_id = 2 and T3.contestant_number = 4",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE votes.vote_id = 2 and contestants.contestant_number = 4"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number JOIN AREA_CODE_STATE AS T3 ON T2.state = T3.state WHERE T2.vote_id = 5 and T3.state = \"NH\"",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state WHERE votes.vote_id = 5 and area_code_state.state = \"NH\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.phone_number FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number JOIN AREA_CODE_STATE AS T3 ON T1.state = T3.state WHERE T2.contestant_name = \"Jessie Eichman\" and T3.state = \"VT\"",
+    "readable_query": "SELECT votes.phone_number FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state WHERE contestants.contestant_name = \"Jessie Eichman\" and area_code_state.state = \"VT\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.contestant_number FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number JOIN AREA_CODE_STATE AS T3 ON T2.state = T3.state WHERE T2.created = \"2018-03-09 19:03:36\" and T3.state = \"MD\"",
+    "readable_query": "SELECT contestants.contestant_number FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state WHERE votes.created = \"2018-03-09 19:03:36\" and area_code_state.state = \"MD\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number JOIN AREA_CODE_STATE AS T3 ON T2.state = T3.state WHERE T2.phone_number = 7148407040 and T3.area_code = 432",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state WHERE votes.phone_number = 7148407040 and area_code_state.area_code = 432"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.phone_number FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number JOIN AREA_CODE_STATE AS T3 ON T1.state = T3.state WHERE T2.contestant_number = 3 and T3.state = \"MT\"",
+    "readable_query": "SELECT votes.phone_number FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state WHERE contestants.contestant_number = 3 and area_code_state.state = \"MT\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.vote_id FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state JOIN CONTESTANTS AS T3 ON T1.contestant_number = T3.contestant_number WHERE T2.area_code = 805 and T3.contestant_number = 1",
+    "readable_query": "SELECT votes.vote_id FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE area_code_state.area_code = 805 and contestants.contestant_number = 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state JOIN CONTESTANTS AS T3 ON T2.contestant_number = T3.contestant_number WHERE T2.vote_id = 1 and T3.contestant_number = 1",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE votes.vote_id = 1 and contestants.contestant_number = 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.contestant_number FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.phone_number = 6209222712 or T2.phone_number = 7148407040",
+    "readable_query": "SELECT contestants.contestant_number FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE votes.phone_number = 6209222712 or votes.phone_number = 7148407040"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.contestant_number = 3 or T2.contestant_number = 3",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.contestant_number = 3 or votes.contestant_number = 3"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.vote_id = 5 or T2.vote_id = 1",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.vote_id = 5 or votes.vote_id = 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.phone_number FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.contestant_number = 2 or T2.contestant_number = 8",
+    "readable_query": "SELECT votes.phone_number FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE contestants.contestant_number = 2 or contestants.contestant_number = 8"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.contestant_number = 5 or T2.contestant_number = 3",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.contestant_number = 5 or votes.contestant_number = 3"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.contestant_number FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state WHERE T2.state = \"MD\" or T2.state = \"NH\"",
+    "readable_query": "SELECT votes.contestant_number FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state WHERE area_code_state.state = \"MD\" or area_code_state.state = \"NH\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.vote_id FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.contestant_number = 10 or T2.contestant_number = 11",
+    "readable_query": "SELECT votes.vote_id FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE contestants.contestant_number = 10 or contestants.contestant_number = 11"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.area_code FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.phone_number = 6209222712 or T2.phone_number = 7182887233",
+    "readable_query": "SELECT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.phone_number = 6209222712 or votes.phone_number = 7182887233"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.vote_id FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state WHERE T2.area_code = 940 or T2.area_code = 727",
+    "readable_query": "SELECT votes.vote_id FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state WHERE area_code_state.area_code = 940 or area_code_state.area_code = 727"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.created = \"2018-03-09 19:03:40\" or T2.created = \"2018-03-09 19:03:36\"",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE votes.created = \"2018-03-09 19:03:40\" or votes.created = \"2018-03-09 19:03:36\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.state FROM VOTES AS T1 WHERE T1.created = \"2018-03-09 19:03:36\" and T1.phone_number = 6209222712",
+    "readable_query": "SELECT votes.state FROM VOTES AS votes WHERE votes.created = \"2018-03-09 19:03:36\" and votes.phone_number = 6209222712"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.phone_number FROM VOTES AS T1 WHERE T1.state = \"NJ\n\" and T1.contestant_number = 2",
+    "readable_query": "SELECT votes.phone_number FROM VOTES AS votes WHERE votes.state = \"NJ\n\" and votes.contestant_number = 2"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.created FROM VOTES AS T1 WHERE T1.vote_id = 5 and T1.contestant_number = 5",
+    "readable_query": "SELECT votes.created FROM VOTES AS votes WHERE votes.vote_id = 5 and votes.contestant_number = 5"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.phone_number FROM VOTES AS T1 WHERE T1.contestant_number = 2 and T1.created = \"2018-03-09 19:03:39\"",
+    "readable_query": "SELECT votes.phone_number FROM VOTES AS votes WHERE votes.contestant_number = 2 and votes.created = \"2018-03-09 19:03:39\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.contestant_number FROM VOTES AS T1 WHERE T1.phone_number = 5112677315 and T1.state = \"NJ\n\"",
+    "readable_query": "SELECT votes.contestant_number FROM VOTES AS votes WHERE votes.phone_number = 5112677315 and votes.state = \"NJ\n\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.state FROM VOTES AS T1 WHERE T1.phone_number = 5112677315 and T1.vote_id = 1",
+    "readable_query": "SELECT votes.state FROM VOTES AS votes WHERE votes.phone_number = 5112677315 and votes.vote_id = 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.contestant_number FROM VOTES AS T1 WHERE T1.vote_id = 5 and T1.state = \"NJ\n\"",
+    "readable_query": "SELECT votes.contestant_number FROM VOTES AS votes WHERE votes.vote_id = 5 and votes.state = \"NJ\n\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.vote_id FROM VOTES AS T1 WHERE T1.contestant_number = 5 and T1.phone_number = 7148407040",
+    "readable_query": "SELECT votes.vote_id FROM VOTES AS votes WHERE votes.contestant_number = 5 and votes.phone_number = 7148407040"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.created FROM VOTES AS T1 WHERE T1.contestant_number = 2 and T1.vote_id = 3",
+    "readable_query": "SELECT votes.created FROM VOTES AS votes WHERE votes.contestant_number = 2 and votes.vote_id = 3"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.contestant_number FROM VOTES AS T1 WHERE T1.vote_id = 2 and T1.state = \"NJ\n\"",
+    "readable_query": "SELECT votes.contestant_number FROM VOTES AS votes WHERE votes.vote_id = 2 and votes.state = \"NJ\n\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.contestant_name) FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T1.contestant_number = 3 and T2.created = \"2018-03-09 19:03:39\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  contestants.contestant_name) FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE contestants.contestant_number = 3 and votes.created = \"2018-03-09 19:03:39\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.contestant_number) FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number WHERE T1.created = \"2018-03-09 19:03:36\" and T2.contestant_name = \"Edwina Burnam\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  votes.contestant_number) FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE votes.created = \"2018-03-09 19:03:36\" and contestants.contestant_name = \"Edwina Burnam\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.state) FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T1.area_code = 507 and T2.vote_id = 3",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  area_code_state.state) FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE area_code_state.area_code = 507 and votes.vote_id = 3"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.area_code) FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T1.state = \"NE\" and T2.phone_number = 7148407040",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  area_code_state.area_code) FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE area_code_state.state = \"NE\" and votes.phone_number = 7148407040"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.area_code) FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T1.state = \"NC\" and T2.vote_id = 1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  area_code_state.area_code) FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE area_code_state.state = \"NC\" and votes.vote_id = 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.state) FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state WHERE T1.contestant_number = 2 and T2.area_code = 804",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  votes.state) FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state WHERE votes.contestant_number = 2 and area_code_state.area_code = 804"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.created) FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state WHERE T1.phone_number = 5112677315 and T2.area_code = 747",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  votes.created) FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state WHERE votes.phone_number = 5112677315 and area_code_state.area_code = 747"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.contestant_number) FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T1.contestant_name = \"Nita Coster\" and T2.vote_id = 3",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  contestants.contestant_number) FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE contestants.contestant_name = \"Nita Coster\" and votes.vote_id = 3"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.phone_number) FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number WHERE T1.created = \"2018-03-09 19:03:21\" and T2.contestant_name = \"Jessie Alloway\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  votes.phone_number) FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE votes.created = \"2018-03-09 19:03:21\" and contestants.contestant_name = \"Jessie Alloway\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.contestant_number) FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number WHERE T1.created = \"2018-03-09 19:03:39\" and T2.contestant_name = \"Tabatha Gehling\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  votes.contestant_number) FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE votes.created = \"2018-03-09 19:03:39\" and contestants.contestant_name = \"Tabatha Gehling\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.phone_number FROM VOTES AS T1 WHERE T1.created = \"2018-03-09 19:03:39\" or T1.contestant_number = 5",
+    "readable_query": "SELECT votes.phone_number FROM VOTES AS votes WHERE votes.created = \"2018-03-09 19:03:39\" or votes.contestant_number = 5"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.vote_id FROM VOTES AS T1 WHERE T1.created = \"2018-03-09 19:03:36\" or T1.state = \"CA\"",
+    "readable_query": "SELECT votes.vote_id FROM VOTES AS votes WHERE votes.created = \"2018-03-09 19:03:36\" or votes.state = \"CA\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.vote_id FROM VOTES AS T1 WHERE T1.phone_number = 7148407040 or T1.created = \"2018-03-09 19:03:21\"",
+    "readable_query": "SELECT votes.vote_id FROM VOTES AS votes WHERE votes.phone_number = 7148407040 or votes.created = \"2018-03-09 19:03:21\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.contestant_number FROM VOTES AS T1 WHERE T1.state = \"NJ\n\" or T1.created = \"2018-03-09 19:03:36\"",
+    "readable_query": "SELECT votes.contestant_number FROM VOTES AS votes WHERE votes.state = \"NJ\n\" or votes.created = \"2018-03-09 19:03:36\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.created FROM VOTES AS T1 WHERE T1.contestant_number = 5 or T1.phone_number = 7182887233",
+    "readable_query": "SELECT votes.created FROM VOTES AS votes WHERE votes.contestant_number = 5 or votes.phone_number = 7182887233"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.phone_number FROM VOTES AS T1 WHERE T1.created = \"2018-03-09 19:03:21\" or T1.vote_id = 1",
+    "readable_query": "SELECT votes.phone_number FROM VOTES AS votes WHERE votes.created = \"2018-03-09 19:03:21\" or votes.vote_id = 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.contestant_number FROM VOTES AS T1 WHERE T1.created = \"2018-03-09 19:03:36\" or T1.vote_id = 5",
+    "readable_query": "SELECT votes.contestant_number FROM VOTES AS votes WHERE votes.created = \"2018-03-09 19:03:36\" or votes.vote_id = 5"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.contestant_number FROM VOTES AS T1 WHERE T1.state = \"NJ\n\" or T1.vote_id = 2",
+    "readable_query": "SELECT votes.contestant_number FROM VOTES AS votes WHERE votes.state = \"NJ\n\" or votes.vote_id = 2"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.phone_number FROM VOTES AS T1 WHERE T1.vote_id = 1 or T1.created = \"2018-03-09 19:03:40\"",
+    "readable_query": "SELECT votes.phone_number FROM VOTES AS votes WHERE votes.vote_id = 1 or votes.created = \"2018-03-09 19:03:40\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.created FROM VOTES AS T1 WHERE T1.state = \"NY\" or T1.vote_id = 2",
+    "readable_query": "SELECT votes.created FROM VOTES AS votes WHERE votes.state = \"NY\" or votes.vote_id = 2"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.created = \"2018-03-09 19:03:39\" and T2.contestant_number = 5",
+    "readable_query": "SELECT count(*) FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE votes.created = \"2018-03-09 19:03:39\" and votes.contestant_number = 5"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state WHERE T2.state = \"NH\" and T2.area_code = 847",
+    "readable_query": "SELECT count(*) FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state WHERE area_code_state.state = \"NH\" and area_code_state.area_code = 847"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.created = \"2018-03-09 19:03:36\" and T2.state = \"NY\"",
+    "readable_query": "SELECT count(*) FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.created = \"2018-03-09 19:03:36\" and votes.state = \"NY\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.state = \"CA\" and T2.contestant_number = 2",
+    "readable_query": "SELECT count(*) FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE votes.state = \"CA\" and votes.contestant_number = 2"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.contestant_number = 8 and T2.contestant_name = \"Allie Rogalski\"",
+    "readable_query": "SELECT count(*) FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE contestants.contestant_number = 8 and contestants.contestant_name = \"Allie Rogalski\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.contestant_number = 6 and T2.contestant_name = \"Nita Coster\"",
+    "readable_query": "SELECT count(*) FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE contestants.contestant_number = 6 and contestants.contestant_name = \"Nita Coster\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.contestant_name = \"Kelly Clauss\" and T2.contestant_number = 6",
+    "readable_query": "SELECT count(*) FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE contestants.contestant_name = \"Kelly Clauss\" and contestants.contestant_number = 6"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state WHERE T2.state = \"NE\" and T2.area_code = 678",
+    "readable_query": "SELECT count(*) FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state WHERE area_code_state.state = \"NE\" and area_code_state.area_code = 678"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.contestant_number = 4 and T2.contestant_name = \"Allie Rogalski\"",
+    "readable_query": "SELECT count(*) FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE contestants.contestant_number = 4 and contestants.contestant_name = \"Allie Rogalski\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.phone_number = 7182887233 and T2.created = \"2018-03-09 19:03:40\"",
+    "readable_query": "SELECT count(*) FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE votes.phone_number = 7182887233 and votes.created = \"2018-03-09 19:03:40\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 WHERE T1.area_code != 650",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.area_code != 650"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.phone_number FROM VOTES AS T1 WHERE T1.state != \"NJ\n\"",
+    "readable_query": "SELECT votes.phone_number FROM VOTES AS votes WHERE votes.state != \"NJ\n\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.created FROM VOTES AS T1 WHERE T1.state != \"CA\"",
+    "readable_query": "SELECT votes.created FROM VOTES AS votes WHERE votes.state != \"CA\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 WHERE T1.contestant_number != 8",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants WHERE contestants.contestant_number != 8"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.contestant_number FROM VOTES AS T1 WHERE T1.state != \"CA\"",
+    "readable_query": "SELECT votes.contestant_number FROM VOTES AS votes WHERE votes.state != \"CA\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.vote_id FROM VOTES AS T1 WHERE T1.contestant_number != 5",
+    "readable_query": "SELECT votes.vote_id FROM VOTES AS votes WHERE votes.contestant_number != 5"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 WHERE T1.area_code != 336",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.area_code != 336"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 WHERE T1.contestant_number != 3",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants WHERE contestants.contestant_number != 3"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.state FROM VOTES AS T1 WHERE T1.created != \"2018-03-09 19:03:21\"",
+    "readable_query": "SELECT votes.state FROM VOTES AS votes WHERE votes.created != \"2018-03-09 19:03:21\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.vote_id FROM VOTES AS T1 WHERE T1.state != \"NY\"",
+    "readable_query": "SELECT votes.vote_id FROM VOTES AS votes WHERE votes.state != \"NY\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.created != \"2018-03-09 19:03:40\"",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE votes.created != \"2018-03-09 19:03:40\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.phone_number FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.contestant_number != 5",
+    "readable_query": "SELECT votes.phone_number FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE contestants.contestant_number != 5"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.phone_number != 5112677315",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.phone_number != 5112677315"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.state != \"NJ\n\"",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE votes.state != \"NJ\n\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.area_code FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.vote_id != 1",
+    "readable_query": "SELECT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.vote_id != 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.state FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.contestant_name != \"Kelly Clauss\"",
+    "readable_query": "SELECT votes.state FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE contestants.contestant_name != \"Kelly Clauss\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.contestant_number != 5",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE votes.contestant_number != 5"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.phone_number FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state WHERE T2.state != \"AZ\"",
+    "readable_query": "SELECT votes.phone_number FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state WHERE area_code_state.state != \"AZ\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.contestant_number FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state WHERE T2.area_code != 408",
+    "readable_query": "SELECT votes.contestant_number FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state WHERE area_code_state.area_code != 408"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.contestant_number FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.created != \"2018-03-09 19:03:39\"",
+    "readable_query": "SELECT contestants.contestant_number FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE votes.created != \"2018-03-09 19:03:39\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.area_code FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.vote_id = 2",
+    "readable_query": "SELECT DISTINCT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.vote_id = 2"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.vote_id = 3",
+    "readable_query": "SELECT DISTINCT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.vote_id = 3"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.area_code FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.phone_number = 7148407040",
+    "readable_query": "SELECT DISTINCT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.phone_number = 7148407040"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.area_code FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.created = \"2018-03-09 19:03:40\"",
+    "readable_query": "SELECT DISTINCT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.created = \"2018-03-09 19:03:40\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.vote_id FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.contestant_name = \"Loraine NygrenTania Mattioli\"",
+    "readable_query": "SELECT DISTINCT votes.vote_id FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE contestants.contestant_name = \"Loraine NygrenTania Mattioli\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.vote_id FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.contestant_number = 11",
+    "readable_query": "SELECT DISTINCT votes.vote_id FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE contestants.contestant_number = 11"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.contestant_number FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.created = \"2018-03-09 19:03:39\"",
+    "readable_query": "SELECT DISTINCT contestants.contestant_number FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE votes.created = \"2018-03-09 19:03:39\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.contestant_number FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.state = \"NY\"",
+    "readable_query": "SELECT DISTINCT contestants.contestant_number FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE votes.state = \"NY\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.contestant_number = 5",
+    "readable_query": "SELECT DISTINCT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.contestant_number = 5"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.state FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.contestant_number = 8",
+    "readable_query": "SELECT DISTINCT votes.state FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE contestants.contestant_number = 8"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.vote_id) FROM VOTES AS T1 WHERE T1.contestant_number = 5",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  votes.vote_id) FROM VOTES AS votes WHERE votes.contestant_number = 5"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.state) FROM VOTES AS T1 WHERE T1.vote_id = 1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  votes.state) FROM VOTES AS votes WHERE votes.vote_id = 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.vote_id) FROM VOTES AS T1 WHERE T1.contestant_number = 2",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  votes.vote_id) FROM VOTES AS votes WHERE votes.contestant_number = 2"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.state) FROM AREA_CODE_STATE AS T1 WHERE T1.area_code = 808",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  area_code_state.state) FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.area_code = 808"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.state) FROM AREA_CODE_STATE AS T1 WHERE T1.area_code = 515",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  area_code_state.state) FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.area_code = 515"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.area_code) FROM AREA_CODE_STATE AS T1 WHERE T1.state = \"WI\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  area_code_state.area_code) FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.state = \"WI\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.state) FROM AREA_CODE_STATE AS T1 WHERE T1.area_code = 678",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  area_code_state.state) FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.area_code = 678"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.area_code) FROM AREA_CODE_STATE AS T1 WHERE T1.state = \"MA\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  area_code_state.area_code) FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.state = \"MA\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.contestant_name) FROM CONTESTANTS AS T1 WHERE T1.contestant_number = 3",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  contestants.contestant_name) FROM CONTESTANTS AS contestants WHERE contestants.contestant_number = 3"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.vote_id) FROM VOTES AS T1 WHERE T1.phone_number = 7182887233",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  votes.vote_id) FROM VOTES AS votes WHERE votes.phone_number = 7182887233"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.created FROM VOTES AS T1 WHERE T1.vote_id > 1",
+    "readable_query": "SELECT votes.created FROM VOTES AS votes WHERE votes.vote_id > 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.created FROM VOTES AS T1 WHERE T1.vote_id > 2",
+    "readable_query": "SELECT votes.created FROM VOTES AS votes WHERE votes.vote_id > 2"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.phone_number FROM VOTES AS T1 WHERE T1.created > \"2018-03-09 19:03:40\"",
+    "readable_query": "SELECT votes.phone_number FROM VOTES AS votes WHERE votes.created > \"2018-03-09 19:03:40\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 WHERE T1.area_code > 764",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.area_code > 764"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 WHERE T1.contestant_number > 5",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants WHERE contestants.contestant_number > 5"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 WHERE T1.contestant_number > 9",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants WHERE contestants.contestant_number > 9"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.vote_id FROM VOTES AS T1 WHERE T1.contestant_number > 5",
+    "readable_query": "SELECT votes.vote_id FROM VOTES AS votes WHERE votes.contestant_number > 5"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 WHERE T1.area_code > 530",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.area_code > 530"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 WHERE T1.contestant_number > 7",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants WHERE contestants.contestant_number > 7"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.state FROM VOTES AS T1 WHERE T1.phone_number > 6209222712",
+    "readable_query": "SELECT votes.state FROM VOTES AS votes WHERE votes.phone_number > 6209222712"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.contestant_number, T2.created, T3.area_code FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number JOIN AREA_CODE_STATE AS T3 ON T2.state = T3.state",
+    "readable_query": "SELECT contestants.contestant_number, votes.created, area_code_state.area_code FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.state, T2.area_code, T3.contestant_number FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state JOIN CONTESTANTS AS T3 ON T1.contestant_number = T3.contestant_number",
+    "readable_query": "SELECT votes.state, area_code_state.area_code, contestants.contestant_number FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.contestant_number, T2.contestant_name, T3.state FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number JOIN AREA_CODE_STATE AS T3 ON T1.state = T3.state",
+    "readable_query": "SELECT votes.contestant_number, contestants.contestant_name, area_code_state.state FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.vote_id, T2.state, T3.contestant_number FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state JOIN CONTESTANTS AS T3 ON T1.contestant_number = T3.contestant_number",
+    "readable_query": "SELECT votes.vote_id, area_code_state.state, contestants.contestant_number FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.contestant_number, T2.state, T3.contestant_name FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state JOIN CONTESTANTS AS T3 ON T1.contestant_number = T3.contestant_number",
+    "readable_query": "SELECT votes.contestant_number, area_code_state.state, contestants.contestant_name FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.contestant_name, T2.created, T3.state FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number JOIN AREA_CODE_STATE AS T3 ON T2.state = T3.state",
+    "readable_query": "SELECT contestants.contestant_name, votes.created, area_code_state.state FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.area_code, T2.contestant_number, T3.contestant_name FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state JOIN CONTESTANTS AS T3 ON T2.contestant_number = T3.contestant_number",
+    "readable_query": "SELECT area_code_state.area_code, votes.contestant_number, contestants.contestant_name FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.vote_id, T2.area_code, T3.contestant_name FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state JOIN CONTESTANTS AS T3 ON T1.contestant_number = T3.contestant_number",
+    "readable_query": "SELECT votes.vote_id, area_code_state.area_code, contestants.contestant_name FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.contestant_name, T2.state, T3.area_code FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number JOIN AREA_CODE_STATE AS T3 ON T2.state = T3.state",
+    "readable_query": "SELECT contestants.contestant_name, votes.state, area_code_state.area_code FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.state, T2.created, T3.contestant_name FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state JOIN CONTESTANTS AS T3 ON T2.contestant_number = T3.contestant_number",
+    "readable_query": "SELECT area_code_state.state, votes.created, contestants.contestant_name FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.contestant_number FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state     ORDER BY T2.area_code ASC",
+    "readable_query": "SELECT votes.contestant_number FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state     ORDER BY area_code_state.area_code ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.contestant_number FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number     ORDER BY T2.phone_number ASC",
+    "readable_query": "SELECT contestants.contestant_number FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number     ORDER BY votes.phone_number ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.created FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state     ORDER BY T2.area_code ASC",
+    "readable_query": "SELECT votes.created FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state     ORDER BY area_code_state.area_code ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state     ORDER BY T2.phone_number ASC",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state     ORDER BY votes.phone_number ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state     ORDER BY T2.created ASC",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state     ORDER BY votes.created ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.area_code FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state     ORDER BY T2.phone_number ASC",
+    "readable_query": "SELECT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state     ORDER BY votes.phone_number ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.vote_id FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state     ORDER BY T2.area_code ASC",
+    "readable_query": "SELECT votes.vote_id FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state     ORDER BY area_code_state.area_code ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number     ORDER BY T2.vote_id ASC",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number     ORDER BY votes.vote_id ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state     ORDER BY T2.contestant_number ASC",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state     ORDER BY votes.contestant_number ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.area_code FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state     ORDER BY T2.created ASC",
+    "readable_query": "SELECT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state     ORDER BY votes.created ASC"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 WHERE T1.contestant_number = 11     INTERSECT SELECT T2.contestant_name FROM CONTESTANTS AS T2 WHERE T2.contestant_number = 7",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants WHERE contestants.contestant_number = 11     INTERSECT SELECT contestants.contestant_name FROM CONTESTANTS AS contestants WHERE contestants.contestant_number = 7"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 WHERE T1.contestant_number = 4     INTERSECT SELECT T2.contestant_name FROM CONTESTANTS AS T2 WHERE T2.contestant_number = 7",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants WHERE contestants.contestant_number = 4     INTERSECT SELECT contestants.contestant_name FROM CONTESTANTS AS contestants WHERE contestants.contestant_number = 7"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 WHERE T1.contestant_number = 1     INTERSECT SELECT T2.contestant_name FROM CONTESTANTS AS T2 WHERE T2.contestant_number = 9",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants WHERE contestants.contestant_number = 1     INTERSECT SELECT contestants.contestant_name FROM CONTESTANTS AS contestants WHERE contestants.contestant_number = 9"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 WHERE T1.area_code = 803     INTERSECT SELECT T2.state FROM AREA_CODE_STATE AS T2 WHERE T2.area_code = 802",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.area_code = 803     INTERSECT SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.area_code = 802"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.contestant_number FROM CONTESTANTS AS T1 WHERE T1.contestant_name = \"Jessie Eichman\"     INTERSECT SELECT T2.contestant_number FROM CONTESTANTS AS T2 WHERE T2.contestant_name = \"Jessie Eichman\"",
+    "readable_query": "SELECT contestants.contestant_number FROM CONTESTANTS AS contestants WHERE contestants.contestant_name = \"Jessie Eichman\"     INTERSECT SELECT contestants.contestant_number FROM CONTESTANTS AS contestants WHERE contestants.contestant_name = \"Jessie Eichman\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 WHERE T1.area_code = 267     INTERSECT SELECT T2.state FROM AREA_CODE_STATE AS T2 WHERE T2.area_code = 317",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.area_code = 267     INTERSECT SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.area_code = 317"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.created FROM VOTES AS T1 WHERE T1.state = \"NY\"     INTERSECT SELECT T2.created FROM VOTES AS T2 WHERE T2.state = \"NY\"",
+    "readable_query": "SELECT votes.created FROM VOTES AS votes WHERE votes.state = \"NY\"     INTERSECT SELECT votes.created FROM VOTES AS votes WHERE votes.state = \"NY\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.vote_id FROM VOTES AS T1 WHERE T1.contestant_number = 3     INTERSECT SELECT T2.vote_id FROM VOTES AS T2 WHERE T2.contestant_number = 2",
+    "readable_query": "SELECT votes.vote_id FROM VOTES AS votes WHERE votes.contestant_number = 3     INTERSECT SELECT votes.vote_id FROM VOTES AS votes WHERE votes.contestant_number = 2"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.created FROM VOTES AS T1 WHERE T1.contestant_number = 2     INTERSECT SELECT T2.created FROM VOTES AS T2 WHERE T2.contestant_number = 3",
+    "readable_query": "SELECT votes.created FROM VOTES AS votes WHERE votes.contestant_number = 2     INTERSECT SELECT votes.created FROM VOTES AS votes WHERE votes.contestant_number = 3"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 WHERE T1.contestant_number = 10     INTERSECT SELECT T2.contestant_name FROM CONTESTANTS AS T2 WHERE T2.contestant_number = 10",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants WHERE contestants.contestant_number = 10     INTERSECT SELECT contestants.contestant_name FROM CONTESTANTS AS contestants WHERE contestants.contestant_number = 10"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.contestant_number) FROM CONTESTANTS AS T1 WHERE T1.contestant_name = \"Ericka Dieter\"",
+    "readable_query": "SELECT avg( contestants.contestant_number) FROM CONTESTANTS AS contestants WHERE contestants.contestant_name = \"Ericka Dieter\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.contestant_number) FROM CONTESTANTS AS T1 WHERE T1.contestant_name = \"Tabatha Gehling\"",
+    "readable_query": "SELECT avg( contestants.contestant_number) FROM CONTESTANTS AS contestants WHERE contestants.contestant_name = \"Tabatha Gehling\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.vote_id) FROM VOTES AS T1 WHERE T1.created = \"2018-03-09 19:03:39\"",
+    "readable_query": "SELECT avg( votes.vote_id) FROM VOTES AS votes WHERE votes.created = \"2018-03-09 19:03:39\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.area_code) FROM AREA_CODE_STATE AS T1 WHERE T1.state = \"VT\"",
+    "readable_query": "SELECT avg( area_code_state.area_code) FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.state = \"VT\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.vote_id) FROM VOTES AS T1 WHERE T1.state = \"NJ\n\"",
+    "readable_query": "SELECT avg( votes.vote_id) FROM VOTES AS votes WHERE votes.state = \"NJ\n\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.area_code) FROM AREA_CODE_STATE AS T1 WHERE T1.state = \"ND\"",
+    "readable_query": "SELECT avg( area_code_state.area_code) FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.state = \"ND\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.area_code) FROM AREA_CODE_STATE AS T1 WHERE T1.state = \"HI\"",
+    "readable_query": "SELECT avg( area_code_state.area_code) FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.state = \"HI\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.area_code) FROM AREA_CODE_STATE AS T1 WHERE T1.state = \"PA\"",
+    "readable_query": "SELECT avg( area_code_state.area_code) FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.state = \"PA\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.area_code) FROM AREA_CODE_STATE AS T1 WHERE T1.state = \"MA\"",
+    "readable_query": "SELECT avg( area_code_state.area_code) FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.state = \"MA\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.contestant_number) FROM VOTES AS T1 WHERE T1.vote_id = 1",
+    "readable_query": "SELECT avg( votes.contestant_number) FROM VOTES AS votes WHERE votes.vote_id = 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.contestant_number FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.phone_number = (SELECT max( T23.phone_number) FROM VOTES AS T23)",
+    "readable_query": "SELECT contestants.contestant_number FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE votes.phone_number = (SELECT max( votes.phone_number) FROM VOTES AS votes)"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.area_code FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.vote_id = (SELECT max( T23.vote_id) FROM VOTES AS T23)",
+    "readable_query": "SELECT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.vote_id = (SELECT max( votes.vote_id) FROM VOTES AS votes)"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.state FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state WHERE T2.area_code = (SELECT max( T23.area_code) FROM AREA_CODE_STATE AS T23)",
+    "readable_query": "SELECT votes.state FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state WHERE area_code_state.area_code = (SELECT max( area_code_state.area_code) FROM AREA_CODE_STATE AS area_code_state)"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.vote_id FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.contestant_number = (SELECT max( T23.contestant_number) FROM CONTESTANTS AS T23)",
+    "readable_query": "SELECT votes.vote_id FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE contestants.contestant_number = (SELECT max( contestants.contestant_number) FROM CONTESTANTS AS contestants)"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.vote_id = (SELECT max( T23.vote_id) FROM VOTES AS T23)",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.vote_id = (SELECT max( votes.vote_id) FROM VOTES AS votes)"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.vote_id = (SELECT max( T23.vote_id) FROM VOTES AS T23)",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE votes.vote_id = (SELECT max( votes.vote_id) FROM VOTES AS votes)"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.contestant_number = (SELECT max( T23.contestant_number) FROM VOTES AS T23)",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE votes.contestant_number = (SELECT max( votes.contestant_number) FROM VOTES AS votes)"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.area_code FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.phone_number = (SELECT max( T23.phone_number) FROM VOTES AS T23)",
+    "readable_query": "SELECT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.phone_number = (SELECT max( votes.phone_number) FROM VOTES AS votes)"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.created = (SELECT max( T23.created) FROM VOTES AS T23)",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE votes.created = (SELECT max( votes.created) FROM VOTES AS votes)"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.area_code FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.created = (SELECT max( T23.created) FROM VOTES AS T23)",
+    "readable_query": "SELECT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.created = (SELECT max( votes.created) FROM VOTES AS votes)"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.contestant_name, T2.contestant_number FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number JOIN AREA_CODE_STATE AS T3 ON T2.state = T3.state WHERE T3.area_code = 386 and T2.created = \"2018-03-09 19:03:40\"",
+    "readable_query": "SELECT contestants.contestant_name, votes.contestant_number FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state WHERE area_code_state.area_code = 386 and votes.created = \"2018-03-09 19:03:40\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.area_code, T2.vote_id FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state JOIN CONTESTANTS AS T3 ON T2.contestant_number = T3.contestant_number WHERE T3.contestant_name = \"Jessie Alloway\" and T2.state = \"NJ\n\"",
+    "readable_query": "SELECT area_code_state.area_code, votes.vote_id FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE contestants.contestant_name = \"Jessie Alloway\" and votes.state = \"NJ\n\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.vote_id, T2.state FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state JOIN CONTESTANTS AS T3 ON T1.contestant_number = T3.contestant_number WHERE T3.contestant_name = \"Kurt Walser\" and T2.area_code = 571",
+    "readable_query": "SELECT votes.vote_id, area_code_state.state FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE contestants.contestant_name = \"Kurt Walser\" and area_code_state.area_code = 571"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.contestant_name, T2.vote_id FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number JOIN AREA_CODE_STATE AS T3 ON T2.state = T3.state WHERE T3.area_code = 401 and T2.phone_number = 6209222712",
+    "readable_query": "SELECT contestants.contestant_name, votes.vote_id FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state WHERE area_code_state.area_code = 401 and votes.phone_number = 6209222712"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.state, T2.contestant_number FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number JOIN AREA_CODE_STATE AS T3 ON T1.state = T3.state WHERE T3.area_code = 248 and T2.contestant_name = \"Jessie Eichman\"",
+    "readable_query": "SELECT votes.state, contestants.contestant_number FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state WHERE area_code_state.area_code = 248 and contestants.contestant_name = \"Jessie Eichman\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.created, T2.contestant_name FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number JOIN AREA_CODE_STATE AS T3 ON T1.state = T3.state WHERE T3.area_code = 310 and T2.contestant_number = 4",
+    "readable_query": "SELECT votes.created, contestants.contestant_name FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state WHERE area_code_state.area_code = 310 and contestants.contestant_number = 4"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.created, T2.area_code FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state JOIN CONTESTANTS AS T3 ON T1.contestant_number = T3.contestant_number WHERE T3.contestant_name = \"Tabatha Gehling\" and T2.state = \"ND\"",
+    "readable_query": "SELECT votes.created, area_code_state.area_code FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE contestants.contestant_name = \"Tabatha Gehling\" and area_code_state.state = \"ND\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.phone_number, T2.contestant_number FROM VOTES AS T1 JOIN CONTESTANTS AS T2 ON T1.contestant_number = T2.contestant_number JOIN AREA_CODE_STATE AS T3 ON T1.state = T3.state WHERE T3.area_code = 719 and T2.contestant_name = \"Jessie Eichman\"",
+    "readable_query": "SELECT votes.phone_number, contestants.contestant_number FROM VOTES AS votes JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state WHERE area_code_state.area_code = 719 and contestants.contestant_name = \"Jessie Eichman\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.state, T2.phone_number FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state JOIN CONTESTANTS AS T3 ON T2.contestant_number = T3.contestant_number WHERE T3.contestant_number = 4 and T2.vote_id = 5",
+    "readable_query": "SELECT area_code_state.state, votes.phone_number FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE contestants.contestant_number = 4 and votes.vote_id = 5"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.area_code, T2.vote_id FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state JOIN CONTESTANTS AS T3 ON T2.contestant_number = T3.contestant_number WHERE T3.contestant_name = \"Jessie Eichman\" and T2.contestant_number = 2",
+    "readable_query": "SELECT area_code_state.area_code, votes.vote_id FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state JOIN CONTESTANTS AS contestants ON votes.contestant_number = contestants.contestant_number WHERE contestants.contestant_name = \"Jessie Eichman\" and votes.contestant_number = 2"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.contestant_number FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.vote_id = 5 GROUP BY T1.contestant_number  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT contestants.contestant_number FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE votes.vote_id = 5 GROUP BY contestants.contestant_number  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.created = \"2018-03-09 19:03:36\" GROUP BY T1.contestant_name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE votes.created = \"2018-03-09 19:03:36\" GROUP BY contestants.contestant_name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.contestant_number FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.phone_number = 5112677315 GROUP BY T1.contestant_number  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT contestants.contestant_number FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE votes.phone_number = 5112677315 GROUP BY contestants.contestant_number  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1 JOIN VOTES AS T2 ON T1.contestant_number = T2.contestant_number WHERE T2.vote_id = 1 GROUP BY T1.contestant_name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants JOIN VOTES AS votes ON contestants.contestant_number = votes.contestant_number WHERE votes.vote_id = 1 GROUP BY contestants.contestant_name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.area_code FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.state = \"NY\" GROUP BY T1.area_code  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.state = \"NY\" GROUP BY area_code_state.area_code  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.contestant_number = 5 GROUP BY T1.state  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.contestant_number = 5 GROUP BY area_code_state.state  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.created = \"2018-03-09 19:03:39\" GROUP BY T1.state  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.created = \"2018-03-09 19:03:39\" GROUP BY area_code_state.state  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.area_code FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.vote_id = 5 GROUP BY T1.area_code  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.vote_id = 5 GROUP BY area_code_state.area_code  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.state FROM VOTES AS T1 JOIN AREA_CODE_STATE AS T2 ON T1.state = T2.state WHERE T2.area_code = 806 GROUP BY T1.state  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT votes.state FROM VOTES AS votes JOIN AREA_CODE_STATE AS area_code_state ON votes.state = area_code_state.state WHERE area_code_state.area_code = 806 GROUP BY votes.state  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1 JOIN VOTES AS T2 ON T1.state = T2.state WHERE T2.phone_number = 7182887233 GROUP BY T1.state  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state JOIN VOTES AS votes ON area_code_state.state = votes.state WHERE votes.phone_number = 7182887233 GROUP BY area_code_state.state  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1        EXCEPT SELECT T2.contestant_name FROM CONTESTANTS AS T2 WHERE T2.contestant_number = 1",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants        EXCEPT SELECT contestants.contestant_name FROM CONTESTANTS AS contestants WHERE contestants.contestant_number = 1"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1        EXCEPT SELECT T2.contestant_name FROM CONTESTANTS AS T2 WHERE T2.contestant_number = 9",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants        EXCEPT SELECT contestants.contestant_name FROM CONTESTANTS AS contestants WHERE contestants.contestant_number = 9"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.contestant_number FROM VOTES AS T1        EXCEPT SELECT T2.contestant_number FROM VOTES AS T2 WHERE T2.vote_id = 2",
+    "readable_query": "SELECT votes.contestant_number FROM VOTES AS votes        EXCEPT SELECT votes.contestant_number FROM VOTES AS votes WHERE votes.vote_id = 2"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.contestant_number FROM VOTES AS T1        EXCEPT SELECT T2.contestant_number FROM VOTES AS T2 WHERE T2.phone_number = 7182887233",
+    "readable_query": "SELECT votes.contestant_number FROM VOTES AS votes        EXCEPT SELECT votes.contestant_number FROM VOTES AS votes WHERE votes.phone_number = 7182887233"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1        EXCEPT SELECT T2.state FROM AREA_CODE_STATE AS T2 WHERE T2.area_code = 516",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state        EXCEPT SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.area_code = 516"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.contestant_name FROM CONTESTANTS AS T1        EXCEPT SELECT T2.contestant_name FROM CONTESTANTS AS T2 WHERE T2.contestant_number = 8",
+    "readable_query": "SELECT contestants.contestant_name FROM CONTESTANTS AS contestants        EXCEPT SELECT contestants.contestant_name FROM CONTESTANTS AS contestants WHERE contestants.contestant_number = 8"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.area_code FROM AREA_CODE_STATE AS T1        EXCEPT SELECT T2.area_code FROM AREA_CODE_STATE AS T2 WHERE T2.state = \"MA\"",
+    "readable_query": "SELECT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state        EXCEPT SELECT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.state = \"MA\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.state FROM AREA_CODE_STATE AS T1        EXCEPT SELECT T2.state FROM AREA_CODE_STATE AS T2 WHERE T2.area_code = 718",
+    "readable_query": "SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state        EXCEPT SELECT area_code_state.state FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.area_code = 718"
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.phone_number FROM VOTES AS T1        EXCEPT SELECT T2.phone_number FROM VOTES AS T2 WHERE T2.state = \"NJ\n\"",
+    "readable_query": "SELECT votes.phone_number FROM VOTES AS votes        EXCEPT SELECT votes.phone_number FROM VOTES AS votes WHERE votes.state = \"NJ\n\""
+  },
+  {
+    "db_id": "voter_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.area_code FROM AREA_CODE_STATE AS T1        EXCEPT SELECT T2.area_code FROM AREA_CODE_STATE AS T2 WHERE T2.state = \"AK\"",
+    "readable_query": "SELECT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state        EXCEPT SELECT area_code_state.area_code FROM AREA_CODE_STATE AS area_code_state WHERE area_code_state.state = \"AK\""
+  }
+]

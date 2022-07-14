@@ -1,0 +1,149 @@
+[
+  {
+    "name": "battle",
+    "original_name": "battle",
+    "logical_name": "battle",
+    "columns": [
+      {
+        "name": "id",
+        "original_name": "id",
+        "logical_name": "id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "name",
+        "original_name": "name",
+        "logical_name": "name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "date",
+        "original_name": "date",
+        "logical_name": "date",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "bulgarian commander",
+        "original_name": "bulgarian_commander",
+        "logical_name": "bulgarian_commander",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "latin commander",
+        "original_name": "latin_commander",
+        "logical_name": "latin_commander",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "result",
+        "original_name": "result",
+        "logical_name": "result",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "ship",
+    "original_name": "ship",
+    "logical_name": "ship",
+    "columns": [
+      {
+        "name": "lost in battle",
+        "original_name": "lost_in_battle",
+        "logical_name": "lost_in_battle",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "id",
+        "original_name": "id",
+        "logical_name": "id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "name",
+        "original_name": "name",
+        "logical_name": "name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "tonnage",
+        "original_name": "tonnage",
+        "logical_name": "tonnage",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "ship type",
+        "original_name": "ship_type",
+        "logical_name": "ship_type",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "location",
+        "original_name": "location",
+        "logical_name": "location",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "disposition of ship",
+        "original_name": "disposition_of_ship",
+        "logical_name": "disposition_of_ship",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "death",
+    "original_name": "death",
+    "logical_name": "death",
+    "columns": [
+      {
+        "name": "caused by ship id",
+        "original_name": "caused_by_ship_id",
+        "logical_name": "caused_by_ship_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "id",
+        "original_name": "id",
+        "logical_name": "id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "note",
+        "original_name": "note",
+        "logical_name": "note",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "killed",
+        "original_name": "killed",
+        "logical_name": "killed",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "injured",
+        "original_name": "injured",
+        "logical_name": "injured",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  }
+]

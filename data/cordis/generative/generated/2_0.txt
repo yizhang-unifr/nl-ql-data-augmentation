@@ -1,0 +1,16 @@
+SELECT subject_areas.title, count(*) FROM subject_areas  GROUP BY subject_areas.title
+
+###
+
+
+Original Query:
+SELECT subject_areas.title, count(*) FROM subject_areas  GROUP BY subject_areas.title
+GPT-3 choices:
+(0) How many subject areas are there?
+(1) Show the number of subject areas.
+(2) Show me the number of subject areas
+(3) What are the most common subject areas for projects?
+(4) How many subject areas are there?
+(5) How many subject areas are there?
+(6) How many subject areas are there?
+(7) How many subject areas are there?

@@ -1,0 +1,28 @@
+SELECT project_members.member_role FROM project_members WHERE project_members.vat_number = 'BE0419052173' or project_members.vat_number = 'SE559170126201'
+
+###
+
+
+Original Query:
+SELECT project_members.member_role FROM project_members WHERE project_members.vat_number = 'BE0419052173' or project_members.vat_number = 'SE559170126201'
+GPT-3 choices:
+(0) Which project members have a VAT number of BE0419052173 or a VAT number of SE559170126201?
+(1) Which project members have a vat number of BE 04 19 05 2173 or SE 55 91 70 1220 1?
+(2) Show project members' role with VAT numbers BE0419052173 or SE559170126201
+(3) What are the member roles of project members with vat numbers BE0419052173 or SE559170126201?
+(4) Display project members with vat number BE 0419 05217 3 or SE 559 17 0126 20 1.
+(5) What are the different member roles of project members with vat numbers BE0419052173 or SE559170126201?
+(6) Show all project membership roles of the institutions with their VAT number BE0419052173 or SE559170126201
+(7) Show me project members whose vat number is BE0419052173 or SE559170126201
+
+
+Re-ranked choices:
+6.148  What are the member roles of project members with vat numbers BE0419052173 or SE559170126201?
+6.079  What are the different member roles of project members with vat numbers BE0419052173 or SE559170126201?
+6.077  Show project members' role with VAT numbers BE0419052173 or SE559170126201
+6.062  Show me project members whose vat number is BE0419052173 or SE559170126201
+5.990  Which project members have a VAT number of BE0419052173 or a VAT number of SE559170126201?
+5.932  Display project members with vat number BE 0419 05217 3 or SE 559 17 0126 20 1.
+5.919  Which project members have a vat number of BE 04 19 05 2173 or SE 55 91 70 1220 1?
+5.724  Show all project membership roles of the institutions with their VAT number BE0419052173 or SE559170126201
+

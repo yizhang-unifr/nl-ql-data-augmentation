@@ -1,0 +1,27 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'ITH59'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'ITH59'
+GPT-3 choices:
+(0) Display the description of territorial units designated by the geocode region with code ITH59?
+(1) 
+(2) The descriptions of European territorial units in the region ITH59
+(3) What is the description of territorial units in the region ITH59?
+(4) List territorial units where the region code is ITH59
+(5) Show me territorial unit descriptions associated with the geocode region of ITH59
+(6) Look for the descriptions of territorial unit within the geocode region ITH59
+(7) Show me representations of territorial unit descriptions of the region ITH59
+
+
+Re-ranked choices:
+5.201  Show me territorial unit descriptions associated with the geocode region of ITH59
+5.154  Look for the descriptions of territorial unit within the geocode region ITH59
+5.029  List territorial units where the region code is ITH59
+5.001  What is the description of territorial units in the region ITH59?
+4.993  Show me representations of territorial unit descriptions of the region ITH59
+4.955  Display the description of territorial units designated by the geocode region with code ITH59?
+4.614  The descriptions of European territorial units in the region ITH59
+

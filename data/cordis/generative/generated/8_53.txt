@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions != 'FR30'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions != 'FR30'
+GPT-3 choices:
+(0) 
+(1) Display the territorial units descriptions that belong to a geocode region other than FR30.
+(2) What are the different descriptions of territorial units in the EU that don't have the geocode region FR30?
+(3) Show territorial unit names which are not in the region FR30.
+(4) Show me the description of European Union territorial unit#s which are not in region FR30
+(5) Retrieve European territorial units that have their geocode region set to 'FR30'
+(6) Show the descriptions of all European Union's territorial units that are not in the region FR30
+(7) Show me all territorial units that are not in the region 'FR30'

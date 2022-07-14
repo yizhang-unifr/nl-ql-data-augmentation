@@ -1,0 +1,16 @@
+SELECT project_members.latitude FROM project_members JOIN activity_types ON project_members.activity_type = activity_types.code WHERE activity_types.code != 'REC'
+
+###
+
+
+Original Query:
+SELECT project_members.latitude FROM project_members JOIN activity_types ON project_members.activity_type = activity_types.code WHERE activity_types.code != 'REC'
+GPT-3 choices:
+(0) What is the latitude of project members having activity type REC?
+(1) Show the latitude position of project members that don't have an activity type with the code REC.
+(2) Show all project members from activity type REC.
+(3) What is the latitude of project members working with an activity type different from REC?
+(4) Retrieve the latitude of the members of the projects having an activity type != REC.
+(5) What is the latitude of project members that don't have an activity type with code REC?
+(6) Show me the latitude of project members who are not part of an activity titled REC
+(7) Get all project members' latitudes from activity types that are not REC.

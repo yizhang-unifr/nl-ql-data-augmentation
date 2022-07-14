@@ -1,0 +1,28 @@
+SELECT activity_types.description FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.member_short_name != 'UMCG'
+
+###
+
+
+Original Query:
+SELECT activity_types.description FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.member_short_name != 'UMCG'
+GPT-3 choices:
+(0) Show the description of activity types of project members that are not from UMCG
+(1) What are the activity types of member with short name != 'UMCG'?
+(2) Retrieve all activity types of project members that are not the UMCG.
+(3) Retrieve activity types of project members different from UMCG
+(4) What are the activity types of the members of the project who are not from UMCG?
+(5) Show all activity types of project members which are not from UMCG
+(6) Display activity types that participants don't have within a project called UMCG
+(7) What are the activity types of project members that are not from UMCG?
+
+
+Re-ranked choices:
+5.805  Show the description of activity types of project members that are not from UMCG
+5.771  Show all activity types of project members which are not from UMCG
+5.633  Retrieve all activity types of project members that are not the UMCG.
+5.563  What are the activity types of project members that are not from UMCG?
+5.547  Retrieve activity types of project members different from UMCG
+5.446  What are the activity types of the members of the project who are not from UMCG?
+5.213  Display activity types that participants don't have within a project called UMCG
+4.355  What are the activity types of member with short name != 'UMCG'?
+

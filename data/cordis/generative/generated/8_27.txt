@@ -1,0 +1,16 @@
+SELECT projects.homepage FROM projects WHERE projects.ec_max_contribution != 175419.6
+
+###
+
+
+Original Query:
+SELECT projects.homepage FROM projects WHERE projects.ec_max_contribution != 175419.6
+GPT-3 choices:
+(0) Display projects that have an eu contribution greater than 175419.6
+(1) Show me all projects that didn't have 175419.6 euro as their largest total contributed value
+(2) Show projects with a maximum EC contribution different from 175419.6
+(3) Show me all project homepage from projects with a different EC contribution than 175419.6
+(4) Select projects that have a different maximum ec contribution than 175419.6
+(5) Show me the project homepage of all projects except the one awarded a maximum contribution of 175419.6 euro
+(6) What are project homepages that are not funded with 175419.6 euro?
+(7) Show me the project's homepage, except for the project with code 175419.6

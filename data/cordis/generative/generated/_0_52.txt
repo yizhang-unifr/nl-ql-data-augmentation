@@ -1,0 +1,27 @@
+SELECT subject_areas.description FROM subject_areas WHERE subject_areas.title = 'Sustainable development '
+
+###
+
+
+Original Query:
+SELECT subject_areas.description FROM subject_areas WHERE subject_areas.title = 'Sustainable development '
+GPT-3 choices:
+(0) Show me the subject areas about sustainable development.
+(1) Show subject areas with title “Sustainable development “
+(2) Show me all projects for the program subject area Sustainable development
+(3) Show me subject areas where the title is "Sustainable development"
+(4) Show the subject areas of the projects where the title is “Sustainable development”
+(5) What are the subject areas about sustainable development?
+(6) What are the subject areas about sustainable development?
+(7) Display all subject areas with title = Sustainable development
+
+
+Re-ranked choices:
+5.291  Show me subject areas where the title is "Sustainable development"
+5.215  Show subject areas with title “Sustainable development “
+5.188  Show the subject areas of the projects where the title is “Sustainable development”
+5.039  Show me the subject areas about sustainable development.
+4.851  What are the subject areas about sustainable development?
+4.775  Display all subject areas with title = Sustainable development
+4.518  Show me all projects for the program subject area Sustainable development
+

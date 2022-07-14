@@ -1,0 +1,28 @@
+SELECT erc_research_domains.description FROM erc_research_domains WHERE erc_research_domains.code != 'LS'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.description FROM erc_research_domains WHERE erc_research_domains.code != 'LS'
+GPT-3 choices:
+(0) Show me ERC research domains that don't have the code LS
+(1) What are the research domains that are not about Life Sciences?
+(2) Show projects that have a research domain that is not the code LS?
+(3) Show me projects that are not about life science
+(4) Show me all research domains except 'LS'
+(5) What are the research domains that are not in the institution that has code LS?
+(6) Show all ERC research domains that are not 'LS'
+(7) Get all the descriptions from the research domains that are different than the code "LS"
+
+
+Re-ranked choices:
+4.526  Show me all research domains except 'LS'
+4.457  Show projects that have a research domain that is not the code LS?
+4.440  What are the research domains that are not in the institution that has code LS?
+4.411  Show me ERC research domains that don't have the code LS
+4.324  Show all ERC research domains that are not 'LS'
+3.995  Get all the descriptions from the research domains that are different than the code "LS"
+3.429  What are the research domains that are not about Life Sciences?
+2.356  Show me projects that are not about life science
+

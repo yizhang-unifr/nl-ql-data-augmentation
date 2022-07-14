@@ -1,0 +1,16 @@
+SELECT subject_areas.description FROM subject_areas WHERE subject_areas.title = 'Climate change and Carbon cycle research'
+
+###
+
+
+Original Query:
+SELECT subject_areas.description FROM subject_areas WHERE subject_areas.title = 'Climate change and Carbon cycle research'
+GPT-3 choices:
+(0) Show all subject areas that contain the string Climate change and Carbon cycle research in their title.
+(1) Show me the subject area descriptions in which it is mentioned that the research topic is regarding Climate change and Carbon cycle
+(2) Show me all scientific areas about climate change and Carbon cycle.
+(3) Show me descriptions of subject areas with title "Climate change and Carbon cycle research"?
+(4) Show the description of subject areas with a title equal to "Climate change and Carbon cycle research"
+(5) Show me the description of subject areas with title 'Climate change and Carbon cycle research'
+(6) Show me subject areas whose title is Climate change and Carbon cycle research
+(7) Show me all subject areas with title Climate change and Carbon cycle research

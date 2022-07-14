@@ -1,0 +1,16 @@
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title = 'Joint Research Centre research'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title = 'Joint Research Centre research'
+GPT-3 choices:
+(0) Which are the funding schemes of the Joint Research Center?
+(1) Getting all funding schemes with title 'Joint Research Centre research'
+(2) Retrieve the funding scheme codes of those funds that have the title "Joint Research Centre research"
+(3) Show me all funding schemes with title “Joint Research Centre re Search”
+(4) Show me all funds of the project "Joint Research Centre research"
+(5) Retrieve the code of funding schema with title = 'Joint Research Center research'
+(6) Show me all funding scheme titles that are Joint Research Centre research
+(7) Show funding schemes associated with projects titled 'Joint Research Centre research'

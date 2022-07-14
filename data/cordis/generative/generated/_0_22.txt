@@ -1,0 +1,28 @@
+SELECT project_members.activity_type FROM project_members WHERE project_members.member_name = 'UNIVERSITEIT ANTWERPEN'
+
+###
+
+
+Original Query:
+SELECT project_members.activity_type FROM project_members WHERE project_members.member_name = 'UNIVERSITEIT ANTWERPEN'
+GPT-3 choices:
+(0) What is the activity type of the project members named UNIVERSITEIT ANTWERPEN?
+(1) What is the activity type of the project members from UNIVERSITEIT ANTWERPEN?
+(2) Show all activity types of the project member named UNIVERSITEIT ANTWERPEN
+(3) Show activity types of project members having the name UNIVERSITEIT ANTWERPEN
+(4) What is the activity type of project members in which the member name is UNIVERSITEIT ANTWERPEN?
+(5) What is the activity type of projects in which the member UNIVERSITEIT ANTWERPEN is participating?
+(6) Show me all activity types of project members having the member name “UNIVERSITEIT ANTWERPEN”
+(7) Show the activity type of project members whose name is UNIVERSITEIT ANTWERPEN
+
+
+Re-ranked choices:
+6.352  What is the activity type of project members in which the member name is UNIVERSITEIT ANTWERPEN?
+6.320  Show the activity type of project members whose name is UNIVERSITEIT ANTWERPEN
+6.313  What is the activity type of the project members named UNIVERSITEIT ANTWERPEN?
+6.306  Show me all activity types of project members having the member name “UNIVERSITEIT ANTWERPEN”
+6.294  What is the activity type of the project members from UNIVERSITEIT ANTWERPEN?
+6.281  Show activity types of project members having the name UNIVERSITEIT ANTWERPEN
+6.203  Show all activity types of the project member named UNIVERSITEIT ANTWERPEN
+6.045  What is the activity type of projects in which the member UNIVERSITEIT ANTWERPEN is participating?
+

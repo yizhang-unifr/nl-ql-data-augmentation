@@ -1,0 +1,16 @@
+SELECT erc_research_domains.description FROM erc_research_domains WHERE erc_research_domains.code != 'ID'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.description FROM erc_research_domains WHERE erc_research_domains.code != 'ID'
+GPT-3 choices:
+(0) Get all descriptions of research domains that do not have an ID number.
+(1) Show me all research domains that are not associated with an institution.
+(2) Retrieve the research domains that are not about military architecture
+(3) Show me all research domains that are not in the menu Item Details?
+(4) Show me the research domains that are not the ID
+(5) Show me the description of ERC research domains that do not have the code ID
+(6) Retrieve all research domains which are not in the same country than the country where the research project takes place.
+(7) Display the research domains that are not about ID.

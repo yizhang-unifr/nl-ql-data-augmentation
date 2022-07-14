@@ -1,0 +1,16 @@
+SELECT topics.rcn FROM topics WHERE topics.title != 'Independent access to space'
+
+###
+
+
+Original Query:
+SELECT topics.rcn FROM topics WHERE topics.title != 'Independent access to space'
+GPT-3 choices:
+(0) Get topics where title is not Independent access to space
+(1) Retrieve all topics having a title different from `Independent access to space`.
+(2) What are the topics of conferences about independent access to space?
+(3) Retrieve the different topics that do not discuss about independent access to space
+(4) Display topics other than "Independent access to space"
+(5) Retrieve all topics having a title != Independent access to space
+(6) Show me all the topics which are not about independent access to space
+(7) Retrieve the topics where the titled is not 'Independent access to space'

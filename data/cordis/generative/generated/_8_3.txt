@@ -1,0 +1,28 @@
+SELECT project_members.longitude FROM project_members WHERE project_members.street != 'ELEFTHERIOU VENIZELOU 70'
+
+###
+
+
+Original Query:
+SELECT project_members.longitude FROM project_members WHERE project_members.street != 'ELEFTHERIOU VENIZELOU 70'
+GPT-3 choices:
+(0) Show project members that don't have a street name ELEFTHERIOU VENIZELOU 70?
+(1) Retrieve the longitude of project members with street different than ELEFTHERIOU VENIZELOU 70
+(2) Show me the longitude of the project members that aren't located in ELEFTHERIOU VENIZELOU 70.
+(3) Show me all participants in projects that are not placed in ELEFTHERIOU VENIZELOU 70
+(4) What is the longitude of all project members that are not from ELEFTHERIOU VENIZELOU 70?
+(5) Get me project members' longitude.
+(6) Show me members from projects that are not placed at ELEFTHERIOU VENIZELOU 70
+(7) Show me the longitude of project members who do not have the street ELEFTHERIOU VENIZELOU 70
+
+
+Re-ranked choices:
+5.480  Show me the longitude of project members who do not have the street ELEFTHERIOU VENIZELOU 70
+5.428  Show me the longitude of the project members that aren't located in ELEFTHERIOU VENIZELOU 70.
+5.251  What is the longitude of all project members that are not from ELEFTHERIOU VENIZELOU 70?
+4.928  Show me members from projects that are not placed at ELEFTHERIOU VENIZELOU 70
+4.693  Retrieve the longitude of project members with street different than ELEFTHERIOU VENIZELOU 70
+4.564  Get me project members' longitude.
+4.502  Show project members that don't have a street name ELEFTHERIOU VENIZELOU 70?
+4.468  Show me all participants in projects that are not placed in ELEFTHERIOU VENIZELOU 70
+

@@ -1,0 +1,16 @@
+SELECT topics.code FROM topics JOIN project_topics ON topics.code = project_topics.topic JOIN projects ON project_topics.project = projects.unics_id WHERE projects.start_year != 2020
+
+###
+
+
+Original Query:
+SELECT topics.code FROM topics JOIN project_topics ON topics.code = project_topics.topic JOIN projects ON project_topics.project = projects.unics_id WHERE projects.start_year != 2020
+GPT-3 choices:
+(0) What are all the project topics?
+(1) Show topic codes of projects that don't start in 2020
+(2) Retrieve the subject of all projects that don't start in 2020?
+(3) Show me all project topics that have a different start year than 2020
+(4) Show me projects from with topics that are not from 2020
+(5) What are the different topics of projects that didn't start in 2020?
+(6) Retrieve all topics from projects that are not set in 2020
+(7) Show me all topics from projects that don't start in 2020

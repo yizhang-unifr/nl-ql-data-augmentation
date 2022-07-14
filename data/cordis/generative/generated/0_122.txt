@@ -1,0 +1,16 @@
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code = 'MSCA-COFUND-FP'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code = 'MSCA-COFUND-FP'
+GPT-3 choices:
+(0) Show me all funding schemes with code MSCA-COFUND-FP
+(1) Show me all the title of funding schemes with code MSCA-COFUND-FP
+(2) Show me all the titles of funding schemes with code = MSCA-COFUND-FP
+(3) Show all the funding schemes with title MSCA-COFUND-FP
+(4) Show me the funding scheme titles
+(5) Show me the title of funding schems with code MSCA-COFUND-FP (multiple funding scheme can apply)
+(6) Total number of projects from 2007-2013 where the funding scheme is MSCA-COFUND-FP
+(7) Which are the titles of the funding schemes with code MSCA-COFUND-FP?

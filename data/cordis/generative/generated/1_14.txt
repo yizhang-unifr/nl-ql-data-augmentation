@@ -1,0 +1,16 @@
+SELECT programmes.title FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.acronym = 'PhenolAcTwin'
+
+###
+
+
+Original Query:
+SELECT programmes.title FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.acronym = 'PhenolAcTwin'
+GPT-3 choices:
+(0) Show me all the programms of projects named "PhenolAcTwin"
+(1) Show the title of all programmes of projects with the acronym PhenolAcTwin
+(2) Show me all the programme titles of projects whose acronym is PhenolAcTwin
+(3) What are the program titles of projects with acronym PhenolAcTwin?
+(4) Show me the titles of projects where the programme is 'PhenolAcTwin' and the project acronym is 'PhenolAcTwin'.
+(5) Show all the programme titles corresponding to projects with acronym PhenolAcTwin.
+(6) Show all project programmes that have the project PhenolAcTwin
+(7) Show all the titles of programmes for projects whose acronym is PhenolAcTwin

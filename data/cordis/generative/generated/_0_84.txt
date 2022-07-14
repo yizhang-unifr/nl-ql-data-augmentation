@@ -1,0 +1,28 @@
+SELECT institutions.website FROM institutions WHERE institutions.grid_id = 'grid.445481.8'
+
+###
+
+
+Original Query:
+SELECT institutions.website FROM institutions WHERE institutions.grid_id = 'grid.445481.8'
+GPT-3 choices:
+(0) Which are the institutions in grid 445481?
+(1) Show me the websites of institutions in the grid 445481.8
+(2) Show me the website of all institutions with grid_id = 'grid.445481.8'
+(3) What is the website of institutions with grid of XYZL445481?
+(4) Show me a list of institutions having grid with the code 445481.8
+(5) What are the websites of the institutions that have the grid ID 445481.8?
+(6) Show me the websites of institutions with a grid id of 445481.8
+(7) What are the different website used by the institution with grid ID 445481.8?
+
+
+Re-ranked choices:
+6.037  Show me the websites of institutions with a grid id of 445481.8
+5.968  What are the websites of the institutions that have the grid ID 445481.8?
+5.904  Show me the websites of institutions in the grid 445481.8
+5.748  What is the website of institutions with grid of XYZL445481?
+5.594  What are the different website used by the institution with grid ID 445481.8?
+5.553  Show me a list of institutions having grid with the code 445481.8
+5.506  Which are the institutions in grid 445481?
+5.367  Show me the website of all institutions with grid_id = 'grid.445481.8'
+

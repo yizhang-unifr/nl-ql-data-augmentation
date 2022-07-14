@@ -1,0 +1,16 @@
+SELECT countries.country_name, count(*) FROM countries  GROUP BY countries.country_name
+
+###
+
+
+Original Query:
+SELECT countries.country_name, count(*) FROM countries  GROUP BY countries.country_name
+GPT-3 choices:
+(0) There are 5 countries with a name starting by "RU"
+(1) What is the total number of countries?
+(2) What are the different countries associated with published papers?
+(3) Count the countries of all people
+(4) How many countries are there?
+(5) Show the number of countries.
+(6) What is the number of countries with names?
+(7) What is the number of countries, combination of all country names?

@@ -1,0 +1,16 @@
+SELECT ec_framework_programs.program_name FROM ec_framework_programs JOIN projects ON ec_framework_programs.program_name = projects.framework_program WHERE projects.ec_fund_scheme != 'MC-IIFR'
+
+###
+
+
+Original Query:
+SELECT ec_framework_programs.ec_framework_program_name FROM ec_framework_programs JOIN projects ON ec_framework_programs.ec_framework_program_name = projects.framework_program WHERE projects.ec_fund_scheme != 'MC-IIFR'
+GPT-3 choices:
+(0) Show the program name of all the projects that have a framework program and a funding scheme different than MC-IIFR.
+(1) Show me all the framework programs of projects that do not have the ec_fund_scheme = MC-IIFR
+(2) What are the names of the EC framework program of the projects that are not part of the EC fund scheme MC-IIFR?
+(3) What is the name of the frameworks programs projects that don't have an ec fund scheme?
+(4) What are the program name of all the projects that do not fall in the funding schema MC-IIFR?
+(5) Retrieve all program names of the frameworks that do not have a project funded by the ECMC-IIFR scheme.
+(6) Show me all the programs from different funded projects except from the projects with an ec_fund_scheme of MC-IIFR.
+(7) Show me all the framework programs that have the project with a funding scheme different than 'MC-IIFR'

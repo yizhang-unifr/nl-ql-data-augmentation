@@ -1,0 +1,28 @@
+SELECT count(*) FROM subject_areas WHERE subject_areas.description = 'Management and storage of radioactive waste; radioactive waste treatment; disposal in deep land or sub-seabed formations; remote handling; container materials and matrices.'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM subject_areas WHERE subject_areas.description = 'Management and storage of radioactive waste; radioactive waste treatment; disposal in deep land or sub-seabed formations; remote handling; container materials and matrices.'
+GPT-3 choices:
+(0) Show the number of subject areas:
+(1) Show me the number of subject areas with description Management and storage of radioactive waste; radioactive waste treatment; disposal in deep land or sub-seabed formations; remote handling; container materials and matrices.
+(2) How many subject areas are there about Management and storage of radioactive waste; radioactive waste treatment; disposal in deep land or sub-seabed formations; remote handling; container materials and matrices?
+(3) How many subject areas are there in the GDF database related to "management and storage of radioactive waste; radioactive waste treatment; disposal in deep land or sub-seabed formations; remote handling; container materials and matrices?"
+(4) How many subject areas are there which describe the management and storage of radioactive waste, radioactive waste treatment, disposal in deep land or sub-seabed formations, remote handling or container materials and matrices?
+(5) Show me the total number of subject areas that contains the description Management and storage of radioactive waste; radioactive waste treatment; disposal in deep land or sub-seabed formations; remote handling; container materials and matrices.
+(6) How many subject areas are there with description Management and storage of radioactive waste; radioactive waste treatment; disposal in deep land or sub-seabed formations; remote handling; container materials and matrices?
+(7) How many subject areas associated to the statement describe Management and storage of radioactive waste; radioactive waste treatment; disposal in deep land or sub-seabed formations; remote handling; container materials and matrices?
+
+
+Re-ranked choices:
+5.984  How many subject areas are there with description Management and storage of radioactive waste; radioactive waste treatment; disposal in deep land or sub-seabed formations; remote handling; container materials and matrices?
+5.958  Show me the number of subject areas with description Management and storage of radioactive waste; radioactive waste treatment; disposal in deep land or sub-seabed formations; remote handling; container materials and matrices.
+5.941  Show me the total number of subject areas that contains the description Management and storage of radioactive waste; radioactive waste treatment; disposal in deep land or sub-seabed formations; remote handling; container materials and matrices.
+5.867  How many subject areas are there about Management and storage of radioactive waste; radioactive waste treatment; disposal in deep land or sub-seabed formations; remote handling; container materials and matrices?
+5.756  How many subject areas are there which describe the management and storage of radioactive waste, radioactive waste treatment, disposal in deep land or sub-seabed formations, remote handling or container materials and matrices?
+5.691  How many subject areas associated to the statement describe Management and storage of radioactive waste; radioactive waste treatment; disposal in deep land or sub-seabed formations; remote handling; container materials and matrices?
+4.988  How many subject areas are there in the GDF database related to "management and storage of radioactive waste; radioactive waste treatment; disposal in deep land or sub-seabed formations; remote handling; container materials and matrices?"
+3.058  Show the number of subject areas:
+

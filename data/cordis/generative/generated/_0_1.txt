@@ -1,0 +1,28 @@
+SELECT activity_types.code FROM activity_types WHERE activity_types.description = 'Other'
+
+###
+
+
+Original Query:
+SELECT activity_types.code FROM activity_types WHERE activity_types.description = 'Other'
+GPT-3 choices:
+(0) SELECT activity_types.code FROM activity_types WHERE activity_types.description = 'Other'
+(1) Show all activity types with description Other
+(2) Show the activity type code of all projects with the activity type description 'other'
+(3) SHOW COLUMN FROM funding_schemes WHERE code = 'ECFMU'
+(4) Which activity type has the description Other?
+(5) Show activity type descriptions of all activities that are not categorized as global activity "Other"
+(6) Retrieve all activity types descriptions "Other"
+(7) Show activity types with description "Other"
+
+
+Re-ranked choices:
+5.155  Show activity types with description "Other"
+5.144  Show all activity types with description Other
+4.984  Retrieve all activity types descriptions "Other"
+4.927  Show the activity type code of all projects with the activity type description 'other'
+4.800  Show activity type descriptions of all activities that are not categorized as global activity "Other"
+4.644  SELECT activity_types.code FROM activity_types WHERE activity_types.description = 'Other'
+4.256  Which activity type has the description Other?
+1.303  SHOW COLUMN FROM funding_schemes WHERE code = 'ECFMU'
+

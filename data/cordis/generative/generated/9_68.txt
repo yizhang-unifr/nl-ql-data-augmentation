@@ -1,0 +1,16 @@
+SELECT programmes.rcn FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.total_cost != 2827562.02
+
+###
+
+
+Original Query:
+SELECT programmes.rcn FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.total_cost != 2827562.02
+GPT-3 choices:
+(0) Show the RCO of programmes that join projects where the total cost is not 2827562.02
+(1) Show the code of the programmes of projects that have a total cost != 2827562.02
+(2) Retrieve the programmes associated with projects with a total cost different than 2827562.02.
+(3) Show the code of projects having a total cost != 2827562.02
+(4) Retrieve the name of programmes associated with all projects with a total cost != 2827562.02
+(5) Show me the RCN of projects that have a total cost different than 2827562.02
+(6) Show the programme code of projects whose total cost is not 2827562.02
+(7) How many different project programmes have a total cost different from 2827562.02?

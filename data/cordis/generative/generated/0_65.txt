@@ -1,0 +1,16 @@
+SELECT project_members.vat_number FROM project_members WHERE project_members.city = 'BERLIN'
+
+###
+
+
+Original Query:
+SELECT project_members.vat_number FROM project_members WHERE project_members.city = 'BERLIN'
+GPT-3 choices:
+(0) Show the vat number of project members that live in Berlin
+(1) show a different condition for the city when the project members vat number should be shown
+(2) Show me the vat number of project members whose city is BERLIN.
+(3) Display all project members from city BERLIN.
+(4) What is the vat number of project members in Berlin?
+(5) Show me all project members’ vat number, who are in the city BERLIN
+(6) What is the vat number of project members that are in the city of BERLIN?
+(7) Get the vat number from project members which have the city berlin

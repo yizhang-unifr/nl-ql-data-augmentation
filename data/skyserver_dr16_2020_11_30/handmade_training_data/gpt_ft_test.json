@@ -1,0 +1,17 @@
+[
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Count all Quasi stellar object (QSO)'",
+        "query": "select count(*) from specobj where class = 'QSO'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What are the program names of Star with spectral type M",
+        "query": "SELECT T1.programname FROM specobj AS T1 WHERE T1.class = 'STAR' and T1.subclass LIKE '%M%'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show me the best object and modified julien date for all K type Star",
+        "query": "SELECT T1.bestobjid, T1.mjd FROM specobj AS T1 WHERE T1.class = 'STAR' and T1.subclass like '%K%'"
+    }
+]

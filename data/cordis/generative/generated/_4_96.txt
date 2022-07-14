@@ -1,0 +1,27 @@
+SELECT count(*) FROM projects WHERE projects.ec_call = 'FP7-KBBE-2012-6-singlestage'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM projects WHERE projects.ec_call = 'FP7-KBBE-2012-6-singlestage'
+GPT-3 choices:
+(0) Show how many projects are in the database for the program FP7-KBBE-2012-6-singlestage
+(1) How many projects are there with the eu call "FP7-KBBE-2012-6-singlestage"
+(2) How many projects are there that fell under the single stage FP7-KBBE-2012?
+(3) Show the number of projects that have an EC Funding call.
+(4) How many projects have the eu code FP7-KBBE-2012-6-singlestage?
+(5) Display the number of projects in which the eu.code is "FP7-KBBE-2012-6-singlestage"
+(6) How many projects are there in the European Commission's framework programme for research and technological development with the following subject?
+(7) 
+
+
+Re-ranked choices:
+4.103  How many projects have the eu code FP7-KBBE-2012-6-singlestage?
+3.980  How many projects are there with the eu call "FP7-KBBE-2012-6-singlestage"
+3.882  Display the number of projects in which the eu.code is "FP7-KBBE-2012-6-singlestage"
+3.575  Show how many projects are in the database for the program FP7-KBBE-2012-6-singlestage
+3.490  How many projects are there that fell under the single stage FP7-KBBE-2012?
+3.088  How many projects are there in the European Commission's framework programme for research and technological development with the following subject?
+2.896  Show the number of projects that have an EC Funding call.
+

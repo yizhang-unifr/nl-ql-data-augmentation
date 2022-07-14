@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description = 'Zuidoost-Friesland'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description = 'Zuidoost-Friesland'
+GPT-3 choices:
+(0) Show me territorial units inside Zuidoost-Friesland
+(1) Show me the geocode regions of the territorial unit described as "Zuidoost-Friesland"
+(2) Show the geocode regions of eu territorial unit descriptions "Zuidoost-Friesland", respectively.
+(3) How many geocode regions are there for the territorial unit description Zuidoost-Friesland?
+(4) Show me the codes for the eu territorial units described as "Zuidoost-Friesland"
+(5) Show all the regions of the territorial unit Zuidoost-Friesland
+(6) Show me the geocode region(s) of the European territorial units with description 'Zuidoost-Friesland'
+(7) Show me all geocode regions of the territorial unit description Zuidoost-Friesland
+
+
+Re-ranked choices:
+6.239  Show me the geocode regions of the territorial unit described as "Zuidoost-Friesland"
+6.206  Show me all geocode regions of the territorial unit description Zuidoost-Friesland
+6.112  Show me the geocode region(s) of the European territorial units with description 'Zuidoost-Friesland'
+6.043  Show the geocode regions of eu territorial unit descriptions "Zuidoost-Friesland", respectively.
+5.924  How many geocode regions are there for the territorial unit description Zuidoost-Friesland?
+5.814  Show all the regions of the territorial unit Zuidoost-Friesland
+5.719  Show me the codes for the eu territorial units described as "Zuidoost-Friesland"
+5.245  Show me territorial units inside Zuidoost-Friesland
+

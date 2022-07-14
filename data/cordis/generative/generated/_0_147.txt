@@ -1,0 +1,28 @@
+SELECT institutions.acronym FROM institutions WHERE institutions.geocode_regions_3 = 'UKI11'
+
+###
+
+
+Original Query:
+SELECT institutions.acronym FROM institutions WHERE institutions.geocode_regions_3 = 'UKI11'
+GPT-3 choices:
+(0) Show me all institutions with acronym
+(1) Which are the acronyms of the institutions in the geocode region UKI11?
+(2) Show me all institution acronyms of institutions located in UKI11
+(3) Show me institutions acronyms with geo-regions 3 equal to UKI11
+(4) Show all the institutions acronyms where their geocode region is UKI11
+(5) Show me all institution acronyms in the region UKI11
+(6) Which are the acronyms of institutions located in UKI11?
+(7) Which are the institutions acronyms?
+
+
+Re-ranked choices:
+5.880  Show me all institution acronyms in the region UKI11
+5.852  Show me all institution acronyms of institutions located in UKI11
+5.695  Which are the acronyms of institutions located in UKI11?
+5.647  Show me institutions acronyms with geo-regions 3 equal to UKI11
+5.327  Show all the institutions acronyms where their geocode region is UKI11
+5.310  Which are the acronyms of the institutions in the geocode region UKI11?
+5.106  Which are the institutions acronyms?
+5.091  Show me all institutions with acronym
+

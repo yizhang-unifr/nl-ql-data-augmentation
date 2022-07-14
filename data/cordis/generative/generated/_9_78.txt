@@ -1,0 +1,28 @@
+SELECT topics.code FROM topics JOIN project_topics ON topics.code = project_topics.topic JOIN projects ON project_topics.project = projects.unics_id WHERE projects.acronym != 'CutLoops'
+
+###
+
+
+Original Query:
+SELECT topics.code FROM topics JOIN project_topics ON topics.code = project_topics.topic JOIN projects ON project_topics.project = projects.unics_id WHERE projects.acronym != 'CutLoops'
+GPT-3 choices:
+(0) Show me the topics of projects that have an acronym different than CutLoops
+(1) Show the code of topics associated with all the projects except CutLoops.
+(2) What are the topics of projects whose acronym is not CutLoops?
+(3) Get all the project topics except CutLoops
+(4) Retrieve the list of topics for projects that have the project topic "CutLoops"
+(5) Retrieve the code of the topics of projects whose acronym is not CutLoops?
+(6) Which project topics are not about the project CutLoops?
+(7) Show topics associated with projects whose acronym is not CutLoops
+
+
+Re-ranked choices:
+5.425  Show topics associated with projects whose acronym is not CutLoops
+5.334  Show me the topics of projects that have an acronym different than CutLoops
+5.310  What are the topics of projects whose acronym is not CutLoops?
+5.270  Get all the project topics except CutLoops
+5.253  Show the code of topics associated with all the projects except CutLoops.
+5.133  Retrieve the list of topics for projects that have the project topic "CutLoops"
+5.036  Retrieve the code of the topics of projects whose acronym is not CutLoops?
+4.954  Which project topics are not about the project CutLoops?
+

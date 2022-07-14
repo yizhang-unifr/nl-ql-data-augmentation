@@ -1,0 +1,26 @@
+SELECT countries.country_name FROM countries WHERE countries.country_code = 'KW'
+
+###
+
+
+Original Query:
+SELECT countries.country_name FROM countries WHERE countries.country_code2 = 'KW'
+GPT-3 choices:
+(0) Show all available country names
+(1) What are the country names of countries with country code KW?
+(2) Show me the country name of countries with country code KW
+(3) Show me the name of all countries with country code KW.
+(4) Show all the country names for which the country code is KW
+(5) Get the country name of all countries whose country code is KW.
+(6) What are the country names of countries with country code KW?
+(7) What are the country names of countries with country code KW?
+
+
+Re-ranked choices:
+4.426  Show me the country name of countries with country code KW
+4.407  Show me the name of all countries with country code KW.
+4.350  Show all the country names for which the country code is KW
+4.251  Get the country name of all countries whose country code is KW.
+4.236  What are the country names of countries with country code KW?
+3.317  Show all available country names
+

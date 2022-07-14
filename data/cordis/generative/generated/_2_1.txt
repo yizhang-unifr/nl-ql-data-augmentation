@@ -1,0 +1,28 @@
+SELECT projects.unics_id, count(*) FROM projects  GROUP BY projects.unics_id
+
+###
+
+
+Original Query:
+SELECT projects.unics_id, count(*) FROM projects  GROUP BY projects.unics_id
+GPT-3 choices:
+(0) Show the number of projects in the Unics ervice
+(1) Count projects by unics
+(2) How many projects are associated with a European Unitics registrant?
+(3) Show the total number of project within a given unit.
+(4) How many different unique institutions with project?
+(5) How many project units, according to institution code, having projects?
+(6) Total number of projects. Unics ID
+(7) How many projects are there in the union of all the institutions?
+
+
+Re-ranked choices:
+4.637  Total number of projects. Unics ID
+4.566  How many project units, according to institution code, having projects?
+4.366  Show the number of projects in the Unics ervice
+4.193  How many different unique institutions with project?
+4.097  Count projects by unics
+4.067  How many projects are there in the union of all the institutions?
+3.761  Show the total number of project within a given unit.
+3.526  How many projects are associated with a European Unitics registrant?
+

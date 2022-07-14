@@ -1,0 +1,28 @@
+SELECT projects.total_cost FROM projects WHERE projects.title = 'The impact of chromosomal instability on health: Molecular causes and consequences of aneuploidy' and projects.unics_id = 162895
+
+###
+
+
+Original Query:
+SELECT projects.total_cost FROM projects WHERE projects.title = 'The impact of chromosomal instability on health: Molecular causes and consequences of aneuploidy' and projects.unics_id = 162895
+GPT-3 choices:
+(0) What is the total cost of all projects with title "The impact of chromosomal instability on health: Molecular causes and consequences of aneuploidy" and number 162895 inside projects?
+(1) Show the total cost of projects called The impact of chromosomal instability on health: Molecular causes and consequences of aneuploidy from Abu Dhabi University
+(2) SHOW THE TOTAL COST OF ALL THE PROJECTS TITLED 'The impact of chromosomal instability on health: Molecular causes and consequences of aneuploidy' IN THE UNICS WITH THE ID 162895
+(3) What is the total cost of all projects entitled The impact of chromosomal instability on health: Molecular causes and consequences of aneuploidy from the university with universite code 162895?
+(4) What is the total cost of projects with title The impact of chromosomal instability on health: Molecular causes and consequences of aneuploidy and unics_id 162895
+(5) Show the total cost of all projects with title “The impact of chromosomal instability on health: Molecular causes and consequences of aneuploidy” that are assigned to the institution with ID 162895
+(6) How much is the total cost of projects titled "The impact of chromosomal instability on health: Molecular causes and consequences of aneuploidy" assigned to the university with id 162895?
+(7) What is the total cost of projects with title "The impact of chromosomal instability on health: Molecular causes and consequences of aneuploidy" having UNICS code 162895?
+
+
+Re-ranked choices:
+6.590  Show the total cost of all projects with title “The impact of chromosomal instability on health: Molecular causes and consequences of aneuploidy” that are assigned to the institution with ID 162895
+6.576  What is the total cost of projects with title The impact of chromosomal instability on health: Molecular causes and consequences of aneuploidy and unics_id 162895
+6.566  What is the total cost of all projects entitled The impact of chromosomal instability on health: Molecular causes and consequences of aneuploidy from the university with universite code 162895?
+6.542  What is the total cost of projects with title "The impact of chromosomal instability on health: Molecular causes and consequences of aneuploidy" having UNICS code 162895?
+6.457  What is the total cost of all projects with title "The impact of chromosomal instability on health: Molecular causes and consequences of aneuploidy" and number 162895 inside projects?
+6.384  How much is the total cost of projects titled "The impact of chromosomal instability on health: Molecular causes and consequences of aneuploidy" assigned to the university with id 162895?
+6.281  SHOW THE TOTAL COST OF ALL THE PROJECTS TITLED 'The impact of chromosomal instability on health: Molecular causes and consequences of aneuploidy' IN THE UNICS WITH THE ID 162895
+6.268  Show the total cost of projects called The impact of chromosomal instability on health: Molecular causes and consequences of aneuploidy from Abu Dhabi University
+

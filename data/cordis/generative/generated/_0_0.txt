@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'DE939'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'DE939'
+GPT-3 choices:
+(0) Retrieve territorial unit descriptions from geocode regions DE939
+(1) Show me the descriptions of the territorial units in the european region DE939.
+(2) Retrieve European territorial units having the region code DE939.
+(3) Show all descriptions of territorial units in DE939
+(4) Show me the description of the territorial unit that whose region is DE939.
+(5) Retrieve territorial unit descriptions associated with geographical region DE939
+(6) Show me the description of European territorial units in the geo region DE939.
+(7) What are the different descriptions for eu territorial units in the region DE939?
+
+
+Re-ranked choices:
+5.912  Show me the description of European territorial units in the geo region DE939.
+5.872  Show me the descriptions of the territorial units in the european region DE939.
+5.787  Show all descriptions of territorial units in DE939
+5.752  Show me the description of the territorial unit that whose region is DE939.
+5.676  What are the different descriptions for eu territorial units in the region DE939?
+5.634  Retrieve territorial unit descriptions associated with geographical region DE939
+5.506  Retrieve European territorial units having the region code DE939.
+5.288  Retrieve territorial unit descriptions from geocode regions DE939
+

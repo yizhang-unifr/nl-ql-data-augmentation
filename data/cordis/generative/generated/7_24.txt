@@ -1,0 +1,16 @@
+SELECT programmes.short_name FROM programmes WHERE programmes.title = 'Europe’s changing role in the world' or programmes.title = 'Preparedness, prevention, mitigation and planning'
+
+###
+
+
+Original Query:
+SELECT programmes.short_name FROM programmes WHERE programmes.title = 'Europe’s changing role in the world' or programmes.title = 'Preparedness, prevention, mitigation and planning'
+GPT-3 choices:
+(0) Show all the short names of programmes with title Europe’s changing role in the world or Preparedness, prevention, mitigation and planning
+(1) RETURN programme titles of programmes that have Europe’s changing role in the world or Preparedness, prevention, mitigation and planning as title.
+(2) Select programme short name from programmes where titles are 'Europe’s changing role in the world' or 'Preparedness, prevention, mitigation and planning'
+(3) Show all short names of programmes whose title is Europe’s changing role in the world or Preparedness, prevention, mitigation and planning
+(4) Show me programms with "Europe’s changing role in the world" or "Preparedness, prevention, mitigation and planning" as title.
+(5) Show me the project titles for projects about Europe's changing role in the world or about preparedness, prevention, mitigation and planning.
+(6) Show me short names of the programs whose title is either “Europe’s changing role in the world” or “Preparedness, prevention, mitigation and planning”
+(7) Show all the short names for programmes with title "Europe's changing role in the world" or "Preparedness, prevention, mitigation and planning".

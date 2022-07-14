@@ -1,0 +1,28 @@
+SELECT project_members.postal_code FROM project_members JOIN project_member_roles ON project_members.member_role = project_member_roles.code WHERE project_member_roles.code != 'hostInstitution'
+
+###
+
+
+Original Query:
+SELECT project_members.postal_code FROM project_members JOIN project_member_roles ON project_members.member_role = project_member_roles.code WHERE project_member_roles.code != 'hostInstitution'
+GPT-3 choices:
+(0) Show me the places of project members that are not the host institution
+(1) Retrieve all the project members' postal codes that are not associated with the host institution's project member role.
+(2) Show me the postal codes of project members that are not the host institution
+(3) Show the postal code of project members that do not have the role hostInstitution
+(4) What is the postal code of project members that are not assigned to host institutions?
+(5) What is the postal code of project members that have a role assignment different than hostInstitution?
+(6) Show me the postal code of project members that are not hosting institutions
+(7) Show all project members along with the project member roles which are different from host institution
+
+
+Re-ranked choices:
+5.651  Show me the postal codes of project members that are not the host institution
+5.539  Show the postal code of project members that do not have the role hostInstitution
+5.421  Show me the postal code of project members that are not hosting institutions
+5.386  What is the postal code of project members that are not assigned to host institutions?
+5.092  Retrieve all the project members' postal codes that are not associated with the host institution's project member role.
+4.982  What is the postal code of project members that have a role assignment different than hostInstitution?
+4.742  Show me the places of project members that are not the host institution
+4.181  Show all project members along with the project member roles which are different from host institution
+

@@ -1,0 +1,16 @@
+SELECT erc_research_domains.code FROM erc_research_domains JOIN erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects ON project_erc_panels.project = projects.unics_id WHERE projects.start_year != 2017
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.code FROM erc_research_domains JOIN erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects ON project_erc_panels.project = projects.unics_id WHERE projects.start_year != 2017
+GPT-3 choices:
+(0) Get me the codes of the research domains that are not associated to any project starting in 2017
+(1) Show the ERC research domains associated with projects whose starting date is not 2017
+(2) Show me the codes of ERC research domains that have a panel inside a project that doesn't start in 2017.
+(3) What are the research domains without projects started in 2017?
+(4) Show me the research domains outside the panel of projects that started 2017
+(5) Show me ERC research domains that don't have projects started in 2017
+(6) Show me ERC research domains which are not part of a project started in 2017.
+(7) Retrieve the code associated with ERC Research Domain of a project whose start year is != 2017

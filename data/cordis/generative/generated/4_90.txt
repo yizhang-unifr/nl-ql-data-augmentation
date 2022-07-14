@@ -1,0 +1,16 @@
+SELECT count(*) FROM topics WHERE topics.rcn = '664917'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM topics WHERE topics.rcn = '664917'
+GPT-3 choices:
+(0) How many topics are there in the RICOH area?
+(1) Show the number of topics in the archive whose code is 664917
+(2) How many are topics about 664917?
+(3) Show the number of topics in which the subject code is 664917
+(4) How many are the different topics with rcn = 664917?
+(5) How many different topics have the RCN 664917?
+(6) How many are there about wireless capabilities?
+(7) How many topic are there in the RCN 664917?

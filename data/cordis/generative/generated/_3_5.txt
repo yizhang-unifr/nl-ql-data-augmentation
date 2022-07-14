@@ -1,0 +1,27 @@
+SELECT count(*) FROM people
+
+###
+
+
+Original Query:
+SELECT count(*) FROM people
+GPT-3 choices:
+(0) How many people are in the people table?
+(1) 
+(2) What is the total number of people?
+(3) What is the different between people and person?
+(4) The number of people
+(5) Count the number of people in a specified artist's work.
+(6) ### How many people are there altogether?
+(7) What is the number of people?
+
+
+Re-ranked choices:
+4.483  What is the number of people?
+4.361  What is the total number of people?
+4.346  The number of people
+3.832  How many people are in the people table?
+3.800  ### How many people are there altogether?
+2.571  Count the number of people in a specified artist's work.
+2.368  What is the different between people and person?
+

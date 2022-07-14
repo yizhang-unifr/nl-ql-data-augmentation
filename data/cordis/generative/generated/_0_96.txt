@@ -1,0 +1,28 @@
+SELECT activity_types.code FROM activity_types WHERE activity_types.description = 'Private for-profit entities (excluding Higher or Secondary Education Establishments)'
+
+###
+
+
+Original Query:
+SELECT activity_types.code FROM activity_types WHERE activity_types.description = 'Private for-profit entities (excluding Higher or Secondary Education Establishments)'
+GPT-3 choices:
+(0) Pull activity types that are private for-profit entities (excluding Higher or Secondary Education Establishments).
+(1) Show me activity types for Private for-profit entities (excluding Higher or Secondary Education Establishments)
+(2) What are the activity types of Private for-profit entities (excluding Higher or Secondary Education Establishments)?
+(3) Show activity types of Private for-profit entities (excluding Higher or Secondary Education Establishments)
+(4) Show me all activity types for Private for-profit entities (excluding Higher or Secondary Education Establishments)
+(5) Show me all activity types associated with Private for-profit entities (excluding Higher or Secondary Education Establishments).
+(6) Show me all activity types with description Private for-profit entities (excluding Higher or Secondary Education Establishments)
+(7) Show me the activity types of private for-profit entities excluding Higher or Secondary Education Establishments
+
+
+Re-ranked choices:
+6.553  Show me all activity types for Private for-profit entities (excluding Higher or Secondary Education Establishments)
+6.512  Show me all activity types associated with Private for-profit entities (excluding Higher or Secondary Education Establishments).
+6.468  Show activity types of Private for-profit entities (excluding Higher or Secondary Education Establishments)
+6.418  Show me activity types for Private for-profit entities (excluding Higher or Secondary Education Establishments)
+6.391  Show me the activity types of private for-profit entities excluding Higher or Secondary Education Establishments
+6.360  Show me all activity types with description Private for-profit entities (excluding Higher or Secondary Education Establishments)
+6.212  What are the activity types of Private for-profit entities (excluding Higher or Secondary Education Establishments)?
+5.544  Pull activity types that are private for-profit entities (excluding Higher or Secondary Education Establishments).
+

@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions != 'ITF13'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions != 'ITF13'
+GPT-3 choices:
+(0) 
+(1) What are the descriptions of territorial unit from the geocode area ITF13?
+(2) Retrieve all territorial unit descriptions in eu countries (except ITF13)
+(3) Show me the territorial unit descriptions that do not have the geocode region ITF13.
+(4) Show me EU territorial unit descriptions that don't match the region code ITF13
+(5) Retrieve territorial units from outside ITF13 region
+(6) Show me the descriptions of European territorial units that are not in the geocode region ITF13
+(7) Where is the region code ITF13, inside the European territorial unit?

@@ -1,0 +1,205 @@
+[
+  {
+    "name": "continents",
+    "original_name": "continents",
+    "logical_name": "continents",
+    "columns": [
+      {
+        "name": "cont id",
+        "original_name": "ContId",
+        "logical_name": "ContId",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "continent",
+        "original_name": "Continent",
+        "logical_name": "Continent",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "countries",
+    "original_name": "countries",
+    "logical_name": "countries",
+    "columns": [
+      {
+        "name": "country id",
+        "original_name": "CountryId",
+        "logical_name": "CountryId",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "country name",
+        "original_name": "CountryName",
+        "logical_name": "CountryName",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "continent",
+        "original_name": "Continent",
+        "logical_name": "Continent",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  },
+  {
+    "name": "car makers",
+    "original_name": "car_makers",
+    "logical_name": "car_makers",
+    "columns": [
+      {
+        "name": "id",
+        "original_name": "Id",
+        "logical_name": "Id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "maker",
+        "original_name": "Maker",
+        "logical_name": "Maker",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "full name",
+        "original_name": "FullName",
+        "logical_name": "FullName",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "country",
+        "original_name": "Country",
+        "logical_name": "Country",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "model list",
+    "original_name": "model_list",
+    "logical_name": "model_list",
+    "columns": [
+      {
+        "name": "model id",
+        "original_name": "ModelId",
+        "logical_name": "ModelId",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "maker",
+        "original_name": "Maker",
+        "logical_name": "Maker",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "model",
+        "original_name": "Model",
+        "logical_name": "Model",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "car names",
+    "original_name": "car_names",
+    "logical_name": "car_names",
+    "columns": [
+      {
+        "name": "make id",
+        "original_name": "MakeId",
+        "logical_name": "MakeId",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "model",
+        "original_name": "Model",
+        "logical_name": "Model",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "make",
+        "original_name": "Make",
+        "logical_name": "Make",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "cars data",
+    "original_name": "cars_data",
+    "logical_name": "cars_data",
+    "columns": [
+      {
+        "name": "id",
+        "original_name": "Id",
+        "logical_name": "Id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "mpg",
+        "original_name": "MPG",
+        "logical_name": "MPG",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "cylinders",
+        "original_name": "Cylinders",
+        "logical_name": "Cylinders",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "edispl",
+        "original_name": "Edispl",
+        "logical_name": "Edispl",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "horsepower",
+        "original_name": "Horsepower",
+        "logical_name": "Horsepower",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "weight",
+        "original_name": "Weight",
+        "logical_name": "Weight",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "accelerate",
+        "original_name": "Accelerate",
+        "logical_name": "Accelerate",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "year",
+        "original_name": "Year",
+        "logical_name": "Year",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2739 @@
+[
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Start_from FROM hiring AS T1 WHERE T1.Shop_ID = 5",
+    "readable_query": "SELECT hiring.Start_from FROM hiring AS hiring WHERE hiring.Shop_ID = 5"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Bonus FROM evaluation AS T1 WHERE T1.Year_awarded = \"2018\"",
+    "readable_query": "SELECT evaluation.Bonus FROM evaluation AS evaluation WHERE evaluation.Year_awarded = \"2018\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Name FROM shop AS T1 WHERE T1.District = \"Lahden Stadion\"",
+    "readable_query": "SELECT shop.Name FROM shop AS shop WHERE shop.District = \"Lahden Stadion\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.City FROM employee AS T1 WHERE T1.Name = \"George Chuter\"",
+    "readable_query": "SELECT employee.City FROM employee AS employee WHERE employee.Name = \"George Chuter\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Employee_ID FROM evaluation AS T1 WHERE T1.Bonus = 2900.0",
+    "readable_query": "SELECT evaluation.Employee_ID FROM evaluation AS evaluation WHERE evaluation.Bonus = 2900.0"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Shop_ID FROM hiring AS T1 WHERE T1.Is_full_time = \"T\"",
+    "readable_query": "SELECT hiring.Shop_ID FROM hiring AS hiring WHERE hiring.Is_full_time = \"T\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Age FROM employee AS T1 WHERE T1.Employee_ID = 1",
+    "readable_query": "SELECT employee.Age FROM employee AS employee WHERE employee.Employee_ID = 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Start_from FROM hiring AS T1 WHERE T1.Employee_ID = 5",
+    "readable_query": "SELECT hiring.Start_from FROM hiring AS hiring WHERE hiring.Employee_ID = 5"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Is_full_time FROM hiring AS T1 WHERE T1.Employee_ID = 2",
+    "readable_query": "SELECT hiring.Is_full_time FROM hiring AS hiring WHERE hiring.Employee_ID = 2"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Shop_ID FROM shop AS T1 WHERE T1.Number_products = 10000",
+    "readable_query": "SELECT shop.Shop_ID FROM shop AS shop WHERE shop.Number_products = 10000"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Employee_ID FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.Name = \"FC Honka\"",
+    "readable_query": "SELECT hiring.Employee_ID FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID WHERE shop.Name = \"FC Honka\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Employee_ID FROM employee AS T1 JOIN hiring AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Shop_ID = 6",
+    "readable_query": "SELECT employee.Employee_ID FROM employee AS employee JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID WHERE hiring.Shop_ID = 6"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Is_full_time FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.Manager_name = \"Pekka Lyyski\"",
+    "readable_query": "SELECT hiring.Is_full_time FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID WHERE shop.Manager_name = \"Pekka Lyyski\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Year_awarded FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.City = \"Wasps\"",
+    "readable_query": "SELECT evaluation.Year_awarded FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID WHERE employee.City = \"Wasps\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Name FROM employee AS T1 JOIN evaluation AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Bonus = 3200.0",
+    "readable_query": "SELECT employee.Name FROM employee AS employee JOIN evaluation AS evaluation ON employee.Employee_ID = evaluation.Employee_ID WHERE evaluation.Bonus = 3200.0"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Employee_ID FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Name = \"Phil Vickery\"",
+    "readable_query": "SELECT hiring.Employee_ID FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID WHERE employee.Name = \"Phil Vickery\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Bonus FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Name = \"Louis Deacon\"",
+    "readable_query": "SELECT evaluation.Bonus FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID WHERE employee.Name = \"Louis Deacon\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.District FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.Employee_ID = 4",
+    "readable_query": "SELECT shop.District FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID WHERE hiring.Employee_ID = 4"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Shop_ID FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Employee_ID = 1",
+    "readable_query": "SELECT hiring.Shop_ID FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID WHERE employee.Employee_ID = 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Shop_ID FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.Manager_name = \"Antti Muurinen\"",
+    "readable_query": "SELECT hiring.Shop_ID FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID WHERE shop.Manager_name = \"Antti Muurinen\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Year_awarded, count(*) FROM evaluation AS T1  GROUP BY T1.Year_awarded",
+    "readable_query": "SELECT evaluation.Year_awarded, count(*) FROM evaluation AS evaluation  GROUP BY evaluation.Year_awarded"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Employee_ID, count(*) FROM hiring AS T1  GROUP BY T1.Employee_ID",
+    "readable_query": "SELECT hiring.Employee_ID, count(*) FROM hiring AS hiring  GROUP BY hiring.Employee_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Name, count(*) FROM employee AS T1  GROUP BY T1.Name",
+    "readable_query": "SELECT employee.Name, count(*) FROM employee AS employee  GROUP BY employee.Name"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.City, count(*) FROM employee AS T1  GROUP BY T1.City",
+    "readable_query": "SELECT employee.City, count(*) FROM employee AS employee  GROUP BY employee.City"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Employee_ID, count(*) FROM employee AS T1  GROUP BY T1.Employee_ID",
+    "readable_query": "SELECT employee.Employee_ID, count(*) FROM employee AS employee  GROUP BY employee.Employee_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Employee_ID, count(*) FROM evaluation AS T1  GROUP BY T1.Employee_ID",
+    "readable_query": "SELECT evaluation.Employee_ID, count(*) FROM evaluation AS evaluation  GROUP BY evaluation.Employee_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Number_products, count(*) FROM shop AS T1  GROUP BY T1.Number_products",
+    "readable_query": "SELECT shop.Number_products, count(*) FROM shop AS shop  GROUP BY shop.Number_products"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Start_from, count(*) FROM hiring AS T1  GROUP BY T1.Start_from",
+    "readable_query": "SELECT hiring.Start_from, count(*) FROM hiring AS hiring  GROUP BY hiring.Start_from"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Bonus, count(*) FROM evaluation AS T1  GROUP BY T1.Bonus",
+    "readable_query": "SELECT evaluation.Bonus, count(*) FROM evaluation AS evaluation  GROUP BY evaluation.Bonus"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Is_full_time, count(*) FROM hiring AS T1  GROUP BY T1.Is_full_time",
+    "readable_query": "SELECT hiring.Is_full_time, count(*) FROM hiring AS hiring  GROUP BY hiring.Is_full_time"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.District, count(*) FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID  GROUP BY T1.District",
+    "readable_query": "SELECT shop.District, count(*) FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID  GROUP BY shop.District"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Employee_ID, count(*) FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID  GROUP BY T1.Employee_ID",
+    "readable_query": "SELECT hiring.Employee_ID, count(*) FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID  GROUP BY hiring.Employee_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Location, count(*) FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID  GROUP BY T1.Location",
+    "readable_query": "SELECT shop.Location, count(*) FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID  GROUP BY shop.Location"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Employee_ID, count(*) FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID  GROUP BY T1.Employee_ID",
+    "readable_query": "SELECT evaluation.Employee_ID, count(*) FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID  GROUP BY evaluation.Employee_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Name, count(*) FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID  GROUP BY T1.Name",
+    "readable_query": "SELECT shop.Name, count(*) FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID  GROUP BY shop.Name"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Year_awarded, count(*) FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID  GROUP BY T1.Year_awarded",
+    "readable_query": "SELECT evaluation.Year_awarded, count(*) FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID  GROUP BY evaluation.Year_awarded"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Bonus, count(*) FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID  GROUP BY T1.Bonus",
+    "readable_query": "SELECT evaluation.Bonus, count(*) FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID  GROUP BY evaluation.Bonus"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Name, count(*) FROM employee AS T1 JOIN hiring AS T2 ON T1.Employee_ID = T2.Employee_ID  GROUP BY T1.Name",
+    "readable_query": "SELECT employee.Name, count(*) FROM employee AS employee JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID  GROUP BY employee.Name"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Start_from, count(*) FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID  GROUP BY T1.Start_from",
+    "readable_query": "SELECT hiring.Start_from, count(*) FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID  GROUP BY hiring.Start_from"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Manager_name, count(*) FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID  GROUP BY T1.Manager_name",
+    "readable_query": "SELECT shop.Manager_name, count(*) FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID  GROUP BY shop.Manager_name"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM evaluation AS T1",
+    "readable_query": "SELECT count(*) FROM evaluation AS evaluation"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM employee AS T1",
+    "readable_query": "SELECT count(*) FROM employee AS employee"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM shop AS T1",
+    "readable_query": "SELECT count(*) FROM shop AS shop"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM hiring AS T1",
+    "readable_query": "SELECT count(*) FROM hiring AS hiring"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Start_from, T1.Is_full_time FROM hiring AS T1",
+    "readable_query": "SELECT hiring.Start_from, hiring.Is_full_time FROM hiring AS hiring"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Name, T1.Number_products FROM shop AS T1",
+    "readable_query": "SELECT shop.Name, shop.Number_products FROM shop AS shop"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Employee_ID, T1.Start_from FROM hiring AS T1",
+    "readable_query": "SELECT hiring.Employee_ID, hiring.Start_from FROM hiring AS hiring"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Bonus, T1.Year_awarded FROM evaluation AS T1",
+    "readable_query": "SELECT evaluation.Bonus, evaluation.Year_awarded FROM evaluation AS evaluation"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Number_products, T1.Shop_ID FROM shop AS T1",
+    "readable_query": "SELECT shop.Number_products, shop.Shop_ID FROM shop AS shop"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Name, T1.City FROM employee AS T1",
+    "readable_query": "SELECT employee.Name, employee.City FROM employee AS employee"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Shop_ID, T1.Location FROM shop AS T1",
+    "readable_query": "SELECT shop.Shop_ID, shop.Location FROM shop AS shop"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Name, T1.Shop_ID FROM shop AS T1",
+    "readable_query": "SELECT shop.Name, shop.Shop_ID FROM shop AS shop"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Year_awarded, T1.Bonus FROM evaluation AS T1",
+    "readable_query": "SELECT evaluation.Year_awarded, evaluation.Bonus FROM evaluation AS evaluation"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.District, T1.Number_products FROM shop AS T1",
+    "readable_query": "SELECT shop.District, shop.Number_products FROM shop AS shop"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Location, T2.Is_full_time FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID",
+    "readable_query": "SELECT shop.Location, hiring.Is_full_time FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Employee_ID, T2.Age FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID",
+    "readable_query": "SELECT hiring.Employee_ID, employee.Age FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Employee_ID, T2.City FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID",
+    "readable_query": "SELECT evaluation.Employee_ID, employee.City FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Age, T2.Shop_ID FROM employee AS T1 JOIN hiring AS T2 ON T1.Employee_ID = T2.Employee_ID",
+    "readable_query": "SELECT employee.Age, hiring.Shop_ID FROM employee AS employee JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Number_products, T2.Shop_ID FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID",
+    "readable_query": "SELECT shop.Number_products, hiring.Shop_ID FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Employee_ID, T2.Number_products FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID",
+    "readable_query": "SELECT hiring.Employee_ID, shop.Number_products FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Shop_ID, T2.Is_full_time FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID",
+    "readable_query": "SELECT shop.Shop_ID, hiring.Is_full_time FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Year_awarded, T2.Name FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID",
+    "readable_query": "SELECT evaluation.Year_awarded, employee.Name FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Bonus, T2.Name FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID",
+    "readable_query": "SELECT evaluation.Bonus, employee.Name FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Year_awarded, T2.City FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID",
+    "readable_query": "SELECT evaluation.Year_awarded, employee.City FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Age, T1.City FROM employee AS T1 WHERE T1.Name = \"Mark Regan\"",
+    "readable_query": "SELECT employee.Age, employee.City FROM employee AS employee WHERE employee.Name = \"Mark Regan\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Bonus, T1.Employee_ID FROM evaluation AS T1 WHERE T1.Year_awarded = \"2017\"",
+    "readable_query": "SELECT evaluation.Bonus, evaluation.Employee_ID FROM evaluation AS evaluation WHERE evaluation.Year_awarded = \"2017\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Year_awarded, T1.Bonus FROM evaluation AS T1 WHERE T1.Employee_ID = \"10\"",
+    "readable_query": "SELECT evaluation.Year_awarded, evaluation.Bonus FROM evaluation AS evaluation WHERE evaluation.Employee_ID = \"10\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Manager_name, T1.District FROM shop AS T1 WHERE T1.Name = \"FC KooTeePee\"",
+    "readable_query": "SELECT shop.Manager_name, shop.District FROM shop AS shop WHERE shop.Name = \"FC KooTeePee\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Name, T1.Manager_name FROM shop AS T1 WHERE T1.Location = \"Lahti\"",
+    "readable_query": "SELECT shop.Name, shop.Manager_name FROM shop AS shop WHERE shop.Location = \"Lahti\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.District, T1.Shop_ID FROM shop AS T1 WHERE T1.Manager_name = \"Antti Muurinen\"",
+    "readable_query": "SELECT shop.District, shop.Shop_ID FROM shop AS shop WHERE shop.Manager_name = \"Antti Muurinen\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Year_awarded, T1.Bonus FROM evaluation AS T1 WHERE T1.Employee_ID = \"2\"",
+    "readable_query": "SELECT evaluation.Year_awarded, evaluation.Bonus FROM evaluation AS evaluation WHERE evaluation.Employee_ID = \"2\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Name, T1.Age FROM employee AS T1 WHERE T1.Employee_ID = 3",
+    "readable_query": "SELECT employee.Name, employee.Age FROM employee AS employee WHERE employee.Employee_ID = 3"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Shop_ID, T1.Start_from FROM hiring AS T1 WHERE T1.Is_full_time = \"T\"",
+    "readable_query": "SELECT hiring.Shop_ID, hiring.Start_from FROM hiring AS hiring WHERE hiring.Is_full_time = \"T\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.District, T1.Number_products FROM shop AS T1 WHERE T1.Name = \"FC Haka\"",
+    "readable_query": "SELECT shop.District, shop.Number_products FROM shop AS shop WHERE shop.Name = \"FC Haka\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.District FROM shop AS T1  GROUP BY T1.District  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT shop.District FROM shop AS shop  GROUP BY shop.District  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Employee_ID FROM hiring AS T1  GROUP BY T1.Employee_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT hiring.Employee_ID FROM hiring AS hiring  GROUP BY hiring.Employee_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Is_full_time FROM hiring AS T1  GROUP BY T1.Is_full_time  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT hiring.Is_full_time FROM hiring AS hiring  GROUP BY hiring.Is_full_time  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Age FROM employee AS T1  GROUP BY T1.Age  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT employee.Age FROM employee AS employee  GROUP BY employee.Age  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Start_from FROM hiring AS T1  GROUP BY T1.Start_from  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT hiring.Start_from FROM hiring AS hiring  GROUP BY hiring.Start_from  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Shop_ID FROM shop AS T1  GROUP BY T1.Shop_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT shop.Shop_ID FROM shop AS shop  GROUP BY shop.Shop_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Employee_ID FROM evaluation AS T1  GROUP BY T1.Employee_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT evaluation.Employee_ID FROM evaluation AS evaluation  GROUP BY evaluation.Employee_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Name FROM employee AS T1  GROUP BY T1.Name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT employee.Name FROM employee AS employee  GROUP BY employee.Name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Bonus FROM evaluation AS T1  GROUP BY T1.Bonus  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT evaluation.Bonus FROM evaluation AS evaluation  GROUP BY evaluation.Bonus  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Employee_ID FROM employee AS T1  GROUP BY T1.Employee_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT employee.Employee_ID FROM employee AS employee  GROUP BY employee.Employee_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM hiring AS T1 WHERE T1.Is_full_time = \"F\"",
+    "readable_query": "SELECT count(*) FROM hiring AS hiring WHERE hiring.Is_full_time = \"F\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM shop AS T1 WHERE T1.District = \"Arto Tolsa Areena\"",
+    "readable_query": "SELECT count(*) FROM shop AS shop WHERE shop.District = \"Arto Tolsa Areena\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM hiring AS T1 WHERE T1.Employee_ID = 2",
+    "readable_query": "SELECT count(*) FROM hiring AS hiring WHERE hiring.Employee_ID = 2"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM employee AS T1 WHERE T1.Employee_ID = 6",
+    "readable_query": "SELECT count(*) FROM employee AS employee WHERE employee.Employee_ID = 6"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM employee AS T1 WHERE T1.Employee_ID = 1",
+    "readable_query": "SELECT count(*) FROM employee AS employee WHERE employee.Employee_ID = 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM evaluation AS T1 WHERE T1.Employee_ID = \"4\"",
+    "readable_query": "SELECT count(*) FROM evaluation AS evaluation WHERE evaluation.Employee_ID = \"4\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM hiring AS T1 WHERE T1.Shop_ID = 6",
+    "readable_query": "SELECT count(*) FROM hiring AS hiring WHERE hiring.Shop_ID = 6"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM hiring AS T1 WHERE T1.Employee_ID = 1",
+    "readable_query": "SELECT count(*) FROM hiring AS hiring WHERE hiring.Employee_ID = 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM employee AS T1 WHERE T1.Name = \"Phil Vickery\"",
+    "readable_query": "SELECT count(*) FROM employee AS employee WHERE employee.Name = \"Phil Vickery\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM shop AS T1 WHERE T1.District = \"Tapiolan Urheilupuisto\"",
+    "readable_query": "SELECT count(*) FROM shop AS shop WHERE shop.District = \"Tapiolan Urheilupuisto\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Shop_ID FROM shop AS T1    ORDER BY T1.Number_products DESC LIMIT 1",
+    "readable_query": "SELECT shop.Shop_ID FROM shop AS shop    ORDER BY shop.Number_products DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Start_from FROM hiring AS T1    ORDER BY T1.Shop_ID DESC LIMIT 1",
+    "readable_query": "SELECT hiring.Start_from FROM hiring AS hiring    ORDER BY hiring.Shop_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM shop AS T1    ORDER BY T1.Number_products DESC LIMIT 1",
+    "readable_query": "SELECT shop.Name FROM shop AS shop    ORDER BY shop.Number_products DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM employee AS T1    ORDER BY T1.Employee_ID DESC LIMIT 1",
+    "readable_query": "SELECT employee.Name FROM employee AS employee    ORDER BY employee.Employee_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Age FROM employee AS T1    ORDER BY T1.Employee_ID DESC LIMIT 1",
+    "readable_query": "SELECT employee.Age FROM employee AS employee    ORDER BY employee.Employee_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Location FROM shop AS T1    ORDER BY T1.Shop_ID DESC LIMIT 1",
+    "readable_query": "SELECT shop.Location FROM shop AS shop    ORDER BY shop.Shop_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.City FROM employee AS T1    ORDER BY T1.Age DESC LIMIT 1",
+    "readable_query": "SELECT employee.City FROM employee AS employee    ORDER BY employee.Age DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Year_awarded FROM evaluation AS T1    ORDER BY T1.Bonus DESC LIMIT 1",
+    "readable_query": "SELECT evaluation.Year_awarded FROM evaluation AS evaluation    ORDER BY evaluation.Bonus DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Is_full_time FROM hiring AS T1    ORDER BY T1.Shop_ID DESC LIMIT 1",
+    "readable_query": "SELECT hiring.Is_full_time FROM hiring AS hiring    ORDER BY hiring.Shop_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Employee_ID FROM evaluation AS T1    ORDER BY T1.Bonus DESC LIMIT 1",
+    "readable_query": "SELECT evaluation.Employee_ID FROM evaluation AS evaluation    ORDER BY evaluation.Bonus DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Shop_ID FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID    ORDER BY T2.Number_products DESC LIMIT 1",
+    "readable_query": "SELECT hiring.Shop_ID FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID    ORDER BY shop.Number_products DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Start_from FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID    ORDER BY T2.Shop_ID DESC LIMIT 1",
+    "readable_query": "SELECT hiring.Start_from FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID    ORDER BY shop.Shop_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.District FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID    ORDER BY T2.Employee_ID DESC LIMIT 1",
+    "readable_query": "SELECT shop.District FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID    ORDER BY hiring.Employee_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Bonus FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID    ORDER BY T2.Age DESC LIMIT 1",
+    "readable_query": "SELECT evaluation.Bonus FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID    ORDER BY employee.Age DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Shop_ID FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID    ORDER BY T2.Age DESC LIMIT 1",
+    "readable_query": "SELECT hiring.Shop_ID FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID    ORDER BY employee.Age DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID    ORDER BY T2.Employee_ID DESC LIMIT 1",
+    "readable_query": "SELECT shop.Name FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID    ORDER BY hiring.Employee_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Location FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID    ORDER BY T2.Shop_ID DESC LIMIT 1",
+    "readable_query": "SELECT shop.Location FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID    ORDER BY hiring.Shop_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Year_awarded FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID    ORDER BY T2.Age DESC LIMIT 1",
+    "readable_query": "SELECT evaluation.Year_awarded FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID    ORDER BY employee.Age DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Employee_ID FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID    ORDER BY T2.Age DESC LIMIT 1",
+    "readable_query": "SELECT hiring.Employee_ID FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID    ORDER BY employee.Age DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Shop_ID FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID    ORDER BY T2.Employee_ID DESC LIMIT 1",
+    "readable_query": "SELECT hiring.Shop_ID FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID    ORDER BY employee.Employee_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Year_awarded FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID    ORDER BY T2.Age ASC LIMIT 1",
+    "readable_query": "SELECT evaluation.Year_awarded FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID    ORDER BY employee.Age ASC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Is_full_time FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID    ORDER BY T2.Number_products ASC LIMIT 1",
+    "readable_query": "SELECT hiring.Is_full_time FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID    ORDER BY shop.Number_products ASC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Number_products FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID    ORDER BY T2.Shop_ID ASC LIMIT 1",
+    "readable_query": "SELECT shop.Number_products FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID    ORDER BY hiring.Shop_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Employee_ID FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID    ORDER BY T2.Age ASC LIMIT 1",
+    "readable_query": "SELECT evaluation.Employee_ID FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID    ORDER BY employee.Age ASC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name FROM employee AS T1 JOIN hiring AS T2 ON T1.Employee_ID = T2.Employee_ID    ORDER BY T2.Shop_ID ASC LIMIT 1",
+    "readable_query": "SELECT employee.Name FROM employee AS employee JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID    ORDER BY hiring.Shop_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Shop_ID FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID    ORDER BY T2.Employee_ID ASC LIMIT 1",
+    "readable_query": "SELECT hiring.Shop_ID FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID    ORDER BY employee.Employee_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Bonus FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID    ORDER BY T2.Age ASC LIMIT 1",
+    "readable_query": "SELECT evaluation.Bonus FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID    ORDER BY employee.Age ASC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Employee_ID FROM employee AS T1 JOIN evaluation AS T2 ON T1.Employee_ID = T2.Employee_ID    ORDER BY T2.Bonus ASC LIMIT 1",
+    "readable_query": "SELECT employee.Employee_ID FROM employee AS employee JOIN evaluation AS evaluation ON employee.Employee_ID = evaluation.Employee_ID    ORDER BY evaluation.Bonus ASC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Shop_ID FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID    ORDER BY T2.Employee_ID ASC LIMIT 1",
+    "readable_query": "SELECT shop.Shop_ID FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID    ORDER BY hiring.Employee_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name FROM employee AS T1 JOIN evaluation AS T2 ON T1.Employee_ID = T2.Employee_ID    ORDER BY T2.Bonus ASC LIMIT 1",
+    "readable_query": "SELECT employee.Name FROM employee AS employee JOIN evaluation AS evaluation ON employee.Employee_ID = evaluation.Employee_ID    ORDER BY evaluation.Bonus ASC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Bonus, T1.Employee_ID FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID    ORDER BY T2.Age DESC LIMIT 1",
+    "readable_query": "SELECT evaluation.Bonus, evaluation.Employee_ID FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID    ORDER BY employee.Age DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Employee_ID, T1.Bonus FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID    ORDER BY T2.Age DESC LIMIT 1",
+    "readable_query": "SELECT evaluation.Employee_ID, evaluation.Bonus FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID    ORDER BY employee.Age DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.City, T1.Employee_ID FROM employee AS T1 JOIN hiring AS T2 ON T1.Employee_ID = T2.Employee_ID    ORDER BY T2.Shop_ID DESC LIMIT 1",
+    "readable_query": "SELECT employee.City, employee.Employee_ID FROM employee AS employee JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID    ORDER BY hiring.Shop_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.City, T1.Age FROM employee AS T1 JOIN evaluation AS T2 ON T1.Employee_ID = T2.Employee_ID    ORDER BY T2.Bonus DESC LIMIT 1",
+    "readable_query": "SELECT employee.City, employee.Age FROM employee AS employee JOIN evaluation AS evaluation ON employee.Employee_ID = evaluation.Employee_ID    ORDER BY evaluation.Bonus DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Employee_ID, T1.Shop_ID FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID    ORDER BY T2.Age DESC LIMIT 1",
+    "readable_query": "SELECT hiring.Employee_ID, hiring.Shop_ID FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID    ORDER BY employee.Age DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Age, T1.Name FROM employee AS T1 JOIN evaluation AS T2 ON T1.Employee_ID = T2.Employee_ID    ORDER BY T2.Bonus DESC LIMIT 1",
+    "readable_query": "SELECT employee.Age, employee.Name FROM employee AS employee JOIN evaluation AS evaluation ON employee.Employee_ID = evaluation.Employee_ID    ORDER BY evaluation.Bonus DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Age, T1.Name FROM employee AS T1 JOIN hiring AS T2 ON T1.Employee_ID = T2.Employee_ID    ORDER BY T2.Employee_ID DESC LIMIT 1",
+    "readable_query": "SELECT employee.Age, employee.Name FROM employee AS employee JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID    ORDER BY hiring.Employee_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name, T1.Shop_ID FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID    ORDER BY T2.Employee_ID DESC LIMIT 1",
+    "readable_query": "SELECT shop.Name, shop.Shop_ID FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID    ORDER BY hiring.Employee_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name, T1.Age FROM employee AS T1 JOIN evaluation AS T2 ON T1.Employee_ID = T2.Employee_ID    ORDER BY T2.Bonus DESC LIMIT 1",
+    "readable_query": "SELECT employee.Name, employee.Age FROM employee AS employee JOIN evaluation AS evaluation ON employee.Employee_ID = evaluation.Employee_ID    ORDER BY evaluation.Bonus DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name, T1.City FROM employee AS T1 JOIN evaluation AS T2 ON T1.Employee_ID = T2.Employee_ID    ORDER BY T2.Bonus DESC LIMIT 1",
+    "readable_query": "SELECT employee.Name, employee.City FROM employee AS employee JOIN evaluation AS evaluation ON employee.Employee_ID = evaluation.Employee_ID    ORDER BY evaluation.Bonus DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Location) FROM shop AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  shop.Location) FROM shop AS shop"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Bonus) FROM evaluation AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  evaluation.Bonus) FROM evaluation AS evaluation"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Is_full_time) FROM hiring AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  hiring.Is_full_time) FROM hiring AS hiring"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Number_products) FROM shop AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  shop.Number_products) FROM shop AS shop"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Employee_ID) FROM evaluation AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  evaluation.Employee_ID) FROM evaluation AS evaluation"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Age) FROM employee AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  employee.Age) FROM employee AS employee"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Start_from) FROM hiring AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  hiring.Start_from) FROM hiring AS hiring"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Employee_ID) FROM employee AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  employee.Employee_ID) FROM employee AS employee"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Year_awarded) FROM evaluation AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  evaluation.Year_awarded) FROM evaluation AS evaluation"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM shop AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  shop.Name) FROM shop AS shop"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Shop_ID) FROM hiring AS T1",
+    "readable_query": "SELECT avg( hiring.Shop_ID) FROM hiring AS hiring"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Bonus) FROM evaluation AS T1",
+    "readable_query": "SELECT avg( evaluation.Bonus) FROM evaluation AS evaluation"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Employee_ID) FROM hiring AS T1",
+    "readable_query": "SELECT avg( hiring.Employee_ID) FROM hiring AS hiring"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Shop_ID) FROM shop AS T1",
+    "readable_query": "SELECT avg( shop.Shop_ID) FROM shop AS shop"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Age) FROM employee AS T1",
+    "readable_query": "SELECT avg( employee.Age) FROM employee AS employee"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Employee_ID) FROM employee AS T1",
+    "readable_query": "SELECT avg( employee.Employee_ID) FROM employee AS employee"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Number_products) FROM shop AS T1",
+    "readable_query": "SELECT avg( shop.Number_products) FROM shop AS shop"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Employee_ID FROM hiring AS T1",
+    "readable_query": "SELECT hiring.Employee_ID FROM hiring AS hiring"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Bonus FROM evaluation AS T1",
+    "readable_query": "SELECT evaluation.Bonus FROM evaluation AS evaluation"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Number_products FROM shop AS T1",
+    "readable_query": "SELECT shop.Number_products FROM shop AS shop"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Shop_ID FROM shop AS T1",
+    "readable_query": "SELECT shop.Shop_ID FROM shop AS shop"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Year_awarded FROM evaluation AS T1",
+    "readable_query": "SELECT evaluation.Year_awarded FROM evaluation AS evaluation"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Is_full_time FROM hiring AS T1",
+    "readable_query": "SELECT hiring.Is_full_time FROM hiring AS hiring"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Location FROM shop AS T1",
+    "readable_query": "SELECT shop.Location FROM shop AS shop"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Employee_ID FROM evaluation AS T1",
+    "readable_query": "SELECT evaluation.Employee_ID FROM evaluation AS evaluation"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Start_from FROM hiring AS T1",
+    "readable_query": "SELECT hiring.Start_from FROM hiring AS hiring"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Age FROM employee AS T1",
+    "readable_query": "SELECT employee.Age FROM employee AS employee"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.District FROM shop AS T1",
+    "readable_query": "SELECT DISTINCT shop.District FROM shop AS shop"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Shop_ID FROM hiring AS T1",
+    "readable_query": "SELECT DISTINCT hiring.Shop_ID FROM hiring AS hiring"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Start_from FROM hiring AS T1",
+    "readable_query": "SELECT DISTINCT hiring.Start_from FROM hiring AS hiring"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Employee_ID FROM hiring AS T1",
+    "readable_query": "SELECT DISTINCT hiring.Employee_ID FROM hiring AS hiring"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Number_products FROM shop AS T1",
+    "readable_query": "SELECT DISTINCT shop.Number_products FROM shop AS shop"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Name FROM employee AS T1",
+    "readable_query": "SELECT DISTINCT employee.Name FROM employee AS employee"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Age FROM employee AS T1",
+    "readable_query": "SELECT DISTINCT employee.Age FROM employee AS employee"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Is_full_time FROM hiring AS T1",
+    "readable_query": "SELECT DISTINCT hiring.Is_full_time FROM hiring AS hiring"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Name FROM shop AS T1",
+    "readable_query": "SELECT DISTINCT shop.Name FROM shop AS shop"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Bonus FROM evaluation AS T1",
+    "readable_query": "SELECT DISTINCT evaluation.Bonus FROM evaluation AS evaluation"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.City FROM employee AS T1     ORDER BY T1.Age ASC",
+    "readable_query": "SELECT employee.City FROM employee AS employee     ORDER BY employee.Age ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Number_products FROM shop AS T1     ORDER BY T1.Shop_ID ASC",
+    "readable_query": "SELECT shop.Number_products FROM shop AS shop     ORDER BY shop.Shop_ID ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Employee_ID FROM employee AS T1     ORDER BY T1.Age ASC",
+    "readable_query": "SELECT employee.Employee_ID FROM employee AS employee     ORDER BY employee.Age ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Shop_ID FROM shop AS T1     ORDER BY T1.Number_products ASC",
+    "readable_query": "SELECT shop.Shop_ID FROM shop AS shop     ORDER BY shop.Number_products ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Employee_ID FROM hiring AS T1     ORDER BY T1.Shop_ID ASC",
+    "readable_query": "SELECT hiring.Employee_ID FROM hiring AS hiring     ORDER BY hiring.Shop_ID ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Employee_ID FROM evaluation AS T1     ORDER BY T1.Bonus ASC",
+    "readable_query": "SELECT evaluation.Employee_ID FROM evaluation AS evaluation     ORDER BY evaluation.Bonus ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Shop_ID FROM hiring AS T1     ORDER BY T1.Employee_ID ASC",
+    "readable_query": "SELECT hiring.Shop_ID FROM hiring AS hiring     ORDER BY hiring.Employee_ID ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Year_awarded FROM evaluation AS T1     ORDER BY T1.Bonus ASC",
+    "readable_query": "SELECT evaluation.Year_awarded FROM evaluation AS evaluation     ORDER BY evaluation.Bonus ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Start_from FROM hiring AS T1     ORDER BY T1.Shop_ID ASC",
+    "readable_query": "SELECT hiring.Start_from FROM hiring AS hiring     ORDER BY hiring.Shop_ID ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Age FROM employee AS T1     ORDER BY T1.Employee_ID ASC",
+    "readable_query": "SELECT employee.Age FROM employee AS employee     ORDER BY employee.Employee_ID ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Year_awarded FROM evaluation AS T1     ORDER BY T1.Bonus DESC",
+    "readable_query": "SELECT evaluation.Year_awarded FROM evaluation AS evaluation     ORDER BY evaluation.Bonus DESC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Location FROM shop AS T1     ORDER BY T1.Shop_ID DESC",
+    "readable_query": "SELECT shop.Location FROM shop AS shop     ORDER BY shop.Shop_ID DESC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Is_full_time FROM hiring AS T1     ORDER BY T1.Shop_ID DESC",
+    "readable_query": "SELECT hiring.Is_full_time FROM hiring AS hiring     ORDER BY hiring.Shop_ID DESC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Number_products FROM shop AS T1     ORDER BY T1.Shop_ID DESC",
+    "readable_query": "SELECT shop.Number_products FROM shop AS shop     ORDER BY shop.Shop_ID DESC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Employee_ID FROM employee AS T1     ORDER BY T1.Age DESC",
+    "readable_query": "SELECT employee.Employee_ID FROM employee AS employee     ORDER BY employee.Age DESC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Employee_ID FROM evaluation AS T1     ORDER BY T1.Bonus DESC",
+    "readable_query": "SELECT evaluation.Employee_ID FROM evaluation AS evaluation     ORDER BY evaluation.Bonus DESC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Shop_ID FROM shop AS T1     ORDER BY T1.Number_products DESC",
+    "readable_query": "SELECT shop.Shop_ID FROM shop AS shop     ORDER BY shop.Number_products DESC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Start_from FROM hiring AS T1     ORDER BY T1.Shop_ID DESC",
+    "readable_query": "SELECT hiring.Start_from FROM hiring AS hiring     ORDER BY hiring.Shop_ID DESC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Manager_name FROM shop AS T1     ORDER BY T1.Shop_ID DESC",
+    "readable_query": "SELECT shop.Manager_name FROM shop AS shop     ORDER BY shop.Shop_ID DESC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Start_from FROM hiring AS T1     ORDER BY T1.Employee_ID DESC",
+    "readable_query": "SELECT hiring.Start_from FROM hiring AS hiring     ORDER BY hiring.Employee_ID DESC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Name, T1.Age FROM employee AS T1     ORDER BY T1.Age ASC",
+    "readable_query": "SELECT employee.Name, employee.Age FROM employee AS employee     ORDER BY employee.Age ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Start_from, T1.Shop_ID FROM hiring AS T1     ORDER BY T1.Shop_ID ASC",
+    "readable_query": "SELECT hiring.Start_from, hiring.Shop_ID FROM hiring AS hiring     ORDER BY hiring.Shop_ID ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Number_products, T1.Manager_name FROM shop AS T1     ORDER BY T1.Manager_name ASC",
+    "readable_query": "SELECT shop.Number_products, shop.Manager_name FROM shop AS shop     ORDER BY shop.Manager_name ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Year_awarded, T1.Bonus FROM evaluation AS T1     ORDER BY T1.Bonus ASC",
+    "readable_query": "SELECT evaluation.Year_awarded, evaluation.Bonus FROM evaluation AS evaluation     ORDER BY evaluation.Bonus ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Is_full_time, T1.Start_from FROM hiring AS T1     ORDER BY T1.Start_from ASC",
+    "readable_query": "SELECT hiring.Is_full_time, hiring.Start_from FROM hiring AS hiring     ORDER BY hiring.Start_from ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.District, T1.Number_products FROM shop AS T1     ORDER BY T1.Number_products ASC",
+    "readable_query": "SELECT shop.District, shop.Number_products FROM shop AS shop     ORDER BY shop.Number_products ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Bonus, T1.Year_awarded FROM evaluation AS T1     ORDER BY T1.Year_awarded ASC",
+    "readable_query": "SELECT evaluation.Bonus, evaluation.Year_awarded FROM evaluation AS evaluation     ORDER BY evaluation.Year_awarded ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Shop_ID, T1.Manager_name FROM shop AS T1     ORDER BY T1.Manager_name ASC",
+    "readable_query": "SELECT shop.Shop_ID, shop.Manager_name FROM shop AS shop     ORDER BY shop.Manager_name ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Employee_ID, T1.Bonus FROM evaluation AS T1     ORDER BY T1.Bonus ASC",
+    "readable_query": "SELECT evaluation.Employee_ID, evaluation.Bonus FROM evaluation AS evaluation     ORDER BY evaluation.Bonus ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Bonus, T1.Employee_ID FROM evaluation AS T1     ORDER BY T1.Employee_ID ASC",
+    "readable_query": "SELECT evaluation.Bonus, evaluation.Employee_ID FROM evaluation AS evaluation     ORDER BY evaluation.Employee_ID ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Manager_name FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID JOIN employee AS T3 ON T2.Employee_ID = T3.Employee_ID WHERE T2.Start_from = \"2011\" and T3.Age = 23",
+    "readable_query": "SELECT shop.Manager_name FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID WHERE hiring.Start_from = \"2011\" and employee.Age = 23"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Start_from FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID JOIN evaluation AS T3 ON T2.Employee_ID = T3.Employee_ID WHERE T2.Employee_ID = 7 and T3.Bonus = 2900.0",
+    "readable_query": "SELECT hiring.Start_from FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID JOIN evaluation AS evaluation ON employee.Employee_ID = evaluation.Employee_ID WHERE employee.Employee_ID = 7 and evaluation.Bonus = 2900.0"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Shop_ID FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID JOIN employee AS T3 ON T1.Employee_ID = T3.Employee_ID WHERE T2.Number_products = 3500 and T3.Name = \"Steve Borthwick\"",
+    "readable_query": "SELECT hiring.Shop_ID FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID WHERE shop.Number_products = 3500 and employee.Name = \"Steve Borthwick\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Age FROM employee AS T1 JOIN hiring AS T2 ON T1.Employee_ID = T2.Employee_ID JOIN evaluation AS T3 ON T1.Employee_ID = T3.Employee_ID WHERE T2.Start_from = \"2011\" and T3.Year_awarded = \"2017\"",
+    "readable_query": "SELECT employee.Age FROM employee AS employee JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID JOIN evaluation AS evaluation ON employee.Employee_ID = evaluation.Employee_ID WHERE hiring.Start_from = \"2011\" and evaluation.Year_awarded = \"2017\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Is_full_time FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID JOIN shop AS T3 ON T1.Shop_ID = T3.Shop_ID WHERE T2.Name = \"Phil Vickery\" and T3.Shop_ID = 7",
+    "readable_query": "SELECT hiring.Is_full_time FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID WHERE employee.Name = \"Phil Vickery\" and shop.Shop_ID = 7"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Bonus FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID JOIN hiring AS T3 ON T2.Employee_ID = T3.Employee_ID WHERE T2.Name = \"Phil Vickery\" and T3.Employee_ID = 7",
+    "readable_query": "SELECT evaluation.Bonus FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID WHERE employee.Name = \"Phil Vickery\" and hiring.Employee_ID = 7"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.District FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID JOIN employee AS T3 ON T2.Employee_ID = T3.Employee_ID WHERE T2.Is_full_time = \"T\" and T3.Age = 32",
+    "readable_query": "SELECT shop.District FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID WHERE hiring.Is_full_time = \"T\" and employee.Age = 32"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Shop_ID FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID JOIN employee AS T3 ON T1.Employee_ID = T3.Employee_ID WHERE T2.Location = \"Lahti\" and T3.Age = 29",
+    "readable_query": "SELECT hiring.Shop_ID FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID WHERE shop.Location = \"Lahti\" and employee.Age = 29"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Location FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID JOIN employee AS T3 ON T2.Employee_ID = T3.Employee_ID WHERE T2.Shop_ID = 2 and T3.City = \"Wasps\"",
+    "readable_query": "SELECT shop.Location FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID WHERE hiring.Shop_ID = 2 and employee.City = \"Wasps\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Name FROM employee AS T1 JOIN hiring AS T2 ON T1.Employee_ID = T2.Employee_ID JOIN shop AS T3 ON T2.Shop_ID = T3.Shop_ID WHERE T2.Start_from = \"2003\" and T3.Location = \"Espoo\"",
+    "readable_query": "SELECT employee.Name FROM employee AS employee JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID WHERE hiring.Start_from = \"2003\" and shop.Location = \"Espoo\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Location FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.Start_from = \"2013\" or T2.Start_from = \"2010\"",
+    "readable_query": "SELECT shop.Location FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID WHERE hiring.Start_from = \"2013\" or hiring.Start_from = \"2010\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Bonus FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Name = \"Lee Mears\" or T2.Name = \"Tim Payne\"",
+    "readable_query": "SELECT evaluation.Bonus FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID WHERE employee.Name = \"Lee Mears\" or employee.Name = \"Tim Payne\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.City FROM employee AS T1 JOIN evaluation AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Employee_ID = \"7\" or T2.Employee_ID = \"7\"",
+    "readable_query": "SELECT employee.City FROM employee AS employee JOIN evaluation AS evaluation ON employee.Employee_ID = evaluation.Employee_ID WHERE evaluation.Employee_ID = \"7\" or evaluation.Employee_ID = \"7\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Name FROM employee AS T1 JOIN evaluation AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Year_awarded = \"2017\" or T2.Year_awarded = \"2018\"",
+    "readable_query": "SELECT employee.Name FROM employee AS employee JOIN evaluation AS evaluation ON employee.Employee_ID = evaluation.Employee_ID WHERE evaluation.Year_awarded = \"2017\" or evaluation.Year_awarded = \"2018\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Employee_ID FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.City = \"Bath\" or T2.City = \"Wasps\"",
+    "readable_query": "SELECT hiring.Employee_ID FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID WHERE employee.City = \"Bath\" or employee.City = \"Wasps\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Employee_ID FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Age = 29 or T2.Age = 36",
+    "readable_query": "SELECT evaluation.Employee_ID FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID WHERE employee.Age = 29 or employee.Age = 36"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Name FROM employee AS T1 JOIN hiring AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Employee_ID = 6 or T2.Employee_ID = 4",
+    "readable_query": "SELECT employee.Name FROM employee AS employee JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID WHERE hiring.Employee_ID = 6 or hiring.Employee_ID = 4"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Bonus FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Age = 29 or T2.Age = 32",
+    "readable_query": "SELECT evaluation.Bonus FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID WHERE employee.Age = 29 or employee.Age = 32"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Manager_name FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.Is_full_time = \"F\" or T2.Is_full_time = \"T\"",
+    "readable_query": "SELECT shop.Manager_name FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID WHERE hiring.Is_full_time = \"F\" or hiring.Is_full_time = \"T\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Name FROM employee AS T1 JOIN evaluation AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Year_awarded = \"2015\" or T2.Year_awarded = \"2018\"",
+    "readable_query": "SELECT employee.Name FROM employee AS employee JOIN evaluation AS evaluation ON employee.Employee_ID = evaluation.Employee_ID WHERE evaluation.Year_awarded = \"2015\" or evaluation.Year_awarded = \"2018\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Bonus FROM evaluation AS T1 WHERE T1.Year_awarded = \"2018\" and T1.Employee_ID = \"2\"",
+    "readable_query": "SELECT evaluation.Bonus FROM evaluation AS evaluation WHERE evaluation.Year_awarded = \"2018\" and evaluation.Employee_ID = \"2\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Shop_ID FROM shop AS T1 WHERE T1.Name = \"FC Haka\" and T1.Number_products = 6000",
+    "readable_query": "SELECT shop.Shop_ID FROM shop AS shop WHERE shop.Name = \"FC Haka\" and shop.Number_products = 6000"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Employee_ID FROM evaluation AS T1 WHERE T1.Bonus = 2900.0 and T1.Year_awarded = \"2016\"",
+    "readable_query": "SELECT evaluation.Employee_ID FROM evaluation AS evaluation WHERE evaluation.Bonus = 2900.0 and evaluation.Year_awarded = \"2016\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.City FROM employee AS T1 WHERE T1.Age = 36 and T1.Name = \"Tim Payne\"",
+    "readable_query": "SELECT employee.City FROM employee AS employee WHERE employee.Age = 36 and employee.Name = \"Tim Payne\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Is_full_time FROM hiring AS T1 WHERE T1.Employee_ID = 1 and T1.Start_from = \"2009\"",
+    "readable_query": "SELECT hiring.Is_full_time FROM hiring AS hiring WHERE hiring.Employee_ID = 1 and hiring.Start_from = \"2009\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Shop_ID FROM shop AS T1 WHERE T1.Number_products = 1600 and T1.District = \"Wikl\u00f6f Holding Arena\"",
+    "readable_query": "SELECT shop.Shop_ID FROM shop AS shop WHERE shop.Number_products = 1600 and shop.District = \"Wikl\u00f6f Holding Arena\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Name FROM employee AS T1 WHERE T1.City = \"Bristol\" and T1.Age = 32",
+    "readable_query": "SELECT employee.Name FROM employee AS employee WHERE employee.City = \"Bristol\" and employee.Age = 32"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.City FROM employee AS T1 WHERE T1.Name = \"Matt Stevens\" and T1.Age = 30",
+    "readable_query": "SELECT employee.City FROM employee AS employee WHERE employee.Name = \"Matt Stevens\" and employee.Age = 30"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Manager_name FROM shop AS T1 WHERE T1.Number_products = 6000 and T1.District = \"Jakobstads Centralplan\"",
+    "readable_query": "SELECT shop.Manager_name FROM shop AS shop WHERE shop.Number_products = 6000 and shop.District = \"Jakobstads Centralplan\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Shop_ID FROM hiring AS T1 WHERE T1.Employee_ID = 2 and T1.Is_full_time = \"F\"",
+    "readable_query": "SELECT hiring.Shop_ID FROM hiring AS hiring WHERE hiring.Employee_ID = 2 and hiring.Is_full_time = \"F\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Location) FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T1.Manager_name = \"Mika Lehkosuo\" and T2.Employee_ID = 3",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  shop.Location) FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID WHERE shop.Manager_name = \"Mika Lehkosuo\" and hiring.Employee_ID = 3"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T1.Manager_name = \"Ilkka M\u00e4kel\u00e4\" and T2.Start_from = \"2011\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  shop.Name) FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID WHERE shop.Manager_name = \"Ilkka M\u00e4kel\u00e4\" and hiring.Start_from = \"2011\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Employee_ID) FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T1.Is_full_time = \"F\" and T2.Manager_name = \"Tommi Kautonen\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  hiring.Employee_ID) FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID WHERE hiring.Is_full_time = \"F\" and shop.Manager_name = \"Tommi Kautonen\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Location) FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T1.Manager_name = \"Tommi Kautonen\" and T2.Is_full_time = \"T\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  shop.Location) FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID WHERE shop.Manager_name = \"Tommi Kautonen\" and hiring.Is_full_time = \"T\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Bonus) FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T1.Employee_ID = \"10\" and T2.Age = 28",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  evaluation.Bonus) FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID WHERE evaluation.Employee_ID = \"10\" and employee.Age = 28"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.City) FROM employee AS T1 JOIN evaluation AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T1.Employee_ID = 5 and T2.Year_awarded = \"2018\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  employee.City) FROM employee AS employee JOIN evaluation AS evaluation ON employee.Employee_ID = evaluation.Employee_ID WHERE employee.Employee_ID = 5 and evaluation.Year_awarded = \"2018\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Employee_ID) FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T1.Bonus = 4000.0 and T2.City = \"Bristol\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  evaluation.Employee_ID) FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID WHERE evaluation.Bonus = 4000.0 and employee.City = \"Bristol\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T1.Number_products = 1600 and T2.Start_from = \"2013\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  shop.Name) FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID WHERE shop.Number_products = 1600 and hiring.Start_from = \"2013\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.City) FROM employee AS T1 JOIN evaluation AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T1.Employee_ID = 10 and T2.Bonus = 4000.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  employee.City) FROM employee AS employee JOIN evaluation AS evaluation ON employee.Employee_ID = evaluation.Employee_ID WHERE employee.Employee_ID = 10 and evaluation.Bonus = 4000.0"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Shop_ID) FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T1.Start_from = \"2008\" and T2.Number_products = 15000",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  hiring.Shop_ID) FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID WHERE hiring.Start_from = \"2008\" and shop.Number_products = 15000"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Start_from FROM hiring AS T1 WHERE T1.Is_full_time = \"T\" or T1.Shop_ID = 4",
+    "readable_query": "SELECT hiring.Start_from FROM hiring AS hiring WHERE hiring.Is_full_time = \"T\" or hiring.Shop_ID = 4"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Employee_ID FROM employee AS T1 WHERE T1.City = \"Sale\" or T1.Age = 32",
+    "readable_query": "SELECT employee.Employee_ID FROM employee AS employee WHERE employee.City = \"Sale\" or employee.Age = 32"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Name FROM shop AS T1 WHERE T1.Manager_name = \"Tommi Kautonen\" or T1.Shop_ID = 3",
+    "readable_query": "SELECT shop.Name FROM shop AS shop WHERE shop.Manager_name = \"Tommi Kautonen\" or shop.Shop_ID = 3"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Employee_ID FROM evaluation AS T1 WHERE T1.Bonus = 3200.0 or T1.Year_awarded = \"2016\"",
+    "readable_query": "SELECT evaluation.Employee_ID FROM evaluation AS evaluation WHERE evaluation.Bonus = 3200.0 or evaluation.Year_awarded = \"2016\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Start_from FROM hiring AS T1 WHERE T1.Is_full_time = \"T\" or T1.Employee_ID = 7",
+    "readable_query": "SELECT hiring.Start_from FROM hiring AS hiring WHERE hiring.Is_full_time = \"T\" or hiring.Employee_ID = 7"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Bonus FROM evaluation AS T1 WHERE T1.Employee_ID = \"1\" or T1.Year_awarded = \"2011\"",
+    "readable_query": "SELECT evaluation.Bonus FROM evaluation AS evaluation WHERE evaluation.Employee_ID = \"1\" or evaluation.Year_awarded = \"2011\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Location FROM shop AS T1 WHERE T1.District = \"Veritas Stadion\" or T1.Name = \"HJK\"",
+    "readable_query": "SELECT shop.Location FROM shop AS shop WHERE shop.District = \"Veritas Stadion\" or shop.Name = \"HJK\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Year_awarded FROM evaluation AS T1 WHERE T1.Employee_ID = \"2\" or T1.Bonus = 3200.0",
+    "readable_query": "SELECT evaluation.Year_awarded FROM evaluation AS evaluation WHERE evaluation.Employee_ID = \"2\" or evaluation.Bonus = 3200.0"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Age FROM employee AS T1 WHERE T1.Employee_ID = 10 or T1.Name = \"Mark Regan\"",
+    "readable_query": "SELECT employee.Age FROM employee AS employee WHERE employee.Employee_ID = 10 or employee.Name = \"Mark Regan\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Bonus FROM evaluation AS T1 WHERE T1.Year_awarded = \"2015\" or T1.Employee_ID = \"1\"",
+    "readable_query": "SELECT evaluation.Bonus FROM evaluation AS evaluation WHERE evaluation.Year_awarded = \"2015\" or evaluation.Employee_ID = \"1\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Name = \"George Chuter\" and T2.City = \"Leicester\"",
+    "readable_query": "SELECT count(*) FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID WHERE employee.Name = \"George Chuter\" and employee.City = \"Leicester\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Age = 36 and T2.Name = \"Jason Hobson\"",
+    "readable_query": "SELECT count(*) FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID WHERE employee.Age = 36 and employee.Name = \"Jason Hobson\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.District = \"Magnum Areena\" and T2.Name = \"FC Haka\"",
+    "readable_query": "SELECT count(*) FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID WHERE shop.District = \"Magnum Areena\" and shop.Name = \"FC Haka\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.Is_full_time = \"F\" and T2.Shop_ID = 4",
+    "readable_query": "SELECT count(*) FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID WHERE hiring.Is_full_time = \"F\" and hiring.Shop_ID = 4"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.Is_full_time = \"T\" and T2.Start_from = \"2003\"",
+    "readable_query": "SELECT count(*) FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID WHERE hiring.Is_full_time = \"T\" and hiring.Start_from = \"2003\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.Location = \"Mariehamn\" and T2.Number_products = 10000",
+    "readable_query": "SELECT count(*) FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID WHERE shop.Location = \"Mariehamn\" and shop.Number_products = 10000"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.City = \"Wasps\" and T2.Age = 30",
+    "readable_query": "SELECT count(*) FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID WHERE employee.City = \"Wasps\" and employee.Age = 30"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM employee AS T1 JOIN hiring AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Is_full_time = \"F\" and T2.Start_from = \"2011\"",
+    "readable_query": "SELECT count(*) FROM employee AS employee JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID WHERE hiring.Is_full_time = \"F\" and hiring.Start_from = \"2011\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.Employee_ID = 4 and T2.Is_full_time = \"T\"",
+    "readable_query": "SELECT count(*) FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID WHERE hiring.Employee_ID = 4 and hiring.Is_full_time = \"T\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.City = \"Bristol\" and T2.Age = 43",
+    "readable_query": "SELECT count(*) FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID WHERE employee.City = \"Bristol\" and employee.Age = 43"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Name FROM employee AS T1 WHERE T1.Employee_ID != 7",
+    "readable_query": "SELECT employee.Name FROM employee AS employee WHERE employee.Employee_ID != 7"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Year_awarded FROM evaluation AS T1 WHERE T1.Employee_ID != \"1\"",
+    "readable_query": "SELECT evaluation.Year_awarded FROM evaluation AS evaluation WHERE evaluation.Employee_ID != \"1\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Employee_ID FROM evaluation AS T1 WHERE T1.Year_awarded != \"2016\"",
+    "readable_query": "SELECT evaluation.Employee_ID FROM evaluation AS evaluation WHERE evaluation.Year_awarded != \"2016\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Shop_ID FROM shop AS T1 WHERE T1.Location != \"Kuopio\"",
+    "readable_query": "SELECT shop.Shop_ID FROM shop AS shop WHERE shop.Location != \"Kuopio\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Bonus FROM evaluation AS T1 WHERE T1.Year_awarded != \"2015\"",
+    "readable_query": "SELECT evaluation.Bonus FROM evaluation AS evaluation WHERE evaluation.Year_awarded != \"2015\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Employee_ID FROM evaluation AS T1 WHERE T1.Bonus != 3000.0",
+    "readable_query": "SELECT evaluation.Employee_ID FROM evaluation AS evaluation WHERE evaluation.Bonus != 3000.0"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Bonus FROM evaluation AS T1 WHERE T1.Year_awarded != \"2017\"",
+    "readable_query": "SELECT evaluation.Bonus FROM evaluation AS evaluation WHERE evaluation.Year_awarded != \"2017\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Start_from FROM hiring AS T1 WHERE T1.Shop_ID != 4",
+    "readable_query": "SELECT hiring.Start_from FROM hiring AS hiring WHERE hiring.Shop_ID != 4"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Age FROM employee AS T1 WHERE T1.Employee_ID != 10",
+    "readable_query": "SELECT employee.Age FROM employee AS employee WHERE employee.Employee_ID != 10"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.District FROM shop AS T1 WHERE T1.Location != \"Kuopio\"",
+    "readable_query": "SELECT shop.District FROM shop AS shop WHERE shop.Location != \"Kuopio\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Start_from FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Age != 40",
+    "readable_query": "SELECT hiring.Start_from FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID WHERE employee.Age != 40"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Employee_ID FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Name != \"George Chuter\"",
+    "readable_query": "SELECT hiring.Employee_ID FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID WHERE employee.Name != \"George Chuter\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Employee_ID FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Name != \"Lee Mears\"",
+    "readable_query": "SELECT evaluation.Employee_ID FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID WHERE employee.Name != \"Lee Mears\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Employee_ID FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.City != \"Leicester\"",
+    "readable_query": "SELECT hiring.Employee_ID FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID WHERE employee.City != \"Leicester\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Name FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.Employee_ID != 2",
+    "readable_query": "SELECT shop.Name FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID WHERE hiring.Employee_ID != 2"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Is_full_time FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Age != 23",
+    "readable_query": "SELECT hiring.Is_full_time FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID WHERE employee.Age != 23"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Shop_ID FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Employee_ID != 8",
+    "readable_query": "SELECT hiring.Shop_ID FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID WHERE employee.Employee_ID != 8"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Name FROM employee AS T1 JOIN hiring AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Is_full_time != \"F\"",
+    "readable_query": "SELECT employee.Name FROM employee AS employee JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID WHERE hiring.Is_full_time != \"F\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Age FROM employee AS T1 JOIN hiring AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Start_from != \"2010\"",
+    "readable_query": "SELECT employee.Age FROM employee AS employee JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID WHERE hiring.Start_from != \"2010\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Shop_ID FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.Number_products != 10770",
+    "readable_query": "SELECT hiring.Shop_ID FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID WHERE shop.Number_products != 10770"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Age FROM employee AS T1 JOIN hiring AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Employee_ID = 4",
+    "readable_query": "SELECT DISTINCT employee.Age FROM employee AS employee JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID WHERE hiring.Employee_ID = 4"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.District FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.Is_full_time = \"F\"",
+    "readable_query": "SELECT DISTINCT shop.District FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID WHERE hiring.Is_full_time = \"F\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Employee_ID FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.District = \"Magnum Areena\"",
+    "readable_query": "SELECT DISTINCT hiring.Employee_ID FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID WHERE shop.District = \"Magnum Areena\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Bonus FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.City = \"Bath\"",
+    "readable_query": "SELECT DISTINCT evaluation.Bonus FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID WHERE employee.City = \"Bath\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Shop_ID FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Age = 29",
+    "readable_query": "SELECT DISTINCT hiring.Shop_ID FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID WHERE employee.Age = 29"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Is_full_time FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.Name = \"FC Honka\"",
+    "readable_query": "SELECT DISTINCT hiring.Is_full_time FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID WHERE shop.Name = \"FC Honka\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Shop_ID FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Age = 43",
+    "readable_query": "SELECT DISTINCT hiring.Shop_ID FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID WHERE employee.Age = 43"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Bonus FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Employee_ID = 8",
+    "readable_query": "SELECT DISTINCT evaluation.Bonus FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID WHERE employee.Employee_ID = 8"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Number_products FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.Start_from = \"2003\"",
+    "readable_query": "SELECT DISTINCT shop.Number_products FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID WHERE hiring.Start_from = \"2003\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Start_from FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Age = 23",
+    "readable_query": "SELECT DISTINCT hiring.Start_from FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID WHERE employee.Age = 23"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Start_from) FROM hiring AS T1 WHERE T1.Shop_ID = 1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  hiring.Start_from) FROM hiring AS hiring WHERE hiring.Shop_ID = 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Bonus) FROM evaluation AS T1 WHERE T1.Year_awarded = \"2017\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  evaluation.Bonus) FROM evaluation AS evaluation WHERE evaluation.Year_awarded = \"2017\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM employee AS T1 WHERE T1.City = \"Leicester\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  employee.Name) FROM employee AS employee WHERE employee.City = \"Leicester\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.City) FROM employee AS T1 WHERE T1.Age = 40",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  employee.City) FROM employee AS employee WHERE employee.Age = 40"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Year_awarded) FROM evaluation AS T1 WHERE T1.Employee_ID = \"7\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  evaluation.Year_awarded) FROM evaluation AS evaluation WHERE evaluation.Employee_ID = \"7\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Bonus) FROM evaluation AS T1 WHERE T1.Employee_ID = \"2\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  evaluation.Bonus) FROM evaluation AS evaluation WHERE evaluation.Employee_ID = \"2\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Shop_ID) FROM hiring AS T1 WHERE T1.Start_from = \"2008\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  hiring.Shop_ID) FROM hiring AS hiring WHERE hiring.Start_from = \"2008\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Start_from) FROM hiring AS T1 WHERE T1.Is_full_time = \"T\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  hiring.Start_from) FROM hiring AS hiring WHERE hiring.Is_full_time = \"T\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM shop AS T1 WHERE T1.Shop_ID = 3",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  shop.Name) FROM shop AS shop WHERE shop.Shop_ID = 3"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Employee_ID) FROM hiring AS T1 WHERE T1.Shop_ID = 4",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  hiring.Employee_ID) FROM hiring AS hiring WHERE hiring.Shop_ID = 4"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Age FROM employee AS T1 WHERE T1.Employee_ID > 5",
+    "readable_query": "SELECT employee.Age FROM employee AS employee WHERE employee.Employee_ID > 5"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Name FROM employee AS T1 WHERE T1.Age > 36",
+    "readable_query": "SELECT employee.Name FROM employee AS employee WHERE employee.Age > 36"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Employee_ID FROM hiring AS T1 WHERE T1.Shop_ID > 4",
+    "readable_query": "SELECT hiring.Employee_ID FROM hiring AS hiring WHERE hiring.Shop_ID > 4"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Employee_ID FROM employee AS T1 WHERE T1.Age > 43",
+    "readable_query": "SELECT employee.Employee_ID FROM employee AS employee WHERE employee.Age > 43"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Manager_name FROM shop AS T1 WHERE T1.Number_products > 5000",
+    "readable_query": "SELECT shop.Manager_name FROM shop AS shop WHERE shop.Number_products > 5000"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Name FROM shop AS T1 WHERE T1.Shop_ID > 8",
+    "readable_query": "SELECT shop.Name FROM shop AS shop WHERE shop.Shop_ID > 8"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Shop_ID FROM shop AS T1 WHERE T1.Number_products > 1600",
+    "readable_query": "SELECT shop.Shop_ID FROM shop AS shop WHERE shop.Number_products > 1600"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Is_full_time FROM hiring AS T1 WHERE T1.Shop_ID > 4",
+    "readable_query": "SELECT hiring.Is_full_time FROM hiring AS hiring WHERE hiring.Shop_ID > 4"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.City FROM employee AS T1 WHERE T1.Age > 32",
+    "readable_query": "SELECT employee.City FROM employee AS employee WHERE employee.Age > 32"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.District FROM shop AS T1 WHERE T1.Shop_ID > 5",
+    "readable_query": "SELECT shop.District FROM shop AS shop WHERE shop.Shop_ID > 5"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Bonus, T2.Name, T3.Shop_ID FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID JOIN hiring AS T3 ON T2.Employee_ID = T3.Employee_ID",
+    "readable_query": "SELECT evaluation.Bonus, employee.Name, hiring.Shop_ID FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Age, T2.Start_from, T3.Employee_ID FROM employee AS T1 JOIN hiring AS T2 ON T1.Employee_ID = T2.Employee_ID JOIN evaluation AS T3 ON T1.Employee_ID = T3.Employee_ID",
+    "readable_query": "SELECT employee.Age, hiring.Start_from, evaluation.Employee_ID FROM employee AS employee JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID JOIN evaluation AS evaluation ON employee.Employee_ID = evaluation.Employee_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Name, T2.Year_awarded, T3.Employee_ID FROM employee AS T1 JOIN evaluation AS T2 ON T1.Employee_ID = T2.Employee_ID JOIN hiring AS T3 ON T1.Employee_ID = T3.Employee_ID",
+    "readable_query": "SELECT employee.Name, evaluation.Year_awarded, hiring.Employee_ID FROM employee AS employee JOIN evaluation AS evaluation ON employee.Employee_ID = evaluation.Employee_ID JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.District, T2.Is_full_time, T3.Employee_ID FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID JOIN employee AS T3 ON T2.Employee_ID = T3.Employee_ID",
+    "readable_query": "SELECT shop.District, hiring.Is_full_time, employee.Employee_ID FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Employee_ID, T2.Manager_name, T3.Age FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID JOIN employee AS T3 ON T1.Employee_ID = T3.Employee_ID",
+    "readable_query": "SELECT hiring.Employee_ID, shop.Manager_name, employee.Age FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Shop_ID, T2.Employee_ID, T3.Number_products FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID JOIN shop AS T3 ON T1.Shop_ID = T3.Shop_ID",
+    "readable_query": "SELECT hiring.Shop_ID, employee.Employee_ID, shop.Number_products FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Employee_ID, T2.Start_from, T3.District FROM employee AS T1 JOIN hiring AS T2 ON T1.Employee_ID = T2.Employee_ID JOIN shop AS T3 ON T2.Shop_ID = T3.Shop_ID",
+    "readable_query": "SELECT employee.Employee_ID, hiring.Start_from, shop.District FROM employee AS employee JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Employee_ID, T2.Location, T3.Name FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID JOIN employee AS T3 ON T1.Employee_ID = T3.Employee_ID",
+    "readable_query": "SELECT hiring.Employee_ID, shop.Location, employee.Name FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.City, T2.Employee_ID, T3.Name FROM employee AS T1 JOIN hiring AS T2 ON T1.Employee_ID = T2.Employee_ID JOIN shop AS T3 ON T2.Shop_ID = T3.Shop_ID",
+    "readable_query": "SELECT employee.City, hiring.Employee_ID, shop.Name FROM employee AS employee JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Shop_ID, T2.Employee_ID, T3.Name FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID JOIN employee AS T3 ON T2.Employee_ID = T3.Employee_ID",
+    "readable_query": "SELECT shop.Shop_ID, hiring.Employee_ID, employee.Name FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Is_full_time FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID     ORDER BY T2.Age ASC",
+    "readable_query": "SELECT hiring.Is_full_time FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID     ORDER BY employee.Age ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Year_awarded FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID     ORDER BY T2.Employee_ID ASC",
+    "readable_query": "SELECT evaluation.Year_awarded FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID     ORDER BY employee.Employee_ID ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Shop_ID FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID     ORDER BY T2.Employee_ID ASC",
+    "readable_query": "SELECT shop.Shop_ID FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID     ORDER BY hiring.Employee_ID ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Employee_ID FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID     ORDER BY T2.Age ASC",
+    "readable_query": "SELECT evaluation.Employee_ID FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID     ORDER BY employee.Age ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.District FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID     ORDER BY T2.Shop_ID ASC",
+    "readable_query": "SELECT shop.District FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID     ORDER BY hiring.Shop_ID ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Is_full_time FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID     ORDER BY T2.Shop_ID ASC",
+    "readable_query": "SELECT hiring.Is_full_time FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID     ORDER BY shop.Shop_ID ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Location FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID     ORDER BY T2.Employee_ID ASC",
+    "readable_query": "SELECT shop.Location FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID     ORDER BY hiring.Employee_ID ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Start_from FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID     ORDER BY T2.Age ASC",
+    "readable_query": "SELECT hiring.Start_from FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID     ORDER BY employee.Age ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Number_products FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID     ORDER BY T2.Employee_ID ASC",
+    "readable_query": "SELECT shop.Number_products FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID     ORDER BY hiring.Employee_ID ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name FROM employee AS T1 JOIN evaluation AS T2 ON T1.Employee_ID = T2.Employee_ID     ORDER BY T2.Bonus ASC",
+    "readable_query": "SELECT employee.Name FROM employee AS employee JOIN evaluation AS evaluation ON employee.Employee_ID = evaluation.Employee_ID     ORDER BY evaluation.Bonus ASC"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Location FROM shop AS T1 WHERE T1.District = \"Magnum Areena\"     INTERSECT SELECT T2.Location FROM shop AS T2 WHERE T2.District = \"Lahden Stadion\"",
+    "readable_query": "SELECT shop.Location FROM shop AS shop WHERE shop.District = \"Magnum Areena\"     INTERSECT SELECT shop.Location FROM shop AS shop WHERE shop.District = \"Lahden Stadion\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Location FROM shop AS T1 WHERE T1.Number_products = 10770     INTERSECT SELECT T2.Location FROM shop AS T2 WHERE T2.Number_products = 10000",
+    "readable_query": "SELECT shop.Location FROM shop AS shop WHERE shop.Number_products = 10770     INTERSECT SELECT shop.Location FROM shop AS shop WHERE shop.Number_products = 10000"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Year_awarded FROM evaluation AS T1 WHERE T1.Bonus = 3000.0     INTERSECT SELECT T2.Year_awarded FROM evaluation AS T2 WHERE T2.Bonus = 2900.0",
+    "readable_query": "SELECT evaluation.Year_awarded FROM evaluation AS evaluation WHERE evaluation.Bonus = 3000.0     INTERSECT SELECT evaluation.Year_awarded FROM evaluation AS evaluation WHERE evaluation.Bonus = 2900.0"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.City FROM employee AS T1 WHERE T1.Name = \"Andrew Sheridan\"     INTERSECT SELECT T2.City FROM employee AS T2 WHERE T2.Name = \"Matt Stevens\"",
+    "readable_query": "SELECT employee.City FROM employee AS employee WHERE employee.Name = \"Andrew Sheridan\"     INTERSECT SELECT employee.City FROM employee AS employee WHERE employee.Name = \"Matt Stevens\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Name FROM shop AS T1 WHERE T1.District = \"Arto Tolsa Areena\"     INTERSECT SELECT T2.Name FROM shop AS T2 WHERE T2.District = \"Lahden Stadion\"",
+    "readable_query": "SELECT shop.Name FROM shop AS shop WHERE shop.District = \"Arto Tolsa Areena\"     INTERSECT SELECT shop.Name FROM shop AS shop WHERE shop.District = \"Lahden Stadion\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Bonus FROM evaluation AS T1 WHERE T1.Employee_ID = \"10\"     INTERSECT SELECT T2.Bonus FROM evaluation AS T2 WHERE T2.Employee_ID = \"2\"",
+    "readable_query": "SELECT evaluation.Bonus FROM evaluation AS evaluation WHERE evaluation.Employee_ID = \"10\"     INTERSECT SELECT evaluation.Bonus FROM evaluation AS evaluation WHERE evaluation.Employee_ID = \"2\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Start_from FROM hiring AS T1 WHERE T1.Is_full_time = \"F\"     INTERSECT SELECT T2.Start_from FROM hiring AS T2 WHERE T2.Is_full_time = \"T\"",
+    "readable_query": "SELECT hiring.Start_from FROM hiring AS hiring WHERE hiring.Is_full_time = \"F\"     INTERSECT SELECT hiring.Start_from FROM hiring AS hiring WHERE hiring.Is_full_time = \"T\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Employee_ID FROM evaluation AS T1 WHERE T1.Year_awarded = \"2015\"     INTERSECT SELECT T2.Employee_ID FROM evaluation AS T2 WHERE T2.Year_awarded = \"2016\"",
+    "readable_query": "SELECT evaluation.Employee_ID FROM evaluation AS evaluation WHERE evaluation.Year_awarded = \"2015\"     INTERSECT SELECT evaluation.Employee_ID FROM evaluation AS evaluation WHERE evaluation.Year_awarded = \"2016\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Employee_ID FROM evaluation AS T1 WHERE T1.Bonus = 2900.0     INTERSECT SELECT T2.Employee_ID FROM evaluation AS T2 WHERE T2.Bonus = 3000.0",
+    "readable_query": "SELECT evaluation.Employee_ID FROM evaluation AS evaluation WHERE evaluation.Bonus = 2900.0     INTERSECT SELECT evaluation.Employee_ID FROM evaluation AS evaluation WHERE evaluation.Bonus = 3000.0"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Year_awarded FROM evaluation AS T1 WHERE T1.Employee_ID = \"10\"     INTERSECT SELECT T2.Year_awarded FROM evaluation AS T2 WHERE T2.Employee_ID = \"2\"",
+    "readable_query": "SELECT evaluation.Year_awarded FROM evaluation AS evaluation WHERE evaluation.Employee_ID = \"10\"     INTERSECT SELECT evaluation.Year_awarded FROM evaluation AS evaluation WHERE evaluation.Employee_ID = \"2\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Shop_ID) FROM shop AS T1 WHERE T1.District = \"Magnum Areena\"",
+    "readable_query": "SELECT avg( shop.Shop_ID) FROM shop AS shop WHERE shop.District = \"Magnum Areena\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Employee_ID) FROM hiring AS T1 WHERE T1.Shop_ID = 4",
+    "readable_query": "SELECT avg( hiring.Employee_ID) FROM hiring AS hiring WHERE hiring.Shop_ID = 4"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Shop_ID) FROM shop AS T1 WHERE T1.District = \"Jakobstads Centralplan\"",
+    "readable_query": "SELECT avg( shop.Shop_ID) FROM shop AS shop WHERE shop.District = \"Jakobstads Centralplan\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Shop_ID) FROM hiring AS T1 WHERE T1.Start_from = \"2009\"",
+    "readable_query": "SELECT avg( hiring.Shop_ID) FROM hiring AS hiring WHERE hiring.Start_from = \"2009\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Bonus) FROM evaluation AS T1 WHERE T1.Year_awarded = \"2017\"",
+    "readable_query": "SELECT avg( evaluation.Bonus) FROM evaluation AS evaluation WHERE evaluation.Year_awarded = \"2017\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Employee_ID) FROM employee AS T1 WHERE T1.Age = 30",
+    "readable_query": "SELECT avg( employee.Employee_ID) FROM employee AS employee WHERE employee.Age = 30"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Employee_ID) FROM employee AS T1 WHERE T1.City = \"Leicester\"",
+    "readable_query": "SELECT avg( employee.Employee_ID) FROM employee AS employee WHERE employee.City = \"Leicester\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Employee_ID) FROM employee AS T1 WHERE T1.Age = 43",
+    "readable_query": "SELECT avg( employee.Employee_ID) FROM employee AS employee WHERE employee.Age = 43"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Shop_ID) FROM hiring AS T1 WHERE T1.Start_from = \"2008\"",
+    "readable_query": "SELECT avg( hiring.Shop_ID) FROM hiring AS hiring WHERE hiring.Start_from = \"2008\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Shop_ID) FROM shop AS T1 WHERE T1.Manager_name = \"Tommi Kautonen\"",
+    "readable_query": "SELECT avg( shop.Shop_ID) FROM shop AS shop WHERE shop.Manager_name = \"Tommi Kautonen\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Shop_ID FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.Number_products = (SELECT max( T23.Number_products) FROM shop AS T23)",
+    "readable_query": "SELECT hiring.Shop_ID FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID WHERE shop.Number_products = (SELECT max( shop.Number_products) FROM shop AS shop)"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.City FROM employee AS T1 JOIN hiring AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Shop_ID = (SELECT max( T23.Shop_ID) FROM hiring AS T23)",
+    "readable_query": "SELECT employee.City FROM employee AS employee JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID WHERE hiring.Shop_ID = (SELECT max( hiring.Shop_ID) FROM hiring AS hiring)"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Start_from FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Age = (SELECT max( T23.Age) FROM employee AS T23)",
+    "readable_query": "SELECT hiring.Start_from FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID WHERE employee.Age = (SELECT max( employee.Age) FROM employee AS employee)"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Employee_ID FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Age = (SELECT max( T23.Age) FROM employee AS T23)",
+    "readable_query": "SELECT evaluation.Employee_ID FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID WHERE employee.Age = (SELECT max( employee.Age) FROM employee AS employee)"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.District FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.Shop_ID = (SELECT max( T23.Shop_ID) FROM hiring AS T23)",
+    "readable_query": "SELECT shop.District FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID WHERE hiring.Shop_ID = (SELECT max( hiring.Shop_ID) FROM hiring AS hiring)"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Employee_ID FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.Number_products = (SELECT max( T23.Number_products) FROM shop AS T23)",
+    "readable_query": "SELECT hiring.Employee_ID FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID WHERE shop.Number_products = (SELECT max( shop.Number_products) FROM shop AS shop)"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Number_products FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.Employee_ID = (SELECT max( T23.Employee_ID) FROM hiring AS T23)",
+    "readable_query": "SELECT shop.Number_products FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID WHERE hiring.Employee_ID = (SELECT max( hiring.Employee_ID) FROM hiring AS hiring)"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Shop_ID FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Age = (SELECT max( T23.Age) FROM employee AS T23)",
+    "readable_query": "SELECT hiring.Shop_ID FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID WHERE employee.Age = (SELECT max( employee.Age) FROM employee AS employee)"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Year_awarded FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Employee_ID = (SELECT max( T23.Employee_ID) FROM employee AS T23)",
+    "readable_query": "SELECT evaluation.Year_awarded FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID WHERE employee.Employee_ID = (SELECT max( employee.Employee_ID) FROM employee AS employee)"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Employee_ID FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.Shop_ID = (SELECT max( T23.Shop_ID) FROM shop AS T23)",
+    "readable_query": "SELECT hiring.Employee_ID FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID WHERE shop.Shop_ID = (SELECT max( shop.Shop_ID) FROM shop AS shop)"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Year_awarded, T2.Employee_ID FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID JOIN hiring AS T3 ON T2.Employee_ID = T3.Employee_ID WHERE T3.Is_full_time = \"F\" and T2.Name = \"Andrew Sheridan\"",
+    "readable_query": "SELECT evaluation.Year_awarded, employee.Employee_ID FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID WHERE hiring.Is_full_time = \"F\" and employee.Name = \"Andrew Sheridan\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Employee_ID, T2.Age FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID JOIN hiring AS T3 ON T2.Employee_ID = T3.Employee_ID WHERE T3.Shop_ID = 1 and T2.City = \"Leicester\"",
+    "readable_query": "SELECT evaluation.Employee_ID, employee.Age FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID WHERE hiring.Shop_ID = 1 and employee.City = \"Leicester\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Name, T2.Start_from FROM employee AS T1 JOIN hiring AS T2 ON T1.Employee_ID = T2.Employee_ID JOIN evaluation AS T3 ON T1.Employee_ID = T3.Employee_ID WHERE T3.Bonus = 3200.0 and T2.Is_full_time = \"F\"",
+    "readable_query": "SELECT employee.Name, hiring.Start_from FROM employee AS employee JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID JOIN evaluation AS evaluation ON employee.Employee_ID = evaluation.Employee_ID WHERE evaluation.Bonus = 3200.0 and hiring.Is_full_time = \"F\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Shop_ID, T2.Name FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID JOIN shop AS T3 ON T1.Shop_ID = T3.Shop_ID WHERE T3.Location = \"Espoo\" and T2.Age = 43",
+    "readable_query": "SELECT hiring.Shop_ID, employee.Name FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID WHERE shop.Location = \"Espoo\" and employee.Age = 43"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Start_from, T2.District FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID JOIN employee AS T3 ON T1.Employee_ID = T3.Employee_ID WHERE T3.Age = 32 and T2.Name = \"FC Haka\"",
+    "readable_query": "SELECT hiring.Start_from, shop.District FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID WHERE employee.Age = 32 and shop.Name = \"FC Haka\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Bonus, T2.Name FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID JOIN hiring AS T3 ON T2.Employee_ID = T3.Employee_ID WHERE T3.Shop_ID = 4 and T2.City = \"Sale\"",
+    "readable_query": "SELECT evaluation.Bonus, employee.Name FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID WHERE hiring.Shop_ID = 4 and employee.City = \"Sale\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Number_products, T2.Shop_ID FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID JOIN employee AS T3 ON T2.Employee_ID = T3.Employee_ID WHERE T3.City = \"Bristol\" and T2.Is_full_time = \"F\"",
+    "readable_query": "SELECT shop.Number_products, hiring.Shop_ID FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID WHERE employee.City = \"Bristol\" and hiring.Is_full_time = \"F\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Year_awarded, T2.Age FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID JOIN hiring AS T3 ON T2.Employee_ID = T3.Employee_ID WHERE T3.Start_from = \"2008\" and T2.City = \"Bath\"",
+    "readable_query": "SELECT evaluation.Year_awarded, employee.Age FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID JOIN hiring AS hiring ON employee.Employee_ID = hiring.Employee_ID WHERE hiring.Start_from = \"2008\" and employee.City = \"Bath\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Number_products, T2.Start_from FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID JOIN employee AS T3 ON T2.Employee_ID = T3.Employee_ID WHERE T3.Name = \"Mark Regan\" and T2.Is_full_time = \"F\"",
+    "readable_query": "SELECT shop.Number_products, hiring.Start_from FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID WHERE employee.Name = \"Mark Regan\" and hiring.Is_full_time = \"F\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Start_from, T2.Employee_ID FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID JOIN shop AS T3 ON T1.Shop_ID = T3.Shop_ID WHERE T3.Location = \"Valkeakoski\" and T2.City = \"Leicester\"",
+    "readable_query": "SELECT hiring.Start_from, employee.Employee_ID FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID WHERE shop.Location = \"Valkeakoski\" and employee.City = \"Leicester\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Employee_ID FROM employee AS T1 JOIN evaluation AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Bonus = 3200.0 GROUP BY T1.Employee_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT employee.Employee_ID FROM employee AS employee JOIN evaluation AS evaluation ON employee.Employee_ID = evaluation.Employee_ID WHERE evaluation.Bonus = 3200.0 GROUP BY employee.Employee_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Employee_ID FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.City = \"Sale\" GROUP BY T1.Employee_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT evaluation.Employee_ID FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID WHERE employee.City = \"Sale\" GROUP BY evaluation.Employee_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Start_from FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.District = \"Finnair Stadium\" GROUP BY T1.Start_from  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT hiring.Start_from FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID WHERE shop.District = \"Finnair Stadium\" GROUP BY hiring.Start_from  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.City FROM employee AS T1 JOIN evaluation AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Bonus = 4000.0 GROUP BY T1.City  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT employee.City FROM employee AS employee JOIN evaluation AS evaluation ON employee.Employee_ID = evaluation.Employee_ID WHERE evaluation.Bonus = 4000.0 GROUP BY employee.City  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Bonus FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Age = 43 GROUP BY T1.Bonus  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT evaluation.Bonus FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID WHERE employee.Age = 43 GROUP BY evaluation.Bonus  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Is_full_time FROM hiring AS T1 JOIN shop AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.Shop_ID = 7 GROUP BY T1.Is_full_time  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT hiring.Is_full_time FROM hiring AS hiring JOIN shop AS shop ON hiring.Shop_ID = shop.Shop_ID WHERE shop.Shop_ID = 7 GROUP BY hiring.Is_full_time  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Year_awarded FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Employee_ID = 5 GROUP BY T1.Year_awarded  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT evaluation.Year_awarded FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID WHERE employee.Employee_ID = 5 GROUP BY evaluation.Year_awarded  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Shop_ID FROM hiring AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Age = 40 GROUP BY T1.Shop_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT hiring.Shop_ID FROM hiring AS hiring JOIN employee AS employee ON hiring.Employee_ID = employee.Employee_ID WHERE employee.Age = 40 GROUP BY hiring.Shop_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Manager_name FROM shop AS T1 JOIN hiring AS T2 ON T1.Shop_ID = T2.Shop_ID WHERE T2.Shop_ID = 2 GROUP BY T1.Manager_name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT shop.Manager_name FROM shop AS shop JOIN hiring AS hiring ON shop.Shop_ID = hiring.Shop_ID WHERE hiring.Shop_ID = 2 GROUP BY shop.Manager_name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Employee_ID FROM evaluation AS T1 JOIN employee AS T2 ON T1.Employee_ID = T2.Employee_ID WHERE T2.Age = 40 GROUP BY T1.Employee_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT evaluation.Employee_ID FROM evaluation AS evaluation JOIN employee AS employee ON evaluation.Employee_ID = employee.Employee_ID WHERE employee.Age = 40 GROUP BY evaluation.Employee_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Bonus FROM evaluation AS T1        EXCEPT SELECT T2.Bonus FROM evaluation AS T2 WHERE T2.Year_awarded = \"2017\"",
+    "readable_query": "SELECT evaluation.Bonus FROM evaluation AS evaluation        EXCEPT SELECT evaluation.Bonus FROM evaluation AS evaluation WHERE evaluation.Year_awarded = \"2017\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Year_awarded FROM evaluation AS T1        EXCEPT SELECT T2.Year_awarded FROM evaluation AS T2 WHERE T2.Bonus = 3000.0",
+    "readable_query": "SELECT evaluation.Year_awarded FROM evaluation AS evaluation        EXCEPT SELECT evaluation.Year_awarded FROM evaluation AS evaluation WHERE evaluation.Bonus = 3000.0"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Employee_ID FROM evaluation AS T1        EXCEPT SELECT T2.Employee_ID FROM evaluation AS T2 WHERE T2.Bonus = 3000.0",
+    "readable_query": "SELECT evaluation.Employee_ID FROM evaluation AS evaluation        EXCEPT SELECT evaluation.Employee_ID FROM evaluation AS evaluation WHERE evaluation.Bonus = 3000.0"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Name FROM shop AS T1        EXCEPT SELECT T2.Name FROM shop AS T2 WHERE T2.District = \"Tehtaan kentt\u00e4\"",
+    "readable_query": "SELECT shop.Name FROM shop AS shop        EXCEPT SELECT shop.Name FROM shop AS shop WHERE shop.District = \"Tehtaan kentt\u00e4\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Name FROM shop AS T1        EXCEPT SELECT T2.Name FROM shop AS T2 WHERE T2.Number_products = 5000",
+    "readable_query": "SELECT shop.Name FROM shop AS shop        EXCEPT SELECT shop.Name FROM shop AS shop WHERE shop.Number_products = 5000"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Employee_ID FROM employee AS T1        EXCEPT SELECT T2.Employee_ID FROM employee AS T2 WHERE T2.City = \"Wasps\"",
+    "readable_query": "SELECT employee.Employee_ID FROM employee AS employee        EXCEPT SELECT employee.Employee_ID FROM employee AS employee WHERE employee.City = \"Wasps\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Bonus FROM evaluation AS T1        EXCEPT SELECT T2.Bonus FROM evaluation AS T2 WHERE T2.Year_awarded = \"2016\"",
+    "readable_query": "SELECT evaluation.Bonus FROM evaluation AS evaluation        EXCEPT SELECT evaluation.Bonus FROM evaluation AS evaluation WHERE evaluation.Year_awarded = \"2016\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.City FROM employee AS T1        EXCEPT SELECT T2.City FROM employee AS T2 WHERE T2.Employee_ID = 7",
+    "readable_query": "SELECT employee.City FROM employee AS employee        EXCEPT SELECT employee.City FROM employee AS employee WHERE employee.Employee_ID = 7"
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Location FROM shop AS T1        EXCEPT SELECT T2.Location FROM shop AS T2 WHERE T2.Name = \"FC Inter\"",
+    "readable_query": "SELECT shop.Location FROM shop AS shop        EXCEPT SELECT shop.Location FROM shop AS shop WHERE shop.Name = \"FC Inter\""
+  },
+  {
+    "db_id": "employee_hire_evaluation",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Is_full_time FROM hiring AS T1        EXCEPT SELECT T2.Is_full_time FROM hiring AS T2 WHERE T2.Shop_ID = 4",
+    "readable_query": "SELECT hiring.Is_full_time FROM hiring AS hiring        EXCEPT SELECT hiring.Is_full_time FROM hiring AS hiring WHERE hiring.Shop_ID = 4"
+  }
+]

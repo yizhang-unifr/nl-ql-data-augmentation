@@ -1,0 +1,16 @@
+SELECT erc_research_domains.code FROM erc_research_domains WHERE erc_research_domains.description = 'Life Sciences'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.code FROM erc_research_domains WHERE erc_research_domains.description = 'Life Sciences'
+GPT-3 choices:
+(0) Show me all research domains with description of Life Sciences
+(1) SHOW ERC research domains description as Life Sciences
+(2) What are the codes of research domains with description Life Sciences?
+(3) What is the code of the research domain with description Life Sciences?
+(4) 
+(5) What is the code of the research domain with description Life Sciences?
+(6) Show me erc research domains with a description of Life Sciences
+(7) What id is the code of the research domain with description Life Sciences?

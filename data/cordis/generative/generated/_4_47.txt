@@ -1,0 +1,28 @@
+SELECT count(*) FROM project_member_roles WHERE project_member_roles.code = 'internationalPartner'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM project_member_roles WHERE project_member_roles.code = 'internationalPartner'
+GPT-3 choices:
+(0) How many project members have the role of international partners?
+(1) How many project member roles are there in total?
+(2) How many project members have role international partner?
+(3) What is the total number of project member roles with code internationalPartner?
+(4) How many project members roles have the code internationalPartner?
+(5) Display how many project members with role internationalPartner are there?
+(6) How many project member roles are assigned to an international partner?
+(7) How many project member roles are there for international partners?
+
+
+Re-ranked choices:
+6.163  How many project member roles are there for international partners?
+6.130  How many project member roles are assigned to an international partner?
+6.114  How many project members have role international partner?
+5.867  What is the total number of project member roles with code internationalPartner?
+5.854  How many project members have the role of international partners?
+5.778  How many project members roles have the code internationalPartner?
+5.476  Display how many project members with role internationalPartner are there?
+5.290  How many project member roles are there in total?
+

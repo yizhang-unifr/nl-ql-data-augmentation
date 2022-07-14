@@ -1,0 +1,16 @@
+SELECT project_members.vat_number FROM project_members JOIN activity_types ON project_members.activity_type = activity_types.code WHERE activity_types.description != 'Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments)'
+
+###
+
+
+Original Query:
+SELECT project_members.vat_number FROM project_members JOIN activity_types ON project_members.activity_type = activity_types.code WHERE activity_types.description != 'Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments)'
+GPT-3 choices:
+(0) Show the vat number of project members having activity type different from "Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments)".
+(1) Show me VAT numbers of project members apart from those of the activity type 'Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments)'
+(2) Retrieve vat numbers of project members having activity type different from Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments)
+(3) Show me the vat number of project members from activity types that are not from Public Bodies (excluding Research Organisations and Secondary or Higher Education Establishments).
+(4) What is the vat number of project members having activity type description != Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments)?
+(5) Retrieve the vat numbers of all project members having an activity type description != "Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments)"
+(6) Show the VAT number of project members whose activity type is not 'Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments)'.
+(7) Show the vat numbers of project members outside the activity type Public bodies (excluding Research Organisations and Secondary or Higher Education Establishments)

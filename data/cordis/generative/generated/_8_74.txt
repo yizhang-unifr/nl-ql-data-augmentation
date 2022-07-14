@@ -1,0 +1,28 @@
+SELECT countries.country_name FROM countries WHERE countries.country_code != 'GH'
+
+###
+
+
+Original Query:
+SELECT countries.country_name FROM countries WHERE countries.country_code2 != 'GH'
+GPT-3 choices:
+(0) Retrieve all the country names of countries outside of the country code GH.
+(1) Show me countries that have a different country code than 'GH'
+(2) Show me countries that are not in the country code GH
+(3) Show me all countries that have a different country code than 'GH'.
+(4) Show me the country names of all countries that don't have the country code GH
+(5) Show all country names except the country code GH
+(6) Show the name of all countries except Gambia.
+(7) What are the country names of countries that are not part of the country group GH?
+
+
+Re-ranked choices:
+5.870  Show me the country names of all countries that don't have the country code GH
+5.823  Show me countries that are not in the country code GH
+5.674  Show me countries that have a different country code than 'GH'
+5.625  Show all country names except the country code GH
+5.527  Show me all countries that have a different country code than 'GH'.
+5.408  Retrieve all the country names of countries outside of the country code GH.
+4.865  What are the country names of countries that are not part of the country group GH?
+4.279  Show the name of all countries except Gambia.
+

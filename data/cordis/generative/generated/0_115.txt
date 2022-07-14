@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'DE919'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'DE919'
+GPT-3 choices:
+(0) What are the territorial unit descriptions associated with the geo region DE919?
+(1) Retrieve the description of the territorial unit within region DE919.
+(2) Which are the different territorial units where the geocode region DE919 is present? In this example, the territorial units description are different from the description of the geocode region.
+(3) Show me the territorial units located in DE919.
+(4) What are the descriptions of territorial units in DE919?
+(5) Show me all territorial units with geocode region DE919
+(6) Show me the descriptions of eu territorial units located in DE919.
+(7) Show all the descriptions of territorial units in the region DE919.

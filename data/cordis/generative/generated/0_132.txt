@@ -1,0 +1,16 @@
+SELECT project_members.longitude FROM project_members WHERE project_members.postal_code = 'SO17 1BJ'
+
+###
+
+
+Original Query:
+SELECT project_members.longitude FROM project_members WHERE project_members.postal_code = 'SO17 1BJ'
+GPT-3 choices:
+(0) Get the longitude of all project members with a postal code of SO17 1BJ.
+(1) What is the longitude of project members who have a postal code of SO17 1BJ?
+(2) Show the longitude of project members in SO17 1BJ
+(3) Show project members' longitudes for projects in SO17 1BJ
+(4) Show me all project members from the project with postal code SO17 1BJ.
+(5) What is the longitude of project members with postal code SO17 1BJ?
+(6) Show the project members' longitude.
+(7) Show me the longitude of project members with postal code SO17 1BJ

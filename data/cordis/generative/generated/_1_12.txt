@@ -1,0 +1,28 @@
+SELECT project_member_roles.description FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.institution_id = 932760
+
+###
+
+
+Original Query:
+SELECT project_member_roles.description FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.institution_id = 932760
+GPT-3 choices:
+(0) What are the description of project member roles assigned to the institution with id 932760?
+(1) What are the project member roles descriptions of the members of the institute 932760?
+(2) What are the different roles of project members inside project 23?
+(3) Show me project members roles of the institution with id 932760
+(4) Show the description for project member roles associated with the institution with code 932760.
+(5) What are the different project member roles?
+(6) Retrieve descriptions of project member roles assigned to the institution with code 932760
+(7) Show all description of project members roles inside the European Union Framework Program 7 projects.
+
+
+Re-ranked choices:
+5.577  What are the description of project member roles assigned to the institution with id 932760?
+5.403  What are the project member roles descriptions of the members of the institute 932760?
+5.380  Show the description for project member roles associated with the institution with code 932760.
+5.319  Show me project members roles of the institution with id 932760
+5.159  What are the different roles of project members inside project 23?
+4.952  What are the different project member roles?
+4.931  Retrieve descriptions of project member roles assigned to the institution with code 932760
+4.643  Show all description of project members roles inside the European Union Framework Program 7 projects.
+

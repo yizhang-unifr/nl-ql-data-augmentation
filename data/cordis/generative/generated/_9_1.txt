@@ -1,0 +1,28 @@
+SELECT subject_areas.title FROM subject_areas JOIN project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects ON project_subject_areas.project = projects.unics_id WHERE projects.ec_fund_scheme != 'MC-ITN'
+
+###
+
+
+Original Query:
+SELECT subject_areas.title FROM subject_areas JOIN project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects ON project_subject_areas.project = projects.unics_id WHERE projects.ec_fund_scheme != 'MC-ITN'
+GPT-3 choices:
+(0) Which are the subject areas of projects that don't have an EC fund scheme?
+(1) Show me subject areas assigned to projects that are not funded by the European Commission through the ITN call?
+(2) Show me the subject areas of projects of the EC fund scheme MC-ITN
+(3) Show all subject areas associated with projects that do not have the EC fund scheme MC-ITN
+(4) Read all subject areas of projects that do not have an EC fund scheme
+(5) Get all subject areas of projects in which the EC Funding Scheme is not MC-ITN.
+(6) Show me the titles of subject areas of projects that do not have the EC fund scheme MC-ITN
+(7) Return all subject areas of projects that are not part of the European Commission's ITN funding scheme.
+
+
+Re-ranked choices:
+5.618  Show me the titles of subject areas of projects that do not have the EC fund scheme MC-ITN
+5.569  Show all subject areas associated with projects that do not have the EC fund scheme MC-ITN
+5.489  Get all subject areas of projects in which the EC Funding Scheme is not MC-ITN.
+5.392  Read all subject areas of projects that do not have an EC fund scheme
+5.313  Which are the subject areas of projects that don't have an EC fund scheme?
+5.140  Show me the subject areas of projects of the EC fund scheme MC-ITN
+4.798  Return all subject areas of projects that are not part of the European Commission's ITN funding scheme.
+4.585  Show me subject areas assigned to projects that are not funded by the European Commission through the ITN call?
+

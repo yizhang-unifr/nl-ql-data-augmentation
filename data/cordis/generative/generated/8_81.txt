@@ -1,0 +1,16 @@
+SELECT projects.total_cost FROM projects WHERE projects.ec_max_contribution != 100000.0
+
+###
+
+
+Original Query:
+SELECT projects.total_cost FROM projects WHERE projects.ec_max_contribution != 100000.0
+GPT-3 choices:
+(0) Show the total cost of all projects of institutions with a max contribution not equal 100000
+(1) Display the total cost of projects that have an EC max contribution != 100000.0
+(2) Retrieve the total cost of projects that have an ec maximun contribution != 100000.0
+(3) What is the total cost of projects whose EC maximum contribution is not 100000.0?
+(4) The total cost for projects that do not have an ec max contribution of 100000.
+(5) What is the total cost of projects distinct from 100000?
+(6) Show the total cost of projects that have an ec maximun contribution not equal to 100000.0
+(7) Show the sum of all project costs that are neither exactly 100,000 euro nor more than 100,000 euro.

@@ -1,0 +1,16 @@
+SELECT subject_areas.title FROM subject_areas WHERE subject_areas.description = 'Livestock production, crops and crop production; managerial and economic aspects of agriculture; veterinary medicine; animal husbandry; control of weeds, pests and diseases of plants; land use; forestry; agro-technology; agro-industrial research.' and subject_areas.code = 'TEL'
+
+###
+
+
+Original Query:
+SELECT subject_areas.title FROM subject_areas WHERE subject_areas.description = 'Livestock production, crops and crop production; managerial and economic aspects of agriculture; veterinary medicine; animal husbandry; control of weeds, pests and diseases of plants; land use; forestry; agro-technology; agro-industrial research.' and subject_areas.code = 'TEL'
+GPT-3 choices:
+(0) Which are the subject areas with a description "Livestock production, crops and crop production; managerial and economic aspects of agriculture; veterinary medicine; animal husbandry; control of weeds, pests and diseases of plants; land use; forestry; agro-technology; agro-industrial research." and a code equals to "TEL"?
+(1) SHOW THE SUBJECT AREAS TITLE THAT ARE PART OF THE PART OF THE SUBJECT AREA "Livestock production, crops and crop production; managerial and economic aspects of agriculture; veterinary medicine; animal husbandry; control of weeds, pests and diseases of plants; land use; forestry; agro-technology; agro-industrial research."
+(2) Show me subject areas about Livestock production, crops and crop production; managerial and economic aspects of agriculture; veterinary medicine; animal husbandry; control of weeds, pests and diseases of plants; land use; forestry; agro-technology; agro-industrial research.
+(3) Show me the associated subject areas of the subject area "Livestock production, crops and crop production; managerial and economic aspects of agriculture; veterinary medicine; animal husbandry; control of weeds, pests and diseases of plants; land use; forestry; agro-technology; agro-industrial research."
+(4) Show me the subject area descriptions that have the code TEL
+(5) Get subject areas title with description "Livestock production, crops and crop production; managerial and economic aspects of agriculture; veterinary medicine; animal husbandry; control of weeds, pests and diseases of plants; land use; forestry; agro-technology; agro-industrial research." and code TEL
+(6) Show the subject areas with title Livestock production, crops and crop production; managerial and economic aspects of agriculture; veterinary medicine; animal husbandry; control of weeds, pests and diseases of plants; land use; forestry; agro-technology; agro-industrial research. and code TEL
+(7) Show me the subject area titles of the subject areas having code TEL

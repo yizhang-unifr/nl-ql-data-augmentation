@@ -1,0 +1,28 @@
+SELECT projects.homepage FROM projects WHERE projects.unics_id = 146454 or projects.unics_id = 996899
+
+###
+
+
+Original Query:
+SELECT projects.homepage FROM projects WHERE projects.unics_id = 146454 or projects.unics_id = 996899
+GPT-3 choices:
+(0) Show me the homepage of projects with unics_id 146454 or 996899
+(1) Select project with unics ids 146454 or 996899
+(2) Show me institutions associated to this project
+(3) Show me the homepages for projects with unics_id 146454 or 996899
+(4) Retrieve projects with either unics_id 146454 or 996899
+(5) Show me the project homepages associated with either 146454 or 996899.
+(6) Show me the homepages of projects that are assigned to the UNICS having the code 146454 or the code 996899
+(7) Show me the homepage of projects with a unics_id equal to 146454 or a unics_id equal to 996899
+
+
+Re-ranked choices:
+5.285  Show me the homepage of projects with unics_id 146454 or 996899
+5.148  Show me the homepages for projects with unics_id 146454 or 996899
+5.070  Show me the homepages of projects that are assigned to the UNICS having the code 146454 or the code 996899
+5.003  Show me the homepage of projects with a unics_id equal to 146454 or a unics_id equal to 996899
+4.421  Show me the project homepages associated with either 146454 or 996899.
+4.361  Select project with unics ids 146454 or 996899
+4.312  Retrieve projects with either unics_id 146454 or 996899
+2.642  Show me institutions associated to this project
+

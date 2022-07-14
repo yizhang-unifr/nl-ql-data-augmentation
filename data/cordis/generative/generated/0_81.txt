@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description = 'Lubelskie'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description = 'Lubelskie'
+GPT-3 choices:
+(0) Retrieve the geocode regions of all the territorial units having a description of Lubelskie
+(1) Show me eu territorial unit descriptions with the region Lubelskie
+(2) Show me all eu territorial units the description of which is Lubelskie
+(3) Show me Europe territorial units that are part of Lubelskie
+(4) What are the Geocode regions of the eu territorial unit having the description Lubelskie?
+(5) What are the geocode regions of the eu territorial unit description "Lubelskie"?
+(6) Show all geocode regions of territorial unit descriptions which are Lubelskie.
+(7) Show me territorial unit geocode regions

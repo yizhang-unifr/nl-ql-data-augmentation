@@ -1,0 +1,28 @@
+SELECT countries.country_name FROM countries JOIN institutions ON countries.unics_id = institutions.country_id WHERE institutions.website = 'https://www.toscanalifesciences.org/'
+
+###
+
+
+Original Query:
+SELECT countries.country_name FROM countries JOIN institutions ON countries.unics_id = institutions.country_id WHERE institutions.website = 'https://www.toscanalifesciences.org/'
+GPT-3 choices:
+(0) Show the country names of all institutions with a website https://www.toscanalifesciences.org/
+(1) Show me all country names of institutions with a website https://www.toscanalifesciences.org/
+(2) Show country names of institutions with website https://www.toscanalifesciences.org/
+(3) Show country names of institutions having a website at https://www.toscanalifesciences.org/
+(4) What are the country names of the institutions with website https://www.toscanalifesciences.org/ ?
+(5) What are the different countries in which the institution www.toscanalifesciences.org is located?
+(6) Show country names of institutions having https://www.toscanalifesciences.org/ as their website.
+(7) Show countries with a specific institution's website
+
+
+Re-ranked choices:
+6.424  Show country names of institutions with website https://www.toscanalifesciences.org/
+6.414  Show country names of institutions having a website at https://www.toscanalifesciences.org/
+6.358  Show country names of institutions having https://www.toscanalifesciences.org/ as their website.
+6.348  Show the country names of all institutions with a website https://www.toscanalifesciences.org/
+6.268  Show me all country names of institutions with a website https://www.toscanalifesciences.org/
+6.154  What are the country names of the institutions with website https://www.toscanalifesciences.org/ ?
+5.766  What are the different countries in which the institution www.toscanalifesciences.org is located?
+4.496  Show countries with a specific institution's website
+

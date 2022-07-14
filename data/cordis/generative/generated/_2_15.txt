@@ -1,0 +1,26 @@
+SELECT programmes.title, count(*) FROM programmes  GROUP BY programmes.title
+
+###
+
+
+Original Query:
+SELECT programmes.title, count(*) FROM programmes  GROUP BY programmes.title
+GPT-3 choices:
+(0) How many programmes are there?
+(1) How many programmes are there in total?
+(2) Retrieve the number of programmes per title.
+(3) Total number of programmes
+(4) How many programmes are there?
+(5) How many programmes are there?
+(6) Total number of programme titles
+(7) How many different programmes titles are there?
+
+
+Re-ranked choices:
+3.951  How many programmes are there in total?
+3.846  Total number of programme titles
+3.774  How many programmes are there?
+3.717  How many different programmes titles are there?
+3.695  Total number of programmes
+3.415  Retrieve the number of programmes per title.
+

@@ -1,0 +1,28 @@
+SELECT projects.acronym FROM projects WHERE projects.end_year = 2016 and projects.ec_call = 'ERC-2016-PoC'
+
+###
+
+
+Original Query:
+SELECT projects.acronym FROM projects WHERE projects.end_year = 2016 and projects.ec_call = 'ERC-2016-PoC'
+GPT-3 choices:
+(0) What is the acronym of projects that ended in 2016 and had an European Research Council funding call?
+(1) Show me the acronym of projects that ended in 2016 and their European Competitive Call equals "ERC-2016-PoC"
+(2) Show me all projects with acronym that ended in 2016 having a project called ERC-2016-PoC
+(3) Show me projects acronyms ending in 2016 with a European Competitive Award
+(4) We would like to select the acronym of the projects that ended in 2016 and have the EC call ERC-2016-PoC
+(5) Show me all the projects with acronym that end in 2016 and have the ERC-2016-PoC call
+(6) What is the acronym of projects that end in 2016 and have an erc call?
+(7) Retrieve the acronym of projects at the end 2016 with an ERC project "ERC-2016-PoC".
+
+
+Re-ranked choices:
+5.852  Show me all the projects with acronym that end in 2016 and have the ERC-2016-PoC call
+5.783  Show me all projects with acronym that ended in 2016 having a project called ERC-2016-PoC
+5.671  Show me the acronym of projects that ended in 2016 and their European Competitive Call equals "ERC-2016-PoC"
+5.527  We would like to select the acronym of the projects that ended in 2016 and have the EC call ERC-2016-PoC
+5.375  Retrieve the acronym of projects at the end 2016 with an ERC project "ERC-2016-PoC".
+5.292  What is the acronym of projects that end in 2016 and have an erc call?
+4.913  Show me projects acronyms ending in 2016 with a European Competitive Award
+4.805  What is the acronym of projects that ended in 2016 and had an European Research Council funding call?
+

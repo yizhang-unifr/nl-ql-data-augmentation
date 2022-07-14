@@ -1,0 +1,16 @@
+SELECT count(*) FROM ec_framework_programs
+
+###
+
+
+Original Query:
+SELECT count(*) FROM ec_framework_programs
+GPT-3 choices:
+(0) Number of countries representing regional framework programmes
+(1) Count frameworks programs
+(2) The total number of framework programs.
+(3) How many programme entities are there?
+(4) How many programs are there in the framework?
+(5) #### Show the count of framework programs
+(6) How many framework programs are there?
+(7) How many framework programmes are there? ###

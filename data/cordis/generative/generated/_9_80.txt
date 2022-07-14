@@ -1,0 +1,27 @@
+SELECT institutions.geocode_regions_3 FROM institutions JOIN countries ON institutions.country_id = countries.unics_id WHERE countries.country_code != 'GT'
+
+###
+
+
+Original Query:
+SELECT institutions.geocode_regions_3 FROM institutions JOIN countries ON institutions.country_id = countries.unics_id WHERE countries.country_code2 != 'GT'
+GPT-3 choices:
+(0) Show all the institutions that have country code GT.
+(1) 
+(2) Retrieve institutions with country code not being GT and geocode regions 3 from countries.
+(3) Select countries, their ics institutions and geocode regions 3 different than GT.
+(4) Show the geocode regions of institutions located in countries other than GT.
+(5) Return the regions 3 of institutions in a country that is not Georgia
+(6) Get all region 3 geocode from institutions having a country different from GT
+(7) Show me the geocode region of institution having country GT
+
+
+Re-ranked choices:
+4.899  Get all region 3 geocode from institutions having a country different from GT
+4.863  Show the geocode regions of institutions located in countries other than GT.
+4.821  Retrieve institutions with country code not being GT and geocode regions 3 from countries.
+4.705  Show me the geocode region of institution having country GT
+4.534  Show all the institutions that have country code GT.
+4.469  Select countries, their ics institutions and geocode regions 3 different than GT.
+3.590  Return the regions 3 of institutions in a country that is not Georgia
+

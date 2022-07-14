@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units JOIN institutions ON eu_territorial_units.geocode_regions = institutions.geocode_regions_3 WHERE institutions.acronym != 'USJ'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.description FROM eu_territorial_units JOIN institutions ON eu_territorial_units.geocode_regions = institutions.geocode_regions_3 WHERE institutions.acronym != 'USJ'
+GPT-3 choices:
+(0) Show me territorial units that are not assigned to the institution USJ
+(1) Display the descriptions of European territorial units in which the institution acronym is not USJ.
+(2) Show me the territorial unit descriptions corresponding to institutions having an acronym except USJ
+(3) Show me territorial unit descriptions from institutions who are not located in USJ
+(4) Show me the descriptions of the European Union territorial units associated with an institution that is not the United States Judge
+(5) Show all European territorial unit descriptions for institutions with acronym different than USJ
+(6) Retrieve the territorial unit descriptions within 3 different geographic regions for institutions that do not have the acronym USJ.
+(7) Show the descriptions of EU territorial units that contain an institution with acronym that is not USJ

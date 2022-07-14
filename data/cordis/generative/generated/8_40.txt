@@ -1,0 +1,16 @@
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code != 'CP-SI'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code != 'CP-SI'
+GPT-3 choices:
+(0) What are the funding schemes titles?
+(1) Retrieve funding schemes whose codes are different from 'CP-SI'
+(2) Show the title of funding scheme having code != 'CP-SI'
+(3) Show me all the funding schemes except the one for central projects
+(4) Show me all funding schemes except for the one named CP-SI
+(5) Show me funding scheme titles that are not 'CP-SI'
+(6) What are the titles of the funding schemes that are not the "CP-SI" projects?
+(7) Show me all the funding scheme titles

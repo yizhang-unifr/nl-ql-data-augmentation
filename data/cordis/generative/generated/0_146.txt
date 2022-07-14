@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description = 'Pohjois-Pohjanmaa'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description = 'Pohjois-Pohjanmaa'
+GPT-3 choices:
+(0) Show the different geocode regions of the territorial unit Pohjois-Pohjanmaa
+(1) Show the geo coding regions of territorial unit description Pohjois-Pohjanmaa
+(2) Retrieve all geocodes of the territorial unit description Pohjois-Pohjanmaa
+(3) Show me the geocode regions of territorial units having description 'Pohjois-Pohjanmaa'.
+(4) Show me the geocode regions of the territorial unit description Pohjois-Pohjanmaa
+(5) 'Pohjois-Pohjanmaa' is the name of a region in Finland.
+(6) Show the geocode region descriptions of the eu territorial unit with description Pohjois-Pohjanmaa
+(7) Which are the geocode regions of the territorial unit description Pohjois-Pohjanmaa?

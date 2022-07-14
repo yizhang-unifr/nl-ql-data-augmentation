@@ -1,0 +1,16 @@
+SELECT project_member_roles.code FROM project_member_roles WHERE project_member_roles.description = 'Participant' or project_member_roles.description = 'Participant'
+
+###
+
+
+Original Query:
+SELECT project_member_roles.code FROM project_member_roles WHERE project_member_roles.description = 'Participant' or project_member_roles.description = 'Participant'
+GPT-3 choices:
+(0) Show project member roles with description equal to 'Participant' or 'Participant'
+(1) What are the project member roles with descriptions containing either 'Participant' or 'Participant'?
+(2) Show all project member roles that have the description 'Participant' or 'Participant'
+(3) What are the project member roles used as participant?
+(4) Show me all the project member roles descriptions where the participant project member role contains the string "Participant"
+(5) Retrieve the project member roles for which the description is either 'Participant' or 'Participant'
+(6) Show me the code of project member roles with a description equal to 'Participant' or 'Participant'.
+(7) #######

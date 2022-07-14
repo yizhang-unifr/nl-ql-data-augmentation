@@ -1,0 +1,16 @@
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'DEA14'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'DEA14'
+GPT-3 choices:
+(0) How many territorial units are there in DEA14?
+(1) The total number of territorial units in the European Union within the region DEA14
+(2) What is the number of territorial units within the region DEA14
+(3) How many territorial units are inside the geocode region DEA14?
+(4) The total count of territorial units inside the area of DEA14
+(5) How many territorial units are there in the European region DEA14?
+(6) How many territorial units are there in DEA14?
+(7) How many total regions are there that fall under the geocode region of DEA14?

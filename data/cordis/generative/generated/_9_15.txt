@@ -1,0 +1,28 @@
+SELECT project_members.member_role FROM project_members JOIN activity_types ON project_members.activity_type = activity_types.code WHERE activity_types.code != 'HES'
+
+###
+
+
+Original Query:
+SELECT project_members.member_role FROM project_members JOIN activity_types ON project_members.activity_type = activity_types.code WHERE activity_types.code != 'HES'
+GPT-3 choices:
+(0) Show me all project members, who aren't doing a Higher Education System activity?
+(1) Show me all members' roles of projects with activity type different from 'HES'
+(2) Show all project members with activity type different than HES.
+(3) Show all project members' role in an activity type that's not Hes
+(4) Show project members with a different activity type than the code 'HES'
+(5) Show me the project members that do not have the activity type HES
+(6) return all project members with activity type different from 'HES'
+(7) Show the project members assigned to an activity type that is not part of the European Higher Education System
+
+
+Re-ranked choices:
+5.647  Show all project members with activity type different than HES.
+5.504  Show all project members' role in an activity type that's not Hes
+5.447  Show me the project members that do not have the activity type HES
+5.321  Show me all members' roles of projects with activity type different from 'HES'
+5.315  Show project members with a different activity type than the code 'HES'
+5.050  Return all project members with activity type different from 'HES'
+4.799  Show the project members assigned to an activity type that is not part of the European Higher Education System
+4.104  Show me all project members, who aren't doing a Higher Education System activity?
+

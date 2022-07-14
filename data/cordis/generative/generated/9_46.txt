@@ -1,0 +1,16 @@
+SELECT ec_framework_programs.program_name FROM ec_framework_programs JOIN projects ON ec_framework_programs.program_name = projects.framework_program WHERE projects.framework_program != 'FP7'
+
+###
+
+
+Original Query:
+SELECT ec_framework_programs.ec_framework_program_name FROM ec_framework_programs JOIN projects ON ec_framework_programs.ec_framework_program_name = projects.framework_program WHERE projects.framework_program != 'FP7'
+GPT-3 choices:
+(0) What is the name of all the different programmes in the FP7 projects?
+(1) What are the project names of frameworks programs that are not from the FP7 program?
+(2) Show the name of the framework programs within projects having a framework program different than FP7
+(3) Retrieve the program names of the projects that do not correspond to " FP7 "
+(4) Show all the name of the programs within frameworks except the ones associated with the "FP7" grant
+(5) Only show me the program name of the framework programs for projects that are not in the FP7 framework
+(6) Show me the program name of framework programs not in the FP7 project
+(7) What are the framework programs of projects that are not in the FP7 framework program?

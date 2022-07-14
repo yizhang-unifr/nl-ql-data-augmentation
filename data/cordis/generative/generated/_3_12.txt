@@ -1,0 +1,26 @@
+SELECT count(*) FROM topics
+
+###
+
+
+Original Query:
+SELECT count(*) FROM topics
+GPT-3 choices:
+(0) How many topics are there?
+(1) Show the number of topics.
+(2) Number of topics
+(3) How many topics are there?
+(4) Count all the topics
+(5) Retrieve the number of topics
+(6) Show the number of topics
+(7) How many topics are there?
+
+
+Re-ranked choices:
+4.416  Show the number of topics
+4.414  Show the number of topics.
+4.405  Number of topics
+4.229  Count all the topics
+4.056  Retrieve the number of topics
+3.930  How many topics are there?
+

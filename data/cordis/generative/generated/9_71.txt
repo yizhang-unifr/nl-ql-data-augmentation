@@ -1,0 +1,16 @@
+SELECT projects.total_cost FROM projects JOIN people ON projects.principal_investigator = people.unics_id WHERE people.full_name != 'Matthew Keith Morris Browning'
+
+###
+
+
+Original Query:
+SELECT projects.total_cost FROM projects JOIN people ON projects.principal_investigator = people.unics_id WHERE people.full_name != 'Matthew Keith Morris Browning'
+GPT-3 choices:
+(0) What is the total cost of projects where the principal investigator is not Matthew Keith Morris Browning?
+(1) Show the total cost for projects where the principal investigator is not "Matthew Keith Morris Browning"
+(2) Show the total cost of projects whose principal investigator is not Matthew Keith Morris Browning
+(3) What is the total cost of projects in which someone other than Matthew Keith Morris Browning is principle investigator?
+(4) Show me the total cost of projects whose principal investigator is not Matthew Keith Morris Browning.
+(5) What is the total cost of the projects assigned to people whose full name is not Matthew Keith Morris Browning?
+(6) What is the total cost of projects assigned to a principal investigator different from 'Matthew Keith Morris Browning'?
+(7) Show what is the total cost of projects where the principal investigator is not "Matthew Keith Morris Browning"

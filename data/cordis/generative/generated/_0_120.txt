@@ -1,0 +1,28 @@
+SELECT topics.rcn FROM topics WHERE topics.title = 'Estimating the costs of research misconduct and the socio-economic benefit of research integrity'
+
+###
+
+
+Original Query:
+SELECT topics.rcn FROM topics WHERE topics.title = 'Estimating the costs of research misconduct and the socio-economic benefit of research integrity'
+GPT-3 choices:
+(0) Retrieve all research contributions having a title "Estimating the costs of research misconduct and the socio-economic benefit of research integrity"
+(1) Show me the topics where the title is Estimating the costs of research misconduct and the socio-economic benefit of research integrity.
+(2) Show me the topics having title Estimating the costs of research misconduct and the socio-economic benefit of research integrity.
+(3) Show topics with title Estimating the costs of research misconduct and the socio-economic benefit of research integrity
+(4) Show me the topics about Estimating the costs of research misconduct and the socio-economic benefit of research integrity
+(5) Show topics about Estimation of the costs of research misconduct and the socio-economic benefit of research integrity
+(6) The topics with the title Estimating the costs of research misconduct and the socio-economic benefit of research integrity.
+(7) Send the title of the topic with the relative cost of research misconduct
+
+
+Re-ranked choices:
+6.491  Show topics with title Estimating the costs of research misconduct and the socio-economic benefit of research integrity
+6.460  Show me the topics where the title is Estimating the costs of research misconduct and the socio-economic benefit of research integrity.
+6.414  Show me the topics about Estimating the costs of research misconduct and the socio-economic benefit of research integrity
+6.394  Show me the topics having title Estimating the costs of research misconduct and the socio-economic benefit of research integrity.
+6.359  The topics with the title Estimating the costs of research misconduct and the socio-economic benefit of research integrity.
+6.329  Show topics about Estimation of the costs of research misconduct and the socio-economic benefit of research integrity
+5.813  Retrieve all research contributions having a title "Estimating the costs of research misconduct and the socio-economic benefit of research integrity"
+5.458  Send the title of the topic with the relative cost of research misconduct
+

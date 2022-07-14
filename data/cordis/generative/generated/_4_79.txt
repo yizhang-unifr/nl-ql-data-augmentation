@@ -1,0 +1,28 @@
+SELECT count(*) FROM erc_research_domains WHERE erc_research_domains.code = 'SH'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM erc_research_domains WHERE erc_research_domains.code = 'SH'
+GPT-3 choices:
+(0) How many research domains are there that begin with SH?
+(1) How many research domains are there with a code of SH?
+(2) How many research domains are in the subject SH?
+(3) ### How many research domains are there in Europe and have SH as acronym?
+(4) How many research domains have the code SH?
+(5) Count the number of research domains in the SH subject area
+(6) How many research domains are there, starting with SH?
+(7) Count the erc research domains with code sh
+
+
+Re-ranked choices:
+5.673  How many research domains are there, starting with SH?
+5.670  How many research domains are there that begin with SH?
+5.662  How many research domains are there with a code of SH?
+5.387  How many research domains have the code SH?
+5.347  How many research domains are in the subject SH?
+5.025  Count the number of research domains in the SH subject area
+4.929  ### How many research domains are there in Europe and have SH as acronym?
+4.450  Count the erc research domains with code sh
+

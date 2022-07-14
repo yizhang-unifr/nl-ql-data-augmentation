@@ -1,0 +1,28 @@
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code = 'PCP'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code = 'PCP'
+GPT-3 choices:
+(0) What are the titles of funding schemes with code PCP?
+(1) Retrieve all funding schemes with code PCP
+(2) Retrieve the title of the funding scheme where the code is PCP
+(3) What are the different funding schemes?
+(4) What are the funding scheme titles?
+(5) Show me all funding schemes with code PCP
+(6) All funding schemes with code = PCP
+(7) Retrieve all funding schemes with code PCP?
+
+
+Re-ranked choices:
+5.650  All funding schemes with code = PCP
+5.600  Show me all funding schemes with code PCP
+5.530  Retrieve all funding schemes with code PCP?
+5.524  Retrieve all funding schemes with code PCP
+5.457  What are the titles of funding schemes with code PCP?
+5.066  Retrieve the title of the funding scheme where the code is PCP
+4.567  What are the funding scheme titles?
+4.412  What are the different funding schemes?
+

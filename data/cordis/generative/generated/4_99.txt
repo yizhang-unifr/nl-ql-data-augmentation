@@ -1,0 +1,16 @@
+SELECT count(*) FROM institutions WHERE institutions.db_pedia_url = 'http://dbpedia.org/page/François_Rabelais_University'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM institutions WHERE institutions.db_pedia_url = 'http://dbpedia.org/page/François_Rabelais_University'
+GPT-3 choices:
+(0) How many institutions whose dbpedia url is http://dbpedia.org/page/Fran%C3%A7ois_Rabelais_University are there?
+(1) Show me the number of institutions that have their DBpedia URL set to http://dbpedia.org/page/François_Rabelais_University
+(2) Total number of institutions associated with the wikipedia page http://dbpedia.org/page/Fran%C3%A7ois_Rabelais_University
+(3) How many institutions are there with the Wikipedia-URL http://dbpedia.org/page/François_Rabelais_University
+(4) What is the total number of articles about François Rabelais University in the dbpedia project?
+(5) How many institutions have the exact title of the page http://dbpedia.org/page/François_Rabelais_University?
+(6) What is the number of institutions with url http://dbpedia.org/page/Fran%C3%A7ois_Rabelais_University?
+(7) How many institutions are there with a dbpedia url called "François Rabelais University"

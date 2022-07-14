@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description = 'Warszawski zachodni'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.geocode_regions FROM eu_territorial_units WHERE eu_territorial_units.description = 'Warszawski zachodni'
+GPT-3 choices:
+(0) Retrieve the geocode_regions of the territorial unit with description Warszawski zachodni.
+(1) Show me all eu territorial units that have the region named Warszawski zachodni
+(2) Retrieve all eu_territorial_units zonings that have the description of Warszawski zachodni
+(3) Show the geocode regions for the territorial unit descriptions “Warszawski zachodni”
+(4) Show me the different European territorial units that have a description "Warszawski zachodni".
+(5) Which are the eu territorial unit region codes of the eu territorial unit description Warszawski zachodni?
+(6) What are the geocode regions for the territorial unit description “Warszawski zachodni”?
+(7) Show me the geocode region of the European territorial unit with description 'Warszawski zachodni'

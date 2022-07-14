@@ -1,0 +1,16 @@
+SELECT topics.code FROM topics WHERE topics.rcn = '664717' or topics.rcn = '669161'
+
+###
+
+
+Original Query:
+SELECT topics.code FROM topics WHERE topics.rcn = '664717' or topics.rcn = '669161'
+GPT-3 choices:
+(0) Query 7###### Show me all topics assigned to someone whose number is 664717 or 669161
+(1) Show all topics with a code from 6 6 6 7 17 or 6 6 9 1 1
+(2) Show me the different topics
+(3) Retrieve all topics that end with either 664717 or 669161
+(4) Show me the topics that have a code, where the RCN is 664717 or the RCN is 669161
+(5) Show me topics with code 664717 or 669161
+(6) Retrieve topics that have a rcn of 664717 or 669161
+(7) Show all topics assigned to either 664717 or 669161

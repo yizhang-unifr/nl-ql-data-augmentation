@@ -1,0 +1,28 @@
+SELECT erc_research_domains.description FROM erc_research_domains JOIN erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects ON project_erc_panels.project = projects.unics_id WHERE projects.end_date = '2025-02-28'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.description FROM erc_research_domains JOIN erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects ON project_erc_panels.project = projects.unics_id WHERE projects.end_date = '2025-02-28'
+GPT-3 choices:
+(0) Show the description of erc research domains that are part of panels that have projects ending in 2025-02-28.
+(1) What are the research domains of projects ending in 2025-02-28?
+(2) Show the different research domain in projects that ended in 2025-02-28
+(3) Show me the research domains of projects ending on 2025-02-28.
+(4) Display the description of research domains from projects whose end date is 2025-02-28
+(5) Show me the description of research domains used by projects with a End Date equal to 2025-02-28
+(6) Retrieve the descriptions of research domains associated with projects whose end date is 2025-02-28
+(7) Show description of research domains associated with projects ending in 2025-02-28
+
+
+Re-ranked choices:
+6.177  Show description of research domains associated with projects ending in 2025-02-28
+5.999  Show me the description of research domains used by projects with a End Date equal to 2025-02-28
+5.962  Show me the research domains of projects ending on 2025-02-28.
+5.829  Display the description of research domains from projects whose end date is 2025-02-28
+5.736  Show the different research domain in projects that ended in 2025-02-28
+5.730  Retrieve the descriptions of research domains associated with projects whose end date is 2025-02-28
+5.670  What are the research domains of projects ending in 2025-02-28?
+5.336  Show the description of erc research domains that are part of panels that have projects ending in 2025-02-28.
+

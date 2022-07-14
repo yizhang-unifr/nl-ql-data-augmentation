@@ -1,0 +1,86 @@
+[
+  {
+    "name": "area code state",
+    "original_name": "AREA_CODE_STATE",
+    "logical_name": "AREA_CODE_STATE",
+    "columns": [
+      {
+        "name": "area code",
+        "original_name": "area_code",
+        "logical_name": "area_code",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "state",
+        "original_name": "state",
+        "logical_name": "state",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "contestants",
+    "original_name": "CONTESTANTS",
+    "logical_name": "CONTESTANTS",
+    "columns": [
+      {
+        "name": "contestant number",
+        "original_name": "contestant_number",
+        "logical_name": "contestant_number",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "contestant name",
+        "original_name": "contestant_name",
+        "logical_name": "contestant_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "votes",
+    "original_name": "VOTES",
+    "logical_name": "VOTES",
+    "columns": [
+      {
+        "name": "vote id",
+        "original_name": "vote_id",
+        "logical_name": "vote_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "phone number",
+        "original_name": "phone_number",
+        "logical_name": "phone_number",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "state",
+        "original_name": "state",
+        "logical_name": "state",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "contestant number",
+        "original_name": "contestant_number",
+        "logical_name": "contestant_number",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "created",
+        "original_name": "created",
+        "logical_name": "created",
+        "original_datatype": "time",
+        "logical_datatype": "time"
+      }
+    ]
+  }
+]

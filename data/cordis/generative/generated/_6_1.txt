@@ -1,0 +1,28 @@
+SELECT project_members.institution_id FROM project_members WHERE project_members.country = 'UK' and project_members.member_role = 'participant'
+
+###
+
+
+Original Query:
+SELECT project_members.institution_id FROM project_members WHERE project_members.country = 'UK' and project_members.member_role = 'participant'
+GPT-3 choices:
+(0) What is the institution ID of project members from UK with the participant role?
+(1) What is the institution id of project members who are in UK and have the role participant?
+(2) What is the institution id of all project members whose country is UK and role is participant?
+(3) Show project members who participated in a project in the country UK. *
+(4) What is the country of institution of all project members who are in the UK?
+(5) Show me the institution id of project members who are in the country UK and have the role participant
+(6) What are the institutions of all project members that are located in the UK?
+(7) What is the institution id of project members from UK that have the role participant?
+
+
+Re-ranked choices:
+6.137  What is the institution id of all project members whose country is UK and role is participant?
+6.114  What is the institution id of project members who are in UK and have the role participant?
+6.084  What is the institution id of project members from UK that have the role participant?
+6.031  Show me the institution id of project members who are in the country UK and have the role participant
+5.934  What is the institution ID of project members from UK with the participant role?
+5.658  What is the country of institution of all project members who are in the UK?
+5.357  What are the institutions of all project members that are located in the UK?
+4.816  Show project members who participated in a project in the country UK. *
+

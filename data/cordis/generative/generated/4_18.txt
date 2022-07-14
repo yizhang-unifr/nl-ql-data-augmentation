@@ -1,0 +1,16 @@
+SELECT count(*) FROM projects WHERE projects.start_date = '2010-03-01'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM projects WHERE projects.start_date = '2010-03-01'
+GPT-3 choices:
+(0) How many projects are there that started in 2010-03-01
+(1) How many projects are there that started in 2010-02-20?
+(2) How many projects began in 2010-03-01?
+(3) How many projects were started in 2010-03-01?
+(4) How many projects started in 2010-03-01?
+(5) How many projects have a start date set to 2010-03-01?
+(6) Show the total number of projects having a start date equal to 2010-03-01
+(7) How many projects started in 2010-03-01 have a funding unit?

@@ -1,0 +1,16 @@
+SELECT subject_areas.title FROM subject_areas WHERE subject_areas.code = 'FOO'
+
+###
+
+
+Original Query:
+SELECT subject_areas.title FROM subject_areas WHERE subject_areas.code = 'FOO'
+GPT-3 choices:
+(0) Show me the subject areas with the code FOO
+(1) Show me all subject areas having the code FOO
+(2) What are the subject areas with code FOO?
+(3) Show all subject areas with title "FOO"
+(4) Retrieve the title of subject areas with code FOO
+(5) Display all subject areas with code FOO.
+(6) Show me all of the subject areas that are named "FOO".
+(7) Show me all subject areas with code FOO.

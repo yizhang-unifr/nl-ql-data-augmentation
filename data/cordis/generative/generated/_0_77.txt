@@ -1,0 +1,28 @@
+SELECT institutions.short_name FROM institutions WHERE institutions.grid_id = 'grid.452912.9'
+
+###
+
+
+Original Query:
+SELECT institutions.short_name FROM institutions WHERE institutions.grid_id = 'grid.452912.9'
+GPT-3 choices:
+(0) Show me the short name of every institution having grid id 452912.9
+(1) Show short names of institutions with a grid id of 'grid.452912.9'
+(2) Show short names of institutions with grid id= grid.452912.9.
+(3) Show me institutions with a grid id of grid.452912.9
+(4) Show the short name of institutions located in area grid.452912.9
+(5) Delete the short name of the institution with grid id 452912.9
+(6) Show all short names of institutions in whose grid cell with coordinates 452912.9 the geocode is located.
+(7) What are the short names of institutions in the grid with code 452912.9?
+
+
+Re-ranked choices:
+5.804  Show me the short name of every institution having grid id 452912.9
+5.738  Show short names of institutions with grid id= grid.452912.9.
+5.707  Show short names of institutions with a grid id of 'grid.452912.9'
+5.500  Show the short name of institutions located in area grid.452912.9
+5.350  Show me institutions with a grid id of grid.452912.9
+5.054  Show all short names of institutions in whose grid cell with coordinates 452912.9 the geocode is located.
+5.047  What are the short names of institutions in the grid with code 452912.9?
+4.803  Delete the short name of the institution with grid id 452912.9
+

@@ -1,0 +1,28 @@
+SELECT topics.rcn FROM topics WHERE topics.title = 'Environment and Meteorology in ATM'
+
+###
+
+
+Original Query:
+SELECT topics.rcn FROM topics WHERE topics.title = 'Environment and Meteorology in ATM'
+GPT-3 choices:
+(0) Show me topics with title Environment and Meteorology in ATM
+(1) Show me all topics within the RCN about Environment and Meteorology in ATM.
+(2) ###
+(3) Show me all topics about Environment and Meteorology in ATM
+(4) Which are all the topics in ATM dealing with Environment and Meteorology
+(5) Show me the topics that have the title Environment and Meteorology in ATM
+(6) Show me all topics that are about the environment and meteorology in ATM.
+(7) What are the research areas about Environment and Meteorology in ATM?
+
+
+Re-ranked choices:
+5.510  Show me all topics about Environment and Meteorology in ATM
+5.403  Show me all topics that are about the environment and meteorology in ATM.
+5.206  Show me the topics that have the title Environment and Meteorology in ATM
+5.125  Show me all topics within the RCN about Environment and Meteorology in ATM.
+4.979  Which are all the topics in ATM dealing with Environment and Meteorology
+4.937  What are the research areas about Environment and Meteorology in ATM?
+4.895  Show me topics with title Environment and Meteorology in ATM
+0.879  ###
+

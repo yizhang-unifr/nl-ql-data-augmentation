@@ -1,0 +1,28 @@
+SELECT project_members.institution_id FROM project_members WHERE project_members.ec_contribution = 307125.0
+
+###
+
+
+Original Query:
+SELECT project_members.institution_id FROM project_members WHERE project_members.ec_contribution = 307125.0
+GPT-3 choices:
+(0) Retrieve project members for the project having an EC contribution of 307125
+(1) Retrieve all project members's institutions with a total EC contribution of 307125.0
+(2) What is the institution id of project members whose contribution is 307125.0?
+(3) Show all institutions participating in project 307125
+(4) Retrieve the institution ids of project members whose EC contribution is 307125
+(5) What is the institution id of project members that have contributed with 307125.0 euro?
+(6) What are the institutions of the project members that contributed 307125 euros?
+(7) What is the institution id of project members having an ec contribution of 307125.0?
+
+
+Re-ranked choices:
+5.544  What is the institution id of project members having an ec contribution of 307125.0?
+5.507  Retrieve the institution ids of project members whose EC contribution is 307125
+5.403  What is the institution id of project members whose contribution is 307125.0?
+5.356  What is the institution id of project members that have contributed with 307125.0 euro?
+5.254  Retrieve all project members's institutions with a total EC contribution of 307125.0
+5.062  Retrieve project members for the project having an EC contribution of 307125
+4.753  What are the institutions of the project members that contributed 307125 euros?
+4.368  Show all institutions participating in project 307125
+

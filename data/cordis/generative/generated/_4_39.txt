@@ -1,0 +1,27 @@
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'DE262'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'DE262'
+GPT-3 choices:
+(0) How many countries with territorial units are there in the EU?
+(1) How many eu territorial units are assigned to the region DE 262?
+(2) Show me the number of territories in the region DE 262
+(3) Show the number of territorial units in Germany with a geocode region DE 262.
+(4) 
+(5) How many eu territorial units are in the geocode region DE262?
+(6) Show me the count of territorial units in the area with code DE262
+(7) Count all territorial units in the region DE262
+
+
+Re-ranked choices:
+4.581  How many eu territorial units are assigned to the region DE 262?
+4.497  How many eu territorial units are in the geocode region DE262?
+4.479  Count all territorial units in the region DE262
+4.407  Show me the count of territorial units in the area with code DE262
+4.231  Show the number of territorial units in Germany with a geocode region DE 262.
+4.130  Show me the number of territories in the region DE 262
+3.671  How many countries with territorial units are there in the EU?
+

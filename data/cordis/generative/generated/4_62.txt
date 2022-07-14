@@ -1,0 +1,16 @@
+SELECT count(*) FROM project_member_roles WHERE project_member_roles.code = 'hostInstitution'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM project_member_roles WHERE project_member_roles.code = 'hostInstitution'
+GPT-3 choices:
+(0) Count the number of project members with the role 'hostInstitution'
+(1) How many project members are part of this host institution?
+(2) How many project member roles are assigned to the institution hosting the project?
+(3) How many roles are assigned to the call of the project host institution?
+(4) How many project members institutions have a role called hostInstitution?
+(5) Count the number of project-member-roles which have the code 'hostInstitution'
+(6) How many project member roles have the institution hosting the project?
+(7) How many project members roles are there by host institutions?

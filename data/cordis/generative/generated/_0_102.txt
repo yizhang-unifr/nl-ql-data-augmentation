@@ -1,0 +1,28 @@
+SELECT institutions.website FROM institutions WHERE institutions.grid_id = 'grid.412317.2'
+
+###
+
+
+Original Query:
+SELECT institutions.website FROM institutions WHERE institutions.grid_id = 'grid.412317.2'
+GPT-3 choices:
+(0) Show me all the institutions of grid 412317.2.
+(1) Show me all the websites of institutions in the grid 412317.2
+(2) Show me all the institutions whose grid id is 412317.2
+(3) What is the website of all institutions inside the grid 412317.2?
+(4) What are the institutions that have website in grid 412317.2?
+(5) Does the institution have a website?
+(6) Show me all the website of the institution having grid id 412317.2.
+(7) Show the website of institutions that are located at grid 412317.2
+
+
+Re-ranked choices:
+5.864  What is the website of all institutions inside the grid 412317.2?
+5.803  Show the website of institutions that are located at grid 412317.2
+5.770  Show me all the websites of institutions in the grid 412317.2
+5.695  What are the institutions that have website in grid 412317.2?
+5.671  Show me all the website of the institution having grid id 412317.2.
+5.406  Show me all the institutions of grid 412317.2.
+5.176  Show me all the institutions whose grid id is 412317.2
+3.865  Does the institution have a website?
+

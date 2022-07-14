@@ -1,0 +1,28 @@
+SELECT institutions.short_name FROM institutions WHERE institutions.db_pedia_url != 'http://dbpedia.org/resource/University_of_Urbino'
+
+###
+
+
+Original Query:
+SELECT institutions.short_name FROM institutions WHERE institutions.db_pedia_url != 'http://dbpedia.org/resource/University_of_Urbino'
+GPT-3 choices:
+(0) Retrieve the short names of institutions that do not have a dbpedia url.
+(1) Show me the short names of all institutions, except the University of Urbino
+(2) Show me the short name of all institutions that don't have dbpedia url equal to " http://dbpedia.org/resource/University_of_Urbino".
+(3) Show me the short name of institutions that do not have a dbpedia url
+(4) Show me the short name of institutions different than "University of Urbino"
+(5) Retrieve the short name of institutions, except the University of Urbino
+(6) Get all the short names of universities except for that of the University of Urbino?
+(7) Show me the short name of all institutions except the University of Urbino
+
+
+Re-ranked choices:
+5.558  Show me the short names of all institutions, except the University of Urbino
+5.558  Show me the short name of all institutions except the University of Urbino
+5.555  Retrieve the short name of institutions, except the University of Urbino
+5.426  Show me the short name of institutions different than "University of Urbino"
+5.334  Show me the short name of all institutions that don't have dbpedia url equal to " http://dbpedia.org/resource/University_of_Urbino".
+5.167  Get all the short names of universities except for that of the University of Urbino?
+4.677  Show me the short name of institutions that do not have a dbpedia url
+4.479  Retrieve the short names of institutions that do not have a dbpedia url.
+

@@ -1,0 +1,16 @@
+SELECT erc_research_domains.description FROM erc_research_domains WHERE erc_research_domains.code = 'PE'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.description FROM erc_research_domains WHERE erc_research_domains.code = 'PE'
+GPT-3 choices:
+(0) What are the research domains of projects from the Erc###
+(1) List the different research domains that use the project entity code PE
+(2) Display all descriptions of research domains that have code PE
+(3) Show me all research domains in the ERC project entitled 'Patchy Economy'
+(4) Show all research domains with code PE
+(5) Show me all research domains with code PE.
+(6) What are the research domains about Physical Education?
+(7) Show me the description of research domains that have the two letter code PE.

@@ -1,0 +1,28 @@
+SELECT programmes.code FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.end_year != 2017
+
+###
+
+
+Original Query:
+SELECT programmes.code FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.end_year != 2017
+GPT-3 choices:
+(0) Change the end year of all the projects whose programme is different from 2017.
+(1) Show me programmes associated with at least one project, but with a project ending date != 2017.
+(2) Retrieve the programme code for all projects that are not finished in 2017
+(3) Show me projects that end in 2017
+(4) Show the programme code of projects that are not ending in 2017
+(5) Show me the codes of programmes of projects that didn't end in 2017
+(6) Show all project programmes that fall outside the range 2017-2015
+(7) Retrieve the project programmes for projects that are not in 2017.
+
+
+Re-ranked choices:
+5.542  Show the programme code of projects that are not ending in 2017
+5.364  Show me the codes of programmes of projects that didn't end in 2017
+5.323  Show me programmes associated with at least one project, but with a project ending date != 2017.
+5.149  Retrieve the project programmes for projects that are not in 2017.
+5.127  Show me projects that end in 2017
+4.982  Retrieve the programme code for all projects that are not finished in 2017
+4.911  Show all project programmes that fall outside the range 2017-2015
+4.644  Change the end year of all the projects whose programme is different from 2017.
+

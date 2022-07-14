@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions != 'DEB3J'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions != 'DEB3J'
+GPT-3 choices:
+(0) List all territorial units that don't have the geocode region DEB 3 J
+(1) Show me all non DEB3J geocode region territorial units
+(2) Show the description for territories outside DEB3J region.
+(3) Show regions where the territorial unit 2 is not located
+(4) What are the territorial unit descriptions for the EU except for DEB3J?
+(5) Show territorial units description which are not located in the German state called Schwaben
+(6) Display all the territorial unit descriptions different than DEB3J
+(7) Show the description of all European Union territorial units located outside the region DEB3J.
+
+
+Re-ranked choices:
+4.984  Show me all non DEB3J geocode region territorial units
+4.976  Show the description of all European Union territorial units located outside the region DEB3J.
+4.792  What are the territorial unit descriptions for the EU except for DEB3J?
+4.712  Show the description for territories outside DEB3J region.
+4.627  List all territorial units that don't have the geocode region DEB 3 J
+4.579  Display all the territorial unit descriptions different than DEB3J
+4.256  Show regions where the territorial unit 2 is not located
+3.767  Show territorial units description which are not located in the German state called Schwaben
+

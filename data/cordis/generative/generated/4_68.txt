@@ -1,0 +1,16 @@
+SELECT count(*) FROM institutions WHERE institutions.institutions_name = 'BOUWRADIUS TRAINING & ADVIES BV'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM institutions WHERE institutions.institutions_name = 'BOUWRADIUS TRAINING & ADVIES BV'
+GPT-3 choices:
+(0) How many institutions has the name BOUWRADIUS TRAINING & ADVIES BV?
+(1) How many institutions have the name BOUWRADIUS TRAINING & ADVIES BV
+(2) How many institutions are there with the name "BOUWRADIUS TRAINING & ADVIES BV"?
+(3) 
+(4) How many institutions have the name 'BOUWRADIUS TRAINING & ADVIES BV'?
+(5) How many institutions have the name BOUWRADIUS TRAINING & ADVIES BV?
+(6) Show the number of institutions that have the name BOUWRADIUS TRAINING & ADVIES BV.
+(7) Total number of institutions with about "BOUWRADIUS TRAINING & ADVIES BV"

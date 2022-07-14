@@ -1,0 +1,28 @@
+SELECT project_members.member_name FROM project_members WHERE project_members.ec_contribution = 376250.0 and project_members.rcn = '1905551'
+
+###
+
+
+Original Query:
+SELECT project_members.member_name FROM project_members WHERE project_members.ec_contribution = 376250.0 and project_members.rcn = '1905551'
+GPT-3 choices:
+(0) Show me all project members that make a contribution of 376250 euros###
+(1) Retrieve project members name contributing 376250 EUR via RCN 1905551.
+(2) Show the name of project members who contributed in ELocation COunt 1905551
+(3) What is the full name of the project member with membership number 1905551 compared with a contribution of 376250 euros?
+(4) Show me all project members with an ec contribution of 376250 euros and a research project called 1905551
+(5) Retrieve the name of project members who contributed a total of 376250.0 euros and have an RCN of 1905551.
+(6) Select project members name having an contribution with project 1905551.
+(7) Show the name of project members that contributed with a total of 376250 euro to project 1905551
+
+
+Re-ranked choices:
+5.393  Show the name of project members that contributed with a total of 376250 euro to project 1905551
+5.064  Retrieve the name of project members who contributed a total of 376250.0 euros and have an RCN of 1905551.
+5.007  Show me all project members with an ec contribution of 376250 euros and a research project called 1905551
+4.948  What is the full name of the project member with membership number 1905551 compared with a contribution of 376250 euros?
+4.842  Retrieve project members name contributing 376250 EUR via RCN 1905551.
+4.680  Select project members name having an contribution with project 1905551.
+4.652  Show me all project members that make a contribution of 376250 euros###
+4.386  Show the name of project members who contributed in ELocation COunt 1905551
+

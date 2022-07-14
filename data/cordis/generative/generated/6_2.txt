@@ -1,0 +1,16 @@
+SELECT topics.code FROM topics WHERE topics.rcn = '665013' and topics.title = 'Supporting Joint Actions on demonstration and validation of innovative energy solutions'
+
+###
+
+
+Original Query:
+SELECT topics.code FROM topics WHERE topics.rcn = '665013' and topics.title = 'Supporting Joint Actions on demonstration and validation of innovative energy solutions'
+GPT-3 choices:
+(0) Show me the topics that have a project called "Supporting Joint Actions on demonstration and validation of innovative energy solutions".
+(1) Show topics with code 665013 and title "Supporting Joint Actions on demonstration and validation of innovative energy solutions"
+(2) Show me the topics that have the rcn value 665013 and the title Supporting Joint Actions on demonstration and validation of innovative energy solutions
+(3) Show topics with code 665013 and title Supporting Joint Actions on demonstration and validation of innovative energy solutions
+(4) Show topics with title Supporting Joint Actions on demonstration and validation of innovative energy solutions that are assigned to the rcn 665013
+(5) What are the topics that deal with supporting joint actions on demonstration and validation of innovative energy solutions?
+(6) Show topics having the code 665013 and a title containing Supporting Joint Actions on demonstration and validation of innovative energy solutions
+(7) Retrieve all topics that have title Supporting Joint Actions on demonstration and validation of innovative energy solutions and have an Rcn of 665013.

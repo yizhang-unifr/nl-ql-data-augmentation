@@ -1,0 +1,23 @@
+SELECT count(*) FROM countries
+
+###
+
+
+Original Query:
+SELECT count(*) FROM countries
+GPT-3 choices:
+(0) How many countries are there?
+(1) Show me the number of countries
+(2) how many countries are there?
+(3) How many countries are there?
+(4) 
+(5) 
+(6) 
+(7) ### How many different countries are there?
+
+
+Re-ranked choices:
+1.666  How many countries are there?
+1.607  Show me the number of countries
+1.571  ### How many different countries are there?
+

@@ -1,0 +1,16 @@
+SELECT countries.country_code FROM countries JOIN institutions ON countries.unics_id = institutions.country_id WHERE institutions.institutions_name != 'MTECH DIGITAL SOLUTIONS OY'
+
+###
+
+
+Original Query:
+SELECT countries.country_code2 FROM countries JOIN institutions ON countries.unics_id = institutions.country_id WHERE institutions.institutions_name != 'MTECH DIGITAL SOLUTIONS OY'
+GPT-3 choices:
+(0) Show me all countries that don't have an institution with name "MTECH DIGITAL SOLUTIONS OY"
+(1) Show the country code of countries where the institution named institutions_name != 'MTECH DIGITAL SOLUTIONS OY' is not present
+(2) Show all country codes for institutions with a different name than "MTECH DIGITAL SOLUTIONS OY"
+(3) Show me country code of institutions with name different from "MTECH DIGITAL SOLUTIONS OY".
+(4) Retrieve countries associated with institutions which name is not equal to `MTECH DIGITAL SOLUTIONS OY`.
+(5) What are the country codes of institutions having the name "MTECH DIGITAL SOLUTIONS OY"?
+(6) Show country codes of institutions that are different from 'MTECH DIGITAL SOLUTIONS OY'
+(7) Get me the country code of all institutions except the company M TECH DIGITAL SOLUTIONS OY

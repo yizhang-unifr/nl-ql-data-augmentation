@@ -1,0 +1,28 @@
+SELECT count(*) FROM people WHERE people.full_name = 'Antonella BOGONI'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM people WHERE people.full_name = 'Antonella BOGONI'
+GPT-3 choices:
+(0) What is the number of people whose full name is Antonella BOGONI?
+(1) Count the number of people called Antonella BOGONI
+(2) How many people have the full name Antonella BOGONI?
+(3) Show the number of people with name Antonella BOGONI
+(4) How many people have the name Antonella BOGONI?
+(5) What is the total number of people whose full name is Antonella BOGONI?
+(6) Show the number of people whose name is "Antonella BOGONI"
+(7) Total number of people with name Antonella BOGONI
+
+
+Re-ranked choices:
+6.548  What is the number of people whose full name is Antonella BOGONI?
+6.521  Total number of people with name Antonella BOGONI
+6.497  What is the total number of people whose full name is Antonella BOGONI?
+6.373  Show the number of people with name Antonella BOGONI
+6.361  How many people have the full name Antonella BOGONI?
+6.356  Show the number of people whose name is "Antonella BOGONI"
+6.318  How many people have the name Antonella BOGONI?
+6.208  Count the number of people called Antonella BOGONI
+

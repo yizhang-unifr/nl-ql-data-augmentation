@@ -1,0 +1,86 @@
+[
+  {
+    "name": "singer",
+    "original_name": "singer",
+    "logical_name": "singer",
+    "columns": [
+      {
+        "name": "singer id",
+        "original_name": "Singer_ID",
+        "logical_name": "Singer_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "name",
+        "original_name": "Name",
+        "logical_name": "Name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "birth year",
+        "original_name": "Birth_Year",
+        "logical_name": "Birth_Year",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "net worth millions",
+        "original_name": "Net_Worth_Millions",
+        "logical_name": "Net_Worth_Millions",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "citizenship",
+        "original_name": "Citizenship",
+        "logical_name": "Citizenship",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "song",
+    "original_name": "song",
+    "logical_name": "song",
+    "columns": [
+      {
+        "name": "song id",
+        "original_name": "Song_ID",
+        "logical_name": "Song_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "title",
+        "original_name": "Title",
+        "logical_name": "Title",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "singer id",
+        "original_name": "Singer_ID",
+        "logical_name": "Singer_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "sales",
+        "original_name": "Sales",
+        "logical_name": "Sales",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "highest position",
+        "original_name": "Highest_Position",
+        "logical_name": "Highest_Position",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  }
+]

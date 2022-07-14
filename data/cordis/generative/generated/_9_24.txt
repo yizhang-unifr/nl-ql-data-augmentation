@@ -1,0 +1,28 @@
+SELECT erc_research_domains.code FROM erc_research_domains JOIN erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects ON project_erc_panels.project = projects.unics_id WHERE projects.framework_program != 'H2020'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.code FROM erc_research_domains JOIN erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects ON project_erc_panels.project = projects.unics_id WHERE projects.framework_program != 'H2020'
+GPT-3 choices:
+(0) Show me all the ERC research domains associated with projects outside the H2020 framework
+(1) List the research domains associated with projects outside of the H2020 framework program
+(2) Show all the code of research domains associated with a project that doesn't fall under the H2020 framework
+(3) Show me the research domains of projects that don't fall under the H2020 framework program.
+(4) Show me the ERC research domain of projects which are not part of the H2020 framework program?
+(5) What is the code of the erc research domain of projects that are not part of the H2020 framework program?
+(6) Show me ERC research domains that fall within a project that is not an H2020 framework program
+(7) What is the code of the European Research Council panel?
+
+
+Re-ranked choices:
+5.567  Show me the ERC research domain of projects which are not part of the H2020 framework program?
+5.409  What is the code of the erc research domain of projects that are not part of the H2020 framework program?
+5.345  Show me ERC research domains that fall within a project that is not an H2020 framework program
+5.335  Show me all the ERC research domains associated with projects outside the H2020 framework
+5.314  List the research domains associated with projects outside of the H2020 framework program
+5.294  Show me the research domains of projects that don't fall under the H2020 framework program.
+5.015  Show all the code of research domains associated with a project that doesn't fall under the H2020 framework
+2.769  What is the code of the European Research Council panel?
+

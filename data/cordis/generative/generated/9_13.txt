@@ -1,0 +1,16 @@
+SELECT funding_schemes.title FROM funding_schemes JOIN projects ON funding_schemes.code = projects.ec_fund_scheme WHERE projects.total_cost != 191149.44
+
+###
+
+
+Original Query:
+SELECT funding_schemes.title FROM funding_schemes JOIN projects ON funding_schemes.code = projects.ec_fund_scheme WHERE projects.total_cost != 191149.44
+GPT-3 choices:
+(0) Show me all funding schemes that have a project that has a total cost that is != 191149.44
+(1) Show me funding scheme titles of all projects that have a total cost different than 191149.44
+(2) Show me the title of the funding scheme associated with all projects except the one with a total cost of 191,149.44
+(3) Show me the funding scheme titles of projects that have a total cost different from 191149.44
+(4) Show funding schemes of projects that have a total cost different than 191149.44
+(5) Show funding scheme of projects whose total cost is not 191149.44.
+(6) Show me funding schemes for projects with a total cost different from 191149.44
+(7) Show me the funding scheme titles of projects whose total cost are not 191149.44

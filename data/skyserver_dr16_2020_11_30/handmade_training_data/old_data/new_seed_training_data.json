@@ -1,0 +1,157 @@
+[
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Count all Quasi stellar object (QSO)'",
+        "query": "select count(*) from specobj where class = 'QSO'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What are the program names of Star with spectral type M",
+        "query": "SELECT T1.programname FROM specobj AS T1 WHERE T1.class = 'STAR' and T1.subclass LIKE '%M%'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show me the photometric object id and modified julien date for all K type Star",
+        "query": "SELECT T2.objid, T1.mjd FROM specobj AS T1 JOIN photoobj as T2 ON T1.bestobjid = T2.objid WHERE T1.class = 'STAR' and T1.subclass like '%K%'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Retrive redshift of Starforming Galaxy",
+        "query": "SELECT T1.z FROM specobj AS T1 WHERE T1.subclass = 'STARFORMING'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find redshift, right ascension and declination of all photometrically observed Starforming Galaxy",
+        "query": "SELECT T1.z, T1.ra, T1.dec FROM specobj AS T1 JOIN photoobj AS T2 ON T1.bestobjid = T2.objid JOIN photo_type AS T3 ON T2.type = T3.value WHERE T1.subclass = 'STARFORMING' AND T3.name='GALAXY'" 
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find Starforming Galaxy?",
+        "query": "SELECT T1.ra, T1.dec FROM specobj AS T1 WHERE T1.subclass = 'STARFORMING'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What is the program name in which spectroscopic starforming galaxy is observed?",
+        "query": "SELECT T1.programname FROM specobj AS T1 WHERE T1.subclass = 'STARFORMING'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What are the mininum of the extinction r grouped by run numberof photometric galaxy?",
+        "query": "SELECT min( T1.extinction_r), T1.run FROM photoobj AS T1 JOIN ON photo_type AS T2 T1.type = T2.value WHERE T2.name = 'GALAXY' GROUP BY T1.run"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What are the galactic coordinates of all Quasi stellar object (QSO)",
+        "query": "SELECT T1.b, T1.l FROM photoobj AS T1 JOIN specobj AS T2 ON T1.objid = T2.bestobjid where T2.class = 'QSO'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What are the maxium palte number of Quasi setllar object (QSO)",
+        "query": "SELECT MAX(T1.plate) FROM specobj AS T1 WHERE T1.class = 'QSO'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show the number of spectroscopic Galaxy with AGN.",
+        "query": "SELECT count(*) from specobj as s where s.subclass like '%AGN%' and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "How many photometrically observable binary star system we can find, in which it has a distance from cetner to nearest neighbor of under 0.05, a difference of magnitude u and g below 0.4, a difference of magnitude g and r below 0.7, a difference of magnitude r and i above 0.4, and a difference of magnitude i and z above 0.4.",
+        "query": "SELECT count( T1.objid ) FROM neighbors AS T1 JOIN photoobj AS T2 ON T1.objid = T2.objid JOIN photo_type AS T3 ON T2.type = T3.value WHERE T3.name = 'STAR' and T1.neighbortype = T2.type and T1.distance < 0.05 and T2.u - T2.g < 0.4 and T2.g - T2.r < 0.7 and T2.r - T2.i > 0.4 and T2.i - T2.z > 0.4"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Count all star in photometrically observable binary star system, of which the neighbor's distance less than 0.05,  the difference of magnitude u and magnitude g is lower than 0.4, the difference of magnitude g and magnitude r is lower than 0.7, the difference of magnitude r and magnitude i is higher than 0.4 and the difference of magnitude i and magnitude z is higher than 0.4",
+        "query": "SELECT COUNT(p.objid) FROM photoobj AS p JOIN photo_type AS pt ON p.type = pt.value WHERE pt.name = 'STAR' AND (p.u - p.g) < 0.4 AND (p.g - p.r) < 0.7 AND  (p.r - p.i) > 0.4 AND (p.i - p.z) > 0.4 AND p.objid in (SELECT n.objid FROM neighbors AS n JOIN photo_type AS pt ON n.neighbortype = pt.value WHERE n.distance < 0.05 AND pt.name = 'STAR')"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find all star observed both photometrically and spectroscopically whose subclass is 'Carbon'",
+        "query": "select s.specobjid from specobj as s JOIN photoobj as p ON s.bestobjid = p.objid JOIN photo_type as pt ON p.type = pt.value WHERE s.class = 'STAR' and pt.name = 'STAR' and s.subclass = 'Carbon'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find the number of photometrically observed Galaxy",
+        "query": "select COUNT(*) from photoobj as p join photo_type as pt on p.type = pt.value where pt.name = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find the object ids, classes and subclasses of spectroscopically and photometrically observable Galaxy with AGN.",
+        "query": "select s.specobjid, s.class, s.subclass from specobj as s join photoobj as p on s.bestobjid = p.objid join photo_type as pt on p.type = pt.value where s.subclass like '%AGN%' and s.class = 'GALAXY' and pt.name = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Count all galaxy with Type I AGN BROADLINE.",
+        "query": "select count(*) from specobj as s where s.subclass = 'AGN BROADLINE' and s.class = 'GALAXY'"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show me the distance of the nearst photometrically observable star",
+        "query": "SELECT min(n.distance) FROM neighbors AS n JOIN photo_type AS pt ON n.neighbortype = pt.value JOIN photoobj AS p ON p.objid = n.objid WHERE pt.name = 'STAR' and p.objid in (SELECT p.objid FROM photoobj AS p JOIN photo_type AS pt ON p.type = pt.value WHERE pt.name = 'STAR')"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show me the longest distance of the photometrically observable GALAXY neighbors",
+        "query": "SELECT max(n.distance) FROM neighbors AS n JOIN photo_type AS pt ON n.neighbortype = pt.value JOIN photoobj AS p ON p.objid = n.objid WHERE pt.name = 'GALAXY' and p.objid in (SELECT p.objid FROM photoobj AS p JOIN photo_type AS pt ON p.type = pt.value WHERE pt.name = 'GALAXY')"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What are the galactic coordinates of the center object with the least distance to its nearest neighbor. Please retrieve the distance also.",
+        "query": "SELECT p.b, p.l, n.distance from photoobj as p join neighbors n on p.objid = n.objid where n.distance = (select min(n.distance) from neighbors as n)"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "What are the galactic coordinates of the center object with the least distance to its nearest neighbor. Please retrieve the distance also.",
+        "query": "SELECT p.b, p.l, n.distance from photoobj as p join neighbors n on p.objid = n.objid order by n.distance asc limit 1"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show me the redshift of the center object with the least distance to its nearest neighbor",
+        "query": "SELECT s.z from specobj as s join photoobj as p on s.bestobjid = p.objid join neighbors n on p.objid = n.objid where n.distance = (select min(n.distance) from neighbors as n)"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show me the redshift of the center object with the least distance to its nearest neighbor",
+        "query": "SELECT s.z from specobj as s join photoobj as p on s.bestobjid = p.objid join neighbors n on p.objid = n.objid order by n.distance asc limit 1"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Show me all unique names in the survey of spectroscopic",
+        "query": "SELECT distinct(s.survey) from specobj as s"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "select distinct p.run from photoobj as p",
+        "query": "List all unique run number"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "select count(distinct p.run) from photoobj as p",
+        "query": "How many different run number are there"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find the number of photometric objects grouped by their photometrically observed type name.",
+        "query": "select pt.name, count(*) from photoobj as p join photo_type as pt on pt.value = p.type group by pt.name"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find right ascension, declination and photometric type classes of equivalent width estimates of galactic-stars from these spectroscopic objects.",
+        "query": "select p.ra, p.dec, p.type from spplines as sp join specobj as s on sp.specobjid = s.specobjid join photoobj as p on p.objid = s.bestobjid"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "How many spectroscopic objects of equivalent width estimates of galactic-stars from these spectroscopic objects are there?",
+        "query": "select count(sp.specobjid) from spplines as sp join specobj as s on sp.specobjid = s.specobjid"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find the object id and observed type of photometric objects whose right ascension is greater than 100 and declination is less than 100.",
+        "query": "select p.objid, pt.name from photoobj as p join photo_type as pt on p.type = pt.value where p.ra > 100 and p.dec < 100"
+    },
+    {
+        "db_id": "skyserver_dr16_2020_11_30",
+        "question": "Find the photometric object id, right ascension and declination of corresponding spectroscopic objects, from which it has emission line estimates of galaxies.",
+        "query": "select p.objid, p.ra, p.dec from photoobj as p join specobj as s on s.bestobjid = p.objid join galspecline as g on s.specobjid = g.specobjid"
+    }
+]

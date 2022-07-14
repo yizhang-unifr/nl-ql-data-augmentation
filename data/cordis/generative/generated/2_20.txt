@@ -1,0 +1,16 @@
+SELECT projects.title, count(*) FROM projects  GROUP BY projects.title
+
+###
+
+
+Original Query:
+SELECT projects.title, count(*) FROM projects  GROUP BY projects.title
+GPT-3 choices:
+(0) Total number of project titles.
+(1) How many projects are there?
+(2) Show the number of projects for each title
+(3) Which are the most popular project titles?
+(4) Show how many times different project titles were used
+(5) Which are the most common project titles?
+(6) What are the different project titles?
+(7) Count the number of project titles

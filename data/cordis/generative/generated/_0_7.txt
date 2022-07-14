@@ -1,0 +1,28 @@
+SELECT institutions.website FROM institutions WHERE institutions.unics_id = 283056
+
+###
+
+
+Original Query:
+SELECT institutions.website FROM institutions WHERE institutions.unics_id = 283056
+GPT-3 choices:
+(0) Retrieve the domain name of a given institution.
+(1) Retrieve the website of all institutions with the unics_id 283056
+(2) Show all institutions with a website from their unics code
+(3) Retrieve homepage institutions of the institution having unics_id equal to 283056
+(4) Show all the websites of the institution with the unics_id 283056
+(5) Show me institutions with a website.
+(6) Return the Web address of the given institution
+(7) Show me all the institutions within the UNICS with a website.
+
+
+Re-ranked choices:
+5.106  Retrieve the website of all institutions with the unics_id 283056
+5.048  Show all the websites of the institution with the unics_id 283056
+4.858  Show all institutions with a website from their unics code
+4.440  Show me all the institutions within the UNICS with a website.
+4.282  Retrieve homepage institutions of the institution having unics_id equal to 283056
+4.241  Show me institutions with a website.
+4.138  Return the Web address of the given institution
+3.936  Retrieve the domain name of a given institution.
+

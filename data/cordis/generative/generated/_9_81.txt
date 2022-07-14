@@ -1,0 +1,28 @@
+SELECT topics.title FROM topics JOIN project_topics ON topics.code = project_topics.topic JOIN projects ON project_topics.project = projects.unics_id WHERE projects.end_year != 2021
+
+###
+
+
+Original Query:
+SELECT topics.title FROM topics JOIN project_topics ON topics.code = project_topics.topic JOIN projects ON project_topics.project = projects.unics_id WHERE projects.end_year != 2021
+GPT-3 choices:
+(0) Show me topics that are used in projects with an end year != 2021
+(1) Show topics of all projects except those ending in 2021.
+(2) Show me topics of projects whose end year is not 2021
+(3) Show me topics from projects that don't end in 2021
+(4) What are the different project topics?
+(5) Model statement grouping all topics of projects whose end year isn't 2021.
+(6) Retrieve all topic titles of projects that have a project topic and do not end in 2021
+(7) What are the topics of projects that end at least in 2021?
+
+
+Re-ranked choices:
+5.711  Show me topics of projects whose end year is not 2021
+5.710  Show me topics from projects that don't end in 2021
+5.593  Show topics of all projects except those ending in 2021.
+5.554  Show me topics that are used in projects with an end year != 2021
+5.325  What are the topics of projects that end at least in 2021?
+4.894  Retrieve all topic titles of projects that have a project topic and do not end in 2021
+4.786  Model statement grouping all topics of projects whose end year isn't 2021.
+4.074  What are the different project topics?
+

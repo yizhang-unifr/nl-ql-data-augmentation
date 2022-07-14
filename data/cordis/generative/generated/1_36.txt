@@ -1,0 +1,16 @@
+SELECT ec_framework_programs.program_name FROM ec_framework_programs JOIN projects ON ec_framework_programs.program_name = projects.framework_program WHERE projects.total_cost = 71429.0
+
+###
+
+
+Original Query:
+SELECT ec_framework_programs.ec_framework_program_name FROM ec_framework_programs JOIN projects ON ec_framework_programs.ec_framework_program_name = projects.framework_program WHERE projects.total_cost = 71429.0
+GPT-3 choices:
+(0) What is the name of the program within a project with a total cost of 71429?
+(1) Show all the programs of the projects that had a total cost of 71429.0
+(2) Show me the framework program names of projects that have a total cost of 71429.0
+(3) What are the names of the programs in which projects with a total cost of 71429 have been conducted?
+(4) What are the different programs of the project with a total cost of 71429?
+(5) What is the name of the program of projects with total cost 71429?
+(6) What is the name of the program part of the project with total cost 71429.0 ?
+(7) Show the name of all programs frameworks associated with projects whose total cost is 71429.0.

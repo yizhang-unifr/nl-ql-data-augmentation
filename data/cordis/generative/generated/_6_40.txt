@@ -1,0 +1,28 @@
+SELECT topics.rcn FROM topics WHERE topics.code = 'SPIRE-08-2015' and topics.title = 'Semicondutor Process, Equipment and Materials'
+
+###
+
+
+Original Query:
+SELECT topics.rcn FROM topics WHERE topics.code = 'SPIRE-08-2015' and topics.title = 'Semicondutor Process, Equipment and Materials'
+GPT-3 choices:
+(0) Show me the topics with title Semiconductor Processing, Equipment and Materials that ends with SPIRE-08-2015
+(1) Show topics that have the subject code SPIRE-08-2015 and the title Semicondutor Process, Equipment and Materials
+(2) Show me the topics with the subject "SPIRE-08-2015"
+(3) Show me all topics where code equals SPIRE-08-2015 and the title is Semiconductor Process, Equipment and Materials
+(4) Show me all topics from SPIRE-08-2015 about semiconductor process, equipment and materials
+(5) Display all topics with the title Semiconductor Process, Equipment and Materials of the event SPIRE-08-2015
+(6) Show me all the research council topics for SPIRE-08-2015 about Semiconductor Process, Equipment and Materials
+(7) What are the different topics about semiconductor processes, equipment and materials
+
+
+Re-ranked choices:
+5.587  Show me all topics from SPIRE-08-2015 about semiconductor process, equipment and materials
+5.560  Show me the topics with title Semiconductor Processing, Equipment and Materials that ends with SPIRE-08-2015
+5.366  Show me all the research council topics for SPIRE-08-2015 about Semiconductor Process, Equipment and Materials
+5.279  Show me all topics where code equals SPIRE-08-2015 and the title is Semiconductor Process, Equipment and Materials
+5.119  Display all topics with the title Semiconductor Process, Equipment and Materials of the event SPIRE-08-2015
+4.610  Show topics that have the subject code SPIRE-08-2015 and the title Semicondutor Process, Equipment and Materials
+4.513  What are the different topics about semiconductor processes, equipment and materials
+3.589  Show me the topics with the subject "SPIRE-08-2015"
+

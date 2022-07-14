@@ -1,0 +1,16 @@
+SELECT institutions.institutions_name FROM institutions WHERE institutions.wikidata_url = 'http://www.wikidata.org/wiki/Q2469823' and institutions.geocode_regions_3 = 'DE125'
+
+###
+
+
+Original Query:
+SELECT institutions.institutions_name FROM institutions WHERE institutions.wikidata_url = 'http://www.wikidata.org/wiki/Q2469823' and institutions.geocode_regions_3 = 'DE125'
+GPT-3 choices:
+(0) Show the name of institutions located at DE125
+(1) Show the institutions name of the geocode region DE125.
+(2) Show all the institutions having wikipedia page with Q2469823 in the country DE125
+(3) Show the name of institutions having the wikidata url http://www.wikidata.org/wiki/Q2469823 and being located in DE 125
+(4) ) Total number of institutions in the region 'DE125' having the Wikidata item Q2469823
+(5) Show all institutions in DE with a Wikidata project URL
+(6) Show all institutions with a wikidata base entry, whose geocode_regions_3 region is 'DE125'
+(7) Display all institutions having the same geocode region 3 = DE125 and a wikidata string http://www.wikidata.org/wiki/Q2469823

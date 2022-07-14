@@ -1,0 +1,16 @@
+SELECT count(*) FROM project_member_roles WHERE project_member_roles.code = 'thirdParty'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM project_member_roles WHERE project_member_roles.code = 'thirdParty'
+GPT-3 choices:
+(0) Determine how many projects have third party as a project member role.
+(1) How many project member roles have code thirdParty?
+(2) How many project member roles have the code thirdParty?
+(3) Show me the number of project member roles that have the code thirdParty
+(4) Total number of project member roles of the third party funding
+(5) Show the number of project member roles with code thirdParty.
+(6) How many project members are assigned the role thirdParty?
+(7) Show the count of project member roles where the code is thirdParty

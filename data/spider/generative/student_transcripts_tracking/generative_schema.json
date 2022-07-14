@@ -1,0 +1,471 @@
+[
+  {
+    "name": "addresses",
+    "original_name": "Addresses",
+    "logical_name": "Addresses",
+    "columns": [
+      {
+        "name": "address id",
+        "original_name": "address_id",
+        "logical_name": "address_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "line 1",
+        "original_name": "line_1",
+        "logical_name": "line_1",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "line 2",
+        "original_name": "line_2",
+        "logical_name": "line_2",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "line 3",
+        "original_name": "line_3",
+        "logical_name": "line_3",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "city",
+        "original_name": "city",
+        "logical_name": "city",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "zip postcode",
+        "original_name": "zip_postcode",
+        "logical_name": "zip_postcode",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "state province county",
+        "original_name": "state_province_county",
+        "logical_name": "state_province_county",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "country",
+        "original_name": "country",
+        "logical_name": "country",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "other address details",
+        "original_name": "other_address_details",
+        "logical_name": "other_address_details",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "courses",
+    "original_name": "Courses",
+    "logical_name": "Courses",
+    "columns": [
+      {
+        "name": "course id",
+        "original_name": "course_id",
+        "logical_name": "course_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "course name",
+        "original_name": "course_name",
+        "logical_name": "course_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "course description",
+        "original_name": "course_description",
+        "logical_name": "course_description",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "other details",
+        "original_name": "other_details",
+        "logical_name": "other_details",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "departments",
+    "original_name": "Departments",
+    "logical_name": "Departments",
+    "columns": [
+      {
+        "name": "department id",
+        "original_name": "department_id",
+        "logical_name": "department_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "department name",
+        "original_name": "department_name",
+        "logical_name": "department_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "department description",
+        "original_name": "department_description",
+        "logical_name": "department_description",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "other details",
+        "original_name": "other_details",
+        "logical_name": "other_details",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "degree programs",
+    "original_name": "Degree_Programs",
+    "logical_name": "Degree_Programs",
+    "columns": [
+      {
+        "name": "degree program id",
+        "original_name": "degree_program_id",
+        "logical_name": "degree_program_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "department id",
+        "original_name": "department_id",
+        "logical_name": "department_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "degree summary name",
+        "original_name": "degree_summary_name",
+        "logical_name": "degree_summary_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "degree summary description",
+        "original_name": "degree_summary_description",
+        "logical_name": "degree_summary_description",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "other details",
+        "original_name": "other_details",
+        "logical_name": "other_details",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "sections",
+    "original_name": "Sections",
+    "logical_name": "Sections",
+    "columns": [
+      {
+        "name": "section id",
+        "original_name": "section_id",
+        "logical_name": "section_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "course id",
+        "original_name": "course_id",
+        "logical_name": "course_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "section name",
+        "original_name": "section_name",
+        "logical_name": "section_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "section description",
+        "original_name": "section_description",
+        "logical_name": "section_description",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "other details",
+        "original_name": "other_details",
+        "logical_name": "other_details",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "semesters",
+    "original_name": "Semesters",
+    "logical_name": "Semesters",
+    "columns": [
+      {
+        "name": "semester id",
+        "original_name": "semester_id",
+        "logical_name": "semester_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "semester name",
+        "original_name": "semester_name",
+        "logical_name": "semester_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "semester description",
+        "original_name": "semester_description",
+        "logical_name": "semester_description",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "other details",
+        "original_name": "other_details",
+        "logical_name": "other_details",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "students",
+    "original_name": "Students",
+    "logical_name": "Students",
+    "columns": [
+      {
+        "name": "student id",
+        "original_name": "student_id",
+        "logical_name": "student_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "current address id",
+        "original_name": "current_address_id",
+        "logical_name": "current_address_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "permanent address id",
+        "original_name": "permanent_address_id",
+        "logical_name": "permanent_address_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "first name",
+        "original_name": "first_name",
+        "logical_name": "first_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "middle name",
+        "original_name": "middle_name",
+        "logical_name": "middle_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "last name",
+        "original_name": "last_name",
+        "logical_name": "last_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "cell mobile number",
+        "original_name": "cell_mobile_number",
+        "logical_name": "cell_mobile_number",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "email address",
+        "original_name": "email_address",
+        "logical_name": "email_address",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "ssn",
+        "original_name": "ssn",
+        "logical_name": "ssn",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "date first registered",
+        "original_name": "date_first_registered",
+        "logical_name": "date_first_registered",
+        "original_datatype": "time",
+        "logical_datatype": "time"
+      },
+      {
+        "name": "date left",
+        "original_name": "date_left",
+        "logical_name": "date_left",
+        "original_datatype": "time",
+        "logical_datatype": "time"
+      },
+      {
+        "name": "other student details",
+        "original_name": "other_student_details",
+        "logical_name": "other_student_details",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "student enrolment",
+    "original_name": "Student_Enrolment",
+    "logical_name": "Student_Enrolment",
+    "columns": [
+      {
+        "name": "student enrolment id",
+        "original_name": "student_enrolment_id",
+        "logical_name": "student_enrolment_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "degree program id",
+        "original_name": "degree_program_id",
+        "logical_name": "degree_program_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "semester id",
+        "original_name": "semester_id",
+        "logical_name": "semester_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "student id",
+        "original_name": "student_id",
+        "logical_name": "student_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "other details",
+        "original_name": "other_details",
+        "logical_name": "other_details",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "student enrolment courses",
+    "original_name": "Student_Enrolment_Courses",
+    "logical_name": "Student_Enrolment_Courses",
+    "columns": [
+      {
+        "name": "student course id",
+        "original_name": "student_course_id",
+        "logical_name": "student_course_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "course id",
+        "original_name": "course_id",
+        "logical_name": "course_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "student enrolment id",
+        "original_name": "student_enrolment_id",
+        "logical_name": "student_enrolment_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  },
+  {
+    "name": "transcripts",
+    "original_name": "Transcripts",
+    "logical_name": "Transcripts",
+    "columns": [
+      {
+        "name": "transcript id",
+        "original_name": "transcript_id",
+        "logical_name": "transcript_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "transcript date",
+        "original_name": "transcript_date",
+        "logical_name": "transcript_date",
+        "original_datatype": "time",
+        "logical_datatype": "time"
+      },
+      {
+        "name": "other details",
+        "original_name": "other_details",
+        "logical_name": "other_details",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "transcript contents",
+    "original_name": "Transcript_Contents",
+    "logical_name": "Transcript_Contents",
+    "columns": [
+      {
+        "name": "student course id",
+        "original_name": "student_course_id",
+        "logical_name": "student_course_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "transcript id",
+        "original_name": "transcript_id",
+        "logical_name": "transcript_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  }
+]

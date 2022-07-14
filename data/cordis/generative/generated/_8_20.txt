@@ -1,0 +1,28 @@
+SELECT programmes.title FROM programmes WHERE programmes.code != 'H2020-EU.3.2.4.2.'
+
+###
+
+
+Original Query:
+SELECT programmes.title FROM programmes WHERE programmes.code != 'H2020-EU.3.2.4.2.'
+GPT-3 choices:
+(0) What are the titles of the programmes that don't have code H2020-EU.3.2.4.2?
+(1) Show me all project titles except the H2020-EU.3.2.4.2 project.
+(2) Retrieve all the programmes titles that are different from H2020-EU.3.2.4.2.
+(3) Show me institutions of participating countries not participating in "H2020-EU.3.2.4.2."
+(4) Show all programme titles different from H2020-EU.3.2.4.2
+(5) Show me programmes titles different from H2020-EU.3.2.4.2.
+(6) Show all programmes with a title different from H2020-EU.3.2.4.2.
+(7) Show all titles of programmes except the one with code H2020-EU.3.2.4.2
+
+
+Re-ranked choices:
+5.566  Show all programme titles different from H2020-EU.3.2.4.2
+5.481  Show all programmes with a title different from H2020-EU.3.2.4.2.
+5.464  Show me programmes titles different from H2020-EU.3.2.4.2.
+5.387  Show all titles of programmes except the one with code H2020-EU.3.2.4.2
+5.314  Retrieve all the programmes titles that are different from H2020-EU.3.2.4.2.
+4.944  Show me all project titles except the H2020-EU.3.2.4.2 project.
+4.786  What are the titles of the programmes that don't have code H2020-EU.3.2.4.2?
+3.080  Show me institutions of participating countries not participating in "H2020-EU.3.2.4.2."
+

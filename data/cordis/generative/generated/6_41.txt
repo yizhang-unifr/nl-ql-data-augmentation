@@ -1,0 +1,16 @@
+SELECT topics.title FROM topics WHERE topics.rcn = '665164' and topics.code = 'Biotec'
+
+###
+
+
+Original Query:
+SELECT topics.title FROM topics WHERE topics.rcn = '665164' and topics.code = 'Biotec'
+GPT-3 choices:
+(0) The topics having "Biotec" as their code and whose regional centre number is "665164".
+(1) Retrieve the title of topics of consortium Biotec having the rcn 665164
+(2) Show the titles of all topics with an rcn of 665164 and a code of "Biotec"
+(3) What are the titles of the topics in topic code Biotec?
+(4) Show me topics in the project Biotec
+(5) Retrieve topics where the name is "Biotec" and their ROCN is "665164".
+(6) Retrieve the titles of topics whose parent research center number is 665164 and whose subject code equals 'Biotec'.
+(7) Show me all topics on "Biotec" from project 655164

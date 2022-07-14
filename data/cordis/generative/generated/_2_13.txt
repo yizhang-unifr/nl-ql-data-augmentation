@@ -1,0 +1,27 @@
+SELECT topics.code, count(*) FROM topics  GROUP BY topics.code
+
+###
+
+
+Original Query:
+SELECT topics.code, count(*) FROM topics  GROUP BY topics.code
+GPT-3 choices:
+(0) How many are there in all?
+(1) How many different topics are there?
+(2) Count the topic codes
+(3) How many different topics are there?
+(4) What is the number of different topics?
+(5) How many topics are there?
+(6) ### How many different topics are there?
+(7) What are the most popular topics?
+
+
+Re-ranked choices:
+4.552  How many topics are there?
+4.486  What is the number of different topics?
+4.483  How many different topics are there?
+4.279  ### How many different topics are there?
+3.327  What are the most popular topics?
+3.044  Count the topic codes
+2.201  How many are there in all?
+

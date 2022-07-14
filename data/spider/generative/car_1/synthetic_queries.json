@@ -1,0 +1,2774 @@
+[
+  {
+    "db_id": "car_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Make FROM car_names AS T1 WHERE T1.MakeId = 180",
+    "readable_query": "SELECT car_names.Make FROM car_names AS car_names WHERE car_names.MakeId = 180"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Make FROM car_names AS T1 WHERE T1.MakeId = 284",
+    "readable_query": "SELECT car_names.Make FROM car_names AS car_names WHERE car_names.MakeId = 284"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Maker FROM car_makers AS T1 WHERE T1.Id = 20",
+    "readable_query": "SELECT car_makers.Maker FROM car_makers AS car_makers WHERE car_makers.Id = 20"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.ContId FROM continents AS T1 WHERE T1.Continent = \"america\"",
+    "readable_query": "SELECT continents.ContId FROM continents AS continents WHERE continents.Continent = \"america\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.MakeId FROM car_names AS T1 WHERE T1.Model = \"peugeot\"",
+    "readable_query": "SELECT car_names.MakeId FROM car_names AS car_names WHERE car_names.Model = \"peugeot\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Maker FROM model_list AS T1 WHERE T1.Model = \"oldsmobile\"",
+    "readable_query": "SELECT model_list.Maker FROM model_list AS model_list WHERE model_list.Model = \"oldsmobile\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.ModelId FROM model_list AS T1 WHERE T1.Maker = 16",
+    "readable_query": "SELECT model_list.ModelId FROM model_list AS model_list WHERE model_list.Maker = 16"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Continent FROM countries AS T1 WHERE T1.CountryId = 4",
+    "readable_query": "SELECT countries.Continent FROM countries AS countries WHERE countries.CountryId = 4"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.ModelId FROM model_list AS T1 WHERE T1.Model = \"honda\"",
+    "readable_query": "SELECT model_list.ModelId FROM model_list AS model_list WHERE model_list.Model = \"honda\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.ContId FROM continents AS T1 WHERE T1.Continent = \"africa\"",
+    "readable_query": "SELECT continents.ContId FROM continents AS continents WHERE continents.Continent = \"africa\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Model FROM model_list AS T1 JOIN car_makers AS T2 ON T1.Maker = T2.Id WHERE T2.Id = 18",
+    "readable_query": "SELECT model_list.Model FROM model_list AS model_list JOIN car_makers AS car_makers ON model_list.Maker = car_makers.Id WHERE car_makers.Id = 18"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.MakeId FROM car_names AS T1 JOIN model_list AS T2 ON T1.Model = T2.Model WHERE T2.ModelId = 24",
+    "readable_query": "SELECT car_names.MakeId FROM car_names AS car_names JOIN model_list AS model_list ON car_names.Model = model_list.Model WHERE model_list.ModelId = 24"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Horsepower FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId WHERE T2.Make = \"volvo 145e (sw)\"",
+    "readable_query": "SELECT cars_data.Horsepower FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId WHERE car_names.Make = \"volvo 145e (sw)\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Id FROM car_makers AS T1 JOIN countries AS T2 ON T1.Country = T2.CountryId WHERE T2.CountryId = 10",
+    "readable_query": "SELECT car_makers.Id FROM car_makers AS car_makers JOIN countries AS countries ON car_makers.Country = countries.CountryId WHERE countries.CountryId = 10"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Maker FROM model_list AS T1 JOIN car_names AS T2 ON T1.Model = T2.Model WHERE T2.Model = \"amc\"",
+    "readable_query": "SELECT model_list.Maker FROM model_list AS model_list JOIN car_names AS car_names ON model_list.Model = car_names.Model WHERE car_names.Model = \"amc\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Continent FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent WHERE T2.CountryName = \"russia\"",
+    "readable_query": "SELECT continents.Continent FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent WHERE countries.CountryName = \"russia\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.CountryId FROM countries AS T1 JOIN car_makers AS T2 ON T1.CountryId = T2.Country WHERE T2.Country = \"6\"",
+    "readable_query": "SELECT countries.CountryId FROM countries AS countries JOIN car_makers AS car_makers ON countries.CountryId = car_makers.Country WHERE car_makers.Country = \"6\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Model FROM model_list AS T1 JOIN car_names AS T2 ON T1.Model = T2.Model WHERE T2.MakeId = 186",
+    "readable_query": "SELECT model_list.Model FROM model_list AS model_list JOIN car_names AS car_names ON model_list.Model = car_names.Model WHERE car_names.MakeId = 186"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.CountryId FROM countries AS T1 JOIN car_makers AS T2 ON T1.CountryId = T2.Country WHERE T2.Maker = \"triumph\"",
+    "readable_query": "SELECT countries.CountryId FROM countries AS countries JOIN car_makers AS car_makers ON countries.CountryId = car_makers.Country WHERE car_makers.Maker = \"triumph\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.CountryName FROM countries AS T1 JOIN continents AS T2 ON T1.Continent = T2.ContId WHERE T2.Continent = \"africa\"",
+    "readable_query": "SELECT countries.CountryName FROM countries AS countries JOIN continents AS continents ON countries.Continent = continents.ContId WHERE continents.Continent = \"africa\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Model, count(*) FROM car_names AS T1  GROUP BY T1.Model",
+    "readable_query": "SELECT car_names.Model, count(*) FROM car_names AS car_names  GROUP BY car_names.Model"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Country, count(*) FROM car_makers AS T1  GROUP BY T1.Country",
+    "readable_query": "SELECT car_makers.Country, count(*) FROM car_makers AS car_makers  GROUP BY car_makers.Country"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Id, count(*) FROM car_makers AS T1  GROUP BY T1.Id",
+    "readable_query": "SELECT car_makers.Id, count(*) FROM car_makers AS car_makers  GROUP BY car_makers.Id"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.ContId, count(*) FROM continents AS T1  GROUP BY T1.ContId",
+    "readable_query": "SELECT continents.ContId, count(*) FROM continents AS continents  GROUP BY continents.ContId"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.ModelId, count(*) FROM model_list AS T1  GROUP BY T1.ModelId",
+    "readable_query": "SELECT model_list.ModelId, count(*) FROM model_list AS model_list  GROUP BY model_list.ModelId"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.FullName, count(*) FROM car_makers AS T1  GROUP BY T1.FullName",
+    "readable_query": "SELECT car_makers.FullName, count(*) FROM car_makers AS car_makers  GROUP BY car_makers.FullName"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.MPG, count(*) FROM cars_data AS T1  GROUP BY T1.MPG",
+    "readable_query": "SELECT cars_data.MPG, count(*) FROM cars_data AS cars_data  GROUP BY cars_data.MPG"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.CountryId, count(*) FROM countries AS T1  GROUP BY T1.CountryId",
+    "readable_query": "SELECT countries.CountryId, count(*) FROM countries AS countries  GROUP BY countries.CountryId"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Make, count(*) FROM car_names AS T1  GROUP BY T1.Make",
+    "readable_query": "SELECT car_names.Make, count(*) FROM car_names AS car_names  GROUP BY car_names.Make"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Maker, count(*) FROM car_makers AS T1  GROUP BY T1.Maker",
+    "readable_query": "SELECT car_makers.Maker, count(*) FROM car_makers AS car_makers  GROUP BY car_makers.Maker"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Maker, count(*) FROM car_makers AS T1 JOIN model_list AS T2 ON T1.Id = T2.Maker  GROUP BY T1.Maker",
+    "readable_query": "SELECT car_makers.Maker, count(*) FROM car_makers AS car_makers JOIN model_list AS model_list ON car_makers.Id = model_list.Maker  GROUP BY car_makers.Maker"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.ContId, count(*) FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent  GROUP BY T1.ContId",
+    "readable_query": "SELECT continents.ContId, count(*) FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent  GROUP BY continents.ContId"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.MPG, count(*) FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId  GROUP BY T1.MPG",
+    "readable_query": "SELECT cars_data.MPG, count(*) FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId  GROUP BY cars_data.MPG"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Continent, count(*) FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent  GROUP BY T1.Continent",
+    "readable_query": "SELECT continents.Continent, count(*) FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent  GROUP BY continents.Continent"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Model, count(*) FROM car_names AS T1 JOIN model_list AS T2 ON T1.Model = T2.Model  GROUP BY T1.Model",
+    "readable_query": "SELECT car_names.Model, count(*) FROM car_names AS car_names JOIN model_list AS model_list ON car_names.Model = model_list.Model  GROUP BY car_names.Model"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Make, count(*) FROM car_names AS T1 JOIN cars_data AS T2 ON T1.MakeId = T2.Id  GROUP BY T1.Make",
+    "readable_query": "SELECT car_names.Make, count(*) FROM car_names AS car_names JOIN cars_data AS cars_data ON car_names.MakeId = cars_data.Id  GROUP BY car_names.Make"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Make, count(*) FROM car_names AS T1 JOIN model_list AS T2 ON T1.Model = T2.Model  GROUP BY T1.Make",
+    "readable_query": "SELECT car_names.Make, count(*) FROM car_names AS car_names JOIN model_list AS model_list ON car_names.Model = model_list.Model  GROUP BY car_names.Make"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Cylinders, count(*) FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId  GROUP BY T1.Cylinders",
+    "readable_query": "SELECT cars_data.Cylinders, count(*) FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId  GROUP BY cars_data.Cylinders"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Maker, count(*) FROM model_list AS T1 JOIN car_names AS T2 ON T1.Model = T2.Model  GROUP BY T1.Maker",
+    "readable_query": "SELECT model_list.Maker, count(*) FROM model_list AS model_list JOIN car_names AS car_names ON model_list.Model = car_names.Model  GROUP BY model_list.Maker"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.MakeId, count(*) FROM car_names AS T1 JOIN cars_data AS T2 ON T1.MakeId = T2.Id  GROUP BY T1.MakeId",
+    "readable_query": "SELECT car_names.MakeId, count(*) FROM car_names AS car_names JOIN cars_data AS cars_data ON car_names.MakeId = cars_data.Id  GROUP BY car_names.MakeId"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM cars_data AS T1",
+    "readable_query": "SELECT count(*) FROM cars_data AS cars_data"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM model_list AS T1",
+    "readable_query": "SELECT count(*) FROM model_list AS model_list"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM car_makers AS T1",
+    "readable_query": "SELECT count(*) FROM car_makers AS car_makers"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM car_names AS T1",
+    "readable_query": "SELECT count(*) FROM car_names AS car_names"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM continents AS T1",
+    "readable_query": "SELECT count(*) FROM continents AS continents"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM countries AS T1",
+    "readable_query": "SELECT count(*) FROM countries AS countries"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Maker, T1.Country FROM car_makers AS T1",
+    "readable_query": "SELECT car_makers.Maker, car_makers.Country FROM car_makers AS car_makers"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Accelerate, T1.Year FROM cars_data AS T1",
+    "readable_query": "SELECT cars_data.Accelerate, cars_data.Year FROM cars_data AS cars_data"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Maker, T1.ModelId FROM model_list AS T1",
+    "readable_query": "SELECT model_list.Maker, model_list.ModelId FROM model_list AS model_list"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Continent, T1.ContId FROM continents AS T1",
+    "readable_query": "SELECT continents.Continent, continents.ContId FROM continents AS continents"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.CountryId, T1.Continent FROM countries AS T1",
+    "readable_query": "SELECT countries.CountryId, countries.Continent FROM countries AS countries"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Weight, T1.Edispl FROM cars_data AS T1",
+    "readable_query": "SELECT cars_data.Weight, cars_data.Edispl FROM cars_data AS cars_data"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Id, T1.FullName FROM car_makers AS T1",
+    "readable_query": "SELECT car_makers.Id, car_makers.FullName FROM car_makers AS car_makers"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.CountryName, T1.CountryId FROM countries AS T1",
+    "readable_query": "SELECT countries.CountryName, countries.CountryId FROM countries AS countries"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.MPG, T1.Year FROM cars_data AS T1",
+    "readable_query": "SELECT cars_data.MPG, cars_data.Year FROM cars_data AS cars_data"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Country, T1.Id FROM car_makers AS T1",
+    "readable_query": "SELECT car_makers.Country, car_makers.Id FROM car_makers AS car_makers"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.CountryName, T2.Id FROM countries AS T1 JOIN car_makers AS T2 ON T1.CountryId = T2.Country",
+    "readable_query": "SELECT countries.CountryName, car_makers.Id FROM countries AS countries JOIN car_makers AS car_makers ON countries.CountryId = car_makers.Country"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Country, T2.Maker FROM car_makers AS T1 JOIN model_list AS T2 ON T1.Id = T2.Maker",
+    "readable_query": "SELECT car_makers.Country, model_list.Maker FROM car_makers AS car_makers JOIN model_list AS model_list ON car_makers.Id = model_list.Maker"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.FullName, T2.Maker FROM car_makers AS T1 JOIN model_list AS T2 ON T1.Id = T2.Maker",
+    "readable_query": "SELECT car_makers.FullName, model_list.Maker FROM car_makers AS car_makers JOIN model_list AS model_list ON car_makers.Id = model_list.Maker"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.ModelId, T2.MakeId FROM model_list AS T1 JOIN car_names AS T2 ON T1.Model = T2.Model",
+    "readable_query": "SELECT model_list.ModelId, car_names.MakeId FROM model_list AS model_list JOIN car_names AS car_names ON model_list.Model = car_names.Model"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Continent, T2.CountryId FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent",
+    "readable_query": "SELECT continents.Continent, countries.CountryId FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Model, T2.MakeId FROM model_list AS T1 JOIN car_names AS T2 ON T1.Model = T2.Model",
+    "readable_query": "SELECT model_list.Model, car_names.MakeId FROM model_list AS model_list JOIN car_names AS car_names ON model_list.Model = car_names.Model"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Continent, T2.ContId FROM countries AS T1 JOIN continents AS T2 ON T1.Continent = T2.ContId",
+    "readable_query": "SELECT countries.Continent, continents.ContId FROM countries AS countries JOIN continents AS continents ON countries.Continent = continents.ContId"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Weight, T2.Model FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId",
+    "readable_query": "SELECT cars_data.Weight, car_names.Model FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Model, T2.Year FROM car_names AS T1 JOIN cars_data AS T2 ON T1.MakeId = T2.Id",
+    "readable_query": "SELECT car_names.Model, cars_data.Year FROM car_names AS car_names JOIN cars_data AS cars_data ON car_names.MakeId = cars_data.Id"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Cylinders, T2.MakeId FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId",
+    "readable_query": "SELECT cars_data.Cylinders, car_names.MakeId FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Model, T1.Maker FROM model_list AS T1 WHERE T1.ModelId = 2",
+    "readable_query": "SELECT model_list.Model, model_list.Maker FROM model_list AS model_list WHERE model_list.ModelId = 2"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.MakeId, T1.Model FROM car_names AS T1 WHERE T1.Make = \"honda civic 1300\"",
+    "readable_query": "SELECT car_names.MakeId, car_names.Model FROM car_names AS car_names WHERE car_names.Make = \"honda civic 1300\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.MakeId, T1.Model FROM car_names AS T1 WHERE T1.Make = \"dodge coronet brougham\"",
+    "readable_query": "SELECT car_names.MakeId, car_names.Model FROM car_names AS car_names WHERE car_names.Make = \"dodge coronet brougham\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.MakeId, T1.Make FROM car_names AS T1 WHERE T1.Model = \"pontiac\"",
+    "readable_query": "SELECT car_names.MakeId, car_names.Make FROM car_names AS car_names WHERE car_names.Model = \"pontiac\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.MPG, T1.Weight FROM cars_data AS T1 WHERE T1.Id = 282",
+    "readable_query": "SELECT cars_data.MPG, cars_data.Weight FROM cars_data AS cars_data WHERE cars_data.Id = 282"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.FullName, T1.Country FROM car_makers AS T1 WHERE T1.Maker = \"renault\"",
+    "readable_query": "SELECT car_makers.FullName, car_makers.Country FROM car_makers AS car_makers WHERE car_makers.Maker = \"renault\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Model, T1.MakeId FROM car_names AS T1 WHERE T1.Make = \"plymouth reliant\"",
+    "readable_query": "SELECT car_names.Model, car_names.MakeId FROM car_names AS car_names WHERE car_names.Make = \"plymouth reliant\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Year, T1.Cylinders FROM cars_data AS T1 WHERE T1.Horsepower = \"82\"",
+    "readable_query": "SELECT cars_data.Year, cars_data.Cylinders FROM cars_data AS cars_data WHERE cars_data.Horsepower = \"82\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.CountryName, T1.Continent FROM countries AS T1 WHERE T1.CountryId = 6",
+    "readable_query": "SELECT countries.CountryName, countries.Continent FROM countries AS countries WHERE countries.CountryId = 6"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Model, T1.Maker FROM model_list AS T1 WHERE T1.ModelId = 32",
+    "readable_query": "SELECT model_list.Model, model_list.Maker FROM model_list AS model_list WHERE model_list.ModelId = 32"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Continent FROM countries AS T1  GROUP BY T1.Continent  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT countries.Continent FROM countries AS countries  GROUP BY countries.Continent  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Maker FROM model_list AS T1  GROUP BY T1.Maker  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT model_list.Maker FROM model_list AS model_list  GROUP BY model_list.Maker  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Horsepower FROM cars_data AS T1  GROUP BY T1.Horsepower  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT cars_data.Horsepower FROM cars_data AS cars_data  GROUP BY cars_data.Horsepower  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Cylinders FROM cars_data AS T1  GROUP BY T1.Cylinders  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT cars_data.Cylinders FROM cars_data AS cars_data  GROUP BY cars_data.Cylinders  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.CountryId FROM countries AS T1  GROUP BY T1.CountryId  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT countries.CountryId FROM countries AS countries  GROUP BY countries.CountryId  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Id FROM car_makers AS T1  GROUP BY T1.Id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT car_makers.Id FROM car_makers AS car_makers  GROUP BY car_makers.Id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Model FROM car_names AS T1  GROUP BY T1.Model  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT car_names.Model FROM car_names AS car_names  GROUP BY car_names.Model  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.ContId FROM continents AS T1  GROUP BY T1.ContId  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT continents.ContId FROM continents AS continents  GROUP BY continents.ContId  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.FullName FROM car_makers AS T1  GROUP BY T1.FullName  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT car_makers.FullName FROM car_makers AS car_makers  GROUP BY car_makers.FullName  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Model FROM model_list AS T1  GROUP BY T1.Model  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT model_list.Model FROM model_list AS model_list  GROUP BY model_list.Model  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM continents AS T1 WHERE T1.Continent = \"africa\"",
+    "readable_query": "SELECT count(*) FROM continents AS continents WHERE continents.Continent = \"africa\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM continents AS T1 WHERE T1.Continent = \"asia\"",
+    "readable_query": "SELECT count(*) FROM continents AS continents WHERE continents.Continent = \"asia\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM countries AS T1 WHERE T1.CountryId = 8",
+    "readable_query": "SELECT count(*) FROM countries AS countries WHERE countries.CountryId = 8"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM car_names AS T1 WHERE T1.Model = \"mercury\"",
+    "readable_query": "SELECT count(*) FROM car_names AS car_names WHERE car_names.Model = \"mercury\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM car_makers AS T1 WHERE T1.Id = 5",
+    "readable_query": "SELECT count(*) FROM car_makers AS car_makers WHERE car_makers.Id = 5"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM car_makers AS T1 WHERE T1.Country = \"3\"",
+    "readable_query": "SELECT count(*) FROM car_makers AS car_makers WHERE car_makers.Country = \"3\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM continents AS T1 WHERE T1.ContId = 3",
+    "readable_query": "SELECT count(*) FROM continents AS continents WHERE continents.ContId = 3"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM model_list AS T1 WHERE T1.Model = \"scion\"",
+    "readable_query": "SELECT count(*) FROM model_list AS model_list WHERE model_list.Model = \"scion\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM model_list AS T1 WHERE T1.Maker = 12",
+    "readable_query": "SELECT count(*) FROM model_list AS model_list WHERE model_list.Maker = 12"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM model_list AS T1 WHERE T1.ModelId = 6",
+    "readable_query": "SELECT count(*) FROM model_list AS model_list WHERE model_list.ModelId = 6"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Make FROM car_names AS T1    ORDER BY T1.MakeId DESC LIMIT 1",
+    "readable_query": "SELECT car_names.Make FROM car_names AS car_names    ORDER BY car_names.MakeId DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.MPG FROM cars_data AS T1    ORDER BY T1.Year DESC LIMIT 1",
+    "readable_query": "SELECT cars_data.MPG FROM cars_data AS cars_data    ORDER BY cars_data.Year DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Edispl FROM cars_data AS T1    ORDER BY T1.Accelerate DESC LIMIT 1",
+    "readable_query": "SELECT cars_data.Edispl FROM cars_data AS cars_data    ORDER BY cars_data.Accelerate DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Model FROM model_list AS T1    ORDER BY T1.ModelId DESC LIMIT 1",
+    "readable_query": "SELECT model_list.Model FROM model_list AS model_list    ORDER BY model_list.ModelId DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Country FROM car_makers AS T1    ORDER BY T1.Id DESC LIMIT 1",
+    "readable_query": "SELECT car_makers.Country FROM car_makers AS car_makers    ORDER BY car_makers.Id DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.CountryId FROM countries AS T1    ORDER BY T1.Continent DESC LIMIT 1",
+    "readable_query": "SELECT countries.CountryId FROM countries AS countries    ORDER BY countries.Continent DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Accelerate FROM cars_data AS T1    ORDER BY T1.Edispl DESC LIMIT 1",
+    "readable_query": "SELECT cars_data.Accelerate FROM cars_data AS cars_data    ORDER BY cars_data.Edispl DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Continent FROM continents AS T1    ORDER BY T1.ContId DESC LIMIT 1",
+    "readable_query": "SELECT continents.Continent FROM continents AS continents    ORDER BY continents.ContId DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Maker FROM car_makers AS T1    ORDER BY T1.Id DESC LIMIT 1",
+    "readable_query": "SELECT car_makers.Maker FROM car_makers AS car_makers    ORDER BY car_makers.Id DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.CountryName FROM countries AS T1    ORDER BY T1.Continent DESC LIMIT 1",
+    "readable_query": "SELECT countries.CountryName FROM countries AS countries    ORDER BY countries.Continent DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ModelId FROM model_list AS T1 JOIN car_names AS T2 ON T1.Model = T2.Model    ORDER BY T2.MakeId DESC LIMIT 1",
+    "readable_query": "SELECT model_list.ModelId FROM model_list AS model_list JOIN car_names AS car_names ON model_list.Model = car_names.Model    ORDER BY car_names.MakeId DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Maker FROM model_list AS T1 JOIN car_makers AS T2 ON T1.Maker = T2.Id    ORDER BY T2.Id DESC LIMIT 1",
+    "readable_query": "SELECT model_list.Maker FROM model_list AS model_list JOIN car_makers AS car_makers ON model_list.Maker = car_makers.Id    ORDER BY car_makers.Id DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Country FROM car_makers AS T1 JOIN countries AS T2 ON T1.Country = T2.CountryId    ORDER BY T2.CountryId DESC LIMIT 1",
+    "readable_query": "SELECT car_makers.Country FROM car_makers AS car_makers JOIN countries AS countries ON car_makers.Country = countries.CountryId    ORDER BY countries.CountryId DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.FullName FROM car_makers AS T1 JOIN model_list AS T2 ON T1.Id = T2.Maker    ORDER BY T2.Maker DESC LIMIT 1",
+    "readable_query": "SELECT car_makers.FullName FROM car_makers AS car_makers JOIN model_list AS model_list ON car_makers.Id = model_list.Maker    ORDER BY model_list.Maker DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Horsepower FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId    ORDER BY T2.MakeId DESC LIMIT 1",
+    "readable_query": "SELECT cars_data.Horsepower FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId    ORDER BY car_names.MakeId DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Id FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId    ORDER BY T2.MakeId DESC LIMIT 1",
+    "readable_query": "SELECT cars_data.Id FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId    ORDER BY car_names.MakeId DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.FullName FROM car_makers AS T1 JOIN countries AS T2 ON T1.Country = T2.CountryId    ORDER BY T2.CountryId DESC LIMIT 1",
+    "readable_query": "SELECT car_makers.FullName FROM car_makers AS car_makers JOIN countries AS countries ON car_makers.Country = countries.CountryId    ORDER BY countries.CountryId DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.CountryName FROM countries AS T1 JOIN car_makers AS T2 ON T1.CountryId = T2.Country    ORDER BY T2.Id DESC LIMIT 1",
+    "readable_query": "SELECT countries.CountryName FROM countries AS countries JOIN car_makers AS car_makers ON countries.CountryId = car_makers.Country    ORDER BY car_makers.Id DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Maker FROM car_makers AS T1 JOIN countries AS T2 ON T1.Country = T2.CountryId    ORDER BY T2.CountryId DESC LIMIT 1",
+    "readable_query": "SELECT car_makers.Maker FROM car_makers AS car_makers JOIN countries AS countries ON car_makers.Country = countries.CountryId    ORDER BY countries.CountryId DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ContId FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent    ORDER BY T2.CountryId DESC LIMIT 1",
+    "readable_query": "SELECT continents.ContId FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent    ORDER BY countries.CountryId DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Cylinders FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId    ORDER BY T2.MakeId ASC LIMIT 1",
+    "readable_query": "SELECT cars_data.Cylinders FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId    ORDER BY car_names.MakeId ASC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Edispl FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId    ORDER BY T2.MakeId ASC LIMIT 1",
+    "readable_query": "SELECT cars_data.Edispl FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId    ORDER BY car_names.MakeId ASC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.CountryName FROM countries AS T1 JOIN continents AS T2 ON T1.Continent = T2.ContId    ORDER BY T2.ContId ASC LIMIT 1",
+    "readable_query": "SELECT countries.CountryName FROM countries AS countries JOIN continents AS continents ON countries.Continent = continents.ContId    ORDER BY continents.ContId ASC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Continent FROM countries AS T1 JOIN continents AS T2 ON T1.Continent = T2.ContId    ORDER BY T2.ContId ASC LIMIT 1",
+    "readable_query": "SELECT countries.Continent FROM countries AS countries JOIN continents AS continents ON countries.Continent = continents.ContId    ORDER BY continents.ContId ASC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Year FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId    ORDER BY T2.MakeId ASC LIMIT 1",
+    "readable_query": "SELECT cars_data.Year FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId    ORDER BY car_names.MakeId ASC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ModelId FROM model_list AS T1 JOIN car_makers AS T2 ON T1.Maker = T2.Id    ORDER BY T2.Id ASC LIMIT 1",
+    "readable_query": "SELECT model_list.ModelId FROM model_list AS model_list JOIN car_makers AS car_makers ON model_list.Maker = car_makers.Id    ORDER BY car_makers.Id ASC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ContId FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent    ORDER BY T2.Continent ASC LIMIT 1",
+    "readable_query": "SELECT continents.ContId FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent    ORDER BY countries.Continent ASC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Make FROM car_names AS T1 JOIN cars_data AS T2 ON T1.MakeId = T2.Id    ORDER BY T2.Edispl ASC LIMIT 1",
+    "readable_query": "SELECT car_names.Make FROM car_names AS car_names JOIN cars_data AS cars_data ON car_names.MakeId = cars_data.Id    ORDER BY cars_data.Edispl ASC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Country FROM car_makers AS T1 JOIN model_list AS T2 ON T1.Id = T2.Maker    ORDER BY T2.Maker ASC LIMIT 1",
+    "readable_query": "SELECT car_makers.Country FROM car_makers AS car_makers JOIN model_list AS model_list ON car_makers.Id = model_list.Maker    ORDER BY model_list.Maker ASC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Continent FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent    ORDER BY T2.CountryId ASC LIMIT 1",
+    "readable_query": "SELECT continents.Continent FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent    ORDER BY countries.CountryId ASC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Horsepower, T1.Id FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId    ORDER BY T2.MakeId DESC LIMIT 1",
+    "readable_query": "SELECT cars_data.Horsepower, cars_data.Id FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId    ORDER BY car_names.MakeId DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Make, T1.Model FROM car_names AS T1 JOIN cars_data AS T2 ON T1.MakeId = T2.Id    ORDER BY T2.Accelerate DESC LIMIT 1",
+    "readable_query": "SELECT car_names.Make, car_names.Model FROM car_names AS car_names JOIN cars_data AS cars_data ON car_names.MakeId = cars_data.Id    ORDER BY cars_data.Accelerate DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.FullName, T1.Maker FROM car_makers AS T1 JOIN model_list AS T2 ON T1.Id = T2.Maker    ORDER BY T2.ModelId DESC LIMIT 1",
+    "readable_query": "SELECT car_makers.FullName, car_makers.Maker FROM car_makers AS car_makers JOIN model_list AS model_list ON car_makers.Id = model_list.Maker    ORDER BY model_list.ModelId DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Maker, T1.FullName FROM car_makers AS T1 JOIN countries AS T2 ON T1.Country = T2.CountryId    ORDER BY T2.CountryId DESC LIMIT 1",
+    "readable_query": "SELECT car_makers.Maker, car_makers.FullName FROM car_makers AS car_makers JOIN countries AS countries ON car_makers.Country = countries.CountryId    ORDER BY countries.CountryId DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Accelerate, T1.Cylinders FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId    ORDER BY T2.MakeId DESC LIMIT 1",
+    "readable_query": "SELECT cars_data.Accelerate, cars_data.Cylinders FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId    ORDER BY car_names.MakeId DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ContId, T1.Continent FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent    ORDER BY T2.CountryId DESC LIMIT 1",
+    "readable_query": "SELECT continents.ContId, continents.Continent FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent    ORDER BY countries.CountryId DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.FullName, T1.Country FROM car_makers AS T1 JOIN model_list AS T2 ON T1.Id = T2.Maker    ORDER BY T2.Maker DESC LIMIT 1",
+    "readable_query": "SELECT car_makers.FullName, car_makers.Country FROM car_makers AS car_makers JOIN model_list AS model_list ON car_makers.Id = model_list.Maker    ORDER BY model_list.Maker DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Continent, T1.CountryName FROM countries AS T1 JOIN continents AS T2 ON T1.Continent = T2.ContId    ORDER BY T2.ContId DESC LIMIT 1",
+    "readable_query": "SELECT countries.Continent, countries.CountryName FROM countries AS countries JOIN continents AS continents ON countries.Continent = continents.ContId    ORDER BY continents.ContId DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.CountryName, T1.Continent FROM countries AS T1 JOIN car_makers AS T2 ON T1.CountryId = T2.Country    ORDER BY T2.Id DESC LIMIT 1",
+    "readable_query": "SELECT countries.CountryName, countries.Continent FROM countries AS countries JOIN car_makers AS car_makers ON countries.CountryId = car_makers.Country    ORDER BY car_makers.Id DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Continent, T1.CountryId FROM countries AS T1 JOIN continents AS T2 ON T1.Continent = T2.ContId    ORDER BY T2.ContId DESC LIMIT 1",
+    "readable_query": "SELECT countries.Continent, countries.CountryId FROM countries AS countries JOIN continents AS continents ON countries.Continent = continents.ContId    ORDER BY continents.ContId DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Horsepower) FROM cars_data AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  cars_data.Horsepower) FROM cars_data AS cars_data"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Continent) FROM continents AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  continents.Continent) FROM continents AS continents"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.FullName) FROM car_makers AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  car_makers.FullName) FROM car_makers AS car_makers"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.ContId) FROM continents AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  continents.ContId) FROM continents AS continents"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Make) FROM car_names AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  car_names.Make) FROM car_names AS car_names"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Continent) FROM countries AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  countries.Continent) FROM countries AS countries"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.MPG) FROM cars_data AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  cars_data.MPG) FROM cars_data AS cars_data"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Year) FROM cars_data AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  cars_data.Year) FROM cars_data AS cars_data"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Id) FROM cars_data AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  cars_data.Id) FROM cars_data AS cars_data"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.MakeId) FROM car_names AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  car_names.MakeId) FROM car_names AS car_names"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.ContId) FROM continents AS T1",
+    "readable_query": "SELECT avg( continents.ContId) FROM continents AS continents"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.MakeId) FROM car_names AS T1",
+    "readable_query": "SELECT avg( car_names.MakeId) FROM car_names AS car_names"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.CountryId) FROM countries AS T1",
+    "readable_query": "SELECT avg( countries.CountryId) FROM countries AS countries"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Id) FROM car_makers AS T1",
+    "readable_query": "SELECT avg( car_makers.Id) FROM car_makers AS car_makers"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Continent) FROM countries AS T1",
+    "readable_query": "SELECT avg( countries.Continent) FROM countries AS countries"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Id) FROM cars_data AS T1",
+    "readable_query": "SELECT avg( cars_data.Id) FROM cars_data AS cars_data"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Edispl) FROM cars_data AS T1",
+    "readable_query": "SELECT avg( cars_data.Edispl) FROM cars_data AS cars_data"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.ModelId) FROM model_list AS T1",
+    "readable_query": "SELECT avg( model_list.ModelId) FROM model_list AS model_list"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Maker) FROM model_list AS T1",
+    "readable_query": "SELECT avg( model_list.Maker) FROM model_list AS model_list"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Year) FROM cars_data AS T1",
+    "readable_query": "SELECT avg( cars_data.Year) FROM cars_data AS cars_data"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.ContId FROM continents AS T1",
+    "readable_query": "SELECT continents.ContId FROM continents AS continents"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Continent FROM countries AS T1",
+    "readable_query": "SELECT countries.Continent FROM countries AS countries"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.ModelId FROM model_list AS T1",
+    "readable_query": "SELECT model_list.ModelId FROM model_list AS model_list"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Country FROM car_makers AS T1",
+    "readable_query": "SELECT car_makers.Country FROM car_makers AS car_makers"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Cylinders FROM cars_data AS T1",
+    "readable_query": "SELECT cars_data.Cylinders FROM cars_data AS cars_data"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.MakeId FROM car_names AS T1",
+    "readable_query": "SELECT car_names.MakeId FROM car_names AS car_names"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Continent FROM continents AS T1",
+    "readable_query": "SELECT continents.Continent FROM continents AS continents"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Year FROM cars_data AS T1",
+    "readable_query": "SELECT cars_data.Year FROM cars_data AS cars_data"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Id FROM car_makers AS T1",
+    "readable_query": "SELECT car_makers.Id FROM car_makers AS car_makers"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Maker FROM model_list AS T1",
+    "readable_query": "SELECT model_list.Maker FROM model_list AS model_list"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.ModelId FROM model_list AS T1",
+    "readable_query": "SELECT DISTINCT model_list.ModelId FROM model_list AS model_list"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.ContId FROM continents AS T1",
+    "readable_query": "SELECT DISTINCT continents.ContId FROM continents AS continents"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Continent FROM continents AS T1",
+    "readable_query": "SELECT DISTINCT continents.Continent FROM continents AS continents"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Id FROM car_makers AS T1",
+    "readable_query": "SELECT DISTINCT car_makers.Id FROM car_makers AS car_makers"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Country FROM car_makers AS T1",
+    "readable_query": "SELECT DISTINCT car_makers.Country FROM car_makers AS car_makers"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Horsepower FROM cars_data AS T1",
+    "readable_query": "SELECT DISTINCT cars_data.Horsepower FROM cars_data AS cars_data"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.CountryName FROM countries AS T1",
+    "readable_query": "SELECT DISTINCT countries.CountryName FROM countries AS countries"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.MakeId FROM car_names AS T1",
+    "readable_query": "SELECT DISTINCT car_names.MakeId FROM car_names AS car_names"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Id FROM cars_data AS T1",
+    "readable_query": "SELECT DISTINCT cars_data.Id FROM cars_data AS cars_data"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Model FROM car_names AS T1",
+    "readable_query": "SELECT DISTINCT car_names.Model FROM car_names AS car_names"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.CountryName FROM countries AS T1     ORDER BY T1.CountryId ASC",
+    "readable_query": "SELECT countries.CountryName FROM countries AS countries     ORDER BY countries.CountryId ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.FullName FROM car_makers AS T1     ORDER BY T1.Id ASC",
+    "readable_query": "SELECT car_makers.FullName FROM car_makers AS car_makers     ORDER BY car_makers.Id ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Weight FROM cars_data AS T1     ORDER BY T1.Edispl ASC",
+    "readable_query": "SELECT cars_data.Weight FROM cars_data AS cars_data     ORDER BY cars_data.Edispl ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Make FROM car_names AS T1     ORDER BY T1.MakeId ASC",
+    "readable_query": "SELECT car_names.Make FROM car_names AS car_names     ORDER BY car_names.MakeId ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Weight FROM cars_data AS T1     ORDER BY T1.Id ASC",
+    "readable_query": "SELECT cars_data.Weight FROM cars_data AS cars_data     ORDER BY cars_data.Id ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Maker FROM car_makers AS T1     ORDER BY T1.Id ASC",
+    "readable_query": "SELECT car_makers.Maker FROM car_makers AS car_makers     ORDER BY car_makers.Id ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Continent FROM countries AS T1     ORDER BY T1.CountryId ASC",
+    "readable_query": "SELECT countries.Continent FROM countries AS countries     ORDER BY countries.CountryId ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.CountryName FROM countries AS T1     ORDER BY T1.Continent ASC",
+    "readable_query": "SELECT countries.CountryName FROM countries AS countries     ORDER BY countries.Continent ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Id FROM cars_data AS T1     ORDER BY T1.Accelerate ASC",
+    "readable_query": "SELECT cars_data.Id FROM cars_data AS cars_data     ORDER BY cars_data.Accelerate ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Model FROM model_list AS T1     ORDER BY T1.ModelId ASC",
+    "readable_query": "SELECT model_list.Model FROM model_list AS model_list     ORDER BY model_list.ModelId ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Continent FROM countries AS T1     ORDER BY T1.CountryId DESC",
+    "readable_query": "SELECT countries.Continent FROM countries AS countries     ORDER BY countries.CountryId DESC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.CountryName FROM countries AS T1     ORDER BY T1.CountryId DESC",
+    "readable_query": "SELECT countries.CountryName FROM countries AS countries     ORDER BY countries.CountryId DESC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.FullName FROM car_makers AS T1     ORDER BY T1.Id DESC",
+    "readable_query": "SELECT car_makers.FullName FROM car_makers AS car_makers     ORDER BY car_makers.Id DESC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.CountryId FROM countries AS T1     ORDER BY T1.Continent DESC",
+    "readable_query": "SELECT countries.CountryId FROM countries AS countries     ORDER BY countries.Continent DESC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Maker FROM car_makers AS T1     ORDER BY T1.Id DESC",
+    "readable_query": "SELECT car_makers.Maker FROM car_makers AS car_makers     ORDER BY car_makers.Id DESC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Model FROM model_list AS T1     ORDER BY T1.Maker DESC",
+    "readable_query": "SELECT model_list.Model FROM model_list AS model_list     ORDER BY model_list.Maker DESC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Horsepower FROM cars_data AS T1     ORDER BY T1.Weight DESC",
+    "readable_query": "SELECT cars_data.Horsepower FROM cars_data AS cars_data     ORDER BY cars_data.Weight DESC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Maker FROM model_list AS T1     ORDER BY T1.ModelId DESC",
+    "readable_query": "SELECT model_list.Maker FROM model_list AS model_list     ORDER BY model_list.ModelId DESC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.MPG FROM cars_data AS T1     ORDER BY T1.Accelerate DESC",
+    "readable_query": "SELECT cars_data.MPG FROM cars_data AS cars_data     ORDER BY cars_data.Accelerate DESC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Make FROM car_names AS T1     ORDER BY T1.MakeId DESC",
+    "readable_query": "SELECT car_names.Make FROM car_names AS car_names     ORDER BY car_names.MakeId DESC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Continent, T1.CountryName FROM countries AS T1     ORDER BY T1.CountryName ASC",
+    "readable_query": "SELECT countries.Continent, countries.CountryName FROM countries AS countries     ORDER BY countries.CountryName ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Model, T1.Maker FROM model_list AS T1     ORDER BY T1.Maker ASC",
+    "readable_query": "SELECT model_list.Model, model_list.Maker FROM model_list AS model_list     ORDER BY model_list.Maker ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.FullName, T1.Maker FROM car_makers AS T1     ORDER BY T1.Maker ASC",
+    "readable_query": "SELECT car_makers.FullName, car_makers.Maker FROM car_makers AS car_makers     ORDER BY car_makers.Maker ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.MakeId, T1.Model FROM car_names AS T1     ORDER BY T1.Model ASC",
+    "readable_query": "SELECT car_names.MakeId, car_names.Model FROM car_names AS car_names     ORDER BY car_names.Model ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.FullName, T1.Id FROM car_makers AS T1     ORDER BY T1.Id ASC",
+    "readable_query": "SELECT car_makers.FullName, car_makers.Id FROM car_makers AS car_makers     ORDER BY car_makers.Id ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Make, T1.MakeId FROM car_names AS T1     ORDER BY T1.MakeId ASC",
+    "readable_query": "SELECT car_names.Make, car_names.MakeId FROM car_names AS car_names     ORDER BY car_names.MakeId ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.CountryName, T1.CountryId FROM countries AS T1     ORDER BY T1.CountryId ASC",
+    "readable_query": "SELECT countries.CountryName, countries.CountryId FROM countries AS countries     ORDER BY countries.CountryId ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Maker, T1.Id FROM car_makers AS T1     ORDER BY T1.Id ASC",
+    "readable_query": "SELECT car_makers.Maker, car_makers.Id FROM car_makers AS car_makers     ORDER BY car_makers.Id ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Make, T1.Model FROM car_names AS T1     ORDER BY T1.Model ASC",
+    "readable_query": "SELECT car_names.Make, car_names.Model FROM car_names AS car_names     ORDER BY car_names.Model ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.MakeId, T1.Make FROM car_names AS T1     ORDER BY T1.Make ASC",
+    "readable_query": "SELECT car_names.MakeId, car_names.Make FROM car_names AS car_names     ORDER BY car_names.Make ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Model FROM car_names AS T1 JOIN cars_data AS T2 ON T1.MakeId = T2.Id JOIN model_list AS T3 ON T1.Model = T3.Model WHERE T2.MPG = \"27.2\" and T3.Maker = 22",
+    "readable_query": "SELECT car_names.Model FROM car_names AS car_names JOIN cars_data AS cars_data ON car_names.MakeId = cars_data.Id JOIN model_list AS model_list ON car_names.Model = model_list.Model WHERE cars_data.MPG = \"27.2\" and model_list.Maker = 22"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Year FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId JOIN model_list AS T3 ON T2.Model = T3.Model WHERE T2.Model = \"renault\" and T3.ModelId = 11",
+    "readable_query": "SELECT cars_data.Year FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId JOIN model_list AS model_list ON car_names.Model = model_list.Model WHERE car_names.Model = \"renault\" and model_list.ModelId = 11"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Id FROM car_makers AS T1 JOIN countries AS T2 ON T1.Country = T2.CountryId JOIN model_list AS T3 ON T1.Id = T3.Maker WHERE T2.CountryName = \"uk\" and T3.Maker = 18",
+    "readable_query": "SELECT car_makers.Id FROM car_makers AS car_makers JOIN countries AS countries ON car_makers.Country = countries.CountryId JOIN model_list AS model_list ON car_makers.Id = model_list.Maker WHERE countries.CountryName = \"uk\" and model_list.Maker = 18"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.CountryName FROM countries AS T1 JOIN car_makers AS T2 ON T1.CountryId = T2.Country JOIN continents AS T3 ON T1.Continent = T3.ContId WHERE T2.Country = \"2\" and T3.ContId = 4",
+    "readable_query": "SELECT countries.CountryName FROM countries AS countries JOIN car_makers AS car_makers ON countries.CountryId = car_makers.Country JOIN continents AS continents ON countries.Continent = continents.ContId WHERE car_makers.Country = \"2\" and continents.ContId = 4"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.ModelId FROM model_list AS T1 JOIN car_names AS T2 ON T1.Model = T2.Model JOIN car_makers AS T3 ON T1.Maker = T3.Id WHERE T2.MakeId = 292 and T3.Id = 19",
+    "readable_query": "SELECT model_list.ModelId FROM model_list AS model_list JOIN car_names AS car_names ON model_list.Model = car_names.Model JOIN car_makers AS car_makers ON model_list.Maker = car_makers.Id WHERE car_names.MakeId = 292 and car_makers.Id = 19"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Make FROM car_names AS T1 JOIN cars_data AS T2 ON T1.MakeId = T2.Id JOIN model_list AS T3 ON T1.Model = T3.Model WHERE T2.Weight = 3150 and T3.Maker = 9",
+    "readable_query": "SELECT car_names.Make FROM car_names AS car_names JOIN cars_data AS cars_data ON car_names.MakeId = cars_data.Id JOIN model_list AS model_list ON car_names.Model = model_list.Model WHERE cars_data.Weight = 3150 and model_list.Maker = 9"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.ContId FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent JOIN car_makers AS T3 ON T2.CountryId = T3.Country WHERE T2.CountryName = \"italy\" and T3.FullName = \"Kia Motors\"",
+    "readable_query": "SELECT continents.ContId FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent JOIN car_makers AS car_makers ON countries.CountryId = car_makers.Country WHERE countries.CountryName = \"italy\" and car_makers.FullName = \"Kia Motors\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Maker FROM model_list AS T1 JOIN car_names AS T2 ON T1.Model = T2.Model JOIN car_makers AS T3 ON T1.Maker = T3.Id WHERE T2.MakeId = 224 and T3.Id = 22",
+    "readable_query": "SELECT model_list.Maker FROM model_list AS model_list JOIN car_names AS car_names ON model_list.Model = car_names.Model JOIN car_makers AS car_makers ON model_list.Maker = car_makers.Id WHERE car_names.MakeId = 224 and car_makers.Id = 22"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Edispl FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId JOIN model_list AS T3 ON T2.Model = T3.Model WHERE T2.MakeId = 65 and T3.Maker = 15",
+    "readable_query": "SELECT cars_data.Edispl FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId JOIN model_list AS model_list ON car_names.Model = model_list.Model WHERE car_names.MakeId = 65 and model_list.Maker = 15"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Continent FROM countries AS T1 JOIN continents AS T2 ON T1.Continent = T2.ContId JOIN car_makers AS T3 ON T1.CountryId = T3.Country WHERE T2.ContId = 3 and T3.Id = 11",
+    "readable_query": "SELECT countries.Continent FROM countries AS countries JOIN continents AS continents ON countries.Continent = continents.ContId JOIN car_makers AS car_makers ON countries.CountryId = car_makers.Country WHERE continents.ContId = 3 and car_makers.Id = 11"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Year FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId WHERE T2.MakeId = 252 or T2.MakeId = 339",
+    "readable_query": "SELECT cars_data.Year FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId WHERE car_names.MakeId = 252 or car_names.MakeId = 339"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Maker FROM car_makers AS T1 JOIN countries AS T2 ON T1.Country = T2.CountryId WHERE T2.CountryId = 14 or T2.CountryId = 5",
+    "readable_query": "SELECT car_makers.Maker FROM car_makers AS car_makers JOIN countries AS countries ON car_makers.Country = countries.CountryId WHERE countries.CountryId = 14 or countries.CountryId = 5"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Maker FROM model_list AS T1 JOIN car_makers AS T2 ON T1.Maker = T2.Id WHERE T2.FullName = \"American Motor Company\" or T2.FullName = \"Opel\"",
+    "readable_query": "SELECT model_list.Maker FROM model_list AS model_list JOIN car_makers AS car_makers ON model_list.Maker = car_makers.Id WHERE car_makers.FullName = \"American Motor Company\" or car_makers.FullName = \"Opel\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Country FROM car_makers AS T1 JOIN model_list AS T2 ON T1.Id = T2.Maker WHERE T2.ModelId = 35 or T2.ModelId = 1",
+    "readable_query": "SELECT car_makers.Country FROM car_makers AS car_makers JOIN model_list AS model_list ON car_makers.Id = model_list.Maker WHERE model_list.ModelId = 35 or model_list.ModelId = 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Continent FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent WHERE T2.CountryName = \"nigeria\" or T2.CountryName = \"mexico\"",
+    "readable_query": "SELECT continents.Continent FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent WHERE countries.CountryName = \"nigeria\" or countries.CountryName = \"mexico\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.CountryName FROM countries AS T1 JOIN car_makers AS T2 ON T1.CountryId = T2.Country WHERE T2.FullName = \"Daimler Benz\" or T2.FullName = \"Opel\"",
+    "readable_query": "SELECT countries.CountryName FROM countries AS countries JOIN car_makers AS car_makers ON countries.CountryId = car_makers.Country WHERE car_makers.FullName = \"Daimler Benz\" or car_makers.FullName = \"Opel\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Model FROM model_list AS T1 JOIN car_makers AS T2 ON T1.Maker = T2.Id WHERE T2.Id = 8 or T2.Id = 20",
+    "readable_query": "SELECT model_list.Model FROM model_list AS model_list JOIN car_makers AS car_makers ON model_list.Maker = car_makers.Id WHERE car_makers.Id = 8 or car_makers.Id = 20"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Accelerate FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId WHERE T2.Model = \"hi\" or T2.Model = \"mercury\"",
+    "readable_query": "SELECT cars_data.Accelerate FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId WHERE car_names.Model = \"hi\" or car_names.Model = \"mercury\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Model FROM car_names AS T1 JOIN model_list AS T2 ON T1.Model = T2.Model WHERE T2.Maker = 18 or T2.Maker = 21",
+    "readable_query": "SELECT car_names.Model FROM car_names AS car_names JOIN model_list AS model_list ON car_names.Model = model_list.Model WHERE model_list.Maker = 18 or model_list.Maker = 21"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.CountryName FROM countries AS T1 JOIN car_makers AS T2 ON T1.CountryId = T2.Country WHERE T2.Country = \"6\" or T2.Country = \"4\"",
+    "readable_query": "SELECT countries.CountryName FROM countries AS countries JOIN car_makers AS car_makers ON countries.CountryId = car_makers.Country WHERE car_makers.Country = \"6\" or car_makers.Country = \"4\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Make FROM car_names AS T1 WHERE T1.MakeId = 368 and T1.Model = \"capri\"",
+    "readable_query": "SELECT car_names.Make FROM car_names AS car_names WHERE car_names.MakeId = 368 and car_names.Model = \"capri\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Model FROM car_names AS T1 WHERE T1.Make = \"ford thunderbird\" and T1.MakeId = 133",
+    "readable_query": "SELECT car_names.Model FROM car_names AS car_names WHERE car_names.Make = \"ford thunderbird\" and car_names.MakeId = 133"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.CountryName FROM countries AS T1 WHERE T1.CountryId = 14 and T1.Continent = 3",
+    "readable_query": "SELECT countries.CountryName FROM countries AS countries WHERE countries.CountryId = 14 and countries.Continent = 3"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.CountryName FROM countries AS T1 WHERE T1.Continent = 5 and T1.CountryId = 7",
+    "readable_query": "SELECT countries.CountryName FROM countries AS countries WHERE countries.Continent = 5 and countries.CountryId = 7"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Cylinders FROM cars_data AS T1 WHERE T1.Edispl = 304.0 and T1.Year = 1982",
+    "readable_query": "SELECT cars_data.Cylinders FROM cars_data AS cars_data WHERE cars_data.Edispl = 304.0 and cars_data.Year = 1982"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Cylinders FROM cars_data AS T1 WHERE T1.Edispl = 262.0 and T1.Year = 1971",
+    "readable_query": "SELECT cars_data.Cylinders FROM cars_data AS cars_data WHERE cars_data.Edispl = 262.0 and cars_data.Year = 1971"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Maker FROM model_list AS T1 WHERE T1.Model = \"peugeot\" and T1.ModelId = 22",
+    "readable_query": "SELECT model_list.Maker FROM model_list AS model_list WHERE model_list.Model = \"peugeot\" and model_list.ModelId = 22"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Id FROM cars_data AS T1 WHERE T1.Edispl = 113.0 and T1.Horsepower = \"125\"",
+    "readable_query": "SELECT cars_data.Id FROM cars_data AS cars_data WHERE cars_data.Edispl = 113.0 and cars_data.Horsepower = \"125\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Country FROM car_makers AS T1 WHERE T1.Id = 14 and T1.Maker = \"nissan\"",
+    "readable_query": "SELECT car_makers.Country FROM car_makers AS car_makers WHERE car_makers.Id = 14 and car_makers.Maker = \"nissan\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.FullName FROM car_makers AS T1 WHERE T1.Maker = \"chrysler\" and T1.Id = 8",
+    "readable_query": "SELECT car_makers.FullName FROM car_makers AS car_makers WHERE car_makers.Maker = \"chrysler\" and car_makers.Id = 8"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Make) FROM car_names AS T1 JOIN model_list AS T2 ON T1.Model = T2.Model WHERE T1.MakeId = 306 and T2.Model = \"subaru\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  car_names.Make) FROM car_names AS car_names JOIN model_list AS model_list ON car_names.Model = model_list.Model WHERE car_names.MakeId = 306 and model_list.Model = \"subaru\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.MPG) FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId WHERE T1.Weight = 2075 and T2.Model = \"chrysler\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  cars_data.MPG) FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId WHERE cars_data.Weight = 2075 and car_names.Model = \"chrysler\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Continent) FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent WHERE T1.ContId = 1 and T2.CountryName = \"italy\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  continents.Continent) FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent WHERE continents.ContId = 1 and countries.CountryName = \"italy\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.CountryId) FROM countries AS T1 JOIN car_makers AS T2 ON T1.CountryId = T2.Country WHERE T1.CountryName = \"japan\" and T2.Country = \"2\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  countries.CountryId) FROM countries AS countries JOIN car_makers AS car_makers ON countries.CountryId = car_makers.Country WHERE countries.CountryName = \"japan\" and car_makers.Country = \"2\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Country) FROM car_makers AS T1 JOIN model_list AS T2 ON T1.Id = T2.Maker WHERE T1.Id = 15 and T2.Maker = 5",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  car_makers.Country) FROM car_makers AS car_makers JOIN model_list AS model_list ON car_makers.Id = model_list.Maker WHERE car_makers.Id = 15 and model_list.Maker = 5"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Id) FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId WHERE T1.Edispl = 171.0 and T2.Make = \"chrysler lebaron medallion\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  cars_data.Id) FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId WHERE cars_data.Edispl = 171.0 and car_names.Make = \"chrysler lebaron medallion\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Continent) FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent WHERE T1.ContId = 3 and T2.CountryName = \"germany\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  continents.Continent) FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent WHERE continents.ContId = 3 and countries.CountryName = \"germany\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Edispl) FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId WHERE T1.Accelerate = 15.0 and T2.Make = \"dodge aspen se\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  cars_data.Edispl) FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId WHERE cars_data.Accelerate = 15.0 and car_names.Make = \"dodge aspen se\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Model) FROM model_list AS T1 JOIN car_makers AS T2 ON T1.Maker = T2.Id WHERE T1.ModelId = 28 and T2.Id = 6",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  model_list.Model) FROM model_list AS model_list JOIN car_makers AS car_makers ON model_list.Maker = car_makers.Id WHERE model_list.ModelId = 28 and car_makers.Id = 6"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.ContId) FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent WHERE T1.Continent = \"asia\" and T2.CountryId = 12",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  continents.ContId) FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent WHERE continents.Continent = \"asia\" and countries.CountryId = 12"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.CountryName FROM countries AS T1 WHERE T1.CountryId = 13 or T1.Continent = 3",
+    "readable_query": "SELECT countries.CountryName FROM countries AS countries WHERE countries.CountryId = 13 or countries.Continent = 3"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Continent FROM countries AS T1 WHERE T1.CountryName = \"russia\" or T1.CountryId = 7",
+    "readable_query": "SELECT countries.Continent FROM countries AS countries WHERE countries.CountryName = \"russia\" or countries.CountryId = 7"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.CountryName FROM countries AS T1 WHERE T1.Continent = 4 or T1.CountryId = 7",
+    "readable_query": "SELECT countries.CountryName FROM countries AS countries WHERE countries.Continent = 4 or countries.CountryId = 7"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Model FROM model_list AS T1 WHERE T1.Maker = 22 or T1.ModelId = 6",
+    "readable_query": "SELECT model_list.Model FROM model_list AS model_list WHERE model_list.Maker = 22 or model_list.ModelId = 6"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.FullName FROM car_makers AS T1 WHERE T1.Maker = \"ford\" or T1.Country = \"7\"",
+    "readable_query": "SELECT car_makers.FullName FROM car_makers AS car_makers WHERE car_makers.Maker = \"ford\" or car_makers.Country = \"7\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Year FROM cars_data AS T1 WHERE T1.Weight = 2254 or T1.Id = 270",
+    "readable_query": "SELECT cars_data.Year FROM cars_data AS cars_data WHERE cars_data.Weight = 2254 or cars_data.Id = 270"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Weight FROM cars_data AS T1 WHERE T1.Id = 70 or T1.Year = 1972",
+    "readable_query": "SELECT cars_data.Weight FROM cars_data AS cars_data WHERE cars_data.Id = 70 or cars_data.Year = 1972"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.ModelId FROM model_list AS T1 WHERE T1.Maker = 8 or T1.Model = \"mazda\"",
+    "readable_query": "SELECT model_list.ModelId FROM model_list AS model_list WHERE model_list.Maker = 8 or model_list.Model = \"mazda\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Model FROM model_list AS T1 WHERE T1.Maker = 11 or T1.ModelId = 22",
+    "readable_query": "SELECT model_list.Model FROM model_list AS model_list WHERE model_list.Maker = 11 or model_list.ModelId = 22"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Country FROM car_makers AS T1 WHERE T1.FullName = \"Toyota\" or T1.Id = 5",
+    "readable_query": "SELECT car_makers.Country FROM car_makers AS car_makers WHERE car_makers.FullName = \"Toyota\" or car_makers.Id = 5"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId WHERE T2.Model = \"subaru\" and T2.Make = \"buick century special\"",
+    "readable_query": "SELECT count(*) FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId WHERE car_names.Model = \"subaru\" and car_names.Make = \"buick century special\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId WHERE T2.Model = \"datsun\" and T2.Make = \"plymouth volare\"",
+    "readable_query": "SELECT count(*) FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId WHERE car_names.Model = \"datsun\" and car_names.Make = \"plymouth volare\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent WHERE T2.CountryId = 6 and T2.Continent = 1",
+    "readable_query": "SELECT count(*) FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent WHERE countries.CountryId = 6 and countries.Continent = 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM car_makers AS T1 JOIN model_list AS T2 ON T1.Id = T2.Maker WHERE T2.Model = \"mercury\" and T2.ModelId = 12",
+    "readable_query": "SELECT count(*) FROM car_makers AS car_makers JOIN model_list AS model_list ON car_makers.Id = model_list.Maker WHERE model_list.Model = \"mercury\" and model_list.ModelId = 12"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM car_makers AS T1 JOIN model_list AS T2 ON T1.Id = T2.Maker WHERE T2.Maker = 14 and T2.ModelId = 4",
+    "readable_query": "SELECT count(*) FROM car_makers AS car_makers JOIN model_list AS model_list ON car_makers.Id = model_list.Maker WHERE model_list.Maker = 14 and model_list.ModelId = 4"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId WHERE T2.Make = \"dodge aries wagon (sw)\" and T2.MakeId = 122",
+    "readable_query": "SELECT count(*) FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId WHERE car_names.Make = \"dodge aries wagon (sw)\" and car_names.MakeId = 122"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM car_makers AS T1 JOIN model_list AS T2 ON T1.Id = T2.Maker WHERE T2.Maker = 6 and T2.Model = \"capri\"",
+    "readable_query": "SELECT count(*) FROM car_makers AS car_makers JOIN model_list AS model_list ON car_makers.Id = model_list.Maker WHERE model_list.Maker = 6 and model_list.Model = \"capri\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent WHERE T2.Continent = 3 and T2.CountryId = 6",
+    "readable_query": "SELECT count(*) FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent WHERE countries.Continent = 3 and countries.CountryId = 6"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent WHERE T2.CountryName = \"sweden\" and T2.Continent = 4",
+    "readable_query": "SELECT count(*) FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent WHERE countries.CountryName = \"sweden\" and countries.Continent = 4"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM car_makers AS T1 JOIN model_list AS T2 ON T1.Id = T2.Maker WHERE T2.ModelId = 27 and T2.Maker = 18",
+    "readable_query": "SELECT count(*) FROM car_makers AS car_makers JOIN model_list AS model_list ON car_makers.Id = model_list.Maker WHERE model_list.ModelId = 27 and model_list.Maker = 18"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.CountryId FROM countries AS T1 WHERE T1.CountryName != \"nigeria\"",
+    "readable_query": "SELECT countries.CountryId FROM countries AS countries WHERE countries.CountryName != \"nigeria\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Accelerate FROM cars_data AS T1 WHERE T1.Year != 1979",
+    "readable_query": "SELECT cars_data.Accelerate FROM cars_data AS cars_data WHERE cars_data.Year != 1979"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Weight FROM cars_data AS T1 WHERE T1.Id != 92",
+    "readable_query": "SELECT cars_data.Weight FROM cars_data AS cars_data WHERE cars_data.Id != 92"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Model FROM model_list AS T1 WHERE T1.ModelId != 23",
+    "readable_query": "SELECT model_list.Model FROM model_list AS model_list WHERE model_list.ModelId != 23"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.CountryName FROM countries AS T1 WHERE T1.CountryId != 9",
+    "readable_query": "SELECT countries.CountryName FROM countries AS countries WHERE countries.CountryId != 9"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Weight FROM cars_data AS T1 WHERE T1.Edispl != 360.0",
+    "readable_query": "SELECT cars_data.Weight FROM cars_data AS cars_data WHERE cars_data.Edispl != 360.0"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Continent FROM continents AS T1 WHERE T1.ContId != 4",
+    "readable_query": "SELECT continents.Continent FROM continents AS continents WHERE continents.ContId != 4"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.MakeId FROM car_names AS T1 WHERE T1.Model != \"pontiac\"",
+    "readable_query": "SELECT car_names.MakeId FROM car_names AS car_names WHERE car_names.Model != \"pontiac\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Maker FROM model_list AS T1 WHERE T1.ModelId != 17",
+    "readable_query": "SELECT model_list.Maker FROM model_list AS model_list WHERE model_list.ModelId != 17"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.CountryName FROM countries AS T1 WHERE T1.CountryId != 3",
+    "readable_query": "SELECT countries.CountryName FROM countries AS countries WHERE countries.CountryId != 3"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.ContId FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent WHERE T2.CountryName != \"uk\"",
+    "readable_query": "SELECT continents.ContId FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent WHERE countries.CountryName != \"uk\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.MakeId FROM car_names AS T1 JOIN cars_data AS T2 ON T1.MakeId = T2.Id WHERE T2.Cylinders != 3",
+    "readable_query": "SELECT car_names.MakeId FROM car_names AS car_names JOIN cars_data AS cars_data ON car_names.MakeId = cars_data.Id WHERE cars_data.Cylinders != 3"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Cylinders FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId WHERE T2.Make != \"mazda glc\"",
+    "readable_query": "SELECT cars_data.Cylinders FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId WHERE car_names.Make != \"mazda glc\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Id FROM car_makers AS T1 JOIN model_list AS T2 ON T1.Id = T2.Maker WHERE T2.Model != \"chrysler\"",
+    "readable_query": "SELECT car_makers.Id FROM car_makers AS car_makers JOIN model_list AS model_list ON car_makers.Id = model_list.Maker WHERE model_list.Model != \"chrysler\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Model FROM car_names AS T1 JOIN cars_data AS T2 ON T1.MakeId = T2.Id WHERE T2.MPG != \"30.9\"",
+    "readable_query": "SELECT car_names.Model FROM car_names AS car_names JOIN cars_data AS cars_data ON car_names.MakeId = cars_data.Id WHERE cars_data.MPG != \"30.9\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Maker FROM car_makers AS T1 JOIN countries AS T2 ON T1.Country = T2.CountryId WHERE T2.CountryName != \"russia\"",
+    "readable_query": "SELECT car_makers.Maker FROM car_makers AS car_makers JOIN countries AS countries ON car_makers.Country = countries.CountryId WHERE countries.CountryName != \"russia\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Id FROM car_makers AS T1 JOIN countries AS T2 ON T1.Country = T2.CountryId WHERE T2.CountryName != \"italy\"",
+    "readable_query": "SELECT car_makers.Id FROM car_makers AS car_makers JOIN countries AS countries ON car_makers.Country = countries.CountryId WHERE countries.CountryName != \"italy\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.MakeId FROM car_names AS T1 JOIN model_list AS T2 ON T1.Model = T2.Model WHERE T2.Maker != 15",
+    "readable_query": "SELECT car_names.MakeId FROM car_names AS car_names JOIN model_list AS model_list ON car_names.Model = model_list.Model WHERE model_list.Maker != 15"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Make FROM car_names AS T1 JOIN model_list AS T2 ON T1.Model = T2.Model WHERE T2.Maker != 15",
+    "readable_query": "SELECT car_names.Make FROM car_names AS car_names JOIN model_list AS model_list ON car_names.Model = model_list.Model WHERE model_list.Maker != 15"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.ContId FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent WHERE T2.CountryName != \"germany\"",
+    "readable_query": "SELECT continents.ContId FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent WHERE countries.CountryName != \"germany\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.CountryName FROM countries AS T1 JOIN continents AS T2 ON T1.Continent = T2.ContId WHERE T2.Continent = \"europe\"",
+    "readable_query": "SELECT DISTINCT countries.CountryName FROM countries AS countries JOIN continents AS continents ON countries.Continent = continents.ContId WHERE continents.Continent = \"europe\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.MakeId FROM car_names AS T1 JOIN cars_data AS T2 ON T1.MakeId = T2.Id WHERE T2.Id = 391",
+    "readable_query": "SELECT DISTINCT car_names.MakeId FROM car_names AS car_names JOIN cars_data AS cars_data ON car_names.MakeId = cars_data.Id WHERE cars_data.Id = 391"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Id FROM car_makers AS T1 JOIN countries AS T2 ON T1.Country = T2.CountryId WHERE T2.CountryId = 3",
+    "readable_query": "SELECT DISTINCT car_makers.Id FROM car_makers AS car_makers JOIN countries AS countries ON car_makers.Country = countries.CountryId WHERE countries.CountryId = 3"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.ContId FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent WHERE T2.CountryName = \"russia\"",
+    "readable_query": "SELECT DISTINCT continents.ContId FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent WHERE countries.CountryName = \"russia\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Model FROM model_list AS T1 JOIN car_makers AS T2 ON T1.Maker = T2.Id WHERE T2.FullName = \"Ford Motor Company\"",
+    "readable_query": "SELECT DISTINCT model_list.Model FROM model_list AS model_list JOIN car_makers AS car_makers ON model_list.Maker = car_makers.Id WHERE car_makers.FullName = \"Ford Motor Company\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.CountryId FROM countries AS T1 JOIN continents AS T2 ON T1.Continent = T2.ContId WHERE T2.Continent = \"asia\"",
+    "readable_query": "SELECT DISTINCT countries.CountryId FROM countries AS countries JOIN continents AS continents ON countries.Continent = continents.ContId WHERE continents.Continent = \"asia\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.CountryName FROM countries AS T1 JOIN car_makers AS T2 ON T1.CountryId = T2.Country WHERE T2.FullName = \"Ford Motor Company\"",
+    "readable_query": "SELECT DISTINCT countries.CountryName FROM countries AS countries JOIN car_makers AS car_makers ON countries.CountryId = car_makers.Country WHERE car_makers.FullName = \"Ford Motor Company\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.ModelId FROM model_list AS T1 JOIN car_makers AS T2 ON T1.Maker = T2.Id WHERE T2.Id = 14",
+    "readable_query": "SELECT DISTINCT model_list.ModelId FROM model_list AS model_list JOIN car_makers AS car_makers ON model_list.Maker = car_makers.Id WHERE car_makers.Id = 14"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Horsepower FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId WHERE T2.Model = \"mazda\"",
+    "readable_query": "SELECT DISTINCT cars_data.Horsepower FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId WHERE car_names.Model = \"mazda\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Model FROM car_names AS T1 JOIN cars_data AS T2 ON T1.MakeId = T2.Id WHERE T2.Accelerate = 12.8",
+    "readable_query": "SELECT DISTINCT car_names.Model FROM car_names AS car_names JOIN cars_data AS cars_data ON car_names.MakeId = cars_data.Id WHERE cars_data.Accelerate = 12.8"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.MakeId) FROM car_names AS T1 WHERE T1.Model = \"triumph\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  car_names.MakeId) FROM car_names AS car_names WHERE car_names.Model = \"triumph\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Id) FROM car_makers AS T1 WHERE T1.FullName = \"Kia Motors\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  car_makers.Id) FROM car_makers AS car_makers WHERE car_makers.FullName = \"Kia Motors\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Weight) FROM cars_data AS T1 WHERE T1.Horsepower = \"138\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  cars_data.Weight) FROM cars_data AS cars_data WHERE cars_data.Horsepower = \"138\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.ContId) FROM continents AS T1 WHERE T1.Continent = \"australia\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  continents.ContId) FROM continents AS continents WHERE continents.Continent = \"australia\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.CountryName) FROM countries AS T1 WHERE T1.CountryId = 4",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  countries.CountryName) FROM countries AS countries WHERE countries.CountryId = 4"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.ModelId) FROM model_list AS T1 WHERE T1.Model = \"buick\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  model_list.ModelId) FROM model_list AS model_list WHERE model_list.Model = \"buick\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Model) FROM car_names AS T1 WHERE T1.Make = \"mercury zephyr\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  car_names.Model) FROM car_names AS car_names WHERE car_names.Make = \"mercury zephyr\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.CountryId) FROM countries AS T1 WHERE T1.Continent = 5",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  countries.CountryId) FROM countries AS countries WHERE countries.Continent = 5"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Maker) FROM model_list AS T1 WHERE T1.ModelId = 35",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  model_list.Maker) FROM model_list AS model_list WHERE model_list.ModelId = 35"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Country) FROM car_makers AS T1 WHERE T1.Id = 16",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  car_makers.Country) FROM car_makers AS car_makers WHERE car_makers.Id = 16"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Edispl FROM cars_data AS T1 WHERE T1.Weight > 4060",
+    "readable_query": "SELECT cars_data.Edispl FROM cars_data AS cars_data WHERE cars_data.Weight > 4060"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.FullName FROM car_makers AS T1 WHERE T1.Id > 19",
+    "readable_query": "SELECT car_makers.FullName FROM car_makers AS car_makers WHERE car_makers.Id > 19"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Weight FROM cars_data AS T1 WHERE T1.Id > 94",
+    "readable_query": "SELECT cars_data.Weight FROM cars_data AS cars_data WHERE cars_data.Id > 94"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Continent FROM continents AS T1 WHERE T1.ContId > 1",
+    "readable_query": "SELECT continents.Continent FROM continents AS continents WHERE continents.ContId > 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Continent FROM countries AS T1 WHERE T1.CountryId > 12",
+    "readable_query": "SELECT countries.Continent FROM countries AS countries WHERE countries.CountryId > 12"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Cylinders FROM cars_data AS T1 WHERE T1.Id > 102",
+    "readable_query": "SELECT cars_data.Cylinders FROM cars_data AS cars_data WHERE cars_data.Id > 102"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.MPG FROM cars_data AS T1 WHERE T1.Weight > 2587",
+    "readable_query": "SELECT cars_data.MPG FROM cars_data AS cars_data WHERE cars_data.Weight > 2587"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Model FROM car_names AS T1 WHERE T1.MakeId > 322",
+    "readable_query": "SELECT car_names.Model FROM car_names AS car_names WHERE car_names.MakeId > 322"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Year FROM cars_data AS T1 WHERE T1.Id > 406",
+    "readable_query": "SELECT cars_data.Year FROM cars_data AS cars_data WHERE cars_data.Id > 406"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Year FROM cars_data AS T1 WHERE T1.Accelerate > 23.5",
+    "readable_query": "SELECT cars_data.Year FROM cars_data AS cars_data WHERE cars_data.Accelerate > 23.5"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Edispl, T2.Make, T3.Model FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId JOIN model_list AS T3 ON T2.Model = T3.Model",
+    "readable_query": "SELECT cars_data.Edispl, car_names.Make, model_list.Model FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId JOIN model_list AS model_list ON car_names.Model = model_list.Model"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Maker, T2.Make, T3.Id FROM model_list AS T1 JOIN car_names AS T2 ON T1.Model = T2.Model JOIN car_makers AS T3 ON T1.Maker = T3.Id",
+    "readable_query": "SELECT model_list.Maker, car_names.Make, car_makers.Id FROM model_list AS model_list JOIN car_names AS car_names ON model_list.Model = car_names.Model JOIN car_makers AS car_makers ON model_list.Maker = car_makers.Id"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Year, T2.Make, T3.Model FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId JOIN model_list AS T3 ON T2.Model = T3.Model",
+    "readable_query": "SELECT cars_data.Year, car_names.Make, model_list.Model FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId JOIN model_list AS model_list ON car_names.Model = model_list.Model"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Continent, T2.CountryId, T3.Id FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent JOIN car_makers AS T3 ON T2.CountryId = T3.Country",
+    "readable_query": "SELECT continents.Continent, countries.CountryId, car_makers.Id FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent JOIN car_makers AS car_makers ON countries.CountryId = car_makers.Country"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.MPG, T2.Make, T3.ModelId FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId JOIN model_list AS T3 ON T2.Model = T3.Model",
+    "readable_query": "SELECT cars_data.MPG, car_names.Make, model_list.ModelId FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId JOIN model_list AS model_list ON car_names.Model = model_list.Model"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Maker, T2.ModelId, T3.CountryId FROM car_makers AS T1 JOIN model_list AS T2 ON T1.Id = T2.Maker JOIN countries AS T3 ON T1.Country = T3.CountryId",
+    "readable_query": "SELECT car_makers.Maker, model_list.ModelId, countries.CountryId FROM car_makers AS car_makers JOIN model_list AS model_list ON car_makers.Id = model_list.Maker JOIN countries AS countries ON car_makers.Country = countries.CountryId"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.CountryId, T2.Country, T3.Continent FROM countries AS T1 JOIN car_makers AS T2 ON T1.CountryId = T2.Country JOIN continents AS T3 ON T1.Continent = T3.ContId",
+    "readable_query": "SELECT countries.CountryId, car_makers.Country, continents.Continent FROM countries AS countries JOIN car_makers AS car_makers ON countries.CountryId = car_makers.Country JOIN continents AS continents ON countries.Continent = continents.ContId"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Model, T2.Year, T3.ModelId FROM car_names AS T1 JOIN cars_data AS T2 ON T1.MakeId = T2.Id JOIN model_list AS T3 ON T1.Model = T3.Model",
+    "readable_query": "SELECT car_names.Model, cars_data.Year, model_list.ModelId FROM car_names AS car_names JOIN cars_data AS cars_data ON car_names.MakeId = cars_data.Id JOIN model_list AS model_list ON car_names.Model = model_list.Model"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Maker, T2.Country, T3.MakeId FROM model_list AS T1 JOIN car_makers AS T2 ON T1.Maker = T2.Id JOIN car_names AS T3 ON T1.Model = T3.Model",
+    "readable_query": "SELECT model_list.Maker, car_makers.Country, car_names.MakeId FROM model_list AS model_list JOIN car_makers AS car_makers ON model_list.Maker = car_makers.Id JOIN car_names AS car_names ON model_list.Model = car_names.Model"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Horsepower, T2.Model, T3.ModelId FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId JOIN model_list AS T3 ON T2.Model = T3.Model",
+    "readable_query": "SELECT cars_data.Horsepower, car_names.Model, model_list.ModelId FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId JOIN model_list AS model_list ON car_names.Model = model_list.Model"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.MakeId FROM car_names AS T1 JOIN cars_data AS T2 ON T1.MakeId = T2.Id     ORDER BY T2.Year ASC",
+    "readable_query": "SELECT car_names.MakeId FROM car_names AS car_names JOIN cars_data AS cars_data ON car_names.MakeId = cars_data.Id     ORDER BY cars_data.Year ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Model FROM model_list AS T1 JOIN car_names AS T2 ON T1.Model = T2.Model     ORDER BY T2.MakeId ASC",
+    "readable_query": "SELECT model_list.Model FROM model_list AS model_list JOIN car_names AS car_names ON model_list.Model = car_names.Model     ORDER BY car_names.MakeId ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Country FROM car_makers AS T1 JOIN countries AS T2 ON T1.Country = T2.CountryId     ORDER BY T2.Continent ASC",
+    "readable_query": "SELECT car_makers.Country FROM car_makers AS car_makers JOIN countries AS countries ON car_makers.Country = countries.CountryId     ORDER BY countries.Continent ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.CountryName FROM countries AS T1 JOIN continents AS T2 ON T1.Continent = T2.ContId     ORDER BY T2.ContId ASC",
+    "readable_query": "SELECT countries.CountryName FROM countries AS countries JOIN continents AS continents ON countries.Continent = continents.ContId     ORDER BY continents.ContId ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ContId FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent     ORDER BY T2.Continent ASC",
+    "readable_query": "SELECT continents.ContId FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent     ORDER BY countries.Continent ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Continent FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent     ORDER BY T2.CountryId ASC",
+    "readable_query": "SELECT continents.Continent FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent     ORDER BY countries.CountryId ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Id FROM car_makers AS T1 JOIN model_list AS T2 ON T1.Id = T2.Maker     ORDER BY T2.Maker ASC",
+    "readable_query": "SELECT car_makers.Id FROM car_makers AS car_makers JOIN model_list AS model_list ON car_makers.Id = model_list.Maker     ORDER BY model_list.Maker ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Cylinders FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId     ORDER BY T2.MakeId ASC",
+    "readable_query": "SELECT cars_data.Cylinders FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId     ORDER BY car_names.MakeId ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Weight FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId     ORDER BY T2.MakeId ASC",
+    "readable_query": "SELECT cars_data.Weight FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId     ORDER BY car_names.MakeId ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ModelId FROM model_list AS T1 JOIN car_names AS T2 ON T1.Model = T2.Model     ORDER BY T2.MakeId ASC",
+    "readable_query": "SELECT model_list.ModelId FROM model_list AS model_list JOIN car_names AS car_names ON model_list.Model = car_names.Model     ORDER BY car_names.MakeId ASC"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.ModelId FROM model_list AS T1 WHERE T1.Model = \"ford\"     INTERSECT SELECT T2.ModelId FROM model_list AS T2 WHERE T2.Model = \"volvo\"",
+    "readable_query": "SELECT model_list.ModelId FROM model_list AS model_list WHERE model_list.Model = \"ford\"     INTERSECT SELECT model_list.ModelId FROM model_list AS model_list WHERE model_list.Model = \"volvo\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.CountryName FROM countries AS T1 WHERE T1.Continent = 3     INTERSECT SELECT T2.CountryName FROM countries AS T2 WHERE T2.Continent = 3",
+    "readable_query": "SELECT countries.CountryName FROM countries AS countries WHERE countries.Continent = 3     INTERSECT SELECT countries.CountryName FROM countries AS countries WHERE countries.Continent = 3"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Continent FROM continents AS T1 WHERE T1.ContId = 3     INTERSECT SELECT T2.Continent FROM continents AS T2 WHERE T2.ContId = 4",
+    "readable_query": "SELECT continents.Continent FROM continents AS continents WHERE continents.ContId = 3     INTERSECT SELECT continents.Continent FROM continents AS continents WHERE continents.ContId = 4"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Cylinders FROM cars_data AS T1 WHERE T1.Horsepower = \"220\"     INTERSECT SELECT T2.Cylinders FROM cars_data AS T2 WHERE T2.Horsepower = \"153\"",
+    "readable_query": "SELECT cars_data.Cylinders FROM cars_data AS cars_data WHERE cars_data.Horsepower = \"220\"     INTERSECT SELECT cars_data.Cylinders FROM cars_data AS cars_data WHERE cars_data.Horsepower = \"153\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.FullName FROM car_makers AS T1 WHERE T1.Country = \"2\"     INTERSECT SELECT T2.FullName FROM car_makers AS T2 WHERE T2.Country = \"3\"",
+    "readable_query": "SELECT car_makers.FullName FROM car_makers AS car_makers WHERE car_makers.Country = \"2\"     INTERSECT SELECT car_makers.FullName FROM car_makers AS car_makers WHERE car_makers.Country = \"3\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Cylinders FROM cars_data AS T1 WHERE T1.Horsepower = \"108\"     INTERSECT SELECT T2.Cylinders FROM cars_data AS T2 WHERE T2.Horsepower = \"150\"",
+    "readable_query": "SELECT cars_data.Cylinders FROM cars_data AS cars_data WHERE cars_data.Horsepower = \"108\"     INTERSECT SELECT cars_data.Cylinders FROM cars_data AS cars_data WHERE cars_data.Horsepower = \"150\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Continent FROM countries AS T1 WHERE T1.CountryName = \"france\"     INTERSECT SELECT T2.Continent FROM countries AS T2 WHERE T2.CountryName = \"germany\"",
+    "readable_query": "SELECT countries.Continent FROM countries AS countries WHERE countries.CountryName = \"france\"     INTERSECT SELECT countries.Continent FROM countries AS countries WHERE countries.CountryName = \"germany\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.ContId FROM continents AS T1 WHERE T1.Continent = \"asia\"     INTERSECT SELECT T2.ContId FROM continents AS T2 WHERE T2.Continent = \"africa\"",
+    "readable_query": "SELECT continents.ContId FROM continents AS continents WHERE continents.Continent = \"asia\"     INTERSECT SELECT continents.ContId FROM continents AS continents WHERE continents.Continent = \"africa\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Continent FROM countries AS T1 WHERE T1.CountryId = 2     INTERSECT SELECT T2.Continent FROM countries AS T2 WHERE T2.CountryId = 1",
+    "readable_query": "SELECT countries.Continent FROM countries AS countries WHERE countries.CountryId = 2     INTERSECT SELECT countries.Continent FROM countries AS countries WHERE countries.CountryId = 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Country FROM car_makers AS T1 WHERE T1.Maker = \"honda\"     INTERSECT SELECT T2.Country FROM car_makers AS T2 WHERE T2.Maker = \"mazda\"",
+    "readable_query": "SELECT car_makers.Country FROM car_makers AS car_makers WHERE car_makers.Maker = \"honda\"     INTERSECT SELECT car_makers.Country FROM car_makers AS car_makers WHERE car_makers.Maker = \"mazda\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Cylinders) FROM cars_data AS T1 WHERE T1.Id = 379",
+    "readable_query": "SELECT avg( cars_data.Cylinders) FROM cars_data AS cars_data WHERE cars_data.Id = 379"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Cylinders) FROM cars_data AS T1 WHERE T1.Edispl = 86.0",
+    "readable_query": "SELECT avg( cars_data.Cylinders) FROM cars_data AS cars_data WHERE cars_data.Edispl = 86.0"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.ContId) FROM continents AS T1 WHERE T1.Continent = \"europe\"",
+    "readable_query": "SELECT avg( continents.ContId) FROM continents AS continents WHERE continents.Continent = \"europe\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.ContId) FROM continents AS T1 WHERE T1.Continent = \"america\"",
+    "readable_query": "SELECT avg( continents.ContId) FROM continents AS continents WHERE continents.Continent = \"america\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Id) FROM car_makers AS T1 WHERE T1.FullName = \"Subaru\"",
+    "readable_query": "SELECT avg( car_makers.Id) FROM car_makers AS car_makers WHERE car_makers.FullName = \"Subaru\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.ContId) FROM continents AS T1 WHERE T1.Continent = \"africa\"",
+    "readable_query": "SELECT avg( continents.ContId) FROM continents AS continents WHERE continents.Continent = \"africa\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Maker) FROM model_list AS T1 WHERE T1.Model = \"mercedes\"",
+    "readable_query": "SELECT avg( model_list.Maker) FROM model_list AS model_list WHERE model_list.Model = \"mercedes\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Maker) FROM model_list AS T1 WHERE T1.Model = \"buick\"",
+    "readable_query": "SELECT avg( model_list.Maker) FROM model_list AS model_list WHERE model_list.Model = \"buick\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.ModelId) FROM model_list AS T1 WHERE T1.Maker = 21",
+    "readable_query": "SELECT avg( model_list.ModelId) FROM model_list AS model_list WHERE model_list.Maker = 21"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Id) FROM car_makers AS T1 WHERE T1.Maker = \"bmw\"",
+    "readable_query": "SELECT avg( car_makers.Id) FROM car_makers AS car_makers WHERE car_makers.Maker = \"bmw\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Model FROM model_list AS T1 JOIN car_names AS T2 ON T1.Model = T2.Model WHERE T2.MakeId = (SELECT max( T23.MakeId) FROM car_names AS T23)",
+    "readable_query": "SELECT model_list.Model FROM model_list AS model_list JOIN car_names AS car_names ON model_list.Model = car_names.Model WHERE car_names.MakeId = (SELECT max( car_names.MakeId) FROM car_names AS car_names)"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.CountryName FROM countries AS T1 JOIN continents AS T2 ON T1.Continent = T2.ContId WHERE T2.ContId = (SELECT max( T23.ContId) FROM continents AS T23)",
+    "readable_query": "SELECT countries.CountryName FROM countries AS countries JOIN continents AS continents ON countries.Continent = continents.ContId WHERE continents.ContId = (SELECT max( continents.ContId) FROM continents AS continents)"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.MakeId FROM car_names AS T1 JOIN cars_data AS T2 ON T1.MakeId = T2.Id WHERE T2.Id = (SELECT max( T23.Id) FROM cars_data AS T23)",
+    "readable_query": "SELECT car_names.MakeId FROM car_names AS car_names JOIN cars_data AS cars_data ON car_names.MakeId = cars_data.Id WHERE cars_data.Id = (SELECT max( cars_data.Id) FROM cars_data AS cars_data)"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ModelId FROM model_list AS T1 JOIN car_names AS T2 ON T1.Model = T2.Model WHERE T2.MakeId = (SELECT max( T23.MakeId) FROM car_names AS T23)",
+    "readable_query": "SELECT model_list.ModelId FROM model_list AS model_list JOIN car_names AS car_names ON model_list.Model = car_names.Model WHERE car_names.MakeId = (SELECT max( car_names.MakeId) FROM car_names AS car_names)"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Cylinders FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId WHERE T2.MakeId = (SELECT max( T23.MakeId) FROM car_names AS T23)",
+    "readable_query": "SELECT cars_data.Cylinders FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId WHERE car_names.MakeId = (SELECT max( car_names.MakeId) FROM car_names AS car_names)"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.FullName FROM car_makers AS T1 JOIN model_list AS T2 ON T1.Id = T2.Maker WHERE T2.ModelId = (SELECT max( T23.ModelId) FROM model_list AS T23)",
+    "readable_query": "SELECT car_makers.FullName FROM car_makers AS car_makers JOIN model_list AS model_list ON car_makers.Id = model_list.Maker WHERE model_list.ModelId = (SELECT max( model_list.ModelId) FROM model_list AS model_list)"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Continent FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent WHERE T2.CountryId = (SELECT max( T23.CountryId) FROM countries AS T23)",
+    "readable_query": "SELECT continents.Continent FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent WHERE countries.CountryId = (SELECT max( countries.CountryId) FROM countries AS countries)"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Id FROM car_makers AS T1 JOIN countries AS T2 ON T1.Country = T2.CountryId WHERE T2.Continent = (SELECT max( T23.Continent) FROM countries AS T23)",
+    "readable_query": "SELECT car_makers.Id FROM car_makers AS car_makers JOIN countries AS countries ON car_makers.Country = countries.CountryId WHERE countries.Continent = (SELECT max( countries.Continent) FROM countries AS countries)"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.CountryId FROM countries AS T1 JOIN car_makers AS T2 ON T1.CountryId = T2.Country WHERE T2.Id = (SELECT max( T23.Id) FROM car_makers AS T23)",
+    "readable_query": "SELECT countries.CountryId FROM countries AS countries JOIN car_makers AS car_makers ON countries.CountryId = car_makers.Country WHERE car_makers.Id = (SELECT max( car_makers.Id) FROM car_makers AS car_makers)"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Maker FROM model_list AS T1 JOIN car_names AS T2 ON T1.Model = T2.Model WHERE T2.MakeId = (SELECT max( T23.MakeId) FROM car_names AS T23)",
+    "readable_query": "SELECT model_list.Maker FROM model_list AS model_list JOIN car_names AS car_names ON model_list.Model = car_names.Model WHERE car_names.MakeId = (SELECT max( car_names.MakeId) FROM car_names AS car_names)"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Cylinders, T2.Model FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId JOIN model_list AS T3 ON T2.Model = T3.Model WHERE T3.ModelId = 11 and T2.MakeId = 355",
+    "readable_query": "SELECT cars_data.Cylinders, car_names.Model FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId JOIN model_list AS model_list ON car_names.Model = model_list.Model WHERE model_list.ModelId = 11 and car_names.MakeId = 355"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Model, T2.MakeId FROM model_list AS T1 JOIN car_names AS T2 ON T1.Model = T2.Model JOIN car_makers AS T3 ON T1.Maker = T3.Id WHERE T3.Country = \"3\" and T2.Make = \"chevy c10\"",
+    "readable_query": "SELECT model_list.Model, car_names.MakeId FROM model_list AS model_list JOIN car_names AS car_names ON model_list.Model = car_names.Model JOIN car_makers AS car_makers ON model_list.Maker = car_makers.Id WHERE car_makers.Country = \"3\" and car_names.Make = \"chevy c10\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.ContId, T2.CountryId FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent JOIN car_makers AS T3 ON T2.CountryId = T3.Country WHERE T3.FullName = \"Kia Motors\" and T2.Continent = 3",
+    "readable_query": "SELECT continents.ContId, countries.CountryId FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent JOIN car_makers AS car_makers ON countries.CountryId = car_makers.Country WHERE car_makers.FullName = \"Kia Motors\" and countries.Continent = 3"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Id, T2.Continent FROM car_makers AS T1 JOIN countries AS T2 ON T1.Country = T2.CountryId JOIN continents AS T3 ON T2.Continent = T3.ContId WHERE T3.ContId = 1 and T2.CountryId = 12",
+    "readable_query": "SELECT car_makers.Id, countries.Continent FROM car_makers AS car_makers JOIN countries AS countries ON car_makers.Country = countries.CountryId JOIN continents AS continents ON countries.Continent = continents.ContId WHERE continents.ContId = 1 and countries.CountryId = 12"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Continent, T2.CountryId FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent JOIN car_makers AS T3 ON T2.CountryId = T3.Country WHERE T3.Maker = \"honda\" and T2.CountryName = \"new zealand\"",
+    "readable_query": "SELECT continents.Continent, countries.CountryId FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent JOIN car_makers AS car_makers ON countries.CountryId = car_makers.Country WHERE car_makers.Maker = \"honda\" and countries.CountryName = \"new zealand\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.ModelId, T2.Model FROM model_list AS T1 JOIN car_names AS T2 ON T1.Model = T2.Model JOIN car_makers AS T3 ON T1.Maker = T3.Id WHERE T3.FullName = \"American Motor Company\" and T2.MakeId = 107",
+    "readable_query": "SELECT model_list.ModelId, car_names.Model FROM model_list AS model_list JOIN car_names AS car_names ON model_list.Model = car_names.Model JOIN car_makers AS car_makers ON model_list.Maker = car_makers.Id WHERE car_makers.FullName = \"American Motor Company\" and car_names.MakeId = 107"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Maker, T2.ModelId FROM car_makers AS T1 JOIN model_list AS T2 ON T1.Id = T2.Maker JOIN countries AS T3 ON T1.Country = T3.CountryId WHERE T3.CountryName = \"nigeria\" and T2.Model = \"renault\"",
+    "readable_query": "SELECT car_makers.Maker, model_list.ModelId FROM car_makers AS car_makers JOIN model_list AS model_list ON car_makers.Id = model_list.Maker JOIN countries AS countries ON car_makers.Country = countries.CountryId WHERE countries.CountryName = \"nigeria\" and model_list.Model = \"renault\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.FullName, T2.Maker FROM car_makers AS T1 JOIN model_list AS T2 ON T1.Id = T2.Maker JOIN countries AS T3 ON T1.Country = T3.CountryId WHERE T3.CountryName = \"sweden\" and T2.ModelId = 13",
+    "readable_query": "SELECT car_makers.FullName, model_list.Maker FROM car_makers AS car_makers JOIN model_list AS model_list ON car_makers.Id = model_list.Maker JOIN countries AS countries ON car_makers.Country = countries.CountryId WHERE countries.CountryName = \"sweden\" and model_list.ModelId = 13"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Model, T2.Maker FROM car_names AS T1 JOIN model_list AS T2 ON T1.Model = T2.Model JOIN car_makers AS T3 ON T2.Maker = T3.Id WHERE T3.FullName = \"Renault\" and T2.ModelId = 8",
+    "readable_query": "SELECT car_names.Model, model_list.Maker FROM car_names AS car_names JOIN model_list AS model_list ON car_names.Model = model_list.Model JOIN car_makers AS car_makers ON model_list.Maker = car_makers.Id WHERE car_makers.FullName = \"Renault\" and model_list.ModelId = 8"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Continent, T2.CountryName FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent JOIN car_makers AS T3 ON T2.CountryId = T3.Country WHERE T3.Maker = \"citroen\" and T2.CountryId = 4",
+    "readable_query": "SELECT continents.Continent, countries.CountryName FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent JOIN car_makers AS car_makers ON countries.CountryId = car_makers.Country WHERE car_makers.Maker = \"citroen\" and countries.CountryId = 4"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.ContId FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent WHERE T2.CountryId = 4 GROUP BY T1.ContId  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT continents.ContId FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent WHERE countries.CountryId = 4 GROUP BY continents.ContId  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Id FROM car_makers AS T1 JOIN model_list AS T2 ON T1.Id = T2.Maker WHERE T2.ModelId = 15 GROUP BY T1.Id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT car_makers.Id FROM car_makers AS car_makers JOIN model_list AS model_list ON car_makers.Id = model_list.Maker WHERE model_list.ModelId = 15 GROUP BY car_makers.Id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Year FROM cars_data AS T1 JOIN car_names AS T2 ON T1.Id = T2.MakeId WHERE T2.MakeId = 322 GROUP BY T1.Year  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT cars_data.Year FROM cars_data AS cars_data JOIN car_names AS car_names ON cars_data.Id = car_names.MakeId WHERE car_names.MakeId = 322 GROUP BY cars_data.Year  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.CountryId FROM countries AS T1 JOIN car_makers AS T2 ON T1.CountryId = T2.Country WHERE T2.Id = 8 GROUP BY T1.CountryId  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT countries.CountryId FROM countries AS countries JOIN car_makers AS car_makers ON countries.CountryId = car_makers.Country WHERE car_makers.Id = 8 GROUP BY countries.CountryId  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Continent FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent WHERE T2.CountryId = 8 GROUP BY T1.Continent  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT continents.Continent FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent WHERE countries.CountryId = 8 GROUP BY continents.Continent  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Continent FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent WHERE T2.CountryId = 10 GROUP BY T1.Continent  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT continents.Continent FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent WHERE countries.CountryId = 10 GROUP BY continents.Continent  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Maker FROM model_list AS T1 JOIN car_names AS T2 ON T1.Model = T2.Model WHERE T2.MakeId = 304 GROUP BY T1.Maker  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT model_list.Maker FROM model_list AS model_list JOIN car_names AS car_names ON model_list.Model = car_names.Model WHERE car_names.MakeId = 304 GROUP BY model_list.Maker  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.ContId FROM continents AS T1 JOIN countries AS T2 ON T1.ContId = T2.Continent WHERE T2.CountryName = \"russia\" GROUP BY T1.ContId  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT continents.ContId FROM continents AS continents JOIN countries AS countries ON continents.ContId = countries.Continent WHERE countries.CountryName = \"russia\" GROUP BY continents.ContId  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.MakeId FROM car_names AS T1 JOIN model_list AS T2 ON T1.Model = T2.Model WHERE T2.ModelId = 29 GROUP BY T1.MakeId  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT car_names.MakeId FROM car_names AS car_names JOIN model_list AS model_list ON car_names.Model = model_list.Model WHERE model_list.ModelId = 29 GROUP BY car_names.MakeId  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Maker FROM model_list AS T1 JOIN car_makers AS T2 ON T1.Maker = T2.Id WHERE T2.Country = \"1\" GROUP BY T1.Maker  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT model_list.Maker FROM model_list AS model_list JOIN car_makers AS car_makers ON model_list.Maker = car_makers.Id WHERE car_makers.Country = \"1\" GROUP BY model_list.Maker  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.CountryName FROM countries AS T1        EXCEPT SELECT T2.CountryName FROM countries AS T2 WHERE T2.CountryId = 15",
+    "readable_query": "SELECT countries.CountryName FROM countries AS countries        EXCEPT SELECT countries.CountryName FROM countries AS countries WHERE countries.CountryId = 15"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Continent FROM continents AS T1        EXCEPT SELECT T2.Continent FROM continents AS T2 WHERE T2.ContId = 1",
+    "readable_query": "SELECT continents.Continent FROM continents AS continents        EXCEPT SELECT continents.Continent FROM continents AS continents WHERE continents.ContId = 1"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Continent FROM countries AS T1        EXCEPT SELECT T2.Continent FROM countries AS T2 WHERE T2.CountryName = \"new zealand\"",
+    "readable_query": "SELECT countries.Continent FROM countries AS countries        EXCEPT SELECT countries.Continent FROM countries AS countries WHERE countries.CountryName = \"new zealand\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Model FROM car_names AS T1        EXCEPT SELECT T2.Model FROM car_names AS T2 WHERE T2.Make = \"vw pickup\"",
+    "readable_query": "SELECT car_names.Model FROM car_names AS car_names        EXCEPT SELECT car_names.Model FROM car_names AS car_names WHERE car_names.Make = \"vw pickup\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Model FROM model_list AS T1        EXCEPT SELECT T2.Model FROM model_list AS T2 WHERE T2.ModelId = 11",
+    "readable_query": "SELECT model_list.Model FROM model_list AS model_list        EXCEPT SELECT model_list.Model FROM model_list AS model_list WHERE model_list.ModelId = 11"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.ModelId FROM model_list AS T1        EXCEPT SELECT T2.ModelId FROM model_list AS T2 WHERE T2.Model = \"peugeot\"",
+    "readable_query": "SELECT model_list.ModelId FROM model_list AS model_list        EXCEPT SELECT model_list.ModelId FROM model_list AS model_list WHERE model_list.Model = \"peugeot\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.CountryId FROM countries AS T1        EXCEPT SELECT T2.CountryId FROM countries AS T2 WHERE T2.Continent = 3",
+    "readable_query": "SELECT countries.CountryId FROM countries AS countries        EXCEPT SELECT countries.CountryId FROM countries AS countries WHERE countries.Continent = 3"
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Continent FROM countries AS T1        EXCEPT SELECT T2.Continent FROM countries AS T2 WHERE T2.CountryName = \"egypt\"",
+    "readable_query": "SELECT countries.Continent FROM countries AS countries        EXCEPT SELECT countries.Continent FROM countries AS countries WHERE countries.CountryName = \"egypt\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Model FROM car_names AS T1        EXCEPT SELECT T2.Model FROM car_names AS T2 WHERE T2.Make = \"honda civic (auto)\"",
+    "readable_query": "SELECT car_names.Model FROM car_names AS car_names        EXCEPT SELECT car_names.Model FROM car_names AS car_names WHERE car_names.Make = \"honda civic (auto)\""
+  },
+  {
+    "db_id": "car_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.CountryId FROM countries AS T1        EXCEPT SELECT T2.CountryId FROM countries AS T2 WHERE T2.Continent = 1",
+    "readable_query": "SELECT countries.CountryId FROM countries AS countries        EXCEPT SELECT countries.CountryId FROM countries AS countries WHERE countries.Continent = 1"
+  }
+]

@@ -1,0 +1,27 @@
+SELECT erc_research_domains.code FROM erc_research_domains WHERE erc_research_domains.description = 'Social Sciences And Humanities'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.code FROM erc_research_domains WHERE erc_research_domains.description = 'Social Sciences And Humanities'
+GPT-3 choices:
+(0) What is the code of the research domain with description Social Sciences And Humanities ?
+(1) What is the code of ERC research domains with description Social Sciences And Humanities?
+(2) How many research domains are there that have the description Social Sciences And Humanities ?
+(3) What is the code of the research domain Social sciences and humanities?
+(4) What is the code of the research domain with description Social Sciences And Humanities?
+(5) Retrieve the code of the research domain "Social Sciences and Humanities"
+(6) SHOW ERC research domain with description Social Sciences And Humanities
+(7) What is the code of the research domain with description Social Sciences And Humanities?
+
+
+Re-ranked choices:
+5.192  What is the code of the research domain with description Social Sciences And Humanities ?
+5.192  What is the code of the research domain with description Social Sciences And Humanities?
+5.036  What is the code of the research domain Social sciences and humanities?
+4.940  What is the code of ERC research domains with description Social Sciences And Humanities?
+4.575  Retrieve the code of the research domain "Social Sciences and Humanities"
+4.528  How many research domains are there that have the description Social Sciences And Humanities ?
+4.182  SHOW ERC research domain with description Social Sciences And Humanities
+

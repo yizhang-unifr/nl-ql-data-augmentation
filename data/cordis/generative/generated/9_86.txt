@@ -1,0 +1,16 @@
+SELECT project_members.latitude FROM project_members JOIN projects ON project_members.project = projects.unics_id WHERE projects.ec_call != 'H2020-SC1-2018-Single-Stage-RTD'
+
+###
+
+
+Original Query:
+SELECT project_members.latitude FROM project_members JOIN projects ON project_members.project = projects.unics_id WHERE projects.ec_call != 'H2020-SC1-2018-Single-Stage-RTD'
+GPT-3 choices:
+(0) Retrieve the latitude of project members, whose projects don't correspond to H2020-SC1-2018-Single-Stage-RTD
+(1) Show all project members in projects that are not Single Stage RTD projects
+(2) Find the latitude of the project members in projects which are not from the Single-Stage-RTD.
+(3) Show all project members latitudes for projects that are not in the H2020-SC1-2018-Single-Stage-RTD context.
+(4) Retrieve the latitude of project members in projects where the eucall is different than “H2020-SC1-2018-Single-Stage-RTD”
+(5) What is the latitude of project members in projects which are not H2020-SC1-2018-Single-Stage-RTD
+(6) Show me the latitude of project members from projects where the project leader is not from the H2020-SC1-2018-Single-Stage-RTD project
+(7) Show the distances of all project members from projects with a short description (EC-fund code)

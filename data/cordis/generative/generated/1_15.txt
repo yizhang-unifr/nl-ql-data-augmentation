@@ -1,0 +1,16 @@
+SELECT countries.country_code FROM countries JOIN institutions ON countries.unics_id = institutions.country_id WHERE institutions.geocode_regions_3 = 'UKC22'
+
+###
+
+
+Original Query:
+SELECT countries.country_code2 FROM countries JOIN institutions ON countries.unics_id = institutions.country_id WHERE institutions.geocode_regions_3 = 'UKC22'
+GPT-3 choices:
+(0) Retrieve all countries that have an institution located in the geocode region UKC22
+(1) Show all country codes from institutions located in UKC22.
+(2) Retrieve country codes of institutions whose geocode region is UKC22
+(3) Show all the different country codes for institutions in the region UKC22.
+(4) Show country codes of institutions with geocode regions 3 as UKC22.
+(5) Show all countries that have an institution in the region UKC22.
+(6) Show country code of institutions located in the geographic region UKC22
+(7) Show the country code of institutions with geo region code UKC22

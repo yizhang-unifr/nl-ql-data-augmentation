@@ -1,0 +1,16 @@
+SELECT project_member_roles.code FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.activity_type != 'PRC'
+
+###
+
+
+Original Query:
+SELECT project_member_roles.code FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.activity_type != 'PRC'
+GPT-3 choices:
+(0) Show project member roles of project members which are not in the activity PRC
+(1) Show me project members who don't have an activity type PRC
+(2) What are the project member roles?
+(3) What are the project member roles?
+(4) Show project member roles of project members not working on projects in PRC
+(5) Show project member roles distinct from project members with activity type != PRC.
+(6) What are the project member's roles?
+(7) Show the project member roles that do not belong to a project whose members activity type is 'PRC'

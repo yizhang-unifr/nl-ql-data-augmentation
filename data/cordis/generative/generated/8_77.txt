@@ -1,0 +1,16 @@
+SELECT institutions.acronym FROM institutions WHERE institutions.grid_id != 'grid.428923.6'
+
+###
+
+
+Original Query:
+SELECT institutions.acronym FROM institutions WHERE institutions.grid_id != 'grid.428923.6'
+GPT-3 choices:
+(0) Show me the acronyms of institutions inside the grid 428923.6
+(1) Show me some institutions with a different grid id
+(2) Show me all acronyms of institutions that are not set in the grid 428923.6
+(3) Show me the acronyms of institutions which are not in region 428923.6
+(4) Show me all the acronyms of institutions that are not in the grid 428923.6
+(5) Retrieve acronyms of institutions that have a grid different than 428923.6
+(6) Comparing institutions with a specific grid id
+(7) Show me institutions acronyms

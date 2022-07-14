@@ -1,0 +1,28 @@
+SELECT erc_research_domains.description FROM erc_research_domains JOIN erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects ON project_erc_panels.project = projects.unics_id WHERE projects.framework_program = 'H2020'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.description FROM erc_research_domains JOIN erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects ON project_erc_panels.project = projects.unics_id WHERE projects.framework_program = 'H2020'
+GPT-3 choices:
+(0) Show me the description of research domains for projects in the H2020 framework program
+(1) Show all descriptions of research domains in projects with framework program H2020
+(2) Retrieve description of erc research domains that participate in a project with a framework program of H2020
+(3) Display the description of research domains associated with a project in the H2020 framework
+(4) Return the research domains that are assigned to a project with the project code H2020?
+(5) Show the description of ERC research domains that participate in a project within the H2020 framework
+(6) Show me the research domains of the projects in the H2020 framework program
+(7) What are the ERC research domains associated with projects in the H2020 framework program?
+
+
+Re-ranked choices:
+5.951  Show me the description of research domains for projects in the H2020 framework program
+5.812  Display the description of research domains associated with a project in the H2020 framework
+5.711  Show the description of ERC research domains that participate in a project within the H2020 framework
+5.669  Show me the research domains of the projects in the H2020 framework program
+5.669  Show all descriptions of research domains in projects with framework program H2020
+5.589  Retrieve description of erc research domains that participate in a project with a framework program of H2020
+5.323  What are the ERC research domains associated with projects in the H2020 framework program?
+5.184  Return the research domains that are assigned to a project with the project code H2020?
+

@@ -1,0 +1,16 @@
+SELECT count(*) FROM project_members WHERE project_members.activity_type = 'OTH'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM project_members WHERE project_members.activity_type = 'OTH'
+GPT-3 choices:
+(0) How many project members have the activity type “OTH”?
+(1) Count all project members whose activity type is 'OTH'
+(2) How many project members have an activity type different than "OR"?
+(3) Count all project members from outside the organization
+(4) Total number of project members with activity type OTH
+(5) How many people have a different activity type?
+(6) Retrieve the count of project members whose activity type is OTH
+(7) How many project members have an activity type different than "OTH"?

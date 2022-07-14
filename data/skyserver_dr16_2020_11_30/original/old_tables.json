@@ -1,0 +1,1293 @@
+[
+  {
+    "column_names": [
+      [
+        -1,
+        "*"
+      ],
+      [
+        0,
+        "center id"
+      ],
+      [
+        0,
+        "neighbor id"
+      ],
+      [
+        0,
+        "distance center-neighbor"
+      ],
+      [
+        0,
+        "center type"
+      ],
+      [
+        0,
+        "neighbor type"
+      ],
+      [
+        0,
+        "center type"
+      ],
+      [
+        0,
+        "neighbor mode"
+      ],
+      [
+        1,
+        "object id"
+      ],
+      [
+        1,
+        "run number"
+      ],
+      [
+        1,
+        "rerun number"
+      ],
+      [
+        1,
+        "camera column"
+      ],
+      [
+        1,
+        "field number"
+      ],
+      [
+        1,
+        "mode of photo observation"
+      ],
+      [
+        1,
+        "object type classification"
+      ],
+      [
+        1,
+        "clean photometry flag"
+      ],
+      [
+        1,
+        "photo object attribute flags"
+      ],
+      [
+        1,
+        "row center position"
+      ],
+      [
+        1,
+        "column center position"
+      ],
+      [
+        1,
+        "row velocity"
+      ],
+      [
+        1,
+        "column velocity"
+      ],
+      [
+        1,
+        "colc g"
+      ],
+      [
+        1,
+        "colc r"
+      ],
+      [
+        1,
+        "psfmag u"
+      ],
+      [
+        1,
+        "psfmag g"
+      ],
+      [
+        1,
+        "psfmag r"
+      ],
+      [
+        1,
+        "psfmag i"
+      ],
+      [
+        1,
+        "psfmag z"
+      ],
+      [
+        1,
+        "psfmagnitude error u"
+      ],
+      [
+        1,
+        "psfmagnitude error g"
+      ],
+      [
+        1,
+        "psfmagnitude error r"
+      ],
+      [
+        1,
+        "psfmagnitude error i"
+      ],
+      [
+        1,
+        "psfmagnitude error z"
+      ],
+      [
+        1,
+        "fibermag u"
+      ],
+      [
+        1,
+        "fibermag g"
+      ],
+      [
+        1,
+        "fibermag r"
+      ],
+      [
+        1,
+        "fibermag i"
+      ],
+      [
+        1,
+        "fibermag z"
+      ],
+      [
+        1,
+        "petromag u"
+      ],
+      [
+        1,
+        "petromag g"
+      ],
+      [
+        1,
+        "petromag r"
+      ],
+      [
+        1,
+        "petromag i"
+      ],
+      [
+        1,
+        "petromag z"
+      ],
+      [
+        1,
+        "petrocian radius u"
+      ],
+      [
+        1,
+        "petrocian radius g"
+      ],
+      [
+        1,
+        "petrocian radius r"
+      ],
+      [
+        1,
+        "petrocian radius i"
+      ],
+      [
+        1,
+        "petrocian radius z"
+      ],
+      [
+        1,
+        "Petrosian radius containing 90% of flux"
+      ],
+      [
+        1,
+        "devmag u"
+      ],
+      [
+        1,
+        "devmag g"
+      ],
+      [
+        1,
+        "devmag r"
+      ],
+      [
+        1,
+        "devmag i"
+      ],
+      [
+        1,
+        "devmag z"
+      ],
+      [
+        1,
+        "expmag u"
+      ],
+      [
+        1,
+        "expmag g"
+      ],
+      [
+        1,
+        "expmag r"
+      ],
+      [
+        1,
+        "expmag i"
+      ],
+      [
+        1,
+        "expmag z"
+      ],
+      [
+        1,
+        "expmagnitude error u"
+      ],
+      [
+        1,
+        "expmagnitude error g"
+      ],
+      [
+        1,
+        "expmagnitude error r"
+      ],
+      [
+        1,
+        "expmagnitude error i"
+      ],
+      [
+        1,
+        "expmagnitude error z"
+      ],
+      [
+        1,
+        "modelmag u"
+      ],
+      [
+        1,
+        "modelmag g"
+      ],
+      [
+        1,
+        "modelmag r"
+      ],
+      [
+        1,
+        "modelmag i"
+      ],
+      [
+        1,
+        "modelmag z"
+      ],
+      [
+        1,
+        "modelmagnitude error u"
+      ],
+      [
+        1,
+        "modelmagnitude error g"
+      ],
+      [
+        1,
+        "modelmagnitude error r"
+      ],
+      [
+        1,
+        "modelmagnitude error i"
+      ],
+      [
+        1,
+        "modelmagnitude error z"
+      ],
+      [
+        1,
+        "composite modelmagnitude u"
+      ],
+      [
+        1,
+        "composite modelmagnitude g"
+      ],
+      [
+        1,
+        "composite modelmagnitude r"
+      ],
+      [
+        1,
+        "composite modelmagnitude i"
+      ],
+      [
+        1,
+        "composite modelmagnitude z"
+      ],
+      [
+        1,
+        "composite modelmagnitude error u"
+      ],
+      [
+        1,
+        "composite modelmagnitude error g"
+      ],
+      [
+        1,
+        "composite modelmagnitude error r"
+      ],
+      [
+        1,
+        "composite modelmagnitude error i"
+      ],
+      [
+        1,
+        "composite modelmagnitude error z"
+      ],
+      [
+        1,
+        "right ascension"
+      ],
+      [
+        1,
+        "declination"
+      ],
+      [
+        1,
+        "right ascension error"
+      ],
+      [
+        1,
+        "galactic latitude"
+      ],
+      [
+        1,
+        "galactic longitude"
+      ],
+      [
+        1,
+        "extinction r"
+      ],
+      [
+        1,
+        "extinction i"
+      ],
+      [
+        1,
+        "modified julien date"
+      ],
+      [
+        1,
+        "load version"
+      ],
+      [
+        1,
+        "magnitude u"
+      ],
+      [
+        1,
+        "magnitude g"
+      ],
+      [
+        1,
+        "magnitude r"
+      ],
+      [
+        1,
+        "magnitude i"
+      ],
+      [
+        1,
+        "magnitude z"
+      ],
+      [
+        1,
+        "modelmagnitude corrected for extinction u"
+      ],
+      [
+        1,
+        "modelmagnitude corrected for extinction g"
+      ],
+      [
+        1,
+        "modelmagnitude corrected for extinction r"
+      ],
+      [
+        1,
+        "modelmagnitude corrected for extinction i"
+      ],
+      [
+        1,
+        "modelmagnitude corrected for extinction z"
+      ],
+      [
+        1,
+        "time of observation u"
+      ],
+      [
+        1,
+        "time of observation g"
+      ],
+      [
+        1,
+        "time of observation r"
+      ],
+      [
+        1,
+        "time of observation i"
+      ],
+      [
+        1,
+        "time of observation z"
+      ],
+      [
+        2,
+        "specobjid"
+      ],
+      [
+        3,
+        "specobjid"
+      ],
+      [
+        4,
+        "object id"
+      ],
+      [
+        4,
+        "best object id"
+      ],
+      [
+        4,
+        "plate id"
+      ],
+      [
+        4,
+        "best spectrum"
+      ],
+      [
+        4,
+        "segue2 object type"
+      ],
+      [
+        4,
+        "survey"
+      ],
+      [
+        4,
+        "programname"
+      ],
+      [
+        4,
+        "modified julien date"
+      ],
+      [
+        4,
+        "plate number"
+      ],
+      [
+        4,
+        "fiber id"
+      ],
+      [
+        4,
+        "SDSS special program targets"
+      ],
+      [
+        4,
+        "segue2 primary objects"
+      ],
+      [
+        4,
+        "segue2 secondary objects"
+      ],
+      [
+        4,
+        "BOSS ancillary program targets"
+      ],
+      [
+        4,
+        "right ascension"
+      ],
+      [
+        4,
+        "declination"
+      ],
+      [
+        4,
+        "redshift"
+      ],
+      [
+        4,
+        "redshift error"
+      ],
+      [
+        4,
+        "redshift warning"
+      ],
+      [
+        4,
+        "class"
+      ],
+      [
+        4,
+        "spectroscopic subclass"
+      ],
+      [
+        4,
+        "velocity dispersion"
+      ],
+      [
+        4,
+        "velocity dispersion error"
+      ],
+      [
+        4,
+        "load version"
+      ],
+      [
+        5,
+        "value"
+      ],
+      [
+        5,
+        "name"
+      ],
+      [
+        5,
+        "description"
+      ]
+    ],
+    "column_names_original": [
+      [
+        -1,
+        "*"
+      ],
+      [
+        0,
+        "objid"
+      ],
+      [
+        0,
+        "neighborobjid"
+      ],
+      [
+        0,
+        "distance"
+      ],
+      [
+        0,
+        "type"
+      ],
+      [
+        0,
+        "neighbortype"
+      ],
+      [
+        0,
+        "mode"
+      ],
+      [
+        0,
+        "neighbormode"
+      ],
+      [
+        1,
+        "objid"
+      ],
+      [
+        1,
+        "run"
+      ],
+      [
+        1,
+        "rerun"
+      ],
+      [
+        1,
+        "camcol"
+      ],
+      [
+        1,
+        "field"
+      ],
+      [
+        1,
+        "mode"
+      ],
+      [
+        1,
+        "type"
+      ],
+      [
+        1,
+        "clean"
+      ],
+      [
+        1,
+        "flags"
+      ],
+      [
+        1,
+        "rowc"
+      ],
+      [
+        1,
+        "colc"
+      ],
+      [
+        1,
+        "rowv"
+      ],
+      [
+        1,
+        "colv"
+      ],
+      [
+        1,
+        "colc_g"
+      ],
+      [
+        1,
+        "colc_r"
+      ],
+      [
+        1,
+        "psfmag_u"
+      ],
+      [
+        1,
+        "psfmag_g"
+      ],
+      [
+        1,
+        "psfmag_r"
+      ],
+      [
+        1,
+        "psfmag_i"
+      ],
+      [
+        1,
+        "psfmag_z"
+      ],
+      [
+        1,
+        "psfmagerr_u"
+      ],
+      [
+        1,
+        "psfmagerr_g"
+      ],
+      [
+        1,
+        "psfmagerr_r"
+      ],
+      [
+        1,
+        "psfmagerr_i"
+      ],
+      [
+        1,
+        "psfmagerr_z"
+      ],
+      [
+        1,
+        "fibermag_u"
+      ],
+      [
+        1,
+        "fibermag_g"
+      ],
+      [
+        1,
+        "fibermag_r"
+      ],
+      [
+        1,
+        "fibermag_i"
+      ],
+      [
+        1,
+        "fibermag_z"
+      ],
+      [
+        1,
+        "petromag_u"
+      ],
+      [
+        1,
+        "petromag_g"
+      ],
+      [
+        1,
+        "petromag_r"
+      ],
+      [
+        1,
+        "petromag_i"
+      ],
+      [
+        1,
+        "petromag_z"
+      ],
+      [
+        1,
+        "petrorad_u"
+      ],
+      [
+        1,
+        "petrorad_g"
+      ],
+      [
+        1,
+        "petrorad_r"
+      ],
+      [
+        1,
+        "petrorad_i"
+      ],
+      [
+        1,
+        "petrorad_z"
+      ],
+      [
+        1,
+        "petror90_r"
+      ],
+      [
+        1,
+        "devmag_u"
+      ],
+      [
+        1,
+        "devmag_g"
+      ],
+      [
+        1,
+        "devmag_r"
+      ],
+      [
+        1,
+        "devmag_i"
+      ],
+      [
+        1,
+        "devmag_z"
+      ],
+      [
+        1,
+        "expmag_u"
+      ],
+      [
+        1,
+        "expmag_g"
+      ],
+      [
+        1,
+        "expmag_r"
+      ],
+      [
+        1,
+        "expmag_i"
+      ],
+      [
+        1,
+        "expmag_z"
+      ],
+      [
+        1,
+        "expmagerr_u"
+      ],
+      [
+        1,
+        "expmagerr_g"
+      ],
+      [
+        1,
+        "expmagerr_r"
+      ],
+      [
+        1,
+        "expmagerr_i"
+      ],
+      [
+        1,
+        "expmagerr_z"
+      ],
+      [
+        1,
+        "modelmag_u"
+      ],
+      [
+        1,
+        "modelmag_g"
+      ],
+      [
+        1,
+        "modelmag_r"
+      ],
+      [
+        1,
+        "modelmag_i"
+      ],
+      [
+        1,
+        "modelmag_z"
+      ],
+      [
+        1,
+        "modelmagerr_u"
+      ],
+      [
+        1,
+        "modelmagerr_g"
+      ],
+      [
+        1,
+        "modelmagerr_r"
+      ],
+      [
+        1,
+        "modelmagerr_i"
+      ],
+      [
+        1,
+        "modelmagerr_z"
+      ],
+      [
+        1,
+        "cmodelmag_u"
+      ],
+      [
+        1,
+        "cmodelmag_g"
+      ],
+      [
+        1,
+        "cmodelmag_r"
+      ],
+      [
+        1,
+        "cmodelmag_i"
+      ],
+      [
+        1,
+        "cmodelmag_z"
+      ],
+      [
+        1,
+        "cmodelmagerr_u"
+      ],
+      [
+        1,
+        "cmodelmagerr_g"
+      ],
+      [
+        1,
+        "cmodelmagerr_r"
+      ],
+      [
+        1,
+        "cmodelmagerr_i"
+      ],
+      [
+        1,
+        "cmodelmagerr_z"
+      ],
+      [
+        1,
+        "ra"
+      ],
+      [
+        1,
+        "dec"
+      ],
+      [
+        1,
+        "raerr"
+      ],
+      [
+        1,
+        "b"
+      ],
+      [
+        1,
+        "l"
+      ],
+      [
+        1,
+        "extinction_r"
+      ],
+      [
+        1,
+        "extinction_i"
+      ],
+      [
+        1,
+        "mjd"
+      ],
+      [
+        1,
+        "loadversion"
+      ],
+      [
+        1,
+        "u"
+      ],
+      [
+        1,
+        "g"
+      ],
+      [
+        1,
+        "r"
+      ],
+      [
+        1,
+        "i"
+      ],
+      [
+        1,
+        "z"
+      ],
+      [
+        1,
+        "dered_u"
+      ],
+      [
+        1,
+        "dered_g"
+      ],
+      [
+        1,
+        "dered_r"
+      ],
+      [
+        1,
+        "dered_i"
+      ],
+      [
+        1,
+        "dered_z"
+      ],
+      [
+        1,
+        "tai_u"
+      ],
+      [
+        1,
+        "tai_g"
+      ],
+      [
+        1,
+        "tai_r"
+      ],
+      [
+        1,
+        "tai_i"
+      ],
+      [
+        1,
+        "tai_z"
+      ],
+      [
+        2,
+        "specobjid"
+      ],
+      [
+        3,
+        "specobjid"
+      ],
+      [
+        4,
+        "specobjid"
+      ],
+      [
+        4,
+        "bestobjid"
+      ],
+      [
+        4,
+        "plateid"
+      ],
+      [
+        4,
+        "scienceprimary"
+      ],
+      [
+        4,
+        "segue2primary"
+      ],
+      [
+        4,
+        "survey"
+      ],
+      [
+        4,
+        "programname"
+      ],
+      [
+        4,
+        "mjd"
+      ],
+      [
+        4,
+        "plate"
+      ],
+      [
+        4,
+        "fiberid"
+      ],
+      [
+        4,
+        "special_target1"
+      ],
+      [
+        4,
+        "segue2_target1"
+      ],
+      [
+        4,
+        "segue2_target2"
+      ],
+      [
+        4,
+        "ancillary_target1"
+      ],
+      [
+        4,
+        "ra"
+      ],
+      [
+        4,
+        "dec"
+      ],
+      [
+        4,
+        "z"
+      ],
+      [
+        4,
+        "zerr"
+      ],
+      [
+        4,
+        "zwarning"
+      ],
+      [
+        4,
+        "class"
+      ],
+      [
+        4,
+        "subclass"
+      ],
+      [
+        4,
+        "veldisp"
+      ],
+      [
+        4,
+        "veldisperr"
+      ],
+      [
+        4,
+        "loadversion"
+      ],
+      [
+        5,
+        "value"
+      ],
+      [
+        5,
+        "name"
+      ],
+      [
+        5,
+        "description"
+      ]
+    ],
+    "column_types": [
+      "text",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "text",
+      "text",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "number",
+      "text",
+      "text",
+      "number",
+      "number",
+      "number",
+      "number",
+      "text",
+      "text"
+    ],
+    "db_id": "skyserver_dr16_2020_11_30",
+    "foreign_keys": [
+      [
+        1,
+        8
+      ],
+      [
+        108,
+        110
+      ],
+      [
+        109,
+        110
+      ],
+      [
+        111,
+        8
+      ],
+      [
+        134,
+        14
+      ],
+      [
+        134,
+        5
+      ]
+    ],
+    "primary_keys": [
+      8,
+      108,
+      109,
+      110,
+      134
+    ],
+    "table_names": [
+      "nearest neighbors",
+      "photometric objects",
+      "emission line estimates",
+      "equivalent width estimates",
+      "spectroscopic objects",
+      "photometrically observed"
+    ],
+    "table_names_original": [
+      "neighbors",
+      "photoobj",
+      "galspecline",
+      "spplines",
+      "specobj",
+      "photo_type"
+    ]
+  }
+]

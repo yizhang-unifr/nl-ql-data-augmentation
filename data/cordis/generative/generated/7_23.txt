@@ -1,0 +1,16 @@
+SELECT countries.country_code FROM countries WHERE countries.country_name = 'Algeria' or countries.country_name = 'Uzbekistan'
+
+###
+
+
+Original Query:
+SELECT countries.country_code2 FROM countries WHERE countries.country_name = 'Algeria' or countries.country_name = 'Uzbekistan'
+GPT-3 choices:
+(0) Show the country codes for countries called "Algeria" or "Uzbekistan"
+(1) IS THERE ANY CONTENT ON THE COUNTRIES CALLED "Algeria" OR "Uzbekistan"?
+(2) Show countries.country_code of countries whose name is either "Algeria" or "Uzbekistan"
+(3) Display the country code of all countries with the name "Algeria" or "Uzbekistan"
+(4) Show the countries which are either Algeria or Uzbekistan?
+(5) Show countries having both "Algeria" and "Uzbekistan" as countries names.
+(6) Retrieve the country code for countries whose name is in one of the two countries: Algeria and Uzbekistan.
+(7) Show the country code for all countries with a country name of either "Algeria" or "Uzbekistan"

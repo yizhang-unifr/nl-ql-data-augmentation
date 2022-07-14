@@ -1,0 +1,27 @@
+SELECT count(*) FROM topics WHERE topics.rcn = '12703'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM topics WHERE topics.rcn = '12703'
+GPT-3 choices:
+(0) How many topics are there about RCN 12703?
+(1) How many topics are in the RCN 12703?
+(2) How many are in the subject market of vocalising about information?
+(3) Show me the number of topic in the wide research area with code 12703.
+(4) Show me the count of topics assigned to region 12703.
+(5) How many topics are there with rcn 12703?
+(6) Show the number of topics which topic code is 12703.
+(7) How many topics are there about RCN 12703?
+
+
+Re-ranked choices:
+4.099  How many topics are in the RCN 12703?
+4.082  How many topics are there with rcn 12703?
+3.849  Show me the number of topic in the wide research area with code 12703.
+3.797  How many topics are there about RCN 12703?
+3.526  Show the number of topics which topic code is 12703.
+3.510  Show me the count of topics assigned to region 12703.
+1.803  How many are in the subject market of vocalising about information?
+

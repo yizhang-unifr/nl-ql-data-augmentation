@@ -1,0 +1,28 @@
+SELECT count(*) FROM countries WHERE countries.country_code = 'CA'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM countries WHERE countries.country_code2 = 'CA'
+GPT-3 choices:
+(0) How many countries are there with country code=CA?
+(1) Show the total number of country with country code = CA
+(2) Retrieve the number of different country codes of countries whose name is 'CA'.
+(3) Count the amount of countries whose country code is 'CA'.
+(4) How many countries are there whose country_code is CA?
+(5) What is the number of countries whose country code is CA?
+(6) Show me how many different countries with the country code CA exist?
+(7) How many countries are in the continent of Asia that have the country code CA?
+
+
+Re-ranked choices:
+6.381  What is the number of countries whose country code is CA?
+6.308  Show me how many different countries with the country code CA exist?
+6.292  How many countries are there with country code=CA?
+6.291  How many countries are there whose country_code is CA?
+6.110  Count the amount of countries whose country code is 'CA'.
+5.954  Retrieve the number of different country codes of countries whose name is 'CA'.
+5.792  Show the total number of country with country code = CA
+5.697  How many countries are in the continent of Asia that have the country code CA?
+

@@ -1,0 +1,16 @@
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.description = 'Noord-Brabant'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.description = 'Noord-Brabant'
+GPT-3 choices:
+(0) Show the number of territorial units in the region Noord-Brabant.
+(1) Lets get the number of territorial units in North-Brabant.
+(2) How many territorial units are there in North Brabant?
+(3) How many territorial unit descriptions are there in Noord-Brabant?
+(4) How many are the european territorial units in the country called Noord-Brabant?
+(5) How many eu_territorial_units are there in the region Noord-Brabant?
+(6) How many territorial units are there in Noord-Brabant?
+(7) How many entities are in Noord-Brabant?

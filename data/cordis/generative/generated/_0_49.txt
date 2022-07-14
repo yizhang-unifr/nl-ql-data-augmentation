@@ -1,0 +1,28 @@
+SELECT subject_areas.title FROM subject_areas WHERE subject_areas.code = 'MBI'
+
+###
+
+
+Original Query:
+SELECT subject_areas.title FROM subject_areas WHERE subject_areas.code = 'MBI'
+GPT-3 choices:
+(0) Show me all subjects areas with code ‘MBI’
+(1) Show me all subject areas with code MBI
+(2) Show the subject areas with code MBI
+(3) Which are the subject areas that have the code MBI ?
+(4) Retrieve all subject area titles that start with MBI
+(5) Show me the subject area titles associated with the subject area code MBI
+(6) Show subject areas with code MBI
+(7) Show me the subject areas having code = MBI
+
+
+Re-ranked choices:
+6.188  Show me all subject areas with code MBI
+6.169  Show the subject areas with code MBI
+6.134  Show me the subject areas having code = MBI
+6.048  Show subject areas with code MBI
+5.989  Show me all subjects areas with code ‘MBI’
+5.939  Show me the subject area titles associated with the subject area code MBI
+5.420  Which are the subject areas that have the code MBI ?
+4.737  Retrieve all subject area titles that start with MBI
+

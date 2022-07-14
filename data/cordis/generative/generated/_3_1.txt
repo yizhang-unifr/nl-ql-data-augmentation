@@ -1,0 +1,25 @@
+SELECT count(*) FROM project_members
+
+###
+
+
+Original Query:
+SELECT count(*) FROM project_members
+GPT-3 choices:
+(0) How many project members are there?
+(1) Retrieve the number of project members
+(2) The total number of project members
+(3) 
+(4) How many project members are there?
+(5) What is the number of project members?
+(6) How many project members are there?
+(7) How many are the project members?
+
+
+Re-ranked choices:
+3.635  What is the number of project members?
+3.548  The total number of project members
+3.546  How many project members are there?
+3.501  How many are the project members?
+3.106  Retrieve the number of project members
+

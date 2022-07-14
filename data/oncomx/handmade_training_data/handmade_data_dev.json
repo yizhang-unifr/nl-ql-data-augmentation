@@ -1,0 +1,723 @@
+[
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "0_0",
+    "user": "ursin",
+    "question": "Show me all information about disease mutations with amino acid residue (ref_aa) equal to E",
+    "query": "SELECT * FROM disease_mutation WHERE ref_aa = 'E'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "0_1",
+    "user": "ursin",
+    "question": "Show me all disease mutations with ref_aa E",
+    "query": "SELECT * FROM disease_mutation WHERE ref_aa = 'E'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "0_2",
+    "user": "ursin",
+    "question": "Show me all information about disease mutations with ref_aa equal to F",
+    "query": "SELECT * FROM disease_mutation WHERE ref_aa = 'F'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "1_0",
+    "user": "ursin",
+    "question": "How many FDA tests did manufacturer 23andMe?",
+    "query": "SELECT count(*)\nFROM biomarker_fda_test\nWHERE biomarker_fda_test.test_manufacturer = '23andMe'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "1_1",
+    "user": "ursin",
+    "question": "In how many FDA tests was manufacturer 23andMe involved?",
+    "query": "SELECT count(*)\nFROM biomarker_fda_test\nWHERE biomarker_fda_test.test_manufacturer = '23andMe'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "2_0",
+    "user": "ursin",
+    "question": "What is the common name for species 'Mus'?",
+    "query": "SELECT speciescommonname\nFROM species\nWHERE genus = 'Mus'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "2_1",
+    "user": "ursin",
+    "question": "What is the common name for species with genus Mus?",
+    "query": "SELECT speciescommonname\nFROM species\nWHERE genus = 'Mus'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "3_0",
+    "user": "ursin",
+    "question": "What are the name of cancer types where the A1BG gene expression is significantly increased (up regulated)",
+    "query": "SELECT disease.name\nFROM differential_expression\n         JOIN disease ON differential_expression.doid = disease.id\nWHERE differential_expression.gene_symbol = 'A1BG'\n  and differential_expression.expression_change_direction = 'up'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "3_1",
+    "user": "ursin",
+    "question": "What are the name of diseases where the expression of gene with symbol A1BG is up regulated (expression change direction)",
+    "query": "SELECT disease.name\nFROM differential_expression\n         JOIN disease ON differential_expression.doid = disease.id\nWHERE differential_expression.gene_symbol = 'A1BG'\n  and differential_expression.expression_change_direction = 'up'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "4_0",
+    "user": "ursin",
+    "question": "What species are there?",
+    "query": "SELECT * FROM species"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "4_1",
+    "user": "ursin",
+    "question": "Show me all information about species",
+    "query": "SELECT * FROM species"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "5_0",
+    "user": "ursin",
+    "question": "Return the symbol and p-value for the expression of EGFR in lung cancer ",
+    "query": "SELECT differential_expression.gene_symbol,\n       differential_expression.pvalue\nFROM differential_expression JOIN disease ON differential_expression.doid = disease.id\nWHERE differential_expression.gene_symbol = 'EGFR' AND disease.name = 'lung cancer'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "5_1",
+    "user": "ursin",
+    "question": "Return gen symbol and pvalue for the expression of gene with symbol 'EGFR' in lung cancer ",
+    "query": "SELECT differential_expression.gene_symbol,\n       differential_expression.pvalue\nFROM differential_expression JOIN disease ON differential_expression.doid = disease.id\nWHERE differential_expression.gene_symbol = 'EGFR' AND disease.name = 'lung cancer'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "6_1",
+    "user": "ursin",
+    "question": "Show all information about disease mutations",
+    "query": "SELECT * FROM disease_mutation"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "6_2",
+    "user": "ursin",
+    "question": "Show me all disease mutations",
+    "query": "SELECT * FROM disease_mutation"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "7_0",
+    "user": "ursin",
+    "question": "How many healthy expression are there for 'late adult stage'?",
+    "query": "SELECT COUNT(*) FROM healthy_expression JOIN stage ON healthy_expression.uberon_developmental_id = stage.id WHERE stage.name = 'late adult stage'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "7_1",
+    "user": "ursin",
+    "question": "How many healthy expression are there for stage name starting with 'late adult'?",
+    "query": "SELECT COUNT(*) FROM healthy_expression JOIN stage ON healthy_expression.uberon_developmental_id = stage.id WHERE stage.name LIKE 'late adult%'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "8_0",
+    "user": "ursin",
+    "question": "Show name of diseases where the A1BG gene expression is statistically significant",
+    "query": "SELECT disease.name\nFROM differential_expression\n         JOIN disease ON differential_expression.doid = disease.id\nWHERE differential_expression.gene_symbol = 'A1BG'\n  and differential_expression.statistical_significance = 'Yes'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "8_1",
+    "user": "ursin",
+    "question": "Show name of diseases where the gene expression with symbol A1BG has a statistical significance of 'Yes'",
+    "query": "SELECT disease.name\nFROM differential_expression\n         JOIN disease ON differential_expression.doid = disease.id\nWHERE differential_expression.gene_symbol = 'A1BG'\n  and differential_expression.statistical_significance = 'Yes'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "9_0",
+    "user": "ursin",
+    "question": "Show me the description of all biomarkers",
+    "query": "SELECT biomarker_description FROM biomarker"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "9_1",
+    "user": "ursin",
+    "question": "Get a list of all biomarker descriptions",
+    "query": "SELECT biomarker_description FROM biomarker"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "10_0",
+    "user": "ursin",
+    "question": "Show number of fda test trials with test manufacturer 'ABBOTT MOLECULAR INC'",
+    "query": "SELECT count(*)\nFROM biomarker_fda_test\n         JOIN biomarker_fda_test_trial\n              ON biomarker_fda_test.test_submission = biomarker_fda_test_trial.test_submission and\n                 biomarker_fda_test.test_trade_name = biomarker_fda_test_trial.test_trade_name\nWHERE test_manufacturer = 'ABBOTT MOLECULAR INC'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "10_1",
+    "user": "ursin",
+    "question": "In how many fda test trials was test manufacturer 'ABBOTT MOLECULAR INC' involved?",
+    "query": "SELECT count(*)\nFROM biomarker_fda_test\n         JOIN biomarker_fda_test_trial\n              ON biomarker_fda_test.test_submission = biomarker_fda_test_trial.test_submission and\n                 biomarker_fda_test.test_trade_name = biomarker_fda_test_trial.test_trade_name\nWHERE test_manufacturer = 'ABBOTT MOLECULAR INC'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "11_0",
+    "user": "ursin",
+    "question": "Show the gene symbol and the description of cancer biomarkers which are not in a panel",
+    "query": "SELECT biomarker.gene_symbol, biomarker_description FROM biomarker WHERE test_is_a_panel = 'false'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "11_1",
+    "user": "ursin",
+    "question": "Show the gene symbol and the description of cancer biomarkers with panel = 'false'",
+    "query": "SELECT biomarker.gene_symbol, biomarker_description FROM biomarker WHERE test_is_a_panel = 'false'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "12_0",
+    "user": "ursin",
+    "question": "What is the test trade name for FDA tests which are actually used for predisposition?",
+    "query": "SELECT test_trade_name FROM biomarker_fda_test_use WHERE actual_use = 'predisposition'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "12_1",
+    "user": "ursin",
+    "question": "What is the test trade name for FDA tests where actual use is 'predisposition'?",
+    "query": "SELECT test_trade_name FROM biomarker_fda_test_use WHERE actual_use = 'predisposition'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "13_0",
+    "user": "ursin",
+    "question": "Show all information about diseases which contain cancer in the name",
+    "query": "SELECT name FROM disease WHERE name like '%cancer%'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "13_1",
+    "user": "ursin",
+    "question": "Show all information about diseases where the name contains 'cancer'",
+    "query": "SELECT name FROM disease WHERE name like '%cancer%'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "14_0",
+    "user": "ursin",
+    "question": "Show me all biomarker titles and QA states for biomarker on EDRN in phase Two",
+    "query": "SELECT biomarker_title, qa_state FROM biomarker_edrn WHERE phase = 'Two'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "14_1",
+    "user": "ursin",
+    "question": "Show me biomarker titles and qa states for biomarker in phase Two",
+    "query": "SELECT biomarker_title, qa_state FROM biomarker_edrn WHERE phase = 'Two'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "15_0",
+    "user": "ursin",
+    "question": "Show me the gene symbol of biomarkers",
+    "query": "SELECT gene_symbol FROM biomarker"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "15_1",
+    "user": "ursin",
+    "question": "Show me all gene symbols of biomarkers",
+    "query": "SELECT gene_symbol FROM biomarker"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "16_0",
+    "user": "ursin",
+    "question": "Show me all biomarkers on the EDRN platform with type protein in phase two.",
+    "query": "SELECT biomarker_title FROM biomarker_edrn WHERE biomarker_type = 'Protein' AND phase = 'Two'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "16_1",
+    "user": "ursin",
+    "question": "Show me the title of all biomarkers on the EDRN platform with biomarker type Protein in phase Two.",
+    "query": "SELECT biomarker_title FROM biomarker_edrn WHERE biomarker_type = 'Protein' AND phase = 'Two'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "17_0",
+    "user": "ursin",
+    "question": "Show me all biomarkers on the EDRN platform which are not of type protein.",
+    "query": "SELECT biomarker_title FROM biomarker_edrn WHERE biomarker_type != 'Protein'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "17_1",
+    "user": "ursin",
+    "question": "Show me the title of biomarkers on the EDRN platform with biomarker type different from Protein.",
+    "query": "SELECT biomarker_title FROM biomarker_edrn WHERE biomarker_type != 'Protein'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "18_0",
+    "user": "ursin",
+    "question": "Identify a list of genes expressed in lung cancer",
+    "query": "SELECT differential_expression.gene_symbol\nFROM differential_expression\n         JOIN disease ON differential_expression.doid = disease.id\nWHERE disease.name = 'lung cancer'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "18_1",
+    "user": "ursin",
+    "question": "Show all symbols of genes expressed in the disease 'lung cancer'",
+    "query": "SELECT differential_expression.gene_symbol\nFROM differential_expression\n         JOIN disease ON differential_expression.doid = disease.id\nWHERE disease.name = 'lung cancer'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "19_0",
+    "user": "ursin",
+    "question": "Show biomarker gene symbol and description for 'breast cancer'",
+    "query": "SELECT biomarker.gene_symbol, biomarker.biomarker_description\nFROM biomarker\n         JOIN biomarker_fda on biomarker.id = biomarker_fda.id\n         JOIN biomarker_fda_test ON biomarker_fda.test_submission = biomarker_fda_test.test_submission and\n                                    biomarker_fda.test_trade_name = biomarker_fda_test.test_trade_name\n         JOIN disease ON disease.id = biomarker_fda_test.doid\nWHERE disease.name = 'breast cancer'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "19_1",
+    "user": "ursin",
+    "question": "Get the biomarker gene symbol and biomarker description for disease with name 'breast cancer'",
+    "query": "SELECT biomarker.gene_symbol, biomarker.biomarker_description\nFROM biomarker\n         JOIN biomarker_fda on biomarker.id = biomarker_fda.id\n         JOIN biomarker_fda_test ON biomarker_fda.test_submission = biomarker_fda_test.test_submission and\n                                    biomarker_fda.test_trade_name = biomarker_fda_test.test_trade_name\n         JOIN disease ON disease.id = biomarker_fda_test.doid\nWHERE disease.name = 'breast cancer'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "20_0",
+    "user": "ursin",
+    "question": "What are the different biomarker EDRN phases?",
+    "query": "SELECT DISTINCT phase from biomarker_edrn"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "20_1",
+    "user": "ursin",
+    "question": "Get all distinct biomarker EDRN phases",
+    "query": "SELECT DISTINCT phase from biomarker_edrn"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "21_0",
+    "user": "ursin",
+    "question": "Show me the platform method an the study design for FDA tests from manufacturer 'Dako Denmark A/S'",
+    "query": "SELECT platform_method, test_study_design\nFROM biomarker_fda_test\nWHERE test_manufacturer = 'Dako Denmark A/S'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "21_1",
+    "user": "ursin",
+    "question": "List the platform method an the test study design for FDA tests from test manufacturer Dako Denmark A/S",
+    "query": "SELECT platform_method, test_study_design\nFROM biomarker_fda_test\nWHERE test_manufacturer = 'Dako Denmark A/S'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "22_0",
+    "user": "ursin",
+    "question": "Show the pvalue of differential expression of lung cancer",
+    "query": "SELECT differential_expression.pvalue\nFROM differential_expression\n         JOIN disease ON differential_expression.doid = disease.id\nWHERE disease.name = 'lung cancer'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "22_1",
+    "user": "ursin",
+    "question": "Get the p-value of differential expressions for the disease 'lung cancer'",
+    "query": "SELECT differential_expression.pvalue\nFROM differential_expression\n         JOIN disease ON differential_expression.doid = disease.id\nWHERE disease.name = 'lung cancer'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "23_0",
+    "user": "ursin",
+    "question": "Show disease mutation chromosome positions for skin cancer",
+    "query": "SELECT disease_mutation.chromosome_pos\nFROM disease_mutation\n         JOIN disease ON disease_mutation.doid = disease.id\nWHERE disease.name = 'skin cancer'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "23_1",
+    "user": "ursin",
+    "question": "List all disease mutation chromosome positions data for disease skin cancer",
+    "query": "SELECT disease_mutation.chromosome_pos\nFROM disease_mutation\n         JOIN disease ON disease_mutation.doid = disease.id\nWHERE disease.name = 'skin cancer'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "24_0",
+    "user": "ursin",
+    "question": "How many genes are there for species Homo?",
+    "query": "SELECT count(*) FROM xref_gene_ensembl JOIN species ON xref_gene_ensembl.speciesid = species.speciesid WHERE species.genus = 'Homo'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "24_1",
+    "user": "ursin",
+    "question": "How many genes ensembles are there for species with genus Homo?",
+    "query": "SELECT count(*) FROM xref_gene_ensembl JOIN species ON xref_gene_ensembl.speciesid = species.speciesid WHERE species.genus = 'Homo'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "25_0",
+    "user": "ursin",
+    "question": "Show tests built by a manufacturer starting with 'Roche' ",
+    "query": "SELECT *\nFROM biomarker_fda_test\nWHERE test_manufacturer like 'Roche%'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "25_1",
+    "user": "ursin",
+    "question": "Show submissions of biomarker FDA tests from test manufacturer starting with 'Roche' ",
+    "query": "SELECT test_submission\nFROM biomarker_fda_test\nWHERE test_manufacturer like 'Roche%'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "25_2",
+    "user": "ursin",
+    "question": "Show submissions of biomarker FDA tests from test manufacturer 'Roche Molecular Systems Inc.'",
+    "query": "SELECT *\nFROM biomarker_fda_test\nWHERE test_manufacturer = 'Roche Molecular Systems Inc.'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "26_0",
+    "user": "ursin",
+    "question": "Show me the description for FDA approved biomarkers with test approval status 'class II'",
+    "query": "SELECT biomarker.biomarker_description\nFROM biomarker\n         JOIN biomarker_fda ON biomarker.id = biomarker_fda.id\n         JOIN biomarker_fda_test on biomarker_fda.test_submission = biomarker_fda_test.test_submission\nWHERE biomarker_fda_test.test_approval_status = 'class II'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "26_1",
+    "user": "ursin",
+    "question": "List the descriptions of biomarkers for fda tests with approval status 'class II'",
+    "query": "SELECT biomarker.biomarker_description\nFROM biomarker\n         JOIN biomarker_fda ON biomarker.id = biomarker_fda.id\n         JOIN biomarker_fda_test on biomarker_fda.test_submission = biomarker_fda_test.test_submission\nWHERE biomarker_fda_test.test_approval_status = 'class II'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "27_0",
+    "user": "ursin",
+    "question": "Which diseases (name) have a mutation with a coding sequence position of 102997?",
+    "query": "SELECT disease.name\nFROM disease JOIN disease_mutation ON disease.id = disease_mutation.doid\nWHERE disease_mutation.cds_pos = 102997"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "27_1",
+    "user": "ursin",
+    "question": "Show me all diseases having a mutation with a coding sequence position (cds_pos) of 102997?",
+    "query": "SELECT disease.name\nFROM disease JOIN disease_mutation ON disease.id = disease_mutation.doid\nWHERE disease_mutation.cds_pos = 102997"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "28_0",
+    "user": "ursin",
+    "question": "Show all information in differential expression",
+    "query": "SELECT * FROM differential_expression"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "28_1",
+    "user": "ursin",
+    "question": "Get all differential expression",
+    "query": "SELECT * FROM differential_expression"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "29_0",
+    "user": "ursin",
+    "question": "Return all information from healthy expressions which have an expression score above the average.",
+    "query": "SELECT * FROM healthy_expression WHERE expression_score > (SELECT AVG(expression_score) FROM healthy_expression)"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "29_1",
+    "user": "ursin",
+    "question": "Return all expressions which have an expression score higher than the average expression score.",
+    "query": "SELECT * FROM healthy_expression WHERE expression_score > (SELECT AVG(expression_score) FROM healthy_expression)"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "30_0",
+    "user": "ursin",
+    "question": "Show all different gene symbols in differential expression",
+    "query": "SELECT DISTINCT gene_symbol FROM differential_expression"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "30_1",
+    "user": "ursin",
+    "question": "Show the distinct gene symbols of differential expression",
+    "query": "SELECT DISTINCT gene_symbol FROM differential_expression"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "31_0",
+    "user": "ursin",
+    "question": "What are the symbols for biomarkers with type genomic for anatomical entity breast?",
+    "query": "SELECT gene_symbol\nFROM biomarker\n         JOIN biomarker_edrn ON biomarker.id = biomarker_edrn.id\n         JOIN anatomical_entity ON biomarker_edrn.uberon_anatomical_id = anatomical_entity.id\nWHERE anatomical_entity.name = 'breast'\n  and biomarker_edrn.biomarker_type = 'Genomic'\n"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "31_1",
+    "user": "ursin",
+    "question": "What are the symbols for biomarkers on the EDRN platform with biomarker type Genomic for anatomical entity 'breast'?",
+    "query": "SELECT gene_symbol\nFROM biomarker\n         JOIN biomarker_edrn ON biomarker.id = biomarker_edrn.id\n         JOIN anatomical_entity ON biomarker_edrn.uberon_anatomical_id = anatomical_entity.id\nWHERE anatomical_entity.name = 'breast'\n  and biomarker_edrn.biomarker_type = 'Genomic'\n"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "32_0",
+    "user": "ursin",
+    "question": "Show me all gene symbols expressed with a pvalue between 0.39 and 0.41",
+    "query": "SELECT gene_symbol FROM differential_expression WHERE pvalue > 0.39 AND pvalue < 0.41"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "32_1",
+    "user": "ursin",
+    "question": "Get all gene symbols from expressions with a p-value between 0.39 and 0.41",
+    "query": "SELECT gene_symbol FROM differential_expression WHERE pvalue > 0.39 AND pvalue < 0.41"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "33_0",
+    "user": "ursin",
+    "question": "Show the distinct chromosome id's in mutations of breast cancer",
+    "query": "SELECT DISTINCT disease_mutation.chromosome_id\nFROM disease_mutation\n         JOIN disease ON disease_mutation.doid = disease.id\nWHERE disease.name = 'breast cancer'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "33_1",
+    "user": "ursin",
+    "question": "Show the different chromosome id's in mutations of disease 'breast cancer'",
+    "query": "SELECT DISTINCT disease_mutation.chromosome_id\nFROM disease_mutation\n         JOIN disease ON disease_mutation.doid = disease.id\nWHERE disease.name = 'breast cancer'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "34_0",
+    "user": "ursin",
+    "question": "Show me the names of all anatomical entities which have a healthy expression with relative gene expression level LOW and a relative anatomical expression level of HIGH",
+    "query": "SELECT anatomical_entity.name\nFROM anatomical_entity\n         JOIN healthy_expression ON anatomical_entity.id = healthy_expression.uberon_anatomical_id\nWHERE expression_level_gene_relative = 'LOW'\n  AND expression_level_anatomical_relative = 'HIGH'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "34_1",
+    "user": "ursin",
+    "question": "List the names of anatomical entities having an expression with relative gene expression level LOW and a relative anatomical expression level of HIGH",
+    "query": "SELECT anatomical_entity.name\nFROM anatomical_entity\n         JOIN healthy_expression ON anatomical_entity.id = healthy_expression.uberon_anatomical_id\nWHERE expression_level_gene_relative = 'LOW'\n  AND expression_level_anatomical_relative = 'HIGH'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "35_0",
+    "user": "ursin",
+    "question": "Show me the name of anatomical entities",
+    "query": "SELECT name FROM anatomical_entity"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "35_1",
+    "user": "ursin",
+    "question": "Get the name of all anatomical entities starting with 'bone'",
+    "query": "SELECT name FROM anatomical_entity WHERE name LIKE 'bone%'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "35_2",
+    "user": "ursin",
+    "question": "Get all anatomical entities where the name starts 'bone'",
+    "query": "SELECT name FROM anatomical_entity WHERE name LIKE 'bone%'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "36_0",
+    "user": "ursin",
+    "question": "Show me the name and description of all anatomical entities.",
+    "query": "SELECT name, description\nFROM anatomical_entity"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "36_1",
+    "user": "ursin",
+    "question": "Get name and description of anatomical entities.",
+    "query": "SELECT name, description\nFROM anatomical_entity"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "37_0",
+    "user": "ursin",
+    "question": "What disease can occur in the liver?",
+    "query": "SELECT disease.name\nFROM anatomical_entity\n         JOIN cancer_tissue ON anatomical_entity.id = cancer_tissue.uberon_anatomical_id\n         JOIN disease ON cancer_tissue.doid = disease.id\nWHERE anatomical_entity.name = 'liver'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "37_1",
+    "user": "ursin",
+    "question": "List the name of diseases that can occur in the anatomical entity 'liver'",
+    "query": "SELECT disease.name\nFROM anatomical_entity\n         JOIN cancer_tissue ON anatomical_entity.id = cancer_tissue.uberon_anatomical_id\n         JOIN disease ON cancer_tissue.doid = disease.id\nWHERE anatomical_entity.name = 'liver'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "38_0",
+    "user": "ursin",
+    "question": "Show all different anatomical entities with a healthy expression score of more than 99.9",
+    "query": "SELECT DISTINCT anatomical_entity.name\nFROM anatomical_entity\n         JOIN healthy_expression ON anatomical_entity.id = healthy_expression.uberon_anatomical_id\nWHERE healthy_expression.expression_score > 99.0"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "38_1",
+    "user": "ursin",
+    "question": "Return the name of anatomical entities with a healthy expression score higher than 99.9",
+    "query": "SELECT anatomical_entity.name\nFROM anatomical_entity\n         JOIN healthy_expression ON anatomical_entity.id = healthy_expression.uberon_anatomical_id\nWHERE healthy_expression.expression_score > 99.0"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "39_0",
+    "user": "ursin",
+    "question": "Show distinct manufacturer of tests for gene BRAF ",
+    "query": "SELECT DISTINCT biomarker_fda_test.test_manufacturer\nFROM biomarker\n         JOIN biomarker_fda on biomarker.id = biomarker_fda.id\n         JOIN biomarker_fda_test\n              ON biomarker_fda.test_trade_name = biomarker_fda_test.test_trade_name AND biomarker_fda.test_submission = biomarker_fda_test.test_submission\nWHERE biomarker.gene_symbol = 'BRAF'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "39_1",
+    "user": "ursin",
+    "question": "Show all FDA test manufacturer for biomarkers of gene BRAF ",
+    "query": "SELECT biomarker_fda_test.test_manufacturer\nFROM biomarker\n         JOIN biomarker_fda on biomarker.id = biomarker_fda.id\n         JOIN biomarker_fda_test\n              ON biomarker_fda.test_trade_name = biomarker_fda_test.test_trade_name AND biomarker_fda.test_submission = biomarker_fda_test.test_submission\nWHERE biomarker.gene_symbol = 'BRAF'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "40_0",
+    "user": "ursin",
+    "question": "What is the symbol of genes which are expressed in the disease stomach cancer with an adjusted p-value of more than 0.999?",
+    "query": "SELECT differential_expression.gene_symbol\nFROM differential_expression\n         JOIN disease ON differential_expression.doid = disease.id\nWHERE differential_expression.adjpvalue > 0.999\nAND disease.name = 'stomach cancer'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "40_1",
+    "user": "ursin",
+    "question": "What is the symbol of genes which are expressed in 'stomach cancer' with an adjusted p-value (adjpvalue) of more than 0.999?",
+    "query": "SELECT differential_expression.gene_symbol\nFROM differential_expression\n         JOIN disease ON differential_expression.doid = disease.id\nWHERE differential_expression.adjpvalue > 0.999\nAND disease.name = 'stomach cancer'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "41_0",
+    "user": "ursin",
+    "question": "Show all diseases which are not undefined",
+    "query": "SELECT * FROM disease WHERE name != 'undefined'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "41_1",
+    "user": "ursin",
+    "question": "Which diseases have a name different from 'undefined'",
+    "query": "SELECT * FROM disease WHERE name != 'undefined'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "42_0",
+    "user": "ursin",
+    "question": "List all disease names",
+    "query": "SELECT name FROM disease"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "42_1",
+    "user": "ursin",
+    "question": "Get all names from diseases",
+    "query": "SELECT name FROM disease"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "43_0",
+    "user": "ursin",
+    "question": "How many disease mutations have a coding sequence position (cds_pos) of 1850?",
+    "query": "SELECT COUNT(*) FROM disease_mutation WHERE cds_pos = 1850"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "43_1",
+    "user": "ursin",
+    "question": "How many disease mutations have a coding-sequence position of 1850?",
+    "query": "SELECT COUNT(*) FROM disease_mutation WHERE cds_pos = 1850"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "44_0",
+    "user": "ursin",
+    "question": "Show all information about healthy expressions",
+    "query": "SELECT * FROM healthy_expression"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "44_1",
+    "user": "ursin",
+    "question": "Get all information about healthy expressions in anatomical entities",
+    "query": "SELECT *\nFROM healthy_expression\n         JOIN anatomical_entity ON healthy_expression.uberon_anatomical_id = anatomical_entity.id"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "45_0",
+    "user": "ursin",
+    "question": "Show number of test trials of 23andMe",
+    "query": "SELECT count(*)\nFROM biomarker_fda_test_trial\n         JOIN biomarker_fda_test ON biomarker_fda_test_trial.test_submission = biomarker_fda_test.test_submission and biomarker_fda_test_trial.test_trade_name = biomarker_fda_test.test_trade_name\nWHERE biomarker_fda_test.test_manufacturer = '23andMe'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "45_1",
+    "user": "ursin",
+    "question": "Show number of test trials of test manufacturer '23andMe'",
+    "query": "SELECT count(*)\nFROM biomarker_fda_test_trial\n         JOIN biomarker_fda_test ON biomarker_fda_test_trial.test_submission = biomarker_fda_test.test_submission and biomarker_fda_test_trial.test_trade_name = biomarker_fda_test.test_trade_name\nWHERE biomarker_fda_test.test_manufacturer = '23andMe'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "46_0",
+    "user": "ursin",
+    "question": "How many stages do exist? ",
+    "query": "SELECT COUNT(*) FROM stage"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "46_1",
+    "user": "ursin",
+    "question": "How many stages are there?",
+    "query": "SELECT COUNT(*) FROM stage"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "47_0",
+    "user": "ursin",
+    "question": "Show the gene symbol of differential expression for lung cancer",
+    "query": "SELECT differential_expression.gene_symbol\nFROM differential_expression\n         JOIN disease ON differential_expression.doid = disease.id\nWHERE disease.name = 'lung cancer'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "47_1",
+    "user": "ursin",
+    "question": "Show the gene symbol of differential expression for the disease 'lung cancer'",
+    "query": "SELECT differential_expression.gene_symbol\nFROM differential_expression\n         JOIN disease ON differential_expression.doid = disease.id\nWHERE disease.name = 'lung cancer'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "48_0",
+    "user": "ursin",
+    "question": "What is the average probability for disease mutation impact predictions?",
+    "query": "SELECT AVG(probability) FROM disease_mutation_impact_prediction"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "48_1",
+    "user": "ursin",
+    "question": "Get the average probability for mutation impact predictions?",
+    "query": "SELECT AVG(probability) FROM disease_mutation_impact_prediction"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "49_0",
+    "user": "ursin",
+    "question": "Identify a list of genes expressed in lung cancer that are statistically significant",
+    "query": "SELECT differential_expression.gene_symbol\nFROM differential_expression\n         JOIN disease ON differential_expression.doid = disease.id\nWHERE disease.name = 'lung cancer'\n  and statistical_significance = 'Yes'"
+  },
+  {
+    "db_id": "oncomx_v1_0_25_small",
+    "id": "49_1",
+    "user": "ursin",
+    "question": "Get the symbol of genes expressed in the disease 'lung cancer' that have statistical significance set to 'Yes'",
+    "query": "SELECT differential_expression.gene_symbol\nFROM differential_expression\n         JOIN disease ON differential_expression.doid = disease.id\nWHERE disease.name = 'lung cancer'\n  and statistical_significance = 'Yes'"
+  }
+]

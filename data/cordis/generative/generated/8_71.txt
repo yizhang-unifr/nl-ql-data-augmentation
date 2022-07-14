@@ -1,0 +1,16 @@
+SELECT activity_types.code FROM activity_types WHERE activity_types.description != 'Research Organisations'
+
+###
+
+
+Original Query:
+SELECT activity_types.code FROM activity_types WHERE activity_types.description != 'Research Organisations'
+GPT-3 choices:
+(0) Show me all activity types that are not "Research Organisations"
+(1) Display all activity types that do not have "Research Organisations" as their description
+(2) What are the activity types of research organisation?
+(3) Which are the activity types of Research Organisations?
+(4) Show all activity types descriptions different from Research Organisations
+(5) Show activity types that are not represented by research organisations.
+(6) Show me all activity types descriptions except "Research Organisations"
+(7) Show me activity types description part that are not Research Organisations

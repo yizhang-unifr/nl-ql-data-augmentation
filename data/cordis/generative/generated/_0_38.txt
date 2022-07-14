@@ -1,0 +1,27 @@
+SELECT project_members.department_name FROM project_members WHERE project_members.rcn = '1952622'
+
+###
+
+
+Original Query:
+SELECT project_members.department_name FROM project_members WHERE project_members.rcn = '1952622'
+GPT-3 choices:
+(0) Show department names of project members with research code ‘1952622’
+(1) What is the department name of project members with research code 1952622?
+(2) What is the department name of the project members with research activity number 1952622?
+(3) What is the department name of project members with research code 1952622?
+(4) What is the name of the department of the project member with registration code 1952622?
+(5) Display all the project members that come from the department 1952622
+(6) What are the different departments of the member with project number 1952622?
+(7) What are the department names of project members with country code 1952622?
+
+
+Re-ranked choices:
+5.042  What is the department name of project members with research code 1952622?
+4.811  What are the different departments of the member with project number 1952622?
+4.709  Show department names of project members with research code ‘1952622’
+4.708  What is the department name of the project members with research activity number 1952622?
+4.705  What are the department names of project members with country code 1952622?
+4.705  What is the name of the department of the project member with registration code 1952622?
+4.220  Display all the project members that come from the department 1952622
+

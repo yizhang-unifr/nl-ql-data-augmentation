@@ -1,0 +1,16 @@
+SELECT subject_areas.description FROM subject_areas WHERE subject_areas.code = 'MED' and subject_areas.title = 'Evaluation'
+
+###
+
+
+Original Query:
+SELECT subject_areas.description FROM subject_areas WHERE subject_areas.code = 'MED' and subject_areas.title = 'Evaluation'
+GPT-3 choices:
+(0) Retrieve subject areas with the code MED and title Evaluation
+(1) Show me descriptions of subject areas with code MED and title Evaluation.
+(2) Show me all subject areas that have the title Evaluation and the code MED
+(3) What are the subject areas that have the title Evaluation?
+(4) What are the subject areas with the title Evaluation and the code MED?
+(5) Display all subject areas which are about the evaluation.
+(6) What are the subject areas that are related to project evaluation?
+(7) Show me all institutions from Finland who have projects about "Evaluation"

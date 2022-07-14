@@ -1,0 +1,16 @@
+SELECT activity_types.code FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.member_name != 'INSTITUTO DE TELECOMUNICACOES'
+
+###
+
+
+Original Query:
+SELECT activity_types.code FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.member_name != 'INSTITUTO DE TELECOMUNICACOES'
+GPT-3 choices:
+(0) What activity types are assigned to members who are not from INSTITUTO DE TELECOMUNICACOES?
+(1) Match records with a project member whose code is not INSTITUTO DE TELECOMUNICACOES and an activity type.
+(2) Retrieve activity types used by project members that are not from INSTITUTO DE TELECOMUNICACOES.
+(3) Show me activity types of project members that are not INSTITUTO DE TELECOMUNICACOES
+(4) What are the activity types of project members different from INSTITUTO DE TELECOMUNICACOES?
+(5) Show activity types used by project members that are not from INSTITUTO DE TELECOMUNICACOES
+(6) Show me the activity types that have members with different name than INSTITUTO DE TELECOMUNICACOES
+(7) Show activity types of project members who are not from INSTITUTO DE TELECOMUNICACOES

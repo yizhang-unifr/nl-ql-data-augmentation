@@ -1,0 +1,28 @@
+SELECT institutions.unics_id FROM institutions WHERE institutions.geocode_regions_3 != 'UKF30'
+
+###
+
+
+Original Query:
+SELECT institutions.unics_id FROM institutions WHERE institutions.geocode_regions_3 != 'UKF30'
+GPT-3 choices:
+(0) Show me institutions from different geocode region parts than UKF30
+(1) Show me institutions based in the UKF30 geocode region
+(2) Show me institutions that are outside the geocode region UKF30
+(3) Show me institutions which aren't in the region UKF30
+(4) What are the ids of the institutions that are not located in the UKF30 region?
+(5) Show the unics id of all institutions not in a region UKF30
+(6) Show me institutions located outside UKF3
+(7) Show me the institutions with a geocode region different than UKF30.
+
+
+Re-ranked choices:
+5.827  Show me institutions from different geocode region parts than UKF30
+5.811  Show me institutions based in the UKF30 geocode region
+5.782  Show me institutions that are outside the geocode region UKF30
+5.715  Show me institutions which aren't in the region UKF30
+5.684  Show me the institutions with a geocode region different than UKF30.
+5.312  What are the ids of the institutions that are not located in the UKF30 region?
+5.187  Show me institutions located outside UKF3
+4.794  Show the unics id of all institutions not in a region UKF30
+

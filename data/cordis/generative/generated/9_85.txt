@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units JOIN project_members ON eu_territorial_units.geocode_regions = project_members.geocode_regions_3 WHERE project_members.department_name != 'Department of projects management'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.description FROM eu_territorial_units JOIN project_members ON eu_territorial_units.geocode_regions = project_members.geocode_regions_3 WHERE project_members.department_name != 'Department of projects management'
+GPT-3 choices:
+(0) Show all territorial units in which there are people that are members of a project, but not part of a project's department.
+(1) Show me the description of EU territorial units that have a project member different from "Department of projects management"
+(2) Retrieve the territorial unit descriptions of projects members having a different department
+(3) Show all descriptions of the territorial units where project members in the department Department of projects management live
+(4) Display the description of territorial units where there is a project member when the project member is not assigned to the "Department of projects management"
+(5) Show the descriptions for the eu territorial units that have project members in the department of projects management
+(6) Show me all the territorial unit descriptions different from "Department of projects management"
+(7) Show me the different territorial units of projects members where the project members are not placed at the Department of projects management.

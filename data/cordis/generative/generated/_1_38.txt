@@ -1,0 +1,28 @@
+SELECT institutions.short_name FROM institutions JOIN eu_territorial_units ON institutions.geocode_regions_3 = eu_territorial_units.geocode_regions WHERE eu_territorial_units.geocode_regions = 'FI1D6'
+
+###
+
+
+Original Query:
+SELECT institutions.short_name FROM institutions JOIN eu_territorial_units ON institutions.geocode_regions_3 = eu_territorial_units.geocode_regions WHERE eu_territorial_units.geocode_regions = 'FI1D6'
+GPT-3 choices:
+(0) Show the short name of all institutions whose EU territorial unit geocode region has value FI1D6
+(1) Show the short name of institutions located in the geocode region FI1D6
+(2) Show the short name of institutions having territorial unit with geo code FI1D6
+(3) The short name of the institutions in the eu territorial unit with geocode region FI1D6
+(4) Show the short name of institutions whose geocode region 3 is FI1D6
+(5) Show all short names of institutions having their geocode region FI1D6
+(6) Show all institutions in the geocode region FI1D6.
+(7) Show me the short names of institutions located in FI1D6
+
+
+Re-ranked choices:
+5.835  Show the short name of institutions located in the geocode region FI1D6
+5.741  Show the short name of institutions whose geocode region 3 is FI1D6
+5.628  Show all short names of institutions having their geocode region FI1D6
+5.558  Show the short name of institutions having territorial unit with geo code FI1D6
+5.450  Show the short name of all institutions whose EU territorial unit geocode region has value FI1D6
+5.369  Show all institutions in the geocode region FI1D6.
+4.922  The short name of the institutions in the eu territorial unit with geocode region FI1D6
+4.578  Show me the short names of institutions located in FI1D6
+

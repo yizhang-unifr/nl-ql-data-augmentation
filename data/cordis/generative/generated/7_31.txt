@@ -1,0 +1,16 @@
+SELECT projects.ec_fund_scheme FROM projects WHERE projects.end_date = '2023-12-31' or projects.end_date = '2023-02-28'
+
+###
+
+
+Original Query:
+SELECT projects.ec_fund_scheme FROM projects WHERE projects.end_date = '2023-12-31' or projects.end_date = '2023-02-28'
+GPT-3 choices:
+(0) Show the EC fund scheme of projects ending in 2023-12-31 or 2023-02-28
+(1) Show all the EU funding scheme for projects ending at 2023-12-31 or 2023-02-28
+(2) Show all projects for which the end date is 2023-12-31 or 2023-02-28
+(3) Show all EU Fund Scheme for projects that end in 2023-12-31 or 2023-02-28
+(4) Show the funding scheme associated with the projects ending in either 2023-12-31 or 2023-02-28
+(5) Show all EC fund scheme of projects whose end date is either 2023-12-31 or 2023-2-28
+(6) Show all the different funding schemes of projects that end on 2023-12-31 or 2023-02-28
+(7) The different funding schemes of projects that end either in 2023-12-31 or in 2023-02-28

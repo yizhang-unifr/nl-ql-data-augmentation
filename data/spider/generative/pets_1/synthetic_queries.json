@@ -1,0 +1,2746 @@
+[
+  {
+    "db_id": "pets_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.weight FROM Pets AS T1 WHERE T1.PetType = \"dog\"",
+    "readable_query": "SELECT pets.weight FROM Pets AS pets WHERE pets.PetType = \"dog\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Advisor FROM Student AS T1 WHERE T1.Fname = \"Eric\"",
+    "readable_query": "SELECT student.Advisor FROM Student AS student WHERE student.Fname = \"Eric\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.PetID FROM Has_Pet AS T1 WHERE T1.StuID = 1001",
+    "readable_query": "SELECT has_pet.PetID FROM Has_Pet AS has_pet WHERE has_pet.StuID = 1001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Fname FROM Student AS T1 WHERE T1.Age = 17",
+    "readable_query": "SELECT student.Fname FROM Student AS student WHERE student.Age = 17"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.StuID FROM Student AS T1 WHERE T1.city_code = \"LON\"",
+    "readable_query": "SELECT student.StuID FROM Student AS student WHERE student.city_code = \"LON\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.PetID FROM Pets AS T1 WHERE T1.PetType = \"cat\"",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets WHERE pets.PetType = \"cat\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Age FROM Student AS T1 WHERE T1.StuID = 1008",
+    "readable_query": "SELECT student.Age FROM Student AS student WHERE student.StuID = 1008"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Fname FROM Student AS T1 WHERE T1.Advisor = 2192",
+    "readable_query": "SELECT student.Fname FROM Student AS student WHERE student.Advisor = 2192"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Advisor FROM Student AS T1 WHERE T1.Fname = \"Jun\"",
+    "readable_query": "SELECT student.Advisor FROM Student AS student WHERE student.Fname = \"Jun\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.city_code FROM Student AS T1 WHERE T1.LName = \"Epp\"",
+    "readable_query": "SELECT student.city_code FROM Student AS student WHERE student.LName = \"Epp\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Fname FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.StuID = 1002",
+    "readable_query": "SELECT student.Fname FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.StuID = 1002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Age FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.StuID = 1001",
+    "readable_query": "SELECT student.Age FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.StuID = 1001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.pet_age FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.PetID = 2003",
+    "readable_query": "SELECT pets.pet_age FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.PetID = 2003"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.PetID FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.StuID = 1001",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.StuID = 1001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Advisor FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.StuID = 1002",
+    "readable_query": "SELECT student.Advisor FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.StuID = 1002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID WHERE T2.pet_age = 3",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE pets.pet_age = 3"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.PetID FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.StuID = 1002",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.StuID = 1002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.pet_age FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.PetID = 2001",
+    "readable_query": "SELECT pets.pet_age FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.PetID = 2001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.PetID FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID WHERE T2.weight = 9.3",
+    "readable_query": "SELECT has_pet.PetID FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE pets.weight = 9.3"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.weight FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.PetID = 2001",
+    "readable_query": "SELECT pets.weight FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.PetID = 2001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.weight, count(*) FROM Pets AS T1  GROUP BY T1.weight",
+    "readable_query": "SELECT pets.weight, count(*) FROM Pets AS pets  GROUP BY pets.weight"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.StuID, count(*) FROM Has_Pet AS T1  GROUP BY T1.StuID",
+    "readable_query": "SELECT has_pet.StuID, count(*) FROM Has_Pet AS has_pet  GROUP BY has_pet.StuID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.PetID, count(*) FROM Has_Pet AS T1  GROUP BY T1.PetID",
+    "readable_query": "SELECT has_pet.PetID, count(*) FROM Has_Pet AS has_pet  GROUP BY has_pet.PetID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Advisor, count(*) FROM Student AS T1  GROUP BY T1.Advisor",
+    "readable_query": "SELECT student.Advisor, count(*) FROM Student AS student  GROUP BY student.Advisor"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Sex, count(*) FROM Student AS T1  GROUP BY T1.Sex",
+    "readable_query": "SELECT student.Sex, count(*) FROM Student AS student  GROUP BY student.Sex"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.pet_age, count(*) FROM Pets AS T1  GROUP BY T1.pet_age",
+    "readable_query": "SELECT pets.pet_age, count(*) FROM Pets AS pets  GROUP BY pets.pet_age"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Major, count(*) FROM Student AS T1  GROUP BY T1.Major",
+    "readable_query": "SELECT student.Major, count(*) FROM Student AS student  GROUP BY student.Major"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.PetID, count(*) FROM Pets AS T1  GROUP BY T1.PetID",
+    "readable_query": "SELECT pets.PetID, count(*) FROM Pets AS pets  GROUP BY pets.PetID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.PetType, count(*) FROM Pets AS T1  GROUP BY T1.PetType",
+    "readable_query": "SELECT pets.PetType, count(*) FROM Pets AS pets  GROUP BY pets.PetType"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Fname, count(*) FROM Student AS T1  GROUP BY T1.Fname",
+    "readable_query": "SELECT student.Fname, count(*) FROM Student AS student  GROUP BY student.Fname"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.pet_age, count(*) FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID  GROUP BY T1.pet_age",
+    "readable_query": "SELECT pets.pet_age, count(*) FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID  GROUP BY pets.pet_age"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.weight, count(*) FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID  GROUP BY T1.weight",
+    "readable_query": "SELECT pets.weight, count(*) FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID  GROUP BY pets.weight"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.PetID, count(*) FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID  GROUP BY T1.PetID",
+    "readable_query": "SELECT pets.PetID, count(*) FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID  GROUP BY pets.PetID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Sex, count(*) FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID  GROUP BY T1.Sex",
+    "readable_query": "SELECT student.Sex, count(*) FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID  GROUP BY student.Sex"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.PetID, count(*) FROM Has_Pet AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID  GROUP BY T1.PetID",
+    "readable_query": "SELECT has_pet.PetID, count(*) FROM Has_Pet AS has_pet JOIN Student AS student ON has_pet.StuID = student.StuID  GROUP BY has_pet.PetID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.PetType, count(*) FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID  GROUP BY T1.PetType",
+    "readable_query": "SELECT pets.PetType, count(*) FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID  GROUP BY pets.PetType"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.StuID, count(*) FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID  GROUP BY T1.StuID",
+    "readable_query": "SELECT has_pet.StuID, count(*) FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID  GROUP BY has_pet.StuID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.PetID, count(*) FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID  GROUP BY T1.PetID",
+    "readable_query": "SELECT has_pet.PetID, count(*) FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID  GROUP BY has_pet.PetID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Advisor, count(*) FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID  GROUP BY T1.Advisor",
+    "readable_query": "SELECT student.Advisor, count(*) FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID  GROUP BY student.Advisor"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.StuID, count(*) FROM Has_Pet AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID  GROUP BY T1.StuID",
+    "readable_query": "SELECT has_pet.StuID, count(*) FROM Has_Pet AS has_pet JOIN Student AS student ON has_pet.StuID = student.StuID  GROUP BY has_pet.StuID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM Student AS T1",
+    "readable_query": "SELECT count(*) FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM Has_Pet AS T1",
+    "readable_query": "SELECT count(*) FROM Has_Pet AS has_pet"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM Pets AS T1",
+    "readable_query": "SELECT count(*) FROM Pets AS pets"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.weight, T1.pet_age FROM Pets AS T1",
+    "readable_query": "SELECT pets.weight, pets.pet_age FROM Pets AS pets"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Advisor, T1.city_code FROM Student AS T1",
+    "readable_query": "SELECT student.Advisor, student.city_code FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.pet_age, T1.PetID FROM Pets AS T1",
+    "readable_query": "SELECT pets.pet_age, pets.PetID FROM Pets AS pets"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.pet_age, T1.weight FROM Pets AS T1",
+    "readable_query": "SELECT pets.pet_age, pets.weight FROM Pets AS pets"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Age, T1.Advisor FROM Student AS T1",
+    "readable_query": "SELECT student.Age, student.Advisor FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.PetID, T1.StuID FROM Has_Pet AS T1",
+    "readable_query": "SELECT has_pet.PetID, has_pet.StuID FROM Has_Pet AS has_pet"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Sex, T1.Advisor FROM Student AS T1",
+    "readable_query": "SELECT student.Sex, student.Advisor FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.PetType, T1.pet_age FROM Pets AS T1",
+    "readable_query": "SELECT pets.PetType, pets.pet_age FROM Pets AS pets"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.city_code, T1.Sex FROM Student AS T1",
+    "readable_query": "SELECT student.city_code, student.Sex FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.city_code, T1.Age FROM Student AS T1",
+    "readable_query": "SELECT student.city_code, student.Age FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.PetType, T2.StuID FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID",
+    "readable_query": "SELECT pets.PetType, has_pet.StuID FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.PetID, T2.StuID FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID",
+    "readable_query": "SELECT pets.PetID, has_pet.StuID FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.PetID, T2.Advisor FROM Has_Pet AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID",
+    "readable_query": "SELECT has_pet.PetID, student.Advisor FROM Has_Pet AS has_pet JOIN Student AS student ON has_pet.StuID = student.StuID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.StuID, T2.Major FROM Has_Pet AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID",
+    "readable_query": "SELECT has_pet.StuID, student.Major FROM Has_Pet AS has_pet JOIN Student AS student ON has_pet.StuID = student.StuID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.weight, T2.PetID FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID",
+    "readable_query": "SELECT pets.weight, has_pet.PetID FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Major, T2.StuID FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID",
+    "readable_query": "SELECT student.Major, has_pet.StuID FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Advisor, T2.PetID FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID",
+    "readable_query": "SELECT student.Advisor, has_pet.PetID FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Age, T2.StuID FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID",
+    "readable_query": "SELECT student.Age, has_pet.StuID FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Age, T2.PetID FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID",
+    "readable_query": "SELECT student.Age, has_pet.PetID FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Sex, T2.PetID FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID",
+    "readable_query": "SELECT student.Sex, has_pet.PetID FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.LName, T1.Fname FROM Student AS T1 WHERE T1.Sex = \"M\"",
+    "readable_query": "SELECT student.LName, student.Fname FROM Student AS student WHERE student.Sex = \"M\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.PetType, T1.weight FROM Pets AS T1 WHERE T1.PetID = 2001",
+    "readable_query": "SELECT pets.PetType, pets.weight FROM Pets AS pets WHERE pets.PetID = 2001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.PetID, T1.weight FROM Pets AS T1 WHERE T1.pet_age = 3",
+    "readable_query": "SELECT pets.PetID, pets.weight FROM Pets AS pets WHERE pets.pet_age = 3"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Sex, T1.StuID FROM Student AS T1 WHERE T1.LName = \"Smith\"",
+    "readable_query": "SELECT student.Sex, student.StuID FROM Student AS student WHERE student.LName = \"Smith\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.PetType, T1.PetID FROM Pets AS T1 WHERE T1.weight = 12.0",
+    "readable_query": "SELECT pets.PetType, pets.PetID FROM Pets AS pets WHERE pets.weight = 12.0"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.PetType, T1.pet_age FROM Pets AS T1 WHERE T1.weight = 12.0",
+    "readable_query": "SELECT pets.PetType, pets.pet_age FROM Pets AS pets WHERE pets.weight = 12.0"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.pet_age, T1.weight FROM Pets AS T1 WHERE T1.PetType = \"dog\"",
+    "readable_query": "SELECT pets.pet_age, pets.weight FROM Pets AS pets WHERE pets.PetType = \"dog\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Sex, T1.Fname FROM Student AS T1 WHERE T1.LName = \"Rugh\"",
+    "readable_query": "SELECT student.Sex, student.Fname FROM Student AS student WHERE student.LName = \"Rugh\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.weight, T1.PetID FROM Pets AS T1 WHERE T1.pet_age = 1",
+    "readable_query": "SELECT pets.weight, pets.PetID FROM Pets AS pets WHERE pets.pet_age = 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Sex, T1.Age FROM Student AS T1 WHERE T1.Fname = \"Jun\"",
+    "readable_query": "SELECT student.Sex, student.Age FROM Student AS student WHERE student.Fname = \"Jun\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.pet_age FROM Pets AS T1  GROUP BY T1.pet_age  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT pets.pet_age FROM Pets AS pets  GROUP BY pets.pet_age  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.weight FROM Pets AS T1  GROUP BY T1.weight  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT pets.weight FROM Pets AS pets  GROUP BY pets.weight  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Major FROM Student AS T1  GROUP BY T1.Major  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT student.Major FROM Student AS student  GROUP BY student.Major  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Age FROM Student AS T1  GROUP BY T1.Age  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT student.Age FROM Student AS student  GROUP BY student.Age  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.StuID FROM Student AS T1  GROUP BY T1.StuID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT student.StuID FROM Student AS student  GROUP BY student.StuID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.PetID FROM Pets AS T1  GROUP BY T1.PetID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets  GROUP BY pets.PetID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.PetType FROM Pets AS T1  GROUP BY T1.PetType  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT pets.PetType FROM Pets AS pets  GROUP BY pets.PetType  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.PetID FROM Has_Pet AS T1  GROUP BY T1.PetID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT has_pet.PetID FROM Has_Pet AS has_pet  GROUP BY has_pet.PetID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Advisor FROM Student AS T1  GROUP BY T1.Advisor  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT student.Advisor FROM Student AS student  GROUP BY student.Advisor  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.city_code FROM Student AS T1  GROUP BY T1.city_code  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT student.city_code FROM Student AS student  GROUP BY student.city_code  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Student AS T1 WHERE T1.Sex = \"F\"",
+    "readable_query": "SELECT count(*) FROM Student AS student WHERE student.Sex = \"F\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Student AS T1 WHERE T1.Major = 600",
+    "readable_query": "SELECT count(*) FROM Student AS student WHERE student.Major = 600"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Pets AS T1 WHERE T1.pet_age = 2",
+    "readable_query": "SELECT count(*) FROM Pets AS pets WHERE pets.pet_age = 2"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Has_Pet AS T1 WHERE T1.StuID = 1001",
+    "readable_query": "SELECT count(*) FROM Has_Pet AS has_pet WHERE has_pet.StuID = 1001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Has_Pet AS T1 WHERE T1.PetID = 2002",
+    "readable_query": "SELECT count(*) FROM Has_Pet AS has_pet WHERE has_pet.PetID = 2002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Pets AS T1 WHERE T1.PetID = 2003",
+    "readable_query": "SELECT count(*) FROM Pets AS pets WHERE pets.PetID = 2003"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Has_Pet AS T1 WHERE T1.PetID = 2001",
+    "readable_query": "SELECT count(*) FROM Has_Pet AS has_pet WHERE has_pet.PetID = 2001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Pets AS T1 WHERE T1.PetType = \"dog\"",
+    "readable_query": "SELECT count(*) FROM Pets AS pets WHERE pets.PetType = \"dog\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Has_Pet AS T1 WHERE T1.StuID = 1002",
+    "readable_query": "SELECT count(*) FROM Has_Pet AS has_pet WHERE has_pet.StuID = 1002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Student AS T1 WHERE T1.Fname = \"Michael\"",
+    "readable_query": "SELECT count(*) FROM Student AS student WHERE student.Fname = \"Michael\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.PetID FROM Has_Pet AS T1    ORDER BY T1.StuID DESC LIMIT 1",
+    "readable_query": "SELECT has_pet.PetID FROM Has_Pet AS has_pet    ORDER BY has_pet.StuID DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.weight FROM Pets AS T1    ORDER BY T1.PetID DESC LIMIT 1",
+    "readable_query": "SELECT pets.weight FROM Pets AS pets    ORDER BY pets.PetID DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.PetType FROM Pets AS T1    ORDER BY T1.weight DESC LIMIT 1",
+    "readable_query": "SELECT pets.PetType FROM Pets AS pets    ORDER BY pets.weight DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1    ORDER BY T1.PetID DESC LIMIT 1",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet    ORDER BY has_pet.PetID DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.StuID FROM Student AS T1    ORDER BY T1.Age DESC LIMIT 1",
+    "readable_query": "SELECT student.StuID FROM Student AS student    ORDER BY student.Age DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.PetID FROM Pets AS T1    ORDER BY T1.weight DESC LIMIT 1",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets    ORDER BY pets.weight DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.pet_age FROM Pets AS T1    ORDER BY T1.PetID DESC LIMIT 1",
+    "readable_query": "SELECT pets.pet_age FROM Pets AS pets    ORDER BY pets.PetID DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Advisor FROM Student AS T1    ORDER BY T1.Age DESC LIMIT 1",
+    "readable_query": "SELECT student.Advisor FROM Student AS student    ORDER BY student.Age DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.PetID FROM Pets AS T1    ORDER BY T1.pet_age DESC LIMIT 1",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets    ORDER BY pets.pet_age DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.city_code FROM Student AS T1    ORDER BY T1.Major DESC LIMIT 1",
+    "readable_query": "SELECT student.city_code FROM Student AS student    ORDER BY student.Major DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.PetID FROM Has_Pet AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID    ORDER BY T2.Major DESC LIMIT 1",
+    "readable_query": "SELECT has_pet.PetID FROM Has_Pet AS has_pet JOIN Student AS student ON has_pet.StuID = student.StuID    ORDER BY student.Major DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Fname FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID    ORDER BY T2.PetID DESC LIMIT 1",
+    "readable_query": "SELECT student.Fname FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID    ORDER BY has_pet.PetID DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.PetID FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID    ORDER BY T2.StuID DESC LIMIT 1",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID    ORDER BY has_pet.StuID DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.pet_age FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID    ORDER BY T2.PetID DESC LIMIT 1",
+    "readable_query": "SELECT pets.pet_age FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID    ORDER BY has_pet.PetID DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID    ORDER BY T2.Advisor DESC LIMIT 1",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet JOIN Student AS student ON has_pet.StuID = student.StuID    ORDER BY student.Advisor DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID    ORDER BY T2.weight DESC LIMIT 1",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID    ORDER BY pets.weight DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Age FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID    ORDER BY T2.StuID DESC LIMIT 1",
+    "readable_query": "SELECT student.Age FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID    ORDER BY has_pet.StuID DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.PetID FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID    ORDER BY T2.weight DESC LIMIT 1",
+    "readable_query": "SELECT has_pet.PetID FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID    ORDER BY pets.weight DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.PetType FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID    ORDER BY T2.PetID DESC LIMIT 1",
+    "readable_query": "SELECT pets.PetType FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID    ORDER BY has_pet.PetID DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.pet_age FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID    ORDER BY T2.StuID DESC LIMIT 1",
+    "readable_query": "SELECT pets.pet_age FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID    ORDER BY has_pet.StuID DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.city_code FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID    ORDER BY T2.PetID ASC LIMIT 1",
+    "readable_query": "SELECT student.city_code FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID    ORDER BY has_pet.PetID ASC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Age FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID    ORDER BY T2.StuID ASC LIMIT 1",
+    "readable_query": "SELECT student.Age FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID    ORDER BY has_pet.StuID ASC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID    ORDER BY T2.pet_age ASC LIMIT 1",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID    ORDER BY pets.pet_age ASC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Advisor FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID    ORDER BY T2.PetID ASC LIMIT 1",
+    "readable_query": "SELECT student.Advisor FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID    ORDER BY has_pet.PetID ASC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.pet_age FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID    ORDER BY T2.StuID ASC LIMIT 1",
+    "readable_query": "SELECT pets.pet_age FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID    ORDER BY has_pet.StuID ASC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.PetID FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID    ORDER BY T2.StuID ASC LIMIT 1",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID    ORDER BY has_pet.StuID ASC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Fname FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID    ORDER BY T2.StuID ASC LIMIT 1",
+    "readable_query": "SELECT student.Fname FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID    ORDER BY has_pet.StuID ASC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.city_code FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID    ORDER BY T2.StuID ASC LIMIT 1",
+    "readable_query": "SELECT student.city_code FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID    ORDER BY has_pet.StuID ASC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.weight FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID    ORDER BY T2.StuID ASC LIMIT 1",
+    "readable_query": "SELECT pets.weight FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID    ORDER BY has_pet.StuID ASC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.StuID FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID    ORDER BY T2.PetID ASC LIMIT 1",
+    "readable_query": "SELECT student.StuID FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID    ORDER BY has_pet.PetID ASC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.PetType, T1.weight FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID    ORDER BY T2.PetID DESC LIMIT 1",
+    "readable_query": "SELECT pets.PetType, pets.weight FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID    ORDER BY has_pet.PetID DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Fname, T1.StuID FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID    ORDER BY T2.PetID DESC LIMIT 1",
+    "readable_query": "SELECT student.Fname, student.StuID FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID    ORDER BY has_pet.PetID DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.weight, T1.PetID FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID    ORDER BY T2.StuID DESC LIMIT 1",
+    "readable_query": "SELECT pets.weight, pets.PetID FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID    ORDER BY has_pet.StuID DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.city_code, T1.LName FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID    ORDER BY T2.StuID DESC LIMIT 1",
+    "readable_query": "SELECT student.city_code, student.LName FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID    ORDER BY has_pet.StuID DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.city_code, T1.Sex FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID    ORDER BY T2.StuID DESC LIMIT 1",
+    "readable_query": "SELECT student.city_code, student.Sex FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID    ORDER BY has_pet.StuID DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.PetType, T1.PetID FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID    ORDER BY T2.StuID DESC LIMIT 1",
+    "readable_query": "SELECT pets.PetType, pets.PetID FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID    ORDER BY has_pet.StuID DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.pet_age, T1.weight FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID    ORDER BY T2.StuID DESC LIMIT 1",
+    "readable_query": "SELECT pets.pet_age, pets.weight FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID    ORDER BY has_pet.StuID DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.PetID, T1.StuID FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID    ORDER BY T2.pet_age DESC LIMIT 1",
+    "readable_query": "SELECT has_pet.PetID, has_pet.StuID FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID    ORDER BY pets.pet_age DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.PetID, T1.weight FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID    ORDER BY T2.StuID DESC LIMIT 1",
+    "readable_query": "SELECT pets.PetID, pets.weight FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID    ORDER BY has_pet.StuID DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.PetID, T1.PetType FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID    ORDER BY T2.StuID DESC LIMIT 1",
+    "readable_query": "SELECT pets.PetID, pets.PetType FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID    ORDER BY has_pet.StuID DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.pet_age) FROM Pets AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  pets.pet_age) FROM Pets AS pets"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.weight) FROM Pets AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  pets.weight) FROM Pets AS pets"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.PetID) FROM Has_Pet AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  has_pet.PetID) FROM Has_Pet AS has_pet"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.StuID) FROM Has_Pet AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  has_pet.StuID) FROM Has_Pet AS has_pet"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Advisor) FROM Student AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  student.Advisor) FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.city_code) FROM Student AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  student.city_code) FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.PetType) FROM Pets AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  pets.PetType) FROM Pets AS pets"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.StuID) FROM Student AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  student.StuID) FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Sex) FROM Student AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  student.Sex) FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.LName) FROM Student AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  student.LName) FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.PetID) FROM Has_Pet AS T1",
+    "readable_query": "SELECT avg( has_pet.PetID) FROM Has_Pet AS has_pet"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.StuID) FROM Has_Pet AS T1",
+    "readable_query": "SELECT avg( has_pet.StuID) FROM Has_Pet AS has_pet"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.weight) FROM Pets AS T1",
+    "readable_query": "SELECT avg( pets.weight) FROM Pets AS pets"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.pet_age) FROM Pets AS T1",
+    "readable_query": "SELECT avg( pets.pet_age) FROM Pets AS pets"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.StuID) FROM Student AS T1",
+    "readable_query": "SELECT avg( student.StuID) FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Major) FROM Student AS T1",
+    "readable_query": "SELECT avg( student.Major) FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.PetID) FROM Pets AS T1",
+    "readable_query": "SELECT avg( pets.PetID) FROM Pets AS pets"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Advisor) FROM Student AS T1",
+    "readable_query": "SELECT avg( student.Advisor) FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Age) FROM Student AS T1",
+    "readable_query": "SELECT avg( student.Age) FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Advisor FROM Student AS T1",
+    "readable_query": "SELECT student.Advisor FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.weight FROM Pets AS T1",
+    "readable_query": "SELECT pets.weight FROM Pets AS pets"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Fname FROM Student AS T1",
+    "readable_query": "SELECT student.Fname FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Major FROM Student AS T1",
+    "readable_query": "SELECT student.Major FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.pet_age FROM Pets AS T1",
+    "readable_query": "SELECT pets.pet_age FROM Pets AS pets"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.PetID FROM Has_Pet AS T1",
+    "readable_query": "SELECT has_pet.PetID FROM Has_Pet AS has_pet"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.PetType FROM Pets AS T1",
+    "readable_query": "SELECT pets.PetType FROM Pets AS pets"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Sex FROM Student AS T1",
+    "readable_query": "SELECT student.Sex FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Age FROM Student AS T1",
+    "readable_query": "SELECT student.Age FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.PetType FROM Pets AS T1",
+    "readable_query": "SELECT DISTINCT pets.PetType FROM Pets AS pets"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Age FROM Student AS T1",
+    "readable_query": "SELECT DISTINCT student.Age FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.PetID FROM Has_Pet AS T1",
+    "readable_query": "SELECT DISTINCT has_pet.PetID FROM Has_Pet AS has_pet"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.PetID FROM Pets AS T1",
+    "readable_query": "SELECT DISTINCT pets.PetID FROM Pets AS pets"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.weight FROM Pets AS T1",
+    "readable_query": "SELECT DISTINCT pets.weight FROM Pets AS pets"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Fname FROM Student AS T1",
+    "readable_query": "SELECT DISTINCT student.Fname FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Advisor FROM Student AS T1",
+    "readable_query": "SELECT DISTINCT student.Advisor FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.StuID FROM Has_Pet AS T1",
+    "readable_query": "SELECT DISTINCT has_pet.StuID FROM Has_Pet AS has_pet"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Major FROM Student AS T1",
+    "readable_query": "SELECT DISTINCT student.Major FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.LName FROM Student AS T1",
+    "readable_query": "SELECT DISTINCT student.LName FROM Student AS student"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.PetID FROM Has_Pet AS T1     ORDER BY T1.StuID ASC",
+    "readable_query": "SELECT has_pet.PetID FROM Has_Pet AS has_pet     ORDER BY has_pet.StuID ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1     ORDER BY T1.PetID ASC",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet     ORDER BY has_pet.PetID ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.weight FROM Pets AS T1     ORDER BY T1.PetID ASC",
+    "readable_query": "SELECT pets.weight FROM Pets AS pets     ORDER BY pets.PetID ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Age FROM Student AS T1     ORDER BY T1.Advisor ASC",
+    "readable_query": "SELECT student.Age FROM Student AS student     ORDER BY student.Advisor ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.PetID FROM Pets AS T1     ORDER BY T1.weight ASC",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets     ORDER BY pets.weight ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Major FROM Student AS T1     ORDER BY T1.StuID ASC",
+    "readable_query": "SELECT student.Major FROM Student AS student     ORDER BY student.StuID ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.PetID FROM Pets AS T1     ORDER BY T1.pet_age ASC",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets     ORDER BY pets.pet_age ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.PetType FROM Pets AS T1     ORDER BY T1.pet_age ASC",
+    "readable_query": "SELECT pets.PetType FROM Pets AS pets     ORDER BY pets.pet_age ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Fname FROM Student AS T1     ORDER BY T1.StuID ASC",
+    "readable_query": "SELECT student.Fname FROM Student AS student     ORDER BY student.StuID ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.pet_age FROM Pets AS T1     ORDER BY T1.PetID ASC",
+    "readable_query": "SELECT pets.pet_age FROM Pets AS pets     ORDER BY pets.PetID ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.city_code FROM Student AS T1     ORDER BY T1.Major DESC",
+    "readable_query": "SELECT student.city_code FROM Student AS student     ORDER BY student.Major DESC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.PetID FROM Has_Pet AS T1     ORDER BY T1.StuID DESC",
+    "readable_query": "SELECT has_pet.PetID FROM Has_Pet AS has_pet     ORDER BY has_pet.StuID DESC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.PetID FROM Pets AS T1     ORDER BY T1.pet_age DESC",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets     ORDER BY pets.pet_age DESC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Age FROM Student AS T1     ORDER BY T1.StuID DESC",
+    "readable_query": "SELECT student.Age FROM Student AS student     ORDER BY student.StuID DESC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.PetType FROM Pets AS T1     ORDER BY T1.weight DESC",
+    "readable_query": "SELECT pets.PetType FROM Pets AS pets     ORDER BY pets.weight DESC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.PetID FROM Pets AS T1     ORDER BY T1.weight DESC",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets     ORDER BY pets.weight DESC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Advisor FROM Student AS T1     ORDER BY T1.Age DESC",
+    "readable_query": "SELECT student.Advisor FROM Student AS student     ORDER BY student.Age DESC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1     ORDER BY T1.PetID DESC",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet     ORDER BY has_pet.PetID DESC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.LName FROM Student AS T1     ORDER BY T1.StuID DESC",
+    "readable_query": "SELECT student.LName FROM Student AS student     ORDER BY student.StuID DESC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.pet_age FROM Pets AS T1     ORDER BY T1.PetID DESC",
+    "readable_query": "SELECT pets.pet_age FROM Pets AS pets     ORDER BY pets.PetID DESC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Age, T1.LName FROM Student AS T1     ORDER BY T1.LName ASC",
+    "readable_query": "SELECT student.Age, student.LName FROM Student AS student     ORDER BY student.LName ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.weight, T1.pet_age FROM Pets AS T1     ORDER BY T1.pet_age ASC",
+    "readable_query": "SELECT pets.weight, pets.pet_age FROM Pets AS pets     ORDER BY pets.pet_age ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.PetID, T1.StuID FROM Has_Pet AS T1     ORDER BY T1.StuID ASC",
+    "readable_query": "SELECT has_pet.PetID, has_pet.StuID FROM Has_Pet AS has_pet     ORDER BY has_pet.StuID ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.StuID, T1.PetID FROM Has_Pet AS T1     ORDER BY T1.PetID ASC",
+    "readable_query": "SELECT has_pet.StuID, has_pet.PetID FROM Has_Pet AS has_pet     ORDER BY has_pet.PetID ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Fname, T1.StuID FROM Student AS T1     ORDER BY T1.StuID ASC",
+    "readable_query": "SELECT student.Fname, student.StuID FROM Student AS student     ORDER BY student.StuID ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.PetType, T1.weight FROM Pets AS T1     ORDER BY T1.weight ASC",
+    "readable_query": "SELECT pets.PetType, pets.weight FROM Pets AS pets     ORDER BY pets.weight ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.pet_age, T1.weight FROM Pets AS T1     ORDER BY T1.weight ASC",
+    "readable_query": "SELECT pets.pet_age, pets.weight FROM Pets AS pets     ORDER BY pets.weight ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.LName, T1.city_code FROM Student AS T1     ORDER BY T1.city_code ASC",
+    "readable_query": "SELECT student.LName, student.city_code FROM Student AS student     ORDER BY student.city_code ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Advisor, T1.city_code FROM Student AS T1     ORDER BY T1.city_code ASC",
+    "readable_query": "SELECT student.Advisor, student.city_code FROM Student AS student     ORDER BY student.city_code ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Advisor, T1.LName FROM Student AS T1     ORDER BY T1.LName ASC",
+    "readable_query": "SELECT student.Advisor, student.LName FROM Student AS student     ORDER BY student.LName ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.StuID FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID JOIN Pets AS T3 ON T2.PetID = T3.PetID WHERE T2.PetID = 2003 and T3.PetType = \"dog\"",
+    "readable_query": "SELECT student.StuID FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE has_pet.PetID = 2003 and pets.PetType = \"dog\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.pet_age FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID JOIN Student AS T3 ON T2.StuID = T3.StuID WHERE T2.StuID = 1002 and T3.LName = \"Rugh\"",
+    "readable_query": "SELECT pets.pet_age FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID JOIN Student AS student ON has_pet.StuID = student.StuID WHERE has_pet.StuID = 1002 and student.LName = \"Rugh\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Age FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID JOIN Pets AS T3 ON T2.PetID = T3.PetID WHERE T2.PetID = 2001 and T3.PetType = \"cat\"",
+    "readable_query": "SELECT student.Age FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE has_pet.PetID = 2001 and pets.PetType = \"cat\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Advisor FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID JOIN Pets AS T3 ON T2.PetID = T3.PetID WHERE T2.PetID = 2002 and T3.pet_age = 3",
+    "readable_query": "SELECT student.Advisor FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE has_pet.PetID = 2002 and pets.pet_age = 3"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.weight FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID JOIN Student AS T3 ON T2.StuID = T3.StuID WHERE T2.PetID = 2002 and T3.StuID = 1012",
+    "readable_query": "SELECT pets.weight FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID JOIN Student AS student ON has_pet.StuID = student.StuID WHERE has_pet.PetID = 2002 and student.StuID = 1012"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Advisor FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID JOIN Pets AS T3 ON T2.PetID = T3.PetID WHERE T2.StuID = 1002 and T3.weight = 9.3",
+    "readable_query": "SELECT student.Advisor FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE has_pet.StuID = 1002 and pets.weight = 9.3"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Major FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID JOIN Pets AS T3 ON T2.PetID = T3.PetID WHERE T2.StuID = 1002 and T3.PetType = \"dog\"",
+    "readable_query": "SELECT student.Major FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE has_pet.StuID = 1002 and pets.PetType = \"dog\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.PetID FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID JOIN Student AS T3 ON T1.StuID = T3.StuID WHERE T2.PetType = \"cat\" and T3.Advisor = 9172",
+    "readable_query": "SELECT has_pet.PetID FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID JOIN Student AS student ON has_pet.StuID = student.StuID WHERE pets.PetType = \"cat\" and student.Advisor = 9172"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.PetType FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID JOIN Student AS T3 ON T2.StuID = T3.StuID WHERE T2.StuID = 1001 and T3.Major = 520",
+    "readable_query": "SELECT pets.PetType FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID JOIN Student AS student ON has_pet.StuID = student.StuID WHERE has_pet.StuID = 1001 and student.Major = 520"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.PetID FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID JOIN Student AS T3 ON T2.StuID = T3.StuID WHERE T2.StuID = 1002 and T3.city_code = \"WAS\"",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID JOIN Student AS student ON has_pet.StuID = student.StuID WHERE has_pet.StuID = 1002 and student.city_code = \"WAS\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.StuID FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.PetID = 2002 or T2.PetID = 2001",
+    "readable_query": "SELECT student.StuID FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.PetID = 2002 or has_pet.PetID = 2001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.PetType FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.PetID = 2001 or T2.PetID = 2001",
+    "readable_query": "SELECT pets.PetType FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.PetID = 2001 or has_pet.PetID = 2001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.PetID FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.StuID = 1002 or T2.StuID = 1001",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.StuID = 1002 or has_pet.StuID = 1001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.PetID FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID WHERE T2.weight = 13.4 or T2.weight = 9.3",
+    "readable_query": "SELECT has_pet.PetID FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE pets.weight = 13.4 or pets.weight = 9.3"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.weight FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.PetID = 2002 or T2.PetID = 2002",
+    "readable_query": "SELECT pets.weight FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.PetID = 2002 or has_pet.PetID = 2002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.LName FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.StuID = 1002 or T2.StuID = 1002",
+    "readable_query": "SELECT student.LName FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.StuID = 1002 or has_pet.StuID = 1002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.PetID FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID WHERE T2.weight = 9.3 or T2.weight = 13.4",
+    "readable_query": "SELECT has_pet.PetID FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE pets.weight = 9.3 or pets.weight = 13.4"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.PetID FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID WHERE T2.PetType = \"dog\" or T2.PetType = \"cat\"",
+    "readable_query": "SELECT has_pet.PetID FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE pets.PetType = \"dog\" or pets.PetType = \"cat\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID WHERE T2.city_code = \"PHL\" or T2.city_code = \"DAL\"",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet JOIN Student AS student ON has_pet.StuID = student.StuID WHERE student.city_code = \"PHL\" or student.city_code = \"DAL\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.PetType FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.PetID = 2003 or T2.PetID = 2002",
+    "readable_query": "SELECT pets.PetType FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.PetID = 2003 or has_pet.PetID = 2002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.PetID FROM Pets AS T1 WHERE T1.PetType = \"cat\" and T1.pet_age = 2",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets WHERE pets.PetType = \"cat\" and pets.pet_age = 2"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.PetType FROM Pets AS T1 WHERE T1.weight = 13.4 and T1.pet_age = 1",
+    "readable_query": "SELECT pets.PetType FROM Pets AS pets WHERE pets.weight = 13.4 and pets.pet_age = 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.PetID FROM Pets AS T1 WHERE T1.weight = 9.3 and T1.PetType = \"dog\"",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets WHERE pets.weight = 9.3 and pets.PetType = \"dog\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Advisor FROM Student AS T1 WHERE T1.Sex = \"F\" and T1.StuID = 1015",
+    "readable_query": "SELECT student.Advisor FROM Student AS student WHERE student.Sex = \"F\" and student.StuID = 1015"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Fname FROM Student AS T1 WHERE T1.Age = 19 and T1.StuID = 1015",
+    "readable_query": "SELECT student.Fname FROM Student AS student WHERE student.Age = 19 and student.StuID = 1015"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Fname FROM Student AS T1 WHERE T1.city_code = \"SFO\" and T1.Advisor = 8722",
+    "readable_query": "SELECT student.Fname FROM Student AS student WHERE student.city_code = \"SFO\" and student.Advisor = 8722"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.city_code FROM Student AS T1 WHERE T1.Age = 26 and T1.Sex = \"F\"",
+    "readable_query": "SELECT student.city_code FROM Student AS student WHERE student.Age = 26 and student.Sex = \"F\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.LName FROM Student AS T1 WHERE T1.Age = 20 and T1.StuID = 1007",
+    "readable_query": "SELECT student.LName FROM Student AS student WHERE student.Age = 20 and student.StuID = 1007"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.weight FROM Pets AS T1 WHERE T1.PetType = \"cat\" and T1.PetID = 2002",
+    "readable_query": "SELECT pets.weight FROM Pets AS pets WHERE pets.PetType = \"cat\" and pets.PetID = 2002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Major FROM Student AS T1 WHERE T1.StuID = 1017 and T1.Sex = \"M\"",
+    "readable_query": "SELECT student.Major FROM Student AS student WHERE student.StuID = 1017 and student.Sex = \"M\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.pet_age) FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T1.PetID = 2001 and T2.StuID = 1002",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  pets.pet_age) FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE pets.PetID = 2001 and has_pet.StuID = 1002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.StuID) FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T1.Fname = \"David\" and T2.PetID = 2002",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  student.StuID) FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE student.Fname = \"David\" and has_pet.PetID = 2002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.StuID) FROM Has_Pet AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID WHERE T1.PetID = 2003 and T2.Fname = \"Tracy\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  has_pet.StuID) FROM Has_Pet AS has_pet JOIN Student AS student ON has_pet.StuID = student.StuID WHERE has_pet.PetID = 2003 and student.Fname = \"Tracy\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.PetID) FROM Has_Pet AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID WHERE T1.StuID = 1002 and T2.city_code = \"ROC\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  has_pet.PetID) FROM Has_Pet AS has_pet JOIN Student AS student ON has_pet.StuID = student.StuID WHERE has_pet.StuID = 1002 and student.city_code = \"ROC\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.StuID) FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID WHERE T1.PetID = 2001 and T2.pet_age = 3",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  has_pet.StuID) FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE has_pet.PetID = 2001 and pets.pet_age = 3"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.weight) FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T1.pet_age = 3 and T2.StuID = 1002",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  pets.weight) FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE pets.pet_age = 3 and has_pet.StuID = 1002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.PetType) FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T1.pet_age = 1 and T2.PetID = 2002",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  pets.PetType) FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE pets.pet_age = 1 and has_pet.PetID = 2002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.city_code) FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T1.LName = \"Lee\" and T2.StuID = 1001",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  student.city_code) FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE student.LName = \"Lee\" and has_pet.StuID = 1001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Sex) FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T1.StuID = 1035 and T2.PetID = 2002",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  student.Sex) FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE student.StuID = 1035 and has_pet.PetID = 2002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.weight) FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T1.PetID = 2002 and T2.StuID = 1002",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  pets.weight) FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE pets.PetID = 2002 and has_pet.StuID = 1002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Fname FROM Student AS T1 WHERE T1.StuID = 1021 or T1.Sex = \"F\"",
+    "readable_query": "SELECT student.Fname FROM Student AS student WHERE student.StuID = 1021 or student.Sex = \"F\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.weight FROM Pets AS T1 WHERE T1.PetID = 2002 or T1.PetType = \"dog\"",
+    "readable_query": "SELECT pets.weight FROM Pets AS pets WHERE pets.PetID = 2002 or pets.PetType = \"dog\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.PetType FROM Pets AS T1 WHERE T1.PetID = 2002 or T1.weight = 9.3",
+    "readable_query": "SELECT pets.PetType FROM Pets AS pets WHERE pets.PetID = 2002 or pets.weight = 9.3"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.StuID FROM Student AS T1 WHERE T1.Fname = \"Lisa\" or T1.LName = \"Goldman\"",
+    "readable_query": "SELECT student.StuID FROM Student AS student WHERE student.Fname = \"Lisa\" or student.LName = \"Goldman\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.weight FROM Pets AS T1 WHERE T1.PetType = \"dog\" or T1.pet_age = 2",
+    "readable_query": "SELECT pets.weight FROM Pets AS pets WHERE pets.PetType = \"dog\" or pets.pet_age = 2"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Major FROM Student AS T1 WHERE T1.Age = 20 or T1.Fname = \"Michael\"",
+    "readable_query": "SELECT student.Major FROM Student AS student WHERE student.Age = 20 or student.Fname = \"Michael\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Major FROM Student AS T1 WHERE T1.Sex = \"M\" or T1.city_code = \"HKG\"",
+    "readable_query": "SELECT student.Major FROM Student AS student WHERE student.Sex = \"M\" or student.city_code = \"HKG\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.pet_age FROM Pets AS T1 WHERE T1.PetType = \"dog\" or T1.PetID = 2002",
+    "readable_query": "SELECT pets.pet_age FROM Pets AS pets WHERE pets.PetType = \"dog\" or pets.PetID = 2002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.PetID FROM Pets AS T1 WHERE T1.PetType = \"dog\" or T1.pet_age = 2",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets WHERE pets.PetType = \"dog\" or pets.pet_age = 2"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.city_code FROM Student AS T1 WHERE T1.Fname = \"Charles\" or T1.StuID = 1028",
+    "readable_query": "SELECT student.city_code FROM Student AS student WHERE student.Fname = \"Charles\" or student.StuID = 1028"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID WHERE T2.weight = 12.0 and T2.PetID = 2001",
+    "readable_query": "SELECT count(*) FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE pets.weight = 12.0 and pets.PetID = 2001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.PetID = 2002 and T2.StuID = 1002",
+    "readable_query": "SELECT count(*) FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.PetID = 2002 and has_pet.StuID = 1002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID WHERE T2.PetID = 2001 and T2.PetType = \"dog\"",
+    "readable_query": "SELECT count(*) FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE pets.PetID = 2001 and pets.PetType = \"dog\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.StuID = 1001 and T2.PetID = 2002",
+    "readable_query": "SELECT count(*) FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.StuID = 1001 and has_pet.PetID = 2002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.PetID = 2001 and T2.StuID = 1001",
+    "readable_query": "SELECT count(*) FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.PetID = 2001 and has_pet.StuID = 1001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.StuID = 1002 and T2.PetID = 2003",
+    "readable_query": "SELECT count(*) FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.StuID = 1002 and has_pet.PetID = 2003"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID WHERE T2.pet_age = 2 and T2.PetID = 2002",
+    "readable_query": "SELECT count(*) FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE pets.pet_age = 2 and pets.PetID = 2002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.PetID = 2001 and T2.StuID = 1002",
+    "readable_query": "SELECT count(*) FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.PetID = 2001 and has_pet.StuID = 1002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM Has_Pet AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID WHERE T2.LName = \"Tai\" and T2.Age = 26",
+    "readable_query": "SELECT count(*) FROM Has_Pet AS has_pet JOIN Student AS student ON has_pet.StuID = student.StuID WHERE student.LName = \"Tai\" and student.Age = 26"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID WHERE T2.PetType = \"cat\" and T2.PetID = 2001",
+    "readable_query": "SELECT count(*) FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE pets.PetType = \"cat\" and pets.PetID = 2001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.PetID FROM Pets AS T1 WHERE T1.weight != 9.3",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets WHERE pets.weight != 9.3"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1 WHERE T1.PetID != 2001",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet WHERE has_pet.PetID != 2001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.pet_age FROM Pets AS T1 WHERE T1.PetID != 2001",
+    "readable_query": "SELECT pets.pet_age FROM Pets AS pets WHERE pets.PetID != 2001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.PetID FROM Has_Pet AS T1 WHERE T1.StuID != 1001",
+    "readable_query": "SELECT has_pet.PetID FROM Has_Pet AS has_pet WHERE has_pet.StuID != 1001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Advisor FROM Student AS T1 WHERE T1.Age != 21",
+    "readable_query": "SELECT student.Advisor FROM Student AS student WHERE student.Age != 21"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.StuID FROM Student AS T1 WHERE T1.city_code != \"NYC\"",
+    "readable_query": "SELECT student.StuID FROM Student AS student WHERE student.city_code != \"NYC\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.pet_age FROM Pets AS T1 WHERE T1.PetType != \"cat\"",
+    "readable_query": "SELECT pets.pet_age FROM Pets AS pets WHERE pets.PetType != \"cat\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1 WHERE T1.PetID != 2003",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet WHERE has_pet.PetID != 2003"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Age FROM Student AS T1 WHERE T1.Sex != \"F\"",
+    "readable_query": "SELECT student.Age FROM Student AS student WHERE student.Sex != \"F\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.PetType FROM Pets AS T1 WHERE T1.PetID != 2002",
+    "readable_query": "SELECT pets.PetType FROM Pets AS pets WHERE pets.PetID != 2002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID WHERE T2.PetID != 2001",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE pets.PetID != 2001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.PetType FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.StuID != 1002",
+    "readable_query": "SELECT pets.PetType FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.StuID != 1002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.PetID FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.StuID != 1002",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.StuID != 1002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Sex FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.PetID != 2001",
+    "readable_query": "SELECT student.Sex FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.PetID != 2001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID WHERE T2.Fname != \"Ian\"",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet JOIN Student AS student ON has_pet.StuID = student.StuID WHERE student.Fname != \"Ian\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.PetType FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.StuID != 1001",
+    "readable_query": "SELECT pets.PetType FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.StuID != 1001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.city_code FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.PetID != 2003",
+    "readable_query": "SELECT student.city_code FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.PetID != 2003"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID WHERE T2.Advisor != 7792",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet JOIN Student AS student ON has_pet.StuID = student.StuID WHERE student.Advisor != 7792"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.pet_age FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.StuID != 1002",
+    "readable_query": "SELECT pets.pet_age FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.StuID != 1002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Fname FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.StuID != 1002",
+    "readable_query": "SELECT student.Fname FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.StuID != 1002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.pet_age FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.StuID = 1002",
+    "readable_query": "SELECT DISTINCT pets.pet_age FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.StuID = 1002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Advisor FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.StuID = 1002",
+    "readable_query": "SELECT DISTINCT student.Advisor FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.StuID = 1002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Fname FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.PetID = 2003",
+    "readable_query": "SELECT DISTINCT student.Fname FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.PetID = 2003"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.LName FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.StuID = 1001",
+    "readable_query": "SELECT DISTINCT student.LName FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.StuID = 1001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.weight FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.StuID = 1002",
+    "readable_query": "SELECT DISTINCT pets.weight FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.StuID = 1002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.pet_age FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.PetID = 2003",
+    "readable_query": "SELECT DISTINCT pets.pet_age FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.PetID = 2003"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.StuID FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID WHERE T2.PetID = 2003",
+    "readable_query": "SELECT DISTINCT has_pet.StuID FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE pets.PetID = 2003"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.weight FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.PetID = 2003",
+    "readable_query": "SELECT DISTINCT pets.weight FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.PetID = 2003"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Sex FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.PetID = 2001",
+    "readable_query": "SELECT DISTINCT student.Sex FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.PetID = 2001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.PetID FROM Has_Pet AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID WHERE T2.Sex = \"F\"",
+    "readable_query": "SELECT DISTINCT has_pet.PetID FROM Has_Pet AS has_pet JOIN Student AS student ON has_pet.StuID = student.StuID WHERE student.Sex = \"F\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Major) FROM Student AS T1 WHERE T1.LName = \"Schmidt\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  student.Major) FROM Student AS student WHERE student.LName = \"Schmidt\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.PetID) FROM Has_Pet AS T1 WHERE T1.StuID = 1001",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  has_pet.PetID) FROM Has_Pet AS has_pet WHERE has_pet.StuID = 1001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.StuID) FROM Has_Pet AS T1 WHERE T1.PetID = 2001",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  has_pet.StuID) FROM Has_Pet AS has_pet WHERE has_pet.PetID = 2001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.weight) FROM Pets AS T1 WHERE T1.PetType = \"cat\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  pets.weight) FROM Pets AS pets WHERE pets.PetType = \"cat\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.PetType) FROM Pets AS T1 WHERE T1.pet_age = 2",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  pets.PetType) FROM Pets AS pets WHERE pets.pet_age = 2"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.PetID) FROM Pets AS T1 WHERE T1.pet_age = 1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  pets.PetID) FROM Pets AS pets WHERE pets.pet_age = 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Advisor) FROM Student AS T1 WHERE T1.Major = 540",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  student.Advisor) FROM Student AS student WHERE student.Major = 540"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.PetID) FROM Has_Pet AS T1 WHERE T1.StuID = 1002",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  has_pet.PetID) FROM Has_Pet AS has_pet WHERE has_pet.StuID = 1002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.PetType) FROM Pets AS T1 WHERE T1.weight = 13.4",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  pets.PetType) FROM Pets AS pets WHERE pets.weight = 13.4"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.city_code) FROM Student AS T1 WHERE T1.Sex = \"F\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  student.city_code) FROM Student AS student WHERE student.Sex = \"F\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.PetType FROM Pets AS T1 WHERE T1.weight > 13.4",
+    "readable_query": "SELECT pets.PetType FROM Pets AS pets WHERE pets.weight > 13.4"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.weight FROM Pets AS T1 WHERE T1.pet_age > 1",
+    "readable_query": "SELECT pets.weight FROM Pets AS pets WHERE pets.pet_age > 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1 WHERE T1.PetID > 2002",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet WHERE has_pet.PetID > 2002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.LName FROM Student AS T1 WHERE T1.Advisor > 7134",
+    "readable_query": "SELECT student.LName FROM Student AS student WHERE student.Advisor > 7134"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.PetID FROM Pets AS T1 WHERE T1.weight > 12.0",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets WHERE pets.weight > 12.0"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.PetID FROM Has_Pet AS T1 WHERE T1.StuID > 1001",
+    "readable_query": "SELECT has_pet.PetID FROM Has_Pet AS has_pet WHERE has_pet.StuID > 1001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Age FROM Student AS T1 WHERE T1.StuID > 1005",
+    "readable_query": "SELECT student.Age FROM Student AS student WHERE student.StuID > 1005"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.PetID FROM Has_Pet AS T1 WHERE T1.StuID > 1002",
+    "readable_query": "SELECT has_pet.PetID FROM Has_Pet AS has_pet WHERE has_pet.StuID > 1002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.PetType FROM Pets AS T1 WHERE T1.PetID > 2003",
+    "readable_query": "SELECT pets.PetType FROM Pets AS pets WHERE pets.PetID > 2003"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.LName FROM Student AS T1 WHERE T1.Advisor > 7792",
+    "readable_query": "SELECT student.LName FROM Student AS student WHERE student.Advisor > 7792"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.PetType, T2.PetID, T3.Advisor FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID JOIN Student AS T3 ON T2.StuID = T3.StuID",
+    "readable_query": "SELECT pets.PetType, has_pet.PetID, student.Advisor FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID JOIN Student AS student ON has_pet.StuID = student.StuID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.LName, T2.StuID, T3.PetID FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID JOIN Pets AS T3 ON T2.PetID = T3.PetID",
+    "readable_query": "SELECT student.LName, has_pet.StuID, pets.PetID FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID JOIN Pets AS pets ON has_pet.PetID = pets.PetID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.StuID, T2.Age, T3.weight FROM Has_Pet AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID JOIN Pets AS T3 ON T1.PetID = T3.PetID",
+    "readable_query": "SELECT has_pet.StuID, student.Age, pets.weight FROM Has_Pet AS has_pet JOIN Student AS student ON has_pet.StuID = student.StuID JOIN Pets AS pets ON has_pet.PetID = pets.PetID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Advisor, T2.PetID, T3.pet_age FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID JOIN Pets AS T3 ON T2.PetID = T3.PetID",
+    "readable_query": "SELECT student.Advisor, has_pet.PetID, pets.pet_age FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID JOIN Pets AS pets ON has_pet.PetID = pets.PetID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.StuID, T2.Advisor, T3.pet_age FROM Has_Pet AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID JOIN Pets AS T3 ON T1.PetID = T3.PetID",
+    "readable_query": "SELECT has_pet.StuID, student.Advisor, pets.pet_age FROM Has_Pet AS has_pet JOIN Student AS student ON has_pet.StuID = student.StuID JOIN Pets AS pets ON has_pet.PetID = pets.PetID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.PetID, T2.Fname, T3.pet_age FROM Has_Pet AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID JOIN Pets AS T3 ON T1.PetID = T3.PetID",
+    "readable_query": "SELECT has_pet.PetID, student.Fname, pets.pet_age FROM Has_Pet AS has_pet JOIN Student AS student ON has_pet.StuID = student.StuID JOIN Pets AS pets ON has_pet.PetID = pets.PetID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.weight, T2.PetID, T3.Fname FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID JOIN Student AS T3 ON T2.StuID = T3.StuID",
+    "readable_query": "SELECT pets.weight, has_pet.PetID, student.Fname FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID JOIN Student AS student ON has_pet.StuID = student.StuID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.StuID, T2.Fname, T3.PetType FROM Has_Pet AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID JOIN Pets AS T3 ON T1.PetID = T3.PetID",
+    "readable_query": "SELECT has_pet.StuID, student.Fname, pets.PetType FROM Has_Pet AS has_pet JOIN Student AS student ON has_pet.StuID = student.StuID JOIN Pets AS pets ON has_pet.PetID = pets.PetID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.weight, T2.StuID, T3.city_code FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID JOIN Student AS T3 ON T2.StuID = T3.StuID",
+    "readable_query": "SELECT pets.weight, has_pet.StuID, student.city_code FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID JOIN Student AS student ON has_pet.StuID = student.StuID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.PetID, T2.PetType, T3.LName FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID JOIN Student AS T3 ON T1.StuID = T3.StuID",
+    "readable_query": "SELECT has_pet.PetID, pets.PetType, student.LName FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID JOIN Student AS student ON has_pet.StuID = student.StuID"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.PetID FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID     ORDER BY T2.pet_age ASC",
+    "readable_query": "SELECT has_pet.PetID FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID     ORDER BY pets.pet_age ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID     ORDER BY T2.PetID ASC",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID     ORDER BY pets.PetID ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Age FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID     ORDER BY T2.StuID ASC",
+    "readable_query": "SELECT student.Age FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID     ORDER BY has_pet.StuID ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Advisor FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID     ORDER BY T2.StuID ASC",
+    "readable_query": "SELECT student.Advisor FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID     ORDER BY has_pet.StuID ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID     ORDER BY T2.Major ASC",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet JOIN Student AS student ON has_pet.StuID = student.StuID     ORDER BY student.Major ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.PetType FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID     ORDER BY T2.StuID ASC",
+    "readable_query": "SELECT pets.PetType FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID     ORDER BY has_pet.StuID ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.PetID FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID     ORDER BY T2.StuID ASC",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID     ORDER BY has_pet.StuID ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.PetID FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID     ORDER BY T2.weight ASC",
+    "readable_query": "SELECT has_pet.PetID FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID     ORDER BY pets.weight ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Advisor FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID     ORDER BY T2.PetID ASC",
+    "readable_query": "SELECT student.Advisor FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID     ORDER BY has_pet.PetID ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID     ORDER BY T2.weight ASC",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID     ORDER BY pets.weight ASC"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1 WHERE T1.PetID = 2001     INTERSECT SELECT T2.StuID FROM Has_Pet AS T2 WHERE T2.PetID = 2003",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet WHERE has_pet.PetID = 2001     INTERSECT SELECT has_pet.StuID FROM Has_Pet AS has_pet WHERE has_pet.PetID = 2003"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Fname FROM Student AS T1 WHERE T1.StuID = 1004     INTERSECT SELECT T2.Fname FROM Student AS T2 WHERE T2.StuID = 1028",
+    "readable_query": "SELECT student.Fname FROM Student AS student WHERE student.StuID = 1004     INTERSECT SELECT student.Fname FROM Student AS student WHERE student.StuID = 1028"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Sex FROM Student AS T1 WHERE T1.StuID = 1002     INTERSECT SELECT T2.Sex FROM Student AS T2 WHERE T2.StuID = 1011",
+    "readable_query": "SELECT student.Sex FROM Student AS student WHERE student.StuID = 1002     INTERSECT SELECT student.Sex FROM Student AS student WHERE student.StuID = 1011"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1 WHERE T1.PetID = 2002     INTERSECT SELECT T2.StuID FROM Has_Pet AS T2 WHERE T2.PetID = 2002",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet WHERE has_pet.PetID = 2002     INTERSECT SELECT has_pet.StuID FROM Has_Pet AS has_pet WHERE has_pet.PetID = 2002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1 WHERE T1.PetID = 2002     INTERSECT SELECT T2.StuID FROM Has_Pet AS T2 WHERE T2.PetID = 2001",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet WHERE has_pet.PetID = 2002     INTERSECT SELECT has_pet.StuID FROM Has_Pet AS has_pet WHERE has_pet.PetID = 2001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.PetType FROM Pets AS T1 WHERE T1.PetID = 2003     INTERSECT SELECT T2.PetType FROM Pets AS T2 WHERE T2.PetID = 2003",
+    "readable_query": "SELECT pets.PetType FROM Pets AS pets WHERE pets.PetID = 2003     INTERSECT SELECT pets.PetType FROM Pets AS pets WHERE pets.PetID = 2003"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.weight FROM Pets AS T1 WHERE T1.PetType = \"dog\"     INTERSECT SELECT T2.weight FROM Pets AS T2 WHERE T2.PetType = \"dog\"",
+    "readable_query": "SELECT pets.weight FROM Pets AS pets WHERE pets.PetType = \"dog\"     INTERSECT SELECT pets.weight FROM Pets AS pets WHERE pets.PetType = \"dog\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.PetID FROM Pets AS T1 WHERE T1.PetType = \"dog\"     INTERSECT SELECT T2.PetID FROM Pets AS T2 WHERE T2.PetType = \"dog\"",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets WHERE pets.PetType = \"dog\"     INTERSECT SELECT pets.PetID FROM Pets AS pets WHERE pets.PetType = \"dog\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.pet_age FROM Pets AS T1 WHERE T1.weight = 12.0     INTERSECT SELECT T2.pet_age FROM Pets AS T2 WHERE T2.weight = 12.0",
+    "readable_query": "SELECT pets.pet_age FROM Pets AS pets WHERE pets.weight = 12.0     INTERSECT SELECT pets.pet_age FROM Pets AS pets WHERE pets.weight = 12.0"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Fname FROM Student AS T1 WHERE T1.Advisor = 7712     INTERSECT SELECT T2.Fname FROM Student AS T2 WHERE T2.Advisor = 2192",
+    "readable_query": "SELECT student.Fname FROM Student AS student WHERE student.Advisor = 7712     INTERSECT SELECT student.Fname FROM Student AS student WHERE student.Advisor = 2192"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.weight) FROM Pets AS T1 WHERE T1.PetType = \"cat\"",
+    "readable_query": "SELECT avg( pets.weight) FROM Pets AS pets WHERE pets.PetType = \"cat\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.PetID) FROM Has_Pet AS T1 WHERE T1.StuID = 1001",
+    "readable_query": "SELECT avg( has_pet.PetID) FROM Has_Pet AS has_pet WHERE has_pet.StuID = 1001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Advisor) FROM Student AS T1 WHERE T1.Major = 520",
+    "readable_query": "SELECT avg( student.Advisor) FROM Student AS student WHERE student.Major = 520"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.StuID) FROM Has_Pet AS T1 WHERE T1.PetID = 2002",
+    "readable_query": "SELECT avg( has_pet.StuID) FROM Has_Pet AS has_pet WHERE has_pet.PetID = 2002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Age) FROM Student AS T1 WHERE T1.LName = \"Thornton\"",
+    "readable_query": "SELECT avg( student.Age) FROM Student AS student WHERE student.LName = \"Thornton\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.PetID) FROM Has_Pet AS T1 WHERE T1.StuID = 1002",
+    "readable_query": "SELECT avg( has_pet.PetID) FROM Has_Pet AS has_pet WHERE has_pet.StuID = 1002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.StuID) FROM Has_Pet AS T1 WHERE T1.PetID = 2001",
+    "readable_query": "SELECT avg( has_pet.StuID) FROM Has_Pet AS has_pet WHERE has_pet.PetID = 2001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Advisor) FROM Student AS T1 WHERE T1.StuID = 1016",
+    "readable_query": "SELECT avg( student.Advisor) FROM Student AS student WHERE student.StuID = 1016"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.StuID) FROM Has_Pet AS T1 WHERE T1.PetID = 2003",
+    "readable_query": "SELECT avg( has_pet.StuID) FROM Has_Pet AS has_pet WHERE has_pet.PetID = 2003"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Advisor) FROM Student AS T1 WHERE T1.Fname = \"Shiela\"",
+    "readable_query": "SELECT avg( student.Advisor) FROM Student AS student WHERE student.Fname = \"Shiela\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Advisor FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.StuID = (SELECT max( T23.StuID) FROM Has_Pet AS T23)",
+    "readable_query": "SELECT student.Advisor FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.StuID = (SELECT max( has_pet.StuID) FROM Has_Pet AS has_pet)"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.pet_age FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.StuID = (SELECT max( T23.StuID) FROM Has_Pet AS T23)",
+    "readable_query": "SELECT pets.pet_age FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.StuID = (SELECT max( has_pet.StuID) FROM Has_Pet AS has_pet)"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID WHERE T2.Advisor = (SELECT max( T23.Advisor) FROM Student AS T23)",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet JOIN Student AS student ON has_pet.StuID = student.StuID WHERE student.Advisor = (SELECT max( student.Advisor) FROM Student AS student)"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID WHERE T2.weight = (SELECT max( T23.weight) FROM Pets AS T23)",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE pets.weight = (SELECT max( pets.weight) FROM Pets AS pets)"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.PetID FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.StuID = (SELECT max( T23.StuID) FROM Has_Pet AS T23)",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.StuID = (SELECT max( has_pet.StuID) FROM Has_Pet AS has_pet)"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.PetType FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.PetID = (SELECT max( T23.PetID) FROM Has_Pet AS T23)",
+    "readable_query": "SELECT pets.PetType FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.PetID = (SELECT max( has_pet.PetID) FROM Has_Pet AS has_pet)"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.PetID FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID WHERE T2.weight = (SELECT max( T23.weight) FROM Pets AS T23)",
+    "readable_query": "SELECT has_pet.PetID FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE pets.weight = (SELECT max( pets.weight) FROM Pets AS pets)"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID WHERE T2.PetID = (SELECT max( T23.PetID) FROM Pets AS T23)",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE pets.PetID = (SELECT max( pets.PetID) FROM Pets AS pets)"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.weight FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.PetID = (SELECT max( T23.PetID) FROM Has_Pet AS T23)",
+    "readable_query": "SELECT pets.weight FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.PetID = (SELECT max( has_pet.PetID) FROM Has_Pet AS has_pet)"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID WHERE T2.Age = (SELECT max( T23.Age) FROM Student AS T23)",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet JOIN Student AS student ON has_pet.StuID = student.StuID WHERE student.Age = (SELECT max( student.Age) FROM Student AS student)"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.weight, T2.PetID FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID JOIN Student AS T3 ON T2.StuID = T3.StuID WHERE T3.Major = 540 and T2.StuID = 1001",
+    "readable_query": "SELECT pets.weight, has_pet.PetID FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID JOIN Student AS student ON has_pet.StuID = student.StuID WHERE student.Major = 540 and has_pet.StuID = 1001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.PetID, T2.city_code FROM Has_Pet AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID JOIN Pets AS T3 ON T1.PetID = T3.PetID WHERE T3.PetType = \"dog\" and T2.Age = 26",
+    "readable_query": "SELECT has_pet.PetID, student.city_code FROM Has_Pet AS has_pet JOIN Student AS student ON has_pet.StuID = student.StuID JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE pets.PetType = \"dog\" and student.Age = 26"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.LName, T2.PetID FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID JOIN Pets AS T3 ON T2.PetID = T3.PetID WHERE T3.PetType = \"cat\" and T2.StuID = 1001",
+    "readable_query": "SELECT student.LName, has_pet.PetID FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE pets.PetType = \"cat\" and has_pet.StuID = 1001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Advisor, T2.StuID FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID JOIN Pets AS T3 ON T2.PetID = T3.PetID WHERE T3.weight = 12.0 and T2.PetID = 2002",
+    "readable_query": "SELECT student.Advisor, has_pet.StuID FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE pets.weight = 12.0 and has_pet.PetID = 2002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Sex, T2.PetID FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID JOIN Pets AS T3 ON T2.PetID = T3.PetID WHERE T3.weight = 9.3 and T2.StuID = 1001",
+    "readable_query": "SELECT student.Sex, has_pet.PetID FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE pets.weight = 9.3 and has_pet.StuID = 1001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.StuID, T2.Fname FROM Has_Pet AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID JOIN Pets AS T3 ON T1.PetID = T3.PetID WHERE T3.weight = 9.3 and T2.Sex = \"F\"",
+    "readable_query": "SELECT has_pet.StuID, student.Fname FROM Has_Pet AS has_pet JOIN Student AS student ON has_pet.StuID = student.StuID JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE pets.weight = 9.3 and student.Sex = \"F\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.PetID, T2.weight FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID JOIN Student AS T3 ON T1.StuID = T3.StuID WHERE T3.StuID = 1029 and T2.PetType = \"cat\"",
+    "readable_query": "SELECT has_pet.PetID, pets.weight FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID JOIN Student AS student ON has_pet.StuID = student.StuID WHERE student.StuID = 1029 and pets.PetType = \"cat\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.PetType, T2.PetID FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID JOIN Student AS T3 ON T2.StuID = T3.StuID WHERE T3.LName = \"Prater\" and T2.StuID = 1001",
+    "readable_query": "SELECT pets.PetType, has_pet.PetID FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID JOIN Student AS student ON has_pet.StuID = student.StuID WHERE student.LName = \"Prater\" and has_pet.StuID = 1001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.PetID, T2.city_code FROM Has_Pet AS T1 JOIN Student AS T2 ON T1.StuID = T2.StuID JOIN Pets AS T3 ON T1.PetID = T3.PetID WHERE T3.PetType = \"cat\" and T2.Age = 20",
+    "readable_query": "SELECT has_pet.PetID, student.city_code FROM Has_Pet AS has_pet JOIN Student AS student ON has_pet.StuID = student.StuID JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE pets.PetType = \"cat\" and student.Age = 20"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Advisor, T2.PetID FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID JOIN Pets AS T3 ON T2.PetID = T3.PetID WHERE T3.PetType = \"dog\" and T2.StuID = 1001",
+    "readable_query": "SELECT student.Advisor, has_pet.PetID FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE pets.PetType = \"dog\" and has_pet.StuID = 1001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.StuID FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.PetID = 2001 GROUP BY T1.StuID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT student.StuID FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.PetID = 2001 GROUP BY student.StuID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.PetID FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.StuID = 1002 GROUP BY T1.PetID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT pets.PetID FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.StuID = 1002 GROUP BY pets.PetID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.StuID FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.PetID = 2002 GROUP BY T1.StuID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT student.StuID FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.PetID = 2002 GROUP BY student.StuID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Major FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.PetID = 2003 GROUP BY T1.Major  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT student.Major FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.PetID = 2003 GROUP BY student.Major  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.LName FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.StuID = 1002 GROUP BY T1.LName  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT student.LName FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.StuID = 1002 GROUP BY student.LName  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Fname FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.PetID = 2002 GROUP BY T1.Fname  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT student.Fname FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.PetID = 2002 GROUP BY student.Fname  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Advisor FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.StuID = 1001 GROUP BY T1.Advisor  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT student.Advisor FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.StuID = 1001 GROUP BY student.Advisor  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.city_code FROM Student AS T1 JOIN Has_Pet AS T2 ON T1.StuID = T2.StuID WHERE T2.PetID = 2002 GROUP BY T1.city_code  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT student.city_code FROM Student AS student JOIN Has_Pet AS has_pet ON student.StuID = has_pet.StuID WHERE has_pet.PetID = 2002 GROUP BY student.city_code  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.PetType FROM Pets AS T1 JOIN Has_Pet AS T2 ON T1.PetID = T2.PetID WHERE T2.StuID = 1001 GROUP BY T1.PetType  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT pets.PetType FROM Pets AS pets JOIN Has_Pet AS has_pet ON pets.PetID = has_pet.PetID WHERE has_pet.StuID = 1001 GROUP BY pets.PetType  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.PetID FROM Has_Pet AS T1 JOIN Pets AS T2 ON T1.PetID = T2.PetID WHERE T2.pet_age = 3 GROUP BY T1.PetID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT has_pet.PetID FROM Has_Pet AS has_pet JOIN Pets AS pets ON has_pet.PetID = pets.PetID WHERE pets.pet_age = 3 GROUP BY has_pet.PetID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1        EXCEPT SELECT T2.StuID FROM Has_Pet AS T2 WHERE T2.PetID = 2003",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet        EXCEPT SELECT has_pet.StuID FROM Has_Pet AS has_pet WHERE has_pet.PetID = 2003"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.PetID FROM Has_Pet AS T1        EXCEPT SELECT T2.PetID FROM Has_Pet AS T2 WHERE T2.StuID = 1001",
+    "readable_query": "SELECT has_pet.PetID FROM Has_Pet AS has_pet        EXCEPT SELECT has_pet.PetID FROM Has_Pet AS has_pet WHERE has_pet.StuID = 1001"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.PetID FROM Has_Pet AS T1        EXCEPT SELECT T2.PetID FROM Has_Pet AS T2 WHERE T2.StuID = 1002",
+    "readable_query": "SELECT has_pet.PetID FROM Has_Pet AS has_pet        EXCEPT SELECT has_pet.PetID FROM Has_Pet AS has_pet WHERE has_pet.StuID = 1002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.city_code FROM Student AS T1        EXCEPT SELECT T2.city_code FROM Student AS T2 WHERE T2.Fname = \"Jandy\"",
+    "readable_query": "SELECT student.city_code FROM Student AS student        EXCEPT SELECT student.city_code FROM Student AS student WHERE student.Fname = \"Jandy\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Age FROM Student AS T1        EXCEPT SELECT T2.Age FROM Student AS T2 WHERE T2.Sex = \"M\"",
+    "readable_query": "SELECT student.Age FROM Student AS student        EXCEPT SELECT student.Age FROM Student AS student WHERE student.Sex = \"M\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.StuID FROM Has_Pet AS T1        EXCEPT SELECT T2.StuID FROM Has_Pet AS T2 WHERE T2.PetID = 2002",
+    "readable_query": "SELECT has_pet.StuID FROM Has_Pet AS has_pet        EXCEPT SELECT has_pet.StuID FROM Has_Pet AS has_pet WHERE has_pet.PetID = 2002"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.StuID FROM Student AS T1        EXCEPT SELECT T2.StuID FROM Student AS T2 WHERE T2.LName = \"Adams\"",
+    "readable_query": "SELECT student.StuID FROM Student AS student        EXCEPT SELECT student.StuID FROM Student AS student WHERE student.LName = \"Adams\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Fname FROM Student AS T1        EXCEPT SELECT T2.Fname FROM Student AS T2 WHERE T2.city_code = \"CHI\"",
+    "readable_query": "SELECT student.Fname FROM Student AS student        EXCEPT SELECT student.Fname FROM Student AS student WHERE student.city_code = \"CHI\""
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.StuID FROM Student AS T1        EXCEPT SELECT T2.StuID FROM Student AS T2 WHERE T2.Age = 16",
+    "readable_query": "SELECT student.StuID FROM Student AS student        EXCEPT SELECT student.StuID FROM Student AS student WHERE student.Age = 16"
+  },
+  {
+    "db_id": "pets_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Advisor FROM Student AS T1        EXCEPT SELECT T2.Advisor FROM Student AS T2 WHERE T2.Fname = \"Michael\"",
+    "readable_query": "SELECT student.Advisor FROM Student AS student        EXCEPT SELECT student.Advisor FROM Student AS student WHERE student.Fname = \"Michael\""
+  }
+]

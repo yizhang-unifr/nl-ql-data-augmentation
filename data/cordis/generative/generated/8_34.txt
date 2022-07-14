@@ -1,0 +1,16 @@
+SELECT topics.rcn FROM topics WHERE topics.title != 'Communication,Navigation and Surveillance (CNS)'
+
+###
+
+
+Original Query:
+SELECT topics.rcn FROM topics WHERE topics.title != 'Communication,Navigation and Surveillance (CNS)'
+GPT-3 choices:
+(0) Show all records for topics that do not have the title "Communication, Navigation and Surveillance (CNS)"
+(1) Show me the topics that have a different title than 'Communication, Navigation and Surveillance (CNS)'
+(2) Retrieve all topics that do not match 'Communication,Navigation and Surveillance (CNS)'
+(3) ### Show me topics that are not in the research area 'Communication,Navigation and Surveillance (CNS)'
+(4) Show me all topics except for Communication,Navigation and Surveillance (CNS)
+(5) Show me the topics that are not in the subject Communication, Navigation and Surveillance (CNS).
+(6) Show me topics from the category Communication, Navigation and Surveillance (CNS)
+(7) Show me all the projects that are not about Communication,Navigation and Surveillance (CNS)

@@ -1,0 +1,2753 @@
+[
+  {
+    "db_id": "concert_singer",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Lowest FROM stadium AS T1 WHERE T1.Location = \"Ayr United\"",
+    "readable_query": "SELECT stadium.Lowest FROM stadium AS stadium WHERE stadium.Location = \"Ayr United\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Stadium_ID FROM concert AS T1 WHERE T1.Theme = \"Party All Night\"",
+    "readable_query": "SELECT concert.Stadium_ID FROM concert AS concert WHERE concert.Theme = \"Party All Night\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Capacity FROM stadium AS T1 WHERE T1.Location = \"Raith Rovers\"",
+    "readable_query": "SELECT stadium.Capacity FROM stadium AS stadium WHERE stadium.Location = \"Raith Rovers\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Name FROM stadium AS T1 WHERE T1.Average = 642",
+    "readable_query": "SELECT stadium.Name FROM stadium AS stadium WHERE stadium.Average = 642"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Lowest FROM stadium AS T1 WHERE T1.Capacity = 10104",
+    "readable_query": "SELECT stadium.Lowest FROM stadium AS stadium WHERE stadium.Capacity = 10104"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Name FROM stadium AS T1 WHERE T1.Highest = 1057",
+    "readable_query": "SELECT stadium.Name FROM stadium AS stadium WHERE stadium.Highest = 1057"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Singer_ID FROM singer_in_concert AS T1 WHERE T1.concert_ID = 3",
+    "readable_query": "SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.concert_ID = 3"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Song_release_year FROM singer AS T1 WHERE T1.Country = \"United States\"",
+    "readable_query": "SELECT singer.Song_release_year FROM singer AS singer WHERE singer.Country = \"United States\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.concert_ID FROM singer_in_concert AS T1 WHERE T1.Singer_ID = \"2\"",
+    "readable_query": "SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.Singer_ID = \"2\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Theme FROM concert AS T1 WHERE T1.Stadium_ID = \"2\"",
+    "readable_query": "SELECT concert.Theme FROM concert AS concert WHERE concert.Stadium_ID = \"2\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Singer_ID FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Song_release_year = \"2016\"",
+    "readable_query": "SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID WHERE singer.Song_release_year = \"2016\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Song_release_year FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.concert_ID = 3",
+    "readable_query": "SELECT singer.Song_release_year FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer_in_concert.concert_ID = 3"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Stadium_ID FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.concert_Name = \"Home Visits\"",
+    "readable_query": "SELECT stadium.Stadium_ID FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID WHERE concert.concert_Name = \"Home Visits\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Name FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Singer_ID = \"6\"",
+    "readable_query": "SELECT singer.Name FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer_in_concert.Singer_ID = \"6\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Theme FROM concert AS T1 JOIN stadium AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.Location = \"Stirling Albion\"",
+    "readable_query": "SELECT concert.Theme FROM concert AS concert JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID WHERE stadium.Location = \"Stirling Albion\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Stadium_ID FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.concert_ID = 4",
+    "readable_query": "SELECT stadium.Stadium_ID FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID WHERE concert.concert_ID = 4"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Country FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.concert_ID = 1",
+    "readable_query": "SELECT singer.Country FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer_in_concert.concert_ID = 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.concert_ID = 3",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer_in_concert.concert_ID = 3"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Stadium_ID FROM concert AS T1 JOIN singer_in_concert AS T2 ON T1.concert_ID = T2.concert_ID WHERE T2.concert_ID = 2",
+    "readable_query": "SELECT concert.Stadium_ID FROM concert AS concert JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID WHERE singer_in_concert.concert_ID = 2"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Theme FROM concert AS T1 JOIN stadium AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.Highest = 780",
+    "readable_query": "SELECT concert.Theme FROM concert AS concert JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID WHERE stadium.Highest = 780"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Age, count(*) FROM singer AS T1  GROUP BY T1.Age",
+    "readable_query": "SELECT singer.Age, count(*) FROM singer AS singer  GROUP BY singer.Age"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Song_Name, count(*) FROM singer AS T1  GROUP BY T1.Song_Name",
+    "readable_query": "SELECT singer.Song_Name, count(*) FROM singer AS singer  GROUP BY singer.Song_Name"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.concert_ID, count(*) FROM concert AS T1  GROUP BY T1.concert_ID",
+    "readable_query": "SELECT concert.concert_ID, count(*) FROM concert AS concert  GROUP BY concert.concert_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Country, count(*) FROM singer AS T1  GROUP BY T1.Country",
+    "readable_query": "SELECT singer.Country, count(*) FROM singer AS singer  GROUP BY singer.Country"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.concert_ID, count(*) FROM singer_in_concert AS T1  GROUP BY T1.concert_ID",
+    "readable_query": "SELECT singer_in_concert.concert_ID, count(*) FROM singer_in_concert AS singer_in_concert  GROUP BY singer_in_concert.concert_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Singer_ID, count(*) FROM singer_in_concert AS T1  GROUP BY T1.Singer_ID",
+    "readable_query": "SELECT singer_in_concert.Singer_ID, count(*) FROM singer_in_concert AS singer_in_concert  GROUP BY singer_in_concert.Singer_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Singer_ID, count(*) FROM singer AS T1  GROUP BY T1.Singer_ID",
+    "readable_query": "SELECT singer.Singer_ID, count(*) FROM singer AS singer  GROUP BY singer.Singer_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Location, count(*) FROM stadium AS T1  GROUP BY T1.Location",
+    "readable_query": "SELECT stadium.Location, count(*) FROM stadium AS stadium  GROUP BY stadium.Location"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Average, count(*) FROM stadium AS T1  GROUP BY T1.Average",
+    "readable_query": "SELECT stadium.Average, count(*) FROM stadium AS stadium  GROUP BY stadium.Average"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Year, count(*) FROM concert AS T1  GROUP BY T1.Year",
+    "readable_query": "SELECT concert.Year, count(*) FROM concert AS concert  GROUP BY concert.Year"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Stadium_ID, count(*) FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID  GROUP BY T1.Stadium_ID",
+    "readable_query": "SELECT stadium.Stadium_ID, count(*) FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID  GROUP BY stadium.Stadium_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.concert_ID, count(*) FROM singer_in_concert AS T1 JOIN concert AS T2 ON T1.concert_ID = T2.concert_ID  GROUP BY T1.concert_ID",
+    "readable_query": "SELECT singer_in_concert.concert_ID, count(*) FROM singer_in_concert AS singer_in_concert JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID  GROUP BY singer_in_concert.concert_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Capacity, count(*) FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID  GROUP BY T1.Capacity",
+    "readable_query": "SELECT stadium.Capacity, count(*) FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID  GROUP BY stadium.Capacity"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Song_Name, count(*) FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID  GROUP BY T1.Song_Name",
+    "readable_query": "SELECT singer.Song_Name, count(*) FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID  GROUP BY singer.Song_Name"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Singer_ID, count(*) FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID  GROUP BY T1.Singer_ID",
+    "readable_query": "SELECT singer_in_concert.Singer_ID, count(*) FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID  GROUP BY singer_in_concert.Singer_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.concert_ID, count(*) FROM concert AS T1 JOIN stadium AS T2 ON T1.Stadium_ID = T2.Stadium_ID  GROUP BY T1.concert_ID",
+    "readable_query": "SELECT concert.concert_ID, count(*) FROM concert AS concert JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID  GROUP BY concert.concert_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Song_release_year, count(*) FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID  GROUP BY T1.Song_release_year",
+    "readable_query": "SELECT singer.Song_release_year, count(*) FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID  GROUP BY singer.Song_release_year"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Theme, count(*) FROM concert AS T1 JOIN stadium AS T2 ON T1.Stadium_ID = T2.Stadium_ID  GROUP BY T1.Theme",
+    "readable_query": "SELECT concert.Theme, count(*) FROM concert AS concert JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID  GROUP BY concert.Theme"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Name, count(*) FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID  GROUP BY T1.Name",
+    "readable_query": "SELECT stadium.Name, count(*) FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID  GROUP BY stadium.Name"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Singer_ID, count(*) FROM singer_in_concert AS T1 JOIN concert AS T2 ON T1.concert_ID = T2.concert_ID  GROUP BY T1.Singer_ID",
+    "readable_query": "SELECT singer_in_concert.Singer_ID, count(*) FROM singer_in_concert AS singer_in_concert JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID  GROUP BY singer_in_concert.Singer_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM singer AS T1",
+    "readable_query": "SELECT count(*) FROM singer AS singer"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM concert AS T1",
+    "readable_query": "SELECT count(*) FROM concert AS concert"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM stadium AS T1",
+    "readable_query": "SELECT count(*) FROM stadium AS stadium"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM singer_in_concert AS T1",
+    "readable_query": "SELECT count(*) FROM singer_in_concert AS singer_in_concert"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Stadium_ID, T1.Highest FROM stadium AS T1",
+    "readable_query": "SELECT stadium.Stadium_ID, stadium.Highest FROM stadium AS stadium"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.concert_ID, T1.Singer_ID FROM singer_in_concert AS T1",
+    "readable_query": "SELECT singer_in_concert.concert_ID, singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Theme, T1.concert_ID FROM concert AS T1",
+    "readable_query": "SELECT concert.Theme, concert.concert_ID FROM concert AS concert"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Capacity, T1.Average FROM stadium AS T1",
+    "readable_query": "SELECT stadium.Capacity, stadium.Average FROM stadium AS stadium"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Theme, T1.concert_Name FROM concert AS T1",
+    "readable_query": "SELECT concert.Theme, concert.concert_Name FROM concert AS concert"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Name, T1.Country FROM singer AS T1",
+    "readable_query": "SELECT singer.Name, singer.Country FROM singer AS singer"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Stadium_ID, T1.Theme FROM concert AS T1",
+    "readable_query": "SELECT concert.Stadium_ID, concert.Theme FROM concert AS concert"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Singer_ID, T1.concert_ID FROM singer_in_concert AS T1",
+    "readable_query": "SELECT singer_in_concert.Singer_ID, singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Stadium_ID, T1.Average FROM stadium AS T1",
+    "readable_query": "SELECT stadium.Stadium_ID, stadium.Average FROM stadium AS stadium"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Name, T1.Song_Name FROM singer AS T1",
+    "readable_query": "SELECT singer.Name, singer.Song_Name FROM singer AS singer"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Singer_ID, T2.Year FROM singer_in_concert AS T1 JOIN concert AS T2 ON T1.concert_ID = T2.concert_ID",
+    "readable_query": "SELECT singer_in_concert.Singer_ID, concert.Year FROM singer_in_concert AS singer_in_concert JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Singer_ID, T2.Song_Name FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID",
+    "readable_query": "SELECT singer_in_concert.Singer_ID, singer.Song_Name FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Highest, T2.Year FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID",
+    "readable_query": "SELECT stadium.Highest, concert.Year FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Singer_ID, T2.Age FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID",
+    "readable_query": "SELECT singer_in_concert.Singer_ID, singer.Age FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Age, T2.Singer_ID FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID",
+    "readable_query": "SELECT singer.Age, singer_in_concert.Singer_ID FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.concert_ID, T2.Singer_ID FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID",
+    "readable_query": "SELECT singer_in_concert.concert_ID, singer.Singer_ID FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Year, T2.Stadium_ID FROM concert AS T1 JOIN stadium AS T2 ON T1.Stadium_ID = T2.Stadium_ID",
+    "readable_query": "SELECT concert.Year, stadium.Stadium_ID FROM concert AS concert JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Stadium_ID, T2.Year FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID",
+    "readable_query": "SELECT stadium.Stadium_ID, concert.Year FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Highest, T2.concert_ID FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID",
+    "readable_query": "SELECT stadium.Highest, concert.concert_ID FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Year, T2.concert_ID FROM concert AS T1 JOIN singer_in_concert AS T2 ON T1.concert_ID = T2.concert_ID",
+    "readable_query": "SELECT concert.Year, singer_in_concert.concert_ID FROM concert AS concert JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Song_release_year, T1.Country FROM singer AS T1 WHERE T1.Singer_ID = 6",
+    "readable_query": "SELECT singer.Song_release_year, singer.Country FROM singer AS singer WHERE singer.Singer_ID = 6"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Highest, T1.Capacity FROM stadium AS T1 WHERE T1.Lowest = 1057",
+    "readable_query": "SELECT stadium.Highest, stadium.Capacity FROM stadium AS stadium WHERE stadium.Lowest = 1057"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Average, T1.Highest FROM stadium AS T1 WHERE T1.Lowest = 1294",
+    "readable_query": "SELECT stadium.Average, stadium.Highest FROM stadium AS stadium WHERE stadium.Lowest = 1294"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Stadium_ID, T1.concert_ID FROM concert AS T1 WHERE T1.concert_Name = \"Week 2\"",
+    "readable_query": "SELECT concert.Stadium_ID, concert.concert_ID FROM concert AS concert WHERE concert.concert_Name = \"Week 2\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Year, T1.concert_Name FROM concert AS T1 WHERE T1.Stadium_ID = \"10\"",
+    "readable_query": "SELECT concert.Year, concert.concert_Name FROM concert AS concert WHERE concert.Stadium_ID = \"10\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Location, T1.Highest FROM stadium AS T1 WHERE T1.Average = 552",
+    "readable_query": "SELECT stadium.Location, stadium.Highest FROM stadium AS stadium WHERE stadium.Average = 552"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Highest, T1.Name FROM stadium AS T1 WHERE T1.Average = 2106",
+    "readable_query": "SELECT stadium.Highest, stadium.Name FROM stadium AS stadium WHERE stadium.Average = 2106"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.concert_Name, T1.Theme FROM concert AS T1 WHERE T1.Year = \"2014\"",
+    "readable_query": "SELECT concert.concert_Name, concert.Theme FROM concert AS concert WHERE concert.Year = \"2014\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Location, T1.Name FROM stadium AS T1 WHERE T1.Lowest = 466",
+    "readable_query": "SELECT stadium.Location, stadium.Name FROM stadium AS stadium WHERE stadium.Lowest = 466"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Song_Name, T1.Name FROM singer AS T1 WHERE T1.Singer_ID = 6",
+    "readable_query": "SELECT singer.Song_Name, singer.Name FROM singer AS singer WHERE singer.Singer_ID = 6"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.concert_ID FROM singer_in_concert AS T1  GROUP BY T1.concert_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert  GROUP BY singer_in_concert.concert_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Singer_ID FROM singer_in_concert AS T1  GROUP BY T1.Singer_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert  GROUP BY singer_in_concert.Singer_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Name FROM singer AS T1  GROUP BY T1.Name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT singer.Name FROM singer AS singer  GROUP BY singer.Name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Song_release_year FROM singer AS T1  GROUP BY T1.Song_release_year  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT singer.Song_release_year FROM singer AS singer  GROUP BY singer.Song_release_year  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.concert_Name FROM concert AS T1  GROUP BY T1.concert_Name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT concert.concert_Name FROM concert AS concert  GROUP BY concert.concert_Name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Age FROM singer AS T1  GROUP BY T1.Age  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT singer.Age FROM singer AS singer  GROUP BY singer.Age  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Year FROM concert AS T1  GROUP BY T1.Year  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT concert.Year FROM concert AS concert  GROUP BY concert.Year  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Stadium_ID FROM stadium AS T1  GROUP BY T1.Stadium_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT stadium.Stadium_ID FROM stadium AS stadium  GROUP BY stadium.Stadium_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Country FROM singer AS T1  GROUP BY T1.Country  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT singer.Country FROM singer AS singer  GROUP BY singer.Country  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Is_male FROM singer AS T1  GROUP BY T1.Is_male  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT singer.Is_male FROM singer AS singer  GROUP BY singer.Is_male  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM singer AS T1 WHERE T1.Name = \"John Nizinik\"",
+    "readable_query": "SELECT count(*) FROM singer AS singer WHERE singer.Name = \"John Nizinik\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM singer AS T1 WHERE T1.Name = \"Timbaland\"",
+    "readable_query": "SELECT count(*) FROM singer AS singer WHERE singer.Name = \"Timbaland\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM concert AS T1 WHERE T1.concert_Name = \"Auditions\"",
+    "readable_query": "SELECT count(*) FROM concert AS concert WHERE concert.concert_Name = \"Auditions\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM singer_in_concert AS T1 WHERE T1.concert_ID = 3",
+    "readable_query": "SELECT count(*) FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.concert_ID = 3"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM concert AS T1 WHERE T1.Year = \"2014\"",
+    "readable_query": "SELECT count(*) FROM concert AS concert WHERE concert.Year = \"2014\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM singer_in_concert AS T1 WHERE T1.Singer_ID = \"6\"",
+    "readable_query": "SELECT count(*) FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.Singer_ID = \"6\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM singer AS T1 WHERE T1.Age = 25",
+    "readable_query": "SELECT count(*) FROM singer AS singer WHERE singer.Age = 25"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM concert AS T1 WHERE T1.concert_ID = 4",
+    "readable_query": "SELECT count(*) FROM concert AS concert WHERE concert.concert_ID = 4"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM singer AS T1 WHERE T1.Song_Name = \"Sun\"",
+    "readable_query": "SELECT count(*) FROM singer AS singer WHERE singer.Song_Name = \"Sun\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM singer AS T1 WHERE T1.Song_Name = \"Love\"",
+    "readable_query": "SELECT count(*) FROM singer AS singer WHERE singer.Song_Name = \"Love\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Is_male FROM singer AS T1    ORDER BY T1.Singer_ID DESC LIMIT 1",
+    "readable_query": "SELECT singer.Is_male FROM singer AS singer    ORDER BY singer.Singer_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.concert_Name FROM concert AS T1    ORDER BY T1.concert_ID DESC LIMIT 1",
+    "readable_query": "SELECT concert.concert_Name FROM concert AS concert    ORDER BY concert.concert_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Song_Name FROM singer AS T1    ORDER BY T1.Age DESC LIMIT 1",
+    "readable_query": "SELECT singer.Song_Name FROM singer AS singer    ORDER BY singer.Age DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Stadium_ID FROM concert AS T1    ORDER BY T1.concert_ID DESC LIMIT 1",
+    "readable_query": "SELECT concert.Stadium_ID FROM concert AS concert    ORDER BY concert.concert_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1    ORDER BY T1.Age DESC LIMIT 1",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer    ORDER BY singer.Age DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Location FROM stadium AS T1    ORDER BY T1.Highest DESC LIMIT 1",
+    "readable_query": "SELECT stadium.Location FROM stadium AS stadium    ORDER BY stadium.Highest DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Country FROM singer AS T1    ORDER BY T1.Singer_ID DESC LIMIT 1",
+    "readable_query": "SELECT singer.Country FROM singer AS singer    ORDER BY singer.Singer_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Theme FROM concert AS T1    ORDER BY T1.concert_ID DESC LIMIT 1",
+    "readable_query": "SELECT concert.Theme FROM concert AS concert    ORDER BY concert.concert_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM stadium AS T1    ORDER BY T1.Capacity DESC LIMIT 1",
+    "readable_query": "SELECT stadium.Name FROM stadium AS stadium    ORDER BY stadium.Capacity DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Year FROM concert AS T1    ORDER BY T1.concert_ID DESC LIMIT 1",
+    "readable_query": "SELECT concert.Year FROM concert AS concert    ORDER BY concert.concert_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID    ORDER BY T2.concert_ID DESC LIMIT 1",
+    "readable_query": "SELECT stadium.Name FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID    ORDER BY concert.concert_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.concert_ID FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Age DESC LIMIT 1",
+    "readable_query": "SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID    ORDER BY singer.Age DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Highest FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID    ORDER BY T2.concert_ID DESC LIMIT 1",
+    "readable_query": "SELECT stadium.Highest FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID    ORDER BY concert.concert_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Stadium_ID FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID    ORDER BY T2.concert_ID DESC LIMIT 1",
+    "readable_query": "SELECT stadium.Stadium_ID FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID    ORDER BY concert.concert_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Average FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID    ORDER BY T2.concert_ID DESC LIMIT 1",
+    "readable_query": "SELECT stadium.Average FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID    ORDER BY concert.concert_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.concert_ID FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Singer_ID DESC LIMIT 1",
+    "readable_query": "SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID    ORDER BY singer.Singer_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.concert_ID DESC LIMIT 1",
+    "readable_query": "SELECT singer.Name FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID    ORDER BY singer_in_concert.concert_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Stadium_ID FROM concert AS T1 JOIN singer_in_concert AS T2 ON T1.concert_ID = T2.concert_ID    ORDER BY T2.concert_ID DESC LIMIT 1",
+    "readable_query": "SELECT concert.Stadium_ID FROM concert AS concert JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID    ORDER BY singer_in_concert.concert_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Stadium_ID FROM concert AS T1 JOIN stadium AS T2 ON T1.Stadium_ID = T2.Stadium_ID    ORDER BY T2.Lowest DESC LIMIT 1",
+    "readable_query": "SELECT concert.Stadium_ID FROM concert AS concert JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID    ORDER BY stadium.Lowest DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.concert_Name FROM concert AS T1 JOIN singer_in_concert AS T2 ON T1.concert_ID = T2.concert_ID    ORDER BY T2.concert_ID DESC LIMIT 1",
+    "readable_query": "SELECT concert.concert_Name FROM concert AS concert JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID    ORDER BY singer_in_concert.concert_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Theme FROM concert AS T1 JOIN singer_in_concert AS T2 ON T1.concert_ID = T2.concert_ID    ORDER BY T2.concert_ID ASC LIMIT 1",
+    "readable_query": "SELECT concert.Theme FROM concert AS concert JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID    ORDER BY singer_in_concert.concert_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Capacity FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID    ORDER BY T2.concert_ID ASC LIMIT 1",
+    "readable_query": "SELECT stadium.Capacity FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID    ORDER BY concert.concert_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Year FROM concert AS T1 JOIN stadium AS T2 ON T1.Stadium_ID = T2.Stadium_ID    ORDER BY T2.Stadium_ID ASC LIMIT 1",
+    "readable_query": "SELECT concert.Year FROM concert AS concert JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID    ORDER BY stadium.Stadium_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Stadium_ID FROM concert AS T1 JOIN singer_in_concert AS T2 ON T1.concert_ID = T2.concert_ID    ORDER BY T2.concert_ID ASC LIMIT 1",
+    "readable_query": "SELECT concert.Stadium_ID FROM concert AS concert JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID    ORDER BY singer_in_concert.concert_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Lowest FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID    ORDER BY T2.concert_ID ASC LIMIT 1",
+    "readable_query": "SELECT stadium.Lowest FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID    ORDER BY concert.concert_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Age FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.concert_ID ASC LIMIT 1",
+    "readable_query": "SELECT singer.Age FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID    ORDER BY singer_in_concert.concert_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.concert_ID ASC LIMIT 1",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID    ORDER BY singer_in_concert.concert_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Stadium_ID FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID    ORDER BY T2.concert_ID ASC LIMIT 1",
+    "readable_query": "SELECT stadium.Stadium_ID FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID    ORDER BY concert.concert_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.concert_ID ASC LIMIT 1",
+    "readable_query": "SELECT singer.Name FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID    ORDER BY singer_in_concert.concert_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.concert_ID FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Age ASC LIMIT 1",
+    "readable_query": "SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID    ORDER BY singer.Age ASC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.concert_ID, T1.Singer_ID FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Age DESC LIMIT 1",
+    "readable_query": "SELECT singer_in_concert.concert_ID, singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID    ORDER BY singer.Age DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Singer_ID, T1.Song_Name FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.concert_ID DESC LIMIT 1",
+    "readable_query": "SELECT singer.Singer_ID, singer.Song_Name FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID    ORDER BY singer_in_concert.concert_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Highest, T1.Average FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID    ORDER BY T2.concert_ID DESC LIMIT 1",
+    "readable_query": "SELECT stadium.Highest, stadium.Average FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID    ORDER BY concert.concert_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Singer_ID, T1.concert_ID FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.Age DESC LIMIT 1",
+    "readable_query": "SELECT singer_in_concert.Singer_ID, singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID    ORDER BY singer.Age DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Age, T1.Is_male FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.concert_ID DESC LIMIT 1",
+    "readable_query": "SELECT singer.Age, singer.Is_male FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID    ORDER BY singer_in_concert.concert_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Capacity, T1.Name FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID    ORDER BY T2.concert_ID DESC LIMIT 1",
+    "readable_query": "SELECT stadium.Capacity, stadium.Name FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID    ORDER BY concert.concert_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name, T1.Country FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.concert_ID DESC LIMIT 1",
+    "readable_query": "SELECT singer.Name, singer.Country FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID    ORDER BY singer_in_concert.concert_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.concert_Name, T1.concert_ID FROM concert AS T1 JOIN stadium AS T2 ON T1.Stadium_ID = T2.Stadium_ID    ORDER BY T2.Highest DESC LIMIT 1",
+    "readable_query": "SELECT concert.concert_Name, concert.concert_ID FROM concert AS concert JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID    ORDER BY stadium.Highest DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Song_release_year, T1.Name FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID    ORDER BY T2.concert_ID DESC LIMIT 1",
+    "readable_query": "SELECT singer.Song_release_year, singer.Name FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID    ORDER BY singer_in_concert.concert_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Highest, T1.Location FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID    ORDER BY T2.concert_ID DESC LIMIT 1",
+    "readable_query": "SELECT stadium.Highest, stadium.Location FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID    ORDER BY concert.concert_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Year) FROM concert AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  concert.Year) FROM concert AS concert"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.concert_ID) FROM singer_in_concert AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer_in_concert.concert_ID) FROM singer_in_concert AS singer_in_concert"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM singer AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer.Name) FROM singer AS singer"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Song_release_year) FROM singer AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer.Song_release_year) FROM singer AS singer"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Stadium_ID) FROM concert AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  concert.Stadium_ID) FROM concert AS concert"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Singer_ID) FROM singer_in_concert AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer_in_concert.Singer_ID) FROM singer_in_concert AS singer_in_concert"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Singer_ID) FROM singer AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer.Singer_ID) FROM singer AS singer"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.concert_ID) FROM concert AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  concert.concert_ID) FROM concert AS concert"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Location) FROM stadium AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  stadium.Location) FROM stadium AS stadium"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.concert_Name) FROM concert AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  concert.concert_Name) FROM concert AS concert"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.concert_ID) FROM singer_in_concert AS T1",
+    "readable_query": "SELECT avg( singer_in_concert.concert_ID) FROM singer_in_concert AS singer_in_concert"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Singer_ID) FROM singer AS T1",
+    "readable_query": "SELECT avg( singer.Singer_ID) FROM singer AS singer"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Highest) FROM stadium AS T1",
+    "readable_query": "SELECT avg( stadium.Highest) FROM stadium AS stadium"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Average) FROM stadium AS T1",
+    "readable_query": "SELECT avg( stadium.Average) FROM stadium AS stadium"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Age) FROM singer AS T1",
+    "readable_query": "SELECT avg( singer.Age) FROM singer AS singer"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Stadium_ID) FROM stadium AS T1",
+    "readable_query": "SELECT avg( stadium.Stadium_ID) FROM stadium AS stadium"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Lowest) FROM stadium AS T1",
+    "readable_query": "SELECT avg( stadium.Lowest) FROM stadium AS stadium"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.concert_ID) FROM concert AS T1",
+    "readable_query": "SELECT avg( concert.concert_ID) FROM concert AS concert"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Capacity) FROM stadium AS T1",
+    "readable_query": "SELECT avg( stadium.Capacity) FROM stadium AS stadium"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Highest FROM stadium AS T1",
+    "readable_query": "SELECT stadium.Highest FROM stadium AS stadium"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.concert_Name FROM concert AS T1",
+    "readable_query": "SELECT concert.concert_Name FROM concert AS concert"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Is_male FROM singer AS T1",
+    "readable_query": "SELECT singer.Is_male FROM singer AS singer"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.concert_ID FROM singer_in_concert AS T1",
+    "readable_query": "SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Song_Name FROM singer AS T1",
+    "readable_query": "SELECT singer.Song_Name FROM singer AS singer"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Theme FROM concert AS T1",
+    "readable_query": "SELECT concert.Theme FROM concert AS concert"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Song_release_year FROM singer AS T1",
+    "readable_query": "SELECT singer.Song_release_year FROM singer AS singer"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Location FROM stadium AS T1",
+    "readable_query": "SELECT stadium.Location FROM stadium AS stadium"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Age FROM singer AS T1",
+    "readable_query": "SELECT singer.Age FROM singer AS singer"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Year FROM concert AS T1",
+    "readable_query": "SELECT concert.Year FROM concert AS concert"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.concert_ID FROM singer_in_concert AS T1",
+    "readable_query": "SELECT DISTINCT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Song_release_year FROM singer AS T1",
+    "readable_query": "SELECT DISTINCT singer.Song_release_year FROM singer AS singer"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Capacity FROM stadium AS T1",
+    "readable_query": "SELECT DISTINCT stadium.Capacity FROM stadium AS stadium"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Singer_ID FROM singer_in_concert AS T1",
+    "readable_query": "SELECT DISTINCT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Is_male FROM singer AS T1",
+    "readable_query": "SELECT DISTINCT singer.Is_male FROM singer AS singer"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Lowest FROM stadium AS T1",
+    "readable_query": "SELECT DISTINCT stadium.Lowest FROM stadium AS stadium"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Singer_ID FROM singer AS T1",
+    "readable_query": "SELECT DISTINCT singer.Singer_ID FROM singer AS singer"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Year FROM concert AS T1",
+    "readable_query": "SELECT DISTINCT concert.Year FROM concert AS concert"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Age FROM singer AS T1",
+    "readable_query": "SELECT DISTINCT singer.Age FROM singer AS singer"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Name FROM singer AS T1",
+    "readable_query": "SELECT DISTINCT singer.Name FROM singer AS singer"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Lowest FROM stadium AS T1     ORDER BY T1.Stadium_ID ASC",
+    "readable_query": "SELECT stadium.Lowest FROM stadium AS stadium     ORDER BY stadium.Stadium_ID ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM singer AS T1     ORDER BY T1.Age ASC",
+    "readable_query": "SELECT singer.Name FROM singer AS singer     ORDER BY singer.Age ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Average FROM stadium AS T1     ORDER BY T1.Stadium_ID ASC",
+    "readable_query": "SELECT stadium.Average FROM stadium AS stadium     ORDER BY stadium.Stadium_ID ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Average FROM stadium AS T1     ORDER BY T1.Lowest ASC",
+    "readable_query": "SELECT stadium.Average FROM stadium AS stadium     ORDER BY stadium.Lowest ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Theme FROM concert AS T1     ORDER BY T1.concert_ID ASC",
+    "readable_query": "SELECT concert.Theme FROM concert AS concert     ORDER BY concert.concert_ID ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Singer_ID FROM singer_in_concert AS T1     ORDER BY T1.concert_ID ASC",
+    "readable_query": "SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert     ORDER BY singer_in_concert.concert_ID ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Age FROM singer AS T1     ORDER BY T1.Singer_ID ASC",
+    "readable_query": "SELECT singer.Age FROM singer AS singer     ORDER BY singer.Singer_ID ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Country FROM singer AS T1     ORDER BY T1.Age ASC",
+    "readable_query": "SELECT singer.Country FROM singer AS singer     ORDER BY singer.Age ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Capacity FROM stadium AS T1     ORDER BY T1.Highest ASC",
+    "readable_query": "SELECT stadium.Capacity FROM stadium AS stadium     ORDER BY stadium.Highest ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Highest FROM stadium AS T1     ORDER BY T1.Average ASC",
+    "readable_query": "SELECT stadium.Highest FROM stadium AS stadium     ORDER BY stadium.Average ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Singer_ID FROM singer_in_concert AS T1     ORDER BY T1.concert_ID DESC",
+    "readable_query": "SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert     ORDER BY singer_in_concert.concert_ID DESC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.concert_Name FROM concert AS T1     ORDER BY T1.concert_ID DESC",
+    "readable_query": "SELECT concert.concert_Name FROM concert AS concert     ORDER BY concert.concert_ID DESC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Year FROM concert AS T1     ORDER BY T1.concert_ID DESC",
+    "readable_query": "SELECT concert.Year FROM concert AS concert     ORDER BY concert.concert_ID DESC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1     ORDER BY T1.Age DESC",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer     ORDER BY singer.Age DESC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM stadium AS T1     ORDER BY T1.Stadium_ID DESC",
+    "readable_query": "SELECT stadium.Name FROM stadium AS stadium     ORDER BY stadium.Stadium_ID DESC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Is_male FROM singer AS T1     ORDER BY T1.Age DESC",
+    "readable_query": "SELECT singer.Is_male FROM singer AS singer     ORDER BY singer.Age DESC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Theme FROM concert AS T1     ORDER BY T1.concert_ID DESC",
+    "readable_query": "SELECT concert.Theme FROM concert AS concert     ORDER BY concert.concert_ID DESC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Average FROM stadium AS T1     ORDER BY T1.Highest DESC",
+    "readable_query": "SELECT stadium.Average FROM stadium AS stadium     ORDER BY stadium.Highest DESC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM singer AS T1     ORDER BY T1.Singer_ID DESC",
+    "readable_query": "SELECT singer.Name FROM singer AS singer     ORDER BY singer.Singer_ID DESC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Highest FROM stadium AS T1     ORDER BY T1.Stadium_ID DESC",
+    "readable_query": "SELECT stadium.Highest FROM stadium AS stadium     ORDER BY stadium.Stadium_ID DESC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.concert_ID, T1.Singer_ID FROM singer_in_concert AS T1     ORDER BY T1.Singer_ID ASC",
+    "readable_query": "SELECT singer_in_concert.concert_ID, singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert     ORDER BY singer_in_concert.Singer_ID ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Average, T1.Capacity FROM stadium AS T1     ORDER BY T1.Capacity ASC",
+    "readable_query": "SELECT stadium.Average, stadium.Capacity FROM stadium AS stadium     ORDER BY stadium.Capacity ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Stadium_ID, T1.Average FROM stadium AS T1     ORDER BY T1.Average ASC",
+    "readable_query": "SELECT stadium.Stadium_ID, stadium.Average FROM stadium AS stadium     ORDER BY stadium.Average ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Country, T1.Singer_ID FROM singer AS T1     ORDER BY T1.Singer_ID ASC",
+    "readable_query": "SELECT singer.Country, singer.Singer_ID FROM singer AS singer     ORDER BY singer.Singer_ID ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Stadium_ID, T1.concert_ID FROM concert AS T1     ORDER BY T1.concert_ID ASC",
+    "readable_query": "SELECT concert.Stadium_ID, concert.concert_ID FROM concert AS concert     ORDER BY concert.concert_ID ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Location, T1.Lowest FROM stadium AS T1     ORDER BY T1.Lowest ASC",
+    "readable_query": "SELECT stadium.Location, stadium.Lowest FROM stadium AS stadium     ORDER BY stadium.Lowest ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Theme, T1.Year FROM concert AS T1     ORDER BY T1.Year ASC",
+    "readable_query": "SELECT concert.Theme, concert.Year FROM concert AS concert     ORDER BY concert.Year ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Name, T1.Song_release_year FROM singer AS T1     ORDER BY T1.Song_release_year ASC",
+    "readable_query": "SELECT singer.Name, singer.Song_release_year FROM singer AS singer     ORDER BY singer.Song_release_year ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Highest, T1.Capacity FROM stadium AS T1     ORDER BY T1.Capacity ASC",
+    "readable_query": "SELECT stadium.Highest, stadium.Capacity FROM stadium AS stadium     ORDER BY stadium.Capacity ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Country, T1.Is_male FROM singer AS T1     ORDER BY T1.Is_male ASC",
+    "readable_query": "SELECT singer.Country, singer.Is_male FROM singer AS singer     ORDER BY singer.Is_male ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Name FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID JOIN concert AS T3 ON T2.concert_ID = T3.concert_ID WHERE T2.Singer_ID = \"5\" and T3.Theme = \"Party All Night\"",
+    "readable_query": "SELECT singer.Name FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID WHERE singer_in_concert.Singer_ID = \"5\" and concert.Theme = \"Party All Night\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Song_release_year FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID JOIN concert AS T3 ON T2.concert_ID = T3.concert_ID WHERE T2.Singer_ID = \"6\" and T3.Stadium_ID = \"9\"",
+    "readable_query": "SELECT singer.Song_release_year FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID WHERE singer_in_concert.Singer_ID = \"6\" and concert.Stadium_ID = \"9\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.concert_ID FROM concert AS T1 JOIN singer_in_concert AS T2 ON T1.concert_ID = T2.concert_ID JOIN singer AS T3 ON T2.Singer_ID = T3.Singer_ID WHERE T2.Singer_ID = \"4\" and T3.Is_male = \"T\"",
+    "readable_query": "SELECT concert.concert_ID FROM concert AS concert JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID WHERE singer_in_concert.Singer_ID = \"4\" and singer.Is_male = \"T\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Singer_ID FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID JOIN concert AS T3 ON T1.concert_ID = T3.concert_ID WHERE T2.Song_release_year = \"2013\" and T3.concert_Name = \"Auditions\"",
+    "readable_query": "SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID WHERE singer.Song_release_year = \"2013\" and concert.concert_Name = \"Auditions\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.concert_ID FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID JOIN concert AS T3 ON T1.concert_ID = T3.concert_ID WHERE T2.Song_Name = \"You\" and T3.Theme = \"Free choice\"",
+    "readable_query": "SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID WHERE singer.Song_Name = \"You\" and concert.Theme = \"Free choice\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID JOIN concert AS T3 ON T2.concert_ID = T3.concert_ID WHERE T2.concert_ID = 1 and T3.Year = \"2014\"",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID WHERE singer_in_concert.concert_ID = 1 and concert.Year = \"2014\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Year FROM concert AS T1 JOIN stadium AS T2 ON T1.Stadium_ID = T2.Stadium_ID JOIN singer_in_concert AS T3 ON T1.concert_ID = T3.concert_ID WHERE T2.Capacity = 2000 and T3.Singer_ID = \"6\"",
+    "readable_query": "SELECT concert.Year FROM concert AS concert JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID WHERE stadium.Capacity = 2000 and singer_in_concert.Singer_ID = \"6\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Highest FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID JOIN singer_in_concert AS T3 ON T2.concert_ID = T3.concert_ID WHERE T2.Stadium_ID = \"1\" and T3.Singer_ID = \"4\"",
+    "readable_query": "SELECT stadium.Highest FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID WHERE concert.Stadium_ID = \"1\" and singer_in_concert.Singer_ID = \"4\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Country FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID JOIN concert AS T3 ON T2.concert_ID = T3.concert_ID WHERE T2.concert_ID = 3 and T3.concert_Name = \"Week 1\"",
+    "readable_query": "SELECT singer.Country FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID WHERE singer_in_concert.concert_ID = 3 and concert.concert_Name = \"Week 1\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Singer_ID FROM singer_in_concert AS T1 JOIN concert AS T2 ON T1.concert_ID = T2.concert_ID JOIN stadium AS T3 ON T2.Stadium_ID = T3.Stadium_ID WHERE T2.Year = \"2014\" and T3.Highest = 2363",
+    "readable_query": "SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID WHERE concert.Year = \"2014\" and stadium.Highest = 2363"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Lowest FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.Year = \"2014\" or T2.Year = \"2014\"",
+    "readable_query": "SELECT stadium.Lowest FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID WHERE concert.Year = \"2014\" or concert.Year = \"2014\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Location FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.Year = \"2015\" or T2.Year = \"2014\"",
+    "readable_query": "SELECT stadium.Location FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID WHERE concert.Year = \"2015\" or concert.Year = \"2014\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Song_release_year FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.concert_ID = 6 or T2.concert_ID = 4",
+    "readable_query": "SELECT singer.Song_release_year FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer_in_concert.concert_ID = 6 or singer_in_concert.concert_ID = 4"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Name FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.concert_ID = 3 or T2.concert_ID = 5",
+    "readable_query": "SELECT stadium.Name FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID WHERE concert.concert_ID = 3 or concert.concert_ID = 5"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Stadium_ID FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.concert_Name = \"Home Visits\" or T2.concert_Name = \"Home Visits\"",
+    "readable_query": "SELECT stadium.Stadium_ID FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID WHERE concert.concert_Name = \"Home Visits\" or concert.concert_Name = \"Home Visits\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Average FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.Year = \"2014\" or T2.Year = \"2014\"",
+    "readable_query": "SELECT stadium.Average FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID WHERE concert.Year = \"2014\" or concert.Year = \"2014\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Song_release_year FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Singer_ID = \"5\" or T2.Singer_ID = \"3\"",
+    "readable_query": "SELECT singer.Song_release_year FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer_in_concert.Singer_ID = \"5\" or singer_in_concert.Singer_ID = \"3\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Singer_ID FROM singer_in_concert AS T1 JOIN concert AS T2 ON T1.concert_ID = T2.concert_ID WHERE T2.concert_Name = \"Auditions\" or T2.concert_Name = \"Week 1\"",
+    "readable_query": "SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID WHERE concert.concert_Name = \"Auditions\" or concert.concert_Name = \"Week 1\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.concert_ID FROM singer_in_concert AS T1 JOIN concert AS T2 ON T1.concert_ID = T2.concert_ID WHERE T2.Theme = \"Free choice 2\" or T2.Theme = \"Bleeding Love\"",
+    "readable_query": "SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID WHERE concert.Theme = \"Free choice 2\" or concert.Theme = \"Bleeding Love\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Country FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.concert_ID = 3 or T2.concert_ID = 5",
+    "readable_query": "SELECT singer.Country FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer_in_concert.concert_ID = 3 or singer_in_concert.concert_ID = 5"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Is_male FROM singer AS T1 WHERE T1.Singer_ID = 6 and T1.Song_Name = \"Sun\"",
+    "readable_query": "SELECT singer.Is_male FROM singer AS singer WHERE singer.Singer_ID = 6 and singer.Song_Name = \"Sun\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Song_release_year FROM singer AS T1 WHERE T1.Is_male = \"F\" and T1.Singer_ID = 4",
+    "readable_query": "SELECT singer.Song_release_year FROM singer AS singer WHERE singer.Is_male = \"F\" and singer.Singer_ID = 4"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 WHERE T1.Name = \"Rose White\" and T1.Age = 32",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer WHERE singer.Name = \"Rose White\" and singer.Age = 32"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Name FROM stadium AS T1 WHERE T1.Average = 1477 and T1.Stadium_ID = 10",
+    "readable_query": "SELECT stadium.Name FROM stadium AS stadium WHERE stadium.Average = 1477 and stadium.Stadium_ID = 10"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Stadium_ID FROM concert AS T1 WHERE T1.Year = \"2015\" and T1.Theme = \"Happy Tonight\"",
+    "readable_query": "SELECT concert.Stadium_ID FROM concert AS concert WHERE concert.Year = \"2015\" and concert.Theme = \"Happy Tonight\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.concert_ID FROM concert AS T1 WHERE T1.Stadium_ID = \"1\" and T1.concert_Name = \"Super bootcamp\"",
+    "readable_query": "SELECT concert.concert_ID FROM concert AS concert WHERE concert.Stadium_ID = \"1\" and concert.concert_Name = \"Super bootcamp\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Country FROM singer AS T1 WHERE T1.Name = \"Rose White\" and T1.Song_Name = \"Sun\"",
+    "readable_query": "SELECT singer.Country FROM singer AS singer WHERE singer.Name = \"Rose White\" and singer.Song_Name = \"Sun\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 WHERE T1.Is_male = \"T\" and T1.Name = \"Joe Sharp\"",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer WHERE singer.Is_male = \"T\" and singer.Name = \"Joe Sharp\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Stadium_ID FROM concert AS T1 WHERE T1.concert_Name = \"Home Visits\" and T1.Year = \"2015\"",
+    "readable_query": "SELECT concert.Stadium_ID FROM concert AS concert WHERE concert.concert_Name = \"Home Visits\" and concert.Year = \"2015\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Song_release_year FROM singer AS T1 WHERE T1.Song_Name = \"Love\" and T1.Age = 32",
+    "readable_query": "SELECT singer.Song_release_year FROM singer AS singer WHERE singer.Song_Name = \"Love\" and singer.Age = 32"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.concert_ID) FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T1.Singer_ID = \"3\" and T2.Song_release_year = \"2003\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer_in_concert.concert_ID) FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID WHERE singer_in_concert.Singer_ID = \"3\" and singer.Song_release_year = \"2003\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.concert_ID) FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T1.Singer_ID = \"2\" and T2.Country = \"Netherlands\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer_in_concert.concert_ID) FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID WHERE singer_in_concert.Singer_ID = \"2\" and singer.Country = \"Netherlands\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Highest) FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T1.Stadium_ID = 1 and T2.Theme = \"Wide Awake\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  stadium.Highest) FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID WHERE stadium.Stadium_ID = 1 and concert.Theme = \"Wide Awake\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T1.Is_male = \"T\" and T2.Singer_ID = \"3\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer.Name) FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer.Is_male = \"T\" and singer_in_concert.Singer_ID = \"3\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Stadium_ID) FROM concert AS T1 JOIN stadium AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T1.Year = \"2015\" and T2.Lowest = 411",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  concert.Stadium_ID) FROM concert AS concert JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID WHERE concert.Year = \"2015\" and stadium.Lowest = 411"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.concert_ID) FROM singer_in_concert AS T1 JOIN concert AS T2 ON T1.concert_ID = T2.concert_ID WHERE T1.Singer_ID = \"6\" and T2.Year = \"2015\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer_in_concert.concert_ID) FROM singer_in_concert AS singer_in_concert JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID WHERE singer_in_concert.Singer_ID = \"6\" and concert.Year = \"2015\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.concert_ID) FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T1.Singer_ID = \"2\" and T2.Song_release_year = \"2013\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer_in_concert.concert_ID) FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID WHERE singer_in_concert.Singer_ID = \"2\" and singer.Song_release_year = \"2013\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Location) FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T1.Lowest = 400 and T2.Theme = \"Free choice 2\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  stadium.Location) FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID WHERE stadium.Lowest = 400 and concert.Theme = \"Free choice 2\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.concert_Name) FROM concert AS T1 JOIN stadium AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T1.concert_ID = 5 and T2.Name = \"Stark's Park\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  concert.concert_Name) FROM concert AS concert JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID WHERE concert.concert_ID = 5 and stadium.Name = \"Stark's Park\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Lowest) FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T1.Average = 552 and T2.concert_ID = 4",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  stadium.Lowest) FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID WHERE stadium.Average = 552 and concert.concert_ID = 4"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.concert_Name FROM concert AS T1 WHERE T1.Year = \"2015\" or T1.concert_ID = 4",
+    "readable_query": "SELECT concert.concert_Name FROM concert AS concert WHERE concert.Year = \"2015\" or concert.concert_ID = 4"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 WHERE T1.Age = 41 or T1.Song_Name = \"Dangerous\"",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer WHERE singer.Age = 41 or singer.Song_Name = \"Dangerous\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Stadium_ID FROM concert AS T1 WHERE T1.concert_ID = 5 or T1.concert_Name = \"Week 1\"",
+    "readable_query": "SELECT concert.Stadium_ID FROM concert AS concert WHERE concert.concert_ID = 5 or concert.concert_Name = \"Week 1\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Stadium_ID FROM stadium AS T1 WHERE T1.Location = \"Alloa Athletic\" or T1.Highest = 1763",
+    "readable_query": "SELECT stadium.Stadium_ID FROM stadium AS stadium WHERE stadium.Location = \"Alloa Athletic\" or stadium.Highest = 1763"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Age FROM singer AS T1 WHERE T1.Song_release_year = \"2013\" or T1.Name = \"Timbaland\"",
+    "readable_query": "SELECT singer.Age FROM singer AS singer WHERE singer.Song_release_year = \"2013\" or singer.Name = \"Timbaland\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Name FROM singer AS T1 WHERE T1.Is_male = \"F\" or T1.Song_release_year = \"2016\"",
+    "readable_query": "SELECT singer.Name FROM singer AS singer WHERE singer.Is_male = \"F\" or singer.Song_release_year = \"2016\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 WHERE T1.Age = 41 or T1.Country = \"Netherlands\"",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer WHERE singer.Age = 41 or singer.Country = \"Netherlands\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Country FROM singer AS T1 WHERE T1.Name = \"John Nizinik\" or T1.Is_male = \"T\"",
+    "readable_query": "SELECT singer.Country FROM singer AS singer WHERE singer.Name = \"John Nizinik\" or singer.Is_male = \"T\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Capacity FROM stadium AS T1 WHERE T1.Average = 637 or T1.Stadium_ID = 4",
+    "readable_query": "SELECT stadium.Capacity FROM stadium AS stadium WHERE stadium.Average = 637 or stadium.Stadium_ID = 4"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Stadium_ID FROM concert AS T1 WHERE T1.concert_ID = 1 or T1.Theme = \"Party All Night\"",
+    "readable_query": "SELECT concert.Stadium_ID FROM concert AS concert WHERE concert.concert_ID = 1 or concert.Theme = \"Party All Night\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.concert_ID = 3 and T2.Singer_ID = \"2\"",
+    "readable_query": "SELECT count(*) FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer_in_concert.concert_ID = 3 and singer_in_concert.Singer_ID = \"2\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.Stadium_ID = \"7\" and T2.Year = \"2015\"",
+    "readable_query": "SELECT count(*) FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID WHERE concert.Stadium_ID = \"7\" and concert.Year = \"2015\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.Stadium_ID = \"9\" and T2.Theme = \"Wide Awake\"",
+    "readable_query": "SELECT count(*) FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID WHERE concert.Stadium_ID = \"9\" and concert.Theme = \"Wide Awake\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Singer_ID = \"2\" and T2.concert_ID = 6",
+    "readable_query": "SELECT count(*) FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer_in_concert.Singer_ID = \"2\" and singer_in_concert.concert_ID = 6"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM singer_in_concert AS T1 JOIN concert AS T2 ON T1.concert_ID = T2.concert_ID WHERE T2.Year = \"2015\" and T2.concert_ID = 4",
+    "readable_query": "SELECT count(*) FROM singer_in_concert AS singer_in_concert JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID WHERE concert.Year = \"2015\" and concert.concert_ID = 4"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.concert_ID = 4 and T2.Year = \"2014\"",
+    "readable_query": "SELECT count(*) FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID WHERE concert.concert_ID = 4 and concert.Year = \"2014\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Singer_ID = \"5\" and T2.concert_ID = 6",
+    "readable_query": "SELECT count(*) FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer_in_concert.Singer_ID = \"5\" and singer_in_concert.concert_ID = 6"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Singer_ID = 6 and T2.Name = \"Tribal King\"",
+    "readable_query": "SELECT count(*) FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID WHERE singer.Singer_ID = 6 and singer.Name = \"Tribal King\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.concert_Name = \"Week 1\" and T2.concert_ID = 2",
+    "readable_query": "SELECT count(*) FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID WHERE concert.concert_Name = \"Week 1\" and concert.concert_ID = 2"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM concert AS T1 JOIN singer_in_concert AS T2 ON T1.concert_ID = T2.concert_ID WHERE T2.concert_ID = 5 and T2.Singer_ID = \"5\"",
+    "readable_query": "SELECT count(*) FROM concert AS concert JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID WHERE singer_in_concert.concert_ID = 5 and singer_in_concert.Singer_ID = \"5\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Singer_ID FROM singer_in_concert AS T1 WHERE T1.concert_ID != 4",
+    "readable_query": "SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.concert_ID != 4"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Song_Name FROM singer AS T1 WHERE T1.Age != 43",
+    "readable_query": "SELECT singer.Song_Name FROM singer AS singer WHERE singer.Age != 43"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Singer_ID FROM singer_in_concert AS T1 WHERE T1.concert_ID != 6",
+    "readable_query": "SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.concert_ID != 6"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Highest FROM stadium AS T1 WHERE T1.Stadium_ID != 9",
+    "readable_query": "SELECT stadium.Highest FROM stadium AS stadium WHERE stadium.Stadium_ID != 9"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.concert_ID FROM singer_in_concert AS T1 WHERE T1.Singer_ID != \"2\"",
+    "readable_query": "SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.Singer_ID != \"2\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.concert_ID FROM singer_in_concert AS T1 WHERE T1.Singer_ID != \"3\"",
+    "readable_query": "SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.Singer_ID != \"3\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.concert_Name FROM concert AS T1 WHERE T1.Stadium_ID != \"1\"",
+    "readable_query": "SELECT concert.concert_Name FROM concert AS concert WHERE concert.Stadium_ID != \"1\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Average FROM stadium AS T1 WHERE T1.Highest != 921",
+    "readable_query": "SELECT stadium.Average FROM stadium AS stadium WHERE stadium.Highest != 921"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Name FROM stadium AS T1 WHERE T1.Lowest != 533",
+    "readable_query": "SELECT stadium.Name FROM stadium AS stadium WHERE stadium.Lowest != 533"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Average FROM stadium AS T1 WHERE T1.Location != \"Queen's Park\"",
+    "readable_query": "SELECT stadium.Average FROM stadium AS stadium WHERE stadium.Location != \"Queen's Park\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.concert_ID FROM singer_in_concert AS T1 JOIN concert AS T2 ON T1.concert_ID = T2.concert_ID WHERE T2.Theme != \"Free choice\"",
+    "readable_query": "SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID WHERE concert.Theme != \"Free choice\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.concert_ID FROM concert AS T1 JOIN singer_in_concert AS T2 ON T1.concert_ID = T2.concert_ID WHERE T2.Singer_ID != \"5\"",
+    "readable_query": "SELECT concert.concert_ID FROM concert AS concert JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID WHERE singer_in_concert.Singer_ID != \"5\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Name FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Singer_ID != \"3\"",
+    "readable_query": "SELECT singer.Name FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer_in_concert.Singer_ID != \"3\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.concert_ID FROM concert AS T1 JOIN stadium AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.Average != 615",
+    "readable_query": "SELECT concert.concert_ID FROM concert AS concert JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID WHERE stadium.Average != 615"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Song_Name FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.concert_ID != 3",
+    "readable_query": "SELECT singer.Song_Name FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer_in_concert.concert_ID != 3"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Singer_ID FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Is_male != \"T\"",
+    "readable_query": "SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID WHERE singer.Is_male != \"T\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.concert_ID != 1",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer_in_concert.concert_ID != 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Age FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.concert_ID != 1",
+    "readable_query": "SELECT singer.Age FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer_in_concert.concert_ID != 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Theme FROM concert AS T1 JOIN stadium AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.Location != \"Arbroath\"",
+    "readable_query": "SELECT concert.Theme FROM concert AS concert JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID WHERE stadium.Location != \"Arbroath\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Name FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.Year != \"2015\"",
+    "readable_query": "SELECT stadium.Name FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID WHERE concert.Year != \"2015\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Singer_ID FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Age = 29",
+    "readable_query": "SELECT DISTINCT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID WHERE singer.Age = 29"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Stadium_ID FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.Year = \"2015\"",
+    "readable_query": "SELECT DISTINCT stadium.Stadium_ID FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID WHERE concert.Year = \"2015\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Highest FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.Stadium_ID = \"9\"",
+    "readable_query": "SELECT DISTINCT stadium.Highest FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID WHERE concert.Stadium_ID = \"9\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Location FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.Theme = \"Wide Awake\"",
+    "readable_query": "SELECT DISTINCT stadium.Location FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID WHERE concert.Theme = \"Wide Awake\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Year FROM concert AS T1 JOIN stadium AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.Location = \"Brechin City\"",
+    "readable_query": "SELECT DISTINCT concert.Year FROM concert AS concert JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID WHERE stadium.Location = \"Brechin City\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Song_Name FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Singer_ID = \"6\"",
+    "readable_query": "SELECT DISTINCT singer.Song_Name FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer_in_concert.Singer_ID = \"6\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Singer_ID FROM singer_in_concert AS T1 JOIN concert AS T2 ON T1.concert_ID = T2.concert_ID WHERE T2.Year = \"2015\"",
+    "readable_query": "SELECT DISTINCT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID WHERE concert.Year = \"2015\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Song_release_year FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.concert_ID = 5",
+    "readable_query": "SELECT DISTINCT singer.Song_release_year FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer_in_concert.concert_ID = 5"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Is_male FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.concert_ID = 3",
+    "readable_query": "SELECT DISTINCT singer.Is_male FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer_in_concert.concert_ID = 3"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.concert_ID FROM singer_in_concert AS T1 JOIN concert AS T2 ON T1.concert_ID = T2.concert_ID WHERE T2.concert_Name = \"Week 1\"",
+    "readable_query": "SELECT DISTINCT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID WHERE concert.concert_Name = \"Week 1\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Theme) FROM concert AS T1 WHERE T1.concert_Name = \"Super bootcamp\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  concert.Theme) FROM concert AS concert WHERE concert.concert_Name = \"Super bootcamp\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM stadium AS T1 WHERE T1.Highest = 1763",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  stadium.Name) FROM stadium AS stadium WHERE stadium.Highest = 1763"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Highest) FROM stadium AS T1 WHERE T1.Name = \"Somerset Park\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  stadium.Highest) FROM stadium AS stadium WHERE stadium.Name = \"Somerset Park\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Country) FROM singer AS T1 WHERE T1.Song_release_year = \"2014\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer.Country) FROM singer AS singer WHERE singer.Song_release_year = \"2014\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Year) FROM concert AS T1 WHERE T1.Theme = \"Happy Tonight\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  concert.Year) FROM concert AS concert WHERE concert.Theme = \"Happy Tonight\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Is_male) FROM singer AS T1 WHERE T1.Song_Name = \"Love\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer.Is_male) FROM singer AS singer WHERE singer.Song_Name = \"Love\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.concert_ID) FROM singer_in_concert AS T1 WHERE T1.Singer_ID = \"3\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  singer_in_concert.concert_ID) FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.Singer_ID = \"3\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Stadium_ID) FROM concert AS T1 WHERE T1.concert_ID = 1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  concert.Stadium_ID) FROM concert AS concert WHERE concert.concert_ID = 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM stadium AS T1 WHERE T1.Lowest = 411",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  stadium.Name) FROM stadium AS stadium WHERE stadium.Lowest = 411"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Location) FROM stadium AS T1 WHERE T1.Lowest = 315",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  stadium.Location) FROM stadium AS stadium WHERE stadium.Lowest = 315"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Stadium_ID FROM concert AS T1 WHERE T1.concert_ID > 4",
+    "readable_query": "SELECT concert.Stadium_ID FROM concert AS concert WHERE concert.concert_ID > 4"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.concert_Name FROM concert AS T1 WHERE T1.concert_ID > 3",
+    "readable_query": "SELECT concert.concert_Name FROM concert AS concert WHERE concert.concert_ID > 3"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Name FROM stadium AS T1 WHERE T1.Stadium_ID > 3",
+    "readable_query": "SELECT stadium.Name FROM stadium AS stadium WHERE stadium.Stadium_ID > 3"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Singer_ID FROM singer_in_concert AS T1 WHERE T1.concert_ID > 3",
+    "readable_query": "SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.concert_ID > 3"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Name FROM singer AS T1 WHERE T1.Singer_ID > 6",
+    "readable_query": "SELECT singer.Name FROM singer AS singer WHERE singer.Singer_ID > 6"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Singer_ID FROM singer_in_concert AS T1 WHERE T1.concert_ID > 6",
+    "readable_query": "SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.concert_ID > 6"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Stadium_ID FROM concert AS T1 WHERE T1.concert_ID > 3",
+    "readable_query": "SELECT concert.Stadium_ID FROM concert AS concert WHERE concert.concert_ID > 3"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Song_release_year FROM singer AS T1 WHERE T1.Singer_ID > 2",
+    "readable_query": "SELECT singer.Song_release_year FROM singer AS singer WHERE singer.Singer_ID > 2"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Singer_ID FROM singer_in_concert AS T1 WHERE T1.concert_ID > 5",
+    "readable_query": "SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.concert_ID > 5"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Singer_ID FROM singer_in_concert AS T1 WHERE T1.concert_ID > 2",
+    "readable_query": "SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.concert_ID > 2"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Capacity, T2.concert_Name, T3.concert_ID FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID JOIN singer_in_concert AS T3 ON T2.concert_ID = T3.concert_ID",
+    "readable_query": "SELECT stadium.Capacity, concert.concert_Name, singer_in_concert.concert_ID FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.concert_ID, T2.Year, T3.Lowest FROM singer_in_concert AS T1 JOIN concert AS T2 ON T1.concert_ID = T2.concert_ID JOIN stadium AS T3 ON T2.Stadium_ID = T3.Stadium_ID",
+    "readable_query": "SELECT singer_in_concert.concert_ID, concert.Year, stadium.Lowest FROM singer_in_concert AS singer_in_concert JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.concert_ID, T2.Name, T3.Year FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID JOIN concert AS T3 ON T1.concert_ID = T3.concert_ID",
+    "readable_query": "SELECT singer_in_concert.concert_ID, singer.Name, concert.Year FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Stadium_ID, T2.concert_ID, T3.Lowest FROM concert AS T1 JOIN singer_in_concert AS T2 ON T1.concert_ID = T2.concert_ID JOIN stadium AS T3 ON T1.Stadium_ID = T3.Stadium_ID",
+    "readable_query": "SELECT concert.Stadium_ID, singer_in_concert.concert_ID, stadium.Lowest FROM concert AS concert JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Name, T2.Singer_ID, T3.concert_Name FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID JOIN concert AS T3 ON T2.concert_ID = T3.concert_ID",
+    "readable_query": "SELECT singer.Name, singer_in_concert.Singer_ID, concert.concert_Name FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.concert_ID, T2.Location, T3.Singer_ID FROM concert AS T1 JOIN stadium AS T2 ON T1.Stadium_ID = T2.Stadium_ID JOIN singer_in_concert AS T3 ON T1.concert_ID = T3.concert_ID",
+    "readable_query": "SELECT concert.concert_ID, stadium.Location, singer_in_concert.Singer_ID FROM concert AS concert JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Country, T2.concert_ID, T3.concert_Name FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID JOIN concert AS T3 ON T2.concert_ID = T3.concert_ID",
+    "readable_query": "SELECT singer.Country, singer_in_concert.concert_ID, concert.concert_Name FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.concert_Name, T2.Singer_ID, T3.Average FROM concert AS T1 JOIN singer_in_concert AS T2 ON T1.concert_ID = T2.concert_ID JOIN stadium AS T3 ON T1.Stadium_ID = T3.Stadium_ID",
+    "readable_query": "SELECT concert.concert_Name, singer_in_concert.Singer_ID, stadium.Average FROM concert AS concert JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.concert_Name, T2.concert_ID, T3.Country FROM concert AS T1 JOIN singer_in_concert AS T2 ON T1.concert_ID = T2.concert_ID JOIN singer AS T3 ON T2.Singer_ID = T3.Singer_ID",
+    "readable_query": "SELECT concert.concert_Name, singer_in_concert.concert_ID, singer.Country FROM concert AS concert JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Song_release_year, T2.concert_ID, T3.Stadium_ID FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID JOIN concert AS T3 ON T2.concert_ID = T3.concert_ID",
+    "readable_query": "SELECT singer.Song_release_year, singer_in_concert.concert_ID, concert.Stadium_ID FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Singer_ID FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID     ORDER BY T2.Age ASC",
+    "readable_query": "SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID     ORDER BY singer.Age ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Lowest FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID     ORDER BY T2.concert_ID ASC",
+    "readable_query": "SELECT stadium.Lowest FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID     ORDER BY concert.concert_ID ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Song_Name FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID     ORDER BY T2.concert_ID ASC",
+    "readable_query": "SELECT singer.Song_Name FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID     ORDER BY singer_in_concert.concert_ID ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Age FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID     ORDER BY T2.concert_ID ASC",
+    "readable_query": "SELECT singer.Age FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID     ORDER BY singer_in_concert.concert_ID ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Average FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID     ORDER BY T2.concert_ID ASC",
+    "readable_query": "SELECT stadium.Average FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID     ORDER BY concert.concert_ID ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.concert_ID FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID     ORDER BY T2.Age ASC",
+    "readable_query": "SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID     ORDER BY singer.Age ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Song_release_year FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID     ORDER BY T2.concert_ID ASC",
+    "readable_query": "SELECT singer.Song_release_year FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID     ORDER BY singer_in_concert.concert_ID ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.concert_ID FROM concert AS T1 JOIN stadium AS T2 ON T1.Stadium_ID = T2.Stadium_ID     ORDER BY T2.Average ASC",
+    "readable_query": "SELECT concert.concert_ID FROM concert AS concert JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID     ORDER BY stadium.Average ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Stadium_ID FROM concert AS T1 JOIN singer_in_concert AS T2 ON T1.concert_ID = T2.concert_ID     ORDER BY T2.concert_ID ASC",
+    "readable_query": "SELECT concert.Stadium_ID FROM concert AS concert JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID     ORDER BY singer_in_concert.concert_ID ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Year FROM concert AS T1 JOIN singer_in_concert AS T2 ON T1.concert_ID = T2.concert_ID     ORDER BY T2.concert_ID ASC",
+    "readable_query": "SELECT concert.Year FROM concert AS concert JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID     ORDER BY singer_in_concert.concert_ID ASC"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Age FROM singer AS T1 WHERE T1.Country = \"Netherlands\"     INTERSECT SELECT T2.Age FROM singer AS T2 WHERE T2.Country = \"Netherlands\"",
+    "readable_query": "SELECT singer.Age FROM singer AS singer WHERE singer.Country = \"Netherlands\"     INTERSECT SELECT singer.Age FROM singer AS singer WHERE singer.Country = \"Netherlands\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Year FROM concert AS T1 WHERE T1.Theme = \"Happy Tonight\"     INTERSECT SELECT T2.Year FROM concert AS T2 WHERE T2.Theme = \"Happy Tonight\"",
+    "readable_query": "SELECT concert.Year FROM concert AS concert WHERE concert.Theme = \"Happy Tonight\"     INTERSECT SELECT concert.Year FROM concert AS concert WHERE concert.Theme = \"Happy Tonight\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Theme FROM concert AS T1 WHERE T1.Stadium_ID = \"1\"     INTERSECT SELECT T2.Theme FROM concert AS T2 WHERE T2.Stadium_ID = \"9\"",
+    "readable_query": "SELECT concert.Theme FROM concert AS concert WHERE concert.Stadium_ID = \"1\"     INTERSECT SELECT concert.Theme FROM concert AS concert WHERE concert.Stadium_ID = \"9\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.concert_ID FROM singer_in_concert AS T1 WHERE T1.Singer_ID = \"3\"     INTERSECT SELECT T2.concert_ID FROM singer_in_concert AS T2 WHERE T2.Singer_ID = \"5\"",
+    "readable_query": "SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.Singer_ID = \"3\"     INTERSECT SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.Singer_ID = \"5\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Theme FROM concert AS T1 WHERE T1.concert_Name = \"Home Visits\"     INTERSECT SELECT T2.Theme FROM concert AS T2 WHERE T2.concert_Name = \"Auditions\"",
+    "readable_query": "SELECT concert.Theme FROM concert AS concert WHERE concert.concert_Name = \"Home Visits\"     INTERSECT SELECT concert.Theme FROM concert AS concert WHERE concert.concert_Name = \"Auditions\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.concert_ID FROM singer_in_concert AS T1 WHERE T1.Singer_ID = \"4\"     INTERSECT SELECT T2.concert_ID FROM singer_in_concert AS T2 WHERE T2.Singer_ID = \"4\"",
+    "readable_query": "SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.Singer_ID = \"4\"     INTERSECT SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.Singer_ID = \"4\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 WHERE T1.Is_male = \"T\"     INTERSECT SELECT T2.Singer_ID FROM singer AS T2 WHERE T2.Is_male = \"F\"",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer WHERE singer.Is_male = \"T\"     INTERSECT SELECT singer.Singer_ID FROM singer AS singer WHERE singer.Is_male = \"F\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Age FROM singer AS T1 WHERE T1.Song_Name = \"Dangerous\"     INTERSECT SELECT T2.Age FROM singer AS T2 WHERE T2.Song_Name = \"Dangerous\"",
+    "readable_query": "SELECT singer.Age FROM singer AS singer WHERE singer.Song_Name = \"Dangerous\"     INTERSECT SELECT singer.Age FROM singer AS singer WHERE singer.Song_Name = \"Dangerous\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Name FROM stadium AS T1 WHERE T1.Highest = 1057     INTERSECT SELECT T2.Name FROM stadium AS T2 WHERE T2.Highest = 1763",
+    "readable_query": "SELECT stadium.Name FROM stadium AS stadium WHERE stadium.Highest = 1057     INTERSECT SELECT stadium.Name FROM stadium AS stadium WHERE stadium.Highest = 1763"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Capacity FROM stadium AS T1 WHERE T1.Stadium_ID = 4     INTERSECT SELECT T2.Capacity FROM stadium AS T2 WHERE T2.Stadium_ID = 3",
+    "readable_query": "SELECT stadium.Capacity FROM stadium AS stadium WHERE stadium.Stadium_ID = 4     INTERSECT SELECT stadium.Capacity FROM stadium AS stadium WHERE stadium.Stadium_ID = 3"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Age) FROM singer AS T1 WHERE T1.Name = \"John Nizinik\"",
+    "readable_query": "SELECT avg( singer.Age) FROM singer AS singer WHERE singer.Name = \"John Nizinik\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.concert_ID) FROM singer_in_concert AS T1 WHERE T1.Singer_ID = \"2\"",
+    "readable_query": "SELECT avg( singer_in_concert.concert_ID) FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.Singer_ID = \"2\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Age) FROM singer AS T1 WHERE T1.Is_male = \"T\"",
+    "readable_query": "SELECT avg( singer.Age) FROM singer AS singer WHERE singer.Is_male = \"T\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.concert_ID) FROM singer_in_concert AS T1 WHERE T1.Singer_ID = \"5\"",
+    "readable_query": "SELECT avg( singer_in_concert.concert_ID) FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.Singer_ID = \"5\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Highest) FROM stadium AS T1 WHERE T1.Location = \"Raith Rovers\"",
+    "readable_query": "SELECT avg( stadium.Highest) FROM stadium AS stadium WHERE stadium.Location = \"Raith Rovers\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Lowest) FROM stadium AS T1 WHERE T1.Capacity = 4000",
+    "readable_query": "SELECT avg( stadium.Lowest) FROM stadium AS stadium WHERE stadium.Capacity = 4000"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.concert_ID) FROM concert AS T1 WHERE T1.concert_Name = \"Week 1\"",
+    "readable_query": "SELECT avg( concert.concert_ID) FROM concert AS concert WHERE concert.concert_Name = \"Week 1\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.concert_ID) FROM singer_in_concert AS T1 WHERE T1.Singer_ID = \"6\"",
+    "readable_query": "SELECT avg( singer_in_concert.concert_ID) FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.Singer_ID = \"6\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Age) FROM singer AS T1 WHERE T1.Singer_ID = 4",
+    "readable_query": "SELECT avg( singer.Age) FROM singer AS singer WHERE singer.Singer_ID = 4"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.concert_ID) FROM concert AS T1 WHERE T1.Stadium_ID = \"1\"",
+    "readable_query": "SELECT avg( concert.concert_ID) FROM concert AS concert WHERE concert.Stadium_ID = \"1\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Singer_ID FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Age = (SELECT max( T23.Age) FROM singer AS T23)",
+    "readable_query": "SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID WHERE singer.Age = (SELECT max( singer.Age) FROM singer AS singer)"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Lowest FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.concert_ID = (SELECT max( T23.concert_ID) FROM concert AS T23)",
+    "readable_query": "SELECT stadium.Lowest FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID WHERE concert.concert_ID = (SELECT max( concert.concert_ID) FROM concert AS concert)"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Is_male FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.concert_ID = (SELECT max( T23.concert_ID) FROM singer_in_concert AS T23)",
+    "readable_query": "SELECT singer.Is_male FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer_in_concert.concert_ID = (SELECT max( singer_in_concert.concert_ID) FROM singer_in_concert AS singer_in_concert)"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.concert_ID FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Age = (SELECT max( T23.Age) FROM singer AS T23)",
+    "readable_query": "SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID WHERE singer.Age = (SELECT max( singer.Age) FROM singer AS singer)"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Song_Name FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.concert_ID = (SELECT max( T23.concert_ID) FROM singer_in_concert AS T23)",
+    "readable_query": "SELECT singer.Song_Name FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer_in_concert.concert_ID = (SELECT max( singer_in_concert.concert_ID) FROM singer_in_concert AS singer_in_concert)"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.concert_ID = (SELECT max( T23.concert_ID) FROM singer_in_concert AS T23)",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer_in_concert.concert_ID = (SELECT max( singer_in_concert.concert_ID) FROM singer_in_concert AS singer_in_concert)"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.concert_ID FROM concert AS T1 JOIN stadium AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.Stadium_ID = (SELECT max( T23.Stadium_ID) FROM stadium AS T23)",
+    "readable_query": "SELECT concert.concert_ID FROM concert AS concert JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID WHERE stadium.Stadium_ID = (SELECT max( stadium.Stadium_ID) FROM stadium AS stadium)"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Theme FROM concert AS T1 JOIN singer_in_concert AS T2 ON T1.concert_ID = T2.concert_ID WHERE T2.concert_ID = (SELECT max( T23.concert_ID) FROM singer_in_concert AS T23)",
+    "readable_query": "SELECT concert.Theme FROM concert AS concert JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID WHERE singer_in_concert.concert_ID = (SELECT max( singer_in_concert.concert_ID) FROM singer_in_concert AS singer_in_concert)"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Year FROM concert AS T1 JOIN stadium AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.Highest = (SELECT max( T23.Highest) FROM stadium AS T23)",
+    "readable_query": "SELECT concert.Year FROM concert AS concert JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID WHERE stadium.Highest = (SELECT max( stadium.Highest) FROM stadium AS stadium)"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Year FROM concert AS T1 JOIN singer_in_concert AS T2 ON T1.concert_ID = T2.concert_ID WHERE T2.concert_ID = (SELECT max( T23.concert_ID) FROM singer_in_concert AS T23)",
+    "readable_query": "SELECT concert.Year FROM concert AS concert JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID WHERE singer_in_concert.concert_ID = (SELECT max( singer_in_concert.concert_ID) FROM singer_in_concert AS singer_in_concert)"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Capacity, T2.Theme FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID JOIN singer_in_concert AS T3 ON T2.concert_ID = T3.concert_ID WHERE T3.Singer_ID = \"5\" and T2.Stadium_ID = \"1\"",
+    "readable_query": "SELECT stadium.Capacity, concert.Theme FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID WHERE singer_in_concert.Singer_ID = \"5\" and concert.Stadium_ID = \"1\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Theme, T2.Singer_ID FROM concert AS T1 JOIN singer_in_concert AS T2 ON T1.concert_ID = T2.concert_ID JOIN singer AS T3 ON T2.Singer_ID = T3.Singer_ID WHERE T3.Country = \"Netherlands\" and T2.concert_ID = 1",
+    "readable_query": "SELECT concert.Theme, singer_in_concert.Singer_ID FROM concert AS concert JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID WHERE singer.Country = \"Netherlands\" and singer_in_concert.concert_ID = 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Name, T2.concert_ID FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID JOIN concert AS T3 ON T2.concert_ID = T3.concert_ID WHERE T3.Stadium_ID = \"7\" and T2.Singer_ID = \"3\"",
+    "readable_query": "SELECT singer.Name, singer_in_concert.concert_ID FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID WHERE concert.Stadium_ID = \"7\" and singer_in_concert.Singer_ID = \"3\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Theme, T2.Name FROM concert AS T1 JOIN stadium AS T2 ON T1.Stadium_ID = T2.Stadium_ID JOIN singer_in_concert AS T3 ON T1.concert_ID = T3.concert_ID WHERE T3.concert_ID = 6 and T2.Highest = 1125",
+    "readable_query": "SELECT concert.Theme, stadium.Name FROM concert AS concert JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID WHERE singer_in_concert.concert_ID = 6 and stadium.Highest = 1125"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Average, T2.Theme FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID JOIN singer_in_concert AS T3 ON T2.concert_ID = T3.concert_ID WHERE T3.concert_ID = 3 and T2.Stadium_ID = \"1\"",
+    "readable_query": "SELECT stadium.Average, concert.Theme FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID WHERE singer_in_concert.concert_ID = 3 and concert.Stadium_ID = \"1\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.concert_ID, T2.concert_Name FROM singer_in_concert AS T1 JOIN concert AS T2 ON T1.concert_ID = T2.concert_ID JOIN stadium AS T3 ON T2.Stadium_ID = T3.Stadium_ID WHERE T3.Stadium_ID = 5 and T2.Year = \"2014\"",
+    "readable_query": "SELECT singer_in_concert.concert_ID, concert.concert_Name FROM singer_in_concert AS singer_in_concert JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID WHERE stadium.Stadium_ID = 5 and concert.Year = \"2014\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Stadium_ID, T2.concert_ID FROM concert AS T1 JOIN singer_in_concert AS T2 ON T1.concert_ID = T2.concert_ID JOIN stadium AS T3 ON T1.Stadium_ID = T3.Stadium_ID WHERE T3.Capacity = 11998 and T2.Singer_ID = \"2\"",
+    "readable_query": "SELECT concert.Stadium_ID, singer_in_concert.concert_ID FROM concert AS concert JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID WHERE stadium.Capacity = 11998 and singer_in_concert.Singer_ID = \"2\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Year, T2.concert_ID FROM concert AS T1 JOIN singer_in_concert AS T2 ON T1.concert_ID = T2.concert_ID JOIN singer AS T3 ON T2.Singer_ID = T3.Singer_ID WHERE T3.Song_Name = \"Love\" and T2.Singer_ID = \"5\"",
+    "readable_query": "SELECT concert.Year, singer_in_concert.concert_ID FROM concert AS concert JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID WHERE singer.Song_Name = \"Love\" and singer_in_concert.Singer_ID = \"5\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.concert_Name, T2.Location FROM concert AS T1 JOIN stadium AS T2 ON T1.Stadium_ID = T2.Stadium_ID JOIN singer_in_concert AS T3 ON T1.concert_ID = T3.concert_ID WHERE T3.concert_ID = 6 and T2.Capacity = 10104",
+    "readable_query": "SELECT concert.concert_Name, stadium.Location FROM concert AS concert JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID JOIN singer_in_concert AS singer_in_concert ON concert.concert_ID = singer_in_concert.concert_ID WHERE singer_in_concert.concert_ID = 6 and stadium.Capacity = 10104"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Country, T2.concert_ID FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID JOIN concert AS T3 ON T2.concert_ID = T3.concert_ID WHERE T3.Year = \"2014\" and T2.Singer_ID = \"3\"",
+    "readable_query": "SELECT singer.Country, singer_in_concert.concert_ID FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID WHERE concert.Year = \"2014\" and singer_in_concert.Singer_ID = \"3\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Location FROM stadium AS T1 JOIN concert AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.Stadium_ID = \"10\" GROUP BY T1.Location  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT stadium.Location FROM stadium AS stadium JOIN concert AS concert ON stadium.Stadium_ID = concert.Stadium_ID WHERE concert.Stadium_ID = \"10\" GROUP BY stadium.Location  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Singer_ID FROM singer_in_concert AS T1 JOIN concert AS T2 ON T1.concert_ID = T2.concert_ID WHERE T2.concert_ID = 6 GROUP BY T1.Singer_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID WHERE concert.concert_ID = 6 GROUP BY singer_in_concert.Singer_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.concert_ID FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Is_male = \"F\" GROUP BY T1.concert_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID WHERE singer.Is_male = \"F\" GROUP BY singer_in_concert.concert_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Singer_ID FROM singer_in_concert AS T1 JOIN concert AS T2 ON T1.concert_ID = T2.concert_ID WHERE T2.Theme = \"Party All Night\" GROUP BY T1.Singer_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert JOIN concert AS concert ON singer_in_concert.concert_ID = concert.concert_ID WHERE concert.Theme = \"Party All Night\" GROUP BY singer_in_concert.Singer_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Song_release_year FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Singer_ID = \"5\" GROUP BY T1.Song_release_year  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT singer.Song_release_year FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer_in_concert.Singer_ID = \"5\" GROUP BY singer.Song_release_year  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Stadium_ID FROM concert AS T1 JOIN stadium AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.Lowest = 466 GROUP BY T1.Stadium_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT concert.Stadium_ID FROM concert AS concert JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID WHERE stadium.Lowest = 466 GROUP BY concert.Stadium_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Name FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.concert_ID = 4 GROUP BY T1.Name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT singer.Name FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer_in_concert.concert_ID = 4 GROUP BY singer.Name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Is_male FROM singer AS T1 JOIN singer_in_concert AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Singer_ID = \"2\" GROUP BY T1.Is_male  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT singer.Is_male FROM singer AS singer JOIN singer_in_concert AS singer_in_concert ON singer.Singer_ID = singer_in_concert.Singer_ID WHERE singer_in_concert.Singer_ID = \"2\" GROUP BY singer.Is_male  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Singer_ID FROM singer_in_concert AS T1 JOIN singer AS T2 ON T1.Singer_ID = T2.Singer_ID WHERE T2.Is_male = \"F\" GROUP BY T1.Singer_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert JOIN singer AS singer ON singer_in_concert.Singer_ID = singer.Singer_ID WHERE singer.Is_male = \"F\" GROUP BY singer_in_concert.Singer_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Stadium_ID FROM concert AS T1 JOIN stadium AS T2 ON T1.Stadium_ID = T2.Stadium_ID WHERE T2.Location = \"Brechin City\" GROUP BY T1.Stadium_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT concert.Stadium_ID FROM concert AS concert JOIN stadium AS stadium ON concert.Stadium_ID = stadium.Stadium_ID WHERE stadium.Location = \"Brechin City\" GROUP BY concert.Stadium_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Year FROM concert AS T1        EXCEPT SELECT T2.Year FROM concert AS T2 WHERE T2.concert_ID = 1",
+    "readable_query": "SELECT concert.Year FROM concert AS concert        EXCEPT SELECT concert.Year FROM concert AS concert WHERE concert.concert_ID = 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1        EXCEPT SELECT T2.Singer_ID FROM singer AS T2 WHERE T2.Song_Name = \"Dangerous\"",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer        EXCEPT SELECT singer.Singer_ID FROM singer AS singer WHERE singer.Song_Name = \"Dangerous\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Singer_ID FROM singer_in_concert AS T1        EXCEPT SELECT T2.Singer_ID FROM singer_in_concert AS T2 WHERE T2.concert_ID = 5",
+    "readable_query": "SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert        EXCEPT SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.concert_ID = 5"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Singer_ID FROM singer AS T1        EXCEPT SELECT T2.Singer_ID FROM singer AS T2 WHERE T2.Song_release_year = \"2013\"",
+    "readable_query": "SELECT singer.Singer_ID FROM singer AS singer        EXCEPT SELECT singer.Singer_ID FROM singer AS singer WHERE singer.Song_release_year = \"2013\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.concert_ID FROM singer_in_concert AS T1        EXCEPT SELECT T2.concert_ID FROM singer_in_concert AS T2 WHERE T2.Singer_ID = \"6\"",
+    "readable_query": "SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert        EXCEPT SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.Singer_ID = \"6\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.concert_ID FROM singer_in_concert AS T1        EXCEPT SELECT T2.concert_ID FROM singer_in_concert AS T2 WHERE T2.Singer_ID = \"5\"",
+    "readable_query": "SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert        EXCEPT SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.Singer_ID = \"5\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Singer_ID FROM singer_in_concert AS T1        EXCEPT SELECT T2.Singer_ID FROM singer_in_concert AS T2 WHERE T2.concert_ID = 1",
+    "readable_query": "SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert        EXCEPT SELECT singer_in_concert.Singer_ID FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.concert_ID = 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.concert_ID FROM singer_in_concert AS T1        EXCEPT SELECT T2.concert_ID FROM singer_in_concert AS T2 WHERE T2.Singer_ID = \"3\"",
+    "readable_query": "SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert        EXCEPT SELECT singer_in_concert.concert_ID FROM singer_in_concert AS singer_in_concert WHERE singer_in_concert.Singer_ID = \"3\""
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Name FROM singer AS T1        EXCEPT SELECT T2.Name FROM singer AS T2 WHERE T2.Singer_ID = 1",
+    "readable_query": "SELECT singer.Name FROM singer AS singer        EXCEPT SELECT singer.Name FROM singer AS singer WHERE singer.Singer_ID = 1"
+  },
+  {
+    "db_id": "concert_singer",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Capacity FROM stadium AS T1        EXCEPT SELECT T2.Capacity FROM stadium AS T2 WHERE T2.Stadium_ID = 6",
+    "readable_query": "SELECT stadium.Capacity FROM stadium AS stadium        EXCEPT SELECT stadium.Capacity FROM stadium AS stadium WHERE stadium.Stadium_ID = 6"
+  }
+]

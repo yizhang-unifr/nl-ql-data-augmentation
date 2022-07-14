@@ -1,0 +1,28 @@
+SELECT funding_schemes.title FROM funding_schemes JOIN projects ON funding_schemes.code = projects.ec_fund_scheme WHERE projects.ec_call != 'ERC-2017-STG'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.title FROM funding_schemes JOIN projects ON funding_schemes.code = projects.ec_fund_scheme WHERE projects.ec_call != 'ERC-2017-STG'
+GPT-3 choices:
+(0) Show the title of funding schemes used in projects in which the European Council's Call 2017 Activity does not apply
+(1) Show me the titles of funding schemes used in projects having an EC Call except "ERC-2017-STG"
+(2) Show me all funding scheme for projects that belong to the ERC call 2017-STG
+(3) Show me the different title schemas of funding schemes that are assigned to projects that do not have the European Research Council call ERC-2017-STG.###
+(4) Which are the titles of the funding schemes of projects that didn't participate in the European Commission call 2017-STG?
+(5) Show me the title of funding schemes for projects whose call is not ERC-2017-STG
+(6) Show the title of funding schemes under a project with an EC call different than ERC-2017-STG
+(7) Display projects with funding schema not called ERC-2017-STG
+
+
+Re-ranked choices:
+5.562  Show me the title of funding schemes for projects whose call is not ERC-2017-STG
+5.341  Show me the titles of funding schemes used in projects having an EC Call except "ERC-2017-STG"
+5.279  Show me the different title schemas of funding schemes that are assigned to projects that do not have the European Research Council call ERC-2017-STG.###
+5.189  Show me all funding scheme for projects that belong to the ERC call 2017-STG
+5.001  Show the title of funding schemes under a project with an EC call different than ERC-2017-STG
+4.941  Show the title of funding schemes used in projects in which the European Council's Call 2017 Activity does not apply
+4.869  Which are the titles of the funding schemes of projects that didn't participate in the European Commission call 2017-STG?
+4.495  Display projects with funding schema not called ERC-2017-STG
+

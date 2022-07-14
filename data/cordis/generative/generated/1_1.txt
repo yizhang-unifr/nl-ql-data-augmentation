@@ -1,0 +1,16 @@
+SELECT projects.start_year FROM projects JOIN people ON projects.principal_investigator = people.unics_id WHERE people.full_name = 'Willem Schinkel'
+
+###
+
+
+Original Query:
+SELECT projects.start_year FROM projects JOIN people ON projects.principal_investigator = people.unics_id WHERE people.full_name = 'Willem Schinkel'
+GPT-3 choices:
+(0) Show me all projects started in the year of the principal investigator Willem Schinkel.
+(1) Show the start year of projects that are assigned to the person with full name Willem Schinkel
+(2) Show me the year of the most recent project assigned to me.
+(3) What is the start year of projects whose principal investigator is Willem Schinkel?
+(4) What is the starting year of projects with principal investigator Willem Schinkel?
+(5) Show me the projects of Willem Schinkel with their starting year
+(6) Show me the projects that are assigned to Willem Schinkel
+(7) Show the starting year of projects assigned to the principal investigator Willem Schinkel.

@@ -1,0 +1,24 @@
+SELECT count(*) FROM funding_schemes
+
+###
+
+
+Original Query:
+SELECT count(*) FROM funding_schemes
+GPT-3 choices:
+(0) How many funding schemes are there?
+(1) How many funding schemes are there?
+(2) How many funding schemes are there in the database?
+(3) Display the total number of funding schems
+(4) 
+(5) Count the number of funding schemes
+(6) How many funding schemes are there?
+(7) How many funding schemes are there?
+
+
+Re-ranked choices:
+2.401  Count the number of funding schemes
+2.292  How many funding schemes are there?
+2.284  How many funding schemes are there in the database?
+1.914  Display the total number of funding schems
+

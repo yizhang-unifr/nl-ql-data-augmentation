@@ -1,0 +1,16 @@
+SELECT programmes.code, count(*) FROM programmes  GROUP BY programmes.code
+
+###
+
+
+Original Query:
+SELECT programmes.code, count(*) FROM programmes  GROUP BY programmes.code
+GPT-3 choices:
+(0) How many programme codes are there?
+(1) Total number of programmes in the ERASMUS scheme by country
+(2) How many programme codes are there?
+(3) How many programme codes are there?
+(4) What are the number of different programmes?
+(5) How many programmes are there?
+(6) How many programmes are there?
+(7) How many are there in total?

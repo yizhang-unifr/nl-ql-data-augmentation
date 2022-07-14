@@ -1,0 +1,28 @@
+SELECT count(*) FROM countries WHERE countries.country_code = 'BD'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM countries WHERE countries.country_code2 = 'BD'
+GPT-3 choices:
+(0) Show the number of countries that have the same country code as BD
+(1) What is the total number of countries in our world that have as country code BD.
+(2) How many countries are there with country code BD?
+(3) How many countries are there who's country code is BD?
+(4) Show the number of countries with country code BD
+(5) Count the number of countries where this country code is present
+(6) Total number of countries where country code is BD
+(7) Count the countries with country code "BD"
+
+
+Re-ranked choices:
+6.343  Total number of countries where country code is BD
+6.278  Show the number of countries with country code BD
+6.249  Count the countries with country code "BD"
+6.232  How many countries are there with country code BD?
+6.225  How many countries are there who's country code is BD?
+6.221  Show the number of countries that have the same country code as BD
+6.141  What is the total number of countries in our world that have as country code BD.
+5.695  Count the number of countries where this country code is present
+

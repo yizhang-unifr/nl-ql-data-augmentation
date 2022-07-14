@@ -1,0 +1,2578 @@
+[
+  {
+    "db_id": "network_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1 WHERE T1.student_id = 1501",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend WHERE friend.student_id = 1501"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.student_id FROM Friend AS T1 WHERE T1.friend_id = 1247",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend WHERE friend.friend_id = 1247"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.student_id FROM Friend AS T1 WHERE T1.friend_id = 1381",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend WHERE friend.friend_id = 1381"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 WHERE T1.student_id = 1934",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes WHERE likes.student_id = 1934"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 WHERE T1.student_id = 1501",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes WHERE likes.student_id = 1501"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1 WHERE T1.student_id = 1304",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend WHERE friend.student_id = 1304"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 WHERE T1.name = \"Alexis\"",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Alexis\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.student_id FROM Likes AS T1 WHERE T1.liked_id = 1709",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes WHERE likes.liked_id = 1709"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 WHERE T1.name = \"Kyle\"",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Kyle\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 WHERE T1.ID = 1934",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler WHERE high_schooler.ID = 1934"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID WHERE T2.grade = 10",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID WHERE high_schooler.grade = 10"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id WHERE T2.student_id = 1247",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id WHERE likes.student_id = 1247"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id WHERE T2.student_id = 1316",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id WHERE friend.student_id = 1316"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.ID = 1782",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.ID = 1782"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID WHERE T2.ID = 1025",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID WHERE high_schooler.ID = 1025"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.student_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID WHERE T2.grade = 11",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID WHERE high_schooler.grade = 11"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.student_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.name = \"Tiffany\"",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.name = \"Tiffany\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.name FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id WHERE T2.friend_id = 1911",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id WHERE friend.friend_id = 1911"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID WHERE T2.grade = 9",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID WHERE high_schooler.grade = 9"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.name = \"John\"",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.name = \"John\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.liked_id, count(*) FROM Likes AS T1  GROUP BY T1.liked_id",
+    "readable_query": "SELECT likes.liked_id, count(*) FROM Likes AS likes  GROUP BY likes.liked_id"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.student_id, count(*) FROM Friend AS T1  GROUP BY T1.student_id",
+    "readable_query": "SELECT friend.student_id, count(*) FROM Friend AS friend  GROUP BY friend.student_id"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.student_id, count(*) FROM Likes AS T1  GROUP BY T1.student_id",
+    "readable_query": "SELECT likes.student_id, count(*) FROM Likes AS likes  GROUP BY likes.student_id"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.grade, count(*) FROM Highschooler AS T1  GROUP BY T1.grade",
+    "readable_query": "SELECT high_schooler.grade, count(*) FROM Highschooler AS high_schooler  GROUP BY high_schooler.grade"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.ID, count(*) FROM Highschooler AS T1  GROUP BY T1.ID",
+    "readable_query": "SELECT high_schooler.ID, count(*) FROM Highschooler AS high_schooler  GROUP BY high_schooler.ID"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.name, count(*) FROM Highschooler AS T1  GROUP BY T1.name",
+    "readable_query": "SELECT high_schooler.name, count(*) FROM Highschooler AS high_schooler  GROUP BY high_schooler.name"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.friend_id, count(*) FROM Friend AS T1  GROUP BY T1.friend_id",
+    "readable_query": "SELECT friend.friend_id, count(*) FROM Friend AS friend  GROUP BY friend.friend_id"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.name, count(*) FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id  GROUP BY T1.name",
+    "readable_query": "SELECT high_schooler.name, count(*) FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id  GROUP BY high_schooler.name"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.student_id, count(*) FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID  GROUP BY T1.student_id",
+    "readable_query": "SELECT likes.student_id, count(*) FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID  GROUP BY likes.student_id"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.liked_id, count(*) FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID  GROUP BY T1.liked_id",
+    "readable_query": "SELECT likes.liked_id, count(*) FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID  GROUP BY likes.liked_id"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.grade, count(*) FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id  GROUP BY T1.grade",
+    "readable_query": "SELECT high_schooler.grade, count(*) FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id  GROUP BY high_schooler.grade"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.friend_id, count(*) FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID  GROUP BY T1.friend_id",
+    "readable_query": "SELECT friend.friend_id, count(*) FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID  GROUP BY friend.friend_id"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.student_id, count(*) FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID  GROUP BY T1.student_id",
+    "readable_query": "SELECT friend.student_id, count(*) FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID  GROUP BY friend.student_id"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.ID, count(*) FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id  GROUP BY T1.ID",
+    "readable_query": "SELECT high_schooler.ID, count(*) FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id  GROUP BY high_schooler.ID"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.grade, count(*) FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id  GROUP BY T1.grade",
+    "readable_query": "SELECT high_schooler.grade, count(*) FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id  GROUP BY high_schooler.grade"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.ID, count(*) FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id  GROUP BY T1.ID",
+    "readable_query": "SELECT high_schooler.ID, count(*) FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id  GROUP BY high_schooler.ID"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.name, count(*) FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id  GROUP BY T1.name",
+    "readable_query": "SELECT high_schooler.name, count(*) FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id  GROUP BY high_schooler.name"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM Likes AS T1",
+    "readable_query": "SELECT count(*) FROM Likes AS likes"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM Highschooler AS T1",
+    "readable_query": "SELECT count(*) FROM Highschooler AS high_schooler"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM Friend AS T1",
+    "readable_query": "SELECT count(*) FROM Friend AS friend"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.ID, T1.grade FROM Highschooler AS T1",
+    "readable_query": "SELECT high_schooler.ID, high_schooler.grade FROM Highschooler AS high_schooler"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.grade, T1.ID FROM Highschooler AS T1",
+    "readable_query": "SELECT high_schooler.grade, high_schooler.ID FROM Highschooler AS high_schooler"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.friend_id, T1.student_id FROM Friend AS T1",
+    "readable_query": "SELECT friend.friend_id, friend.student_id FROM Friend AS friend"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.student_id, T1.friend_id FROM Friend AS T1",
+    "readable_query": "SELECT friend.student_id, friend.friend_id FROM Friend AS friend"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.name, T1.ID FROM Highschooler AS T1",
+    "readable_query": "SELECT high_schooler.name, high_schooler.ID FROM Highschooler AS high_schooler"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.student_id, T1.liked_id FROM Likes AS T1",
+    "readable_query": "SELECT likes.student_id, likes.liked_id FROM Likes AS likes"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.liked_id, T1.student_id FROM Likes AS T1",
+    "readable_query": "SELECT likes.liked_id, likes.student_id FROM Likes AS likes"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.grade, T1.name FROM Highschooler AS T1",
+    "readable_query": "SELECT high_schooler.grade, high_schooler.name FROM Highschooler AS high_schooler"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.name, T1.grade FROM Highschooler AS T1",
+    "readable_query": "SELECT high_schooler.name, high_schooler.grade FROM Highschooler AS high_schooler"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.ID, T1.name FROM Highschooler AS T1",
+    "readable_query": "SELECT high_schooler.ID, high_schooler.name FROM Highschooler AS high_schooler"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.liked_id, T2.name FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID",
+    "readable_query": "SELECT likes.liked_id, high_schooler.name FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.student_id, T2.ID FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID",
+    "readable_query": "SELECT likes.student_id, high_schooler.ID FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.friend_id, T2.ID FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID",
+    "readable_query": "SELECT friend.friend_id, high_schooler.ID FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.student_id, T2.grade FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID",
+    "readable_query": "SELECT friend.student_id, high_schooler.grade FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.name, T2.student_id FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id",
+    "readable_query": "SELECT high_schooler.name, likes.student_id FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.ID, T2.friend_id FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id",
+    "readable_query": "SELECT high_schooler.ID, friend.friend_id FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.friend_id, T2.grade FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID",
+    "readable_query": "SELECT friend.friend_id, high_schooler.grade FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.student_id, T2.ID FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID",
+    "readable_query": "SELECT friend.student_id, high_schooler.ID FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.ID, T2.liked_id FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id",
+    "readable_query": "SELECT high_schooler.ID, likes.liked_id FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.grade, T2.liked_id FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id",
+    "readable_query": "SELECT high_schooler.grade, likes.liked_id FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.grade, T1.ID FROM Highschooler AS T1 WHERE T1.name = \"John\"",
+    "readable_query": "SELECT high_schooler.grade, high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.name = \"John\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.name, T1.ID FROM Highschooler AS T1 WHERE T1.grade = 9",
+    "readable_query": "SELECT high_schooler.name, high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.grade = 9"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.ID, T1.grade FROM Highschooler AS T1 WHERE T1.name = \"Brittany\"",
+    "readable_query": "SELECT high_schooler.ID, high_schooler.grade FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Brittany\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.ID, T1.name FROM Highschooler AS T1 WHERE T1.grade = 12",
+    "readable_query": "SELECT high_schooler.ID, high_schooler.name FROM Highschooler AS high_schooler WHERE high_schooler.grade = 12"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.grade, T1.name FROM Highschooler AS T1 WHERE T1.ID = 1689",
+    "readable_query": "SELECT high_schooler.grade, high_schooler.name FROM Highschooler AS high_schooler WHERE high_schooler.ID = 1689"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.name, T1.ID FROM Highschooler AS T1 WHERE T1.grade = 10",
+    "readable_query": "SELECT high_schooler.name, high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.grade = 10"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.name, T1.grade FROM Highschooler AS T1 WHERE T1.ID = 1641",
+    "readable_query": "SELECT high_schooler.name, high_schooler.grade FROM Highschooler AS high_schooler WHERE high_schooler.ID = 1641"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.name, T1.ID FROM Highschooler AS T1 WHERE T1.grade = 12",
+    "readable_query": "SELECT high_schooler.name, high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.grade = 12"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.name, T1.ID FROM Highschooler AS T1 WHERE T1.grade = 11",
+    "readable_query": "SELECT high_schooler.name, high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.grade = 11"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.grade, T1.ID FROM Highschooler AS T1 WHERE T1.name = \"Tiffany\"",
+    "readable_query": "SELECT high_schooler.grade, high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Tiffany\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.student_id FROM Friend AS T1  GROUP BY T1.student_id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend  GROUP BY friend.student_id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1  GROUP BY T1.friend_id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend  GROUP BY friend.friend_id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.name FROM Highschooler AS T1  GROUP BY T1.name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler  GROUP BY high_schooler.name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.student_id FROM Likes AS T1  GROUP BY T1.student_id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes  GROUP BY likes.student_id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1  GROUP BY T1.grade  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler  GROUP BY high_schooler.grade  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1  GROUP BY T1.liked_id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes  GROUP BY likes.liked_id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1  GROUP BY T1.ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler  GROUP BY high_schooler.ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Likes AS T1 WHERE T1.student_id = 1709",
+    "readable_query": "SELECT count(*) FROM Likes AS likes WHERE likes.student_id = 1709"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Likes AS T1 WHERE T1.liked_id = 1934",
+    "readable_query": "SELECT count(*) FROM Likes AS likes WHERE likes.liked_id = 1934"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Highschooler AS T1 WHERE T1.name = \"Logan\"",
+    "readable_query": "SELECT count(*) FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Logan\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Highschooler AS T1 WHERE T1.ID = 1782",
+    "readable_query": "SELECT count(*) FROM Highschooler AS high_schooler WHERE high_schooler.ID = 1782"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Friend AS T1 WHERE T1.student_id = 1510",
+    "readable_query": "SELECT count(*) FROM Friend AS friend WHERE friend.student_id = 1510"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Likes AS T1 WHERE T1.liked_id = 1101",
+    "readable_query": "SELECT count(*) FROM Likes AS likes WHERE likes.liked_id = 1101"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Highschooler AS T1 WHERE T1.ID = 1247",
+    "readable_query": "SELECT count(*) FROM Highschooler AS high_schooler WHERE high_schooler.ID = 1247"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Likes AS T1 WHERE T1.liked_id = 1501",
+    "readable_query": "SELECT count(*) FROM Likes AS likes WHERE likes.liked_id = 1501"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Friend AS T1 WHERE T1.student_id = 1661",
+    "readable_query": "SELECT count(*) FROM Friend AS friend WHERE friend.student_id = 1661"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM Friend AS T1 WHERE T1.student_id = 1689",
+    "readable_query": "SELECT count(*) FROM Friend AS friend WHERE friend.student_id = 1689"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.student_id FROM Likes AS T1    ORDER BY T1.liked_id DESC LIMIT 1",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes    ORDER BY likes.liked_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1    ORDER BY T1.student_id DESC LIMIT 1",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend    ORDER BY friend.student_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1    ORDER BY T1.student_id DESC LIMIT 1",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes    ORDER BY likes.student_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.student_id FROM Friend AS T1    ORDER BY T1.friend_id DESC LIMIT 1",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend    ORDER BY friend.friend_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1    ORDER BY T1.grade DESC LIMIT 1",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler    ORDER BY high_schooler.grade DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.name FROM Highschooler AS T1    ORDER BY T1.grade DESC LIMIT 1",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler    ORDER BY high_schooler.grade DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1    ORDER BY T1.ID DESC LIMIT 1",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler    ORDER BY high_schooler.ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.name FROM Highschooler AS T1    ORDER BY T1.ID DESC LIMIT 1",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler    ORDER BY high_schooler.ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.student_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID    ORDER BY T2.grade DESC LIMIT 1",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID    ORDER BY high_schooler.grade DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID    ORDER BY T2.ID DESC LIMIT 1",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID    ORDER BY high_schooler.ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID    ORDER BY T2.grade DESC LIMIT 1",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID    ORDER BY high_schooler.grade DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id    ORDER BY T2.friend_id DESC LIMIT 1",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id    ORDER BY friend.friend_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id    ORDER BY T2.liked_id DESC LIMIT 1",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id    ORDER BY likes.liked_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.student_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID    ORDER BY T2.ID DESC LIMIT 1",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID    ORDER BY high_schooler.ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID    ORDER BY T2.grade DESC LIMIT 1",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID    ORDER BY high_schooler.grade DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID    ORDER BY T2.ID DESC LIMIT 1",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID    ORDER BY high_schooler.ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id    ORDER BY T2.student_id DESC LIMIT 1",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id    ORDER BY friend.student_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.student_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID    ORDER BY T2.ID DESC LIMIT 1",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID    ORDER BY high_schooler.ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.student_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID    ORDER BY T2.ID ASC LIMIT 1",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID    ORDER BY high_schooler.ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID    ORDER BY T2.ID ASC LIMIT 1",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID    ORDER BY high_schooler.ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.student_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID    ORDER BY T2.grade ASC LIMIT 1",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID    ORDER BY high_schooler.grade ASC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.student_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID    ORDER BY T2.ID ASC LIMIT 1",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID    ORDER BY high_schooler.ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID    ORDER BY T2.grade ASC LIMIT 1",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID    ORDER BY high_schooler.grade ASC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID    ORDER BY T2.ID ASC LIMIT 1",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID    ORDER BY high_schooler.ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.student_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID    ORDER BY T2.grade ASC LIMIT 1",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID    ORDER BY high_schooler.grade ASC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID    ORDER BY T2.grade ASC LIMIT 1",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID    ORDER BY high_schooler.grade ASC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id    ORDER BY T2.liked_id ASC LIMIT 1",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id    ORDER BY likes.liked_id ASC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id    ORDER BY T2.student_id ASC LIMIT 1",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id    ORDER BY likes.student_id ASC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.liked_id, T1.student_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID    ORDER BY T2.grade DESC LIMIT 1",
+    "readable_query": "SELECT likes.liked_id, likes.student_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID    ORDER BY high_schooler.grade DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.student_id, T1.liked_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID    ORDER BY T2.ID DESC LIMIT 1",
+    "readable_query": "SELECT likes.student_id, likes.liked_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID    ORDER BY high_schooler.ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.student_id, T1.friend_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID    ORDER BY T2.ID DESC LIMIT 1",
+    "readable_query": "SELECT friend.student_id, friend.friend_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID    ORDER BY high_schooler.ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.friend_id, T1.student_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID    ORDER BY T2.ID DESC LIMIT 1",
+    "readable_query": "SELECT friend.friend_id, friend.student_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID    ORDER BY high_schooler.ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.liked_id, T1.student_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID    ORDER BY T2.ID DESC LIMIT 1",
+    "readable_query": "SELECT likes.liked_id, likes.student_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID    ORDER BY high_schooler.ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.student_id, T1.liked_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID    ORDER BY T2.grade DESC LIMIT 1",
+    "readable_query": "SELECT likes.student_id, likes.liked_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID    ORDER BY high_schooler.grade DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.grade, T1.ID FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id    ORDER BY T2.student_id DESC LIMIT 1",
+    "readable_query": "SELECT high_schooler.grade, high_schooler.ID FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id    ORDER BY friend.student_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ID, T1.grade FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id    ORDER BY T2.friend_id DESC LIMIT 1",
+    "readable_query": "SELECT high_schooler.ID, high_schooler.grade FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id    ORDER BY friend.friend_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ID, T1.grade FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id    ORDER BY T2.liked_id DESC LIMIT 1",
+    "readable_query": "SELECT high_schooler.ID, high_schooler.grade FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id    ORDER BY likes.liked_id DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.friend_id, T1.student_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID    ORDER BY T2.grade DESC LIMIT 1",
+    "readable_query": "SELECT friend.friend_id, friend.student_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID    ORDER BY high_schooler.grade DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.student_id) FROM Likes AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  likes.student_id) FROM Likes AS likes"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.ID) FROM Highschooler AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  high_schooler.ID) FROM Highschooler AS high_schooler"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.student_id) FROM Friend AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  friend.student_id) FROM Friend AS friend"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.grade) FROM Highschooler AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  high_schooler.grade) FROM Highschooler AS high_schooler"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.friend_id) FROM Friend AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  friend.friend_id) FROM Friend AS friend"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.liked_id) FROM Likes AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  likes.liked_id) FROM Likes AS likes"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.name) FROM Highschooler AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  high_schooler.name) FROM Highschooler AS high_schooler"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.liked_id) FROM Likes AS T1",
+    "readable_query": "SELECT avg( likes.liked_id) FROM Likes AS likes"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.student_id) FROM Likes AS T1",
+    "readable_query": "SELECT avg( likes.student_id) FROM Likes AS likes"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.student_id) FROM Friend AS T1",
+    "readable_query": "SELECT avg( friend.student_id) FROM Friend AS friend"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.ID) FROM Highschooler AS T1",
+    "readable_query": "SELECT avg( high_schooler.ID) FROM Highschooler AS high_schooler"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.friend_id) FROM Friend AS T1",
+    "readable_query": "SELECT avg( friend.friend_id) FROM Friend AS friend"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.grade) FROM Highschooler AS T1",
+    "readable_query": "SELECT avg( high_schooler.grade) FROM Highschooler AS high_schooler"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.student_id FROM Friend AS T1",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.student_id FROM Likes AS T1",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.name FROM Highschooler AS T1",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.student_id FROM Likes AS T1",
+    "readable_query": "SELECT DISTINCT likes.student_id FROM Likes AS likes"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.ID FROM Highschooler AS T1",
+    "readable_query": "SELECT DISTINCT high_schooler.ID FROM Highschooler AS high_schooler"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.name FROM Highschooler AS T1",
+    "readable_query": "SELECT DISTINCT high_schooler.name FROM Highschooler AS high_schooler"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.grade FROM Highschooler AS T1",
+    "readable_query": "SELECT DISTINCT high_schooler.grade FROM Highschooler AS high_schooler"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.friend_id FROM Friend AS T1",
+    "readable_query": "SELECT DISTINCT friend.friend_id FROM Friend AS friend"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.liked_id FROM Likes AS T1",
+    "readable_query": "SELECT DISTINCT likes.liked_id FROM Likes AS likes"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.student_id FROM Friend AS T1",
+    "readable_query": "SELECT DISTINCT friend.student_id FROM Friend AS friend"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1     ORDER BY T1.student_id ASC",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes     ORDER BY likes.student_id ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.student_id FROM Likes AS T1     ORDER BY T1.liked_id ASC",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes     ORDER BY likes.liked_id ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1     ORDER BY T1.student_id ASC",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend     ORDER BY friend.student_id ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.name FROM Highschooler AS T1     ORDER BY T1.grade ASC",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler     ORDER BY high_schooler.grade ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.student_id FROM Friend AS T1     ORDER BY T1.friend_id ASC",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend     ORDER BY friend.friend_id ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.name FROM Highschooler AS T1     ORDER BY T1.ID ASC",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler     ORDER BY high_schooler.ID ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1     ORDER BY T1.ID ASC",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler     ORDER BY high_schooler.ID ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1     ORDER BY T1.grade ASC",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler     ORDER BY high_schooler.grade ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1     ORDER BY T1.student_id DESC",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend     ORDER BY friend.student_id DESC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1     ORDER BY T1.ID DESC",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler     ORDER BY high_schooler.ID DESC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.student_id FROM Friend AS T1     ORDER BY T1.friend_id DESC",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend     ORDER BY friend.friend_id DESC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.student_id FROM Likes AS T1     ORDER BY T1.liked_id DESC",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes     ORDER BY likes.liked_id DESC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.name FROM Highschooler AS T1     ORDER BY T1.ID DESC",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler     ORDER BY high_schooler.ID DESC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.name FROM Highschooler AS T1     ORDER BY T1.grade DESC",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler     ORDER BY high_schooler.grade DESC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1     ORDER BY T1.grade DESC",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler     ORDER BY high_schooler.grade DESC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1     ORDER BY T1.student_id DESC",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes     ORDER BY likes.student_id DESC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.grade, T1.name FROM Highschooler AS T1     ORDER BY T1.name ASC",
+    "readable_query": "SELECT high_schooler.grade, high_schooler.name FROM Highschooler AS high_schooler     ORDER BY high_schooler.name ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.name, T1.grade FROM Highschooler AS T1     ORDER BY T1.grade ASC",
+    "readable_query": "SELECT high_schooler.name, high_schooler.grade FROM Highschooler AS high_schooler     ORDER BY high_schooler.grade ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.friend_id, T1.student_id FROM Friend AS T1     ORDER BY T1.student_id ASC",
+    "readable_query": "SELECT friend.friend_id, friend.student_id FROM Friend AS friend     ORDER BY friend.student_id ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.student_id, T1.friend_id FROM Friend AS T1     ORDER BY T1.friend_id ASC",
+    "readable_query": "SELECT friend.student_id, friend.friend_id FROM Friend AS friend     ORDER BY friend.friend_id ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.ID, T1.name FROM Highschooler AS T1     ORDER BY T1.name ASC",
+    "readable_query": "SELECT high_schooler.ID, high_schooler.name FROM Highschooler AS high_schooler     ORDER BY high_schooler.name ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.name, T1.ID FROM Highschooler AS T1     ORDER BY T1.ID ASC",
+    "readable_query": "SELECT high_schooler.name, high_schooler.ID FROM Highschooler AS high_schooler     ORDER BY high_schooler.ID ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.liked_id, T1.student_id FROM Likes AS T1     ORDER BY T1.student_id ASC",
+    "readable_query": "SELECT likes.liked_id, likes.student_id FROM Likes AS likes     ORDER BY likes.student_id ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.student_id, T1.liked_id FROM Likes AS T1     ORDER BY T1.liked_id ASC",
+    "readable_query": "SELECT likes.student_id, likes.liked_id FROM Likes AS likes     ORDER BY likes.liked_id ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.ID, T1.grade FROM Highschooler AS T1     ORDER BY T1.grade ASC",
+    "readable_query": "SELECT high_schooler.ID, high_schooler.grade FROM Highschooler AS high_schooler     ORDER BY high_schooler.grade ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.grade, T1.ID FROM Highschooler AS T1     ORDER BY T1.ID ASC",
+    "readable_query": "SELECT high_schooler.grade, high_schooler.ID FROM Highschooler AS high_schooler     ORDER BY high_schooler.ID ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id JOIN Friend AS T3 ON T1.ID = T3.friend_id WHERE T2.student_id = 1247 and T3.friend_id = 1782",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id JOIN Friend AS friend ON high_schooler.ID = friend.friend_id WHERE likes.student_id = 1247 and friend.friend_id = 1782"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID JOIN Likes AS T3 ON T2.ID = T3.student_id WHERE T2.grade = 12 and T3.student_id = 1025",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID JOIN Likes AS likes ON high_schooler.ID = likes.student_id WHERE high_schooler.grade = 12 and likes.student_id = 1025"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID JOIN Likes AS T3 ON T2.ID = T3.student_id WHERE T2.name = \"Cassandra\" and T3.liked_id = 1247",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID JOIN Likes AS likes ON high_schooler.ID = likes.student_id WHERE high_schooler.name = \"Cassandra\" and likes.liked_id = 1247"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.student_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID JOIN Friend AS T3 ON T2.ID = T3.friend_id WHERE T2.name = \"John\" and T3.friend_id = 1782",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID JOIN Friend AS friend ON high_schooler.ID = friend.friend_id WHERE high_schooler.name = \"John\" and friend.friend_id = 1782"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.student_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID JOIN Likes AS T3 ON T2.ID = T3.student_id WHERE T2.grade = 11 and T3.liked_id = 1304",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID JOIN Likes AS likes ON high_schooler.ID = likes.student_id WHERE high_schooler.grade = 11 and likes.liked_id = 1304"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID JOIN Friend AS T3 ON T2.ID = T3.friend_id WHERE T2.ID = 1782 and T3.student_id = 1510",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID JOIN Friend AS friend ON high_schooler.ID = friend.friend_id WHERE high_schooler.ID = 1782 and friend.student_id = 1510"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.name FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id JOIN Friend AS T3 ON T1.ID = T3.friend_id WHERE T2.student_id = 1025 and T3.friend_id = 1501",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id JOIN Friend AS friend ON high_schooler.ID = friend.friend_id WHERE likes.student_id = 1025 and friend.friend_id = 1501"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.student_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID JOIN Friend AS T3 ON T2.ID = T3.friend_id WHERE T2.ID = 1689 and T3.friend_id = 1782",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID JOIN Friend AS friend ON high_schooler.ID = friend.friend_id WHERE high_schooler.ID = 1689 and friend.friend_id = 1782"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID JOIN Friend AS T3 ON T2.ID = T3.friend_id WHERE T2.ID = 1101 and T3.friend_id = 1381",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID JOIN Friend AS friend ON high_schooler.ID = friend.friend_id WHERE high_schooler.ID = 1101 and friend.friend_id = 1381"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID JOIN Friend AS T3 ON T2.ID = T3.friend_id WHERE T2.name = \"Kris\" and T3.friend_id = 1501",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID JOIN Friend AS friend ON high_schooler.ID = friend.friend_id WHERE high_schooler.name = \"Kris\" and friend.friend_id = 1501"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.student_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.name = \"Cassandra\" or T2.name = \"Tiffany\"",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.name = \"Cassandra\" or high_schooler.name = \"Tiffany\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.name FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id WHERE T2.friend_id = 1661 or T2.friend_id = 1782",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id WHERE friend.friend_id = 1661 or friend.friend_id = 1782"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.name = \"Brittany\" or T2.name = \"Tiffany\"",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.name = \"Brittany\" or high_schooler.name = \"Tiffany\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.name = \"Gabriel\" or T2.name = \"Jessica\"",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.name = \"Gabriel\" or high_schooler.name = \"Jessica\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.grade = 12 or T2.grade = 9",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.grade = 12 or high_schooler.grade = 9"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.student_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID WHERE T2.ID = 1510 or T2.ID = 1782",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID WHERE high_schooler.ID = 1510 or high_schooler.ID = 1782"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.student_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.grade = 12 or T2.grade = 11",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.grade = 12 or high_schooler.grade = 11"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.student_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.name = \"Haley\" or T2.name = \"Kyle\"",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.name = \"Haley\" or high_schooler.name = \"Kyle\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID WHERE T2.grade = 12 or T2.grade = 12",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID WHERE high_schooler.grade = 12 or high_schooler.grade = 12"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id WHERE T2.friend_id = 1934 or T2.friend_id = 1689",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id WHERE friend.friend_id = 1934 or friend.friend_id = 1689"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1 WHERE T1.name = \"Kyle\" and T1.grade = 11",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Kyle\" and high_schooler.grade = 11"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 WHERE T1.name = \"Logan\" and T1.ID = 1304",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Logan\" and high_schooler.ID = 1304"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.name FROM Highschooler AS T1 WHERE T1.grade = 9 and T1.ID = 1501",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler WHERE high_schooler.grade = 9 and high_schooler.ID = 1501"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 WHERE T1.name = \"Brittany\" and T1.ID = 1247",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Brittany\" and high_schooler.ID = 1247"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 WHERE T1.ID = 1911 and T1.name = \"Andrew\"",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler WHERE high_schooler.ID = 1911 and high_schooler.name = \"Andrew\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 WHERE T1.name = \"Jordan\" and T1.ID = 1316",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Jordan\" and high_schooler.ID = 1316"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 WHERE T1.name = \"Austin\" and T1.ID = 1501",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Austin\" and high_schooler.ID = 1501"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1 WHERE T1.name = \"Gabriel\" and T1.grade = 9",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Gabriel\" and high_schooler.grade = 9"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 WHERE T1.name = \"Jordan\" and T1.ID = 1381",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Jordan\" and high_schooler.ID = 1381"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1 WHERE T1.name = \"Cassandra\" and T1.grade = 12",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Cassandra\" and high_schooler.grade = 12"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.friend_id) FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID WHERE T1.student_id = 1689 and T2.ID = 1782",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  friend.friend_id) FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID WHERE friend.student_id = 1689 and high_schooler.ID = 1782"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.grade) FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id WHERE T1.ID = 1689 and T2.friend_id = 1689",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  high_schooler.grade) FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id WHERE high_schooler.ID = 1689 and friend.friend_id = 1689"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.liked_id) FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T1.student_id = 1501 and T2.name = \"Tiffany\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  likes.liked_id) FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE likes.student_id = 1501 and high_schooler.name = \"Tiffany\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.liked_id) FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T1.student_id = 1025 and T2.grade = 10",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  likes.liked_id) FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE likes.student_id = 1025 and high_schooler.grade = 10"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.student_id) FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T1.liked_id = 1468 and T2.name = \"Andrew\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  likes.student_id) FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE likes.liked_id = 1468 and high_schooler.name = \"Andrew\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.liked_id) FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T1.student_id = 1709 and T2.grade = 9",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  likes.liked_id) FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE likes.student_id = 1709 and high_schooler.grade = 9"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.ID) FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id WHERE T1.grade = 9 and T2.liked_id = 1101",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  high_schooler.ID) FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id WHERE high_schooler.grade = 9 and likes.liked_id = 1101"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.liked_id) FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T1.student_id = 1501 and T2.grade = 12",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  likes.liked_id) FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE likes.student_id = 1501 and high_schooler.grade = 12"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.friend_id) FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID WHERE T1.student_id = 1510 and T2.name = \"Austin\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  friend.friend_id) FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID WHERE friend.student_id = 1510 and high_schooler.name = \"Austin\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.student_id) FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T1.liked_id = 1247 and T2.grade = 11",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  likes.student_id) FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE likes.liked_id = 1247 and high_schooler.grade = 11"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1 WHERE T1.name = \"Gabriel\" or T1.grade = 11",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Gabriel\" or high_schooler.grade = 11"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.name FROM Highschooler AS T1 WHERE T1.ID = 1304 or T1.grade = 12",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler WHERE high_schooler.ID = 1304 or high_schooler.grade = 12"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 WHERE T1.name = \"Haley\" or T1.ID = 1934",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Haley\" or high_schooler.ID = 1934"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.name FROM Highschooler AS T1 WHERE T1.ID = 1510 or T1.grade = 9",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler WHERE high_schooler.ID = 1510 or high_schooler.grade = 9"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1 WHERE T1.name = \"Logan\" or T1.grade = 12",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Logan\" or high_schooler.grade = 12"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 WHERE T1.name = \"Brittany\" or T1.ID = 1911",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Brittany\" or high_schooler.ID = 1911"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1 WHERE T1.grade = 9 or T1.name = \"Gabriel\"",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.grade = 9 or high_schooler.name = \"Gabriel\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1 WHERE T1.name = \"Austin\" or T1.grade = 9",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Austin\" or high_schooler.grade = 9"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1 WHERE T1.name = \"Gabriel\" or T1.grade = 10",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Gabriel\" or high_schooler.grade = 10"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.name FROM Highschooler AS T1 WHERE T1.grade = 10 or T1.ID = 1911",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler WHERE high_schooler.grade = 10 or high_schooler.ID = 1911"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID WHERE T2.grade = 12 and T2.name = \"Tiffany\"",
+    "readable_query": "SELECT count(*) FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID WHERE high_schooler.grade = 12 and high_schooler.name = \"Tiffany\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id WHERE T2.friend_id = 1689 and T2.student_id = 1661",
+    "readable_query": "SELECT count(*) FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id WHERE friend.friend_id = 1689 and friend.student_id = 1661"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.grade = 12 and T2.ID = 1247",
+    "readable_query": "SELECT count(*) FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.grade = 12 and high_schooler.ID = 1247"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID WHERE T2.ID = 1501 and T2.grade = 9",
+    "readable_query": "SELECT count(*) FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID WHERE high_schooler.ID = 1501 and high_schooler.grade = 9"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.ID = 1934 and T2.name = \"John\"",
+    "readable_query": "SELECT count(*) FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.ID = 1934 and high_schooler.name = \"John\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.grade = 11 and T2.name = \"Jordan\"",
+    "readable_query": "SELECT count(*) FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.grade = 11 and high_schooler.name = \"Jordan\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID WHERE T2.name = \"Andrew\" and T2.grade = 10",
+    "readable_query": "SELECT count(*) FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID WHERE high_schooler.name = \"Andrew\" and high_schooler.grade = 10"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id WHERE T2.liked_id = 1689 and T2.student_id = 1025",
+    "readable_query": "SELECT count(*) FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id WHERE likes.liked_id = 1689 and likes.student_id = 1025"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.name = \"Alexis\" and T2.ID = 1782",
+    "readable_query": "SELECT count(*) FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.name = \"Alexis\" and high_schooler.ID = 1782"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.grade = 10 and T2.name = \"Brittany\"",
+    "readable_query": "SELECT count(*) FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.grade = 10 and high_schooler.name = \"Brittany\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.student_id FROM Likes AS T1 WHERE T1.liked_id != 1468",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes WHERE likes.liked_id != 1468"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.student_id FROM Likes AS T1 WHERE T1.liked_id != 1304",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes WHERE likes.liked_id != 1304"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 WHERE T1.ID != 1709",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler WHERE high_schooler.ID != 1709"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1 WHERE T1.student_id != 1381",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend WHERE friend.student_id != 1381"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1 WHERE T1.name != \"Gabriel\"",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.name != \"Gabriel\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.student_id FROM Friend AS T1 WHERE T1.friend_id != 1304",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend WHERE friend.friend_id != 1304"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1 WHERE T1.name != \"Haley\"",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.name != \"Haley\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.student_id FROM Likes AS T1 WHERE T1.liked_id != 1689",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes WHERE likes.liked_id != 1689"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.student_id FROM Likes AS T1 WHERE T1.liked_id != 1934",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes WHERE likes.liked_id != 1934"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 WHERE T1.student_id != 1316",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes WHERE likes.student_id != 1316"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id WHERE T2.student_id != 1381",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id WHERE friend.student_id != 1381"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id WHERE T2.student_id != 1025",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id WHERE likes.student_id != 1025"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.name FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id WHERE T2.liked_id != 1304",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id WHERE likes.liked_id != 1304"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID WHERE T2.grade != 9",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID WHERE high_schooler.grade != 9"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.student_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID WHERE T2.ID != 1934",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID WHERE high_schooler.ID != 1934"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.student_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.ID != 1316",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.ID != 1316"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id WHERE T2.student_id != 1689",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id WHERE likes.student_id != 1689"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.student_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.ID != 1911",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.ID != 1911"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID WHERE T2.name != \"Haley\"",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID WHERE high_schooler.name != \"Haley\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.name FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id WHERE T2.friend_id != 1316",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id WHERE friend.friend_id != 1316"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.friend_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID WHERE T2.grade = 12",
+    "readable_query": "SELECT DISTINCT friend.friend_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID WHERE high_schooler.grade = 12"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.grade FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id WHERE T2.student_id = 1316",
+    "readable_query": "SELECT DISTINCT high_schooler.grade FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id WHERE likes.student_id = 1316"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.student_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.grade = 10",
+    "readable_query": "SELECT DISTINCT likes.student_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.grade = 10"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.grade FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id WHERE T2.friend_id = 1316",
+    "readable_query": "SELECT DISTINCT high_schooler.grade FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id WHERE friend.friend_id = 1316"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.grade FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id WHERE T2.liked_id = 1709",
+    "readable_query": "SELECT DISTINCT high_schooler.grade FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id WHERE likes.liked_id = 1709"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.student_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID WHERE T2.ID = 1641",
+    "readable_query": "SELECT DISTINCT friend.student_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID WHERE high_schooler.ID = 1641"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.liked_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.ID = 1782",
+    "readable_query": "SELECT DISTINCT likes.liked_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.ID = 1782"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.student_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.name = \"Kris\"",
+    "readable_query": "SELECT DISTINCT likes.student_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.name = \"Kris\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.student_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.ID = 1316",
+    "readable_query": "SELECT DISTINCT likes.student_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.ID = 1316"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.friend_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID WHERE T2.name = \"Kyle\"",
+    "readable_query": "SELECT DISTINCT friend.friend_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID WHERE high_schooler.name = \"Kyle\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.liked_id) FROM Likes AS T1 WHERE T1.student_id = 1934",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  likes.liked_id) FROM Likes AS likes WHERE likes.student_id = 1934"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.liked_id) FROM Likes AS T1 WHERE T1.student_id = 1911",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  likes.liked_id) FROM Likes AS likes WHERE likes.student_id = 1911"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.student_id) FROM Likes AS T1 WHERE T1.liked_id = 1934",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  likes.student_id) FROM Likes AS likes WHERE likes.liked_id = 1934"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.ID) FROM Highschooler AS T1 WHERE T1.name = \"Tiffany\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  high_schooler.ID) FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Tiffany\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.ID) FROM Highschooler AS T1 WHERE T1.grade = 10",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  high_schooler.ID) FROM Highschooler AS high_schooler WHERE high_schooler.grade = 10"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.student_id) FROM Likes AS T1 WHERE T1.liked_id = 1709",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  likes.student_id) FROM Likes AS likes WHERE likes.liked_id = 1709"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.student_id) FROM Friend AS T1 WHERE T1.friend_id = 1934",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  friend.student_id) FROM Friend AS friend WHERE friend.friend_id = 1934"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.liked_id) FROM Likes AS T1 WHERE T1.student_id = 1709",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  likes.liked_id) FROM Likes AS likes WHERE likes.student_id = 1709"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.grade) FROM Highschooler AS T1 WHERE T1.name = \"Brittany\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  high_schooler.grade) FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Brittany\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.ID) FROM Highschooler AS T1 WHERE T1.grade = 9",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  high_schooler.ID) FROM Highschooler AS high_schooler WHERE high_schooler.grade = 9"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1 WHERE T1.student_id > 1782",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend WHERE friend.student_id > 1782"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1 WHERE T1.student_id > 1501",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend WHERE friend.student_id > 1501"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 WHERE T1.student_id > 1911",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes WHERE likes.student_id > 1911"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.student_id FROM Friend AS T1 WHERE T1.friend_id > 1025",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend WHERE friend.friend_id > 1025"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.student_id FROM Friend AS T1 WHERE T1.friend_id > 1101",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend WHERE friend.friend_id > 1101"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1 WHERE T1.grade > 9",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.grade > 9"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1 WHERE T1.grade > 10",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.grade > 10"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 WHERE T1.student_id > 1782",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes WHERE likes.student_id > 1782"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1 WHERE T1.grade > 12",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.grade > 12"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.student_id FROM Friend AS T1 WHERE T1.friend_id > 1316",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend WHERE friend.friend_id > 1316"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.student_id, T2.name, T3.friend_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID JOIN Friend AS T3 ON T2.ID = T3.friend_id",
+    "readable_query": "SELECT likes.student_id, high_schooler.name, friend.friend_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID JOIN Friend AS friend ON high_schooler.ID = friend.friend_id"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.friend_id, T2.grade, T3.student_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID JOIN Likes AS T3 ON T2.ID = T3.student_id",
+    "readable_query": "SELECT friend.friend_id, high_schooler.grade, likes.student_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID JOIN Likes AS likes ON high_schooler.ID = likes.student_id"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.liked_id, T2.grade, T3.student_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID JOIN Friend AS T3 ON T2.ID = T3.friend_id",
+    "readable_query": "SELECT likes.liked_id, high_schooler.grade, friend.student_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID JOIN Friend AS friend ON high_schooler.ID = friend.friend_id"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.grade, T2.friend_id, T3.liked_id FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id JOIN Likes AS T3 ON T1.ID = T3.student_id",
+    "readable_query": "SELECT high_schooler.grade, friend.friend_id, likes.liked_id FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id JOIN Likes AS likes ON high_schooler.ID = likes.student_id"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.liked_id, T2.ID, T3.student_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID JOIN Friend AS T3 ON T2.ID = T3.friend_id",
+    "readable_query": "SELECT likes.liked_id, high_schooler.ID, friend.student_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID JOIN Friend AS friend ON high_schooler.ID = friend.friend_id"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.ID, T2.friend_id, T3.liked_id FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id JOIN Likes AS T3 ON T1.ID = T3.student_id",
+    "readable_query": "SELECT high_schooler.ID, friend.friend_id, likes.liked_id FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id JOIN Likes AS likes ON high_schooler.ID = likes.student_id"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.name, T2.liked_id, T3.friend_id FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id JOIN Friend AS T3 ON T1.ID = T3.friend_id",
+    "readable_query": "SELECT high_schooler.name, likes.liked_id, friend.friend_id FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id JOIN Friend AS friend ON high_schooler.ID = friend.friend_id"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.friend_id, T2.name, T3.student_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID JOIN Likes AS T3 ON T2.ID = T3.student_id",
+    "readable_query": "SELECT friend.friend_id, high_schooler.name, likes.student_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID JOIN Likes AS likes ON high_schooler.ID = likes.student_id"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.ID, T2.student_id, T3.friend_id FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id JOIN Friend AS T3 ON T1.ID = T3.friend_id",
+    "readable_query": "SELECT high_schooler.ID, likes.student_id, friend.friend_id FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id JOIN Friend AS friend ON high_schooler.ID = friend.friend_id"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.student_id, T2.name, T3.liked_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID JOIN Likes AS T3 ON T2.ID = T3.student_id",
+    "readable_query": "SELECT friend.student_id, high_schooler.name, likes.liked_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID JOIN Likes AS likes ON high_schooler.ID = likes.student_id"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.student_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID     ORDER BY T2.grade ASC",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID     ORDER BY high_schooler.grade ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id     ORDER BY T2.friend_id ASC",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id     ORDER BY friend.friend_id ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.student_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID     ORDER BY T2.ID ASC",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID     ORDER BY high_schooler.ID ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.name FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id     ORDER BY T2.student_id ASC",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id     ORDER BY likes.student_id ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.name FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id     ORDER BY T2.liked_id ASC",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id     ORDER BY likes.liked_id ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id     ORDER BY T2.student_id ASC",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id     ORDER BY likes.student_id ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.student_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID     ORDER BY T2.grade ASC",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID     ORDER BY high_schooler.grade ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID     ORDER BY T2.grade ASC",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID     ORDER BY high_schooler.grade ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID     ORDER BY T2.ID ASC",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID     ORDER BY high_schooler.ID ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id     ORDER BY T2.student_id ASC",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id     ORDER BY likes.student_id ASC"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 WHERE T1.name = \"Cassandra\"     INTERSECT SELECT T2.grade FROM Highschooler AS T2 WHERE T2.name = \"Andrew\"",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Cassandra\"     INTERSECT SELECT high_schooler.grade FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Andrew\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1 WHERE T1.name = \"Gabriel\"     INTERSECT SELECT T2.ID FROM Highschooler AS T2 WHERE T2.name = \"Brittany\"",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Gabriel\"     INTERSECT SELECT high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Brittany\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.student_id FROM Likes AS T1 WHERE T1.liked_id = 1101     INTERSECT SELECT T2.student_id FROM Likes AS T2 WHERE T2.liked_id = 1689",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes WHERE likes.liked_id = 1101     INTERSECT SELECT likes.student_id FROM Likes AS likes WHERE likes.liked_id = 1689"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 WHERE T1.ID = 1661     INTERSECT SELECT T2.grade FROM Highschooler AS T2 WHERE T2.ID = 1381",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler WHERE high_schooler.ID = 1661     INTERSECT SELECT high_schooler.grade FROM Highschooler AS high_schooler WHERE high_schooler.ID = 1381"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.student_id FROM Friend AS T1 WHERE T1.friend_id = 1101     INTERSECT SELECT T2.student_id FROM Friend AS T2 WHERE T2.friend_id = 1304",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend WHERE friend.friend_id = 1101     INTERSECT SELECT friend.student_id FROM Friend AS friend WHERE friend.friend_id = 1304"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.name FROM Highschooler AS T1 WHERE T1.ID = 1316     INTERSECT SELECT T2.name FROM Highschooler AS T2 WHERE T2.ID = 1501",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler WHERE high_schooler.ID = 1316     INTERSECT SELECT high_schooler.name FROM Highschooler AS high_schooler WHERE high_schooler.ID = 1501"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1 WHERE T1.student_id = 1381     INTERSECT SELECT T2.friend_id FROM Friend AS T2 WHERE T2.student_id = 1101",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend WHERE friend.student_id = 1381     INTERSECT SELECT friend.friend_id FROM Friend AS friend WHERE friend.student_id = 1101"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1 WHERE T1.grade = 11     INTERSECT SELECT T2.ID FROM Highschooler AS T2 WHERE T2.grade = 9",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.grade = 11     INTERSECT SELECT high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.grade = 9"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.student_id FROM Friend AS T1 WHERE T1.friend_id = 1316     INTERSECT SELECT T2.student_id FROM Friend AS T2 WHERE T2.friend_id = 1316",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend WHERE friend.friend_id = 1316     INTERSECT SELECT friend.student_id FROM Friend AS friend WHERE friend.friend_id = 1316"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1 WHERE T1.student_id = 1689     INTERSECT SELECT T2.friend_id FROM Friend AS T2 WHERE T2.student_id = 1911",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend WHERE friend.student_id = 1689     INTERSECT SELECT friend.friend_id FROM Friend AS friend WHERE friend.student_id = 1911"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.liked_id) FROM Likes AS T1 WHERE T1.student_id = 1247",
+    "readable_query": "SELECT avg( likes.liked_id) FROM Likes AS likes WHERE likes.student_id = 1247"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.student_id) FROM Friend AS T1 WHERE T1.friend_id = 1641",
+    "readable_query": "SELECT avg( friend.student_id) FROM Friend AS friend WHERE friend.friend_id = 1641"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.student_id) FROM Likes AS T1 WHERE T1.liked_id = 1468",
+    "readable_query": "SELECT avg( likes.student_id) FROM Likes AS likes WHERE likes.liked_id = 1468"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.friend_id) FROM Friend AS T1 WHERE T1.student_id = 1501",
+    "readable_query": "SELECT avg( friend.friend_id) FROM Friend AS friend WHERE friend.student_id = 1501"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.grade) FROM Highschooler AS T1 WHERE T1.name = \"Logan\"",
+    "readable_query": "SELECT avg( high_schooler.grade) FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Logan\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.liked_id) FROM Likes AS T1 WHERE T1.student_id = 1501",
+    "readable_query": "SELECT avg( likes.liked_id) FROM Likes AS likes WHERE likes.student_id = 1501"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.ID) FROM Highschooler AS T1 WHERE T1.name = \"Brittany\"",
+    "readable_query": "SELECT avg( high_schooler.ID) FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Brittany\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.friend_id) FROM Friend AS T1 WHERE T1.student_id = 1468",
+    "readable_query": "SELECT avg( friend.friend_id) FROM Friend AS friend WHERE friend.student_id = 1468"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.ID) FROM Highschooler AS T1 WHERE T1.grade = 11",
+    "readable_query": "SELECT avg( high_schooler.ID) FROM Highschooler AS high_schooler WHERE high_schooler.grade = 11"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.friend_id) FROM Friend AS T1 WHERE T1.student_id = 1911",
+    "readable_query": "SELECT avg( friend.friend_id) FROM Friend AS friend WHERE friend.student_id = 1911"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.student_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID WHERE T2.ID = (SELECT max( T23.ID) FROM Highschooler AS T23)",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID WHERE high_schooler.ID = (SELECT max( high_schooler.ID) FROM Highschooler AS high_schooler)"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.student_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.grade = (SELECT max( T23.grade) FROM Highschooler AS T23)",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.grade = (SELECT max( high_schooler.grade) FROM Highschooler AS high_schooler)"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.name FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id WHERE T2.friend_id = (SELECT max( T23.friend_id) FROM Friend AS T23)",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id WHERE friend.friend_id = (SELECT max( friend.friend_id) FROM Friend AS friend)"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.name FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id WHERE T2.liked_id = (SELECT max( T23.liked_id) FROM Likes AS T23)",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id WHERE likes.liked_id = (SELECT max( likes.liked_id) FROM Likes AS likes)"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.grade = (SELECT max( T23.grade) FROM Highschooler AS T23)",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.grade = (SELECT max( high_schooler.grade) FROM Highschooler AS high_schooler)"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID WHERE T2.grade = (SELECT max( T23.grade) FROM Highschooler AS T23)",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID WHERE high_schooler.grade = (SELECT max( high_schooler.grade) FROM Highschooler AS high_schooler)"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.student_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID WHERE T2.grade = (SELECT max( T23.grade) FROM Highschooler AS T23)",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID WHERE high_schooler.grade = (SELECT max( high_schooler.grade) FROM Highschooler AS high_schooler)"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.name FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id WHERE T2.student_id = (SELECT max( T23.student_id) FROM Friend AS T23)",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id WHERE friend.student_id = (SELECT max( friend.student_id) FROM Friend AS friend)"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.student_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.ID = (SELECT max( T23.ID) FROM Highschooler AS T23)",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.ID = (SELECT max( high_schooler.ID) FROM Highschooler AS high_schooler)"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id WHERE T2.friend_id = (SELECT max( T23.friend_id) FROM Friend AS T23)",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id WHERE friend.friend_id = (SELECT max( friend.friend_id) FROM Friend AS friend)"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.friend_id, T2.name FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID JOIN Likes AS T3 ON T2.ID = T3.student_id WHERE T3.liked_id = 1101 and T2.ID = 1661",
+    "readable_query": "SELECT friend.friend_id, high_schooler.name FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID JOIN Likes AS likes ON high_schooler.ID = likes.student_id WHERE likes.liked_id = 1101 and high_schooler.ID = 1661"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.name, T2.student_id FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id JOIN Likes AS T3 ON T1.ID = T3.student_id WHERE T3.liked_id = 1468 and T2.friend_id = 1101",
+    "readable_query": "SELECT high_schooler.name, friend.student_id FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id JOIN Likes AS likes ON high_schooler.ID = likes.student_id WHERE likes.liked_id = 1468 and friend.friend_id = 1101"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.grade, T2.student_id FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id JOIN Likes AS T3 ON T1.ID = T3.student_id WHERE T3.liked_id = 1501 and T2.friend_id = 1782",
+    "readable_query": "SELECT high_schooler.grade, friend.student_id FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id JOIN Likes AS likes ON high_schooler.ID = likes.student_id WHERE likes.liked_id = 1501 and friend.friend_id = 1782"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.student_id, T2.ID FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID JOIN Friend AS T3 ON T2.ID = T3.friend_id WHERE T3.friend_id = 1101 and T2.name = \"Kyle\"",
+    "readable_query": "SELECT likes.student_id, high_schooler.ID FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID JOIN Friend AS friend ON high_schooler.ID = friend.friend_id WHERE friend.friend_id = 1101 and high_schooler.name = \"Kyle\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.friend_id, T2.ID FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID JOIN Likes AS T3 ON T2.ID = T3.student_id WHERE T3.student_id = 1316 and T2.grade = 9",
+    "readable_query": "SELECT friend.friend_id, high_schooler.ID FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID JOIN Likes AS likes ON high_schooler.ID = likes.student_id WHERE likes.student_id = 1316 and high_schooler.grade = 9"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.friend_id, T2.grade FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID JOIN Likes AS T3 ON T2.ID = T3.student_id WHERE T3.student_id = 1025 and T2.ID = 1304",
+    "readable_query": "SELECT friend.friend_id, high_schooler.grade FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID JOIN Likes AS likes ON high_schooler.ID = likes.student_id WHERE likes.student_id = 1025 and high_schooler.ID = 1304"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.student_id, T2.name FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID JOIN Likes AS T3 ON T2.ID = T3.student_id WHERE T3.liked_id = 1304 and T2.grade = 11",
+    "readable_query": "SELECT friend.student_id, high_schooler.name FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID JOIN Likes AS likes ON high_schooler.ID = likes.student_id WHERE likes.liked_id = 1304 and high_schooler.grade = 11"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.student_id, T2.grade FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID JOIN Likes AS T3 ON T2.ID = T3.student_id WHERE T3.liked_id = 1304 and T2.name = \"Jordan\"",
+    "readable_query": "SELECT friend.student_id, high_schooler.grade FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID JOIN Likes AS likes ON high_schooler.ID = likes.student_id WHERE likes.liked_id = 1304 and high_schooler.name = \"Jordan\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.student_id, T2.grade FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID JOIN Friend AS T3 ON T2.ID = T3.friend_id WHERE T3.friend_id = 1661 and T2.ID = 1304",
+    "readable_query": "SELECT likes.student_id, high_schooler.grade FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID JOIN Friend AS friend ON high_schooler.ID = friend.friend_id WHERE friend.friend_id = 1661 and high_schooler.ID = 1304"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.student_id, T2.grade FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID JOIN Likes AS T3 ON T2.ID = T3.student_id WHERE T3.liked_id = 1304 and T2.ID = 1304",
+    "readable_query": "SELECT friend.student_id, high_schooler.grade FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID JOIN Likes AS likes ON high_schooler.ID = likes.student_id WHERE likes.liked_id = 1304 and high_schooler.ID = 1304"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.name = \"Kris\" GROUP BY T1.liked_id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.name = \"Kris\" GROUP BY likes.liked_id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.name FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id WHERE T2.student_id = 1316 GROUP BY T1.name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT high_schooler.name FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id WHERE likes.student_id = 1316 GROUP BY high_schooler.name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.name = \"Alexis\" GROUP BY T1.liked_id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.name = \"Alexis\" GROUP BY likes.liked_id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.ID = 1689 GROUP BY T1.liked_id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.ID = 1689 GROUP BY likes.liked_id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id WHERE T2.liked_id = 1101 GROUP BY T1.ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id WHERE likes.liked_id = 1101 GROUP BY high_schooler.ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 JOIN Friend AS T2 ON T1.ID = T2.friend_id WHERE T2.friend_id = 1381 GROUP BY T1.grade  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler JOIN Friend AS friend ON high_schooler.ID = friend.friend_id WHERE friend.friend_id = 1381 GROUP BY high_schooler.grade  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.student_id FROM Friend AS T1 JOIN Highschooler AS T2 ON T1.friend_id = T2.ID WHERE T2.name = \"John\" GROUP BY T1.student_id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend JOIN Highschooler AS high_schooler ON friend.friend_id = high_schooler.ID WHERE high_schooler.name = \"John\" GROUP BY friend.student_id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.grade = 11 GROUP BY T1.liked_id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.grade = 11 GROUP BY likes.liked_id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1 JOIN Likes AS T2 ON T1.ID = T2.student_id WHERE T2.liked_id = 1101 GROUP BY T1.grade  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler JOIN Likes AS likes ON high_schooler.ID = likes.student_id WHERE likes.liked_id = 1101 GROUP BY high_schooler.grade  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1 JOIN Highschooler AS T2 ON T1.student_id = T2.ID WHERE T2.grade = 10 GROUP BY T1.liked_id  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes JOIN Highschooler AS high_schooler ON likes.student_id = high_schooler.ID WHERE high_schooler.grade = 10 GROUP BY likes.liked_id  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.student_id FROM Friend AS T1        EXCEPT SELECT T2.student_id FROM Friend AS T2 WHERE T2.friend_id = 1304",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend        EXCEPT SELECT friend.student_id FROM Friend AS friend WHERE friend.friend_id = 1304"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1        EXCEPT SELECT T2.liked_id FROM Likes AS T2 WHERE T2.student_id = 1641",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes        EXCEPT SELECT likes.liked_id FROM Likes AS likes WHERE likes.student_id = 1641"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.friend_id FROM Friend AS T1        EXCEPT SELECT T2.friend_id FROM Friend AS T2 WHERE T2.student_id = 1501",
+    "readable_query": "SELECT friend.friend_id FROM Friend AS friend        EXCEPT SELECT friend.friend_id FROM Friend AS friend WHERE friend.student_id = 1501"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1        EXCEPT SELECT T2.liked_id FROM Likes AS T2 WHERE T2.student_id = 1025",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes        EXCEPT SELECT likes.liked_id FROM Likes AS likes WHERE likes.student_id = 1025"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.student_id FROM Friend AS T1        EXCEPT SELECT T2.student_id FROM Friend AS T2 WHERE T2.friend_id = 1709",
+    "readable_query": "SELECT friend.student_id FROM Friend AS friend        EXCEPT SELECT friend.student_id FROM Friend AS friend WHERE friend.friend_id = 1709"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.grade FROM Highschooler AS T1        EXCEPT SELECT T2.grade FROM Highschooler AS T2 WHERE T2.name = \"Austin\"",
+    "readable_query": "SELECT high_schooler.grade FROM Highschooler AS high_schooler        EXCEPT SELECT high_schooler.grade FROM Highschooler AS high_schooler WHERE high_schooler.name = \"Austin\""
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.student_id FROM Likes AS T1        EXCEPT SELECT T2.student_id FROM Likes AS T2 WHERE T2.liked_id = 1934",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes        EXCEPT SELECT likes.student_id FROM Likes AS likes WHERE likes.liked_id = 1934"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.liked_id FROM Likes AS T1        EXCEPT SELECT T2.liked_id FROM Likes AS T2 WHERE T2.student_id = 1934",
+    "readable_query": "SELECT likes.liked_id FROM Likes AS likes        EXCEPT SELECT likes.liked_id FROM Likes AS likes WHERE likes.student_id = 1934"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.ID FROM Highschooler AS T1        EXCEPT SELECT T2.ID FROM Highschooler AS T2 WHERE T2.grade = 9",
+    "readable_query": "SELECT high_schooler.ID FROM Highschooler AS high_schooler        EXCEPT SELECT high_schooler.ID FROM Highschooler AS high_schooler WHERE high_schooler.grade = 9"
+  },
+  {
+    "db_id": "network_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.student_id FROM Likes AS T1        EXCEPT SELECT T2.student_id FROM Likes AS T2 WHERE T2.liked_id = 1501",
+    "readable_query": "SELECT likes.student_id FROM Likes AS likes        EXCEPT SELECT likes.student_id FROM Likes AS likes WHERE likes.liked_id = 1501"
+  }
+]

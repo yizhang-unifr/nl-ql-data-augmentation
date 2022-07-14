@@ -1,0 +1,28 @@
+SELECT topics.title FROM topics WHERE topics.code = 'FP7-PEOPLE-2009-RG' and topics.rcn = '665454'
+
+###
+
+
+Original Query:
+SELECT topics.title FROM topics WHERE topics.code = 'FP7-PEOPLE-2009-RG' and topics.rcn = '665454'
+GPT-3 choices:
+(0) Show me all topics in the FP7-PEOPLE-2009-RG project with research council number 665454.
+(1) What are the topics with title FP7-PEOPLE-2009-RG and having research group 665454?
+(2) What are the topics with code FP7-PEOPLE-2009-RG and rcn 665454 ?
+(3) Show topics with title that contains ***********
+(4) Show me all topics with code FP7-PEOPLE-2009-RG and their research council number, whether it is 665454 or not
+(5) Show the different topics of the project with code 665454 in the frame of FP7-PEOPLE.
+(6) Show me all the topics that start with FP7-PEOPLE-2009-RG and have a research group 66654
+(7) Display topics from the European Union's Reducing Ageing, shrinking programme that are assigned the project code 665454.
+
+
+Re-ranked choices:
+4.785  Show me all topics in the FP7-PEOPLE-2009-RG project with research council number 665454.
+4.702  Show me all topics with code FP7-PEOPLE-2009-RG and their research council number, whether it is 665454 or not
+4.690  Show me all the topics that start with FP7-PEOPLE-2009-RG and have a research group 66654
+4.686  What are the topics with title FP7-PEOPLE-2009-RG and having research group 665454?
+4.645  What are the topics with code FP7-PEOPLE-2009-RG and rcn 665454 ?
+4.168  Show the different topics of the project with code 665454 in the frame of FP7-PEOPLE.
+3.051  Display topics from the European Union's Reducing Ageing, shrinking programme that are assigned the project code 665454.
+2.139  Show topics with title that contains ***********
+

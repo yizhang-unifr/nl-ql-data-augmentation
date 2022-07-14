@@ -1,0 +1,16 @@
+SELECT project_members.member_role FROM project_members WHERE project_members.department_name != 'WT'
+
+###
+
+
+Original Query:
+SELECT project_members.member_role FROM project_members WHERE project_members.department_name != 'WT'
+GPT-3 choices:
+(0) Show all project members that are not in the department WT.
+(1) ### Retrieve project members within different departments.
+(2) Show me all project members that are not from the department WT
+(3) Show me the project members' roles of projects whose departments are not WT
+(4) Show me the project members roles in departments different from WT
+(5) Show project members with a different department than "WT"
+(6) Show me the member's role of project members whose department name is not WT
+(7) Gain all project members except those from department "WT"

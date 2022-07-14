@@ -1,0 +1,16 @@
+SELECT count(*) FROM erc_research_domains
+
+###
+
+
+Original Query:
+SELECT count(*) FROM erc_research_domains
+GPT-3 choices:
+(0) How many ERC research domains are there?
+(1) The number of ERC research domains
+(2) ###
+(3) 
+(4) The total number of research domains.
+(5) The number of ERC research domains.
+(6) Total number of Research Domains.
+(7) The number of research domains

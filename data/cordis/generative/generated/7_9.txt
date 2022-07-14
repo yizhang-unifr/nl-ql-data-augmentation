@@ -1,0 +1,16 @@
+SELECT erc_research_domains.description FROM erc_research_domains WHERE erc_research_domains.code = 'PE' or erc_research_domains.code = 'LS'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.description FROM erc_research_domains WHERE erc_research_domains.code = 'PE' or erc_research_domains.code = 'LS'
+GPT-3 choices:
+(0) Show me the research domains which code is either PE or LS
+(1) 
+(2) What are the research domains about practical engineering and about life sciences?
+(3) What are the different research domains for people or companies in Switzerland or Liechtenstein?
+(4) Show the description of institutions whose code start by either PE or LS
+(5) Show me erc research domains located in Latvia or Lithuania
+(6) Show all research domains where the code is either PE or LS
+(7) What are the description of erc research domains that have code PE or LS?

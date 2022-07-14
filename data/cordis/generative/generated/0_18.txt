@@ -1,0 +1,16 @@
+SELECT activity_types.code FROM activity_types WHERE activity_types.description = 'Research Organisations'
+
+###
+
+
+Original Query:
+SELECT activity_types.code FROM activity_types WHERE activity_types.description = 'Research Organisations'
+GPT-3 choices:
+(0) Get activity types of Research Organisation.
+(1) Display all activity types descriptions used by Research Organisation institutions
+(2) Show me all activity types descriptions with "Research Organisations"
+(3) Show the activity types descriptions of Research Organisations
+(4) Show activity type codes of research organisations.
+(5) Show all the activity types associated with research organisations?
+(6) Show all activity types in the category "Research Organisations"
+(7) What are the activity types of research organizations?

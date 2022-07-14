@@ -1,0 +1,401 @@
+[
+  {
+    "name": "breeds",
+    "original_name": "Breeds",
+    "logical_name": "Breeds",
+    "columns": [
+      {
+        "name": "breed code",
+        "original_name": "breed_code",
+        "logical_name": "breed_code",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "breed name",
+        "original_name": "breed_name",
+        "logical_name": "breed_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "charges",
+    "original_name": "Charges",
+    "logical_name": "Charges",
+    "columns": [
+      {
+        "name": "charge id",
+        "original_name": "charge_id",
+        "logical_name": "charge_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "charge type",
+        "original_name": "charge_type",
+        "logical_name": "charge_type",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "charge amount",
+        "original_name": "charge_amount",
+        "logical_name": "charge_amount",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  },
+  {
+    "name": "sizes",
+    "original_name": "Sizes",
+    "logical_name": "Sizes",
+    "columns": [
+      {
+        "name": "size code",
+        "original_name": "size_code",
+        "logical_name": "size_code",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "size description",
+        "original_name": "size_description",
+        "logical_name": "size_description",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "treatment types",
+    "original_name": "Treatment_Types",
+    "logical_name": "Treatment_Types",
+    "columns": [
+      {
+        "name": "treatment type code",
+        "original_name": "treatment_type_code",
+        "logical_name": "treatment_type_code",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "treatment type description",
+        "original_name": "treatment_type_description",
+        "logical_name": "treatment_type_description",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "owners",
+    "original_name": "Owners",
+    "logical_name": "Owners",
+    "columns": [
+      {
+        "name": "owner id",
+        "original_name": "owner_id",
+        "logical_name": "owner_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "first name",
+        "original_name": "first_name",
+        "logical_name": "first_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "last name",
+        "original_name": "last_name",
+        "logical_name": "last_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "street",
+        "original_name": "street",
+        "logical_name": "street",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "city",
+        "original_name": "city",
+        "logical_name": "city",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "state",
+        "original_name": "state",
+        "logical_name": "state",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "zip code",
+        "original_name": "zip_code",
+        "logical_name": "zip_code",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "email address",
+        "original_name": "email_address",
+        "logical_name": "email_address",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "home phone",
+        "original_name": "home_phone",
+        "logical_name": "home_phone",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "cell number",
+        "original_name": "cell_number",
+        "logical_name": "cell_number",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "dogs",
+    "original_name": "Dogs",
+    "logical_name": "Dogs",
+    "columns": [
+      {
+        "name": "dog id",
+        "original_name": "dog_id",
+        "logical_name": "dog_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "owner id",
+        "original_name": "owner_id",
+        "logical_name": "owner_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "abandoned yes or no",
+        "original_name": "abandoned_yn",
+        "logical_name": "abandoned_yn",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "breed code",
+        "original_name": "breed_code",
+        "logical_name": "breed_code",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "size code",
+        "original_name": "size_code",
+        "logical_name": "size_code",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "name",
+        "original_name": "name",
+        "logical_name": "name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "age",
+        "original_name": "age",
+        "logical_name": "age",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "date of birth",
+        "original_name": "date_of_birth",
+        "logical_name": "date_of_birth",
+        "original_datatype": "time",
+        "logical_datatype": "time"
+      },
+      {
+        "name": "gender",
+        "original_name": "gender",
+        "logical_name": "gender",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "weight",
+        "original_name": "weight",
+        "logical_name": "weight",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "date arrived",
+        "original_name": "date_arrived",
+        "logical_name": "date_arrived",
+        "original_datatype": "time",
+        "logical_datatype": "time"
+      },
+      {
+        "name": "date adopted",
+        "original_name": "date_adopted",
+        "logical_name": "date_adopted",
+        "original_datatype": "time",
+        "logical_datatype": "time"
+      },
+      {
+        "name": "date departed",
+        "original_name": "date_departed",
+        "logical_name": "date_departed",
+        "original_datatype": "time",
+        "logical_datatype": "time"
+      }
+    ]
+  },
+  {
+    "name": "professionals",
+    "original_name": "Professionals",
+    "logical_name": "Professionals",
+    "columns": [
+      {
+        "name": "professional id",
+        "original_name": "professional_id",
+        "logical_name": "professional_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "role code",
+        "original_name": "role_code",
+        "logical_name": "role_code",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "first name",
+        "original_name": "first_name",
+        "logical_name": "first_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "street",
+        "original_name": "street",
+        "logical_name": "street",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "city",
+        "original_name": "city",
+        "logical_name": "city",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "state",
+        "original_name": "state",
+        "logical_name": "state",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "zip code",
+        "original_name": "zip_code",
+        "logical_name": "zip_code",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "last name",
+        "original_name": "last_name",
+        "logical_name": "last_name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "email address",
+        "original_name": "email_address",
+        "logical_name": "email_address",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "home phone",
+        "original_name": "home_phone",
+        "logical_name": "home_phone",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "cell number",
+        "original_name": "cell_number",
+        "logical_name": "cell_number",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "treatments",
+    "original_name": "Treatments",
+    "logical_name": "Treatments",
+    "columns": [
+      {
+        "name": "treatment id",
+        "original_name": "treatment_id",
+        "logical_name": "treatment_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "dog id",
+        "original_name": "dog_id",
+        "logical_name": "dog_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "professional id",
+        "original_name": "professional_id",
+        "logical_name": "professional_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "treatment type code",
+        "original_name": "treatment_type_code",
+        "logical_name": "treatment_type_code",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "date of treatment",
+        "original_name": "date_of_treatment",
+        "logical_name": "date_of_treatment",
+        "original_datatype": "time",
+        "logical_datatype": "time"
+      },
+      {
+        "name": "cost of treatment",
+        "original_name": "cost_of_treatment",
+        "logical_name": "cost_of_treatment",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  }
+]

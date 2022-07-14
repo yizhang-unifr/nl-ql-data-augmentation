@@ -1,0 +1,28 @@
+SELECT programmes.title FROM programmes WHERE programmes.short_name = 'MCSA Initial training'
+
+###
+
+
+Original Query:
+SELECT programmes.title FROM programmes WHERE programmes.short_name = 'MCSA Initial training'
+GPT-3 choices:
+(0) Retrieve all the titles of programmes that have the short name "MCSA Initial training"
+(1) Show the titles of the projects with the short name "MCSA Initial training"
+(2) Show me all the different titles of the programme named "MCSA Initial training"
+(3) Retrieve all program titles for the programme with short name "MCSA Initial training".
+(4) Show me the titles of the programmes with short name MCSA Initial training
+(5) Show the title of programmes that have "MCSA Initial training" in their short name.
+(6) What are the programme titles of the MCSA Initial training?
+(7) Select all titles of programmes with short name "MCSA Initial training".
+
+
+Re-ranked choices:
+6.190  Show me the titles of the programmes with short name MCSA Initial training
+6.168  Show the title of programmes that have "MCSA Initial training" in their short name.
+6.140  Select all titles of programmes with short name "MCSA Initial training".
+6.136  Show me all the different titles of the programme named "MCSA Initial training"
+5.930  Retrieve all the titles of programmes that have the short name "MCSA Initial training"
+5.818  Retrieve all program titles for the programme with short name "MCSA Initial training".
+5.766  Show the titles of the projects with the short name "MCSA Initial training"
+5.584  What are the programme titles of the MCSA Initial training?
+

@@ -1,0 +1,177 @@
+[
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM institutions AS T1 JOIN project_members AS T13 ON T1.unics_id = T13.institution_id JOIN projects AS T2 ON T13.project = T2.unics_id WHERE T1.institutions_name like '%Royal Veterinary College%' and T2.start_year > 2014",
+    "question": "projects of the institution \"Royal Veterinary College\" that started after 2014"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM projects AS T1 JOIN project_members AS T2 ON T1.unics_id = T2.project WHERE T2.city like 'BUDAPEST' and T2.activity_type = 'PRC'",
+    "question": "projects whose beneficiaries are in the city of BUDAPEST and have activity type PRC"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM projects AS T2 JOIN project_members AS T15 ON T2.unics_id = T15.project JOIN institutions AS T3 ON T15.institution_id = T3.unics_id JOIN project_programmes AS T1 ON T1.project = T2.unics_id JOIN programmes AS T4 ON T1.programme = T4.code WHERE T3.institutions_name like '%Cardiff University%' and T4.short_name like '%MSCA Mobility%' ORDER BY T2.start_year ASC",
+    "question": "projects of the institution \"Cardiff University\" with programme short name \"MSCA Mobility\" ordered by year"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM projects AS T2 JOIN project_programmes AS T1 ON T1.project = T2.unics_id JOIN programmes AS T4 ON T1.programme = T4.code WHERE T4.short_name like '%Biotechnology%' and T2.ec_fund_scheme = 'SME-1'",
+    "question": "projects with programme short name Biotechnology and funding scheme code \"SME-1\""
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT T1.institutions_name, sum(T3.ec_contribution) FROM institutions AS T1 JOIN project_members AS T3 ON T1.unics_id = T3.institution_id GROUP BY T1.institutions_name ORDER BY sum(T3.ec_contribution) DESC",
+    "question": "institutions and funding received in descending order"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT T5.country_name, count(distinct T1.unics_id) FROM projects AS T1 JOIN project_members AS T2 ON T1.unics_id = T2.project JOIN project_programmes AS T14 ON T1.unics_id = T14.project JOIN programmes AS T3 ON T14.programme = T3.code JOIN institutions AS T4 ON T4.unics_id = T2.institution_id JOIN countries AS T5 ON T5.unics_id = T4.country_id WHERE T3.short_name like '%Science with and for Society%' GROUP BY T5.country_name",
+    "question": "count projects per country with programme short name \"Science with and for Society\""
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT T1.code, SUM(T2.ec_max_contribution) FROM erc_panels AS T1 JOIN project_erc_panels AS T3 ON T1.code = T3.panel JOIN projects T2 on T3.project = T2.unics_id GROUP BY T1.code ORDER BY SUM(T2.ec_max_contribution)",
+    "question": "erc panels and sum of project ec max contribution ordered descending"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM institutions AS T1 JOIN project_members AS T13 ON T1.unics_id = T13.institution_id JOIN projects AS T14 ON T13.project = T14.unics_id JOIN project_programmes AS T15 ON T14.unics_id = T15.project JOIN programmes AS T2 ON T15.programme = T2.code WHERE T2.code like 'H2020-EU.1.3.%'",
+    "question": "institutions that participate in projects under the programme with code \"H2020-EU.1.3.\""
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM institutions AS T1 JOIN project_members AS T2 ON T1.unics_id = T2.institution_id JOIN projects AS T14 ON T2.project = T14.unics_id JOIN project_programmes AS T15 ON T14.unics_id = T15.project JOIN programmes AS T3 ON T15.programme = T3.code WHERE T2.activity_type = 'PRC' and T3.short_name like '%Nanotechnologies%'",
+    "question": "private companies that participate in projects where programme short name is Nanotechnologies"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT T1.institutions_name, count(distinct T2.unics_id) FROM institutions AS T1 JOIN project_members AS T14 ON T1.unics_id = T14.institution_id JOIN projects AS T2 ON T14.project = T2.unics_id JOIN countries AS T3 ON T1.country_id = T3.unics_id WHERE T3.country_name like 'France' GROUP BY T1.institutions_name   ORDER BY count(distinct T2.unics_id) DESC",
+    "question": "institutions and number of projects where country is France ordered descending"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM institutions AS T1 JOIN project_members AS T2 ON T1.unics_id = T2.institution_id JOIN projects AS T14 ON T2.project = T14.unics_id WHERE T2.activity_type = 'PRC' and T14.framework_program = 'H2020'",
+    "question": "private companies that participate in H2020 projects"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM institutions AS T1 JOIN project_members AS T2 ON T1.unics_id = T2.institution_id JOIN projects AS T14 ON T2.project = T14.unics_id WHERE T2.activity_type = 'PRC' and T14.framework_program = 'FP7'",
+    "question": "private companies that participate in FP7 projects"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM project_members AS T1 JOIN projects AS T4 ON T1.project = T4.unics_id JOIN institutions AS T6 ON T1.institution_id = T6.unics_id JOIN countries AS T3 ON T6.country_id = T3.unics_id WHERE T3.country_name like 'Italy' and T4.framework_program = 'H2020'",
+    "question": "H2020 projects with participants from Italy"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM project_members AS T1 JOIN projects AS T4 ON T1.project = T4.unics_id JOIN institutions AS T6 ON T1.institution_id = T6.unics_id JOIN countries AS T3 ON T6.country_id = T3.unics_id WHERE T3.country_name like 'Italy' and T4.framework_program = 'H2020'",
+    "question": "H2020 projects with beneficiaries from Italy"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM institutions AS T1 JOIN project_members AS T2 ON T1.unics_id = T2.institution_id JOIN projects AS T14 ON T2.project = T14.unics_id JOIN countries AS T3 ON T1.country_id = T3.unics_id WHERE T3.country_name like 'Italy' and T2.activity_type = 'PRC' and T14.framework_program = 'H2020'",
+    "question": "private companies from Italy that participate in H2020 projects"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM project_members AS T1 JOIN projects AS T2 ON T1.project = T2.unics_id WHERE T2.acronym like 'INODE'",
+    "question": "participants of the project with acronym INODE"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM project_members AS T1 JOIN projects AS T2 ON T1.project = T2.unics_id WHERE T2.acronym like 'INODE'",
+    "question": "beneficiaries of the project with acronym INODE"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM project_members AS T1 JOIN projects AS T2 ON T1.project = T2.unics_id WHERE T2.acronym like 'INODE' and T1.member_role like 'coordinator'",
+    "question": "coordinator of the project with acronym INODE"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM projects AS T1",
+    "question": "Find all the projects"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM projects AS T1 WHERE T1.framework_program = 'H2020'",
+    "question": "Find all the H2020 projects"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM projects AS T1 WHERE T1.framework_program = 'FP7'",
+    "question": "Find all the FP7 projects"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM projects AS T1 where T1.start_year > 2018",
+    "question": "Find projects that started after 2018"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM projects AS T1 where T1.start_year < 2018",
+    "question": "Find projects that started before 2018"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM projects AS T1 where T1.start_year > 2018 and T1.framework_program = 'H2020'",
+    "question": "Find H2020 projects that started after 2018"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM projects AS T1 where T1.start_year > 2018 and T1.framework_program = 'H2020'",
+    "question": "Find H2020 projects that started before 2018"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM project_members AS T1 JOIN projects AS T2 ON T1.project = T2.unics_id JOIN people AS T3 ON T3.unics_id = T2.principal_investigator WHERE T3.full_name like '%Alberto Broggi%'",
+    "question": "Find projects where \"Alberto Broggi\" is the principal investigator"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM projects AS T2 JOIN project_members AS T1 ON T1.project = T2.unics_id JOIN institutions AS T3 ON T3.unics_id = T1.institution_id JOIN countries AS T4 ON T3.country_id = T4.unics_id WHERE T1.member_role like 'coordinator' and T4.country_name like 'Greece'",
+    "question": "Find projects whose coordinator is from Greece"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM institutions AS T1 JOIN project_members AS T2 ON T1.unics_id = T2.institution_id JOIN projects AS T14 ON T2.project = T14.unics_id WHERE T2.member_role like 'coordinator'",
+    "question": "Find institutions that have acted as a coordinator"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM projects AS T2 JOIN project_members AS T1 ON T1.project = T2.unics_id JOIN institutions AS T3 ON T3.unics_id = T1.institution_id JOIN countries AS T4 ON T3.country_id = T4.unics_id WHERE T4.country_name like 'Greece'",
+    "question": "Find projects with a member from Greece"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM projects AS T2 JOIN project_members AS T1 ON T1.project = T2.unics_id JOIN institutions AS T3 ON T3.unics_id = T1.institution_id JOIN countries AS T4 ON T3.country_id = T4.unics_id WHERE T4.country_name like 'Greece'",
+    "question": "Find projects with a beneficiary from Greece"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM project_members AS T1 JOIN projects AS T2 ON T1.project = T2.unics_id WHERE T2.acronym like 'ALFRED'",
+    "question": "List all the members of project ALFRED"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM projects AS T2 JOIN project_programmes AS T1 ON T1.project = T2.unics_id JOIN programmes T3 on T1.programme = T3.code WHERE T3.code like 'FP7-ICT%'",
+    "question": "List all projects under the \"FP7-ICT\" programme"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT T1.member_role FROM project_members AS T1 JOIN projects AS T2 ON T1.project = T2.unics_id JOIN institutions AS T3 ON T3.unics_id = T1.institution_id  WHERE T2.acronym like 'ARGOS' and T3.institutions_name like '%ATHENA%'",
+    "question": "Find the role of ATHENA in project ARGOS"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM project_members AS T1 JOIN projects AS T2 ON T1.project = T2.unics_id JOIN institutions AS T3 ON T3.unics_id = T1.institution_id JOIN countries AS T4 ON T3.country_id = T4.unics_id WHERE T1.activity_type = 'REC' and T4.country_name like 'Greece'",
+    "question": "Return projects of research organisations located in Greece"
+  },
+  {
+    "db_id": "cordis_temporary",
+    "query": "SELECT * FROM projects T1 JOIN project_members T2 on T1.unics_id = T2.project JOIN institutions T3 ON T2.institution_id = T3.unics_id JOIN eu_territorial_units AS T4 ON T2.geocode_regions_3 = T4.geocode_regions WHERE T4.description like 'Schaffhausen'",
+    "question": "Find all projects with beneficiaries located in the Schaffhausen area"
+  }
+]

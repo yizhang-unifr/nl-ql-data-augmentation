@@ -1,0 +1,191 @@
+[
+  {
+    "name": "conductor",
+    "original_name": "conductor",
+    "logical_name": "conductor",
+    "columns": [
+      {
+        "name": "conductor id",
+        "original_name": "Conductor_ID",
+        "logical_name": "Conductor_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "name",
+        "original_name": "Name",
+        "logical_name": "Name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "age",
+        "original_name": "Age",
+        "logical_name": "Age",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "nationality",
+        "original_name": "Nationality",
+        "logical_name": "Nationality",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "year of work",
+        "original_name": "Year_of_Work",
+        "logical_name": "Year_of_Work",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  },
+  {
+    "name": "orchestra",
+    "original_name": "orchestra",
+    "logical_name": "orchestra",
+    "columns": [
+      {
+        "name": "orchestra id",
+        "original_name": "Orchestra_ID",
+        "logical_name": "Orchestra_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "orchestra",
+        "original_name": "Orchestra",
+        "logical_name": "Orchestra",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "conductor id",
+        "original_name": "Conductor_ID",
+        "logical_name": "Conductor_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "record company",
+        "original_name": "Record_Company",
+        "logical_name": "Record_Company",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "year of founded",
+        "original_name": "Year_of_Founded",
+        "logical_name": "Year_of_Founded",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "major record format",
+        "original_name": "Major_Record_Format",
+        "logical_name": "Major_Record_Format",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "performance",
+    "original_name": "performance",
+    "logical_name": "performance",
+    "columns": [
+      {
+        "name": "performance id",
+        "original_name": "Performance_ID",
+        "logical_name": "Performance_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "orchestra id",
+        "original_name": "Orchestra_ID",
+        "logical_name": "Orchestra_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "type",
+        "original_name": "Type",
+        "logical_name": "Type",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "date",
+        "original_name": "Date",
+        "logical_name": "Date",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "official ratings (millions)",
+        "original_name": "Official_ratings_(millions)",
+        "logical_name": "Official_ratings_(millions)",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "weekly rank",
+        "original_name": "Weekly_rank",
+        "logical_name": "Weekly_rank",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "share",
+        "original_name": "Share",
+        "logical_name": "Share",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "show",
+    "original_name": "show",
+    "logical_name": "show",
+    "columns": [
+      {
+        "name": "show id",
+        "original_name": "Show_ID",
+        "logical_name": "Show_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "performance id",
+        "original_name": "Performance_ID",
+        "logical_name": "Performance_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "if first show",
+        "original_name": "If_first_show",
+        "logical_name": "If_first_show",
+        "original_datatype": "others",
+        "logical_datatype": "others"
+      },
+      {
+        "name": "result",
+        "original_name": "Result",
+        "logical_name": "Result",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "attendance",
+        "original_name": "Attendance",
+        "logical_name": "Attendance",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  }
+]

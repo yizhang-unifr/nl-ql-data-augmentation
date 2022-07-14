@@ -1,0 +1,28 @@
+SELECT programmes.title FROM programmes WHERE programmes.rcn = '664135' and programmes.short_name = 'Food, agriculture, forestry, marine research and bioeconomy'
+
+###
+
+
+Original Query:
+SELECT programmes.title FROM programmes WHERE programmes.rcn = '664135' and programmes.short_name = 'Food, agriculture, forestry, marine research and bioeconomy'
+GPT-3 choices:
+(0) Show me programmes with the title "Food, agriculture, forestry, marine research and bioeconomy" and the research council number 664135
+(1) Show me titles of programmes whose short name is ''Food, agriculture, forestry, marine research and bioeconomy''.
+(2) Show me all programs called "Food, agriculture, forestry, marine research and bioeconomy"
+(3) Show me programmes whose name is "Food, agriculture, forestry, marine research and bioeconomy"
+(4) What are the program names of projects with an RCN of 664135 and a short name of "Food, agriculture, forestry, marine research and bioeconomy"?
+(5) Retrieve all programme titles from the programme with reference number 664135 and short name Food, agriculture, forestry, marine research and bioeconomy
+(6) Show me all programmes with the project code 664135 and short name "Food, agriculture, forestry, marine research and bioeconomy"
+(7) Retrieve programme titles in which the programme's rcn is 664135 and the programme's short_name is Food, agriculture, forestry, marine research and bioeconomy
+
+
+Re-ranked choices:
+5.561  Show me programmes whose name is "Food, agriculture, forestry, marine research and bioeconomy"
+5.464  Show me all programmes with the project code 664135 and short name "Food, agriculture, forestry, marine research and bioeconomy"
+5.419  Show me programmes with the title "Food, agriculture, forestry, marine research and bioeconomy" and the research council number 664135
+5.376  Show me titles of programmes whose short name is ''Food, agriculture, forestry, marine research and bioeconomy''.
+5.120  Retrieve programme titles in which the programme's rcn is 664135 and the programme's short_name is Food, agriculture, forestry, marine research and bioeconomy
+5.039  Show me all programs called "Food, agriculture, forestry, marine research and bioeconomy"
+5.039  Retrieve all programme titles from the programme with reference number 664135 and short name Food, agriculture, forestry, marine research and bioeconomy
+4.837  What are the program names of projects with an RCN of 664135 and a short name of "Food, agriculture, forestry, marine research and bioeconomy"?
+

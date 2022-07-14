@@ -1,0 +1,16 @@
+SELECT institutions.institutions_name FROM institutions WHERE institutions.acronym = 'PSL'
+
+###
+
+
+Original Query:
+SELECT institutions.institutions_name FROM institutions WHERE institutions.acronym = 'PSL'
+GPT-3 choices:
+(0) My institutions with acronym PSL
+(1) Retrieve institutions associated with the acronym PSL
+(2) Which are the institutions whose acronym is PSL?
+(3) Show me the institutions with acronym PSL
+(4) Show me all institutions with the acronym PSL
+(5) Retrieve all institutions whose acronym is PSL
+(6) Retrieve all the different institutions with acronym ‘PSL’.
+(7) Show me institutions matching the acronym PSL

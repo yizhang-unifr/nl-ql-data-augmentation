@@ -1,0 +1,16 @@
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code != 'CSA-LSP'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code != 'CSA-LSP'
+GPT-3 choices:
+(0) Show all the funding scheme titles that are not CSA-LSP
+(1) Show me the title of funding schemes that are not CSA-LSP
+(2) How many funding scheme titles are there different from CSA-LSP?
+(3) Get all funding schemes except for the one called "CSA-LSP"
+(4) Show funding scheme titles that do not contain the string 'CSA-LSP'
+(5) Retrieve funding schemes where the code is not CSA-LSP
+(6) Show me all funding schemes with a different title than CSA-LSP
+(7) Show me all funding schemes different from CSA-LSP

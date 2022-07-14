@@ -1,0 +1,16 @@
+SELECT programmes.title FROM programmes WHERE programmes.short_name = 'Support to the coherent development of research policies' and programmes.code = 'NMP-FP7-2010-4.0-5'
+
+###
+
+
+Original Query:
+SELECT programmes.title FROM programmes WHERE programmes.short_name = 'Support to the coherent development of research policies' and programmes.code = 'NMP-FP7-2010-4.0-5'
+GPT-3 choices:
+(0) What are the project titles that apply to the project with code NMP-FP7-2010-4.0-5?
+(1) Show me all the titles of projects that have the code NMP-FP7-2010-4.0-5
+(2) Show projects with short name Support to the coherent development of research policies and code NMP-FP7-2010-4.0-5
+(3) Show me the titles of all projects called "Support to the coherent development of research policies" having code NMP-FP7-2010-4.0-5
+(4) Show me all the titles of the project "Support to the coherent development of research policies"
+(5) Select all the titles of programmes that have the short name Support to the coherent development of research policies and the code NMP-FP7-2010-4.0-5
+(6) Retrieve the title of project Support to the coherent development of research policies by programme code NMP-FP7-2010-4.0-5
+(7) Show me all programmes called Support to the coherent development of research policies that have the code NMP-FP7-2010-4.0-5

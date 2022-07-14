@@ -1,0 +1,16 @@
+SELECT count(*) FROM people WHERE people.full_name = 'Jeppe Vang Lauritsen'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM people WHERE people.full_name = 'Jeppe Vang Lauritsen'
+GPT-3 choices:
+(0) How many people have a full name of Jeppe Vang Lauritsen?
+(1) The number of people whose full names are "Jeppe Vang Lauritsen"
+(2) Display number of people named Jeppe Vang Lauritsen
+(3) Show the number of people named Jeppe Vang Lauritsen
+(4) How many people named Jeppe Vang Lauritsen are there?
+(5) How many people have the full name Jeppe Vang Lauritsen?
+(6) How many people with the full name of Jeppe Vang Lauritsen are there?
+(7) How many people are there with the full name Jeppe Vang Lauritsen?

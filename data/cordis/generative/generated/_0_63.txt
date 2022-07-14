@@ -1,0 +1,27 @@
+SELECT countries.country_code FROM countries WHERE countries.country_name = 'Kiribati'
+
+###
+
+
+Original Query:
+SELECT countries.country_code2 FROM countries WHERE countries.country_name = 'Kiribati'
+GPT-3 choices:
+(0) Which are the countries with the name Kiribati?
+(1) Retrieve country code from country with name Kiribati
+(2) What are the country codes of countries whose name is Kiribati?
+(3) Show all country codes that match the country name "Kiribati"
+(4) Show the country code of countries named Kiribati.
+(5) What are the country codes of countries whose name is Kiribati?
+(6) What are the country codes of all countries with country name Kiribati?
+(7) Show the country code for all the countries whose name is Kiribati.
+
+
+Re-ranked choices:
+5.331  What are the country codes of countries whose name is Kiribati?
+5.305  Show the country code for all the countries whose name is Kiribati.
+5.279  Show the country code of countries named Kiribati.
+5.264  What are the country codes of all countries with country name Kiribati?
+5.161  Show all country codes that match the country name "Kiribati"
+4.948  Retrieve country code from country with name Kiribati
+4.596  Which are the countries with the name Kiribati?
+

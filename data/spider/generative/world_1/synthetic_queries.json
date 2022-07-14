@@ -1,0 +1,1570 @@
+[
+  {
+    "db_id": "world_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Population FROM city AS T1 WHERE T1.ID = 1953",
+    "readable_query": "SELECT city.Population FROM city AS city WHERE city.ID = 1953"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.seq FROM sqlite_sequence AS T1 WHERE T1.name = \"city\"",
+    "readable_query": "SELECT sqlite_sequence.seq FROM sqlite_sequence AS sqlite_sequence WHERE sqlite_sequence.name = \"city\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.name FROM sqlite_sequence AS T1 WHERE T1.seq = \"4079\"",
+    "readable_query": "SELECT sqlite_sequence.name FROM sqlite_sequence AS sqlite_sequence WHERE sqlite_sequence.seq = \"4079\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.ID FROM city AS T1 WHERE T1.District = \"Kabol\"",
+    "readable_query": "SELECT city.ID FROM city AS city WHERE city.District = \"Kabol\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.IsOfficial FROM countrylanguage AS T1 WHERE T1.Percentage = 1.4",
+    "readable_query": "SELECT countrylanguage.IsOfficial FROM countrylanguage AS countrylanguage WHERE countrylanguage.Percentage = 1.4"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.HeadOfState FROM country AS T1 WHERE T1.Region = \"North America\"",
+    "readable_query": "SELECT country.HeadOfState FROM country AS country WHERE country.Region = \"North America\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Language FROM countrylanguage AS T1 WHERE T1.IsOfficial = \"F\"",
+    "readable_query": "SELECT countrylanguage.Language FROM countrylanguage AS countrylanguage WHERE countrylanguage.IsOfficial = \"F\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.HeadOfState FROM country AS T1 WHERE T1.Region = \"Eastern Asia\"",
+    "readable_query": "SELECT country.HeadOfState FROM country AS country WHERE country.Region = \"Eastern Asia\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.IndepYear FROM country AS T1 WHERE T1.Code = \"GMB\"",
+    "readable_query": "SELECT country.IndepYear FROM country AS country WHERE country.Code = \"GMB\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Language FROM countrylanguage AS T1 WHERE T1.Percentage = 27.8",
+    "readable_query": "SELECT countrylanguage.Language FROM countrylanguage AS countrylanguage WHERE countrylanguage.Percentage = 27.8"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.LifeExpectancy, count(*) FROM country AS T1  GROUP BY T1.LifeExpectancy",
+    "readable_query": "SELECT country.LifeExpectancy, count(*) FROM country AS country  GROUP BY country.LifeExpectancy"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.IsOfficial, count(*) FROM countrylanguage AS T1  GROUP BY T1.IsOfficial",
+    "readable_query": "SELECT countrylanguage.IsOfficial, count(*) FROM countrylanguage AS countrylanguage  GROUP BY countrylanguage.IsOfficial"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.ID, count(*) FROM city AS T1  GROUP BY T1.ID",
+    "readable_query": "SELECT city.ID, count(*) FROM city AS city  GROUP BY city.ID"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.CountryCode, count(*) FROM countrylanguage AS T1  GROUP BY T1.CountryCode",
+    "readable_query": "SELECT countrylanguage.CountryCode, count(*) FROM countrylanguage AS countrylanguage  GROUP BY countrylanguage.CountryCode"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.GovernmentForm, count(*) FROM country AS T1  GROUP BY T1.GovernmentForm",
+    "readable_query": "SELECT country.GovernmentForm, count(*) FROM country AS country  GROUP BY country.GovernmentForm"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.name, count(*) FROM sqlite_sequence AS T1  GROUP BY T1.name",
+    "readable_query": "SELECT sqlite_sequence.name, count(*) FROM sqlite_sequence AS sqlite_sequence  GROUP BY sqlite_sequence.name"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Population, count(*) FROM city AS T1  GROUP BY T1.Population",
+    "readable_query": "SELECT city.Population, count(*) FROM city AS city  GROUP BY city.Population"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.seq, count(*) FROM sqlite_sequence AS T1  GROUP BY T1.seq",
+    "readable_query": "SELECT sqlite_sequence.seq, count(*) FROM sqlite_sequence AS sqlite_sequence  GROUP BY sqlite_sequence.seq"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Capital, count(*) FROM country AS T1  GROUP BY T1.Capital",
+    "readable_query": "SELECT country.Capital, count(*) FROM country AS country  GROUP BY country.Capital"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Code, count(*) FROM country AS T1  GROUP BY T1.Code",
+    "readable_query": "SELECT country.Code, count(*) FROM country AS country  GROUP BY country.Code"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM country AS T1",
+    "readable_query": "SELECT count(*) FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM city AS T1",
+    "readable_query": "SELECT count(*) FROM city AS city"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM countrylanguage AS T1",
+    "readable_query": "SELECT count(*) FROM countrylanguage AS countrylanguage"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM sqlite_sequence AS T1",
+    "readable_query": "SELECT count(*) FROM sqlite_sequence AS sqlite_sequence"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.LifeExpectancy, T1.HeadOfState FROM country AS T1",
+    "readable_query": "SELECT country.LifeExpectancy, country.HeadOfState FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.name, T1.seq FROM sqlite_sequence AS T1",
+    "readable_query": "SELECT sqlite_sequence.name, sqlite_sequence.seq FROM sqlite_sequence AS sqlite_sequence"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.GovernmentForm, T1.Code FROM country AS T1",
+    "readable_query": "SELECT country.GovernmentForm, country.Code FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.seq, T1.name FROM sqlite_sequence AS T1",
+    "readable_query": "SELECT sqlite_sequence.seq, sqlite_sequence.name FROM sqlite_sequence AS sqlite_sequence"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.CountryCode, T1.IsOfficial FROM countrylanguage AS T1",
+    "readable_query": "SELECT countrylanguage.CountryCode, countrylanguage.IsOfficial FROM countrylanguage AS countrylanguage"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Population, T1.IndepYear FROM country AS T1",
+    "readable_query": "SELECT country.Population, country.IndepYear FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Continent, T1.GovernmentForm FROM country AS T1",
+    "readable_query": "SELECT country.Continent, country.GovernmentForm FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Language, T1.IsOfficial FROM countrylanguage AS T1",
+    "readable_query": "SELECT countrylanguage.Language, countrylanguage.IsOfficial FROM countrylanguage AS countrylanguage"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Continent, T1.IndepYear FROM country AS T1",
+    "readable_query": "SELECT country.Continent, country.IndepYear FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.CountryCode, T1.Percentage FROM countrylanguage AS T1",
+    "readable_query": "SELECT countrylanguage.CountryCode, countrylanguage.Percentage FROM countrylanguage AS countrylanguage"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Name, T1.Population FROM city AS T1 WHERE T1.ID = 134",
+    "readable_query": "SELECT city.Name, city.Population FROM city AS city WHERE city.ID = 134"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.IsOfficial, T1.Percentage FROM countrylanguage AS T1 WHERE T1.CountryCode = \"BIH\"",
+    "readable_query": "SELECT countrylanguage.IsOfficial, countrylanguage.Percentage FROM countrylanguage AS countrylanguage WHERE countrylanguage.CountryCode = \"BIH\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Continent, T1.Code FROM country AS T1 WHERE T1.LifeExpectancy = 77.7",
+    "readable_query": "SELECT country.Continent, country.Code FROM country AS country WHERE country.LifeExpectancy = 77.7"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Code2, T1.Population FROM country AS T1 WHERE T1.GovernmentForm = \"Nonmetropolitan Territory of New Zealand\"",
+    "readable_query": "SELECT country.Code2, country.Population FROM country AS country WHERE country.GovernmentForm = \"Nonmetropolitan Territory of New Zealand\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.GNPOld, T1.Population FROM country AS T1 WHERE T1.LocalName = \"Magyarorsz\u00e1g\"",
+    "readable_query": "SELECT country.GNPOld, country.Population FROM country AS country WHERE country.LocalName = \"Magyarorsz\u00e1g\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.GovernmentForm, T1.LocalName FROM country AS T1 WHERE T1.GNPOld = 755.0",
+    "readable_query": "SELECT country.GovernmentForm, country.LocalName FROM country AS country WHERE country.GNPOld = 755.0"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.District, T1.Population FROM city AS T1 WHERE T1.CountryCode = \"NER\"",
+    "readable_query": "SELECT city.District, city.Population FROM city AS city WHERE city.CountryCode = \"NER\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Language, T1.Percentage FROM countrylanguage AS T1 WHERE T1.CountryCode = \"HRV\"",
+    "readable_query": "SELECT countrylanguage.Language, countrylanguage.Percentage FROM countrylanguage AS countrylanguage WHERE countrylanguage.CountryCode = \"HRV\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.LocalName, T1.LifeExpectancy FROM country AS T1 WHERE T1.GovernmentForm = \"Dependent Territory of the US\"",
+    "readable_query": "SELECT country.LocalName, country.LifeExpectancy FROM country AS country WHERE country.GovernmentForm = \"Dependent Territory of the US\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.CountryCode, T1.District FROM city AS T1 WHERE T1.Name = \"Ladysmith\"",
+    "readable_query": "SELECT city.CountryCode, city.District FROM city AS city WHERE city.Name = \"Ladysmith\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Language FROM countrylanguage AS T1  GROUP BY T1.Language  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT countrylanguage.Language FROM countrylanguage AS countrylanguage  GROUP BY countrylanguage.Language  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.CountryCode FROM city AS T1  GROUP BY T1.CountryCode  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT city.CountryCode FROM city AS city  GROUP BY city.CountryCode  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Percentage FROM countrylanguage AS T1  GROUP BY T1.Percentage  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT countrylanguage.Percentage FROM countrylanguage AS countrylanguage  GROUP BY countrylanguage.Percentage  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.seq FROM sqlite_sequence AS T1  GROUP BY T1.seq  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT sqlite_sequence.seq FROM sqlite_sequence AS sqlite_sequence  GROUP BY sqlite_sequence.seq  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.IndepYear FROM country AS T1  GROUP BY T1.IndepYear  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT country.IndepYear FROM country AS country  GROUP BY country.IndepYear  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.name FROM sqlite_sequence AS T1  GROUP BY T1.name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT sqlite_sequence.name FROM sqlite_sequence AS sqlite_sequence  GROUP BY sqlite_sequence.name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.GovernmentForm FROM country AS T1  GROUP BY T1.GovernmentForm  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT country.GovernmentForm FROM country AS country  GROUP BY country.GovernmentForm  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.HeadOfState FROM country AS T1  GROUP BY T1.HeadOfState  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT country.HeadOfState FROM country AS country  GROUP BY country.HeadOfState  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.CountryCode FROM countrylanguage AS T1  GROUP BY T1.CountryCode  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT countrylanguage.CountryCode FROM countrylanguage AS countrylanguage  GROUP BY countrylanguage.CountryCode  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.LifeExpectancy FROM country AS T1  GROUP BY T1.LifeExpectancy  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT country.LifeExpectancy FROM country AS country  GROUP BY country.LifeExpectancy  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM countrylanguage AS T1 WHERE T1.Language = \"Marma\"",
+    "readable_query": "SELECT count(*) FROM countrylanguage AS countrylanguage WHERE countrylanguage.Language = \"Marma\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM countrylanguage AS T1 WHERE T1.Language = \"Sumo\"",
+    "readable_query": "SELECT count(*) FROM countrylanguage AS countrylanguage WHERE countrylanguage.Language = \"Sumo\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM city AS T1 WHERE T1.ID = 1905",
+    "readable_query": "SELECT count(*) FROM city AS city WHERE city.ID = 1905"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM country AS T1 WHERE T1.IndepYear = 1980",
+    "readable_query": "SELECT count(*) FROM country AS country WHERE country.IndepYear = 1980"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM sqlite_sequence AS T1 WHERE T1.seq = \"4079\"",
+    "readable_query": "SELECT count(*) FROM sqlite_sequence AS sqlite_sequence WHERE sqlite_sequence.seq = \"4079\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM sqlite_sequence AS T1 WHERE T1.name = \"city\"",
+    "readable_query": "SELECT count(*) FROM sqlite_sequence AS sqlite_sequence WHERE sqlite_sequence.name = \"city\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM countrylanguage AS T1 WHERE T1.Percentage = 21.2",
+    "readable_query": "SELECT count(*) FROM countrylanguage AS countrylanguage WHERE countrylanguage.Percentage = 21.2"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM country AS T1 WHERE T1.Code2 = \"SC\"",
+    "readable_query": "SELECT count(*) FROM country AS country WHERE country.Code2 = \"SC\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM countrylanguage AS T1 WHERE T1.Percentage = 13.7",
+    "readable_query": "SELECT count(*) FROM countrylanguage AS countrylanguage WHERE countrylanguage.Percentage = 13.7"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM country AS T1 WHERE T1.SurfaceArea = 1.5",
+    "readable_query": "SELECT count(*) FROM country AS country WHERE country.SurfaceArea = 1.5"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Language FROM countrylanguage AS T1    ORDER BY T1.Percentage DESC LIMIT 1",
+    "readable_query": "SELECT countrylanguage.Language FROM countrylanguage AS countrylanguage    ORDER BY countrylanguage.Percentage DESC LIMIT 1"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.LifeExpectancy FROM country AS T1    ORDER BY T1.GNPOld DESC LIMIT 1",
+    "readable_query": "SELECT country.LifeExpectancy FROM country AS country    ORDER BY country.GNPOld DESC LIMIT 1"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.CountryCode FROM city AS T1    ORDER BY T1.Population DESC LIMIT 1",
+    "readable_query": "SELECT city.CountryCode FROM city AS city    ORDER BY city.Population DESC LIMIT 1"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.GNPOld FROM country AS T1    ORDER BY T1.LifeExpectancy DESC LIMIT 1",
+    "readable_query": "SELECT country.GNPOld FROM country AS country    ORDER BY country.LifeExpectancy DESC LIMIT 1"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.District FROM city AS T1    ORDER BY T1.ID DESC LIMIT 1",
+    "readable_query": "SELECT city.District FROM city AS city    ORDER BY city.ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.CountryCode FROM countrylanguage AS T1    ORDER BY T1.Percentage DESC LIMIT 1",
+    "readable_query": "SELECT countrylanguage.CountryCode FROM countrylanguage AS countrylanguage    ORDER BY countrylanguage.Percentage DESC LIMIT 1"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Population FROM city AS T1    ORDER BY T1.ID DESC LIMIT 1",
+    "readable_query": "SELECT city.Population FROM city AS city    ORDER BY city.ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.SurfaceArea FROM country AS T1    ORDER BY T1.IndepYear DESC LIMIT 1",
+    "readable_query": "SELECT country.SurfaceArea FROM country AS country    ORDER BY country.IndepYear DESC LIMIT 1"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Capital FROM country AS T1    ORDER BY T1.Population DESC LIMIT 1",
+    "readable_query": "SELECT country.Capital FROM country AS country    ORDER BY country.Population DESC LIMIT 1"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.GNPOld FROM country AS T1    ORDER BY T1.IndepYear DESC LIMIT 1",
+    "readable_query": "SELECT country.GNPOld FROM country AS country    ORDER BY country.IndepYear DESC LIMIT 1"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Capital) FROM country AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  country.Capital) FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.LocalName) FROM country AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  country.LocalName) FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.CountryCode) FROM city AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  city.CountryCode) FROM city AS city"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.HeadOfState) FROM country AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  country.HeadOfState) FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Language) FROM countrylanguage AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  countrylanguage.Language) FROM countrylanguage AS countrylanguage"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.GNPOld) FROM country AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  country.GNPOld) FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.seq) FROM sqlite_sequence AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  sqlite_sequence.seq) FROM sqlite_sequence AS sqlite_sequence"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Percentage) FROM countrylanguage AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  countrylanguage.Percentage) FROM countrylanguage AS countrylanguage"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM country AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  country.Name) FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.name) FROM sqlite_sequence AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  sqlite_sequence.name) FROM sqlite_sequence AS sqlite_sequence"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Percentage) FROM countrylanguage AS T1",
+    "readable_query": "SELECT avg( countrylanguage.Percentage) FROM countrylanguage AS countrylanguage"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Population) FROM country AS T1",
+    "readable_query": "SELECT avg( country.Population) FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Capital) FROM country AS T1",
+    "readable_query": "SELECT avg( country.Capital) FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Population) FROM city AS T1",
+    "readable_query": "SELECT avg( city.Population) FROM city AS city"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.SurfaceArea) FROM country AS T1",
+    "readable_query": "SELECT avg( country.SurfaceArea) FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.GNP) FROM country AS T1",
+    "readable_query": "SELECT avg( country.GNP) FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.ID) FROM city AS T1",
+    "readable_query": "SELECT avg( city.ID) FROM city AS city"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.LifeExpectancy) FROM country AS T1",
+    "readable_query": "SELECT avg( country.LifeExpectancy) FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.IndepYear) FROM country AS T1",
+    "readable_query": "SELECT avg( country.IndepYear) FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.GNPOld) FROM country AS T1",
+    "readable_query": "SELECT avg( country.GNPOld) FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.LocalName FROM country AS T1",
+    "readable_query": "SELECT country.LocalName FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.name FROM sqlite_sequence AS T1",
+    "readable_query": "SELECT sqlite_sequence.name FROM sqlite_sequence AS sqlite_sequence"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.IndepYear FROM country AS T1",
+    "readable_query": "SELECT country.IndepYear FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.HeadOfState FROM country AS T1",
+    "readable_query": "SELECT country.HeadOfState FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.seq FROM sqlite_sequence AS T1",
+    "readable_query": "SELECT sqlite_sequence.seq FROM sqlite_sequence AS sqlite_sequence"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Code FROM country AS T1",
+    "readable_query": "SELECT country.Code FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Population FROM city AS T1",
+    "readable_query": "SELECT city.Population FROM city AS city"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.District FROM city AS T1",
+    "readable_query": "SELECT city.District FROM city AS city"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Language FROM countrylanguage AS T1",
+    "readable_query": "SELECT countrylanguage.Language FROM countrylanguage AS countrylanguage"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Population FROM country AS T1",
+    "readable_query": "SELECT country.Population FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.IsOfficial FROM countrylanguage AS T1",
+    "readable_query": "SELECT DISTINCT countrylanguage.IsOfficial FROM countrylanguage AS countrylanguage"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.CountryCode FROM countrylanguage AS T1",
+    "readable_query": "SELECT DISTINCT countrylanguage.CountryCode FROM countrylanguage AS countrylanguage"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.seq FROM sqlite_sequence AS T1",
+    "readable_query": "SELECT DISTINCT sqlite_sequence.seq FROM sqlite_sequence AS sqlite_sequence"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.name FROM sqlite_sequence AS T1",
+    "readable_query": "SELECT DISTINCT sqlite_sequence.name FROM sqlite_sequence AS sqlite_sequence"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Name FROM city AS T1",
+    "readable_query": "SELECT DISTINCT city.Name FROM city AS city"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Capital FROM country AS T1",
+    "readable_query": "SELECT DISTINCT country.Capital FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Population FROM city AS T1",
+    "readable_query": "SELECT DISTINCT city.Population FROM city AS city"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Code2 FROM country AS T1",
+    "readable_query": "SELECT DISTINCT country.Code2 FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.ID FROM city AS T1",
+    "readable_query": "SELECT DISTINCT city.ID FROM city AS city"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Region FROM country AS T1",
+    "readable_query": "SELECT DISTINCT country.Region FROM country AS country"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.IsOfficial FROM countrylanguage AS T1     ORDER BY T1.Percentage ASC",
+    "readable_query": "SELECT countrylanguage.IsOfficial FROM countrylanguage AS countrylanguage     ORDER BY countrylanguage.Percentage ASC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.GNPOld FROM country AS T1     ORDER BY T1.LifeExpectancy ASC",
+    "readable_query": "SELECT country.GNPOld FROM country AS country     ORDER BY country.LifeExpectancy ASC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.IndepYear FROM country AS T1     ORDER BY T1.SurfaceArea ASC",
+    "readable_query": "SELECT country.IndepYear FROM country AS country     ORDER BY country.SurfaceArea ASC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Population FROM city AS T1     ORDER BY T1.ID ASC",
+    "readable_query": "SELECT city.Population FROM city AS city     ORDER BY city.ID ASC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM city AS T1     ORDER BY T1.ID ASC",
+    "readable_query": "SELECT city.Name FROM city AS city     ORDER BY city.ID ASC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.ID FROM city AS T1     ORDER BY T1.Population ASC",
+    "readable_query": "SELECT city.ID FROM city AS city     ORDER BY city.Population ASC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.CountryCode FROM countrylanguage AS T1     ORDER BY T1.Percentage ASC",
+    "readable_query": "SELECT countrylanguage.CountryCode FROM countrylanguage AS countrylanguage     ORDER BY countrylanguage.Percentage ASC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM country AS T1     ORDER BY T1.IndepYear ASC",
+    "readable_query": "SELECT country.Name FROM country AS country     ORDER BY country.IndepYear ASC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.LocalName FROM country AS T1     ORDER BY T1.IndepYear ASC",
+    "readable_query": "SELECT country.LocalName FROM country AS country     ORDER BY country.IndepYear ASC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.District FROM city AS T1     ORDER BY T1.Population ASC",
+    "readable_query": "SELECT city.District FROM city AS city     ORDER BY city.Population ASC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Language FROM countrylanguage AS T1     ORDER BY T1.Percentage DESC",
+    "readable_query": "SELECT countrylanguage.Language FROM countrylanguage AS countrylanguage     ORDER BY countrylanguage.Percentage DESC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.CountryCode FROM countrylanguage AS T1     ORDER BY T1.Percentage DESC",
+    "readable_query": "SELECT countrylanguage.CountryCode FROM countrylanguage AS countrylanguage     ORDER BY countrylanguage.Percentage DESC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.IndepYear FROM country AS T1     ORDER BY T1.Capital DESC",
+    "readable_query": "SELECT country.IndepYear FROM country AS country     ORDER BY country.Capital DESC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.GNPOld FROM country AS T1     ORDER BY T1.Capital DESC",
+    "readable_query": "SELECT country.GNPOld FROM country AS country     ORDER BY country.Capital DESC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Continent FROM country AS T1     ORDER BY T1.Capital DESC",
+    "readable_query": "SELECT country.Continent FROM country AS country     ORDER BY country.Capital DESC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.ID FROM city AS T1     ORDER BY T1.Population DESC",
+    "readable_query": "SELECT city.ID FROM city AS city     ORDER BY city.Population DESC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.GovernmentForm FROM country AS T1     ORDER BY T1.GNP DESC",
+    "readable_query": "SELECT country.GovernmentForm FROM country AS country     ORDER BY country.GNP DESC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.District FROM city AS T1     ORDER BY T1.ID DESC",
+    "readable_query": "SELECT city.District FROM city AS city     ORDER BY city.ID DESC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.IsOfficial FROM countrylanguage AS T1     ORDER BY T1.Percentage DESC",
+    "readable_query": "SELECT countrylanguage.IsOfficial FROM countrylanguage AS countrylanguage     ORDER BY countrylanguage.Percentage DESC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM city AS T1     ORDER BY T1.ID DESC",
+    "readable_query": "SELECT city.Name FROM city AS city     ORDER BY city.ID DESC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Percentage, T1.IsOfficial FROM countrylanguage AS T1     ORDER BY T1.IsOfficial ASC",
+    "readable_query": "SELECT countrylanguage.Percentage, countrylanguage.IsOfficial FROM countrylanguage AS countrylanguage     ORDER BY countrylanguage.IsOfficial ASC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.IndepYear, T1.Population FROM country AS T1     ORDER BY T1.Population ASC",
+    "readable_query": "SELECT country.IndepYear, country.Population FROM country AS country     ORDER BY country.Population ASC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.seq, T1.name FROM sqlite_sequence AS T1     ORDER BY T1.name ASC",
+    "readable_query": "SELECT sqlite_sequence.seq, sqlite_sequence.name FROM sqlite_sequence AS sqlite_sequence     ORDER BY sqlite_sequence.name ASC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.LocalName, T1.LifeExpectancy FROM country AS T1     ORDER BY T1.LifeExpectancy ASC",
+    "readable_query": "SELECT country.LocalName, country.LifeExpectancy FROM country AS country     ORDER BY country.LifeExpectancy ASC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Language, T1.Percentage FROM countrylanguage AS T1     ORDER BY T1.Percentage ASC",
+    "readable_query": "SELECT countrylanguage.Language, countrylanguage.Percentage FROM countrylanguage AS countrylanguage     ORDER BY countrylanguage.Percentage ASC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.LocalName, T1.GNPOld FROM country AS T1     ORDER BY T1.GNPOld ASC",
+    "readable_query": "SELECT country.LocalName, country.GNPOld FROM country AS country     ORDER BY country.GNPOld ASC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.IsOfficial, T1.Language FROM countrylanguage AS T1     ORDER BY T1.Language ASC",
+    "readable_query": "SELECT countrylanguage.IsOfficial, countrylanguage.Language FROM countrylanguage AS countrylanguage     ORDER BY countrylanguage.Language ASC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.CountryCode, T1.IsOfficial FROM countrylanguage AS T1     ORDER BY T1.IsOfficial ASC",
+    "readable_query": "SELECT countrylanguage.CountryCode, countrylanguage.IsOfficial FROM countrylanguage AS countrylanguage     ORDER BY countrylanguage.IsOfficial ASC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Population, T1.Name FROM country AS T1     ORDER BY T1.Name ASC",
+    "readable_query": "SELECT country.Population, country.Name FROM country AS country     ORDER BY country.Name ASC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.GNPOld, T1.Capital FROM country AS T1     ORDER BY T1.Capital ASC",
+    "readable_query": "SELECT country.GNPOld, country.Capital FROM country AS country     ORDER BY country.Capital ASC"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Population FROM city AS T1 WHERE T1.District = \"Saint George\u00b4s\" and T1.ID = 1956",
+    "readable_query": "SELECT city.Population FROM city AS city WHERE city.District = \"Saint George\u00b4s\" and city.ID = 1956"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.LifeExpectancy FROM country AS T1 WHERE T1.Capital = 2515 and T1.Name = \"Madagascar\"",
+    "readable_query": "SELECT country.LifeExpectancy FROM country AS country WHERE country.Capital = 2515 and country.Name = \"Madagascar\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Code FROM country AS T1 WHERE T1.LocalName = \"British Virgin Islands\" and T1.GNPOld = 5924.0",
+    "readable_query": "SELECT country.Code FROM country AS country WHERE country.LocalName = \"British Virgin Islands\" and country.GNPOld = 5924.0"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.CountryCode FROM city AS T1 WHERE T1.Population = 99693 and T1.Name = \"Malita\"",
+    "readable_query": "SELECT city.CountryCode FROM city AS city WHERE city.Population = 99693 and city.Name = \"Malita\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Continent FROM country AS T1 WHERE T1.Population = 156483000 and T1.Code = \"CIV\"",
+    "readable_query": "SELECT country.Continent FROM country AS country WHERE country.Population = 156483000 and country.Code = \"CIV\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.District FROM city AS T1 WHERE T1.Population = 383900 and T1.Name = \"Berazategui\"",
+    "readable_query": "SELECT city.District FROM city AS city WHERE city.Population = 383900 and city.Name = \"Berazategui\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.GNP FROM country AS T1 WHERE T1.Code2 = \"MY\" and T1.GNPOld = 4935.0",
+    "readable_query": "SELECT country.GNP FROM country AS country WHERE country.Code2 = \"MY\" and country.GNPOld = 4935.0"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.IsOfficial FROM countrylanguage AS T1 WHERE T1.Percentage = 1.5 and T1.Language = \"Sena\"",
+    "readable_query": "SELECT countrylanguage.IsOfficial FROM countrylanguage AS countrylanguage WHERE countrylanguage.Percentage = 1.5 and countrylanguage.Language = \"Sena\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Name FROM city AS T1 WHERE T1.Population = 409632 and T1.ID = 2057",
+    "readable_query": "SELECT city.Name FROM city AS city WHERE city.Population = 409632 and city.ID = 2057"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Region FROM country AS T1 WHERE T1.SurfaceArea = 801590.0 and T1.Population = 1972000",
+    "readable_query": "SELECT country.Region FROM country AS country WHERE country.SurfaceArea = 801590.0 and country.Population = 1972000"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Continent FROM country AS T1 WHERE T1.Name = \"Dominican Republic\" or T1.Code = \"TMP\"",
+    "readable_query": "SELECT country.Continent FROM country AS country WHERE country.Name = \"Dominican Republic\" or country.Code = \"TMP\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.IsOfficial FROM countrylanguage AS T1 WHERE T1.Language = \"Ga-adangme\" or T1.CountryCode = \"WLF\"",
+    "readable_query": "SELECT countrylanguage.IsOfficial FROM countrylanguage AS countrylanguage WHERE countrylanguage.Language = \"Ga-adangme\" or countrylanguage.CountryCode = \"WLF\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Name FROM city AS T1 WHERE T1.Population = 473276 or T1.ID = 2142",
+    "readable_query": "SELECT city.Name FROM city AS city WHERE city.Population = 473276 or city.ID = 2142"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.CountryCode FROM countrylanguage AS T1 WHERE T1.Percentage = 4.3 or T1.IsOfficial = \"F\"",
+    "readable_query": "SELECT countrylanguage.CountryCode FROM countrylanguage AS countrylanguage WHERE countrylanguage.Percentage = 4.3 or countrylanguage.IsOfficial = \"F\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Language FROM countrylanguage AS T1 WHERE T1.Percentage = 21.4 or T1.IsOfficial = \"T\"",
+    "readable_query": "SELECT countrylanguage.Language FROM countrylanguage AS countrylanguage WHERE countrylanguage.Percentage = 21.4 or countrylanguage.IsOfficial = \"T\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.CountryCode FROM countrylanguage AS T1 WHERE T1.Percentage = 86.2 or T1.IsOfficial = \"T\"",
+    "readable_query": "SELECT countrylanguage.CountryCode FROM countrylanguage AS countrylanguage WHERE countrylanguage.Percentage = 86.2 or countrylanguage.IsOfficial = \"T\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Percentage FROM countrylanguage AS T1 WHERE T1.IsOfficial = \"T\" or T1.Language = \"Mbum\"",
+    "readable_query": "SELECT countrylanguage.Percentage FROM countrylanguage AS countrylanguage WHERE countrylanguage.IsOfficial = \"T\" or countrylanguage.Language = \"Mbum\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Code FROM country AS T1 WHERE T1.Region = \"Central America\" or T1.GovernmentForm = \"US Territory\"",
+    "readable_query": "SELECT country.Code FROM country AS country WHERE country.Region = \"Central America\" or country.GovernmentForm = \"US Territory\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Name FROM country AS T1 WHERE T1.LocalName = \"Shqip\u00ebria\" or T1.Code = \"TZA\"",
+    "readable_query": "SELECT country.Name FROM country AS country WHERE country.LocalName = \"Shqip\u00ebria\" or country.Code = \"TZA\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Region FROM country AS T1 WHERE T1.IndepYear = 1811 or T1.SurfaceArea = 245857.0",
+    "readable_query": "SELECT country.Region FROM country AS country WHERE country.IndepYear = 1811 or country.SurfaceArea = 245857.0"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.CountryCode FROM countrylanguage AS T1 WHERE T1.Language != \"Berberi\"",
+    "readable_query": "SELECT countrylanguage.CountryCode FROM countrylanguage AS countrylanguage WHERE countrylanguage.Language != \"Berberi\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Percentage FROM countrylanguage AS T1 WHERE T1.IsOfficial != \"T\"",
+    "readable_query": "SELECT countrylanguage.Percentage FROM countrylanguage AS countrylanguage WHERE countrylanguage.IsOfficial != \"T\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Name FROM city AS T1 WHERE T1.District != \"Basse-Normandie\"",
+    "readable_query": "SELECT city.Name FROM city AS city WHERE city.District != \"Basse-Normandie\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Population FROM city AS T1 WHERE T1.CountryCode != \"ATG\"",
+    "readable_query": "SELECT city.Population FROM city AS city WHERE city.CountryCode != \"ATG\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.IsOfficial FROM countrylanguage AS T1 WHERE T1.CountryCode != \"CYP\"",
+    "readable_query": "SELECT countrylanguage.IsOfficial FROM countrylanguage AS countrylanguage WHERE countrylanguage.CountryCode != \"CYP\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.CountryCode FROM countrylanguage AS T1 WHERE T1.IsOfficial != \"F\"",
+    "readable_query": "SELECT countrylanguage.CountryCode FROM countrylanguage AS countrylanguage WHERE countrylanguage.IsOfficial != \"F\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.name FROM sqlite_sequence AS T1 WHERE T1.seq != \"4079\"",
+    "readable_query": "SELECT sqlite_sequence.name FROM sqlite_sequence AS sqlite_sequence WHERE sqlite_sequence.seq != \"4079\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.GovernmentForm FROM country AS T1 WHERE T1.LifeExpectancy != 72.4",
+    "readable_query": "SELECT country.GovernmentForm FROM country AS country WHERE country.LifeExpectancy != 72.4"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.CountryCode FROM countrylanguage AS T1 WHERE T1.Language != \"Tagalog\"",
+    "readable_query": "SELECT countrylanguage.CountryCode FROM countrylanguage AS countrylanguage WHERE countrylanguage.Language != \"Tagalog\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.seq FROM sqlite_sequence AS T1 WHERE T1.name != \"city\"",
+    "readable_query": "SELECT sqlite_sequence.seq FROM sqlite_sequence AS sqlite_sequence WHERE sqlite_sequence.name != \"city\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.seq) FROM sqlite_sequence AS T1 WHERE T1.name = \"city\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  sqlite_sequence.seq) FROM sqlite_sequence AS sqlite_sequence WHERE sqlite_sequence.name = \"city\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Capital) FROM country AS T1 WHERE T1.HeadOfState = \"Eduard \u0160evardnadze\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  country.Capital) FROM country AS country WHERE country.HeadOfState = \"Eduard \u0160evardnadze\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM country AS T1 WHERE T1.GNPOld = 401461.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  country.Name) FROM country AS country WHERE country.GNPOld = 401461.0"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Population) FROM country AS T1 WHERE T1.GNP = 212.0",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  country.Population) FROM country AS country WHERE country.GNP = 212.0"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.CountryCode) FROM city AS T1 WHERE T1.District = \"Cheju\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  city.CountryCode) FROM city AS city WHERE city.District = \"Cheju\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.GNPOld) FROM country AS T1 WHERE T1.GovernmentForm = \"Socialistic Republic\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  country.GNPOld) FROM country AS country WHERE country.GovernmentForm = \"Socialistic Republic\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.name) FROM sqlite_sequence AS T1 WHERE T1.seq = \"4079\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  sqlite_sequence.name) FROM sqlite_sequence AS sqlite_sequence WHERE sqlite_sequence.seq = \"4079\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM city AS T1 WHERE T1.CountryCode = \"CYM\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  city.Name) FROM city AS city WHERE city.CountryCode = \"CYM\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.LocalName) FROM country AS T1 WHERE T1.GovernmentForm = \"Federal Republic\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  country.LocalName) FROM country AS country WHERE country.GovernmentForm = \"Federal Republic\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.IsOfficial) FROM countrylanguage AS T1 WHERE T1.Language = \"Newari\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  countrylanguage.IsOfficial) FROM countrylanguage AS countrylanguage WHERE countrylanguage.Language = \"Newari\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Population FROM country AS T1 WHERE T1.Capital > 187",
+    "readable_query": "SELECT country.Population FROM country AS country WHERE country.Capital > 187"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Language FROM countrylanguage AS T1 WHERE T1.Percentage > 20.0",
+    "readable_query": "SELECT countrylanguage.Language FROM countrylanguage AS countrylanguage WHERE countrylanguage.Percentage > 20.0"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Language FROM countrylanguage AS T1 WHERE T1.Percentage > 0.4",
+    "readable_query": "SELECT countrylanguage.Language FROM countrylanguage AS countrylanguage WHERE countrylanguage.Percentage > 0.4"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.CountryCode FROM city AS T1 WHERE T1.ID > 260",
+    "readable_query": "SELECT city.CountryCode FROM city AS city WHERE city.ID > 260"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Name FROM city AS T1 WHERE T1.Population > 332288",
+    "readable_query": "SELECT city.Name FROM city AS city WHERE city.Population > 332288"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.CountryCode FROM countrylanguage AS T1 WHERE T1.Percentage > 0.2",
+    "readable_query": "SELECT countrylanguage.CountryCode FROM countrylanguage AS countrylanguage WHERE countrylanguage.Percentage > 0.2"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Name FROM city AS T1 WHERE T1.ID > 360",
+    "readable_query": "SELECT city.Name FROM city AS city WHERE city.ID > 360"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.IsOfficial FROM countrylanguage AS T1 WHERE T1.Percentage > 63.6",
+    "readable_query": "SELECT countrylanguage.IsOfficial FROM countrylanguage AS countrylanguage WHERE countrylanguage.Percentage > 63.6"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.LifeExpectancy FROM country AS T1 WHERE T1.IndepYear > 1838",
+    "readable_query": "SELECT country.LifeExpectancy FROM country AS country WHERE country.IndepYear > 1838"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Continent FROM country AS T1 WHERE T1.LifeExpectancy > 50.1",
+    "readable_query": "SELECT country.Continent FROM country AS country WHERE country.LifeExpectancy > 50.1"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.seq FROM sqlite_sequence AS T1 WHERE T1.name = \"city\"     INTERSECT SELECT T2.seq FROM sqlite_sequence AS T2 WHERE T2.name = \"city\"",
+    "readable_query": "SELECT sqlite_sequence.seq FROM sqlite_sequence AS sqlite_sequence WHERE sqlite_sequence.name = \"city\"     INTERSECT SELECT sqlite_sequence.seq FROM sqlite_sequence AS sqlite_sequence WHERE sqlite_sequence.name = \"city\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.SurfaceArea FROM country AS T1 WHERE T1.LifeExpectancy = 56.6     INTERSECT SELECT T2.SurfaceArea FROM country AS T2 WHERE T2.LifeExpectancy = 76.1",
+    "readable_query": "SELECT country.SurfaceArea FROM country AS country WHERE country.LifeExpectancy = 56.6     INTERSECT SELECT country.SurfaceArea FROM country AS country WHERE country.LifeExpectancy = 76.1"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Language FROM countrylanguage AS T1 WHERE T1.IsOfficial = \"T\"     INTERSECT SELECT T2.Language FROM countrylanguage AS T2 WHERE T2.IsOfficial = \"T\"",
+    "readable_query": "SELECT countrylanguage.Language FROM countrylanguage AS countrylanguage WHERE countrylanguage.IsOfficial = \"T\"     INTERSECT SELECT countrylanguage.Language FROM countrylanguage AS countrylanguage WHERE countrylanguage.IsOfficial = \"T\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.CountryCode FROM countrylanguage AS T1 WHERE T1.Language = \"Kongo\"     INTERSECT SELECT T2.CountryCode FROM countrylanguage AS T2 WHERE T2.Language = \"Nepali\"",
+    "readable_query": "SELECT countrylanguage.CountryCode FROM countrylanguage AS countrylanguage WHERE countrylanguage.Language = \"Kongo\"     INTERSECT SELECT countrylanguage.CountryCode FROM countrylanguage AS countrylanguage WHERE countrylanguage.Language = \"Nepali\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.IsOfficial FROM countrylanguage AS T1 WHERE T1.CountryCode = \"MDG\"     INTERSECT SELECT T2.IsOfficial FROM countrylanguage AS T2 WHERE T2.CountryCode = \"ISL\"",
+    "readable_query": "SELECT countrylanguage.IsOfficial FROM countrylanguage AS countrylanguage WHERE countrylanguage.CountryCode = \"MDG\"     INTERSECT SELECT countrylanguage.IsOfficial FROM countrylanguage AS countrylanguage WHERE countrylanguage.CountryCode = \"ISL\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Name FROM city AS T1 WHERE T1.ID = 53     INTERSECT SELECT T2.Name FROM city AS T2 WHERE T2.ID = 1926",
+    "readable_query": "SELECT city.Name FROM city AS city WHERE city.ID = 53     INTERSECT SELECT city.Name FROM city AS city WHERE city.ID = 1926"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.HeadOfState FROM country AS T1 WHERE T1.SurfaceArea = 1240192.0     INTERSECT SELECT T2.HeadOfState FROM country AS T2 WHERE T2.SurfaceArea = 51197.0",
+    "readable_query": "SELECT country.HeadOfState FROM country AS country WHERE country.SurfaceArea = 1240192.0     INTERSECT SELECT country.HeadOfState FROM country AS country WHERE country.SurfaceArea = 51197.0"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.CountryCode FROM countrylanguage AS T1 WHERE T1.Percentage = 6.0     INTERSECT SELECT T2.CountryCode FROM countrylanguage AS T2 WHERE T2.Percentage = 12.4",
+    "readable_query": "SELECT countrylanguage.CountryCode FROM countrylanguage AS countrylanguage WHERE countrylanguage.Percentage = 6.0     INTERSECT SELECT countrylanguage.CountryCode FROM countrylanguage AS countrylanguage WHERE countrylanguage.Percentage = 12.4"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Name FROM city AS T1 WHERE T1.District = \"Belize City\"     INTERSECT SELECT T2.Name FROM city AS T2 WHERE T2.District = \"al-Najaf\"",
+    "readable_query": "SELECT city.Name FROM city AS city WHERE city.District = \"Belize City\"     INTERSECT SELECT city.Name FROM city AS city WHERE city.District = \"al-Najaf\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.District FROM city AS T1 WHERE T1.Population = 135621     INTERSECT SELECT T2.District FROM city AS T2 WHERE T2.Population = 319033",
+    "readable_query": "SELECT city.District FROM city AS city WHERE city.Population = 135621     INTERSECT SELECT city.District FROM city AS city WHERE city.Population = 319033"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Population) FROM city AS T1 WHERE T1.Name = \"Gjumri\"",
+    "readable_query": "SELECT avg( city.Population) FROM city AS city WHERE city.Name = \"Gjumri\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.ID) FROM city AS T1 WHERE T1.CountryCode = \"MKD\"",
+    "readable_query": "SELECT avg( city.ID) FROM city AS city WHERE city.CountryCode = \"MKD\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Percentage) FROM countrylanguage AS T1 WHERE T1.CountryCode = \"ZAF\"",
+    "readable_query": "SELECT avg( countrylanguage.Percentage) FROM countrylanguage AS countrylanguage WHERE countrylanguage.CountryCode = \"ZAF\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.GNP) FROM country AS T1 WHERE T1.Capital = 2401",
+    "readable_query": "SELECT avg( country.GNP) FROM country AS country WHERE country.Capital = 2401"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.ID) FROM city AS T1 WHERE T1.District = \"Managua\"",
+    "readable_query": "SELECT avg( city.ID) FROM city AS city WHERE city.District = \"Managua\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.GNP) FROM country AS T1 WHERE T1.Capital = 3016",
+    "readable_query": "SELECT avg( country.GNP) FROM country AS country WHERE country.Capital = 3016"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.ID) FROM city AS T1 WHERE T1.CountryCode = \"COK\"",
+    "readable_query": "SELECT avg( city.ID) FROM city AS city WHERE city.CountryCode = \"COK\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.SurfaceArea) FROM country AS T1 WHERE T1.LocalName = \"Sri Lanka/Ilankai\"",
+    "readable_query": "SELECT avg( country.SurfaceArea) FROM country AS country WHERE country.LocalName = \"Sri Lanka/Ilankai\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Percentage) FROM countrylanguage AS T1 WHERE T1.Language = \"Akan\"",
+    "readable_query": "SELECT avg( countrylanguage.Percentage) FROM countrylanguage AS countrylanguage WHERE countrylanguage.Language = \"Akan\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Population) FROM country AS T1 WHERE T1.IndepYear = 1908",
+    "readable_query": "SELECT avg( country.Population) FROM country AS country WHERE country.IndepYear = 1908"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.LifeExpectancy FROM country AS T1        EXCEPT SELECT T2.LifeExpectancy FROM country AS T2 WHERE T2.GNP = 818.0",
+    "readable_query": "SELECT country.LifeExpectancy FROM country AS country        EXCEPT SELECT country.LifeExpectancy FROM country AS country WHERE country.GNP = 818.0"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.IsOfficial FROM countrylanguage AS T1        EXCEPT SELECT T2.IsOfficial FROM countrylanguage AS T2 WHERE T2.Language = \"Comorian-Swahili\"",
+    "readable_query": "SELECT countrylanguage.IsOfficial FROM countrylanguage AS countrylanguage        EXCEPT SELECT countrylanguage.IsOfficial FROM countrylanguage AS countrylanguage WHERE countrylanguage.Language = \"Comorian-Swahili\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.CountryCode FROM countrylanguage AS T1        EXCEPT SELECT T2.CountryCode FROM countrylanguage AS T2 WHERE T2.IsOfficial = \"F\"",
+    "readable_query": "SELECT countrylanguage.CountryCode FROM countrylanguage AS countrylanguage        EXCEPT SELECT countrylanguage.CountryCode FROM countrylanguage AS countrylanguage WHERE countrylanguage.IsOfficial = \"F\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Percentage FROM countrylanguage AS T1        EXCEPT SELECT T2.Percentage FROM countrylanguage AS T2 WHERE T2.Language = \"Mongo\"",
+    "readable_query": "SELECT countrylanguage.Percentage FROM countrylanguage AS countrylanguage        EXCEPT SELECT countrylanguage.Percentage FROM countrylanguage AS countrylanguage WHERE countrylanguage.Language = \"Mongo\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.LocalName FROM country AS T1        EXCEPT SELECT T2.LocalName FROM country AS T2 WHERE T2.Code2 = \"HU\"",
+    "readable_query": "SELECT country.LocalName FROM country AS country        EXCEPT SELECT country.LocalName FROM country AS country WHERE country.Code2 = \"HU\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.GNPOld FROM country AS T1        EXCEPT SELECT T2.GNPOld FROM country AS T2 WHERE T2.LocalName = \"Bolivia\"",
+    "readable_query": "SELECT country.GNPOld FROM country AS country        EXCEPT SELECT country.GNPOld FROM country AS country WHERE country.LocalName = \"Bolivia\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Language FROM countrylanguage AS T1        EXCEPT SELECT T2.Language FROM countrylanguage AS T2 WHERE T2.Percentage = 17.9",
+    "readable_query": "SELECT countrylanguage.Language FROM countrylanguage AS countrylanguage        EXCEPT SELECT countrylanguage.Language FROM countrylanguage AS countrylanguage WHERE countrylanguage.Percentage = 17.9"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.GNP FROM country AS T1        EXCEPT SELECT T2.GNP FROM country AS T2 WHERE T2.Continent = \"Asia\"",
+    "readable_query": "SELECT country.GNP FROM country AS country        EXCEPT SELECT country.GNP FROM country AS country WHERE country.Continent = \"Asia\""
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Name FROM city AS T1        EXCEPT SELECT T2.Name FROM city AS T2 WHERE T2.ID = 415",
+    "readable_query": "SELECT city.Name FROM city AS city        EXCEPT SELECT city.Name FROM city AS city WHERE city.ID = 415"
+  },
+  {
+    "db_id": "world_1",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.seq FROM sqlite_sequence AS T1        EXCEPT SELECT T2.seq FROM sqlite_sequence AS T2 WHERE T2.name = \"city\"",
+    "readable_query": "SELECT sqlite_sequence.seq FROM sqlite_sequence AS sqlite_sequence        EXCEPT SELECT sqlite_sequence.seq FROM sqlite_sequence AS sqlite_sequence WHERE sqlite_sequence.name = \"city\""
+  }
+]

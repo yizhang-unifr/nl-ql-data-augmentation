@@ -1,0 +1,16 @@
+SELECT project_members.department_name FROM project_members WHERE project_members.institution_id = 756922
+
+###
+
+
+Original Query:
+SELECT project_members.department_name FROM project_members WHERE project_members.institution_id = 756922
+GPT-3 choices:
+(0) Show me employees that have projects assigned to the institutions with institution_id 756922
+(1) Show the departments of project members
+(2) Show all department names of project members of the institution with ID 756922
+(3) Show all project members in the department 756922
+(4) Display all the department names of the project members from the institution with id 756922
+(5) Show all department names of project members which are assigned to by the institution with institute number 756922
+(6) Show me all the departments of project members.
+(7) Retrieve the department name of project members from Institute 756922.

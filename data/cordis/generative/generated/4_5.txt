@@ -1,0 +1,16 @@
+SELECT count(*) FROM projects WHERE projects.ec_fund_scheme = 'MSCA-IF-GF'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM projects WHERE projects.ec_fund_scheme = 'MSCA-IF-GF'
+GPT-3 choices:
+(0) The number of projects with the european ec funding scheme MSCA-IF-GF
+(1) How many projects are there in which the European Commission Funding Schemes general fund participates?
+(2) How many projects have an EC fund scheme?
+(3) How many projects are there with an eu funding scheme MSCA-IF-GF?
+(4) Show the number of projects that have an ec fund scheme named MSCA-IF-GF
+(5) Show the total number of projects funded by the MSCA-IF-GF scheme
+(6) What is the total number of projects funded by the MSCA-IF-GF scheme?
+(7) Show the number of projects funded by the MSCA-IF-GF scheme

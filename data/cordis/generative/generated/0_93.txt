@@ -1,0 +1,16 @@
+SELECT subject_areas.description FROM subject_areas WHERE subject_areas.title = 'Hydrogen and fuel cells'
+
+###
+
+
+Original Query:
+SELECT subject_areas.description FROM subject_areas WHERE subject_areas.title = 'Hydrogen and fuel cells'
+GPT-3 choices:
+(0) What are subject areas whose title is Hydrogen and fuel cells
+(1) The subject areas with title “Hydrogen and fuel cells”
+(2) Select subject areas with title Hydrogen and fuel cells
+(3) Show me the subject areas with the title 'Hydrogen and fuel cells'
+(4) What are the subject areas with the title “Hydrogen and fuel cells”?
+(5) The subject area of hydro gen and fuel cells###
+(6) Show project descriptions for subject areas that are called "Hydrogen and fuel cells"
+(7) Show all subject areas having Hydrogen and fuel cells as title

@@ -1,0 +1,16 @@
+SELECT countries.country_code FROM countries WHERE countries.country_name = 'French Southern and Antarctic Lands'
+
+###
+
+
+Original Query:
+SELECT countries.country_code2 FROM countries WHERE countries.country_name = 'French Southern and Antarctic Lands'
+GPT-3 choices:
+(0) Show countries using the country_code from French Southern and Antarctic Lands
+(1) What are the country codes of countries with the name French Southern and Antarctic Lands?
+(2) Display the country code for all countries where the country name is French Southern and Antarctic Lands
+(3) There are only one countries associated with the country name French Southern and Antarctic Lands
+(4) The countries with country code from the country with the name French Southern and Antarctic Lands
+(5) Show the country code for countries with name French Southern and Antarctic Lands
+(6) Show all country codes for countries with name French Southern and Antarctic Lands.
+(7) Show country code of country with name French Southern and Antarctic Lands

@@ -1,0 +1,28 @@
+SELECT erc_research_domains.code FROM erc_research_domains WHERE erc_research_domains.description != 'Life Sciences'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.code FROM erc_research_domains WHERE erc_research_domains.description != 'Life Sciences'
+GPT-3 choices:
+(0) Show me all research domains not describing themselves as Life Sciences.
+(1) Show me all the research domains whose description is != 'Life Sciences'
+(2) Show me research domains that are not Life Sciences?
+(3) Show me research domains which are not in the life sciences. ###
+(4) Show erc research domains having descriptions different from Life Sciences
+(5) Show me the research domains that are not ascribed with the description 'Life Sciences'
+(6) Show me all the research domains outside of Life Sciences.
+(7) Show me the research domains not associated with Life Sciences
+
+
+Re-ranked choices:
+6.215  Show me research domains that are not Life Sciences?
+6.166  Show me the research domains that are not ascribed with the description 'Life Sciences'
+6.088  Show me the research domains not associated with Life Sciences
+6.024  Show me research domains which are not in the life sciences. ###
+6.016  Show me all research domains not describing themselves as Life Sciences.
+5.985  Show me all the research domains whose description is != 'Life Sciences'
+5.786  Show me all the research domains outside of Life Sciences.
+4.773  Show erc research domains having descriptions different from Life Sciences
+

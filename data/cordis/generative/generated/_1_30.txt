@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units JOIN project_members ON eu_territorial_units.geocode_regions = project_members.geocode_regions_3 WHERE project_members.city = 'HANNOVER'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.description FROM eu_territorial_units JOIN project_members ON eu_territorial_units.geocode_regions = project_members.geocode_regions_3 WHERE project_members.city = 'HANNOVER'
+GPT-3 choices:
+(0) Show me eu territorial unit descriptions that have a project member whose city is 'HANNOVER'.
+(1) Show me all territorial units which have an associated member in the city of Hannover
+(2) What are the descriptions of the territorial units of europe located in the city of Hannover?
+(3) Show the description of eu territorial units which involve someone living in HANNOVER
+(4) Show the descriptions of the EC territorial units in the region of the project member from Hannover?
+(5) Retrieve eu territorial unit descriptions of project members from city Hannover
+(6) What are the territorial unit descriptions of projects whose members are located in the city of Hannover?
+(7) Show the description of territorial units that have a project member in the city of Hannover
+
+
+Re-ranked choices:
+6.085  Show me eu territorial unit descriptions that have a project member whose city is 'HANNOVER'.
+6.079  Show the description of territorial units that have a project member in the city of Hannover
+5.915  Show me all territorial units which have an associated member in the city of Hannover
+5.869  What are the territorial unit descriptions of projects whose members are located in the city of Hannover?
+5.845  Show the description of eu territorial units which involve someone living in HANNOVER
+5.809  What are the descriptions of the territorial units of europe located in the city of Hannover?
+5.752  Show the descriptions of the EC territorial units in the region of the project member from Hannover?
+5.548  Retrieve eu territorial unit descriptions of project members from city Hannover
+

@@ -1,0 +1,26 @@
+SELECT count(*) FROM project_member_roles WHERE project_member_roles.description = 'Coordinator'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM project_member_roles WHERE project_member_roles.description = 'Coordinator'
+GPT-3 choices:
+(0) How many project member roles have the description 'Coordinator'?
+(1) How many project member roles are there where the description is Coordinator?
+(2) How many project members are coordinators?
+(3) How many people are involved in projects as coordinators?
+(4) How many project member roles are there which are also a coordinator?
+(5) How many project members are coordinators?
+(6) How many project members are coordinators?
+(7) How many project members from the role 'Coordinator' are there?
+
+
+Re-ranked choices:
+4.601  How many project member roles are there which are also a coordinator?
+4.595  How many project members from the role 'Coordinator' are there?
+4.590  How many project member roles have the description 'Coordinator'?
+4.579  How many project members are coordinators?
+4.530  How many project member roles are there where the description is Coordinator?
+4.322  How many people are involved in projects as coordinators?
+

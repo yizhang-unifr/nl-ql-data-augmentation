@@ -1,0 +1,16 @@
+SELECT institutions.geocode_regions_3 FROM institutions WHERE institutions.unics_id = 283369 and institutions.short_name = 'UdA'
+
+###
+
+
+Original Query:
+SELECT institutions.geocode_regions_3 FROM institutions WHERE institutions.unics_id = 283369 and institutions.short_name = 'UdA'
+GPT-3 choices:
+(0) Show me the geocode regions for the institution with unics_id 283369 and short_name UdA
+(1) What are the geocode regions 3 of the institution with unics id 283369 and short name uda?
+(2) Retrieve all the geocode regions related to the institution with unics code 283369 and short name "UdA"
+(3) Show all the geocode regions associated with the institution with unics code 283369 and short name UdA
+(4) What are the geocode regions of the institution whose unics_id is 283369 and short_name is 'UdA'?
+(5) Retrieve geocode regions 3 of institutions having the unics code 283369 and the short name "UdA"
+(6) Show me all the geo regions of the institution with unics_id = 283369 and short_name = 'UdA'
+(7) Show a list of geocode regions for the institution having unics code 283369 and short name 'UdA'

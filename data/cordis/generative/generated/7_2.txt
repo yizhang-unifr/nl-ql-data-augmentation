@@ -1,0 +1,16 @@
+SELECT countries.country_name FROM countries WHERE countries.country_code = 'LB' or countries.country_code = 'PG'
+
+###
+
+
+Original Query:
+SELECT countries.country_name FROM countries WHERE countries.country_code2 = 'LB' or countries.country_code2 = 'PG'
+GPT-3 choices:
+(0) Show me countries whose country code is LB or PG
+(1) Retrieve all countries from the LB and PG country code
+(2) Show me the name of countries that have either a country code of LB or a country code of PG
+(3) What are the countries whose country code is LB or PG ?
+(4) Which are the countries that have at least one region in LB or PG?
+(5) What are the different country names for countries with country code LB or PG?
+(6) What is the country name of the countries with country code LB or PG?
+(7) Show the country name of all countries whose country code is either LB or PG

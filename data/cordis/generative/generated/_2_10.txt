@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.description, count(*) FROM eu_territorial_units  GROUP BY eu_territorial_units.description
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.description, count(*) FROM eu_territorial_units  GROUP BY eu_territorial_units.description
+GPT-3 choices:
+(0) How many are the European territorial units?
+(1) What are the different territorial unit descriptions?
+(2) What is the total number of territorial units?
+(3) What are the different descriptions of territorial units in Europe?
+(4) Show the average number of territorial units that contain all the countries in Europe plus the united kingdom
+(5) How many territorial units are at least partially located in Guinea?
+(6) How many eu territorial units have descriptions?
+(7) Count the description used by territorial units
+
+
+Re-ranked choices:
+5.379  How many eu territorial units have descriptions?
+5.326  What is the total number of territorial units?
+5.281  What are the different descriptions of territorial units in Europe?
+5.228  How many are the European territorial units?
+5.109  Count the description used by territorial units
+4.965  What are the different territorial unit descriptions?
+4.238  Show the average number of territorial units that contain all the countries in Europe plus the united kingdom
+3.935  How many territorial units are at least partially located in Guinea?
+

@@ -1,0 +1,16 @@
+SELECT projects.end_year FROM projects WHERE projects.acronym != 'IPCCAR5'
+
+###
+
+
+Original Query:
+SELECT projects.end_year FROM projects WHERE projects.acronym != 'IPCCAR5'
+GPT-3 choices:
+(0) Show me all projects that have a different acronyms than IPCCAR5
+(1) Show all projects that didn’t take part in the IPCC-5
+(2) 
+(3) Retrieve the end year of projects which acronym is different from IPCCAR5
+(4) Show me the years of all the projects except IPCCAR5
+(5) What is the ending year of projects that have an acronym that is different from IPCCAR5?
+(6) Which projects ended in 2017?
+(7) Show the ending year of all projects

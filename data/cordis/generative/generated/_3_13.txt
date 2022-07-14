@@ -1,0 +1,25 @@
+SELECT count(*) FROM subject_areas
+
+###
+
+
+Original Query:
+SELECT count(*) FROM subject_areas
+GPT-3 choices:
+(0) Count the number of subject areas.
+(1) How many subject areas are there?
+(2) How many are the subject areas?
+(3) How many subject areas are there?
+(4) How many subject areas are there in the project?
+(5) The number of subject areas.
+(6) How many subject areas are there in the project?
+(7) How many subject areas are there?
+
+
+Re-ranked choices:
+3.454  How many subject areas are there?
+3.442  How many are the subject areas?
+3.383  The number of subject areas.
+3.111  How many subject areas are there in the project?
+2.964  Count the number of subject areas.
+

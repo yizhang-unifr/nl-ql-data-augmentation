@@ -1,0 +1,16 @@
+SELECT funding_schemes.title, count(*) FROM funding_schemes  GROUP BY funding_schemes.title
+
+###
+
+
+Original Query:
+SELECT funding_schemes.title, count(*) FROM funding_schemes  GROUP BY funding_schemes.title
+GPT-3 choices:
+(0) Show me the titles of all funding schemes, and how many projects are assigned to that funding scheme.
+(1) Show the number of funding schemes.
+(2) Show the number of different titles of funding schemes.
+(3) Retrieve the number of funding schemes.
+(4) Show the number of funding schemes
+(5) How many funding schemes are there?
+(6) Count the number of funding schemes.
+(7) How many countries have at least one funding scheme?

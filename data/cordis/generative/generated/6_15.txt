@@ -1,0 +1,16 @@
+SELECT projects.start_year FROM projects WHERE projects.title = 'Temporal Enhancement of Motor Performance Using Sensory Guides' and projects.framework_program = 'H2020'
+
+###
+
+
+Original Query:
+SELECT projects.start_year FROM projects WHERE projects.title = 'Temporal Enhancement of Motor Performance Using Sensory Guides' and projects.framework_program = 'H2020'
+GPT-3 choices:
+(0) Show me the start years of projects having the title Temporal Enhancement of Motor Performance Using Sensory Guides and are part of the framework program H2020.
+(1) Retrieve the starting year for projects with title "Temporal Enhancement of Motor Performance Using Sensory Guides" in the H2020 framework programme.
+(2) Show me the starting year of projects that are palced in the framework program H2020 and have the title "Temporal Enhancement of Motor Performance Using Sensory Guides"
+(3) What is the starting year of the project "Temporal Enhancement of Motor Performance Using Sensory Guides" which is part of the H2020 framework program?
+(4) Show me the starting year of projects that have the title "Temporal Enhancement of Motor Performance Using Sensory Guides" and are part of the framework program "H2020"
+(5) Show the start year of projects involved in the framework program H2020 and having the title "Temporal Enhancement of Motor Performance Using Sensory Guides")
+(6) Show me the year of projects that have title Temporal Enhancement of Motor Performance Using Sensory Guides and are part of the H2020 framework program
+(7) Show me projects that used H2020 as a framework program and have "Temporal Enhancement of Motor Performance Using Sensory Guides" as title

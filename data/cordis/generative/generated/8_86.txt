@@ -1,0 +1,16 @@
+SELECT institutions.grid_id FROM institutions WHERE institutions.short_name != 'KimGlobal'
+
+###
+
+
+Original Query:
+SELECT institutions.grid_id FROM institutions WHERE institutions.short_name != 'KimGlobal'
+GPT-3 choices:
+(0) The grid identifiers of institutions with a short name different than KimGlobal
+(1) Show me the details of all short name institutions that are not KimGlobal
+(2) Show all grid id's of institutions that do not have the short name KimGlobal
+(3) Show me all institutions that do not have the short name KimGlobal
+(4) Show me all institutions with a short name different than KimGlobal
+(5) Retrieve all institutions except "KimGlobal"
+(6) Show all grid IDs of institutions with a short name different than KimGlobal.
+(7) Retrieve the grid of institutions that have a short name different from KimGlobal.

@@ -1,0 +1,16 @@
+SELECT activity_types.code FROM activity_types WHERE activity_types.description = 'Higher or Secondary Education Establishments'
+
+###
+
+
+Original Query:
+SELECT activity_types.code FROM activity_types WHERE activity_types.description = 'Higher or Secondary Education Establishments'
+GPT-3 choices:
+(0) Show me all activity types with Higher or Secondary Education Establishments in their description
+(1) What are the different activity types of Higher or Secondary Education Establishments?
+(2) What are the activity types of Higher or Secondary Education Establishments?
+(3) Show me the activity types of Higher or Secondary Education Establishments
+(4) Show activity types associated with Higher or Secondary Education Establishments
+(5) Show me all the activity types involved in Higher or Secondary Education Establishments.
+(6) Show activity types associated with the description "Higher or Secondary Education Establishments"
+(7) What are the activity type codes of Higher or Secondary Education Establishments?

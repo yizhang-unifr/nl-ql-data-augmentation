@@ -1,0 +1,28 @@
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.description = 'Warmińsko-mazurskie'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.description = 'Warmińsko-mazurskie'
+GPT-3 choices:
+(0) Get the number of territorial units in Warmińsko-mazurskie
+(1) How many territorial units have the description “Warmińsko-mazurskie”?
+(2) How many territorial units are there in Warmia and Mazury?
+(3) How many regions are there in Warmia-Mazuria?
+(4) How many countries are there in the Europe and how many is it Warminsko-mazurks
+(5) How many territorial units is the description Warmińsko-mazurskie?
+(6) The number of elements in the eu_territorial_units who description is Warmińsko-mazurskie
+(7) How many eu territorial units have the description "Warmińsko-mazurskie"?
+
+
+Re-ranked choices:
+5.604  How many territorial units is the description Warmińsko-mazurskie?
+5.559  How many eu territorial units have the description "Warmińsko-mazurskie"?
+5.553  How many territorial units have the description “Warmińsko-mazurskie”?
+5.194  Get the number of territorial units in Warmińsko-mazurskie
+5.077  The number of elements in the eu_territorial_units who description is Warmińsko-mazurskie
+4.871  How many territorial units are there in Warmia and Mazury?
+4.377  How many countries are there in the Europe and how many is it Warminsko-mazurks
+4.008  How many regions are there in Warmia-Mazuria?
+

@@ -1,0 +1,28 @@
+SELECT programmes.short_name FROM programmes WHERE programmes.rcn != '10223'
+
+###
+
+
+Original Query:
+SELECT programmes.short_name FROM programmes WHERE programmes.rcn != '10223'
+GPT-3 choices:
+(0) Retrieve the short name of all programmes that do not correspond with 10223.
+(1) Show me all short name of programmes that are different from 10223
+(2) The short names of programmes that don't have an RCN of 10223
+(3) Show me all short names of programme idents that are not 10223
+(4) Show me the short names of all programmes except 10223
+(5) Show me short names of programmes that are not equal to 10223
+(6) Show me the short names of all programmes except for 10223
+(7) Show me all short names of programmes that don't have an RCN of 10223
+
+
+Re-ranked choices:
+6.147  Show me the short names of all programmes except for 10223
+6.143  Show me the short names of all programmes except 10223
+6.084  Show me short names of programmes that are not equal to 10223
+6.048  Show me all short name of programmes that are different from 10223
+5.886  Show me all short names of programme idents that are not 10223
+5.659  Show me all short names of programmes that don't have an RCN of 10223
+5.493  Retrieve the short name of all programmes that do not correspond with 10223.
+5.177  The short names of programmes that don't have an RCN of 10223
+

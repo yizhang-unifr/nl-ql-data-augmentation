@@ -1,0 +1,28 @@
+SELECT programmes.title FROM programmes WHERE programmes.short_name != 'Synthesis and manufacturing of nanomaterials, components and systems'
+
+###
+
+
+Original Query:
+SELECT programmes.title FROM programmes WHERE programmes.short_name != 'Synthesis and manufacturing of nanomaterials, components and systems'
+GPT-3 choices:
+(0) Retrieve all the titles of programmes, except for the one named "Synthesis and manufacturing of nanomaterials, components and systems"
+(1) Show me all the titles of the programmes whose short name is not 'Synthesis and manufacturing of nanomaterials, components and systems'.
+(2) Show me all the titles of all the programmes except for the one called “Synthesis and manufacturing of nanomaterials, components and systems”
+(3) Show me the titles of the programmes that have a short name different from "Synthesis and manufacturing of nanomaterials, components and systems".
+(4) Show all programme titles, which do not have the short name "Synthesis and manufacturing of nanomaterials, components and systems"
+(5) Show me all the titles of programmes that do not have the short name "Synthesis and manufacturing of nanomaterials, components and systems".
+(6) Show programmes titles which are different from the short name "Synthesis and manufacturing of nanomaterials, components and systems"
+(7) Show me all programmes called "Synthesis and manufacturing of nanomaterials, components and systems"
+
+
+Re-ranked choices:
+6.490  Show me all the titles of programmes that do not have the short name "Synthesis and manufacturing of nanomaterials, components and systems".
+6.473  Show me all the titles of the programmes whose short name is not 'Synthesis and manufacturing of nanomaterials, components and systems'.
+6.423  Show me all the titles of all the programmes except for the one called “Synthesis and manufacturing of nanomaterials, components and systems”
+6.389  Show me the titles of the programmes that have a short name different from "Synthesis and manufacturing of nanomaterials, components and systems".
+6.287  Show all programme titles, which do not have the short name "Synthesis and manufacturing of nanomaterials, components and systems"
+6.220  Show programmes titles which are different from the short name "Synthesis and manufacturing of nanomaterials, components and systems"
+5.932  Show me all programmes called "Synthesis and manufacturing of nanomaterials, components and systems"
+5.831  Retrieve all the titles of programmes, except for the one named "Synthesis and manufacturing of nanomaterials, components and systems"
+

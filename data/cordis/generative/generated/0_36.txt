@@ -1,0 +1,16 @@
+SELECT projects.title FROM projects WHERE projects.total_cost = 6000137.5
+
+###
+
+
+Original Query:
+SELECT projects.title FROM projects WHERE projects.total_cost = 6000137.5
+GPT-3 choices:
+(0) What are the project titles?
+(1) Show titles of projects with total cost equal to 6000137.5
+(2) Which project titles have a total cost of 6000137.5?
+(3) Show me all project titles with a total cost of 6000137.5
+(4) Show me the titles of projects whose total cost is 6000137.5
+(5) Show me all project titles where the total cost is 6000137.5
+(6) Show the title of projects with a total cost equal to 6000137.5
+(7) Retrieve titles of projects with total cost 6000137.5

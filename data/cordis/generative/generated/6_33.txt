@@ -1,0 +1,16 @@
+SELECT topics.title FROM topics WHERE topics.code = 'ICT-37-2014' and topics.rcn = '664619'
+
+###
+
+
+Original Query:
+SELECT topics.title FROM topics WHERE topics.code = 'ICT-37-2014' and topics.rcn = '664619'
+GPT-3 choices:
+(0) Show me topics with title ICT-37-2014 and research with registration number 664619
+(1) Show topics that have their title set to ICT-37-2014 and their resolved country number is 664619.
+(2) Retrieve all topics whose title is ICT-37-2014 and research centre number is 664619.
+(3) Show topics with the title "ICT-37-2014" that fall under research category "664619"
+(4) Show the title of topics with code ICT-37-2014 and member RCN 664619
+(5) Show me all topics that have a code of ICT-37-2014 and a region of 664619
+(6) Show me topics about ICT-37-2014 with research centre 664619.
+(7) Filter all topics with the title ICT-37-2014 in the region 664619

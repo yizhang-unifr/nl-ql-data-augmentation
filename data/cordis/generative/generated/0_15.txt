@@ -1,0 +1,16 @@
+SELECT topics.code FROM topics WHERE topics.title = 'Electric two-wheelers and new ultra-light vehicle concepts'
+
+###
+
+
+Original Query:
+SELECT topics.code FROM topics WHERE topics.title = 'Electric two-wheelers and new ultra-light vehicle concepts'
+GPT-3 choices:
+(0) Retrieve topics with title = "Electric two-wheelers and new ultra-light vehicle concepts"
+(1) Show me all topics whose title is "Electric two-wheelers and new ultra-light vehicle concepts"
+(2) Visits for all topics with title = 'Electric two-wheelers and new ultra-light vehicle concepts'
+(3) All topics concerning the topic 'Electric two-wheelers and new ultra-light vehicle concepts'
+(4) What are the different topics about electric two-wheelers and new ultra-light vehicle concepts?
+(5) Show me all topics related to "Electric two-wheelers and new ultra-light vehicle concepts"
+(6) Show me all topics about electric two-wheelers and new ultralight vehicles
+(7) Show all topics whose title is Electric two-wheelers and new ultra-light vehicle concepts.

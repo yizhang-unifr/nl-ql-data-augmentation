@@ -1,0 +1,28 @@
+SELECT projects.ec_max_contribution FROM projects WHERE projects.end_date = '2017-05-31'
+
+###
+
+
+Original Query:
+SELECT projects.ec_max_contribution FROM projects WHERE projects.end_date = '2017-05-31'
+GPT-3 choices:
+(0) What is the maximum contribution for projects ending on 2017-05-31?
+(1) Show the maximum contribution for projects that ended in 2017-05-31
+(2) Which is the maximum contribution for projects ending in 2017-05-31?
+(3) How much is the max contribution of projects ending in 2017-05-31?
+(4) Return the maximum contribution of all projects that end in 2017-05-31
+(5) What is the maximum contribution for projects ending in 2017-05-31?
+(6) What is the maximum contribution of projects that ended in 2017-05-31?
+(7) The greatest contribution of projects whose end date is 2017-05-31
+
+
+Re-ranked choices:
+6.456  What is the maximum contribution for projects ending in 2017-05-31?
+6.451  What is the maximum contribution for projects ending on 2017-05-31?
+6.438  Which is the maximum contribution for projects ending in 2017-05-31?
+6.398  What is the maximum contribution of projects that ended in 2017-05-31?
+6.338  How much is the max contribution of projects ending in 2017-05-31?
+6.087  Show the maximum contribution for projects that ended in 2017-05-31
+5.901  Return the maximum contribution of all projects that end in 2017-05-31
+5.510  The greatest contribution of projects whose end date is 2017-05-31
+

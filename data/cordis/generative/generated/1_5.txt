@@ -1,0 +1,16 @@
+SELECT countries.country_name FROM countries JOIN institutions ON countries.unics_id = institutions.country_id WHERE institutions.acronym = 'CNRS'
+
+###
+
+
+Original Query:
+SELECT countries.country_name FROM countries JOIN institutions ON countries.unics_id = institutions.country_id WHERE institutions.acronym = 'CNRS'
+GPT-3 choices:
+(0) Show all countries and their institutions whose acronym is CNRS
+(1) Show all countries with institutions having the acronym "CNRS"
+(2) What are the country names of institutions whose acronym is CNRS?
+(3) Show the country name of institutions with acronym CNRS
+(4) Show all country names of institutions with the acronym CNRS
+(5) Retrieve country names of countries having institutions with acronym CNRS
+(6) Show the country name of institutions whose acronym is CNRS.
+(7) Show countries names whose institutions acronym is "CNRS"

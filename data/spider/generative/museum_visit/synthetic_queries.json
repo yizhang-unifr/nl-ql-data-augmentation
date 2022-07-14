@@ -1,0 +1,2739 @@
+[
+  {
+    "db_id": "museum_visit",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Museum_ID FROM visit AS T1 WHERE T1.Num_of_Ticket = 20",
+    "readable_query": "SELECT visit.Museum_ID FROM visit AS visit WHERE visit.Num_of_Ticket = 20"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Num_of_Staff FROM museum AS T1 WHERE T1.Museum_ID = 1",
+    "readable_query": "SELECT museum.Num_of_Staff FROM museum AS museum WHERE museum.Museum_ID = 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Museum_ID FROM museum AS T1 WHERE T1.Num_of_Staff = 62",
+    "readable_query": "SELECT museum.Museum_ID FROM museum AS museum WHERE museum.Num_of_Staff = 62"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Level_of_membership FROM visitor AS T1 WHERE T1.Age = 35",
+    "readable_query": "SELECT customer.Level_of_membership FROM visitor AS customer WHERE customer.Age = 35"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.visitor_ID FROM visit AS T1 WHERE T1.Total_spent = 209.98",
+    "readable_query": "SELECT visit.visitor_ID FROM visit AS visit WHERE visit.Total_spent = 209.98"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Level_of_membership FROM visitor AS T1 WHERE T1.Name = \"Rafael van der Vaart\"",
+    "readable_query": "SELECT customer.Level_of_membership FROM visitor AS customer WHERE customer.Name = \"Rafael van der Vaart\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Age FROM visitor AS T1 WHERE T1.Level_of_membership = 6",
+    "readable_query": "SELECT customer.Age FROM visitor AS customer WHERE customer.Level_of_membership = 6"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1 WHERE T1.Museum_ID = 8",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit WHERE visit.Museum_ID = 8"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Open_Year FROM museum AS T1 WHERE T1.Museum_ID = 8",
+    "readable_query": "SELECT museum.Open_Year FROM museum AS museum WHERE museum.Museum_ID = 8"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 0,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1 WHERE T1.visitor_ID = \"5\"",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit WHERE visit.visitor_ID = \"5\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Level_of_membership FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.visitor_ID = \"3\"",
+    "readable_query": "SELECT customer.Level_of_membership FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.visitor_ID = \"3\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Name FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.visitor_ID = \"6\"",
+    "readable_query": "SELECT customer.Name FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.visitor_ID = \"6\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.ID FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.Total_spent = 320.14",
+    "readable_query": "SELECT customer.ID FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.Total_spent = 320.14"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID WHERE T2.ID = 1",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE customer.ID = 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Age FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.Total_spent = 320.44",
+    "readable_query": "SELECT customer.Age FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.Total_spent = 320.44"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Age FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.Num_of_Ticket = 10",
+    "readable_query": "SELECT customer.Age FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.Num_of_Ticket = 10"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Museum_ID = 5",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID WHERE museum.Museum_ID = 5"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Name FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.visitor_ID = \"3\"",
+    "readable_query": "SELECT museum.Name FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE visit.visitor_ID = \"3\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Num_of_Staff FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Num_of_Ticket = 2",
+    "readable_query": "SELECT museum.Num_of_Staff FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE visit.Num_of_Ticket = 2"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 1,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.ID FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.Museum_ID = 4",
+    "readable_query": "SELECT customer.ID FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.Museum_ID = 4"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Num_of_Ticket, count(*) FROM visit AS T1  GROUP BY T1.Num_of_Ticket",
+    "readable_query": "SELECT visit.Num_of_Ticket, count(*) FROM visit AS visit  GROUP BY visit.Num_of_Ticket"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Open_Year, count(*) FROM museum AS T1  GROUP BY T1.Open_Year",
+    "readable_query": "SELECT museum.Open_Year, count(*) FROM museum AS museum  GROUP BY museum.Open_Year"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Name, count(*) FROM museum AS T1  GROUP BY T1.Name",
+    "readable_query": "SELECT museum.Name, count(*) FROM museum AS museum  GROUP BY museum.Name"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Total_spent, count(*) FROM visit AS T1  GROUP BY T1.Total_spent",
+    "readable_query": "SELECT visit.Total_spent, count(*) FROM visit AS visit  GROUP BY visit.Total_spent"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Museum_ID, count(*) FROM museum AS T1  GROUP BY T1.Museum_ID",
+    "readable_query": "SELECT museum.Museum_ID, count(*) FROM museum AS museum  GROUP BY museum.Museum_ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Age, count(*) FROM visitor AS T1  GROUP BY T1.Age",
+    "readable_query": "SELECT customer.Age, count(*) FROM visitor AS customer  GROUP BY customer.Age"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.ID, count(*) FROM visitor AS T1  GROUP BY T1.ID",
+    "readable_query": "SELECT customer.ID, count(*) FROM visitor AS customer  GROUP BY customer.ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Num_of_Staff, count(*) FROM museum AS T1  GROUP BY T1.Num_of_Staff",
+    "readable_query": "SELECT museum.Num_of_Staff, count(*) FROM museum AS museum  GROUP BY museum.Num_of_Staff"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Museum_ID, count(*) FROM visit AS T1  GROUP BY T1.Museum_ID",
+    "readable_query": "SELECT visit.Museum_ID, count(*) FROM visit AS visit  GROUP BY visit.Museum_ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 2,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Name, count(*) FROM visitor AS T1  GROUP BY T1.Name",
+    "readable_query": "SELECT customer.Name, count(*) FROM visitor AS customer  GROUP BY customer.Name"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Total_spent, count(*) FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID  GROUP BY T1.Total_spent",
+    "readable_query": "SELECT visit.Total_spent, count(*) FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID  GROUP BY visit.Total_spent"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Num_of_Ticket, count(*) FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID  GROUP BY T1.Num_of_Ticket",
+    "readable_query": "SELECT visit.Num_of_Ticket, count(*) FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID  GROUP BY visit.Num_of_Ticket"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.ID, count(*) FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID  GROUP BY T1.ID",
+    "readable_query": "SELECT customer.ID, count(*) FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID  GROUP BY customer.ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Level_of_membership, count(*) FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID  GROUP BY T1.Level_of_membership",
+    "readable_query": "SELECT customer.Level_of_membership, count(*) FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID  GROUP BY customer.Level_of_membership"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Museum_ID, count(*) FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID  GROUP BY T1.Museum_ID",
+    "readable_query": "SELECT museum.Museum_ID, count(*) FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID  GROUP BY museum.Museum_ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Total_spent, count(*) FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID  GROUP BY T1.Total_spent",
+    "readable_query": "SELECT visit.Total_spent, count(*) FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID  GROUP BY visit.Total_spent"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Museum_ID, count(*) FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID  GROUP BY T1.Museum_ID",
+    "readable_query": "SELECT visit.Museum_ID, count(*) FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID  GROUP BY visit.Museum_ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Num_of_Staff, count(*) FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID  GROUP BY T1.Num_of_Staff",
+    "readable_query": "SELECT museum.Num_of_Staff, count(*) FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID  GROUP BY museum.Num_of_Staff"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.Name, count(*) FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID  GROUP BY T1.Name",
+    "readable_query": "SELECT customer.Name, count(*) FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID  GROUP BY customer.Name"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 3,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(3) Op(0) C(-1) T(1) C(-1) T(1)",
+    "query": "SELECT T1.visitor_ID, count(*) FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID  GROUP BY T1.visitor_ID",
+    "readable_query": "SELECT visit.visitor_ID, count(*) FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID  GROUP BY visit.visitor_ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM museum AS T1",
+    "readable_query": "SELECT count(*) FROM museum AS museum"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM visit AS T1",
+    "readable_query": "SELECT count(*) FROM visit AS visit"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 4,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT count(*) FROM visitor AS T1",
+    "readable_query": "SELECT count(*) FROM visitor AS customer"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Level_of_membership, T1.Age FROM visitor AS T1",
+    "readable_query": "SELECT customer.Level_of_membership, customer.Age FROM visitor AS customer"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Num_of_Ticket, T1.Total_spent FROM visit AS T1",
+    "readable_query": "SELECT visit.Num_of_Ticket, visit.Total_spent FROM visit AS visit"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.ID, T1.Age FROM visitor AS T1",
+    "readable_query": "SELECT customer.ID, customer.Age FROM visitor AS customer"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Level_of_membership, T1.Name FROM visitor AS T1",
+    "readable_query": "SELECT customer.Level_of_membership, customer.Name FROM visitor AS customer"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Open_Year, T1.Num_of_Staff FROM museum AS T1",
+    "readable_query": "SELECT museum.Open_Year, museum.Num_of_Staff FROM museum AS museum"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Num_of_Ticket, T1.visitor_ID FROM visit AS T1",
+    "readable_query": "SELECT visit.Num_of_Ticket, visit.visitor_ID FROM visit AS visit"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Total_spent, T1.visitor_ID FROM visit AS T1",
+    "readable_query": "SELECT visit.Total_spent, visit.visitor_ID FROM visit AS visit"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.visitor_ID, T1.Num_of_Ticket FROM visit AS T1",
+    "readable_query": "SELECT visit.visitor_ID, visit.Num_of_Ticket FROM visit AS visit"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Name, T1.ID FROM visitor AS T1",
+    "readable_query": "SELECT customer.Name, customer.ID FROM visitor AS customer"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 5,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Level_of_membership, T1.ID FROM visitor AS T1",
+    "readable_query": "SELECT customer.Level_of_membership, customer.ID FROM visitor AS customer"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Num_of_Ticket, T2.Num_of_Staff FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID",
+    "readable_query": "SELECT visit.Num_of_Ticket, museum.Num_of_Staff FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Level_of_membership, T2.Num_of_Ticket FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID",
+    "readable_query": "SELECT customer.Level_of_membership, visit.Num_of_Ticket FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Age, T2.Total_spent FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID",
+    "readable_query": "SELECT customer.Age, visit.Total_spent FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Num_of_Staff, T2.Total_spent FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID",
+    "readable_query": "SELECT museum.Num_of_Staff, visit.Total_spent FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Name, T2.Num_of_Ticket FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID",
+    "readable_query": "SELECT museum.Name, visit.Num_of_Ticket FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Num_of_Staff, T2.Num_of_Ticket FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID",
+    "readable_query": "SELECT museum.Num_of_Staff, visit.Num_of_Ticket FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Num_of_Staff, T2.Museum_ID FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID",
+    "readable_query": "SELECT museum.Num_of_Staff, visit.Museum_ID FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.ID, T2.Num_of_Ticket FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID",
+    "readable_query": "SELECT customer.ID, visit.Num_of_Ticket FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Name, T2.visitor_ID FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID",
+    "readable_query": "SELECT customer.Name, visit.visitor_ID FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 6,
+    "query_type": "Root1(3) Root(5) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1)",
+    "query": "SELECT T1.Museum_ID, T2.ID FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID",
+    "readable_query": "SELECT visit.Museum_ID, customer.ID FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.ID, T1.Name FROM visitor AS T1 WHERE T1.Level_of_membership = 5",
+    "readable_query": "SELECT customer.ID, customer.Name FROM visitor AS customer WHERE customer.Level_of_membership = 5"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Name, T1.Level_of_membership FROM visitor AS T1 WHERE T1.Age = 56",
+    "readable_query": "SELECT customer.Name, customer.Level_of_membership FROM visitor AS customer WHERE customer.Age = 56"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Age, T1.Level_of_membership FROM visitor AS T1 WHERE T1.Name = \"Arjen Robben\"",
+    "readable_query": "SELECT customer.Age, customer.Level_of_membership FROM visitor AS customer WHERE customer.Name = \"Arjen Robben\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Name, T1.ID FROM visitor AS T1 WHERE T1.Age = 36",
+    "readable_query": "SELECT customer.Name, customer.ID FROM visitor AS customer WHERE customer.Age = 36"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Level_of_membership, T1.Age FROM visitor AS T1 WHERE T1.Name = \"Gonzalo Higua\u00edn \"",
+    "readable_query": "SELECT customer.Level_of_membership, customer.Age FROM visitor AS customer WHERE customer.Name = \"Gonzalo Higua\u00edn \""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Num_of_Staff, T1.Open_Year FROM museum AS T1 WHERE T1.Museum_ID = 2",
+    "readable_query": "SELECT museum.Num_of_Staff, museum.Open_Year FROM museum AS museum WHERE museum.Museum_ID = 2"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Museum_ID, T1.Name FROM museum AS T1 WHERE T1.Open_Year = \"2010\"",
+    "readable_query": "SELECT museum.Museum_ID, museum.Name FROM museum AS museum WHERE museum.Open_Year = \"2010\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Open_Year, T1.Num_of_Staff FROM museum AS T1 WHERE T1.Museum_ID = 1",
+    "readable_query": "SELECT museum.Open_Year, museum.Num_of_Staff FROM museum AS museum WHERE museum.Museum_ID = 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Museum_ID, T1.Total_spent FROM visit AS T1 WHERE T1.visitor_ID = \"5\"",
+    "readable_query": "SELECT visit.Museum_ID, visit.Total_spent FROM visit AS visit WHERE visit.visitor_ID = \"5\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 7,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(0)",
+    "query": "SELECT T1.Name, T1.Open_Year FROM museum AS T1 WHERE T1.Museum_ID = 4",
+    "readable_query": "SELECT museum.Name, museum.Open_Year FROM museum AS museum WHERE museum.Museum_ID = 4"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Num_of_Ticket FROM visit AS T1  GROUP BY T1.Num_of_Ticket  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT visit.Num_of_Ticket FROM visit AS visit  GROUP BY visit.Num_of_Ticket  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Level_of_membership FROM visitor AS T1  GROUP BY T1.Level_of_membership  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT customer.Level_of_membership FROM visitor AS customer  GROUP BY customer.Level_of_membership  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.ID FROM visitor AS T1  GROUP BY T1.ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT customer.ID FROM visitor AS customer  GROUP BY customer.ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Num_of_Staff FROM museum AS T1  GROUP BY T1.Num_of_Staff  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT museum.Num_of_Staff FROM museum AS museum  GROUP BY museum.Num_of_Staff  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Name FROM museum AS T1  GROUP BY T1.Name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT museum.Name FROM museum AS museum  GROUP BY museum.Name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Open_Year FROM museum AS T1  GROUP BY T1.Open_Year  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT museum.Open_Year FROM museum AS museum  GROUP BY museum.Open_Year  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Name FROM visitor AS T1  GROUP BY T1.Name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT customer.Name FROM visitor AS customer  GROUP BY customer.Name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Age FROM visitor AS T1  GROUP BY T1.Age  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT customer.Age FROM visitor AS customer  GROUP BY customer.Age  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1  GROUP BY T1.Total_spent  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit  GROUP BY visit.Total_spent  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 8,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(0) C(-1) T(0)",
+    "query": "SELECT T1.visitor_ID FROM visit AS T1  GROUP BY T1.visitor_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT visit.visitor_ID FROM visit AS visit  GROUP BY visit.visitor_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM museum AS T1 WHERE T1.Open_Year = \"2000\"",
+    "readable_query": "SELECT count(*) FROM museum AS museum WHERE museum.Open_Year = \"2000\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM visitor AS T1 WHERE T1.Level_of_membership = 6",
+    "readable_query": "SELECT count(*) FROM visitor AS customer WHERE customer.Level_of_membership = 6"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM museum AS T1 WHERE T1.Num_of_Staff = 25",
+    "readable_query": "SELECT count(*) FROM museum AS museum WHERE museum.Num_of_Staff = 25"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM visit AS T1 WHERE T1.Num_of_Ticket = 4",
+    "readable_query": "SELECT count(*) FROM visit AS visit WHERE visit.Num_of_Ticket = 4"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM visit AS T1 WHERE T1.visitor_ID = \"3\"",
+    "readable_query": "SELECT count(*) FROM visit AS visit WHERE visit.visitor_ID = \"3\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM visit AS T1 WHERE T1.Total_spent = 320.14",
+    "readable_query": "SELECT count(*) FROM visit AS visit WHERE visit.Total_spent = 320.14"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM visitor AS T1 WHERE T1.Age = 56",
+    "readable_query": "SELECT count(*) FROM visitor AS customer WHERE customer.Age = 56"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM visit AS T1 WHERE T1.Museum_ID = 1",
+    "readable_query": "SELECT count(*) FROM visit AS visit WHERE visit.Museum_ID = 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM museum AS T1 WHERE T1.Museum_ID = 2",
+    "readable_query": "SELECT count(*) FROM museum AS museum WHERE museum.Museum_ID = 2"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 9,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(2) A(0) Op(0) C(0) T(0) C(0) T(0) V(0)",
+    "query": "SELECT count(*) FROM visit AS T1 WHERE T1.Total_spent = 320.44",
+    "readable_query": "SELECT count(*) FROM visit AS visit WHERE visit.Total_spent = 320.44"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Museum_ID FROM visit AS T1    ORDER BY T1.Num_of_Ticket DESC LIMIT 1",
+    "readable_query": "SELECT visit.Museum_ID FROM visit AS visit    ORDER BY visit.Num_of_Ticket DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM visitor AS T1    ORDER BY T1.Age DESC LIMIT 1",
+    "readable_query": "SELECT customer.Name FROM visitor AS customer    ORDER BY customer.Age DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.visitor_ID FROM visit AS T1    ORDER BY T1.Total_spent DESC LIMIT 1",
+    "readable_query": "SELECT visit.visitor_ID FROM visit AS visit    ORDER BY visit.Total_spent DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM museum AS T1    ORDER BY T1.Num_of_Staff DESC LIMIT 1",
+    "readable_query": "SELECT museum.Name FROM museum AS museum    ORDER BY museum.Num_of_Staff DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.ID FROM visitor AS T1    ORDER BY T1.Age DESC LIMIT 1",
+    "readable_query": "SELECT customer.ID FROM visitor AS customer    ORDER BY customer.Age DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Level_of_membership FROM visitor AS T1    ORDER BY T1.Age DESC LIMIT 1",
+    "readable_query": "SELECT customer.Level_of_membership FROM visitor AS customer    ORDER BY customer.Age DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Open_Year FROM museum AS T1    ORDER BY T1.Num_of_Staff DESC LIMIT 1",
+    "readable_query": "SELECT museum.Open_Year FROM museum AS museum    ORDER BY museum.Num_of_Staff DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.ID FROM visitor AS T1    ORDER BY T1.Level_of_membership DESC LIMIT 1",
+    "readable_query": "SELECT customer.ID FROM visitor AS customer    ORDER BY customer.Level_of_membership DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Num_of_Ticket FROM visit AS T1    ORDER BY T1.Total_spent DESC LIMIT 1",
+    "readable_query": "SELECT visit.Num_of_Ticket FROM visit AS visit    ORDER BY visit.Total_spent DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 10,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Open_Year FROM museum AS T1    ORDER BY T1.Museum_ID DESC LIMIT 1",
+    "readable_query": "SELECT museum.Open_Year FROM museum AS museum    ORDER BY museum.Museum_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Age FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID    ORDER BY T2.Total_spent DESC LIMIT 1",
+    "readable_query": "SELECT customer.Age FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID    ORDER BY visit.Total_spent DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID    ORDER BY T2.Age DESC LIMIT 1",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID    ORDER BY customer.Age DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ID FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID    ORDER BY T2.Total_spent DESC LIMIT 1",
+    "readable_query": "SELECT customer.ID FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID    ORDER BY visit.Total_spent DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ID FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID    ORDER BY T2.Num_of_Ticket DESC LIMIT 1",
+    "readable_query": "SELECT customer.ID FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID    ORDER BY visit.Num_of_Ticket DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Museum_ID FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID    ORDER BY T2.Age DESC LIMIT 1",
+    "readable_query": "SELECT visit.Museum_ID FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID    ORDER BY customer.Age DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.visitor_ID FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID    ORDER BY T2.Num_of_Staff DESC LIMIT 1",
+    "readable_query": "SELECT visit.visitor_ID FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID    ORDER BY museum.Num_of_Staff DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Age FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID    ORDER BY T2.Num_of_Ticket DESC LIMIT 1",
+    "readable_query": "SELECT customer.Age FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID    ORDER BY visit.Num_of_Ticket DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID    ORDER BY T2.ID DESC LIMIT 1",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID    ORDER BY customer.ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Museum_ID FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID    ORDER BY T2.Level_of_membership DESC LIMIT 1",
+    "readable_query": "SELECT visit.Museum_ID FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID    ORDER BY customer.Level_of_membership DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 11,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Num_of_Ticket FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID    ORDER BY T2.ID DESC LIMIT 1",
+    "readable_query": "SELECT visit.Num_of_Ticket FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID    ORDER BY customer.ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Age FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID    ORDER BY T2.Museum_ID ASC LIMIT 1",
+    "readable_query": "SELECT customer.Age FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID    ORDER BY visit.Museum_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Museum_ID FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID    ORDER BY T2.Num_of_Ticket ASC LIMIT 1",
+    "readable_query": "SELECT museum.Museum_ID FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID    ORDER BY visit.Num_of_Ticket ASC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Num_of_Staff FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID    ORDER BY T2.Num_of_Ticket ASC LIMIT 1",
+    "readable_query": "SELECT museum.Num_of_Staff FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID    ORDER BY visit.Num_of_Ticket ASC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Age FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID    ORDER BY T2.Num_of_Ticket ASC LIMIT 1",
+    "readable_query": "SELECT customer.Age FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID    ORDER BY visit.Num_of_Ticket ASC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID    ORDER BY T2.Total_spent ASC LIMIT 1",
+    "readable_query": "SELECT customer.Name FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID    ORDER BY visit.Total_spent ASC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID    ORDER BY T2.Num_of_Staff ASC LIMIT 1",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID    ORDER BY museum.Num_of_Staff ASC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Num_of_Staff FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID    ORDER BY T2.Museum_ID ASC LIMIT 1",
+    "readable_query": "SELECT museum.Num_of_Staff FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID    ORDER BY visit.Museum_ID ASC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Museum_ID FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID    ORDER BY T2.Num_of_Staff ASC LIMIT 1",
+    "readable_query": "SELECT visit.Museum_ID FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID    ORDER BY museum.Num_of_Staff ASC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ID FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID    ORDER BY T2.Num_of_Ticket ASC LIMIT 1",
+    "readable_query": "SELECT customer.ID FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID    ORDER BY visit.Num_of_Ticket ASC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 12,
+    "query_type": "Root1(3) Root(2) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID    ORDER BY T2.Num_of_Ticket ASC LIMIT 1",
+    "readable_query": "SELECT museum.Name FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID    ORDER BY visit.Num_of_Ticket ASC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Museum_ID, T1.visitor_ID FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID    ORDER BY T2.Age DESC LIMIT 1",
+    "readable_query": "SELECT visit.Museum_ID, visit.visitor_ID FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID    ORDER BY customer.Age DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Museum_ID, T1.Num_of_Staff FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID    ORDER BY T2.Num_of_Ticket DESC LIMIT 1",
+    "readable_query": "SELECT museum.Museum_ID, museum.Num_of_Staff FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID    ORDER BY visit.Num_of_Ticket DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name, T1.ID FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID    ORDER BY T2.Museum_ID DESC LIMIT 1",
+    "readable_query": "SELECT customer.Name, customer.ID FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID    ORDER BY visit.Museum_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Open_Year, T1.Num_of_Staff FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID    ORDER BY T2.Museum_ID DESC LIMIT 1",
+    "readable_query": "SELECT museum.Open_Year, museum.Num_of_Staff FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID    ORDER BY visit.Museum_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Open_Year, T1.Museum_ID FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID    ORDER BY T2.Total_spent DESC LIMIT 1",
+    "readable_query": "SELECT museum.Open_Year, museum.Museum_ID FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID    ORDER BY visit.Total_spent DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Num_of_Ticket, T1.visitor_ID FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID    ORDER BY T2.Museum_ID DESC LIMIT 1",
+    "readable_query": "SELECT visit.Num_of_Ticket, visit.visitor_ID FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID    ORDER BY museum.Museum_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name, T1.Open_Year FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID    ORDER BY T2.Total_spent DESC LIMIT 1",
+    "readable_query": "SELECT museum.Name, museum.Open_Year FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID    ORDER BY visit.Total_spent DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Age, T1.ID FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID    ORDER BY T2.Total_spent DESC LIMIT 1",
+    "readable_query": "SELECT customer.Age, customer.ID FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID    ORDER BY visit.Total_spent DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Level_of_membership, T1.ID FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID    ORDER BY T2.Museum_ID DESC LIMIT 1",
+    "readable_query": "SELECT customer.Level_of_membership, customer.ID FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID    ORDER BY visit.Museum_ID DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 13,
+    "query_type": "Root1(3) Root(2) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Sup(0) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Museum_ID, T1.Num_of_Ticket FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID    ORDER BY T2.Num_of_Staff DESC LIMIT 1",
+    "readable_query": "SELECT visit.Museum_ID, visit.Num_of_Ticket FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID    ORDER BY museum.Num_of_Staff DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Museum_ID) FROM visit AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  visit.Museum_ID) FROM visit AS visit"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM museum AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  museum.Name) FROM museum AS museum"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Num_of_Staff) FROM museum AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  museum.Num_of_Staff) FROM museum AS museum"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Level_of_membership) FROM visitor AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  customer.Level_of_membership) FROM visitor AS customer"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Total_spent) FROM visit AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  visit.Total_spent) FROM visit AS visit"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Age) FROM visitor AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  customer.Age) FROM visitor AS customer"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Open_Year) FROM museum AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  museum.Open_Year) FROM museum AS museum"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM visitor AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  customer.Name) FROM visitor AS customer"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.ID) FROM visitor AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  customer.ID) FROM visitor AS customer"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 14,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.visitor_ID) FROM visit AS T1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  visit.visitor_ID) FROM visit AS visit"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.ID) FROM visitor AS T1",
+    "readable_query": "SELECT avg( customer.ID) FROM visitor AS customer"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Num_of_Staff) FROM museum AS T1",
+    "readable_query": "SELECT avg( museum.Num_of_Staff) FROM museum AS museum"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Total_spent) FROM visit AS T1",
+    "readable_query": "SELECT avg( visit.Total_spent) FROM visit AS visit"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Num_of_Ticket) FROM visit AS T1",
+    "readable_query": "SELECT avg( visit.Num_of_Ticket) FROM visit AS visit"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Age) FROM visitor AS T1",
+    "readable_query": "SELECT avg( customer.Age) FROM visitor AS customer"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Museum_ID) FROM visit AS T1",
+    "readable_query": "SELECT avg( visit.Museum_ID) FROM visit AS visit"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Museum_ID) FROM museum AS T1",
+    "readable_query": "SELECT avg( museum.Museum_ID) FROM museum AS museum"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 15,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(5) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT avg( T1.Level_of_membership) FROM visitor AS T1",
+    "readable_query": "SELECT avg( customer.Level_of_membership) FROM visitor AS customer"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Name FROM visitor AS T1",
+    "readable_query": "SELECT customer.Name FROM visitor AS customer"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Museum_ID FROM museum AS T1",
+    "readable_query": "SELECT museum.Museum_ID FROM museum AS museum"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Open_Year FROM museum AS T1",
+    "readable_query": "SELECT museum.Open_Year FROM museum AS museum"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Age FROM visitor AS T1",
+    "readable_query": "SELECT customer.Age FROM visitor AS customer"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.visitor_ID FROM visit AS T1",
+    "readable_query": "SELECT visit.visitor_ID FROM visit AS visit"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Level_of_membership FROM visitor AS T1",
+    "readable_query": "SELECT customer.Level_of_membership FROM visitor AS customer"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Museum_ID FROM visit AS T1",
+    "readable_query": "SELECT visit.Museum_ID FROM visit AS visit"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Num_of_Ticket FROM visit AS T1",
+    "readable_query": "SELECT visit.Num_of_Ticket FROM visit AS visit"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 16,
+    "query_type": "Root1(3) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT T1.Name FROM museum AS T1",
+    "readable_query": "SELECT museum.Name FROM museum AS museum"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Num_of_Staff FROM museum AS T1",
+    "readable_query": "SELECT DISTINCT museum.Num_of_Staff FROM museum AS museum"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.ID FROM visitor AS T1",
+    "readable_query": "SELECT DISTINCT customer.ID FROM visitor AS customer"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Museum_ID FROM visit AS T1",
+    "readable_query": "SELECT DISTINCT visit.Museum_ID FROM visit AS visit"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.visitor_ID FROM visit AS T1",
+    "readable_query": "SELECT DISTINCT visit.visitor_ID FROM visit AS visit"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Name FROM visitor AS T1",
+    "readable_query": "SELECT DISTINCT customer.Name FROM visitor AS customer"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Museum_ID FROM museum AS T1",
+    "readable_query": "SELECT DISTINCT museum.Museum_ID FROM museum AS museum"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Level_of_membership FROM visitor AS T1",
+    "readable_query": "SELECT DISTINCT customer.Level_of_membership FROM visitor AS customer"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Total_spent FROM visit AS T1",
+    "readable_query": "SELECT DISTINCT visit.Total_spent FROM visit AS visit"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Num_of_Ticket FROM visit AS T1",
+    "readable_query": "SELECT DISTINCT visit.Num_of_Ticket FROM visit AS visit"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 17,
+    "query_type": "Root1(3) Root(5) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0)",
+    "query": "SELECT DISTINCT T1.Name FROM museum AS T1",
+    "readable_query": "SELECT DISTINCT museum.Name FROM museum AS museum"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Museum_ID FROM museum AS T1     ORDER BY T1.Num_of_Staff ASC",
+    "readable_query": "SELECT museum.Museum_ID FROM museum AS museum     ORDER BY museum.Num_of_Staff ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Num_of_Ticket FROM visit AS T1     ORDER BY T1.Total_spent ASC",
+    "readable_query": "SELECT visit.Num_of_Ticket FROM visit AS visit     ORDER BY visit.Total_spent ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.visitor_ID FROM visit AS T1     ORDER BY T1.Museum_ID ASC",
+    "readable_query": "SELECT visit.visitor_ID FROM visit AS visit     ORDER BY visit.Museum_ID ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.visitor_ID FROM visit AS T1     ORDER BY T1.Num_of_Ticket ASC",
+    "readable_query": "SELECT visit.visitor_ID FROM visit AS visit     ORDER BY visit.Num_of_Ticket ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Open_Year FROM museum AS T1     ORDER BY T1.Museum_ID ASC",
+    "readable_query": "SELECT museum.Open_Year FROM museum AS museum     ORDER BY museum.Museum_ID ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM visitor AS T1     ORDER BY T1.Level_of_membership ASC",
+    "readable_query": "SELECT customer.Name FROM visitor AS customer     ORDER BY customer.Level_of_membership ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM museum AS T1     ORDER BY T1.Museum_ID ASC",
+    "readable_query": "SELECT museum.Name FROM museum AS museum     ORDER BY museum.Museum_ID ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Age FROM visitor AS T1     ORDER BY T1.ID ASC",
+    "readable_query": "SELECT customer.Age FROM visitor AS customer     ORDER BY customer.ID ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM museum AS T1     ORDER BY T1.Num_of_Staff ASC",
+    "readable_query": "SELECT museum.Name FROM museum AS museum     ORDER BY museum.Num_of_Staff ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 18,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Age FROM visitor AS T1     ORDER BY T1.Level_of_membership ASC",
+    "readable_query": "SELECT customer.Age FROM visitor AS customer     ORDER BY customer.Level_of_membership ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.ID FROM visitor AS T1     ORDER BY T1.Age DESC",
+    "readable_query": "SELECT customer.ID FROM visitor AS customer     ORDER BY customer.Age DESC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1     ORDER BY T1.Num_of_Ticket DESC",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit     ORDER BY visit.Num_of_Ticket DESC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.visitor_ID FROM visit AS T1     ORDER BY T1.Total_spent DESC",
+    "readable_query": "SELECT visit.visitor_ID FROM visit AS visit     ORDER BY visit.Total_spent DESC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.ID FROM visitor AS T1     ORDER BY T1.Level_of_membership DESC",
+    "readable_query": "SELECT customer.ID FROM visitor AS customer     ORDER BY customer.Level_of_membership DESC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Num_of_Staff FROM museum AS T1     ORDER BY T1.Museum_ID DESC",
+    "readable_query": "SELECT museum.Num_of_Staff FROM museum AS museum     ORDER BY museum.Museum_ID DESC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM visitor AS T1     ORDER BY T1.ID DESC",
+    "readable_query": "SELECT customer.Name FROM visitor AS customer     ORDER BY customer.ID DESC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Museum_ID FROM visit AS T1     ORDER BY T1.Total_spent DESC",
+    "readable_query": "SELECT visit.Museum_ID FROM visit AS visit     ORDER BY visit.Total_spent DESC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM visitor AS T1     ORDER BY T1.Age DESC",
+    "readable_query": "SELECT customer.Name FROM visitor AS customer     ORDER BY customer.Age DESC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Name FROM museum AS T1     ORDER BY T1.Museum_ID DESC",
+    "readable_query": "SELECT museum.Name FROM museum AS museum     ORDER BY museum.Museum_ID DESC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 19,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(0) A(0) Op(0) C(-2) T(0) C(-2) T(0)",
+    "query": "SELECT T1.Open_Year FROM museum AS T1     ORDER BY T1.Num_of_Staff DESC",
+    "readable_query": "SELECT museum.Open_Year FROM museum AS museum     ORDER BY museum.Num_of_Staff DESC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Open_Year, T1.Num_of_Staff FROM museum AS T1     ORDER BY T1.Num_of_Staff ASC",
+    "readable_query": "SELECT museum.Open_Year, museum.Num_of_Staff FROM museum AS museum     ORDER BY museum.Num_of_Staff ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Level_of_membership, T1.ID FROM visitor AS T1     ORDER BY T1.ID ASC",
+    "readable_query": "SELECT customer.Level_of_membership, customer.ID FROM visitor AS customer     ORDER BY customer.ID ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Level_of_membership, T1.Age FROM visitor AS T1     ORDER BY T1.Age ASC",
+    "readable_query": "SELECT customer.Level_of_membership, customer.Age FROM visitor AS customer     ORDER BY customer.Age ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Name, T1.Open_Year FROM museum AS T1     ORDER BY T1.Open_Year ASC",
+    "readable_query": "SELECT museum.Name, museum.Open_Year FROM museum AS museum     ORDER BY museum.Open_Year ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.ID, T1.Level_of_membership FROM visitor AS T1     ORDER BY T1.Level_of_membership ASC",
+    "readable_query": "SELECT customer.ID, customer.Level_of_membership FROM visitor AS customer     ORDER BY customer.Level_of_membership ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Num_of_Ticket, T1.visitor_ID FROM visit AS T1     ORDER BY T1.visitor_ID ASC",
+    "readable_query": "SELECT visit.Num_of_Ticket, visit.visitor_ID FROM visit AS visit     ORDER BY visit.visitor_ID ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Museum_ID, T1.Open_Year FROM museum AS T1     ORDER BY T1.Open_Year ASC",
+    "readable_query": "SELECT museum.Museum_ID, museum.Open_Year FROM museum AS museum     ORDER BY museum.Open_Year ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Age, T1.ID FROM visitor AS T1     ORDER BY T1.ID ASC",
+    "readable_query": "SELECT customer.Age, customer.ID FROM visitor AS customer     ORDER BY customer.ID ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Name, T1.Num_of_Staff FROM museum AS T1     ORDER BY T1.Num_of_Staff ASC",
+    "readable_query": "SELECT museum.Name, museum.Num_of_Staff FROM museum AS museum     ORDER BY museum.Num_of_Staff ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 20,
+    "query_type": "Root1(3) Root(4) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(0) C(1) T(0) Order(1) A(0) Op(0) C(1) T(0) C(1) T(0)",
+    "query": "SELECT T1.Museum_ID, T1.Total_spent FROM visit AS T1     ORDER BY T1.Total_spent ASC",
+    "readable_query": "SELECT visit.Museum_ID, visit.Total_spent FROM visit AS visit     ORDER BY visit.Total_spent ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.visitor_ID FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID JOIN museum AS T3 ON T1.Museum_ID = T3.Museum_ID WHERE T2.Age = 36 and T3.Name = \"Willow Grande Museum\"",
+    "readable_query": "SELECT visit.visitor_ID FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID WHERE customer.Age = 36 and museum.Name = \"Willow Grande Museum\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.ID FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID JOIN museum AS T3 ON T2.Museum_ID = T3.Museum_ID WHERE T2.Total_spent = 89.98 and T3.Open_Year = \"2010\"",
+    "readable_query": "SELECT customer.ID FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID WHERE visit.Total_spent = 89.98 and museum.Open_Year = \"2010\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Name FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID JOIN visitor AS T3 ON T2.visitor_ID = T3.ID WHERE T2.Num_of_Ticket = 24 and T3.ID = 5",
+    "readable_query": "SELECT museum.Name FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE visit.Num_of_Ticket = 24 and customer.ID = 5"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID JOIN museum AS T3 ON T1.Museum_ID = T3.Museum_ID WHERE T2.Level_of_membership = 1 and T3.Num_of_Staff = 15",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID WHERE customer.Level_of_membership = 1 and museum.Num_of_Staff = 15"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.visitor_ID FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID JOIN visitor AS T3 ON T1.visitor_ID = T3.ID WHERE T2.Name = \"Central City District Residential Museum\" and T3.Level_of_membership = 5",
+    "readable_query": "SELECT visit.visitor_ID FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE museum.Name = \"Central City District Residential Museum\" and customer.Level_of_membership = 5"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Museum_ID FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID JOIN museum AS T3 ON T1.Museum_ID = T3.Museum_ID WHERE T2.Level_of_membership = 2 and T3.Open_Year = \"2011\"",
+    "readable_query": "SELECT visit.Museum_ID FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID WHERE customer.Level_of_membership = 2 and museum.Open_Year = \"2011\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Num_of_Staff FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID JOIN visitor AS T3 ON T2.visitor_ID = T3.ID WHERE T2.Museum_ID = 8 and T3.ID = 5",
+    "readable_query": "SELECT museum.Num_of_Staff FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE visit.Museum_ID = 8 and customer.ID = 5"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID JOIN visitor AS T3 ON T1.visitor_ID = T3.ID WHERE T2.Num_of_Staff = 62 and T3.Age = 28",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE museum.Num_of_Staff = 62 and customer.Age = 28"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Age FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID JOIN museum AS T3 ON T2.Museum_ID = T3.Museum_ID WHERE T2.visitor_ID = \"6\" and T3.Open_Year = \"2012\"",
+    "readable_query": "SELECT customer.Age FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID WHERE visit.visitor_ID = \"6\" and museum.Open_Year = \"2012\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 21,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(1)",
+    "query": "SELECT T1.Name FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID JOIN museum AS T3 ON T2.Museum_ID = T3.Museum_ID WHERE T2.Museum_ID = 8 and T3.Open_Year = \"2000\"",
+    "readable_query": "SELECT customer.Name FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID WHERE visit.Museum_ID = 8 and museum.Open_Year = \"2000\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Open_Year = \"2012\" or T2.Open_Year = \"2012\"",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID WHERE museum.Open_Year = \"2012\" or museum.Open_Year = \"2012\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Name FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.visitor_ID = \"6\" or T2.visitor_ID = \"3\"",
+    "readable_query": "SELECT customer.Name FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.visitor_ID = \"6\" or visit.visitor_ID = \"3\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID WHERE T2.Age = 28 or T2.Age = 35",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE customer.Age = 28 or customer.Age = 35"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Level_of_membership FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.Museum_ID = 2 or T2.Museum_ID = 1",
+    "readable_query": "SELECT customer.Level_of_membership FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.Museum_ID = 2 or visit.Museum_ID = 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Name FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.Num_of_Ticket = 3 or T2.Num_of_Ticket = 4",
+    "readable_query": "SELECT customer.Name FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.Num_of_Ticket = 3 or visit.Num_of_Ticket = 4"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Museum_ID FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Num_of_Ticket = 3 or T2.Num_of_Ticket = 24",
+    "readable_query": "SELECT museum.Museum_ID FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE visit.Num_of_Ticket = 3 or visit.Num_of_Ticket = 24"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Name FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Num_of_Ticket = 24 or T2.Num_of_Ticket = 10",
+    "readable_query": "SELECT museum.Name FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE visit.Num_of_Ticket = 24 or visit.Num_of_Ticket = 10"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID WHERE T2.ID = 2 or T2.ID = 4",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE customer.ID = 2 or customer.ID = 4"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Open_Year FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Num_of_Ticket = 10 or T2.Num_of_Ticket = 20",
+    "readable_query": "SELECT museum.Open_Year FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE visit.Num_of_Ticket = 10 or visit.Num_of_Ticket = 20"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 22,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT T1.Age FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.visitor_ID = \"5\" or T2.visitor_ID = \"5\"",
+    "readable_query": "SELECT customer.Age FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.visitor_ID = \"5\" or visit.visitor_ID = \"5\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Name FROM visitor AS T1 WHERE T1.Age = 35 and T1.ID = 5",
+    "readable_query": "SELECT customer.Name FROM visitor AS customer WHERE customer.Age = 35 and customer.ID = 5"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.ID FROM visitor AS T1 WHERE T1.Level_of_membership = 6 and T1.Name = \"Guti Midfielder\"",
+    "readable_query": "SELECT customer.ID FROM visitor AS customer WHERE customer.Level_of_membership = 6 and customer.Name = \"Guti Midfielder\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Num_of_Ticket FROM visit AS T1 WHERE T1.Total_spent = 20.44 and T1.visitor_ID = \"3\"",
+    "readable_query": "SELECT visit.Num_of_Ticket FROM visit AS visit WHERE visit.Total_spent = 20.44 and visit.visitor_ID = \"3\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Open_Year FROM museum AS T1 WHERE T1.Name = \"Central City District Residential Museum\" and T1.Num_of_Staff = 18",
+    "readable_query": "SELECT museum.Open_Year FROM museum AS museum WHERE museum.Name = \"Central City District Residential Museum\" and museum.Num_of_Staff = 18"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Num_of_Ticket FROM visit AS T1 WHERE T1.Total_spent = 20.44 and T1.Museum_ID = 4",
+    "readable_query": "SELECT visit.Num_of_Ticket FROM visit AS visit WHERE visit.Total_spent = 20.44 and visit.Museum_ID = 4"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Age FROM visitor AS T1 WHERE T1.ID = 4 and T1.Level_of_membership = 5",
+    "readable_query": "SELECT customer.Age FROM visitor AS customer WHERE customer.ID = 4 and customer.Level_of_membership = 5"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Museum_ID FROM visit AS T1 WHERE T1.Total_spent = 209.98 and T1.Num_of_Ticket = 2",
+    "readable_query": "SELECT visit.Museum_ID FROM visit AS visit WHERE visit.Total_spent = 209.98 and visit.Num_of_Ticket = 2"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Open_Year FROM museum AS T1 WHERE T1.Name = \"Central City District Residential Museum\" and T1.Museum_ID = 5",
+    "readable_query": "SELECT museum.Open_Year FROM museum AS museum WHERE museum.Name = \"Central City District Residential Museum\" and museum.Museum_ID = 5"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.ID FROM visitor AS T1 WHERE T1.Age = 25 and T1.Name = \"Guti Midfielder\"",
+    "readable_query": "SELECT customer.ID FROM visitor AS customer WHERE customer.Age = 25 and customer.Name = \"Guti Midfielder\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 23,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Museum_ID FROM museum AS T1 WHERE T1.Open_Year = \"2011\" and T1.Num_of_Staff = 12",
+    "readable_query": "SELECT museum.Museum_ID FROM museum AS museum WHERE museum.Open_Year = \"2011\" and museum.Num_of_Staff = 12"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.visitor_ID) FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID WHERE T1.Num_of_Ticket = 24 and T2.Level_of_membership = 6",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  visit.visitor_ID) FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE visit.Num_of_Ticket = 24 and customer.Level_of_membership = 6"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Name) FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T1.Museum_ID = 3 and T2.Total_spent = 19.98",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  museum.Name) FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE museum.Museum_ID = 3 and visit.Total_spent = 19.98"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Total_spent) FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID WHERE T1.visitor_ID = \"6\" and T2.Name = \"Fernando Gago\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  visit.Total_spent) FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE visit.visitor_ID = \"6\" and customer.Name = \"Fernando Gago\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Age) FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T1.ID = 4 and T2.Museum_ID = 2",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  customer.Age) FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE customer.ID = 4 and visit.Museum_ID = 2"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Num_of_Staff) FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T1.Open_Year = \"2012\" and T2.Total_spent = 320.44",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  museum.Num_of_Staff) FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE museum.Open_Year = \"2012\" and visit.Total_spent = 320.44"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Num_of_Ticket) FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T1.Total_spent = 320.14 and T2.Num_of_Staff = 16",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  visit.Num_of_Ticket) FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID WHERE visit.Total_spent = 320.14 and museum.Num_of_Staff = 16"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Age) FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T1.Name = \"Rafael van der Vaart\" and T2.Total_spent = 89.98",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  customer.Age) FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE customer.Name = \"Rafael van der Vaart\" and visit.Total_spent = 89.98"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Museum_ID) FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T1.Name = \"Capital Plaza Museum\" and T2.Total_spent = 89.98",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  museum.Museum_ID) FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE museum.Name = \"Capital Plaza Museum\" and visit.Total_spent = 89.98"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Level_of_membership) FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T1.Age = 28 and T2.Total_spent = 20.44",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  customer.Level_of_membership) FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE customer.Age = 28 and visit.Total_spent = 20.44"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 24,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(1) C(2) T(1) V(1)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Level_of_membership) FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T1.Age = 56 and T2.Museum_ID = 1",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  customer.Level_of_membership) FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE customer.Age = 56 and visit.Museum_ID = 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Open_Year FROM museum AS T1 WHERE T1.Name = \"Willow Grande Museum\" or T1.Num_of_Staff = 12",
+    "readable_query": "SELECT museum.Open_Year FROM museum AS museum WHERE museum.Name = \"Willow Grande Museum\" or museum.Num_of_Staff = 12"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.visitor_ID FROM visit AS T1 WHERE T1.Num_of_Ticket = 3 or T1.Total_spent = 19.98",
+    "readable_query": "SELECT visit.visitor_ID FROM visit AS visit WHERE visit.Num_of_Ticket = 3 or visit.Total_spent = 19.98"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Num_of_Ticket FROM visit AS T1 WHERE T1.visitor_ID = \"3\" or T1.Total_spent = 320.44",
+    "readable_query": "SELECT visit.Num_of_Ticket FROM visit AS visit WHERE visit.visitor_ID = \"3\" or visit.Total_spent = 320.44"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Open_Year FROM museum AS T1 WHERE T1.Museum_ID = 1 or T1.Num_of_Staff = 25",
+    "readable_query": "SELECT museum.Open_Year FROM museum AS museum WHERE museum.Museum_ID = 1 or museum.Num_of_Staff = 25"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Museum_ID FROM visit AS T1 WHERE T1.Num_of_Ticket = 2 or T1.visitor_ID = \"3\"",
+    "readable_query": "SELECT visit.Museum_ID FROM visit AS visit WHERE visit.Num_of_Ticket = 2 or visit.visitor_ID = \"3\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Open_Year FROM museum AS T1 WHERE T1.Museum_ID = 5 or T1.Name = \"Capital Plaza Museum\"",
+    "readable_query": "SELECT museum.Open_Year FROM museum AS museum WHERE museum.Museum_ID = 5 or museum.Name = \"Capital Plaza Museum\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Museum_ID FROM visit AS T1 WHERE T1.Num_of_Ticket = 24 or T1.Total_spent = 20.44",
+    "readable_query": "SELECT visit.Museum_ID FROM visit AS visit WHERE visit.Num_of_Ticket = 24 or visit.Total_spent = 20.44"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Name FROM visitor AS T1 WHERE T1.Age = 56 or T1.ID = 5",
+    "readable_query": "SELECT customer.Name FROM visitor AS customer WHERE customer.Age = 56 or customer.ID = 5"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Level_of_membership FROM visitor AS T1 WHERE T1.Name = \"Rafael van der Vaart\" or T1.ID = 6",
+    "readable_query": "SELECT customer.Level_of_membership FROM visitor AS customer WHERE customer.Name = \"Rafael van der Vaart\" or customer.ID = 6"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 25,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(1) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Filter(2) A(0) Op(0) C(2) T(0) C(2) T(0) V(1)",
+    "query": "SELECT T1.Num_of_Staff FROM museum AS T1 WHERE T1.Name = \"Capital Plaza Museum\" or T1.Museum_ID = 5",
+    "readable_query": "SELECT museum.Num_of_Staff FROM museum AS museum WHERE museum.Name = \"Capital Plaza Museum\" or museum.Museum_ID = 5"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.visitor_ID = \"6\" and T2.Museum_ID = 4",
+    "readable_query": "SELECT count(*) FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE visit.visitor_ID = \"6\" and visit.Museum_ID = 4"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.visitor_ID = \"3\" and T2.Total_spent = 20.44",
+    "readable_query": "SELECT count(*) FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.visitor_ID = \"3\" and visit.Total_spent = 20.44"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.visitor_ID = \"5\" and T2.Num_of_Ticket = 4",
+    "readable_query": "SELECT count(*) FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.visitor_ID = \"5\" and visit.Num_of_Ticket = 4"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Museum_ID = 2 and T2.Num_of_Ticket = 4",
+    "readable_query": "SELECT count(*) FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE visit.Museum_ID = 2 and visit.Num_of_Ticket = 4"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID WHERE T2.ID = 1 and T2.Name = \"Gonzalo Higua\u00edn \"",
+    "readable_query": "SELECT count(*) FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE customer.ID = 1 and customer.Name = \"Gonzalo Higua\u00edn \""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Total_spent = 19.98 and T2.Num_of_Ticket = 2",
+    "readable_query": "SELECT count(*) FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE visit.Total_spent = 19.98 and visit.Num_of_Ticket = 2"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Total_spent = 209.98 and T2.Num_of_Ticket = 3",
+    "readable_query": "SELECT count(*) FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE visit.Total_spent = 209.98 and visit.Num_of_Ticket = 3"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Num_of_Ticket = 4 and T2.Museum_ID = 2",
+    "readable_query": "SELECT count(*) FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE visit.Num_of_Ticket = 4 and visit.Museum_ID = 2"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.Num_of_Ticket = 3 and T2.Total_spent = 320.14",
+    "readable_query": "SELECT count(*) FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.Num_of_Ticket = 3 and visit.Total_spent = 320.14"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 26,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(3) Op(0) C(-1) T(0) C(-1) T(0) Filter(0) Filter(2) A(0) Op(0) C(0) T(1) C(0) T(1) V(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(1)",
+    "query": "SELECT count(*) FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.Num_of_Ticket = 20 and T2.visitor_ID = \"6\"",
+    "readable_query": "SELECT count(*) FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.Num_of_Ticket = 20 and visit.visitor_ID = \"6\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Level_of_membership FROM visitor AS T1 WHERE T1.Name != \"Rafael van der Vaart\"",
+    "readable_query": "SELECT customer.Level_of_membership FROM visitor AS customer WHERE customer.Name != \"Rafael van der Vaart\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Name FROM museum AS T1 WHERE T1.Museum_ID != 7",
+    "readable_query": "SELECT museum.Name FROM museum AS museum WHERE museum.Museum_ID != 7"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.visitor_ID FROM visit AS T1 WHERE T1.Total_spent != 19.98",
+    "readable_query": "SELECT visit.visitor_ID FROM visit AS visit WHERE visit.Total_spent != 19.98"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1 WHERE T1.Num_of_Ticket != 10",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit WHERE visit.Num_of_Ticket != 10"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1 WHERE T1.visitor_ID != \"6\"",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit WHERE visit.visitor_ID != \"6\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.visitor_ID FROM visit AS T1 WHERE T1.Museum_ID != 2",
+    "readable_query": "SELECT visit.visitor_ID FROM visit AS visit WHERE visit.Museum_ID != 2"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1 WHERE T1.Museum_ID != 4",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit WHERE visit.Museum_ID != 4"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Level_of_membership FROM visitor AS T1 WHERE T1.Name != \"Arjen Robben\"",
+    "readable_query": "SELECT customer.Level_of_membership FROM visitor AS customer WHERE customer.Name != \"Arjen Robben\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Name FROM visitor AS T1 WHERE T1.Level_of_membership != 1",
+    "readable_query": "SELECT customer.Name FROM visitor AS customer WHERE customer.Level_of_membership != 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 27,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1 WHERE T1.Num_of_Ticket != 24",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit WHERE visit.Num_of_Ticket != 24"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.ID FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.Museum_ID != 2",
+    "readable_query": "SELECT customer.ID FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.Museum_ID != 2"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Name FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Total_spent != 89.98",
+    "readable_query": "SELECT museum.Name FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE visit.Total_spent != 89.98"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Level_of_membership FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.Num_of_Ticket != 24",
+    "readable_query": "SELECT customer.Level_of_membership FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.Num_of_Ticket != 24"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.visitor_ID FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID WHERE T2.Name != \"Guti Midfielder\"",
+    "readable_query": "SELECT visit.visitor_ID FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE customer.Name != \"Guti Midfielder\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Museum_ID FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.visitor_ID != \"5\"",
+    "readable_query": "SELECT museum.Museum_ID FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE visit.visitor_ID != \"5\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Num_of_Staff FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Num_of_Ticket != 10",
+    "readable_query": "SELECT museum.Num_of_Staff FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE visit.Num_of_Ticket != 10"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Museum_ID FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID WHERE T2.Name != \"Arjen Robben\"",
+    "readable_query": "SELECT visit.Museum_ID FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE customer.Name != \"Arjen Robben\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Level_of_membership FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.Total_spent != 320.14",
+    "readable_query": "SELECT customer.Level_of_membership FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.Total_spent != 320.14"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.ID FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.Total_spent != 20.44",
+    "readable_query": "SELECT customer.ID FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.Total_spent != 20.44"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 28,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(3) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.ID FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.Num_of_Ticket != 20",
+    "readable_query": "SELECT customer.ID FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.Num_of_Ticket != 20"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Total_spent FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Name = \"Willow Grande Museum\"",
+    "readable_query": "SELECT DISTINCT visit.Total_spent FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID WHERE museum.Name = \"Willow Grande Museum\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.ID FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.Museum_ID = 1",
+    "readable_query": "SELECT DISTINCT customer.ID FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.Museum_ID = 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Name FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.visitor_ID = \"3\"",
+    "readable_query": "SELECT DISTINCT customer.Name FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.visitor_ID = \"3\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Num_of_Ticket FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Name = \"Plaza Museum\"",
+    "readable_query": "SELECT DISTINCT visit.Num_of_Ticket FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID WHERE museum.Name = \"Plaza Museum\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Total_spent FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Num_of_Staff = 62",
+    "readable_query": "SELECT DISTINCT visit.Total_spent FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID WHERE museum.Num_of_Staff = 62"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Num_of_Staff FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.visitor_ID = \"3\"",
+    "readable_query": "SELECT DISTINCT museum.Num_of_Staff FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE visit.visitor_ID = \"3\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Open_Year FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Num_of_Ticket = 3",
+    "readable_query": "SELECT DISTINCT museum.Open_Year FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE visit.Num_of_Ticket = 3"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.Name FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Num_of_Ticket = 4",
+    "readable_query": "SELECT DISTINCT museum.Name FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE visit.Num_of_Ticket = 4"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.visitor_ID FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Num_of_Staff = 17",
+    "readable_query": "SELECT DISTINCT visit.visitor_ID FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID WHERE museum.Num_of_Staff = 17"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 29,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT DISTINCT T1.visitor_ID FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID WHERE T2.Name = \"Rafael van der Vaart\"",
+    "readable_query": "SELECT DISTINCT visit.visitor_ID FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE customer.Name = \"Rafael van der Vaart\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Museum_ID) FROM museum AS T1 WHERE T1.Open_Year = \"2008\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  museum.Museum_ID) FROM museum AS museum WHERE museum.Open_Year = \"2008\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Open_Year) FROM museum AS T1 WHERE T1.Name = \"ZirMed Gateway Museum\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  museum.Open_Year) FROM museum AS museum WHERE museum.Name = \"ZirMed Gateway Museum\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Num_of_Staff) FROM museum AS T1 WHERE T1.Museum_ID = 6",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  museum.Num_of_Staff) FROM museum AS museum WHERE museum.Museum_ID = 6"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Age) FROM visitor AS T1 WHERE T1.ID = 3",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  customer.Age) FROM visitor AS customer WHERE customer.ID = 3"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Total_spent) FROM visit AS T1 WHERE T1.Num_of_Ticket = 24",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  visit.Total_spent) FROM visit AS visit WHERE visit.Num_of_Ticket = 24"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Num_of_Ticket) FROM visit AS T1 WHERE T1.Total_spent = 209.98",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  visit.Num_of_Ticket) FROM visit AS visit WHERE visit.Total_spent = 209.98"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Level_of_membership) FROM visitor AS T1 WHERE T1.Name = \"Fernando Gago\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  customer.Level_of_membership) FROM visitor AS customer WHERE customer.Name = \"Fernando Gago\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Total_spent) FROM visit AS T1 WHERE T1.visitor_ID = \"3\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  visit.Total_spent) FROM visit AS visit WHERE visit.visitor_ID = \"3\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.visitor_ID) FROM visit AS T1 WHERE T1.Total_spent = 209.98",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  visit.visitor_ID) FROM visit AS visit WHERE visit.Total_spent = 209.98"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 30,
+    "query_type": "Root1(3) Root(3) Sel(1) N(0) A(3) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT DISTINCT count(DISTINCT  T1.Open_Year) FROM museum AS T1 WHERE T1.Name = \"Plaza Museum\"",
+    "readable_query": "SELECT DISTINCT count(DISTINCT  museum.Open_Year) FROM museum AS museum WHERE museum.Name = \"Plaza Museum\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Name FROM visitor AS T1 WHERE T1.Level_of_membership > 2",
+    "readable_query": "SELECT customer.Name FROM visitor AS customer WHERE customer.Level_of_membership > 2"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Num_of_Ticket FROM visit AS T1 WHERE T1.Museum_ID > 8",
+    "readable_query": "SELECT visit.Num_of_Ticket FROM visit AS visit WHERE visit.Museum_ID > 8"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Num_of_Staff FROM museum AS T1 WHERE T1.Museum_ID > 8",
+    "readable_query": "SELECT museum.Num_of_Staff FROM museum AS museum WHERE museum.Museum_ID > 8"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Level_of_membership FROM visitor AS T1 WHERE T1.ID > 1",
+    "readable_query": "SELECT customer.Level_of_membership FROM visitor AS customer WHERE customer.ID > 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1 WHERE T1.Num_of_Ticket > 2",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit WHERE visit.Num_of_Ticket > 2"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.ID FROM visitor AS T1 WHERE T1.Age > 56",
+    "readable_query": "SELECT customer.ID FROM visitor AS customer WHERE customer.Age > 56"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Num_of_Staff FROM museum AS T1 WHERE T1.Museum_ID > 5",
+    "readable_query": "SELECT museum.Num_of_Staff FROM museum AS museum WHERE museum.Museum_ID > 5"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.visitor_ID FROM visit AS T1 WHERE T1.Total_spent > 20.44",
+    "readable_query": "SELECT visit.visitor_ID FROM visit AS visit WHERE visit.Total_spent > 20.44"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Num_of_Ticket FROM visit AS T1 WHERE T1.Museum_ID > 1",
+    "readable_query": "SELECT visit.Num_of_Ticket FROM visit AS visit WHERE visit.Museum_ID > 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 31,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(5) A(0) Op(0) C(-2) T(0) C(-2) T(0) V(0)",
+    "query": "SELECT T1.Museum_ID FROM visit AS T1 WHERE T1.Total_spent > 209.98",
+    "readable_query": "SELECT visit.Museum_ID FROM visit AS visit WHERE visit.Total_spent > 209.98"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Age, T2.Num_of_Ticket, T3.Open_Year FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID JOIN museum AS T3 ON T2.Museum_ID = T3.Museum_ID",
+    "readable_query": "SELECT customer.Age, visit.Num_of_Ticket, museum.Open_Year FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.ID, T2.Museum_ID, T3.Num_of_Staff FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID JOIN museum AS T3 ON T2.Museum_ID = T3.Museum_ID",
+    "readable_query": "SELECT customer.ID, visit.Museum_ID, museum.Num_of_Staff FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Open_Year, T2.Total_spent, T3.Age FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID JOIN visitor AS T3 ON T2.visitor_ID = T3.ID",
+    "readable_query": "SELECT museum.Open_Year, visit.Total_spent, customer.Age FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID JOIN visitor AS customer ON visit.visitor_ID = customer.ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Num_of_Staff, T2.Total_spent, T3.ID FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID JOIN visitor AS T3 ON T2.visitor_ID = T3.ID",
+    "readable_query": "SELECT museum.Num_of_Staff, visit.Total_spent, customer.ID FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID JOIN visitor AS customer ON visit.visitor_ID = customer.ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Num_of_Staff, T2.visitor_ID, T3.Name FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID JOIN visitor AS T3 ON T2.visitor_ID = T3.ID",
+    "readable_query": "SELECT museum.Num_of_Staff, visit.visitor_ID, customer.Name FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID JOIN visitor AS customer ON visit.visitor_ID = customer.ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Name, T2.visitor_ID, T3.Level_of_membership FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID JOIN visitor AS T3 ON T2.visitor_ID = T3.ID",
+    "readable_query": "SELECT museum.Name, visit.visitor_ID, customer.Level_of_membership FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID JOIN visitor AS customer ON visit.visitor_ID = customer.ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Name, T2.Total_spent, T3.Level_of_membership FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID JOIN visitor AS T3 ON T2.visitor_ID = T3.ID",
+    "readable_query": "SELECT museum.Name, visit.Total_spent, customer.Level_of_membership FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID JOIN visitor AS customer ON visit.visitor_ID = customer.ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Age, T2.Museum_ID, T3.Name FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID JOIN museum AS T3 ON T2.Museum_ID = T3.Museum_ID",
+    "readable_query": "SELECT customer.Age, visit.Museum_ID, museum.Name FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.visitor_ID, T2.Num_of_Staff, T3.Level_of_membership FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID JOIN visitor AS T3 ON T1.visitor_ID = T3.ID",
+    "readable_query": "SELECT visit.visitor_ID, museum.Num_of_Staff, customer.Level_of_membership FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID JOIN visitor AS customer ON visit.visitor_ID = customer.ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 32,
+    "query_type": "Root1(3) Root(5) Sel(0) N(2) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) A(0) Op(0) C(2) T(2) C(2) T(2)",
+    "query": "SELECT T1.Museum_ID, T2.Open_Year, T3.Name FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID JOIN visitor AS T3 ON T1.visitor_ID = T3.ID",
+    "readable_query": "SELECT visit.Museum_ID, museum.Open_Year, customer.Name FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID JOIN visitor AS customer ON visit.visitor_ID = customer.ID"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Open_Year FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID     ORDER BY T2.Num_of_Ticket ASC",
+    "readable_query": "SELECT museum.Open_Year FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID     ORDER BY visit.Num_of_Ticket ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Open_Year FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID     ORDER BY T2.Museum_ID ASC",
+    "readable_query": "SELECT museum.Open_Year FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID     ORDER BY visit.Museum_ID ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ID FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID     ORDER BY T2.Museum_ID ASC",
+    "readable_query": "SELECT customer.ID FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID     ORDER BY visit.Museum_ID ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Num_of_Ticket FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID     ORDER BY T2.Museum_ID ASC",
+    "readable_query": "SELECT visit.Num_of_Ticket FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID     ORDER BY museum.Museum_ID ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Museum_ID FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID     ORDER BY T2.Num_of_Ticket ASC",
+    "readable_query": "SELECT museum.Museum_ID FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID     ORDER BY visit.Num_of_Ticket ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.ID FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID     ORDER BY T2.Total_spent ASC",
+    "readable_query": "SELECT customer.ID FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID     ORDER BY visit.Total_spent ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID     ORDER BY T2.Total_spent ASC",
+    "readable_query": "SELECT museum.Name FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID     ORDER BY visit.Total_spent ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID     ORDER BY T2.Museum_ID ASC",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID     ORDER BY museum.Museum_ID ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Num_of_Ticket FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID     ORDER BY T2.Age ASC",
+    "readable_query": "SELECT visit.Num_of_Ticket FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID     ORDER BY customer.Age ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 33,
+    "query_type": "Root1(3) Root(4) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Order(1) A(0) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Open_Year FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID     ORDER BY T2.Total_spent ASC",
+    "readable_query": "SELECT museum.Open_Year FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID     ORDER BY visit.Total_spent ASC"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Name FROM museum AS T1 WHERE T1.Museum_ID = 2     INTERSECT SELECT T2.Name FROM museum AS T2 WHERE T2.Museum_ID = 3",
+    "readable_query": "SELECT museum.Name FROM museum AS museum WHERE museum.Museum_ID = 2     INTERSECT SELECT museum.Name FROM museum AS museum WHERE museum.Museum_ID = 3"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Open_Year FROM museum AS T1 WHERE T1.Museum_ID = 6     INTERSECT SELECT T2.Open_Year FROM museum AS T2 WHERE T2.Museum_ID = 4",
+    "readable_query": "SELECT museum.Open_Year FROM museum AS museum WHERE museum.Museum_ID = 6     INTERSECT SELECT museum.Open_Year FROM museum AS museum WHERE museum.Museum_ID = 4"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Age FROM visitor AS T1 WHERE T1.Level_of_membership = 8     INTERSECT SELECT T2.Age FROM visitor AS T2 WHERE T2.Level_of_membership = 2",
+    "readable_query": "SELECT customer.Age FROM visitor AS customer WHERE customer.Level_of_membership = 8     INTERSECT SELECT customer.Age FROM visitor AS customer WHERE customer.Level_of_membership = 2"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Num_of_Ticket FROM visit AS T1 WHERE T1.Museum_ID = 2     INTERSECT SELECT T2.Num_of_Ticket FROM visit AS T2 WHERE T2.Museum_ID = 8",
+    "readable_query": "SELECT visit.Num_of_Ticket FROM visit AS visit WHERE visit.Museum_ID = 2     INTERSECT SELECT visit.Num_of_Ticket FROM visit AS visit WHERE visit.Museum_ID = 8"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Level_of_membership FROM visitor AS T1 WHERE T1.ID = 6     INTERSECT SELECT T2.Level_of_membership FROM visitor AS T2 WHERE T2.ID = 3",
+    "readable_query": "SELECT customer.Level_of_membership FROM visitor AS customer WHERE customer.ID = 6     INTERSECT SELECT customer.Level_of_membership FROM visitor AS customer WHERE customer.ID = 3"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Num_of_Ticket FROM visit AS T1 WHERE T1.Total_spent = 320.44     INTERSECT SELECT T2.Num_of_Ticket FROM visit AS T2 WHERE T2.Total_spent = 320.44",
+    "readable_query": "SELECT visit.Num_of_Ticket FROM visit AS visit WHERE visit.Total_spent = 320.44     INTERSECT SELECT visit.Num_of_Ticket FROM visit AS visit WHERE visit.Total_spent = 320.44"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.Age FROM visitor AS T1 WHERE T1.Level_of_membership = 5     INTERSECT SELECT T2.Age FROM visitor AS T2 WHERE T2.Level_of_membership = 8",
+    "readable_query": "SELECT customer.Age FROM visitor AS customer WHERE customer.Level_of_membership = 5     INTERSECT SELECT customer.Age FROM visitor AS customer WHERE customer.Level_of_membership = 8"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.ID FROM visitor AS T1 WHERE T1.Level_of_membership = 5     INTERSECT SELECT T2.ID FROM visitor AS T2 WHERE T2.Level_of_membership = 8",
+    "readable_query": "SELECT customer.ID FROM visitor AS customer WHERE customer.Level_of_membership = 5     INTERSECT SELECT customer.ID FROM visitor AS customer WHERE customer.Level_of_membership = 8"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.visitor_ID FROM visit AS T1 WHERE T1.Museum_ID = 1     INTERSECT SELECT T2.visitor_ID FROM visit AS T2 WHERE T2.Museum_ID = 8",
+    "readable_query": "SELECT visit.visitor_ID FROM visit AS visit WHERE visit.Museum_ID = 1     INTERSECT SELECT visit.visitor_ID FROM visit AS visit WHERE visit.Museum_ID = 8"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 34,
+    "query_type": "Root1(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(1)",
+    "query": "SELECT T1.visitor_ID FROM visit AS T1 WHERE T1.Num_of_Ticket = 3     INTERSECT SELECT T2.visitor_ID FROM visit AS T2 WHERE T2.Num_of_Ticket = 10",
+    "readable_query": "SELECT visit.visitor_ID FROM visit AS visit WHERE visit.Num_of_Ticket = 3     INTERSECT SELECT visit.visitor_ID FROM visit AS visit WHERE visit.Num_of_Ticket = 10"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.ID) FROM visitor AS T1 WHERE T1.Level_of_membership = 1",
+    "readable_query": "SELECT avg( customer.ID) FROM visitor AS customer WHERE customer.Level_of_membership = 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Age) FROM visitor AS T1 WHERE T1.Level_of_membership = 2",
+    "readable_query": "SELECT avg( customer.Age) FROM visitor AS customer WHERE customer.Level_of_membership = 2"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.ID) FROM visitor AS T1 WHERE T1.Name = \"Fernando Gago\"",
+    "readable_query": "SELECT avg( customer.ID) FROM visitor AS customer WHERE customer.Name = \"Fernando Gago\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Num_of_Staff) FROM museum AS T1 WHERE T1.Name = \"Plaza Museum\"",
+    "readable_query": "SELECT avg( museum.Num_of_Staff) FROM museum AS museum WHERE museum.Name = \"Plaza Museum\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Museum_ID) FROM museum AS T1 WHERE T1.Name = \"Jefferson Development Museum\"",
+    "readable_query": "SELECT avg( museum.Museum_ID) FROM museum AS museum WHERE museum.Name = \"Jefferson Development Museum\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Num_of_Staff) FROM museum AS T1 WHERE T1.Name = \"Place Tower Museum\"",
+    "readable_query": "SELECT avg( museum.Num_of_Staff) FROM museum AS museum WHERE museum.Name = \"Place Tower Museum\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Museum_ID) FROM visit AS T1 WHERE T1.Total_spent = 89.98",
+    "readable_query": "SELECT avg( visit.Museum_ID) FROM visit AS visit WHERE visit.Total_spent = 89.98"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Level_of_membership) FROM visitor AS T1 WHERE T1.ID = 1",
+    "readable_query": "SELECT avg( customer.Level_of_membership) FROM visitor AS customer WHERE customer.ID = 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Total_spent) FROM visit AS T1 WHERE T1.Num_of_Ticket = 4",
+    "readable_query": "SELECT avg( visit.Total_spent) FROM visit AS visit WHERE visit.Num_of_Ticket = 4"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 35,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(5) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT avg( T1.Num_of_Ticket) FROM visit AS T1 WHERE T1.Museum_ID = 8",
+    "readable_query": "SELECT avg( visit.Num_of_Ticket) FROM visit AS visit WHERE visit.Museum_ID = 8"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Open_Year FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Num_of_Ticket = (SELECT max( T23.Num_of_Ticket) FROM visit AS T23)",
+    "readable_query": "SELECT museum.Open_Year FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE visit.Num_of_Ticket = (SELECT max( visit.Num_of_Ticket) FROM visit AS visit)"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Museum_ID = (SELECT max( T23.Museum_ID) FROM museum AS T23)",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID WHERE museum.Museum_ID = (SELECT max( museum.Museum_ID) FROM museum AS museum)"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Num_of_Ticket = (SELECT max( T23.Num_of_Ticket) FROM visit AS T23)",
+    "readable_query": "SELECT museum.Name FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE visit.Num_of_Ticket = (SELECT max( visit.Num_of_Ticket) FROM visit AS visit)"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Age FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.Num_of_Ticket = (SELECT max( T23.Num_of_Ticket) FROM visit AS T23)",
+    "readable_query": "SELECT customer.Age FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.Num_of_Ticket = (SELECT max( visit.Num_of_Ticket) FROM visit AS visit)"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID WHERE T2.Age = (SELECT max( T23.Age) FROM visitor AS T23)",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE customer.Age = (SELECT max( customer.Age) FROM visitor AS customer)"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Name FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Museum_ID = (SELECT max( T23.Museum_ID) FROM visit AS T23)",
+    "readable_query": "SELECT museum.Name FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE visit.Museum_ID = (SELECT max( visit.Museum_ID) FROM visit AS visit)"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.visitor_ID FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID WHERE T2.Level_of_membership = (SELECT max( T23.Level_of_membership) FROM visitor AS T23)",
+    "readable_query": "SELECT visit.visitor_ID FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE customer.Level_of_membership = (SELECT max( customer.Level_of_membership) FROM visitor AS customer)"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.visitor_ID FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID WHERE T2.Age = (SELECT max( T23.Age) FROM visitor AS T23)",
+    "readable_query": "SELECT visit.visitor_ID FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE customer.Age = (SELECT max( customer.Age) FROM visitor AS customer)"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Num_of_Staff FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Num_of_Ticket = (SELECT max( T23.Num_of_Ticket) FROM visit AS T23)",
+    "readable_query": "SELECT museum.Num_of_Staff FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE visit.Num_of_Ticket = (SELECT max( visit.Num_of_Ticket) FROM visit AS visit)"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 36,
+    "query_type": "Root1(3) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(11) A(0) Op(0) C(-2) T(1) C(-2) T(1) Root(5) Sel(0) N(0) A(1) Op(0) C(-2) T(1) C(-2) T(1)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID WHERE T2.ID = (SELECT max( T23.ID) FROM visitor AS T23)",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE customer.ID = (SELECT max( customer.ID) FROM visitor AS customer)"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.visitor_ID, T2.Level_of_membership FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID JOIN museum AS T3 ON T1.Museum_ID = T3.Museum_ID WHERE T3.Museum_ID = 7 and T2.Name = \"Fernando Gago\"",
+    "readable_query": "SELECT visit.visitor_ID, customer.Level_of_membership FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID WHERE museum.Museum_ID = 7 and customer.Name = \"Fernando Gago\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Open_Year, T2.Num_of_Ticket FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID JOIN visitor AS T3 ON T2.visitor_ID = T3.ID WHERE T3.Level_of_membership = 6 and T2.visitor_ID = \"6\"",
+    "readable_query": "SELECT museum.Open_Year, visit.Num_of_Ticket FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE customer.Level_of_membership = 6 and visit.visitor_ID = \"6\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Open_Year, T2.visitor_ID FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID JOIN visitor AS T3 ON T2.visitor_ID = T3.ID WHERE T3.Name = \"Guti Midfielder\" and T2.Total_spent = 320.44",
+    "readable_query": "SELECT museum.Open_Year, visit.visitor_ID FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE customer.Name = \"Guti Midfielder\" and visit.Total_spent = 320.44"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Open_Year, T2.Museum_ID FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID JOIN visitor AS T3 ON T2.visitor_ID = T3.ID WHERE T3.Name = \"Ra\u00fal Brown\" and T2.visitor_ID = \"3\"",
+    "readable_query": "SELECT museum.Open_Year, visit.Museum_ID FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE customer.Name = \"Ra\u00fal Brown\" and visit.visitor_ID = \"3\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.ID, T2.Num_of_Ticket FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID JOIN museum AS T3 ON T2.Museum_ID = T3.Museum_ID WHERE T3.Open_Year = \"2010\" and T2.Total_spent = 320.44",
+    "readable_query": "SELECT customer.ID, visit.Num_of_Ticket FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID WHERE museum.Open_Year = \"2010\" and visit.Total_spent = 320.44"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Name, T2.Num_of_Ticket FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID JOIN visitor AS T3 ON T2.visitor_ID = T3.ID WHERE T3.Level_of_membership = 2 and T2.visitor_ID = \"6\"",
+    "readable_query": "SELECT museum.Name, visit.Num_of_Ticket FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE customer.Level_of_membership = 2 and visit.visitor_ID = \"6\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Total_spent, T2.Open_Year FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID JOIN visitor AS T3 ON T1.visitor_ID = T3.ID WHERE T3.ID = 6 and T2.Name = \"Place Tower Museum\"",
+    "readable_query": "SELECT visit.Total_spent, museum.Open_Year FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE customer.ID = 6 and museum.Name = \"Place Tower Museum\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Num_of_Staff, T2.Total_spent FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID JOIN visitor AS T3 ON T2.visitor_ID = T3.ID WHERE T3.Name = \"Fernando Gago\" and T2.Num_of_Ticket = 24",
+    "readable_query": "SELECT museum.Num_of_Staff, visit.Total_spent FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE customer.Name = \"Fernando Gago\" and visit.Num_of_Ticket = 24"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Total_spent, T2.Name FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID JOIN visitor AS T3 ON T1.visitor_ID = T3.ID WHERE T3.ID = 6 and T2.Open_Year = \"2009\"",
+    "readable_query": "SELECT visit.Total_spent, museum.Name FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE customer.ID = 6 and museum.Open_Year = \"2009\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 37,
+    "query_type": "Root1(3) Root(3) Sel(0) N(1) A(0) Op(0) C(0) T(0) C(0) T(0) A(0) Op(0) C(1) T(1) C(1) T(1) Filter(0) Filter(2) A(0) Op(0) C(2) T(2) C(2) T(2) V(0) Filter(2) A(0) Op(0) C(3) T(1) C(3) T(1) V(1)",
+    "query": "SELECT T1.Age, T2.Total_spent FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID JOIN museum AS T3 ON T2.Museum_ID = T3.Museum_ID WHERE T3.Num_of_Staff = 25 and T2.visitor_ID = \"3\"",
+    "readable_query": "SELECT customer.Age, visit.Total_spent FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID WHERE museum.Num_of_Staff = 25 and visit.visitor_ID = \"3\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.ID FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.Num_of_Ticket = 4 GROUP BY T1.ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT customer.ID FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.Num_of_Ticket = 4 GROUP BY customer.ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Museum_ID FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Name = \"RiverPark Museum\" GROUP BY T1.Museum_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT visit.Museum_ID FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID WHERE museum.Name = \"RiverPark Museum\" GROUP BY visit.Museum_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.visitor_ID FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID WHERE T2.Age = 27 GROUP BY T1.visitor_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT visit.visitor_ID FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE customer.Age = 27 GROUP BY visit.visitor_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1 JOIN museum AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Museum_ID = 5 GROUP BY T1.Total_spent  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit JOIN museum AS museum ON visit.Museum_ID = museum.Museum_ID WHERE museum.Museum_ID = 5 GROUP BY visit.Total_spent  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Museum_ID FROM museum AS T1 JOIN visit AS T2 ON T1.Museum_ID = T2.Museum_ID WHERE T2.Total_spent = 20.44 GROUP BY T1.Museum_ID  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT museum.Museum_ID FROM museum AS museum JOIN visit AS visit ON museum.Museum_ID = visit.Museum_ID WHERE visit.Total_spent = 20.44 GROUP BY museum.Museum_ID  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Name FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.visitor_ID = \"3\" GROUP BY T1.Name  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT customer.Name FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.visitor_ID = \"3\" GROUP BY customer.Name  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Age FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.visitor_ID = \"5\" GROUP BY T1.Age  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT customer.Age FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.visitor_ID = \"5\" GROUP BY customer.Age  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Level_of_membership FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.Museum_ID = 8 GROUP BY T1.Level_of_membership  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT customer.Level_of_membership FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.Museum_ID = 8 GROUP BY customer.Level_of_membership  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1 JOIN visitor AS T2 ON T1.visitor_ID = T2.ID WHERE T2.Age = 28 GROUP BY T1.Total_spent  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit JOIN visitor AS customer ON visit.visitor_ID = customer.ID WHERE customer.Age = 28 GROUP BY visit.Total_spent  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 38,
+    "query_type": "Root1(3) Root(0) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Sup(0) A(3) Op(0) C(-1) T(1) C(-1) T(1) Filter(2) A(0) Op(0) C(1) T(1) C(1) T(1) V(0)",
+    "query": "SELECT T1.Level_of_membership FROM visitor AS T1 JOIN visit AS T2 ON T1.ID = T2.visitor_ID WHERE T2.Num_of_Ticket = 10 GROUP BY T1.Level_of_membership  ORDER BY count(*) DESC LIMIT 1",
+    "readable_query": "SELECT customer.Level_of_membership FROM visitor AS customer JOIN visit AS visit ON customer.ID = visit.visitor_ID WHERE visit.Num_of_Ticket = 10 GROUP BY customer.Level_of_membership  ORDER BY count(*) DESC LIMIT 1"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1        EXCEPT SELECT T2.Total_spent FROM visit AS T2 WHERE T2.Num_of_Ticket = 24",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit        EXCEPT SELECT visit.Total_spent FROM visit AS visit WHERE visit.Num_of_Ticket = 24"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Museum_ID FROM visit AS T1        EXCEPT SELECT T2.Museum_ID FROM visit AS T2 WHERE T2.Total_spent = 19.98",
+    "readable_query": "SELECT visit.Museum_ID FROM visit AS visit        EXCEPT SELECT visit.Museum_ID FROM visit AS visit WHERE visit.Total_spent = 19.98"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Museum_ID FROM museum AS T1        EXCEPT SELECT T2.Museum_ID FROM museum AS T2 WHERE T2.Open_Year = \"2008\"",
+    "readable_query": "SELECT museum.Museum_ID FROM museum AS museum        EXCEPT SELECT museum.Museum_ID FROM museum AS museum WHERE museum.Open_Year = \"2008\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Museum_ID FROM museum AS T1        EXCEPT SELECT T2.Museum_ID FROM museum AS T2 WHERE T2.Open_Year = \"2010\"",
+    "readable_query": "SELECT museum.Museum_ID FROM museum AS museum        EXCEPT SELECT museum.Museum_ID FROM museum AS museum WHERE museum.Open_Year = \"2010\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Museum_ID FROM museum AS T1        EXCEPT SELECT T2.Museum_ID FROM museum AS T2 WHERE T2.Name = \"Capital Plaza Museum\"",
+    "readable_query": "SELECT museum.Museum_ID FROM museum AS museum        EXCEPT SELECT museum.Museum_ID FROM museum AS museum WHERE museum.Name = \"Capital Plaza Museum\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Museum_ID FROM visit AS T1        EXCEPT SELECT T2.Museum_ID FROM visit AS T2 WHERE T2.visitor_ID = \"5\"",
+    "readable_query": "SELECT visit.Museum_ID FROM visit AS visit        EXCEPT SELECT visit.Museum_ID FROM visit AS visit WHERE visit.visitor_ID = \"5\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Age FROM visitor AS T1        EXCEPT SELECT T2.Age FROM visitor AS T2 WHERE T2.Level_of_membership = 2",
+    "readable_query": "SELECT customer.Age FROM visitor AS customer        EXCEPT SELECT customer.Age FROM visitor AS customer WHERE customer.Level_of_membership = 2"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Museum_ID FROM visit AS T1        EXCEPT SELECT T2.Museum_ID FROM visit AS T2 WHERE T2.Num_of_Ticket = 4",
+    "readable_query": "SELECT visit.Museum_ID FROM visit AS visit        EXCEPT SELECT visit.Museum_ID FROM visit AS visit WHERE visit.Num_of_Ticket = 4"
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Total_spent FROM visit AS T1        EXCEPT SELECT T2.Total_spent FROM visit AS T2 WHERE T2.visitor_ID = \"5\"",
+    "readable_query": "SELECT visit.Total_spent FROM visit AS visit        EXCEPT SELECT visit.Total_spent FROM visit AS visit WHERE visit.visitor_ID = \"5\""
+  },
+  {
+    "db_id": "museum_visit",
+    "template_id": 39,
+    "query_type": "Root1(2) Root(5) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Root(3) Sel(0) N(0) A(0) Op(0) C(0) T(0) C(0) T(0) Filter(2) A(0) Op(0) C(1) T(0) C(1) T(0) V(0)",
+    "query": "SELECT T1.Level_of_membership FROM visitor AS T1        EXCEPT SELECT T2.Level_of_membership FROM visitor AS T2 WHERE T2.ID = 4",
+    "readable_query": "SELECT customer.Level_of_membership FROM visitor AS customer        EXCEPT SELECT customer.Level_of_membership FROM visitor AS customer WHERE customer.ID = 4"
+  }
+]

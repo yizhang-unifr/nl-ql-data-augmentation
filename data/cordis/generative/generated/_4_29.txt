@@ -1,0 +1,28 @@
+SELECT count(*) FROM subject_areas WHERE subject_areas.title = 'Waste Management'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM subject_areas WHERE subject_areas.title = 'Waste Management'
+GPT-3 choices:
+(0) Show me the number of subject areas that are about Waste Management
+(1) Show the count of subject areas with title Waste Management.
+(2) How many subject areas have the title Waste Management?
+(3) How many subject areas are there about Waste Management? Show all subject areas.
+(4) How many different subject areas are there with the title Waste Management?
+(5) How many subject areas are there in which the topic is Waste Management?
+(6) How many subject areas are there about Waste Management ?
+(7) Total number of subject areas with title ‘Waste Management".
+
+
+Re-ranked choices:
+6.229  Total number of subject areas with title ‘Waste Management".
+6.196  Show me the number of subject areas that are about Waste Management
+6.176  How many subject areas are there about Waste Management? Show all subject areas.
+6.174  How many different subject areas are there with the title Waste Management?
+6.174  How many subject areas are there about Waste Management ?
+6.144  How many subject areas are there in which the topic is Waste Management?
+6.124  How many subject areas have the title Waste Management?
+5.533  Show the count of subject areas with title Waste Management.
+

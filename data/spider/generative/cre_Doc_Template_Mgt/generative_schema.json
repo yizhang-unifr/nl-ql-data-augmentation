@@ -1,0 +1,149 @@
+[
+  {
+    "name": "reference template types",
+    "original_name": "Ref_Template_Types",
+    "logical_name": "Ref_Template_Types",
+    "columns": [
+      {
+        "name": "template type code",
+        "original_name": "Template_Type_Code",
+        "logical_name": "Template_Type_Code",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "template type description",
+        "original_name": "Template_Type_Description",
+        "logical_name": "Template_Type_Description",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "templates",
+    "original_name": "Templates",
+    "logical_name": "Templates",
+    "columns": [
+      {
+        "name": "template id",
+        "original_name": "Template_ID",
+        "logical_name": "Template_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "version number",
+        "original_name": "Version_Number",
+        "logical_name": "Version_Number",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "template type code",
+        "original_name": "Template_Type_Code",
+        "logical_name": "Template_Type_Code",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "date effective from",
+        "original_name": "Date_Effective_From",
+        "logical_name": "Date_Effective_From",
+        "original_datatype": "time",
+        "logical_datatype": "time"
+      },
+      {
+        "name": "date effective to",
+        "original_name": "Date_Effective_To",
+        "logical_name": "Date_Effective_To",
+        "original_datatype": "time",
+        "logical_datatype": "time"
+      },
+      {
+        "name": "template details",
+        "original_name": "Template_Details",
+        "logical_name": "Template_Details",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "documents",
+    "original_name": "Documents",
+    "logical_name": "Documents",
+    "columns": [
+      {
+        "name": "document id",
+        "original_name": "Document_ID",
+        "logical_name": "Document_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "template id",
+        "original_name": "Template_ID",
+        "logical_name": "Template_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "document name",
+        "original_name": "Document_Name",
+        "logical_name": "Document_Name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "document description",
+        "original_name": "Document_Description",
+        "logical_name": "Document_Description",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "other details",
+        "original_name": "Other_Details",
+        "logical_name": "Other_Details",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "paragraphs",
+    "original_name": "Paragraphs",
+    "logical_name": "Paragraphs",
+    "columns": [
+      {
+        "name": "paragraph id",
+        "original_name": "Paragraph_ID",
+        "logical_name": "Paragraph_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "document id",
+        "original_name": "Document_ID",
+        "logical_name": "Document_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "paragraph text",
+        "original_name": "Paragraph_Text",
+        "logical_name": "Paragraph_Text",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "other details",
+        "original_name": "Other_Details",
+        "logical_name": "Other_Details",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  }
+]

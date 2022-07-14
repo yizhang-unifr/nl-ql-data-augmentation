@@ -1,0 +1,16 @@
+SELECT count(*) FROM ec_framework_programs WHERE ec_framework_programs.program_name = 'FP5'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM ec_framework_programs WHERE ec_framework_programs.ec_framework_program_name = 'FP5'
+GPT-3 choices:
+(0) Number of programs which are named FP5
+(1) Show the total number of programs in the framework FP5
+(2) How many framework programs there are?
+(3) How many initiatives are there in the framework program FP5?
+(4) What is the number of programs in the framework?
+(5) Count the total number of programs in the FP5 framework
+(6) How many programs are in the Framework Program FP5?
+(7) How many FP5 programs are there?

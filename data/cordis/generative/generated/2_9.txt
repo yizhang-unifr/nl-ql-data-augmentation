@@ -1,0 +1,16 @@
+SELECT countries.country_code, count(*) FROM countries  GROUP BY countries.country_code
+
+###
+
+
+Original Query:
+SELECT countries.country_code2, count(*) FROM countries  GROUP BY countries.country_code2
+GPT-3 choices:
+(0) Count the number of countries
+(1) How many countries are there in all?
+(2) How many countries are there?
+(3) What is the total number of countries in the world?
+(4) What is the number of countries?
+(5) How many countries are there?
+(6) What is the total count of countries?
+(7) What is the number of countries in the world?

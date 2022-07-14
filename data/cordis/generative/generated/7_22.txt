@@ -1,0 +1,16 @@
+SELECT topics.code FROM topics WHERE topics.title = 'Smart Energy' or topics.title = 'De-stressing the supply chain'
+
+###
+
+
+Original Query:
+SELECT topics.code FROM topics WHERE topics.title = 'Smart Energy' or topics.title = 'De-stressing the supply chain'
+GPT-3 choices:
+(0) What are the different topics containing the title Smart Energy or De-stressing the supply chain?
+(1) Show me topics that have the code Smart Energy or De-stressing the supply chain
+(2) Combine the topics Smart Energy and De-stressing the supply chain.
+(3) Show me topics having the code Smart Energy or De-stressing the supply chain.
+(4) Show me all topics that have 'Smart Energy' or 'De-stressing the supply chain' as a title
+(5) Retrieve all topics that have either 'Smart Energy' or 'De-stressing the supply chain' as title
+(6) Retrieve all topics about Smart Energy or De-stressing the supply chain
+(7) What are the different topics of the project 'Smart Energy' or 'De-stressing the supply chain'?

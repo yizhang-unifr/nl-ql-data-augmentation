@@ -1,0 +1,28 @@
+SELECT institutions.geocode_regions_3 FROM institutions WHERE institutions.grid_id = 'grid.6533.3' and institutions.unics_id = 283360
+
+###
+
+
+Original Query:
+SELECT institutions.geocode_regions_3 FROM institutions WHERE institutions.grid_id = 'grid.6533.3' and institutions.unics_id = 283360
+GPT-3 choices:
+(0) Retrieve the geocode regions 3 of the institution with unicode ID 283360 and grid ID grid.6533.3
+(1) Retrieve all geocode regions corresponding to the institution with Universitat Internacional de Catalunya (UIC) ID 283360 and grid 6533.3
+(2) Retrieve all geocode regions of the institution with unicode number 283360 whose grid id is ‘grid.6533.3’
+(3) Show all regions where the institution with geocode grid 6533 has the unics id 283360 .
+(4) Show me the region associated with the institution with id 283360
+(5) What are the geocode regions of the institution with unicode id 283360?
+(6) Display the geocode region 3 of the institution with the grid id grid.6533.3 and the unics id 283360
+(7) Show institutions associated with the grid whose code is “grid.6533.3” and have UNICS code 283360
+
+
+Re-ranked choices:
+5.409  Retrieve the geocode regions 3 of the institution with unicode ID 283360 and grid ID grid.6533.3
+5.409  Show all regions where the institution with geocode grid 6533 has the unics id 283360 .
+5.353  Display the geocode region 3 of the institution with the grid id grid.6533.3 and the unics id 283360
+5.168  Retrieve all geocode regions of the institution with unicode number 283360 whose grid id is ‘grid.6533.3’
+4.924  Retrieve all geocode regions corresponding to the institution with Universitat Internacional de Catalunya (UIC) ID 283360 and grid 6533.3
+4.789  What are the geocode regions of the institution with unicode id 283360?
+4.527  Show me the region associated with the institution with id 283360
+4.233  Show institutions associated with the grid whose code is “grid.6533.3” and have UNICS code 283360
+

@@ -1,0 +1,16 @@
+SELECT programmes.title FROM programmes WHERE programmes.short_name != 'Cross-cutting and enabling materials technologies'
+
+###
+
+
+Original Query:
+SELECT programmes.title FROM programmes WHERE programmes.short_name != 'Cross-cutting and enabling materials technologies'
+GPT-3 choices:
+(0) Show me all programmes except the programme with short name Cross-cutting and enabling materials technologies
+(1) Show the titles of all programmes, except the one with short name “Cross-cutting and enabling materials technologies”
+(2) Show me all programmes with a title different from "Cross-cutting and enabling materials technologies"
+(3) Show me all the different titles of programmes except for Cross-cutting and enabling materials technologies
+(4) Show me all the programme titles
+(5) Show me all different titles of programmes that are not called Cross-cutting and enabling materials technologies.
+(6) Show me all programmes title
+(7) Show me all programmes whose title is “Cross-cutting and enabling materials technologies”

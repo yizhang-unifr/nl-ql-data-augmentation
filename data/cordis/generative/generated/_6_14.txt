@@ -1,0 +1,28 @@
+SELECT subject_areas.description FROM subject_areas WHERE subject_areas.code = 'REG' and subject_areas.title = 'Environmental Protection'
+
+###
+
+
+Original Query:
+SELECT subject_areas.description FROM subject_areas WHERE subject_areas.code = 'REG' and subject_areas.title = 'Environmental Protection'
+GPT-3 choices:
+(0) What are the subject areas that have the title "Environmental Protection"?
+(1) Show me institutions that have Environmental Protection at the institute level.
+(2) Retrieve all descriptions of subject areas with title "Environmental Protection"
+(3) Show me all the descriptions of subject areas with title 'Environmental Protection'
+(4) Show all subject areas with title Environmental Protection and code REG
+(5) Return all descriptions of subject areas with the code REG and title Environmental Protection
+(6) Show me all the descriptions of the subject areas that have the code REG and the title Environmental Protection
+(7) Display all subject areas in the region 'Environmental Protection'
+
+
+Re-ranked choices:
+5.478  Show me all the descriptions of subject areas with title 'Environmental Protection'
+5.174  Show all subject areas with title Environmental Protection and code REG
+5.021  Retrieve all descriptions of subject areas with title "Environmental Protection"
+4.999  Show me all the descriptions of the subject areas that have the code REG and the title Environmental Protection
+4.979  Return all descriptions of subject areas with the code REG and title Environmental Protection
+4.948  What are the subject areas that have the title "Environmental Protection"?
+4.804  Display all subject areas in the region 'Environmental Protection'
+3.705  Show me institutions that have Environmental Protection at the institute level.
+

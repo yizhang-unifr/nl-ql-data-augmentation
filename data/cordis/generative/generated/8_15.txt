@@ -1,0 +1,16 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions != 'AT335'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions != 'AT335'
+GPT-3 choices:
+(0) Retrieve territorial units that are not in the geocode region AT335
+(1) What are the descriptions of the territorial units that are not in the Geocode Region AT335 ?
+(2) Show all territorial units that have a geocode region different from AT335
+(3) Display the description of the european territorial unit, which does not belong to the geographic region "AT335"
+(4) Show all territorial units that are not in the geocode region AT335
+(5) Show me territorial units description regardless of the geocode region
+(6) What are the different descriptions of eu territorial units that are not in the region AT335?
+(7) Retrieve the description of european territorial units that don't belong to the region AT335.

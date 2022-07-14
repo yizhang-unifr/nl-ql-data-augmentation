@@ -1,0 +1,28 @@
+SELECT programmes.rcn FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.end_date != '2014-08-31'
+
+###
+
+
+Original Query:
+SELECT programmes.rcn FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.end_date != '2014-08-31'
+GPT-3 choices:
+(0) Show me the research and innovation programmes for projects that didn't end at 2014-08-31
+(1) Show the renewal committee number for projects that end at the given date
+(2) Retrieve all programmes from projects that did not end at 2014-08-31
+(3) Retrieve the RCON of programmes of projects that did not end on 2014-08-31.
+(4) Retrieve the region complement number of all projects except those ending on August 31, 2014.
+(5) What is the code of programmes of projects that did not end on 2014-08-31?
+(6) Retrieve the RENEWABLE COMPONENTS North funding programmes of projects that don't end on August 31, 2014.
+(7) Show me the relative contribution of project with end date != '2014-08-31'
+
+
+Re-ranked choices:
+4.754  Retrieve the RCON of programmes of projects that did not end on 2014-08-31.
+4.617  Retrieve all programmes from projects that did not end at 2014-08-31
+4.483  What is the code of programmes of projects that did not end on 2014-08-31?
+4.372  Show me the research and innovation programmes for projects that didn't end at 2014-08-31
+4.346  Retrieve the region complement number of all projects except those ending on August 31, 2014.
+4.124  Retrieve the RENEWABLE COMPONENTS North funding programmes of projects that don't end on August 31, 2014.
+3.647  Show me the relative contribution of project with end date != '2014-08-31'
+3.609  Show the renewal committee number for projects that end at the given date
+

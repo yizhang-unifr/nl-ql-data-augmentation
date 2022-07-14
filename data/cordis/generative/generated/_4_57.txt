@@ -1,0 +1,28 @@
+SELECT count(*) FROM projects WHERE projects.ec_call = 'FP7-PEOPLE-ITN-2008'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM projects WHERE projects.ec_call = 'FP7-PEOPLE-ITN-2008'
+GPT-3 choices:
+(0) Show me the number of project having the funding call FP7-PEOPLE-ITN-2008
+(1) How many projects have an EC call in FP7-PEOPLE-ITN-2008?
+(2) Get the number of projects funded by the "FP7-PEOPLE-ITN-2008" European project.
+(3) Count of projects with a EC call of FP7-PEOPLE-ITN-2008
+(4) Number of project from the action FP7-PEOPLE-ITN-2008
+(5) How many projects have an ecore in the editor panel different from 'FP7-PEOPLE-ITN-2008'?
+(6) Show me the number of projects assigned to the having the code "FP7-PEOPLE-ITN-2008"
+(7) Show me the total number of projects of the FP7-PEOPLE-ITN-2008 call
+
+
+Re-ranked choices:
+5.583  Show me the total number of projects of the FP7-PEOPLE-ITN-2008 call
+5.525  Count of projects with a EC call of FP7-PEOPLE-ITN-2008
+5.422  Number of project from the action FP7-PEOPLE-ITN-2008
+5.406  Show me the number of projects assigned to the having the code "FP7-PEOPLE-ITN-2008"
+5.352  Show me the number of project having the funding call FP7-PEOPLE-ITN-2008
+5.201  Get the number of projects funded by the "FP7-PEOPLE-ITN-2008" European project.
+5.133  How many projects have an EC call in FP7-PEOPLE-ITN-2008?
+4.404  How many projects have an ecore in the editor panel different from 'FP7-PEOPLE-ITN-2008'?
+

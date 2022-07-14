@@ -1,0 +1,28 @@
+SELECT subject_areas.description FROM subject_areas JOIN project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects ON project_subject_areas.project = projects.unics_id WHERE projects.framework_program = 'H2020'
+
+###
+
+
+Original Query:
+SELECT subject_areas.description FROM subject_areas JOIN project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects ON project_subject_areas.project = projects.unics_id WHERE projects.framework_program = 'H2020'
+GPT-3 choices:
+(0) List the description of subject areas used in projects of the H2020 framework program
+(1) Show all subject areas of projects with H2020 framework program
+(2) Show me project subject areas within the H2020 framework program
+(3) What are the subject areas of projects in H2020 framework program?
+(4) Show me the subject area descriptions of all projects for the 2020 framework program
+(5) The description of subject areas in projects from H2020 framework
+(6) Show me the description of subject areas assigned to projects participating in the EU H2020 framework program
+(7) What are the subject areas of projects in the EU funding framework H2020?
+
+
+Re-ranked choices:
+5.977  List the description of subject areas used in projects of the H2020 framework program
+5.974  Show me the description of subject areas assigned to projects participating in the EU H2020 framework program
+5.948  The description of subject areas in projects from H2020 framework
+5.841  What are the subject areas of projects in H2020 framework program?
+5.839  Show me project subject areas within the H2020 framework program
+5.753  Show all subject areas of projects with H2020 framework program
+5.414  Show me the subject area descriptions of all projects for the 2020 framework program
+5.157  What are the subject areas of projects in the EU funding framework H2020?
+

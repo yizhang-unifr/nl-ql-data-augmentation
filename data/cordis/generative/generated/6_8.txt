@@ -1,0 +1,16 @@
+SELECT institutions.db_pedia_url FROM institutions WHERE institutions.geocode_regions_3 = 'DE801' and institutions.website = 'http://www.ispo.toscana.it/'
+
+###
+
+
+Original Query:
+SELECT institutions.db_pedia_url FROM institutions WHERE institutions.geocode_regions_3 = 'DE801' and institutions.website = 'http://www.ispo.toscana.it/'
+GPT-3 choices:
+(0) Show all institutions from the region DE801 with a website http://www.ispo.toscana.it/
+(1) Show me the dbpedia sites for institute inside the geocode region DE801.
+(2) Show the database EPW of institutions that have a geocode region of DE801 and a website: http://www.ispo.toscana.it/
+(3) Show me the DBpedia url of institutions located in DE801 having the web address http://www.ispo.toscana.it/
+(4) Show the dbpedia url of institutions located in the geocode region DE801 with a specific web page.
+(5) Show me the institutions in the region DE801 with website ispo.toscana.it
+(6) What are the different web address of the institution having region code DE801?
+(7) Show me institutions from the region DE801 with website http://www.ispo.toscana.it/

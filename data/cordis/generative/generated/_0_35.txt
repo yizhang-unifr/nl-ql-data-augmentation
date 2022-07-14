@@ -1,0 +1,28 @@
+SELECT countries.country_name FROM countries WHERE countries.country_code = 'CA'
+
+###
+
+
+Original Query:
+SELECT countries.country_name FROM countries WHERE countries.country_code2 = 'CA'
+GPT-3 choices:
+(0) Retrieve all country names of countries with country code CA
+(1) Show the country name of countries with country code CA.
+(2) Show the names of countries whose country code is 'CA'
+(3) Show the country name of countries with country code = CA
+(4) Retrieve all country names of countries which have a country code of CA
+(5) Show me the countries whose country code is CA.
+(6) Select all country names in country code CA.
+(7) Show me country names of all countries that have country code CA.
+
+
+Re-ranked choices:
+6.425  Show the names of countries whose country code is 'CA'
+6.399  Show the country name of countries with country code CA.
+6.360  Show the country name of countries with country code = CA
+6.308  Show me country names of all countries that have country code CA.
+6.231  Retrieve all country names of countries which have a country code of CA
+6.167  Retrieve all country names of countries with country code CA
+6.117  Select all country names in country code CA.
+6.071  Show me the countries whose country code is CA.
+

@@ -1,0 +1,28 @@
+SELECT topics.rcn FROM topics WHERE topics.code = 'SFS-08-2015-1' and topics.title = 'Materials under extreme conditions'
+
+###
+
+
+Original Query:
+SELECT topics.rcn FROM topics WHERE topics.code = 'SFS-08-2015-1' and topics.title = 'Materials under extreme conditions'
+GPT-3 choices:
+(0) Retrieve RCNs for the topics with code SFS-08-2015-1 and title Materials under extreme conditions
+(1) Show the title of topics from the subject “SFS-08-2015-1”
+(2) Show me all the topics in the project SFS-08-2015-1 about Materials under extreme conditions?
+(3) Display all topics in the conference with the code SFS-08-2015-1 about materials under extreme conditions.
+(4) Retrieve all topics with code SFS-08-2015-1 and title Materials under extreme conditions
+(5) Show me topics covered by the research funding programme SFS-08-2015-1.
+(6) What are the research topics related to "Materials under extreme conditions"?
+(7) Show me the topics about materials under extreme conditions
+
+
+Re-ranked choices:
+4.645  Show me all the topics in the project SFS-08-2015-1 about Materials under extreme conditions?
+4.447  Display all topics in the conference with the code SFS-08-2015-1 about materials under extreme conditions.
+4.179  Show me the topics about materials under extreme conditions
+4.064  What are the research topics related to "Materials under extreme conditions"?
+3.974  Retrieve all topics with code SFS-08-2015-1 and title Materials under extreme conditions
+3.560  Retrieve RCNs for the topics with code SFS-08-2015-1 and title Materials under extreme conditions
+2.994  Show the title of topics from the subject “SFS-08-2015-1”
+2.918  Show me topics covered by the research funding programme SFS-08-2015-1.
+

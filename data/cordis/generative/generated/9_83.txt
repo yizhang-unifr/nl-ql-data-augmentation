@@ -1,0 +1,16 @@
+SELECT ec_framework_programs.program_name FROM ec_framework_programs JOIN projects ON ec_framework_programs.program_name = projects.framework_program WHERE projects.end_date != '2018-02-28'
+
+###
+
+
+Original Query:
+SELECT ec_framework_programs.ec_framework_program_name FROM ec_framework_programs JOIN projects ON ec_framework_programs.ec_framework_program_name = projects.framework_program WHERE projects.end_date != '2018-02-28'
+GPT-3 choices:
+(0) Show me the names of the framework programs that aren't associated with a project ending on 2018-02-28
+(1) Show all programs of projects that did not end in 2018-02-28
+(2) What is the name of the framework program of projects that didn't end in 2018-02-28?
+(3) Show me the program name of different frameworks not ending in 2018-02-28
+(4) Total number of program names of the projects that didn't end in the date 2018-02-28
+(5) What is the name of the framework programs of projects that don't end on "2018-02-28"?
+(6) Show the programs with a framework program that are not ending in 2018-02-28.
+(7) Show all projects that end before 2018-02-28 that have a different framework program than the one specified.

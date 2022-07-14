@@ -1,0 +1,16 @@
+SELECT institutions.grid_id FROM institutions WHERE institutions.db_pedia_url != 'http://dbpedia.org/page/Nancy-Université'
+
+###
+
+
+Original Query:
+SELECT institutions.grid_id FROM institutions WHERE institutions.db_pedia_url != 'http://dbpedia.org/page/Nancy-Université'
+GPT-3 choices:
+(0) Show me all the grid ids of institutions except Nancy Université.
+(1) Retrieve the grid_id from institutions whose dbpedia url is != Nancy Université.
+(2) Show me all the grid ids of institutions that don't have a dbpedia page about them.
+(3) Show all the institutions grid ids that do not have an entry in dbpedia
+(4) Show me institutions whose dbpedia url is `Nancy Université`
+(5) Show me all the ID of institutions that don't have a dbpedia url
+(6) Show institutions different from Nancy Université
+(7) Show me institutions from Databank having a wikipedia page that differs from 'Nancy University'

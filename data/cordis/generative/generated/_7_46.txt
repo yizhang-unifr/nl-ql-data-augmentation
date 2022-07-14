@@ -1,0 +1,28 @@
+SELECT subject_areas.code FROM subject_areas WHERE subject_areas.title = 'Funding Programmes' or subject_areas.title = 'Innovation and Technology Transfer'
+
+###
+
+
+Original Query:
+SELECT subject_areas.code FROM subject_areas WHERE subject_areas.title = 'Funding Programmes' or subject_areas.title = 'Innovation and Technology Transfer'
+GPT-3 choices:
+(0) Show me subject area code of programmes or of innovation and technology transfer
+(1) What are the subject areas of funding programs or transfer of innovation and technology ?
+(2) What are the subject areas of Funding Programmes and of Innovation and Technology Transfer?
+(3) Which areas have funding programms and/or innovation and technology transfer?
+(4) Retrieve all subject areas that have title Funding Programmes or Innovation and Technology Transfer
+(5) Retrieve subject areas having either title Funding Programmes or Innovaition and Technology Transfer
+(6) What are the subject areas of funding programs or innovation and technology transfer?
+(7) Show me all subject areas with titles Funding Programmes or Innovation and Technology Transfer
+
+
+Re-ranked choices:
+5.796  What are the subject areas of Funding Programmes and of Innovation and Technology Transfer?
+5.755  What are the subject areas of funding programs or innovation and technology transfer?
+5.739  What are the subject areas of funding programs or transfer of innovation and technology ?
+5.574  Which areas have funding programms and/or innovation and technology transfer?
+5.464  Show me all subject areas with titles Funding Programmes or Innovation and Technology Transfer
+5.201  Retrieve all subject areas that have title Funding Programmes or Innovation and Technology Transfer
+5.021  Retrieve subject areas having either title Funding Programmes or Innovaition and Technology Transfer
+4.715  Show me subject area code of programmes or of innovation and technology transfer
+

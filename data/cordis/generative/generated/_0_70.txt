@@ -1,0 +1,28 @@
+SELECT countries.country_code FROM countries WHERE countries.country_name = 'Bermuda'
+
+###
+
+
+Original Query:
+SELECT countries.country_code2 FROM countries WHERE countries.country_name = 'Bermuda'
+GPT-3 choices:
+(0) Show all country codes for a country called Bermuda
+(1) Which countries have country name "Bermuda"?
+(2) Show country_code of country with country_name='Bermuda'
+(3) What are the country codes of countries whose name is Bermuda?
+(4) Show all country codes of the country Bermuda
+(5) What are the country codes of all countries with name Bermuda?
+(6) Show me countries with the country code "Bermuda"
+(7) Show me the countries that have the name "Bermuda"
+
+
+Re-ranked choices:
+6.175  What are the country codes of countries whose name is Bermuda?
+6.173  Show me countries with the country code "Bermuda"
+6.120  What are the country codes of all countries with name Bermuda?
+6.082  Show all country codes for a country called Bermuda
+5.968  Show all country codes of the country Bermuda
+5.773  Show country_code of country with country_name='Bermuda'
+5.720  Show me the countries that have the name "Bermuda"
+5.601  Which countries have country name "Bermuda"?
+

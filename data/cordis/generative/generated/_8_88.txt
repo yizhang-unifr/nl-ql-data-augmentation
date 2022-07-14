@@ -1,0 +1,28 @@
+SELECT project_member_roles.description FROM project_member_roles WHERE project_member_roles.code != 'coordinator'
+
+###
+
+
+Original Query:
+SELECT project_member_roles.description FROM project_member_roles WHERE project_member_roles.code != 'coordinator'
+GPT-3 choices:
+(0) Show me the description of project member roles that are not "coordinator"
+(1) Show me the description of all project member roles except of the one titled "coordinator!"
+(2) Show me the description of project member roles that are not the role of coordinator
+(3) Show me descriptions of project member roles that are not their respective project coordinator.
+(4) Show project member roles descriptions for projects that do not have a coordinator
+(5) Show me all project member roles that are not coordinate roles.
+(6) Show me all the project member roles that are not coordinators
+(7) Show all descriptions for project member roles that are not the coordinator role.
+
+
+Re-ranked choices:
+6.391  Show me the description of project member roles that are not the role of coordinator
+6.383  Show me the description of project member roles that are not "coordinator"
+6.318  Show me descriptions of project member roles that are not their respective project coordinator.
+6.265  Show me all the project member roles that are not coordinators
+6.149  Show all descriptions for project member roles that are not the coordinator role.
+6.087  Show me the description of all project member roles except of the one titled "coordinator!"
+5.931  Show project member roles descriptions for projects that do not have a coordinator
+5.640  Show me all project member roles that are not coordinate roles.
+

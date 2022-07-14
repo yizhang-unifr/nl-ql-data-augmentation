@@ -1,0 +1,16 @@
+SELECT institutions.geocode_regions_3 FROM institutions JOIN project_members ON institutions.unics_id = project_members.institution_id WHERE project_members.member_name = 'JANSSEN PHARMACEUTICA NV'
+
+###
+
+
+Original Query:
+SELECT institutions.geocode_regions_3 FROM institutions JOIN project_members ON institutions.unics_id = project_members.institution_id WHERE project_members.member_name = 'JANSSEN PHARMACEUTICA NV'
+GPT-3 choices:
+(0) What are the european region codes for institutions with a project member named JANSSEN PHARMACEUTICA NV?
+(1) Retrieve the geo regions 3 for the institution with principal member JANSSEN PHARMACEUTICA NV
+(2) Show all geocoding regions assigned to the institution with member JANSSEN PHARMACEUTICA NV
+(3) Display the geocode region 3 ids of all institutions where the project member is JANSSEN PHARMACEUTICA NV
+(4) What are the geo regions of the institution with the project member named JANSSEN PHARMACEUTICA NV?
+(5) Show all geocode regions of the institution with project member JANSSEN PHARMACEUTICA NV.
+(6) Retrieve the Geocode regions of the project members with name JANSSEN PHARMACEUTICA NV
+(7) Show the geocode region 3 for the members of the project named JANSSEN PHARMACEUTICA NV

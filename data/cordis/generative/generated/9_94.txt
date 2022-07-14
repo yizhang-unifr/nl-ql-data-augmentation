@@ -1,0 +1,16 @@
+SELECT funding_schemes.title FROM funding_schemes JOIN projects ON funding_schemes.code = projects.ec_fund_scheme WHERE projects.start_date != '2019-05-01'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.title FROM funding_schemes JOIN projects ON funding_schemes.code = projects.ec_fund_scheme WHERE projects.start_date != '2019-05-01'
+GPT-3 choices:
+(0) Retrieve the title of funding schemes for projects that don't have as starting date 2019-05-01
+(1) Show me all the funding schemes present in projects that didn't start at 2019-05-01
+(2) Show me the funding scheme titles of projects that don't start on 2019-05-01
+(3) Where is the title of funding schemes used for projects that did not start on 2019-05-01 ?
+(4) Retrieve the title of funding scheme used by projects started after 2019-05-01.
+(5) Display the title of funding schemes for projects that did not start on 2019-05-01
+(6) Show me all funding scheme titles for projects that don't start on 2019-05-01
+(7) Show me the funding scheme titles of projects that didn't start on 2019-05-01

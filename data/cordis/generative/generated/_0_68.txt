@@ -1,0 +1,27 @@
+SELECT programmes.code FROM programmes WHERE programmes.short_name = 'Information and communication technologies'
+
+###
+
+
+Original Query:
+SELECT programmes.code FROM programmes WHERE programmes.short_name = 'Information and communication technologies'
+GPT-3 choices:
+(0) Show me all the projects that have "Information and communication technologies" as a short name
+(1) What is the code of the programme with short name Information and communication technologies?
+(2) Show me the codes of programmes with short name “Information and communication technologies”
+(3) Show all programmes that start with "Information and communication technologies"
+(4) What is the code of the programme with short name Information and communication technologies?
+(5) Show me all the programme's codes.
+(6) Select the code of programmes with short name Information and communication technologies
+(7) Retrieve all programmes having the short name Information and communication technologies
+
+
+Re-ranked choices:
+4.589  Show me the codes of programmes with short name “Information and communication technologies”
+4.326  Select the code of programmes with short name Information and communication technologies
+4.210  What is the code of the programme with short name Information and communication technologies?
+3.909  Retrieve all programmes having the short name Information and communication technologies
+3.873  Show all programmes that start with "Information and communication technologies"
+3.509  Show me all the projects that have "Information and communication technologies" as a short name
+2.756  Show me all the programme's codes.
+

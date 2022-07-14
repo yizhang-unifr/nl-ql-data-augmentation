@@ -1,0 +1,28 @@
+SELECT countries.country_code FROM countries JOIN institutions ON countries.unics_id = institutions.country_id WHERE institutions.short_name = 'ECP'
+
+###
+
+
+Original Query:
+SELECT countries.country_code2 FROM countries JOIN institutions ON countries.unics_id = institutions.country_id WHERE institutions.short_name = 'ECP'
+GPT-3 choices:
+(0) Retrieve country code of all institutions with short name ECP
+(1) Show all countries that have an institution named ECP
+(2) Retrieve all country codes of institutions with short name = 'ECP'.
+(3) Show me countries that have an institution named ECP
+(4) Retrieve all country codes associated with the short name ECP of an institution.
+(5) Retrieve countries associated with the institution short name ECP
+(6) Retrieve country codes of all institutions with short name ECP
+(7) Show all country codes of institutions with the short name ECP
+
+
+Re-ranked choices:
+6.250  Retrieve country code of all institutions with short name ECP
+6.243  Retrieve all country codes of institutions with short name = 'ECP'.
+6.231  Retrieve country codes of all institutions with short name ECP
+6.128  Retrieve all country codes associated with the short name ECP of an institution.
+6.120  Show all country codes of institutions with the short name ECP
+5.972  Retrieve countries associated with the institution short name ECP
+5.683  Show all countries that have an institution named ECP
+5.550  Show me countries that have an institution named ECP
+

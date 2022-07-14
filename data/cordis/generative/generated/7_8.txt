@@ -1,0 +1,16 @@
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title = 'Cost-sharing contracts' or funding_schemes.title = 'CIP-Pilot Type B'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.code FROM funding_schemes WHERE funding_schemes.title = 'Cost-sharing contracts' or funding_schemes.title = 'CIP-Pilot Type B'
+GPT-3 choices:
+(0) Show me funding schemes for Cost-sharing contracts or CIP-Pilot Type B
+(1) Show me all funding schemes with the title 'Cost-sharing contracts' or 'CIP-Pilot Type B'
+(2) Show me funding scheme with the title “Cost Sharing Contracts” or “CIP-Pilot Type B”
+(3) Show me all funding scheme titles
+(4) Which are the different funding scheme titles?
+(5) Show me the different funding schemes of Cost-sharing contract or the Pilot Type B
+(6) Show me the code of funding schemes with titles Cost-sharing contracts or CIP-Pilot Type B
+(7) Show me all the funding schemes which are about cost-sharing or CIP-Pilot Type B

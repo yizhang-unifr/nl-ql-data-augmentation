@@ -1,0 +1,16 @@
+SELECT subject_areas.title FROM subject_areas JOIN project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects ON project_subject_areas.project = projects.unics_id WHERE projects.ec_fund_scheme != 'MSCA-IF-EF-ST'
+
+###
+
+
+Original Query:
+SELECT subject_areas.title FROM subject_areas JOIN project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects ON project_subject_areas.project = projects.unics_id WHERE projects.ec_fund_scheme != 'MSCA-IF-EF-ST'
+GPT-3 choices:
+(0) Show subject areas for projects that are not funded by the European Funding Programme "Marie Sklodowska-Curie Actions - Innovative Fund for Secondary Subjects and Emerging Fields"
+(1) Show part of the subject areas of projects that are not in the EC funded If-EF-ST scheme
+(2) Show me subject areas for projects with non-MSCA-IF-EF-ST ec funding scheme
+(3) Show me subject areas from projects which did not get an ec fund from ERC compared to MSCA-IF-EF-ST
+(4) What are the different subject areas of projects that do not have an ec fund scheme MSCA-IF-EF-ST?
+(5) What are the subject areas of projects that don't have the ec fund scheme MSCA-IF-EF-ST
+(6) Show me the subject areas of projects that are not in the European Forschung und Entwicklung scheme
+(7) Show me subject areas of projects in the MSCA-IF-EF-ST scheme but not the EC Fund.

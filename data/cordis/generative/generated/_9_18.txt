@@ -1,0 +1,28 @@
+SELECT projects.ec_call FROM projects JOIN funding_schemes ON projects.ec_fund_scheme = funding_schemes.code WHERE funding_schemes.title != 'Best Practice Network'
+
+###
+
+
+Original Query:
+SELECT projects.ec_call FROM projects JOIN funding_schemes ON projects.ec_fund_scheme = funding_schemes.code WHERE funding_schemes.title != 'Best Practice Network'
+GPT-3 choices:
+(0) Retrieve projects with a funding scheme different than 'Best Practice Network'
+(1) Retrieve all projects from the funding scheme ‘Best Practice Network’
+(2) Display the EC call number of projects that are not in the funding scheme Best Practice Network
+(3) Find all projects of a funding scheme other than "Best Practice Network"
+(4) Show me the projects that have funding scheme titles different from Best Practice Network
+(5) Retrieve all funding schemes where the title is not Best Practice Network.
+(6) Show the funding scheme codes of all projects except those in the Best Practice Network scheme
+(7) Show me all projects that fund a Best Practice Network
+
+
+Re-ranked choices:
+5.624  Retrieve all projects from the funding scheme ‘Best Practice Network’
+5.610  Find all projects of a funding scheme other than "Best Practice Network"
+5.527  Retrieve projects with a funding scheme different than 'Best Practice Network'
+5.332  Show me the projects that have funding scheme titles different from Best Practice Network
+5.260  Show the funding scheme codes of all projects except those in the Best Practice Network scheme
+4.962  Show me all projects that fund a Best Practice Network
+4.949  Retrieve all funding schemes where the title is not Best Practice Network.
+4.453  Display the EC call number of projects that are not in the funding scheme Best Practice Network
+

@@ -1,0 +1,28 @@
+SELECT activity_types.description FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.id != 523702
+
+###
+
+
+Original Query:
+SELECT activity_types.description FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.unics_id != 523702
+GPT-3 choices:
+(0) What are the activity types of the project members who are not the person with id 523702?
+(1) Retrieve the description of activity types of project members who are not 523702
+(2) Display activity types of project members that are not assigned to project 523702
+(3) What are the activity types of projects that have a member different from 523702?
+(4) Retrieve activity types descriptions of project members that are not the member with id = 523702
+(5) What are the activity types of project members who are not Eriks Valters?
+(6) Show activity type description for projects whose member is none
+(7) What are the activity types of project members who are different from 523702?
+
+
+Re-ranked choices:
+5.198  Retrieve the description of activity types of project members who are not 523702
+5.146  Display activity types of project members that are not assigned to project 523702
+4.981  What are the activity types of the project members who are not the person with id 523702?
+4.942  What are the activity types of project members who are different from 523702?
+4.810  Retrieve activity types descriptions of project members that are not the member with id = 523702
+4.757  What are the activity types of projects that have a member different from 523702?
+4.422  What are the activity types of project members who are not Eriks Valters?
+4.291  Show activity type description for projects whose member is none
+

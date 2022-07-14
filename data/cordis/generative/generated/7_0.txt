@@ -1,0 +1,16 @@
+SELECT projects.total_cost FROM projects WHERE projects.end_year = 2018 or projects.end_year = 2012
+
+###
+
+
+Original Query:
+SELECT projects.total_cost FROM projects WHERE projects.end_year = 2018 or projects.end_year = 2012
+GPT-3 choices:
+(0) What is the total cost of projects that end in 2018 or 2012?
+(1) Show the total cost of projects ending in 2018 or 2012
+(2) What is the total cost of projects ending in 2012 or 2018?
+(3) Show me the total costs for all projects ending in 2018 or 2012
+(4) Total cost of projects ending in 2018 or 2012
+(5) What is the total cost of projects ending in 2018 or 2012?
+(6) What is the total cost of projects ended in 2018 or 2012?
+(7) What is the total cost of projects that end in 2018 or in 2012?

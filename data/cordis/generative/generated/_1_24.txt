@@ -1,0 +1,28 @@
+SELECT project_member_roles.code FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.ec_contribution = 86880.0
+
+###
+
+
+Original Query:
+SELECT project_member_roles.code FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.ec_contribution = 86880.0
+GPT-3 choices:
+(0) Show me project member roles associated with project members that have an EC contribution of 86880.0
+(1) Show project member roles for project members having an EC contribution of 86880.0
+(2) Show all project member roles associated with members with an EC contribution of 86880.0
+(3) What are the project member role codes of the project members whose EC contribution is 86880?
+(4) How many project member roles are associated with project members that have an ec contribution of 86880.0?
+(5) Show me all project members' roles from projects with an EC contribution of 86880.0
+(6) Retrieve project member roles with code from project members with eu contribution = 86880
+(7) What are the project member roles of the project member with ec contribution 86880?
+
+
+Re-ranked choices:
+6.342  Show me project member roles associated with project members that have an EC contribution of 86880.0
+6.257  Show me all project members' roles from projects with an EC contribution of 86880.0
+6.250  Show project member roles for project members having an EC contribution of 86880.0
+6.172  Show all project member roles associated with members with an EC contribution of 86880.0
+6.078  How many project member roles are associated with project members that have an ec contribution of 86880.0?
+6.058  What are the project member roles of the project member with ec contribution 86880?
+5.900  What are the project member role codes of the project members whose EC contribution is 86880?
+5.225  Retrieve project member roles with code from project members with eu contribution = 86880
+

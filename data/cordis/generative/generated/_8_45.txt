@@ -1,0 +1,28 @@
+SELECT activity_types.code FROM activity_types WHERE activity_types.description != 'Private for-profit entities (excluding Higher or Secondary Education Establishments)'
+
+###
+
+
+Original Query:
+SELECT activity_types.code FROM activity_types WHERE activity_types.description != 'Private for-profit entities (excluding Higher or Secondary Education Establishments)'
+GPT-3 choices:
+(0) Show activities types different from "Private for-profit entities (excluding Higher or Secondary Education Establishments)".
+(1) Show activity types descriptions of all the different private for-profit entities excluding the ones that work in the Higher or Secondary Education Establishments field
+(2) Retrieve all activity types descriptions except for the description Private for-profit entities (excluding Higher or Secondary Education Establishments)
+(3) Retrieve all activity types with a different description from Private for-profit entities (excluding Higher or Secondary Education Establishments)
+(4) Show activity types description of Private for-profit entities (excluding Higher or Secondary Education Establishments)
+(5) Return activity types within the Private for-profit entities (excluding Higher or Secondary Education Establishments) description
+(6) What are the activity type codes of Private for-profit entities (excluding Higher or Secondary Education Establishments)?
+(7) What are the activity types codes of private for-profit entities excluding Higher or Secondary Education Establishments?
+
+
+Re-ranked choices:
+6.191  Show activity types description of Private for-profit entities (excluding Higher or Secondary Education Establishments)
+6.095  Show activity types descriptions of all the different private for-profit entities excluding the ones that work in the Higher or Secondary Education Establishments field
+5.924  Show activities types different from "Private for-profit entities (excluding Higher or Secondary Education Establishments)".
+5.740  Retrieve all activity types with a different description from Private for-profit entities (excluding Higher or Secondary Education Establishments)
+5.685  What are the activity types codes of private for-profit entities excluding Higher or Secondary Education Establishments?
+5.671  Return activity types within the Private for-profit entities (excluding Higher or Secondary Education Establishments) description
+5.638  What are the activity type codes of Private for-profit entities (excluding Higher or Secondary Education Establishments)?
+5.603  Retrieve all activity types descriptions except for the description Private for-profit entities (excluding Higher or Secondary Education Establishments)
+

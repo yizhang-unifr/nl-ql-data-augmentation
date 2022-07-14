@@ -1,0 +1,16 @@
+SELECT count(*) FROM erc_research_domains WHERE erc_research_domains.code = 'LS'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM erc_research_domains WHERE erc_research_domains.code = 'LS'
+GPT-3 choices:
+(0) What is the total number of research domains funded by the Life Sciences committee?
+(1) How many research domains have LA as top level domain?
+(2) How many research domains with code LS are there?
+(3) What is the number of countries that have research domain ENTITY REGISTRATION AND SCREENING?
+(4) How many research domains are associated with the erc topic of lung sciences?
+(5) How many research domains are there that have the code LS?
+(6) How many distinct erc research domains have the code LS?
+(7) How many research domains are there with a code of LS?

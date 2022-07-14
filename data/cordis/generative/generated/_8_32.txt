@@ -1,0 +1,28 @@
+SELECT projects.homepage FROM projects WHERE projects.ec_fund_scheme != 'MC-ITN'
+
+###
+
+
+Original Query:
+SELECT projects.homepage FROM projects WHERE projects.ec_fund_scheme != 'MC-ITN'
+GPT-3 choices:
+(0) Show projects in the eu funding scheme that don't have the homepage property
+(1) Show me projects that have no european community funding scheme.
+(2) Show me the project descriptions for all projects except for the ones with the EC fund schema MC-ITN
+(3) Show projects that have an MC-ITN European Cooperative Fundscheme
+(4) Show me all the different project homepages that don't fall into the european comission funding scheme MC-ITN.
+(5) Show projects with a different homepage than the one I chose when installing the project
+(6) Show me all the project with a homepage
+(7) Show all projects whose funding scheme is not MC-ITN
+
+
+Re-ranked choices:
+4.391  Show me all the different project homepages that don't fall into the european comission funding scheme MC-ITN.
+4.139  Show projects in the eu funding scheme that don't have the homepage property
+3.755  Show me projects that have no european community funding scheme.
+3.737  Show all projects whose funding scheme is not MC-ITN
+3.589  Show me the project descriptions for all projects except for the ones with the EC fund schema MC-ITN
+3.550  Show projects that have an MC-ITN European Cooperative Fundscheme
+3.400  Show me all the project with a homepage
+2.812  Show projects with a different homepage than the one I chose when installing the project
+

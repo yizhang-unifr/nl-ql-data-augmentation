@@ -1,0 +1,28 @@
+SELECT project_member_roles.code FROM project_member_roles WHERE project_member_roles.description != 'Beneficiary'
+
+###
+
+
+Original Query:
+SELECT project_member_roles.code FROM project_member_roles WHERE project_member_roles.description != 'Beneficiary'
+GPT-3 choices:
+(0) Show project member roles that are not for beneficiaries
+(1) Show me the project member roles that are not 'Beneficiary'
+(2) Show me the different roles of project members except for benefits
+(3) What are the project member role descriptions that are not the beneficsiarity role?
+(4) Show me project member roles that are different from the description 'Beneficiary'
+(5) Show all project member roles except the "Beneficiary" role
+(6) What are the project member role descriptions that are not those of beneficiaries?
+(7) Show me project member roles that are not of "Beneficiary"
+
+
+Re-ranked choices:
+6.235  Show me the project member roles that are not 'Beneficiary'
+6.176  Show me project member roles that are not of "Beneficiary"
+6.005  Show me project member roles that are different from the description 'Beneficiary'
+5.982  Show project member roles that are not for beneficiaries
+5.911  What are the project member role descriptions that are not those of beneficiaries?
+5.909  Show all project member roles except the "Beneficiary" role
+5.474  Show me the different roles of project members except for benefits
+5.329  What are the project member role descriptions that are not the beneficsiarity role?
+

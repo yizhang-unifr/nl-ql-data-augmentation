@@ -1,0 +1,28 @@
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.title = 'Innovation action'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.title = 'Innovation action'
+GPT-3 choices:
+(0) How many funding schemes have the title "Innovation action"
+(1) How many funding schemes are there with the title Innovation action?
+(2) How many funding schemes are there with the title "Innovation action"?
+(3) Show me the number of funding schemes called "Innovation action"
+(4) Show me the number of funding scheme titles which are equal to 'Innovation Action'
+(5) Show me the number of funding schemas with title Innovation action.
+(6) Show me the number of funding schemes about innovation actions
+(7) How many different funding schemes have the title Innovation action?
+
+
+Re-ranked choices:
+6.203  How many funding schemes are there with the title Innovation action?
+6.182  How many funding schemes are there with the title "Innovation action"?
+6.083  Show me the number of funding scheme titles which are equal to 'Innovation Action'
+6.076  How many different funding schemes have the title Innovation action?
+6.044  Show me the number of funding schemes called "Innovation action"
+5.922  How many funding schemes have the title "Innovation action"
+5.849  Show me the number of funding schemes about innovation actions
+5.378  Show me the number of funding schemas with title Innovation action.
+

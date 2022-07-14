@@ -1,0 +1,16 @@
+SELECT programmes.rcn FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.ec_call = 'H2020-MSCA-IF-2015'
+
+###
+
+
+Original Query:
+SELECT programmes.rcn FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.ec_call = 'H2020-MSCA-IF-2015'
+GPT-3 choices:
+(0) Retrieve the programme code of projects participating in the project with code H2020-MSCA-IF-2015
+(1) Retrieve the code of the rcn of the projects of the project programme H2020-MSCA-IF-2015 from the projects table
+(2) Show me programmes of projects which have the project code H2020-MSCA-IF-2015
+(3) What are the project codes of projects with an European Commission call H2020-MSCA-IF-2015?
+(4) Show me the total number of projects that contributed to a programme in the H2020-MSCA-IF-2015 project call.
+(5) Show the country code of projects whose funding call is "H2020-MSCA-IF-2015"
+(6) Show the RCC number of all projects of the MSCA-IF programme in H2020
+(7) Show me the research council number of projects that fall in the H2020-MSCA-IF-2015 funding programme

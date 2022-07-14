@@ -1,0 +1,16 @@
+SELECT project_members.country FROM project_members WHERE project_members.department_name = 'KMS' and project_members.longitude = 16.3698784
+
+###
+
+
+Original Query:
+SELECT project_members.country FROM project_members WHERE project_members.department_name = 'KMS' and project_members.longitude = 16.3698784
+GPT-3 choices:
+(0) Show me the list of all project members in the KMS department in the city of 16.3###
+(1) What is the country of all project members from the department KMS located in 16.3698784?
+(2) Show all country of people from a department named KMS at 16.3698784 east.
+(3) Show me all project members in the KMS department and at the same latitude of 16.3698784
+(4) Show all countries of project members in the department KMS and with a longitude of 16.3698785
+(5) Show me the countries of project members in the department KMS, which are located at 16.3698784
+(6) Show country of all project members in department KMS
+(7) What is the country of all project members located in the department KMS and having the longitude 16.3698784 ?

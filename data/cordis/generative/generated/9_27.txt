@@ -1,0 +1,16 @@
+SELECT erc_research_domains.description FROM erc_research_domains JOIN erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects ON project_erc_panels.project = projects.unics_id WHERE projects.ec_call != 'H2020-INFRADEV-1-2014-1'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.description FROM erc_research_domains JOIN erc_panels ON erc_research_domains.code = erc_panels.part_of JOIN project_erc_panels ON erc_panels.code = project_erc_panels.panel JOIN projects ON project_erc_panels.project = projects.unics_id WHERE projects.ec_call != 'H2020-INFRADEV-1-2014-1'
+GPT-3 choices:
+(0) Show me the research domains for projects that are not part of the eu funding call H2020-INFRADEV-1-2014-1
+(1) Show me the different Research Domains assigned to projects that are not part of call H2020-INFRADEV-1-2014-1
+(2) Retrieve the descriptions of ERC research domains that have a panel in projects that are not titled “H2020-INFRADEV-1-2014-1”
+(3) Show me all research domains associated with projects not assigned to the H2020-INFRADEV-1-2014-1 European call
+(4) Show me the description of research domains from projects in the ERC funding call H2020-INFRADEV-1-2014-1
+(5) Show me the research domains in projects that are not part of the project with EC call H2020-INFRADEV-1-2014-1
+(6) Show the descriptions of European Research Council panels that are not part of the projects with call H2020-INFRADEV-1-2014-1
+(7) Show me the description for ERC research domain erc_panels with project erc_projects whose call does not match H2020-INFRADEV-1-2014-1

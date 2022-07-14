@@ -1,0 +1,16 @@
+SELECT erc_research_domains.description FROM erc_research_domains WHERE erc_research_domains.code = 'SH'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.description FROM erc_research_domains WHERE erc_research_domains.code = 'SH'
+GPT-3 choices:
+(0) Show me the research domains with the code SH
+(1) What are the research domains about Shipbuilding?
+(2) Show all research domains in the country Switzerland.
+(3) What are the research domains about the subject area Stem Cell Biology?
+(4) Retrieve all research domains with code SH
+(5) Display all research domains in the subject Health from all projects
+(6) Show me the research domains that have SH in their code
+(7) What are the erc research domains about sports and health?

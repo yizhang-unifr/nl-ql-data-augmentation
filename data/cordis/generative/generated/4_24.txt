@@ -1,0 +1,16 @@
+SELECT count(*) FROM countries WHERE countries.country_name = 'Italy'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM countries WHERE countries.country_name = 'Italy'
+GPT-3 choices:
+(0) How many countries are there with the country name Italy?
+(1) Count countries whose name is Italy
+(2) How many different countries have a country name equal to Italy?
+(3) Compute the number of country names of countries with country name Italy
+(4) Get the total number of countries in which the country_name is Italy
+(5) How many countries are there with name Italy?
+(6) Show the total number of countries in the world
+(7) Total number of countries whose country name is Italy.

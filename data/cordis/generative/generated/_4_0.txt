@@ -1,0 +1,27 @@
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.code = 'CP-FP-TP'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.code = 'CP-FP-TP'
+GPT-3 choices:
+(0) Show the number of funding schemes with the code CP-FP-TP
+(1) Show the number of funding schemes there are in Europe with code CP-FP-TP
+(2) How many funding schemes are there that contain “CP-FP-TP”?
+(3) How many funding schemas are there for the subject 'CP-FP-TP'?
+(4) How many funding schemes have the code CP-FP-TP?
+(5) How many funding schemes are there?
+(6) How many funding schemes have the code CP-FP-TP?
+(7) How many funding schemes are there for Collaborative Project -FP-TP?
+
+
+Re-ranked choices:
+5.023  How many funding schemes have the code CP-FP-TP?
+5.002  How many funding schemes are there that contain “CP-FP-TP”?
+4.783  Show the number of funding schemes with the code CP-FP-TP
+4.658  How many funding schemes are there for Collaborative Project -FP-TP?
+4.479  Show the number of funding schemes there are in Europe with code CP-FP-TP
+4.423  How many funding schemas are there for the subject 'CP-FP-TP'?
+4.216  How many funding schemes are there?
+

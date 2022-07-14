@@ -1,0 +1,16 @@
+SELECT project_member_roles.description, count(*) FROM project_member_roles  GROUP BY project_member_roles.description
+
+###
+
+
+Original Query:
+SELECT project_member_roles.description, count(*) FROM project_member_roles  GROUP BY project_member_roles.description
+GPT-3 choices:
+(0) Retrieve the descriptions of project member roles and the number of projects they are associated with
+(1) How many project member roles are there?
+(2) How many project member roles are there?
+(3) Count the number of project member roles descriptions.
+(4) How many project member roles are there?
+(5) Retrieve the number of project member roles
+(6) Show me the different project member roles.
+(7) How many project member roles are there?

@@ -1,0 +1,16 @@
+SELECT countries.country_name FROM countries WHERE countries.country_code = 'GU'
+
+###
+
+
+Original Query:
+SELECT countries.country_name FROM countries WHERE countries.country_code2 = 'GU'
+GPT-3 choices:
+(0) Retrieve the country names if the country code is GU
+(1) Show me the countries with country code GU
+(2) What are the country names of countries with country code GU?
+(3) What are the countries that have the country code GU?
+(4) What are the country names of all the countries whose country code is GU ?
+(5) Compare the country name of all countries with country code GU
+(6) Show me all countries with country code GU?
+(7) Display country names for countries with country code "GU"

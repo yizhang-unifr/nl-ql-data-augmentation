@@ -1,0 +1,16 @@
+SELECT countries.country_code FROM countries JOIN institutions ON countries.unics_id = institutions.country_id WHERE institutions.acronym != 'UNÎMES'
+
+###
+
+
+Original Query:
+SELECT countries.country_code2 FROM countries JOIN institutions ON countries.unics_id = institutions.country_id WHERE institutions.acronym != 'UNÎMES'
+GPT-3 choices:
+(0) Show country codes of all institutions that do not have the acronym UNÎMES.
+(1) Show me all the countries with at least one institute that is not named UNÎMES
+(2) Show country codes from countries that contain an institution whose acronym is different from 'UNÎMES'
+(3) What are the country codes of institutions whose acronym is not UNÎMES?
+(4) Show the country code of all institutions from countries that have an institution whose acronym is NOT UNÎMES
+(5) Display country codes of institutions different from UNÎMES that are different from the institutions acronym
+(6) Return all country codes of institutions that do not have the acronym UNÎMES
+(7) Show the country code of all institutions different than UNÎMES

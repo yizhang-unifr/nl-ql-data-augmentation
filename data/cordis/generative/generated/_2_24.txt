@@ -1,0 +1,28 @@
+SELECT projects.ec_max_contribution, count(*) FROM projects  GROUP BY projects.ec_max_contribution
+
+###
+
+
+Original Query:
+SELECT projects.ec_max_contribution, count(*) FROM projects  GROUP BY projects.ec_max_contribution
+GPT-3 choices:
+(0) Show the different ec monetary funding maximals for projects
+(1) How many different maximum contribution are there?
+(2) How many different enterprises contributed at most in funds to projects?
+(3) What is the maximum contribution of projects?
+(4) What is the total number of european community contributions of all projects?
+(5) Tell me the maximum contribution of the projects
+(6) Show the number of projects with a maximum contribution of
+(7) How many projects have a maximum contribution?
+
+
+Re-ranked choices:
+5.537  How many projects have a maximum contribution?
+5.516  What is the maximum contribution of projects?
+5.376  Tell me the maximum contribution of the projects
+5.156  Show the number of projects with a maximum contribution of
+4.613  How many different enterprises contributed at most in funds to projects?
+4.519  How many different maximum contribution are there?
+4.470  What is the total number of european community contributions of all projects?
+3.618  Show the different ec monetary funding maximals for projects
+

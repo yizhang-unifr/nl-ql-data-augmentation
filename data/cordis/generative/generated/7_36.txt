@@ -1,0 +1,16 @@
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code = 'RTN' or funding_schemes.code = 'CNC'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code = 'RTN' or funding_schemes.code = 'CNC'
+GPT-3 choices:
+(0) Show me funding schems whose title is RTN or CNC
+(1) Show me all public funding schemes
+(2) Show me funding schemes with title “RTN” or “CNC”
+(3) Show me all funding schemes titled RTN or CNC
+(4) Show me the funding schemes associated with the FEDER REGIONAL TECHNOLOGY PROGRAMME and the COMPETITIVE ADVANCED RESEARCH NETHERLANDS
+(5) Show me the title of funding schemes associated either with RTN or CNC
+(6) Show me projects named RTN or CNC.
+(7) Retrieve all funding schemes with the title RTN or CNC

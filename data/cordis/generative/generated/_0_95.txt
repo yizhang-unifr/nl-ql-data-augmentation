@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'HR064'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'HR064'
+GPT-3 choices:
+(0) Show the description of the eu territorial unit with code HR 064
+(1) Show me territorial unit descriptions associated with the region HR064
+(2) Show me all eu territorial unit's descriptions in the region HR064
+(3) Show me the territorial unit description where the geocode region is HR064
+(4) Show me the descriptions of territorial units in region HR064
+(5) Retrieve the territorial unit descriptions for territorial unit with code HR064
+(6) Show all description of territorial units in region HR064
+(7) Show me the description for the territorial unit with geocode region HR064
+
+
+Re-ranked choices:
+6.049  Show all description of territorial units in region HR064
+5.995  Show me the descriptions of territorial units in region HR064
+5.992  Show me territorial unit descriptions associated with the region HR064
+5.874  Show me the description for the territorial unit with geocode region HR064
+5.735  Show me all eu territorial unit's descriptions in the region HR064
+5.619  Show me the territorial unit description where the geocode region is HR064
+5.493  Retrieve the territorial unit descriptions for territorial unit with code HR064
+5.295  Show the description of the eu territorial unit with code HR 064
+

@@ -1,0 +1,16 @@
+SELECT count(*) FROM countries WHERE countries.country_name = 'Puerto Rico'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM countries WHERE countries.country_name = 'Puerto Rico'
+GPT-3 choices:
+(0) Show the total number of countries
+(1) How many countries are there in the world whose country_name is Puerto Rico
+(2) How many countries have the same name as Puerto Rico?
+(3) Show me the number of countries whose country name is Puerto Rico
+(4) How many countries have the country name "Puerto Rico"?
+(5) How many countries are there in the world whose country name is Puerto Rico?
+(6) Count the number of countries whose name is Puerto Rico.
+(7) How many countries are there in the world whose country name is “Puerto Rico”?

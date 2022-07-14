@@ -1,0 +1,16 @@
+SELECT projects.ec_fund_scheme FROM projects    ORDER BY projects.start_date DESC LIMIT 1
+
+###
+
+
+Original Query:
+SELECT projects.ec_fund_scheme FROM projects    ORDER BY projects.start_date DESC LIMIT 1
+GPT-3 choices:
+(0) Show all existing EFCS by projects and ordered by starting date.
+(1) What is the ec_fund_scheme of the project with the latest starting date?
+(2) What is the ec_fund_scheme of the project that started after January 1, 2016?
+(3) What is the EC funding scheme for the project with the latest start date?
+(4) Get the EC fund scheme of the latest start project.
+(5) What is the name of the European Commission funding scheme associated with the project started after January 1, 2012?
+(6) Get the EC funding catalogue of the project with the earliest starting date
+(7) What is the EC fund scheme of the project with the latest start date?

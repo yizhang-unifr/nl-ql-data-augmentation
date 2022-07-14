@@ -1,0 +1,28 @@
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code != 'SC'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code != 'SC'
+GPT-3 choices:
+(0) Show all funding schemes titles except for SC
+(1) Show me a list of funding scheme titles that are not different from SC
+(2) Show all funding schemes except the ones that ends with the letters SC
+(3) Show me the funding scheme title for all the projects that are not classified as SC.
+(4) Display projects with a funding scheme with a different title than SC.
+(5) Show me all the funding scheme titles that are not "SC"
+(6) What are the titles of the funding schemes that are not about social costs?
+(7) Show me all the funding scheme titles except the one named SC.
+
+
+Re-ranked choices:
+6.028  Show me all the funding scheme titles that are not "SC"
+5.929  Show me all the funding scheme titles except the one named SC.
+5.847  Show me a list of funding scheme titles that are not different from SC
+5.739  Show all funding schemes titles except for SC
+5.702  Show me the funding scheme title for all the projects that are not classified as SC.
+5.430  Show all funding schemes except the ones that ends with the letters SC
+5.267  Display projects with a funding scheme with a different title than SC.
+4.208  What are the titles of the funding schemes that are not about social costs?
+

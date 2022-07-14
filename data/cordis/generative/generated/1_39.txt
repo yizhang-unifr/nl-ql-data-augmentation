@@ -1,0 +1,16 @@
+SELECT activity_types.description FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.member_short_name = 'NNL'
+
+###
+
+
+Original Query:
+SELECT activity_types.description FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.member_short_name = 'NNL'
+GPT-3 choices:
+(0) Show activity types of projects with member named NNL
+(1) What are the activity types descriptions of the project members with short name NNL?
+(2) What are the activity types of project members whose short name is NNL?
+(3) What are the different activity types of project members whose short name is NNL?
+(4) What are the activity types of member short name NNL from projects?
+(5) Show activity types of projects with members whose short name is NNL.
+(6) What are the activity types of the members with short name NNL?
+(7) Show the description for activity types in which project members with short name NNL are involved

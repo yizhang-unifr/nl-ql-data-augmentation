@@ -1,0 +1,27 @@
+SELECT count(*) FROM programmes WHERE programmes.code = 'SSH-1'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM programmes WHERE programmes.code = 'SSH-1'
+GPT-3 choices:
+(0) How many programmes are there with code SSH-1?
+(1) How many programmes are assigned the code SSH-1?
+(2) Total of programmes that have the code SSH-1
+(3) Display the number of programmes having code SSH-1
+(4) Show me the number of programmes with code SSH-1
+(5) Show me how many programmes with code SSH-1 there are
+(6) How many programmes are there with code SSH-1?
+(7) Show the total number of programmes with code SSH-1
+
+
+Re-ranked choices:
+5.603  Show me how many programmes with code SSH-1 there are
+5.578  Show me the number of programmes with code SSH-1
+5.437  Total of programmes that have the code SSH-1
+5.341  Show the total number of programmes with code SSH-1
+5.303  How many programmes are there with code SSH-1?
+5.298  Display the number of programmes having code SSH-1
+5.266  How many programmes are assigned the code SSH-1?
+

@@ -1,0 +1,28 @@
+SELECT countries.country_name FROM countries WHERE countries.country_code = 'TO'
+
+###
+
+
+Original Query:
+SELECT countries.country_name FROM countries WHERE countries.country_code2 = 'TO'
+GPT-3 choices:
+(0) Retrieve the country names of all countries having the country code TO .
+(1) Show the country name of all countries with the country code TO .
+(2) Retrieve all countries with country code TO
+(3) Show me the country names of all countries that have the country code TO.
+(4) Retrieve country names of countries with country code TO.
+(5) Which countries have the code TO?
+(6) Show me all countries with country code TO
+(7) Show the country name of all countries with a country code of TO.
+
+
+Re-ranked choices:
+6.149  Show the country name of all countries with the country code TO .
+6.114  Show me all countries with country code TO
+6.104  Retrieve the country names of all countries having the country code TO .
+6.038  Show the country name of all countries with a country code of TO.
+6.038  Show me the country names of all countries that have the country code TO.
+5.920  Retrieve country names of countries with country code TO.
+5.805  Retrieve all countries with country code TO
+5.205  Which countries have the code TO?
+

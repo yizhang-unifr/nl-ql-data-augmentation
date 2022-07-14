@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'FRM0'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'FRM0'
+GPT-3 choices:
+(0) Show all the territorial unit descriptions where the region code is FRM0
+(1) Show me EU territorial units with the geocode region FRM0
+(2) Display all the territorial units of the region FRM0
+(3) What is the description of the eu territorial unit that has the geocode region FRM0?
+(4) Show me all the territorial unit descriptions in France.
+(5) Show me territorial unit descriptions associated with the region FRM0
+(6) Show me territorial unit descriptions associated with the geocode region FRM0
+(7) Retrieve the description of the territorial unit which belongs to the geocode region FRM0
+
+
+Re-ranked choices:
+5.818  Show me territorial unit descriptions associated with the geocode region FRM0
+5.670  Show all the territorial unit descriptions where the region code is FRM0
+5.637  Show me territorial unit descriptions associated with the region FRM0
+5.560  Display all the territorial units of the region FRM0
+5.523  Show me EU territorial units with the geocode region FRM0
+5.393  Retrieve the description of the territorial unit which belongs to the geocode region FRM0
+5.276  What is the description of the eu territorial unit that has the geocode region FRM0?
+4.232  Show me all the territorial unit descriptions in France.
+

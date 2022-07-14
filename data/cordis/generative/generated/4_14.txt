@@ -1,0 +1,16 @@
+SELECT count(*) FROM subject_areas WHERE subject_areas.title = 'Reference Materials'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM subject_areas WHERE subject_areas.title = 'Reference Materials'
+GPT-3 choices:
+(0) How many subject areas are there for the Reference Materials area?
+(1) count the number of subject areas with title Reference Materials.
+(2) Count the number of subject areas with title 'Reference Materials'
+(3) How many subject areas are there for the Reference Materials?
+(4) Count the number of subject areas with title “Reference Materials”
+(5) Show me how many subject areas end in Reference Materials.
+(6) How many distinct subject areas are there with the title 'Reference Materials'?
+(7) How many distinct subject areas are there with title Reference Materials?

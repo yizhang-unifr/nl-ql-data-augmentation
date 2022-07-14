@@ -1,0 +1,28 @@
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code = 'FUSION'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.title FROM funding_schemes WHERE funding_schemes.code = 'FUSION'
+GPT-3 choices:
+(0) Show me all of the scheme titles for funding called 'FUSION'
+(1) Show me the funding scheme "FUSION"
+(2) Select all funding schems titled fusion.
+(3) Show me all the projects have funding scheme called 'FUSION'
+(4) Show me all funding schemes titles
+(5) Show me all the titles of funding schemes that are called 'Fusion'
+(6) Retrieve all titles of funding schemes starting with FUSION
+(7) All the funding schemes from the fusion program.
+
+
+Re-ranked choices:
+5.807  Show me all the titles of funding schemes that are called 'Fusion'
+5.778  Show me all of the scheme titles for funding called 'FUSION'
+5.468  Show me all the projects have funding scheme called 'FUSION'
+5.331  Show me the funding scheme "FUSION"
+5.215  All the funding schemes from the fusion program.
+5.171  Select all funding schems titled fusion.
+4.983  Retrieve all titles of funding schemes starting with FUSION
+4.475  Show me all funding schemes titles
+

@@ -1,0 +1,28 @@
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'ITG2G'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'ITG2G'
+GPT-3 choices:
+(0) How many territorial units are there in the geocode region ITG2G?
+(1) How many eu territorial unit geocode regions are there in Italy?
+(2) How many territorial unit areas have a region code of ITG2G?
+(3) Retrieve the number of territorial units that have the geocode region ITG2G
+(4) ## 24
+(5) How many EU territorial units with geocode regions ITG2G are there?
+(6) What is the total number of territorial units covered by European Union in which the geocode region is ITG2G?
+(7) Show me the different territorial units that have a european geocode
+
+
+Re-ranked choices:
+5.212  How many EU territorial units with geocode regions ITG2G are there?
+5.128  How many territorial units are there in the geocode region ITG2G?
+5.125  What is the total number of territorial units covered by European Union in which the geocode region is ITG2G?
+4.860  How many territorial unit areas have a region code of ITG2G?
+4.740  Retrieve the number of territorial units that have the geocode region ITG2G
+4.359  How many eu territorial unit geocode regions are there in Italy?
+4.321  Show me the different territorial units that have a european geocode
+0.825  ## 24
+

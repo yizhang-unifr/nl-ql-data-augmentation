@@ -1,0 +1,16 @@
+SELECT project_member_roles.description FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.member_name = 'INSTITUTO SUPERIOR TECNICO'
+
+###
+
+
+Original Query:
+SELECT project_member_roles.description FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.member_name = 'INSTITUTO SUPERIOR TECNICO'
+GPT-3 choices:
+(0) Display all project member role descriptions for the INSTITUTO SUPERIOR TECNICO project member
+(1) Show me the project member roles associated with a member named INSTITUTO SUPERIOR TECNICO
+(2) Show all project member roles for the project participant INSTITUTO SUPERIOR TECNICO
+(3) Retrieve project member roles from INSTITUTO SUPERIOR TECNICO.
+(4) Show project member roles with the description for project members INSTITUTO SUPERIOR TECNICO?
+(5) Show me project member roles for the project member INSTITUTO SUPERIOR TECNICO
+(6) Retrieve the description of roles assigned to project members whose name is INSTITUTO SUPERIOR TECNICO
+(7) What are the project member roles descriptions for project members having INSTITUTO SUPERIOR TECNICO as full name?

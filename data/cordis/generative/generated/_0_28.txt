@@ -1,0 +1,28 @@
+SELECT countries.country_code FROM countries WHERE countries.country_name = 'Canada'
+
+###
+
+
+Original Query:
+SELECT countries.country_code2 FROM countries WHERE countries.country_name = 'Canada'
+GPT-3 choices:
+(0) ### What are the country codes of countries with the country_name Canada?
+(1) Get the country code of all the countries with name Canada.
+(2) Retrieve the country code's of countries called Canada
+(3) Retrieve the country code for the country Canada.
+(4) Show all country codes of the country Canada
+(5) Show me the country codes of all countries with country name Canada
+(6) Return the country code of all countries named Canada
+(7) What is the code of the country Canada?
+
+
+Re-ranked choices:
+6.089  Show me the country codes of all countries with country name Canada
+5.995  Retrieve the country code's of countries called Canada
+5.993  Show all country codes of the country Canada
+5.947  Get the country code of all the countries with name Canada.
+5.880  Retrieve the country code for the country Canada.
+5.861  Return the country code of all countries named Canada
+5.498  What is the code of the country Canada?
+5.391  ### What are the country codes of countries with the country_name Canada?
+

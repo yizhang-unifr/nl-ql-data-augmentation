@@ -1,0 +1,28 @@
+SELECT count(*) FROM topics WHERE topics.code = 'BES-06-2015'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM topics WHERE topics.code = 'BES-06-2015'
+GPT-3 choices:
+(0) How many topics are there in BES-06-2015?
+(1) How many are the topics with the code BES-06-2015?
+(2) How many topics are there about BES-06-2015?
+(3) Total number of topics with code BES-06-2015
+(4) Show me the total number of topics with code BES-06-2015
+(5) How many topics are there in the BES-06-2015 topic?
+(6) How many project topics are there?
+(7) What is the total number of subject areas in that research topic?
+
+
+Re-ranked choices:
+5.591  How many topics are there in the BES-06-2015 topic?
+5.580  How many topics are there in BES-06-2015?
+5.473  How many are the topics with the code BES-06-2015?
+5.405  Total number of topics with code BES-06-2015
+5.271  How many topics are there about BES-06-2015?
+5.075  Show me the total number of topics with code BES-06-2015
+4.591  How many project topics are there?
+4.001  What is the total number of subject areas in that research topic?
+

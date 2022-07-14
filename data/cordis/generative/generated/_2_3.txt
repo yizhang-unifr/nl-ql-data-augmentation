@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.geocode_regions, count(*) FROM eu_territorial_units  GROUP BY eu_territorial_units.geocode_regions
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.geocode_regions, count(*) FROM eu_territorial_units  GROUP BY eu_territorial_units.geocode_regions
+GPT-3 choices:
+(0) With the results of the columns eu_territorial_units.geocode_regions and count(*)
+(1) How many eu territorial units have a gecode region?
+(2) How many distinct geocode regions are there among the European territorial units?
+(3) What are the number of geocode regions in the EU territorial units?
+(4) Total number of regions of all geographical areas.
+(5) Show the number of different geocode regions of territorial units.
+(6) Show the number of territorial units for each region
+(7) How many eu territorial-unit geocode regions are there?
+
+
+Re-ranked choices:
+5.609  What are the number of geocode regions in the EU territorial units?
+5.558  How many distinct geocode regions are there among the European territorial units?
+5.518  How many eu territorial-unit geocode regions are there?
+5.378  Show the number of different geocode regions of territorial units.
+5.014  How many eu territorial units have a gecode region?
+4.767  With the results of the columns eu_territorial_units.geocode_regions and count(*)
+4.755  Show the number of territorial units for each region
+4.058  Total number of regions of all geographical areas.
+

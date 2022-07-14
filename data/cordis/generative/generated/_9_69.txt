@@ -1,0 +1,28 @@
+SELECT activity_types.code FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.id != 460032
+
+###
+
+
+Original Query:
+SELECT activity_types.code FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.unics_id != 460032
+GPT-3 choices:
+(0) What are the activity types of project members with id != 460032?
+(1) What are the activity types of project members having an id != 460032?
+(2) Retrieve activity types of project members whose id is != 460032
+(3) Show all activity types of project members that are not 460032
+(4) What are the activity types of members that are not part of the project 460032?
+(5) Show activity types of project members that are not 460032
+(6) First activity type of project members with id != 460032.
+(7) Retrieve activity types associated with a project member different from 460032
+
+
+Re-ranked choices:
+5.659  What are the activity types of project members with id != 460032?
+5.631  Show activity types of project members that are not 460032
+5.556  What are the activity types of project members having an id != 460032?
+5.539  Show all activity types of project members that are not 460032
+5.538  Retrieve activity types of project members whose id is != 460032
+5.313  Retrieve activity types associated with a project member different from 460032
+5.242  First activity type of project members with id != 460032.
+5.147  What are the activity types of members that are not part of the project 460032?
+

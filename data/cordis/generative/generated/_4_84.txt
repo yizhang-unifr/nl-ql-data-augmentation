@@ -1,0 +1,28 @@
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.title = 'ECSEL Innovation Action'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.title = 'ECSEL Innovation Action'
+GPT-3 choices:
+(0) How many funding schemes are associated to the ECSEL Innovation Action project?
+(1) How many funding schemes are associated with ECSEL Innovation Action?
+(2) How many funding schemes have the title ECSEL Innovation Action?
+(3) Retrieve the count of funding schemes titled ECSEL innovation action
+(4) How many funding schemes are titled ECSEL Innovation Action?
+(5) How many agencies are there ?
+(6) How many funding schems are there with the title ECSEL Innovation Action?
+(7) How many funding schemes are there whose title is ECSEL Innovation Action?
+
+
+Re-ranked choices:
+6.041  How many funding schemes are titled ECSEL Innovation Action?
+5.984  How many funding schemes are there whose title is ECSEL Innovation Action?
+5.953  How many funding schemes have the title ECSEL Innovation Action?
+5.948  How many funding schemes are associated with ECSEL Innovation Action?
+5.888  How many funding schemes are associated to the ECSEL Innovation Action project?
+5.742  How many funding schems are there with the title ECSEL Innovation Action?
+5.126  Retrieve the count of funding schemes titled ECSEL innovation action
+2.660  How many agencies are there ?
+

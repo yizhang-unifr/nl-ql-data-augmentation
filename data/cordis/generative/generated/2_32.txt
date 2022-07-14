@@ -1,0 +1,16 @@
+SELECT project_members.member_short_name, count(*) FROM project_members  GROUP BY project_members.member_short_name
+
+###
+
+
+Original Query:
+SELECT project_members.member_short_name, count(*) FROM project_members  GROUP BY project_members.member_short_name
+GPT-3 choices:
+(0) Show the number of projects each project member participates in
+(1) How many project members are there?
+(2) How many project members are there?
+(3) Show me the number of different project members
+(4) Show the names of a project members and the number of institutions they have prepared for.
+(5) Total number of project members per short name.
+(6) Count all project members?
+(7) Show me the short names of all members of projects, counting the number of people?

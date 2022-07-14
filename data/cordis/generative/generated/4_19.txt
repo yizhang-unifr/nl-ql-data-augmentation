@@ -1,0 +1,16 @@
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'HR034'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'HR034'
+GPT-3 choices:
+(0) Retrieve the number of territorial units contained in Greece’s region HR034.
+(1) Show me how many territorial units are assigned the region code HR034
+(2) How many eu territorial units are in region HR034?
+(3) How many territorial units are there in the region HR034?
+(4) Hi all!
+(5) What is the total number of territorial units in the region HR034?
+(6) Show the count of the territorial units in Europe with the geocode region HR034
+(7) Change 2929 in the region code of the Economic region 439. The change is in the country code HR

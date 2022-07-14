@@ -1,0 +1,16 @@
+SELECT funding_schemes.title FROM funding_schemes JOIN projects ON funding_schemes.code = projects.ec_fund_scheme WHERE projects.ec_fund_scheme != 'ERC-STG'
+
+###
+
+
+Original Query:
+SELECT funding_schemes.title FROM funding_schemes JOIN projects ON funding_schemes.code = projects.ec_fund_scheme WHERE projects.ec_fund_scheme != 'ERC-STG'
+GPT-3 choices:
+(0) Show me the titles of funding schemes for projects except the "ERC-STG" scheme.
+(1) How many funding schemes have projects that do not have the ERC-STG funding scheme?
+(2) Show me funding scheme names of projects housed by institutions that do not participate in European Commission - Strategic Transport Grant
+(3) Show me all the project funding scheme titles
+(4) Show me all funding schemes associated with projects that do not have the ERC-STG accreditation.
+(5) Show me the funding schemes associated with projects that don't have the ecs fund scheme
+(6) Show me the titles of the funding schemes for project with code not equal to ERC-STG
+(7) Show me the title of funding schemes associated with projects that don't have the ERC-STG fund scheme

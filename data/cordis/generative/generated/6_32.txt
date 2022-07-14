@@ -1,0 +1,16 @@
+SELECT subject_areas.title FROM subject_areas WHERE subject_areas.description = 'Tokamaks; plasma physics; electron dynamics and confinement; components and materials; instabilities and turbulence; MHD equilibrium; safeguarding techniques; electric and magnetic fields; impurities; ignition; modelling.' and subject_areas.code = 'AER'
+
+###
+
+
+Original Query:
+SELECT subject_areas.title FROM subject_areas WHERE subject_areas.description = 'Tokamaks; plasma physics; electron dynamics and confinement; components and materials; instabilities and turbulence; MHD equilibrium; safeguarding techniques; electric and magnetic fields; impurities; ignition; modelling.' and subject_areas.code = 'AER'
+GPT-3 choices:
+(0) Show me all subject areas with description Tokamaks; plasma physics; electron dynamics and confinement; components and materials; instabilities and turbulence; MHD equilibrium; safeguarding techniques; electric and magnetic fields; impurities; ignition; modelling., and code AER.
+(1) Show me the subject areas that have the description 'Tokamaks; plasma physics; electron dynamics and confinement; components and materials; instabilities and turbulence; MHD equilibrium; safeguarding techniques; electric and magnetic fields; impurities; ignition; modelling.' and the code AER
+(2) Show all the subject areas with description "Tokamaks; plasma physics; electron dynamics and confinement; components and materials; instabilities and turbulence; MHD equilibrium; safeguarding techniques; electric and magnetic fields; impurities; ignition; modelling." and with code "AER"
+(3) Show me all subject areas whose description is 'Tokamaks; plasma physics; electron dynamics and confinement; components and materials; instabilities and turbulence; MHD equilibrium; safeguarding techniques; electric and magnetic fields; impurities; ignition; modelling.' and the code is 'AER'.
+(4) Show me the subject areas about Tokamaks, plasma physics, electron dynamics and confinement, components and materials, instabilities and turbulence, MHD equilibrium with code AER
+(5) Display all subject area titles which description is “Tokamaks; plasma physics; electron dynamics and confinement; components and materials; instabilities and turbulence; MHD equilibrium; safeguarding techniques; electric and magnetic fields; impurities; ignition; modelling.” and have the code “AER” in the field “subject_areas”
+(6) Show all the subject areas with description "Tokamaks; plasma physics; electron dynamics and confinement; components and materials; instabilities and turbulence; MHD equilibrium; safeguarding techniques; electric and magnetic fields; impurities; ignition; modelling." and code "AER"
+(7) Show subject area titles containing the string "AER" as description inside the subject area SK "Tokamaks; plasma physics; electron dynamics and confinement; components and materials; instabilities and turbulence; MHD equilibrium; safeguarding techniques; electric and magnetic fields; impurities; ignition; modelling."

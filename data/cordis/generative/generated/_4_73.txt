@@ -1,0 +1,28 @@
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.code = 'CSA'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.code = 'CSA'
+GPT-3 choices:
+(0) Total number of funds which respond to the CSA schema
+(1) How many funding schemes are there with code 'CSA'?
+(2) Total number of funding schemas whose code is CSA
+(3) How many funding schemes are there with a code of CSA?
+(4) Show me how many funding schemes there are with the code CSA
+(5) Show me the different funding schemes.
+(6) Show the number of funding schemes of the programme called Children Support Act
+(7) How many funding schemes are there in the database with the acronym CSA?
+
+
+Re-ranked choices:
+5.598  How many funding schemes are there with a code of CSA?
+5.598  Show me how many funding schemes there are with the code CSA
+5.562  How many funding schemes are there with code 'CSA'?
+5.352  How many funding schemes are there in the database with the acronym CSA?
+5.202  Total number of funding schemas whose code is CSA
+4.611  Total number of funds which respond to the CSA schema
+4.095  Show the number of funding schemes of the programme called Children Support Act
+4.062  Show me the different funding schemes.
+

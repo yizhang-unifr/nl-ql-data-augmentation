@@ -1,0 +1,28 @@
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.start_year != 2021
+
+###
+
+
+Original Query:
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.start_year != 2021
+GPT-3 choices:
+(0) What are the full names of the people who are principal investigators of projects that didn't start in 2021?
+(1) Retrieve the names of people associated with at least one project that doesn’t start in 2021.
+(2) Show the names of principal investigators that were associated with projects before the year 2021
+(3) Show the full name of people whose projects don't start in 2021
+(4) Show me the full names of people who by 2020 won't have a project running.
+(5) Show the full name of people with principal investigator role that join projects that are not starting in 2021
+(6) Show me the full name of people whose project didn't start in 2021
+(7) Show the full name of all people having a project with start year != 2021
+
+
+Re-ranked choices:
+5.544  Show me the full name of people whose project didn't start in 2021
+5.447  Show the full name of people whose projects don't start in 2021
+5.135  Retrieve the names of people associated with at least one project that doesn’t start in 2021.
+5.036  What are the full names of the people who are principal investigators of projects that didn't start in 2021?
+4.909  Show the full name of all people having a project with start year != 2021
+4.864  Show the full name of people with principal investigator role that join projects that are not starting in 2021
+4.798  Show me the full names of people who by 2020 won't have a project running.
+4.627  Show the names of principal investigators that were associated with projects before the year 2021
+

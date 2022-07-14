@@ -1,0 +1,28 @@
+SELECT subject_areas.description FROM subject_areas WHERE subject_areas.title = 'Business aspects'
+
+###
+
+
+Original Query:
+SELECT subject_areas.description FROM subject_areas WHERE subject_areas.title = 'Business aspects'
+GPT-3 choices:
+(0) Show me all the subject areas with a title equals to 'Business aspects'.
+(1) Show me the descriptions for the subject areas with title Business aspects
+(2) SHOW ME THE DEFINITION OF THE SUBJECT AREA "BUSINESS ASPECTS"
+(3) Show the description of subject areas with title "Business aspects"
+(4) What are the subject areas that have the title Business aspects?
+(5) Show me institutions with a subject area containing Business aspects
+(6) What are the subject areas about business aspects?
+(7) Which are the subject areas of the unit whose title is Business aspects?
+
+
+Re-ranked choices:
+6.023  Show me all the subject areas with a title equals to 'Business aspects'.
+5.814  SHOW ME THE DEFINITION OF THE SUBJECT AREA "BUSINESS ASPECTS"
+5.800  Show me the descriptions for the subject areas with title Business aspects
+5.744  What are the subject areas about business aspects?
+5.723  What are the subject areas that have the title Business aspects?
+5.660  Show the description of subject areas with title "Business aspects"
+5.643  Which are the subject areas of the unit whose title is Business aspects?
+5.045  Show me institutions with a subject area containing Business aspects
+

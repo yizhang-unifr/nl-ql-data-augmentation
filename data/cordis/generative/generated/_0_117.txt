@@ -1,0 +1,28 @@
+SELECT project_members.city FROM project_members WHERE project_members.rcn = '1905564'
+
+###
+
+
+Original Query:
+SELECT project_members.city FROM project_members WHERE project_members.rcn = '1905564'
+GPT-3 choices:
+(0) What is the city of the project member with research compound number 1905564 ?
+(1) Select all project members city from the project member with the research code 1905564.
+(2) Show all the city of project members with reference number 1905564
+(3) What is the city of the project member with research council number 1905564?
+(4) Show all cities of project members with project code 1905564
+(5) Retrieve project members that have an RCO number with project 1905564
+(6) What is the city of the project member with research core number 1955564
+(7) Retrieve the city of project members with funding number 1905564
+
+
+Re-ranked choices:
+5.051  Select all project members city from the project member with the research code 1905564.
+4.896  What is the city of the project member with research council number 1905564?
+4.865  Show all the city of project members with reference number 1905564
+4.707  Retrieve the city of project members with funding number 1905564
+4.629  Show all cities of project members with project code 1905564
+4.574  What is the city of the project member with research compound number 1905564 ?
+4.338  What is the city of the project member with research core number 1955564
+4.159  Retrieve project members that have an RCO number with project 1905564
+

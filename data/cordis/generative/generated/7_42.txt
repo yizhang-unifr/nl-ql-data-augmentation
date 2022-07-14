@@ -1,0 +1,16 @@
+SELECT institutions.unics_id FROM institutions WHERE institutions.website = 'http://www.ispo.toscana.it/' or institutions.website = 'http://www.aslto3.piemonte.it/'
+
+###
+
+
+Original Query:
+SELECT institutions.unics_id FROM institutions WHERE institutions.website = 'http://www.ispo.toscana.it/' or institutions.website = 'http://www.aslto3.piemonte.it/'
+GPT-3 choices:
+(0) Show me the ISO 3166-2 plus country code of institutions with a Website.
+(1) Which are the ISPO institutions within the TOSCANA region?
+(2) Only the institutions with either website.
+(3) Retrieve institutions having either of the websites “http://www.ispo.toscana.it/” and “http://www.aslto3.piemonte.it/”?
+(4) Select institutions ids for the institutions with websites http://www.ispo.toscana.it/ or http://www.aslto3.piemonte.it/
+(5) Show me institutions that have the website http://www.ispo.toscana.it/ or the website http://www.aslto3.piemonte.it/
+(6) Show me the ispo.toscana.it or aslto3.piemonte.it institutions.
+(7) Show me institutions which have a website of ispo tuscany or are named as aslto3 piemont

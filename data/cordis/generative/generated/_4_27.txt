@@ -1,0 +1,24 @@
+SELECT count(*) FROM project_members WHERE project_members.member_role = 'participant'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM project_members WHERE project_members.member_role = 'participant'
+GPT-3 choices:
+(0) How many project members are there?
+(1) How many project members are there?
+(2) How many project members are there?
+(3) How many people participate in projects?
+(4) How many project members are there?
+(5) Count the number of project members.
+(6) How many people are participating in projects?
+(7) How many project members are there?
+
+
+Re-ranked choices:
+2.542  How many people are participating in projects?
+2.507  How many people participate in projects?
+2.490  How many project members are there?
+2.244  Count the number of project members.
+

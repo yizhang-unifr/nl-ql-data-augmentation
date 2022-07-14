@@ -1,0 +1,16 @@
+SELECT project_members.latitude FROM project_members JOIN project_member_roles ON project_members.member_role = project_member_roles.code WHERE project_member_roles.description = 'partner'
+
+###
+
+
+Original Query:
+SELECT project_members.latitude FROM project_members JOIN project_member_roles ON project_members.member_role = project_member_roles.code WHERE project_member_roles.description = 'partner'
+GPT-3 choices:
+(0) Retrieve the latitudes of project members having the role partner
+(1) Show me project members' latitude in a project which has a partner role.
+(2) Show all project members latitude who have a project member role description equal to 'partner'
+(3) Show project members whose role is partner.
+(4) Show all project member's latitude that have the role of partner.
+(5) Show me project members with the role partner
+(6) Show both the project members as well as project members who are partners.
+(7) Show me the latitude of the project members of projects with the project member role 'partner'.

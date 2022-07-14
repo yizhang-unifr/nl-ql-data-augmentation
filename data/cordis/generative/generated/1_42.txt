@@ -1,0 +1,16 @@
+SELECT project_members.vat_number FROM project_members JOIN eu_territorial_units ON project_members.geocode_regions_3 = eu_territorial_units.geocode_regions WHERE eu_territorial_units.geocode_regions = 'ITI44'
+
+###
+
+
+Original Query:
+SELECT project_members.vat_number FROM project_members JOIN eu_territorial_units ON project_members.geocode_regions_3 = eu_territorial_units.geocode_regions WHERE eu_territorial_units.geocode_regions = 'ITI44'
+GPT-3 choices:
+(0) What is the vat number of project members with geocode region ITI44?
+(1) Show the vat number of project members with geocode regions ITI44
+(2) Show the vat number of project members from the region ITI44
+(3) Show the vat number of project members having territorial unit ITI44
+(4) Show me the vat numbers of project members located in the European territorial unit ITI44
+(5) Show project members assigned to the European territorial unit ITI44
+(6) Show all of the project members' vat number where the EU territorial unit 3 is ITI44
+(7) Show the vat number of project members from the eu territorial unit ITI44

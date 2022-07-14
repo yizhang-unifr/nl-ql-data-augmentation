@@ -1,0 +1,16 @@
+SELECT topics.title, count(*) FROM topics  GROUP BY topics.title
+
+###
+
+
+Original Query:
+SELECT topics.title, count(*) FROM topics  GROUP BY topics.title
+GPT-3 choices:
+(0) Show the most common titles for subject areas
+(1) What are the most popular topics?
+(2) Total number of topics
+(3) How many distinct topics are in the database?
+(4) What are the top 5 most popular titles?
+(5) What are the most common topics?
+(6) How many different topics are there?
+(7) Count the number of topics

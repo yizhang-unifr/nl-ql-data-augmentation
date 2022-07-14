@@ -1,0 +1,28 @@
+SELECT project_member_roles.description FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.street = 'Jamova 39'
+
+###
+
+
+Original Query:
+SELECT project_member_roles.description FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.street = 'Jamova 39'
+GPT-3 choices:
+(0) Show project member roles for project members whose street is Jamova 39.
+(1) Show all project members' roles where the project member's street is 'Jamova 39'
+(2) What are the project member role description for projects whose members have street Jamova 39?
+(3) What are the project member roles descriptions of the project members in Jamova 39?
+(4) Retrieve project member roles having the same code as the project members whose street equals 'Jamova 39'
+(5) What are the project member roles ?
+(6) Show all project member roles assigned to project members with street = 'Jamova 39'
+(7) What are the project member roles descriptions of all the project members from Jamova 39?
+
+
+Re-ranked choices:
+5.798  What are the project member role description for projects whose members have street Jamova 39?
+5.774  Show project member roles for project members whose street is Jamova 39.
+5.718  What are the project member roles descriptions of the project members in Jamova 39?
+5.713  What are the project member roles descriptions of all the project members from Jamova 39?
+5.631  Show all project members' roles where the project member's street is 'Jamova 39'
+5.505  Show all project member roles assigned to project members with street = 'Jamova 39'
+4.965  Retrieve project member roles having the same code as the project members whose street equals 'Jamova 39'
+4.806  What are the project member roles ?
+

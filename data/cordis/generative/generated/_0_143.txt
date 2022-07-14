@@ -1,0 +1,28 @@
+SELECT institutions.short_name FROM institutions WHERE institutions.website = 'http://www.aslto3.piemonte.it/'
+
+###
+
+
+Original Query:
+SELECT institutions.short_name FROM institutions WHERE institutions.website = 'http://www.aslto3.piemonte.it/'
+GPT-3 choices:
+(0) Show all institutions with website http://www.aslto3.piemonte.it/
+(1) Select the short name of the institutions which have a website http://www.aslto3.piemonte.it/
+(2) Get all the short names of institutions having a website equal to 'http://www.aslto3.piemonte.it/'
+(3) Show me the short name of institutions with a website
+(4) Show me all the short names of the institutions having a website equal to http://www.aslto3.piemonte.it/
+(5) The short_name of the institutions with website http://www.aslto3.piemonte.it/
+(6) Retrieve the short name of institutions which have http://www.aslto3.piemonte.it/ as website.
+(7) Retrieve the short name of institutions with a website = http://www.aslto3.piemonte.it/
+
+
+Re-ranked choices:
+6.150  Show me all the short names of the institutions having a website equal to http://www.aslto3.piemonte.it/
+6.147  Retrieve the short name of institutions which have http://www.aslto3.piemonte.it/ as website.
+5.985  Get all the short names of institutions having a website equal to 'http://www.aslto3.piemonte.it/'
+5.916  Retrieve the short name of institutions with a website = http://www.aslto3.piemonte.it/
+5.885  The short_name of the institutions with website http://www.aslto3.piemonte.it/
+5.845  Select the short name of the institutions which have a website http://www.aslto3.piemonte.it/
+5.819  Show all institutions with website http://www.aslto3.piemonte.it/
+5.337  Show me the short name of institutions with a website
+

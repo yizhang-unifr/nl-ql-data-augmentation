@@ -1,0 +1,93 @@
+[
+  {
+    "name": "course",
+    "original_name": "course",
+    "logical_name": "course",
+    "columns": [
+      {
+        "name": "course id",
+        "original_name": "Course_ID",
+        "logical_name": "Course_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "staring date",
+        "original_name": "Staring_Date",
+        "logical_name": "Staring_Date",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "course",
+        "original_name": "Course",
+        "logical_name": "Course",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "teacher",
+    "original_name": "teacher",
+    "logical_name": "teacher",
+    "columns": [
+      {
+        "name": "teacher id",
+        "original_name": "Teacher_ID",
+        "logical_name": "Teacher_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "name",
+        "original_name": "Name",
+        "logical_name": "Name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "age",
+        "original_name": "Age",
+        "logical_name": "Age",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "hometown",
+        "original_name": "Hometown",
+        "logical_name": "Hometown",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      }
+    ]
+  },
+  {
+    "name": "course arrange",
+    "original_name": "course_arrange",
+    "logical_name": "course_arrange",
+    "columns": [
+      {
+        "name": "course id",
+        "original_name": "Course_ID",
+        "logical_name": "Course_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "teacher id",
+        "original_name": "Teacher_ID",
+        "logical_name": "Teacher_ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "grade",
+        "original_name": "Grade",
+        "logical_name": "Grade",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  }
+]

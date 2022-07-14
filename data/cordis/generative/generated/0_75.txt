@@ -1,0 +1,16 @@
+SELECT programmes.short_name FROM programmes WHERE programmes.code = 'SPA-2.3'
+
+###
+
+
+Original Query:
+SELECT programmes.short_name FROM programmes WHERE programmes.code = 'SPA-2.3'
+GPT-3 choices:
+(0) Retrieve the short name of the programme with code SPA-2.3.
+(1) Which programmes have the code SPA-2.3?
+(2) Retrieve the short name of programmes with code SPA-2.3
+(3) Show me all programmes with code SPA-2.3
+(4) What are the short names of the programmes with code SPA-2.3?
+(5) Show me the short names of the programmes with code SPA-2.3 (What are the short names of the programmes with code SPA-2.3?)
+(6) How are members working in the SPA-2.3 programme?
+(7) Show me the short name of the programme with code SPA-2.3

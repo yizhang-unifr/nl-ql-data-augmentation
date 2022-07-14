@@ -1,0 +1,16 @@
+SELECT subject_areas.description FROM subject_areas JOIN project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects ON project_subject_areas.project = projects.unics_id WHERE projects.ec_max_contribution = 2527000.0
+
+###
+
+
+Original Query:
+SELECT subject_areas.description FROM subject_areas JOIN project_subject_areas ON subject_areas.code = project_subject_areas.subject_area JOIN projects ON project_subject_areas.project = projects.unics_id WHERE projects.ec_max_contribution = 2527000.0
+GPT-3 choices:
+(0) What are the subject areas of projects with an ec max contribution of 2527000.0 ?
+(1) Retrieve the subject area descriptions of projects with a maximum Eurofund contribution of 2527000.0
+(2) Count the number of subject areas a project has whose ec-max-contribuition funding equals 2527000.0.
+(3) Show the subject areas of all projects in which the EC contribution is 2527000.0
+(4) What is the subject area of projects with an EC funding greater than 2527000.0?
+(5) Retrieve subject areas with projects that have an EC max contribution greater than 2527000.
+(6) Display the subject areas of projects having an EC max contribution equal to 2527000
+(7) Show the subject areas of projects with a maximum EC contribution of 2527000.0

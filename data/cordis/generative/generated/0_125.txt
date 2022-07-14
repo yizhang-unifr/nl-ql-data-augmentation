@@ -1,0 +1,16 @@
+SELECT subject_areas.description FROM subject_areas WHERE subject_areas.code = 'SDT'
+
+###
+
+
+Original Query:
+SELECT subject_areas.description FROM subject_areas WHERE subject_areas.code = 'SDT'
+GPT-3 choices:
+(0) What are the subject areas?
+(1) Retrieve the description of subject areas with code SDT
+(2) What are the subject areas that have as description SDT?
+(3) What are the subject areas?
+(4) Retrieve all subject areas with code SDT
+(5) Show me the description of all subject areas.
+(6) Display all subject areas whose code is San Diego than
+(7) Show all description of subject areas, which are named SDT.

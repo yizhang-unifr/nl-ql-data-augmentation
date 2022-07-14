@@ -1,0 +1,72 @@
+[
+  {
+    "name": "high schooler",
+    "original_name": "Highschooler",
+    "logical_name": "Highschooler",
+    "columns": [
+      {
+        "name": "id",
+        "original_name": "ID",
+        "logical_name": "ID",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "name",
+        "original_name": "name",
+        "logical_name": "name",
+        "original_datatype": "text",
+        "logical_datatype": "text"
+      },
+      {
+        "name": "grade",
+        "original_name": "grade",
+        "logical_name": "grade",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  },
+  {
+    "name": "friend",
+    "original_name": "Friend",
+    "logical_name": "Friend",
+    "columns": [
+      {
+        "name": "student id",
+        "original_name": "student_id",
+        "logical_name": "student_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "friend id",
+        "original_name": "friend_id",
+        "logical_name": "friend_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  },
+  {
+    "name": "likes",
+    "original_name": "Likes",
+    "logical_name": "Likes",
+    "columns": [
+      {
+        "name": "student id",
+        "original_name": "student_id",
+        "logical_name": "student_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      },
+      {
+        "name": "liked id",
+        "original_name": "liked_id",
+        "logical_name": "liked_id",
+        "original_datatype": "number",
+        "logical_datatype": "number"
+      }
+    ]
+  }
+]

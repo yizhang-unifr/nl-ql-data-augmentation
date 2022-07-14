@@ -1,0 +1,16 @@
+SELECT programmes.title FROM programmes WHERE programmes.code = 'NMP-2009-4.0-4'
+
+###
+
+
+Original Query:
+SELECT programmes.title FROM programmes WHERE programmes.code = 'NMP-2009-4.0-4'
+GPT-3 choices:
+(0) Show me all project titles within the programme NMP-2009-4.0-4
+(1) Show me all programmes whose title is NMP-2009-4.0-4
+(2) Show me all program titles from NMP-2009-4.0-4
+(3) 
+(4) Show me the titles of all programme with code 'NMP-2009-4.0-4'
+(5) Show the title of the programme with code NMP-2009-4.0-4
+(6) Which programme title is associated with the code NMP-2009-4.0-4?
+(7) What are the titles of the programmes with code NMP-2009-4.0-4?

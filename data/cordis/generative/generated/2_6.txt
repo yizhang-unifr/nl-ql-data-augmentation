@@ -1,0 +1,16 @@
+SELECT people.full_name, count(*) FROM people  GROUP BY people.full_name
+
+###
+
+
+Original Query:
+SELECT people.full_name, count(*) FROM people  GROUP BY people.full_name
+GPT-3 choices:
+(0) Show the full name and number of people of different countries who have a first name.
+(1) Show the full names and number of people with that full name
+(2) Show the full name and number of people in each country.
+(3) What is the full name of the person with most titles?
+(4) How many people have a full name?
+(5) How many people are there with each of the different full names?
+(6) Show me the number of people with different last names
+(7) What is the number of people with a full name?

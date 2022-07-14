@@ -1,0 +1,28 @@
+SELECT topics.title FROM topics JOIN project_topics ON topics.code = project_topics.topic JOIN projects ON project_topics.project = projects.unics_id WHERE projects.ec_call != 'H2020-MSCA-IF-2014'
+
+###
+
+
+Original Query:
+SELECT topics.title FROM topics JOIN project_topics ON topics.code = project_topics.topic JOIN projects ON project_topics.project = projects.unics_id WHERE projects.ec_call != 'H2020-MSCA-IF-2014'
+GPT-3 choices:
+(0) Retrieve the titles of topics of projects which are not part of the H2020-MSCA-IF-2014 European call
+(1) Show topics for which a project is not about H2020-MSCA-IF-2014
+(2) Retrieve all project's topics except the ones falling in the project having the code H2020-MSCA-IF-2014
+(3) Show topics of projects with project code H2020-MSCA-IF-2014
+(4) Show me topics from projects whose EC call is != H2020-MSCA-IF-2014
+(5) Retrieve the topics of projects that didn't receive an European Commission award in the Horizon 2020 program.
+(6) Show topics titles for projects that are not H2020-MSCA-IF-2014
+(7) What are the project topics for projects that are not about H2020-MSCA-IF-2014?
+
+
+Re-ranked choices:
+5.432  Show topics for which a project is not about H2020-MSCA-IF-2014
+5.359  Show topics of projects with project code H2020-MSCA-IF-2014
+5.279  Show topics titles for projects that are not H2020-MSCA-IF-2014
+5.218  Retrieve the titles of topics of projects which are not part of the H2020-MSCA-IF-2014 European call
+5.188  Retrieve all project's topics except the ones falling in the project having the code H2020-MSCA-IF-2014
+4.988  Show me topics from projects whose EC call is != H2020-MSCA-IF-2014
+4.961  What are the project topics for projects that are not about H2020-MSCA-IF-2014?
+3.753  Retrieve the topics of projects that didn't receive an European Commission award in the Horizon 2020 program.
+

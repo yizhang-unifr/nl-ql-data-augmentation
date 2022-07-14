@@ -1,0 +1,16 @@
+SELECT subject_areas.code FROM subject_areas WHERE subject_areas.description = 'Radiation shielding; dosimetry; radiation and radioisotope effects on man, animals, plants and micro-organisms.'
+
+###
+
+
+Original Query:
+SELECT subject_areas.code FROM subject_areas WHERE subject_areas.description = 'Radiation shielding; dosimetry; radiation and radioisotope effects on man, animals, plants and micro-organisms.'
+GPT-3 choices:
+(0) Show subject areas where the description is 'Radiation shielding; dosimetry; radiation and radioisotope effects on man, animals, plants and micro-organisms.'
+(1) Show me subject areas about Radiation shielding; dosimetry; radiation and radioisotope effects on man, animals, plants and micro-organisms.
+(2) Show all the code of subject areas where the description is Radiation shielding; dosimetry; radiation and radioisotope effects on man, animals, plants and micro-organisms.
+(3) Show me the subject areas whose description is “Radiation shielding; dosimetry; radiation and radioisotope effects on man, animals, plants and micro-organisms.”
+(4) Show me the subject areas with description 'Radiation shielding; dosimetry; radiation and radioisotope effects on man, animals, plants and micro-organisms.'
+(5) Show subject areas with description Radiation shielding; dosimetry; radiation and radioisotope effects on man, animals, plants and micro-organisms.
+(6) Retrieve all the subject areas with description Radiation shielding; dosimetry; radiation and radioisotope effects on man, animals, plants and micro-organisms.
+(7) Show me the subject areas that have the description Radiation shielding; dosimetry; radiation and radioisotope effects on man, animals, plants and micro-organisms.

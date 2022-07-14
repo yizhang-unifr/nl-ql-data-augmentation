@@ -1,0 +1,16 @@
+SELECT project_member_roles.code FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.latitude = 60.179296
+
+###
+
+
+Original Query:
+SELECT project_member_roles.code FROM project_member_roles JOIN project_members ON project_member_roles.code = project_members.member_role WHERE project_members.latitude = 60.179296
+GPT-3 choices:
+(0) Show me project member roles associated with project members who have a latitude of 60.179296
+(1) What are the project member roles?
+(2) Display the project member role code for project members placed at 60.179296 latitude.
+(3) What are the project member roles?
+(4) Show all project member roles that have members that live in the city of 60.179296
+(5) Show project member roles for projects located at 60.179296 latitude
+(6) Get all project member roles that correspond to projects located in 60.179296 latitude
+(7) What are the project member roles?

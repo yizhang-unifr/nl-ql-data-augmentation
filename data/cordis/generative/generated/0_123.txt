@@ -1,0 +1,16 @@
+SELECT programmes.short_name FROM programmes WHERE programmes.rcn = '11641'
+
+###
+
+
+Original Query:
+SELECT programmes.short_name FROM programmes WHERE programmes.rcn = '11641'
+GPT-3 choices:
+(0) Retrieve the short name of programmes with rcn = 11641
+(1) What is the short name of the RCN 11641 programme?
+(2) Display short name of programmes with rcn = 11641
+(3) What are the short names of the programmes with rcn 11641?
+(4) Show me all the short names of the programmes with the rcn of 11641
+(5) Get the short name of programme with rcn 11641
+(6) Show the short name of programs whose number is 11641.
+(7) Show me the short name of the programme with code 11641

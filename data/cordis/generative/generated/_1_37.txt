@@ -1,0 +1,28 @@
+SELECT activity_types.description FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.department_name = 'Research Department'
+
+###
+
+
+Original Query:
+SELECT activity_types.description FROM activity_types JOIN project_members ON activity_types.code = project_members.activity_type WHERE project_members.department_name = 'Research Department'
+GPT-3 choices:
+(0) Show me activity types of projects whose members are from the Research Department
+(1) Retrieve activity types that assign to project members in department Research Department
+(2) Display activity type descriptions of the project members assigned to the Research Department.
+(3) What are the activity types of project members who are part of the Research Department?
+(4) Show activity types associated with project members from the Research Department.
+(5) Show me activity types associated with members of the Research Department
+(6) Show the descriptions of activity types associated with project members whose department is Research Department
+(7) Which activity types are associated with project members whose department is Research Department?
+
+
+Re-ranked choices:
+6.322  Show activity types associated with project members from the Research Department.
+6.292  Show the descriptions of activity types associated with project members whose department is Research Department
+6.185  Show me activity types of projects whose members are from the Research Department
+6.006  Which activity types are associated with project members whose department is Research Department?
+5.978  What are the activity types of project members who are part of the Research Department?
+5.951  Show me activity types associated with members of the Research Department
+5.808  Display activity type descriptions of the project members assigned to the Research Department.
+5.694  Retrieve activity types that assign to project members in department Research Department
+

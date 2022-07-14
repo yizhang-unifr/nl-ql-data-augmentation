@@ -1,0 +1,16 @@
+SELECT erc_research_domains.code FROM erc_research_domains WHERE erc_research_domains.description = 'Physical Sciences And Engineering'
+
+###
+
+
+Original Query:
+SELECT erc_research_domains.code FROM erc_research_domains WHERE erc_research_domains.description = 'Physical Sciences And Engineering'
+GPT-3 choices:
+(0) Show me the different ERC research domains with the description Physical Sciences And Engineering
+(1) What is the code of the research domain about Physical Sciences And Engineering?
+(2) Show me the research domains of the European Research Council with a description starting with Physical Sciences And Engineering,
+(3) Show me the research domain with code Physical Sciences And Engineering
+(4) What are the codes of research domains with description Physical Sciences And Engineering?
+(5) Show me all the projects in the erc research domain with the description Physical Sciences And Engineering
+(6) What is the ERC research domain code for projects with a description of "Physical Sciences And Engineering"?
+(7) Show me the research domain about Physical Sciences And Engineering.

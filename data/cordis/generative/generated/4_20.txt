@@ -1,0 +1,16 @@
+SELECT count(*) FROM erc_research_domains WHERE erc_research_domains.description = 'Physical Sciences And Engineering'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM erc_research_domains WHERE erc_research_domains.description = 'Physical Sciences And Engineering'
+GPT-3 choices:
+(0) How many research domains with subject Physical Sciences And Engineering are there?
+(1) How many research domains are there in Physical Sciences And Engineering?
+(2) Show me the number of research domains which descriptions are "Physical Sciences And Engineering"
+(3) Count the number of ERC research domains whose description is Physical Sciences And Engineering
+(4) Show the number of research domains in the Physical Sciences And Engineering research domain
+(5) Show me the total number of Research Domains about Physical Sciences And Engineering
+(6) Show me the number of research domains about Physical Sciences And Engineering
+(7) Count the number of ERC research domain descriptions equal to "Physical Sciences And Engineering".

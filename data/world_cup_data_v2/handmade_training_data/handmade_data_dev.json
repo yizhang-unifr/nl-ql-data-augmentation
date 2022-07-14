@@ -1,0 +1,517 @@
+[
+  {
+    "question": "Give me the teamname of the winner of the world cup in 1954.",
+    "query": "select t1.teamname from national_team as t1 join world_cup as t2 on t1.team_id = t2.winner where t2.year = 1954;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Who won the world cup in 2002? Return the teamname.",
+    "query": "select t1.teamname from national_team as t1 join world_cup as t2 on t1.team_id = t2.winner where t2.year = 2002;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Which team is the winner of the world cup in 2014? Return the teamname.",
+    "query": "select nt.teamname from world_cup join national_team as nt on world_cup.winner = nt.team_id where nt.year = '2014';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Which stadium has the biggest capacity? Return the capacity and the stadium name.",
+    "query": "select capacity, stadium_name from stadium group by stadium_name, capacity order by max(capacity) desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me the stadium name with the biggest capacity",
+    "query": "select t1.stadium_name from stadium as t1 order by t1.capacity desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "What's the name of the stadium with biggest capacity?",
+    "query": "select t1.stadium_name from stadium as t1 order by t1.capacity desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Which world cup had the biggest attendance? Return the year, venue and attendance.",
+    "query": "select year, venue, attendance from world_cup order by attendance desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me the year and attendance of the world cup with the biggest attendance.",
+    "query": "select t1.year, t1.attendance from world_cup as t1 order by t1.attendance desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "In which year was the world cup with the biggest attendance?",
+    "query": "select t1.year from world_cup as t1 order by t1.attendance desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me the country, year and attendance of the world cup with the biggest attendance",
+    "query": "select t1.country, t2.year, t2.attendance from stadium as t1 join match as t13 on t1.stadium_id = t13.stadium_id join world_cup as t2 on t13.year = t2.year order by t2.attendance desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "In which world cup were the most goals scored? Return the year, venue and number of goals scored.",
+    "query": "select year, venue, goals_scored from world_cup order by goals_scored desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "What is the year and venue of the world cup with the most scored goals?",
+    "query": "select t1.year, t1.venue from world_cup as t1 order by t1.goals_scored desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me the venue and goals scored from the world cup with the most goals",
+    "query": "select t1.venue, t1.goals_scored from world_cup as t1 order by t1.goals_scored desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "How many players have played so far?",
+    "query": "select count(*) from player as t1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Which player was substituted out the most? Return the count of substitutions and the player name.",
+    "query": "select count(mf.substitution_out), p.player_name from player as p join match_fact as mf on p.player_id = mf.player_id where mf.substitution_out = 1 group by p.player_name order by count(mf.substitution_out)  desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Which players started for the hungarian national team in the final of 1954? Return the names.",
+    "query": "select distinct player_name from player join player_fact as pf on player.player_id = pf.player_id join national_team as nt on pf.team_id = nt.team_id join match_fact as mf on player.player_id = mf.player_id join match as m on mf.match_id = m.match_id where nt.team_initials = 'hun'   and nt.year = '1954'   and m.stage = 'final'   and mf.line_up = 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Which players started for the german national team in the final of 1954? Return the names.",
+    "query": "select distinct player_name from player join player_fact as pf on player.player_id = pf.player_id join national_team as nt on pf.team_id = nt.team_id join match_fact as mf on player.player_id = mf.player_id join match as m on mf.match_id = m.match_id where nt.teamname = 'Germany fr'   and nt.year = '1954'   and m.stage = 'final'   and mf.line_up = 't';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Which players started for the german team in the final of 2014? Return the names of the players.",
+    "query": "select distinct player_name from player join player_fact as pf on player.player_id = pf.player_id join national_team as nt on pf.team_id = nt.team_id join match_fact as mf on player.player_id = mf.player_id          join match as m on mf.match_id = m.match_id where nt.teamname = 'Germany'   and nt.year = '2014'   and m.stage = 'final'   and mf.line_up = 't';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Which distinct players started for the argentinian team in the final of 2014? Return the names of the players.",
+    "query": "select distinct player_name from player join player_fact as pf on player.player_id = pf.player_id join national_team as nt on pf.team_id = nt.team_id join match_fact as mf on player.player_id = mf.player_id          join match as m on mf.match_id = m.match_id where nt.team_initials = 'arg'   and nt.year = '2014'   and m.stage = 'final'   and mf.line_up = 't';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "In which stadium were the most goals scored? Return the number of goals scored and the stadium name.",
+    "query": "select count(goal), stadium_name from stadium join match on stadium.stadium_id = match.stadium_id join match_fact on match.match_id = match_fact.match_id where goal = 't' group by stadium_name order by count(goal) desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Which player has scored the most goals when being substituted in? Return the goal count and the player name.",
+    "query": "select count(goal), player_name from player join match_fact on player.player_id = match_fact.player_id where goal = 't' and line_up = 'f' group by player_name order by count(goal) desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Who scored the top 3 fastes goals in all world cups?",
+    "query": "select player_name,  minute from match_fact join player on match_fact.player_id = player.player_id where goal = 't' group by player_name, minute order by min(minute) limit 3;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "How many games were decided by penalties?",
+    "query": "select count(*) from match as m where win_conditions like '%pen%';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Which player has started the most games? Return the number of games and the player name.",
+    "query": "select distinct count(player_name),                 player_name from player          join match_fact as mf on player.player_id = mf.player_id where line_up = 't'   and minute = 0 group by player_name,          player.player_id order by count(player_name) desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Which players played for Switzerland in 2014? Return the names of the players.",
+    "query": "select distinct player_name from player  join player_fact as pf on player.player_id = pf.player_id join national_team as nt on pf.team_id = nt.team_id where team_initials = 'sui'   and year = '2014';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Which distinct players were part of Switzerlands squad in 2010? Return the names of the players.",
+    "query": "select distinct player_name from player join player_fact as pf on player.player_id = pf.player_id          join national_team as nt on pf.team_id = nt.team_id where team_initials = 'sui'   and year = '2010';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "What is the name of the player that had the most own goals?",
+    "query": "select player_name from player join match_fact as mf on player.player_id = mf.player_id where mf.own_goal = 't' group by player_name order by count(player_name) desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "For which team has Yobo played? Return the team name.",
+    "query": "select distinct nt.teamname from player join player_fact as pf on player.player_id = pf.player_id  join national_team as nt on pf.team_id = nt.team_id where player_name like 'yobo%';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Which team has won the world cup the most? Return the team name and the number of wins.",
+    "query": "select teamname, count(team_initials) from world_cup join national_team as nt on world_cup.winner = nt.team_id group by nt.team_initials, teamname order by count(team_initials) desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Which team was runner-up the most? Return the team name and the count.",
+    "query": "select teamname, count(team_initials) from world_cup join national_team on runner_up = team_id group by team_initials, teamname order by count(team_initials) desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Show me the year and goals scored from all world cups.",
+    "query": "select t1.year, t1.goals_scored  from world_cup as t1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Show me the goals scored and the year from all world cups ordered by year.",
+    "query": "select t1.goals_scored, t1.year  from world_cup as t1 order by t1.year asc;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Show me the goals scored and the year from all world cups ordered by goals scored.",
+    "query": "select t1.goals_scored, t1.year from world_cup as t1 order by t1.goals_scored asc;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Show me the goals scored and the year from all world cups ordered by goals scored descending.",
+    "query": "select t1.goals_scored, t1.year  from world_cup as t1 order by t1.goals_scored desc;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me the name of a player with name SCHWEINSTEIGER.",
+    "query": "select t1.player_name from player as t1 where t1.player_name = 'SCHWEINSTEIGER';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me a list of players with a name that begins with m.",
+    "query": "select t1.player_name from player as t1 where t1.player_name like 'm%';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me a player with a name like XHAKA",
+    "query": "select t1.player_name from player as t1 where t1.player_name = 'XHAKA';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Give me the names of the players who played for France in 1998.",
+    "query": "select distinct t1.player_name from player as t1  join player_fact as t14 on t1.player_id = t14.player_id join national_team as t2 on t14.team_id = t2.team_id join match as t3 on t2.team_id = t3.home_team_id where t2.teamname = 'france'   and t3.year = 1998;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "In which year was the first world cup played?",
+    "query": "select year from world_cup order by year asc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "When was the first world cup played? Return the year.",
+    "query": "select min(year) from world_cup group by year order by year limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me the year of the first world cup played.",
+    "query": "select t1.year from world_cup as t1 order by t1.year asc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Show me the matches where the stage was final.",
+    "query": "select t1.match_id from match as t1 join national_team as t2 on t1.home_team_id = t2.team_id  join national_team as t3 on t1.away_team_id = t3.team_id where t1.stage = 'final';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Show me the name of the player with the most played matches.",
+    "query": "select t1.player_name from player as t1 join match_fact as t13 on t1.player_id = t13.player_id group by t1.player_name order by count(*) desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Show me the name of the player who got a red card the earliest.",
+    "query": "select player_name from player as t1 join match_fact as t2 on t1.player_id = t2.player_id where red_card = 't' group by t1.player_id order by min(minute) limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me the team names of the the winner and the runner-up from 2014.",
+    "query": "select t2.teamname, t3.teamname from world_cup as t1 join national_team as t2 on t2.team_id = t1.winner join national_team as t3 on t3.team_id = t1.runner_up where t1.year = 2014;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me all the stadium names.",
+    "query": "select t1.stadium_name from stadium as t1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me all the player names.",
+    "query": "select t1.player_name from player as t1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me all the different national team names.",
+    "query": "select distinct t1.teamname from national_team as t1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me all the coach names.",
+    "query": "select t1.coach_name from coach as t1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me all the different positions.",
+    "query": "select distinct t1.position from player_fact as t1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me all the national team names grouped by team and ordered by year.",
+    "query": "select t1.teamname, t1.year from national_team as t1 order by t1.year asc;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me all the national team names grouped by team and ordered by year descending.",
+    "query": "select t1.teamname, t1.year from national_team as t1 order by t1.year desc;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Show me the name of the team, which got third the most. Return the count and the team name.",
+    "query": "select count(t2.teamname), t2.teamname from world_cup as t1  join national_team as t2 on t2.team_id = t1.third group by t2.teamname order by count(t2.teamname) desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Show me which team got fourth the most. Return the count and the team name.",
+    "query": "select count(t2.teamname), t2.teamname from world_cup as t1 join national_team as t2 on  t2.team_id = t1.fourth group by t2.teamname order by count(t2.teamname) desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Show me which team got second place the most. Return the count and the team name.",
+    "query": "select count(t2.teamname), t2.teamname from world_cup as t1 join national_team as t2 on t2.team_id = t1.runner_up group by t2.teamname order by count(t2.teamname) desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Show me which team got first place the most. Return the count and the team name.",
+    "query": "select count(t2.teamname), t2.teamname from world_cup as t1 join national_team as t2 on t2.team_id = t1.winner group by t2.teamname order by count(t2.teamname) desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Show me which national team has scored the most goals. Return the name of the team alongside the total number of goals.",
+    "query": "select sum(t1.goals), t1.teamname from national_team as t1 group by t1.teamname order by sum(t1.goals) desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Show me the names of the top 3 goal scoring teams.",
+    "query": "select t1.teamname from national_team as t1 group by t1.teamname order by sum(t1.goals) desc limit 3;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Show me the team names of the top 5 goal scoring teams without France, Brazil, Germany FR, Italy and Argentina.",
+    "query": "select t1.teamname from national_team as t1 where t1.teamname not like 'France'   and t1.teamname not like 'Brazil'   and t1.teamname not like 'Germany FR'   and t1.teamname not like 'Italy'   and t1.teamname not like 'Argentina' group by t1.teamname order by sum(t1.goals) desc limit 5;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Show me how many goals did Siwtzerland score in world cup history.",
+    "query": "select sum(t1.goals) from national_team as t1 where t1.teamname like 'Switzerland' group by t1.teamname order by sum(t1.goals) desc limit 5;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Give me the goals of all german teams.",
+    "query": "select sum(t1.goals), t1.teamname from national_team as t1 where t1.teamname = \"Germany\";",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Show me the total number of french teams goals.",
+    "query": "select sum(t1.goals)from national_team as t1 where t1.team_initials like '%fra%' group by t1.teamname;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "How many goals have the german teams scored in total?",
+    "query": "select sum(t1.goals), t1.teamname from national_team as t1 where t1.teamname = \"Germany\";",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me the name of the player with the most substitutions in.",
+    "query": "select p.player_name from player as p  join match_fact as mf on mf.player_id = p.player_id where mf.substitution_in = 't' group by p.player_name order by count(mf.substitution_in)         desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me the name of the player with the most missed penalties are true.",
+    "query": "select count(mf.missed_penalty), p.player_name from player as p join match_fact as mf on mf.player_id = p.player_id where mf.missed_penalty = 't' group by p.player_name order by count(mf.missed_penalty) desc;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Give me minute and the player name of all own goals.",
+    "query": "select mf.minute, p.player_name from player as p join match_fact as mf on mf.player_id = p.player_id where mf.own_goal = 't' group by p.player_name, mf.minute;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "How many own goals were there in world cup history.",
+    "query": "select count(mf.own_goal) from player as p join match_fact as mf on mf.player_id = p.player_id where mf.own_goal = 't' group by mf.own_goal;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me the sum of all matches played.",
+    "query": "select sum(t1.matches_played) from world_cup as t1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "How many matches were played in total accross all world cup history?",
+    "query": "select sum(t1.matches_played) from world_cup as t1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me the team names of the first four placed teams across all world cups.",
+    "query": "select t2.teamname, t3.teamname, t4.teamname, t5.teamname from world_cup as t1          join national_team as t2 on t2.team_id = t1.winner          join national_team as t3 on t3.team_id = t1.runner_up          join national_team as t4 on t4.team_id = t1.third          join national_team as t5 on t5.team_id = t1.fourth;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Give me all the venues.",
+    "query": "select t1.venue from world_cup as t1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Show me all the venues.",
+    "query": "select t1.venue from world_cup as t1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me the sum of all attendances and the venues.",
+    "query": "select sum(t1.attendance), t2.venue from match as t1  join world_cup as t2 on t1.year = t2.year group by t2.venue;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Give me the count of all penalties.",
+    "query": "select count(penalty) from match_fact as t1 where penalty = 't' or missed_penalty = 't';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Give me the count of all successful penalties.",
+    "query": "select count(penalty) from match_fact as t1 where penalty = 't';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Give me the count of missed penalties.",
+    "query": "select count(missed_penalty) from match_fact as t1 where missed_penalty = 't';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me all players from Italy.",
+    "query": "select t1.player_name from player as t1 join player_fact as t13 on t1.player_id = t13.player_id join national_team as t2 on t13.team_id = t2.team_id where t2.teamname = 'Italy';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Give mne all players from Argentina\n",
+    "query": "select t1.player_name from player as t1  join player_fact as t13 on t1.player_id = t13.player_id  join national_team as t2 on t13.team_id = t2.team_id where t2.teamname = 'Argentina';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me all matches.",
+    "query": "select t1.match_id from match as t1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me all distinct stages.",
+    "query": "select distinct t1.stage from match as t1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me all matches where stage is final including the teamnames, the goals scored by the home and away team and year.",
+    "query": "select t2.teamname, t3.teamname, t1.home_team_goals, t1.away_team_goals, t3.teamname, t1.year from match as t1     join national_team as t2 on t2.team_id = t1.home_team_id     join national_team as t3 on t3.team_id = t1.away_team_id where t1.stage = 'Final';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me all matches where stage is \"Match for third place\" including the teamnames.",
+    "query": "select t2.teamname, t3.teamname, t1.match_id from match as t1  join national_team as t2 on t2.team_id = t1.home_team_id join national_team as t3 on t3.team_id = t1.away_team_id where t1.stage = 'Match for third place';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me all matches where stage is Semi-finals including the teamnames.",
+    "query": "select t2.teamname, t3.teamname, t1.match_id from match as t1 join national_team as t2 on t2.team_id = t1.home_team_id  join national_team as t3 on t3.team_id = t1.away_team_id where t1.stage = 'Semi-finals';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " give me all matches where stage is Quarter-finals including the teamnames.",
+    "query": "select t2.teamname, t3.teamname, t1.match_id from match as t1  join national_team as t2 on t2.team_id = t1.home_team_id     join national_team as t3 on t3.team_id = t1.away_team_id where t1.stage = 'Quarter-finals';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " give me all matches where stage is Final including the teamnames ordered descending by year\n",
+    "query": "select t2.teamname,  t3.teamname, t1.match_id from match as t1     join national_team as t2 on t2.team_id = t1.home_team_id     join national_team as t3 on t3.team_id = t1.away_team_id where t1.stage = 'Final' order by t1.year desc;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " give me all matches where stage is \"Match for third place\" including the teamnames ordered by year descending\n",
+    "query": "select t2.teamname, t3.teamname, t1.match_id from match as t1     join national_team as t2 on t2.team_id = t1.home_team_id     join national_team as t3 on t3.team_id = t1.away_team_id where t1.stage = 'Match for third place' or t1.stage = 'third place' order by t1.year desc;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me all matches where stage is Semi-finals including the teamnames ordered descending by year.",
+    "query": "select t2.teamname, t3.teamname, t1.match_id from match as t1     join national_team as t2 on t2.team_id = t1.home_team_id     join national_team as t3 on t3.team_id = t1.away_team_id where t1.stage = 'Semi-finals' order by t1.year desc;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me all matches where stage is Quarter-finals including the teamnames ordered descending by year\n",
+    "query": "select t2.teamname,  t3.teamname, t1.match_id from match as t1     join national_team as t2 on t2.team_id = t1.home_team_id     join national_team as t3 on t3.team_id = t1.away_team_id where t1.stage = 'Quarter-finals' order by t1.year desc;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Show me all matches where stage is \"Round of 16\" including the teamname.",
+    "query": "select t2.teamname, t3.teamname, t1.match_id from match as t1     join national_team as t2 on t2.team_id = t1.home_team_id     join national_team as t3 on t3.team_id = t1.away_team_id where t1.stage = 'Round of 16';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " give me all matches where stage is \"Round of 16\" including the teamnames ordered descending by year.",
+    "query": "select t2.teamname, t3.teamname, t1.match_id from match as t1     join national_team as t2 on t2.team_id = t1.home_team_id     join national_team as t3 on t3.team_id = t1.away_team_id where t1.stage = 'Round of 16' order by t1.year desc;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Give me the teamnames, the home goals, the away goals and the year of every match played by Switzerland\n",
+    "query": "select t2.teamname, t1.home_team_goals, t1.away_team_goals, t3.teamname, t1.year from match as t1 join national_team as t2 on t2.team_id = t1.home_team_id  join national_team as t3 on t3.team_id = t1.away_team_id where t2.teamname = 'Switzerland'    or t3.teamname = 'Switzerland';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Show me the teamnames, the goals and the year of every match played by Netherlands\n",
+    "query": "select t2.teamname, t1.home_team_goals, t1.away_team_goals, t3.teamname, t1.year from match as t1 join national_team as t2 on t2.team_id = t1.home_team_id join national_team as t3 on t3.team_id = t1.away_team_id where t2.teamname = 'Netherlands'    or t3.teamname = 'Netherlands';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Can you show me the teamnames, goals and year of every match played by the Argentinian side?",
+    "query": "select t2.teamname, t1.home_team_goals, t1.away_team_goals, t3.teamname, t1.year from match as t1  join national_team as t2 on t2.team_id = t1.home_team_id  join national_team as t3 on t3.team_id = t1.away_team_id where t2.teamname = 'Argentina'    or t3.teamname = 'Argentina';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me all teams names from the world cup 1994.",
+    "query": "select teamname from national_team where year = '1994';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Which team names that played in the world cup 1966?",
+    "query": "select teamname from national_team where year = '1966';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " What team names participated in the world cup 2006?",
+    "query": "select teamname from national_team where year = '2006';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Which distinct players have scored a goal at the world cup? Return the name.",
+    "query": "select distinct t1.player_name from player as t1 join match_fact as t2 on t2.player_id = t1.player_id where goal = 't';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Which distinct players have gotten a red card at the world cup? Return the name.",
+    "query": "select distinct t1.player_name from player as t1 join match_fact as t2 on t2.player_id = t1.player_id where red_card = 't';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Which distinct players have gotten a yellow card at the world cup? Return the name.",
+    "query": "select distinct t1.player_name from player as t1 join match_fact as t2 on t2.player_id = t1.player_id where yellow_card = 't';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": " Which distinct players have gotten a second yellow card at the world cup? Return the name.",
+    "query": "select distinct t1.player_name from player as t1  join match_fact as t2 on t2.player_id = t1.player_id where second_yellow_card = 't';",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "In which year has the French Squad shot the most goals?",
+    "query": "select t1.year from national_team as t1 where t1.teamname = 'France' group by t1.year order by max(goals) desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "What year has the Swiss Team scored the most goals?",
+    "query": "select t1.year from national_team as t1 where t1.teamname = 'Switzerland' group by t1.year order by max(goals) desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  },
+  {
+    "question": "Give me the goals and the year where Germany has scored the most goals.",
+    "query": "select t1.year from national_team as t1 where t1.teamname = 'Germany' group by t1.year order by max(goals) desc limit 1;",
+    "db_id": "world_cup_data_v2"
+  }
+]

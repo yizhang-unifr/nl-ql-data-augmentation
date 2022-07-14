@@ -1,0 +1,28 @@
+SELECT projects.unics_id FROM projects WHERE projects.total_cost = 168863.2 or projects.total_cost = 2212114.0
+
+###
+
+
+Original Query:
+SELECT projects.unics_id FROM projects WHERE projects.total_cost = 168863.2 or projects.total_cost = 2212114.0
+GPT-3 choices:
+(0) What are the unics ID of projects whose total cost is 168863.2 or 2212114.0?
+(1) Show me project that have at least 168863.2 Euro or 2212114.0 Euro of total cost.
+(2) Show all the unics for projects with a total cost of 168863.2
+(3) Show the unics id of all projects that have a total cost equal to 2212114.0 or 168863.2
+(4) Show me all the projects in which the total cost is equal to 168863.2 or is equal to 2212114.0
+(5) Show me all the Unics ids of projects with total cost equal to 168863.2 or 2212114.0
+(6) Show the UNICS of projects with total cost equal to 2212114.0
+(7) What are the unics id of projects whose total cost is 168863.2 or 2122114.0?
+
+
+Re-ranked choices:
+6.014  Show me all the Unics ids of projects with total cost equal to 168863.2 or 2212114.0
+5.974  Show the unics id of all projects that have a total cost equal to 2212114.0 or 168863.2
+5.963  What are the unics ID of projects whose total cost is 168863.2 or 2212114.0?
+5.877  What are the unics id of projects whose total cost is 168863.2 or 2122114.0?
+5.632  Show the UNICS of projects with total cost equal to 2212114.0
+5.583  Show me all the projects in which the total cost is equal to 168863.2 or is equal to 2212114.0
+5.560  Show all the unics for projects with a total cost of 168863.2
+4.913  Show me project that have at least 168863.2 Euro or 2212114.0 Euro of total cost.
+

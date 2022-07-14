@@ -1,0 +1,16 @@
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.acronym != 'DE4A'
+
+###
+
+
+Original Query:
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.acronym != 'DE4A'
+GPT-3 choices:
+(0) Show me the names of people with projects different than DE4A
+(1) Show the full name of all people having a project with acronmy DE4A
+(2) Show me the name of a participant who, regardless of the acronym of the project, is not the principal investigator
+(3) 
+(4) Show the full name of people associated with projects whose acronym is not DE4A
+(5) Show the full name of all people having a project but whose acronym is not DE4A
+(6) Display the full name of people with projects that have an acronym different than DE4A
+(7) Show the full name of all people associated with projects whose acronym is not DE4A

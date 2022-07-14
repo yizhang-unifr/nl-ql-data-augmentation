@@ -1,0 +1,28 @@
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'BE352'
+
+###
+
+
+Original Query:
+SELECT eu_territorial_units.description FROM eu_territorial_units WHERE eu_territorial_units.geocode_regions = 'BE352'
+GPT-3 choices:
+(0) Display the description of the eu territorial units located in BE352.
+(1) What are the territorial unit descriptions within the region BE352?
+(2) Show project descriptions for the Euroregions with a geocode region 'BE352'
+(3) What are the descriptions of the European territorial units located in BE352?
+(4) What are the territorial unit descriptions of eu_territorial_units located in the geocode region BE352 ?
+(5) What are the descriptions of the EU territorial units within the geocode region BE352?
+(6) Retrieve description of territorial units in region BE352
+(7) What are the territorial units descriptions in BE352?
+
+
+Re-ranked choices:
+5.859  What are the territorial unit descriptions of eu_territorial_units located in the geocode region BE352 ?
+5.810  What are the descriptions of the European territorial units located in BE352?
+5.771  What are the descriptions of the EU territorial units within the geocode region BE352?
+5.687  What are the territorial unit descriptions within the region BE352?
+5.623  What are the territorial units descriptions in BE352?
+5.619  Display the description of the eu territorial units located in BE352.
+5.416  Retrieve description of territorial units in region BE352
+4.600  Show project descriptions for the Euroregions with a geocode region 'BE352'
+

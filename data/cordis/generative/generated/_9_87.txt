@@ -1,0 +1,28 @@
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.framework_program != 'FP7'
+
+###
+
+
+Original Query:
+SELECT people.full_name FROM people JOIN projects ON people.unics_id = projects.principal_investigator WHERE projects.framework_program != 'FP7'
+GPT-3 choices:
+(0) What is the full name of all people that have a project with a framework program different from FP7?
+(1) Show all full names of principal investigators with a project not coming from the FP7 framework program.
+(2) Show full names of people with projects in a framework program.
+(3) What is the full name of people with projects outside the FP7 framework program?
+(4) Retrieve all full names of principal investigators in a project where the framework program is not FP7
+(5) What is the name of the principal investigator of projects that are not part of the European Framework Program 7?
+(6) Retrieve the full name of all people associated with a project, having a different framework program than FP7
+(7) Show the full name of institutions that have a project and is not in the framework program FP7
+
+
+Re-ranked choices:
+4.824  Retrieve the full name of all people associated with a project, having a different framework program than FP7
+4.749  Show all full names of principal investigators with a project not coming from the FP7 framework program.
+4.741  What is the full name of people with projects outside the FP7 framework program?
+4.671  What is the full name of all people that have a project with a framework program different from FP7?
+4.618  Retrieve all full names of principal investigators in a project where the framework program is not FP7
+4.550  Show the full name of institutions that have a project and is not in the framework program FP7
+4.356  Show full names of people with projects in a framework program.
+3.974  What is the name of the principal investigator of projects that are not part of the European Framework Program 7?
+

@@ -1,0 +1,16 @@
+SELECT countries.country_name FROM countries WHERE countries.country_code = 'TH'
+
+###
+
+
+Original Query:
+SELECT countries.country_name FROM countries WHERE countries.country_code2 = 'TH'
+GPT-3 choices:
+(0) Which countries have the country code TH?
+(1) Confirm countries showing in the icscubadm2 database
+(2) Show me all the country names of countries whose country code is TH
+(3) Show me all the countries whose country code is t
+(4) Retrieve the country name of all countries with country code TH.
+(5) Display country names of all countries having country code TH.
+(6) What are the countries where the country code is TH?
+(7) Show me the country names of all countries whose country code is TH

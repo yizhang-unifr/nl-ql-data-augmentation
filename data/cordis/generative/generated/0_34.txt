@@ -1,0 +1,16 @@
+SELECT institutions.short_name FROM institutions WHERE institutions.wikidata_url = 'http://www.wikidata.org/wiki/Q30265093'
+
+###
+
+
+Original Query:
+SELECT institutions.short_name FROM institutions WHERE institutions.wikidata_url = 'http://www.wikidata.org/wiki/Q30265093'
+GPT-3 choices:
+(0) Show me the short name of institutions with a wikidata URL equal to http://www.wikidata.org/wiki/Q30265093.
+(1) Show me the short name of institutions with a wikidata urls
+(2) Show me the short names of all institutions having a wikidata url
+(3) Show me institutions whose short name is Q30265093
+(4) ### Retrieve all short names of institutions whose Wikidata URL is http://www.wikidata.org/wiki/Q30265093
+(5) Display the short name of all institutions that have the wikitree Q30265093
+(6) Show me institutions with a wikidata URL from http://www.wikidata.org/wiki/Q30265093
+(7) What are the short names of institutions that have a wikidata URL?

@@ -1,0 +1,16 @@
+SELECT topics.rcn FROM topics JOIN project_topics ON topics.code = project_topics.topic JOIN projects ON project_topics.project = projects.unics_id WHERE projects.ec_call != 'H2020-SMEINST-1-2016-2017'
+
+###
+
+
+Original Query:
+SELECT topics.rcn FROM topics JOIN project_topics ON topics.code = project_topics.topic JOIN projects ON project_topics.project = projects.unics_id WHERE projects.ec_call != 'H2020-SMEINST-1-2016-2017'
+GPT-3 choices:
+(0) Show me all R&D project topics of programs H2020-SMEINST-1-2016-2017###
+(1) Show me projects that are not from the project topic "H2020-SMEINST-1-2016-2017".
+(2) Show all references for topics that are not about projects in H2020 SMEINST-1-2016-2017
+(3) Show topics for projects outside the H2020-SMEINST-1-2016-2017 call.
+(4) Retrieve the RCN of all topics in projects that don't have the project code H2020-SMEINST-1-2016-2017
+(5) Retrieve the topics of projects that are not in the H2020-SMEINST-1-2016-2017 European Commission call
+(6) Retrieve the project topics associated with the project 'H2020-SMEINST-1-2016-2017' for projects.
+(7) Show me all projects that did not get the EC call H2020-SMEINST-1-2016-2017

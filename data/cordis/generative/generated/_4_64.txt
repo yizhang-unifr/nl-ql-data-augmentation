@@ -1,0 +1,28 @@
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.title = 'ERC low value grant'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM funding_schemes WHERE funding_schemes.title = 'ERC low value grant'
+GPT-3 choices:
+(0) Show me how many funding schemes are called ERC low value grant
+(1) Show me the count of all funding schemes entitled ERC low value grant
+(2) How many funding schemes have the title 'ERC low value grant'?
+(3) How many ERC low value grants are there in the EU?
+(4) How many funding schemes from the ERC (low value grant programme) have been awarded?
+(5) These are the number of funded projects in the ERC low value grant scheme
+(6) Total number of ERC low value grants
+(7) How many funding schemes have the title ERC low value grant?
+
+
+Re-ranked choices:
+6.141  How many funding schemes have the title 'ERC low value grant'?
+6.095  Show me how many funding schemes are called ERC low value grant
+6.011  How many funding schemes from the ERC (low value grant programme) have been awarded?
+6.003  How many funding schemes have the title ERC low value grant?
+5.804  These are the number of funded projects in the ERC low value grant scheme
+5.710  Show me the count of all funding schemes entitled ERC low value grant
+5.502  Total number of ERC low value grants
+5.390  How many ERC low value grants are there in the EU?
+

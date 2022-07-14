@@ -1,0 +1,16 @@
+SELECT institutions.geocode_regions_3 FROM institutions WHERE institutions.grid_id != 'grid.32566.34'
+
+###
+
+
+Original Query:
+SELECT institutions.geocode_regions_3 FROM institutions WHERE institutions.grid_id != 'grid.32566.34'
+GPT-3 choices:
+(0) Return the institutions with grid id e3256634
+(1) Excludes institutions with different grid from 'grid.32566.34' from the institutions with geocode regions 3?
+(2) Show me the different regions for all institutions except region 32566.34
+(3) Show all the geographical regions of institutions that don't have the grid 32566.34
+(4) Show me institutions having a region 3 different from "32566"
+(5) Retrieve the geocode region 3 of institutions that do not have the grid ID grid.32566.34
+(6) Show me all the regions in Europe of all institutions that have a grid that is different from 'grid.32566.34'
+(7) How many institutions that have a different grid id than 'grid.32566.34' are there?

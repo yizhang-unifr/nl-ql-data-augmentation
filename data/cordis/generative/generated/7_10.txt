@@ -1,0 +1,16 @@
+SELECT topics.rcn FROM topics WHERE topics.title = 'Biodiversity and ecosystem services: drivers of change and causalities' or topics.title = 'Space Surveillance and Tracking: participation of the EU Satellite Centre in the SST Service Function'
+
+###
+
+
+Original Query:
+SELECT topics.rcn FROM topics WHERE topics.title = 'Biodiversity and ecosystem services: drivers of change and causalities' or topics.title = 'Space Surveillance and Tracking: participation of the EU Satellite Centre in the SST Service Function'
+GPT-3 choices:
+(0) Show me the topics interested in biodiversity and ecosystem services and in space surveillance and tracking.
+(1) Show topics with topics.title being 'Biodiversity and ecosystem services: drivers of change and causalities' or 'Space Surveillance and Tracking: participation of the EU Satellite Centre in the SST Service Function'
+(2) Retrieve all topics with title "Biodiversity and ecosystem services: drivers of change and causalities" or "Space Surveillance and Tracking: participation of the EU Satellite Centre in the SST Service Function"?
+(3) Show me topics that are about Biodiversity and ecosystem services: drivers of change and causalities and Space Surveillance and Tracking: participation of the EU Satellite Centre in the SST Service Function
+(4) Show me topics that have either "Biodiversity and ecosystem services" or "Space Surveillance and Tracking" as title
+(5) Show topics having title equals to "Biodiversity and ecosystem services: drivers of change and causalities" or "Space Surveillance and Tracking: participation of the EU Satellite Centre in the SST Service Function"
+(6) Show topics about Biodiversity and ecosystem services: drivers of change and causalities or Space Surveillance and Tracking: participation of the EU Satellite Centre in the SST Service Function
+(7) Show me the topics with title 'Biodiversity and ecosystem services: drivers of change and causalities' or 'Space Surveillance and Tracking: participation of the EU Satellite Centre in the SST Service Function'

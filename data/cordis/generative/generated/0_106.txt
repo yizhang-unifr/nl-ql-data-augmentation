@@ -1,0 +1,16 @@
+SELECT activity_types.description FROM activity_types WHERE activity_types.code = 'PUB'
+
+###
+
+
+Original Query:
+SELECT activity_types.description FROM activity_types WHERE activity_types.code = 'PUB'
+GPT-3 choices:
+(0) Show me activity types that have exactly the code 'PUB'
+(1) Show all description of activity types associated with the PUB code
+(2) Show me the description for activity type 'PUB'
+(3) Show the description of activity types associated with the PUB code
+(4) What are the activity types of all pubs?
+(5) Show me the descriptions for activity types with code equal to PUB
+(6) Show me description of activity type PUB
+(7) What are the different types of activity that are part of Pub?

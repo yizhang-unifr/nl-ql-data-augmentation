@@ -1,0 +1,16 @@
+SELECT count(*) FROM erc_research_domains WHERE erc_research_domains.description = 'Life Sciences'
+
+###
+
+
+Original Query:
+SELECT count(*) FROM erc_research_domains WHERE erc_research_domains.description = 'Life Sciences'
+GPT-3 choices:
+(0) How many research domains are in the Life Sciences field?
+(1) How many research domains are there in life sciences?
+(2) How many research domains are there in the Life Sciences?
+(3) Show the number of research domains that represent Life Sciences
+(4) Show the number of research domains in the subject area Life Sciences
+(5) What is the total number of research domains in Life Sciences?
+(6) Show the number of research domains for the subject Life Sciences
+(7) How many different research domains inside the category “Life Sciences” are there?

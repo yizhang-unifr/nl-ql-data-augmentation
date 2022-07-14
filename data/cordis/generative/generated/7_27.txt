@@ -1,0 +1,16 @@
+SELECT institutions.institutions_name FROM institutions WHERE institutions.website = 'http://www.ispo.toscana.it/' or institutions.website = 'https://www.dongnocchi.it/'
+
+###
+
+
+Original Query:
+SELECT institutions.institutions_name FROM institutions WHERE institutions.website = 'http://www.ispo.toscana.it/' or institutions.website = 'https://www.dongnocchi.it/'
+GPT-3 choices:
+(0) Which are the institutions having the website www.ispo.toscana.it or https://www.dongnocchi.it?
+(1) Show the name of institutions having either www.ispo.toscana.it or dongnocchi.it as their website
+(2) Show me all the institutions names which either have a website ending with http://www.ispo.toscana.it/ or https://www.dongnocchi.it/
+(3) Show me all institutions names.
+(4) Retrieve the names of institutions with a website different from either http://www.ispo.toscana.it/ or https://www.dongnocchi.it/
+(5) Got it.
+(6) Show me institutions that have either the website http://www.ispo.toscana.it/ or https://www.dongnocchi.it/
+(7) Show me the name of institutions having either their website equal to http://www.ispo.toscana.it/ or equal to https://www.dongnocchi.it/

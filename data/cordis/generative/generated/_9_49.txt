@@ -1,0 +1,28 @@
+SELECT programmes.code FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.ec_fund_scheme != 'MC-IEF'
+
+###
+
+
+Original Query:
+SELECT programmes.code FROM programmes JOIN project_programmes ON programmes.code = project_programmes.programme JOIN projects ON project_programmes.project = projects.unics_id WHERE projects.ec_fund_scheme != 'MC-IEF'
+GPT-3 choices:
+(0) Show the code of the programmes for projects that have an european committee for industrial research funding scheme.
+(1) Show me the code for projects that don't belong to the European Commission funded "MC-IEF" scheme.
+(2) Show me the code of programmes for all projects which aren't funded by the European Commission's IEF fund.
+(3) Show programmes of projects that do not have the European Commission Funding Scheme
+(4) Select programmes of projects that are not in the EC Fund Scheme
+(5) Show me the programme codes for projects whose organisation is not European Commission - Institute for European Affairs
+(6) Return all programmes on projects with an european commission fund scheme different than MC-IEF.
+(7) Show programmes for projects that are not part of the European Commission's IEF Fund.
+
+
+Re-ranked choices:
+5.529  Show me the code of programmes for all projects which aren't funded by the European Commission's IEF fund.
+5.208  Show programmes of projects that do not have the European Commission Funding Scheme
+5.192  Show programmes for projects that are not part of the European Commission's IEF Fund.
+5.089  Show me the code for projects that don't belong to the European Commission funded "MC-IEF" scheme.
+4.898  Show me the programme codes for projects whose organisation is not European Commission - Institute for European Affairs
+4.693  Select programmes of projects that are not in the EC Fund Scheme
+4.688  Show the code of the programmes for projects that have an european committee for industrial research funding scheme.
+4.537  Return all programmes on projects with an european commission fund scheme different than MC-IEF.
+
