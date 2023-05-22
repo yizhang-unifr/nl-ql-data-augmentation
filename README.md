@@ -74,6 +74,105 @@ OPENAI_API_KEY=<api_key_from_openai>
    --db_id <db_id>
    ``` 
 
+## Hyperparameters and hardware specifications in evaluation experiments
+
+### Evaluation on ValueNet
+
+#### Hyperparameters
+
+|Hyperparameter|Selected Values|
+|--|:---:|
+|Pretrained model of encoder|bart-base
+|Seed | 90 |
+|Dropout | 0.3|
+|Optimizer| Adam|
+|Learning rate base| 0.001|
+|Beam size|1|
+|Clip grad |5|
+|Accumulated iterations | 4 |
+|Batch size| 4 |
+|Column attention| affine|
+|Number of epochs| 100|
+|Hidden size| 300|
+|Attention vector size| 300|
+|Learning rate connection| 0.0001|
+|Max grad norm| 1|
+|Column embedding size |300|
+|Column poniter| true|
+|Learning rate of Transformer| 2e-5|
+|Max sequence length| 1024|
+|Scheduler gamma| 0.5|
+|Type embedding size| 128|
+|Action embedding size| 128|
+|Sketch loss weight| 1|
+|Decode max time step| 80|
+|Loss epoch threshold| 70|
+
+#### Hardware specifications
+
+|Hardware specifications|Values|
+|:--|:---:|
+|CPU count|8|
+|GPU count|1|
+|GPU type|nVidia V100|
+|Total running time| ca. 12 days|
+
+### Evaluation on T5-Large
+
+#### Hyperparameters
+
+|Hyperparameter|Selected Values|
+|--|:---:|
+|Pretrained model| T5-Large|
+|Dropout| 0.1| 
+|Learning rate| base 0.0001|
+|Optimizer| Adafactor|
+|Clip grad| 5|
+|Accumulated iterations| 4|
+|Batch size| 4|
+|Gradient Accum.| 135|
+|Max sequence length| 512|
+|No of steps| 6500|
+
+Hardware specifications Values
+
+#### Hardware specifications
+
+|Hardware specifications|Values|
+|:--|:---:|
+|CPU count| 8|
+|GPU count| 1|
+|GPU type| nVidia A100|
+|Total running time| ca. 16 days|
+
+### Evaluation on SmBoP
+
+#### Hyperparameters
+
+|Hyperparameter|Selected Values|
+|--|:---:|
+|Pretrained model| GraPPa-Large|
+|Dropout| 0.1|
+|Learning rate base| 0.000186|
+|Optimizer| Adam|
+|RAT Layers| 8|
+|Beam Size| 30|
+|Batch size| 16|
+|Gradient Accum.| 4|
+|Max sequence length| 512|
+|Max steps| 60000|
+|Early Stopping |5 epochs|
+
+#### Hardware specifications
+
+
+|Hardware specifications|Values|
+|:--|:---:|
+|CPU count| 8|
+|GPU count| 1|
+|GPU type| nVidia T4|
+|Total running time |ca. 26 days|
+
 ## Contributing
 
 ## License
