@@ -78,8 +78,6 @@ OPENAI_API_KEY=<api_key_from_openai>
 
 ### Evaluation on ValueNet
 
-#### Hyperparameters
-
 |Hyperparameter|Selected Values|
 |--|:---:|
 |Pretrained model of encoder|bart-base
@@ -108,8 +106,6 @@ OPENAI_API_KEY=<api_key_from_openai>
 |Decode max time step| 80|
 |Loss epoch threshold| 70|
 
-#### Hardware specifications
-
 |Hardware specifications|Values|
 |:--|:---:|
 |CPU count|8|
@@ -118,8 +114,6 @@ OPENAI_API_KEY=<api_key_from_openai>
 |Total running time| ca. 12 days|
 
 ### Evaluation on T5-Large
-
-#### Hyperparameters
 
 |Hyperparameter|Selected Values|
 |--|:---:|
@@ -134,10 +128,6 @@ OPENAI_API_KEY=<api_key_from_openai>
 |Max sequence length| 512|
 |No of steps| 6500|
 
-Hardware specifications Values
-
-#### Hardware specifications
-
 |Hardware specifications|Values|
 |:--|:---:|
 |CPU count| 8|
@@ -146,8 +136,6 @@ Hardware specifications Values
 |Total running time| ca. 16 days|
 
 ### Evaluation on SmBoP
-
-#### Hyperparameters
 
 |Hyperparameter|Selected Values|
 |--|:---:|
@@ -162,9 +150,6 @@ Hardware specifications Values
 |Max sequence length| 512|
 |Max steps| 60000|
 |Early Stopping |5 epochs|
-
-#### Hardware specifications
-
 
 |Hardware specifications|Values|
 |:--|:---:|
