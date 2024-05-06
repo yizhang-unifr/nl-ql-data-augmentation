@@ -88,24 +88,3 @@ class DatabaseValueSamplerPostgresSQL(DatabaseValueSampler):
         return [o for (o,) in self._execute_query(Query(query_dict))]
 
 
-def test_cordis():
-    # test Database ValueSampler
-    connection_config = {
-        'database_host': 'testbed.inode.igd.fraunhofer.de',
-        'database_port': '18001',
-        'database_user': 'postgres',
-        'database_password': 'vdS83DJSQz2xQ',
-        'database_schema': 'unics_cordis',
-    }
-    query = {
-        'pattern': """SELECT DISTINCT %s FROM %s;""",
-        'params': ("member_role", "project_members")
-    }
-    q1 = Query(query)
-    res = DatabaseValueSamplerPostgresSQL('cordis_temporary', 'data/cordis/original/tables.json', connection_config).values_sampling('member_role', 'project_members')
-    print(res)
-
-if __name__ == '__main__':
-    test_cordis()
-    # pass
-
